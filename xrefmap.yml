@@ -13934,28 +13934,63 @@ references:
   commentId: T:Platform.Examples.CSVExporter
   fullName: Platform.Examples.CSVExporter
   nameWithType: CSVExporter
-- uid: Platform.Examples.CSVExporter.#ctor(SynchronizedLinks{System.UInt64},System.Boolean)
-  name: CSVExporter(SynchronizedLinks<UInt64>, Boolean)
-  href: api/Platform.Examples.CSVExporter.html#Platform_Examples_CSVExporter__ctor_SynchronizedLinks_System_UInt64__System_Boolean_
-  commentId: M:Platform.Examples.CSVExporter.#ctor(SynchronizedLinks{System.UInt64},System.Boolean)
-  name.vb: CSVExporter(SynchronizedLinks(Of UInt64), Boolean)
-  fullName: Platform.Examples.CSVExporter.CSVExporter(SynchronizedLinks<System.UInt64>, System.Boolean)
-  fullName.vb: Platform.Examples.CSVExporter.CSVExporter(SynchronizedLinks(Of System.UInt64), System.Boolean)
-  nameWithType: CSVExporter.CSVExporter(SynchronizedLinks<UInt64>, Boolean)
-  nameWithType.vb: CSVExporter.CSVExporter(SynchronizedLinks(Of UInt64), Boolean)
-- uid: Platform.Examples.CSVExporter.#ctor*
-  name: CSVExporter
-  href: api/Platform.Examples.CSVExporter.html#Platform_Examples_CSVExporter__ctor_
-  commentId: Overload:Platform.Examples.CSVExporter.#ctor
-  isSpec: "True"
-  fullName: Platform.Examples.CSVExporter.CSVExporter
-  nameWithType: CSVExporter.CSVExporter
-- uid: Platform.Examples.CSVExporter.Export(System.String,CancellationToken)
-  name: Export(String, CancellationToken)
-  href: api/Platform.Examples.CSVExporter.html#Platform_Examples_CSVExporter_Export_System_String_CancellationToken_
-  commentId: M:Platform.Examples.CSVExporter.Export(System.String,CancellationToken)
-  fullName: Platform.Examples.CSVExporter.Export(System.String, CancellationToken)
-  nameWithType: CSVExporter.Export(String, CancellationToken)
+- uid: Platform.Examples.CSVExporter._addressToLineNumber
+  name: _addressToLineNumber
+  href: api/Platform.Examples.CSVExporter.html#Platform_Examples_CSVExporter__addressToLineNumber
+  commentId: F:Platform.Examples.CSVExporter._addressToLineNumber
+  fullName: Platform.Examples.CSVExporter._addressToLineNumber
+  nameWithType: CSVExporter._addressToLineNumber
+- uid: Platform.Examples.CSVExporter._convertUnicodeLinksToCharacters
+  name: _convertUnicodeLinksToCharacters
+  href: api/Platform.Examples.CSVExporter.html#Platform_Examples_CSVExporter__convertUnicodeLinksToCharacters
+  commentId: F:Platform.Examples.CSVExporter._convertUnicodeLinksToCharacters
+  fullName: Platform.Examples.CSVExporter._convertUnicodeLinksToCharacters
+  nameWithType: CSVExporter._convertUnicodeLinksToCharacters
+- uid: Platform.Examples.CSVExporter._linesCounter
+  name: _linesCounter
+  href: api/Platform.Examples.CSVExporter.html#Platform_Examples_CSVExporter__linesCounter
+  commentId: F:Platform.Examples.CSVExporter._linesCounter
+  fullName: Platform.Examples.CSVExporter._linesCounter
+  nameWithType: CSVExporter._linesCounter
+- uid: Platform.Examples.CSVExporter._links
+  name: _links
+  href: api/Platform.Examples.CSVExporter.html#Platform_Examples_CSVExporter__links
+  commentId: F:Platform.Examples.CSVExporter._links
+  fullName: Platform.Examples.CSVExporter._links
+  nameWithType: CSVExporter._links
+- uid: Platform.Examples.CSVExporter._linksCounter
+  name: _linksCounter
+  href: api/Platform.Examples.CSVExporter.html#Platform_Examples_CSVExporter__linksCounter
+  commentId: F:Platform.Examples.CSVExporter._linksCounter
+  fullName: Platform.Examples.CSVExporter._linksCounter
+  nameWithType: CSVExporter._linksCounter
+- uid: Platform.Examples.CSVExporter._referenceByLines
+  name: _referenceByLines
+  href: api/Platform.Examples.CSVExporter.html#Platform_Examples_CSVExporter__referenceByLines
+  commentId: F:Platform.Examples.CSVExporter._referenceByLines
+  fullName: Platform.Examples.CSVExporter._referenceByLines
+  nameWithType: CSVExporter._referenceByLines
+- uid: Platform.Examples.CSVExporter._unicodeMapped
+  name: _unicodeMapped
+  href: api/Platform.Examples.CSVExporter.html#Platform_Examples_CSVExporter__unicodeMapped
+  commentId: F:Platform.Examples.CSVExporter._unicodeMapped
+  fullName: Platform.Examples.CSVExporter._unicodeMapped
+  nameWithType: CSVExporter._unicodeMapped
+- uid: Platform.Examples.CSVExporter._visited
+  name: _visited
+  href: api/Platform.Examples.CSVExporter.html#Platform_Examples_CSVExporter__visited
+  commentId: F:Platform.Examples.CSVExporter._visited
+  fullName: Platform.Examples.CSVExporter._visited
+  nameWithType: CSVExporter._visited
+- uid: Platform.Examples.CSVExporter.Export(SynchronizedLinks{System.UInt64},System.String,System.Boolean,System.Boolean,System.Boolean,CancellationToken)
+  name: Export(SynchronizedLinks<UInt64>, String, Boolean, Boolean, Boolean, CancellationToken)
+  href: api/Platform.Examples.CSVExporter.html#Platform_Examples_CSVExporter_Export_SynchronizedLinks_System_UInt64__System_String_System_Boolean_System_Boolean_System_Boolean_CancellationToken_
+  commentId: M:Platform.Examples.CSVExporter.Export(SynchronizedLinks{System.UInt64},System.String,System.Boolean,System.Boolean,System.Boolean,CancellationToken)
+  name.vb: Export(SynchronizedLinks(Of UInt64), String, Boolean, Boolean, Boolean, CancellationToken)
+  fullName: Platform.Examples.CSVExporter.Export(SynchronizedLinks<System.UInt64>, System.String, System.Boolean, System.Boolean, System.Boolean, CancellationToken)
+  fullName.vb: Platform.Examples.CSVExporter.Export(SynchronizedLinks(Of System.UInt64), System.String, System.Boolean, System.Boolean, System.Boolean, CancellationToken)
+  nameWithType: CSVExporter.Export(SynchronizedLinks<UInt64>, String, Boolean, Boolean, Boolean, CancellationToken)
+  nameWithType.vb: CSVExporter.Export(SynchronizedLinks(Of UInt64), String, Boolean, Boolean, Boolean, CancellationToken)
 - uid: Platform.Examples.CSVExporter.Export*
   name: Export
   href: api/Platform.Examples.CSVExporter.html#Platform_Examples_CSVExporter_Export_
@@ -13963,28 +13998,97 @@ references:
   isSpec: "True"
   fullName: Platform.Examples.CSVExporter.Export
   nameWithType: CSVExporter.Export
-- uid: Platform.Examples.CSVExporterCLI
-  name: CSVExporterCLI
-  href: api/Platform.Examples.CSVExporterCLI.html
-  commentId: T:Platform.Examples.CSVExporterCLI
-  fullName: Platform.Examples.CSVExporterCLI
-  nameWithType: CSVExporterCLI
-- uid: Platform.Examples.CSVExporterCLI.Run(System.String[])
-  name: Run(String[])
-  href: api/Platform.Examples.CSVExporterCLI.html#Platform_Examples_CSVExporterCLI_Run_System_String___
-  commentId: M:Platform.Examples.CSVExporterCLI.Run(System.String[])
-  name.vb: Run(String())
-  fullName: Platform.Examples.CSVExporterCLI.Run(System.String[])
-  fullName.vb: Platform.Examples.CSVExporterCLI.Run(System.String())
-  nameWithType: CSVExporterCLI.Run(String[])
-  nameWithType.vb: CSVExporterCLI.Run(String())
-- uid: Platform.Examples.CSVExporterCLI.Run*
-  name: Run
-  href: api/Platform.Examples.CSVExporterCLI.html#Platform_Examples_CSVExporterCLI_Run_
-  commentId: Overload:Platform.Examples.CSVExporterCLI.Run
+- uid: Platform.Examples.CSVExporter.FormatLink(System.UInt64)
+  name: FormatLink(UInt64)
+  href: api/Platform.Examples.CSVExporter.html#Platform_Examples_CSVExporter_FormatLink_System_UInt64_
+  commentId: M:Platform.Examples.CSVExporter.FormatLink(System.UInt64)
+  fullName: Platform.Examples.CSVExporter.FormatLink(System.UInt64)
+  nameWithType: CSVExporter.FormatLink(UInt64)
+- uid: Platform.Examples.CSVExporter.FormatLink*
+  name: FormatLink
+  href: api/Platform.Examples.CSVExporter.html#Platform_Examples_CSVExporter_FormatLink_
+  commentId: Overload:Platform.Examples.CSVExporter.FormatLink
   isSpec: "True"
-  fullName: Platform.Examples.CSVExporterCLI.Run
-  nameWithType: CSVExporterCLI.Run
+  fullName: Platform.Examples.CSVExporter.FormatLink
+  nameWithType: CSVExporter.FormatLink
+- uid: Platform.Examples.CSVExporter.Visit(System.UInt64)
+  name: Visit(UInt64)
+  href: api/Platform.Examples.CSVExporter.html#Platform_Examples_CSVExporter_Visit_System_UInt64_
+  commentId: M:Platform.Examples.CSVExporter.Visit(System.UInt64)
+  fullName: Platform.Examples.CSVExporter.Visit(System.UInt64)
+  nameWithType: CSVExporter.Visit(UInt64)
+- uid: Platform.Examples.CSVExporter.Visit*
+  name: Visit
+  href: api/Platform.Examples.CSVExporter.html#Platform_Examples_CSVExporter_Visit_
+  commentId: Overload:Platform.Examples.CSVExporter.Visit
+  isSpec: "True"
+  fullName: Platform.Examples.CSVExporter.Visit
+  nameWithType: CSVExporter.Visit
+- uid: Platform.Examples.CSVExporter.WriteLink(StreamWriter,IList{System.UInt64})
+  name: WriteLink(StreamWriter, IList<UInt64>)
+  href: api/Platform.Examples.CSVExporter.html#Platform_Examples_CSVExporter_WriteLink_StreamWriter_IList_System_UInt64__
+  commentId: M:Platform.Examples.CSVExporter.WriteLink(StreamWriter,IList{System.UInt64})
+  name.vb: WriteLink(StreamWriter, IList(Of UInt64))
+  fullName: Platform.Examples.CSVExporter.WriteLink(StreamWriter, IList<System.UInt64>)
+  fullName.vb: Platform.Examples.CSVExporter.WriteLink(StreamWriter, IList(Of System.UInt64))
+  nameWithType: CSVExporter.WriteLink(StreamWriter, IList<UInt64>)
+  nameWithType.vb: CSVExporter.WriteLink(StreamWriter, IList(Of UInt64))
+- uid: Platform.Examples.CSVExporter.WriteLink*
+  name: WriteLink
+  href: api/Platform.Examples.CSVExporter.html#Platform_Examples_CSVExporter_WriteLink_
+  commentId: Overload:Platform.Examples.CSVExporter.WriteLink
+  isSpec: "True"
+  fullName: Platform.Examples.CSVExporter.WriteLink
+  nameWithType: CSVExporter.WriteLink
+- uid: Platform.Examples.CSVExporterCLI`1
+  name: CSVExporterCLI<TExporter>
+  href: api/Platform.Examples.CSVExporterCLI-1.html
+  commentId: T:Platform.Examples.CSVExporterCLI`1
+  name.vb: CSVExporterCLI(Of TExporter)
+  fullName: Platform.Examples.CSVExporterCLI<TExporter>
+  fullName.vb: Platform.Examples.CSVExporterCLI(Of TExporter)
+  nameWithType: CSVExporterCLI<TExporter>
+  nameWithType.vb: CSVExporterCLI(Of TExporter)
+- uid: Platform.Examples.CSVExporterCLI`1.Run(System.String[])
+  name: Run(String[])
+  href: api/Platform.Examples.CSVExporterCLI-1.html#Platform_Examples_CSVExporterCLI_1_Run_System_String___
+  commentId: M:Platform.Examples.CSVExporterCLI`1.Run(System.String[])
+  name.vb: Run(String())
+  fullName: Platform.Examples.CSVExporterCLI<TExporter>.Run(System.String[])
+  fullName.vb: Platform.Examples.CSVExporterCLI(Of TExporter).Run(System.String())
+  nameWithType: CSVExporterCLI<TExporter>.Run(String[])
+  nameWithType.vb: CSVExporterCLI(Of TExporter).Run(String())
+- uid: Platform.Examples.CSVExporterCLI`1.Run*
+  name: Run
+  href: api/Platform.Examples.CSVExporterCLI-1.html#Platform_Examples_CSVExporterCLI_1_Run_
+  commentId: Overload:Platform.Examples.CSVExporterCLI`1.Run
+  isSpec: "True"
+  fullName: Platform.Examples.CSVExporterCLI<TExporter>.Run
+  fullName.vb: Platform.Examples.CSVExporterCLI(Of TExporter).Run
+  nameWithType: CSVExporterCLI<TExporter>.Run
+  nameWithType.vb: CSVExporterCLI(Of TExporter).Run
+- uid: Platform.Examples.CSVSequencesExporter
+  name: CSVSequencesExporter
+  href: api/Platform.Examples.CSVSequencesExporter.html
+  commentId: T:Platform.Examples.CSVSequencesExporter
+  fullName: Platform.Examples.CSVSequencesExporter
+  nameWithType: CSVSequencesExporter
+- uid: Platform.Examples.CSVSequencesExporter.WriteLink(StreamWriter,IList{System.UInt64})
+  name: WriteLink(StreamWriter, IList<UInt64>)
+  href: api/Platform.Examples.CSVSequencesExporter.html#Platform_Examples_CSVSequencesExporter_WriteLink_StreamWriter_IList_System_UInt64__
+  commentId: M:Platform.Examples.CSVSequencesExporter.WriteLink(StreamWriter,IList{System.UInt64})
+  name.vb: WriteLink(StreamWriter, IList(Of UInt64))
+  fullName: Platform.Examples.CSVSequencesExporter.WriteLink(StreamWriter, IList<System.UInt64>)
+  fullName.vb: Platform.Examples.CSVSequencesExporter.WriteLink(StreamWriter, IList(Of System.UInt64))
+  nameWithType: CSVSequencesExporter.WriteLink(StreamWriter, IList<UInt64>)
+  nameWithType.vb: CSVSequencesExporter.WriteLink(StreamWriter, IList(Of UInt64))
+- uid: Platform.Examples.CSVSequencesExporter.WriteLink*
+  name: WriteLink
+  href: api/Platform.Examples.CSVSequencesExporter.html#Platform_Examples_CSVSequencesExporter_WriteLink_
+  commentId: Overload:Platform.Examples.CSVSequencesExporter.WriteLink
+  isSpec: "True"
+  fullName: Platform.Examples.CSVSequencesExporter.WriteLink
+  nameWithType: CSVSequencesExporter.WriteLink
 - uid: Platform.Examples.FileIndexer
   name: FileIndexer
   href: api/Platform.Examples.FileIndexer.html

@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class CSVExporter
    | LinksPlatform ">
-    <meta name="generator" content="docfx 2.43.1.0">
+    <meta name="generator" content="docfx 2.43.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -89,6 +89,7 @@
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">CSVExporter</span></div>
+      <div class="level2"><a class="xref" href="Platform.Examples.CSVSequencesExporter.html">CSVSequencesExporter</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -123,17 +124,211 @@
   <h5 id="Platform_Examples_CSVExporter_remarks"><strong>Remarks</strong></h5>
   <div class="markdown level0 remarks"><p><a href="https://tools.ietf.org/html/rfc4180">https://tools.ietf.org/html/rfc4180</a></p>
 </div>
-  <h3 id="constructors">Constructors
+  <h3 id="fields">Fields
   </h3>
   
   
-  <a id="Platform_Examples_CSVExporter__ctor_" data-uid="Platform.Examples.CSVExporter.#ctor*"></a>
-  <h4 id="Platform_Examples_CSVExporter__ctor_SynchronizedLinks_System_UInt64__System_Boolean_" data-uid="Platform.Examples.CSVExporter.#ctor(SynchronizedLinks{System.UInt64},System.Boolean)">CSVExporter(SynchronizedLinks&lt;UInt64&gt;, Boolean)</h4>
+  <h4 id="Platform_Examples_CSVExporter__addressToLineNumber" data-uid="Platform.Examples.CSVExporter._addressToLineNumber">_addressToLineNumber</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CSVExporter(SynchronizedLinks&lt;ulong&gt; links, bool unicodeMapped = false)</code></pre>
+    <pre><code class="lang-csharp hljs">protected Dictionary&lt;ulong, ulong&gt; _addressToLineNumber</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Dictionary</span>&lt;<span class="xref">System.UInt64</span>, <span class="xref">System.UInt64</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Platform_Examples_CSVExporter__convertUnicodeLinksToCharacters" data-uid="Platform.Examples.CSVExporter._convertUnicodeLinksToCharacters">_convertUnicodeLinksToCharacters</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool _convertUnicodeLinksToCharacters</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Platform_Examples_CSVExporter__linesCounter" data-uid="Platform.Examples.CSVExporter._linesCounter">_linesCounter</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ulong _linesCounter</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Platform_Examples_CSVExporter__links" data-uid="Platform.Examples.CSVExporter._links">_links</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SynchronizedLinks&lt;ulong&gt; _links</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SynchronizedLinks</span>&lt;<span class="xref">System.UInt64</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Platform_Examples_CSVExporter__linksCounter" data-uid="Platform.Examples.CSVExporter._linksCounter">_linksCounter</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ulong _linksCounter</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Platform_Examples_CSVExporter__referenceByLines" data-uid="Platform.Examples.CSVExporter._referenceByLines">_referenceByLines</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool _referenceByLines</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Platform_Examples_CSVExporter__unicodeMapped" data-uid="Platform.Examples.CSVExporter._unicodeMapped">_unicodeMapped</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool _unicodeMapped</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Platform_Examples_CSVExporter__visited" data-uid="Platform.Examples.CSVExporter._visited">_visited</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected HashSet&lt;ulong&gt; _visited</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">HashSet</span>&lt;<span class="xref">System.UInt64</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Platform_Examples_CSVExporter_Export_" data-uid="Platform.Examples.CSVExporter.Export*"></a>
+  <h4 id="Platform_Examples_CSVExporter_Export_SynchronizedLinks_System_UInt64__System_String_System_Boolean_System_Boolean_System_Boolean_CancellationToken_" data-uid="Platform.Examples.CSVExporter.Export(SynchronizedLinks{System.UInt64},System.String,System.Boolean,System.Boolean,System.Boolean,CancellationToken)">Export(SynchronizedLinks&lt;UInt64&gt;, String, Boolean, Boolean, Boolean, CancellationToken)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Export(SynchronizedLinks&lt;ulong&gt; links, string path, bool unicodeMapped, bool convertUnicodeLinksToCharacters, bool referenceByLines, CancellationToken cancellationToken)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -151,23 +346,41 @@
         <td></td>
       </tr>
       <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td></td>
+      </tr>
+      <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">unicodeMapped</span></td>
         <td></td>
       </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">convertUnicodeLinksToCharacters</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">referenceByLines</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-  </h3>
   
   
-  <a id="Platform_Examples_CSVExporter_Export_" data-uid="Platform.Examples.CSVExporter.Export*"></a>
-  <h4 id="Platform_Examples_CSVExporter_Export_System_String_CancellationToken_" data-uid="Platform.Examples.CSVExporter.Export(System.String,CancellationToken)">Export(String, CancellationToken)</h4>
+  <a id="Platform_Examples_CSVExporter_FormatLink_" data-uid="Platform.Examples.CSVExporter.FormatLink*"></a>
+  <h4 id="Platform_Examples_CSVExporter_FormatLink_System_UInt64_" data-uid="Platform.Examples.CSVExporter.FormatLink(System.UInt64)">FormatLink(UInt64)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Export(string path, CancellationToken cancellationToken)</code></pre>
+    <pre><code class="lang-csharp hljs">protected string FormatLink(ulong link)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -180,13 +393,97 @@
     </thead>
     <tbody>
       <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">link</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">path</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Platform_Examples_CSVExporter_Visit_" data-uid="Platform.Examples.CSVExporter.Visit*"></a>
+  <h4 id="Platform_Examples_CSVExporter_Visit_System_UInt64_" data-uid="Platform.Examples.CSVExporter.Visit(System.UInt64)">Visit(UInt64)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool Visit(ulong linkIndex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">linkIndex</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Platform_Examples_CSVExporter_WriteLink_" data-uid="Platform.Examples.CSVExporter.WriteLink*"></a>
+  <h4 id="Platform_Examples_CSVExporter_WriteLink_StreamWriter_IList_System_UInt64__" data-uid="Platform.Examples.CSVExporter.WriteLink(StreamWriter,IList{System.UInt64})">WriteLink(StreamWriter, IList&lt;UInt64&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void WriteLink(StreamWriter writer, IList&lt;ulong&gt; link)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">StreamWriter</span></td>
+        <td><span class="parametername">writer</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">CancellationToken</span></td>
-        <td><span class="parametername">cancellationToken</span></td>
+        <td><span class="xref">IList</span>&lt;<span class="xref">System.UInt64</span>&gt;</td>
+        <td><span class="parametername">link</span></td>
         <td></td>
       </tr>
     </tbody>

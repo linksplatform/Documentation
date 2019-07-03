@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class TaskExtensions
+    <title>Class CSVSequencesExporter
    | LinksPlatform </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class TaskExtensions
+    <meta name="title" content="Class CSVSequencesExporter
    | LinksPlatform ">
     <meta name="generator" content="docfx 2.43.2.0">
     
@@ -78,20 +78,54 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Platform.Helpers.Threading.TaskExtensions">
+            <article class="content wrap" id="_content" data-uid="Platform.Examples.CSVSequencesExporter">
   
   
-  <h1 id="Platform_Helpers_Threading_TaskExtensions" data-uid="Platform.Helpers.Threading.TaskExtensions" class="text-break">Class TaskExtensions
+  <h1 id="Platform_Examples_CSVSequencesExporter" data-uid="Platform.Examples.CSVSequencesExporter" class="text-break">Class CSVSequencesExporter
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">TaskExtensions</span></div>
+    <div class="level1"><a class="xref" href="Platform.Examples.CSVExporter.html">CSVExporter</a></div>
+    <div class="level2"><span class="xref">CSVSequencesExporter</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Platform.Examples.CSVExporter.html#Platform_Examples_CSVExporter__links">CSVExporter._links</a>
+    </div>
+    <div>
+      <a class="xref" href="Platform.Examples.CSVExporter.html#Platform_Examples_CSVExporter__unicodeMapped">CSVExporter._unicodeMapped</a>
+    </div>
+    <div>
+      <a class="xref" href="Platform.Examples.CSVExporter.html#Platform_Examples_CSVExporter__convertUnicodeLinksToCharacters">CSVExporter._convertUnicodeLinksToCharacters</a>
+    </div>
+    <div>
+      <a class="xref" href="Platform.Examples.CSVExporter.html#Platform_Examples_CSVExporter__referenceByLines">CSVExporter._referenceByLines</a>
+    </div>
+    <div>
+      <a class="xref" href="Platform.Examples.CSVExporter.html#Platform_Examples_CSVExporter__visited">CSVExporter._visited</a>
+    </div>
+    <div>
+      <a class="xref" href="Platform.Examples.CSVExporter.html#Platform_Examples_CSVExporter__addressToLineNumber">CSVExporter._addressToLineNumber</a>
+    </div>
+    <div>
+      <a class="xref" href="Platform.Examples.CSVExporter.html#Platform_Examples_CSVExporter__linksCounter">CSVExporter._linksCounter</a>
+    </div>
+    <div>
+      <a class="xref" href="Platform.Examples.CSVExporter.html#Platform_Examples_CSVExporter__linesCounter">CSVExporter._linesCounter</a>
+    </div>
+    <div>
+      <a class="xref" href="Platform.Examples.CSVExporter.html#Platform_Examples_CSVExporter_Export_SynchronizedLinks_System_UInt64__System_String_System_Boolean_System_Boolean_System_Boolean_CancellationToken_">CSVExporter.Export(SynchronizedLinks&lt;UInt64&gt;, String, Boolean, Boolean, Boolean, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Platform.Examples.CSVExporter.html#Platform_Examples_CSVExporter_Visit_System_UInt64_">CSVExporter.Visit(UInt64)</a>
+    </div>
+    <div>
+      <a class="xref" href="Platform.Examples.CSVExporter.html#Platform_Examples_CSVExporter_FormatLink_System_UInt64_">CSVExporter.FormatLink(UInt64)</a>
+    </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
@@ -114,23 +148,23 @@
       <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Platform.Helpers.Threading.html">Platform.Helpers.Threading</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Platform.Examples.html">Platform.Examples</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Platform_Helpers_Threading_TaskExtensions_syntax">Syntax</h5>
+  <h5 id="Platform_Examples_CSVSequencesExporter_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class TaskExtensions</code></pre>
+    <pre><code class="lang-csharp hljs">public class CSVSequencesExporter : CSVExporter</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Platform_Helpers_Threading_TaskExtensions_AwaitResult_" data-uid="Platform.Helpers.Threading.TaskExtensions.AwaitResult*"></a>
-  <h4 id="Platform_Helpers_Threading_TaskExtensions_AwaitResult__1_Task___0__" data-uid="Platform.Helpers.Threading.TaskExtensions.AwaitResult``1(Task{``0})">AwaitResult&lt;T&gt;(Task&lt;T&gt;)</h4>
+  <a id="Platform_Examples_CSVSequencesExporter_WriteLink_" data-uid="Platform.Examples.CSVSequencesExporter.WriteLink*"></a>
+  <h4 id="Platform_Examples_CSVSequencesExporter_WriteLink_StreamWriter_IList_System_UInt64__" data-uid="Platform.Examples.CSVSequencesExporter.WriteLink(StreamWriter,IList{System.UInt64})">WriteLink(StreamWriter, IList&lt;UInt64&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T AwaitResult&lt;T&gt;(this Task&lt;T&gt; task)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void WriteLink(StreamWriter writer, IList&lt;ulong&gt; link)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -143,42 +177,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Task</span>&lt;T&gt;</td>
-        <td><span class="parametername">task</span></td>
+        <td><span class="xref">StreamWriter</span></td>
+        <td><span class="parametername">writer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">IList</span>&lt;<span class="xref">System.UInt64</span>&gt;</td>
+        <td><span class="parametername">link</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Platform.Examples.CSVExporter.html#Platform_Examples_CSVExporter_WriteLink_StreamWriter_IList_System_UInt64__">CSVExporter.WriteLink(StreamWriter, IList&lt;UInt64&gt;)</a></div>
 </article>
           </div>
           
