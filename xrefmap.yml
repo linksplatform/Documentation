@@ -22214,6 +22214,23 @@ references:
   fullName.vb: Platform.Memory.DirectMemoryAsArrayMemoryAdapter(Of TElement).Item
   nameWithType: DirectMemoryAsArrayMemoryAdapter<TElement>.Item
   nameWithType.vb: DirectMemoryAsArrayMemoryAdapter(Of TElement).Item
+- uid: Platform.Memory.DirectMemoryAsArrayMemoryAdapter`1.ObjectName
+  name: ObjectName
+  href: api/Platform.Memory.DirectMemoryAsArrayMemoryAdapter-1.html#Platform_Memory_DirectMemoryAsArrayMemoryAdapter_1_ObjectName
+  commentId: P:Platform.Memory.DirectMemoryAsArrayMemoryAdapter`1.ObjectName
+  fullName: Platform.Memory.DirectMemoryAsArrayMemoryAdapter<TElement>.ObjectName
+  fullName.vb: Platform.Memory.DirectMemoryAsArrayMemoryAdapter(Of TElement).ObjectName
+  nameWithType: DirectMemoryAsArrayMemoryAdapter<TElement>.ObjectName
+  nameWithType.vb: DirectMemoryAsArrayMemoryAdapter(Of TElement).ObjectName
+- uid: Platform.Memory.DirectMemoryAsArrayMemoryAdapter`1.ObjectName*
+  name: ObjectName
+  href: api/Platform.Memory.DirectMemoryAsArrayMemoryAdapter-1.html#Platform_Memory_DirectMemoryAsArrayMemoryAdapter_1_ObjectName_
+  commentId: Overload:Platform.Memory.DirectMemoryAsArrayMemoryAdapter`1.ObjectName
+  isSpec: "True"
+  fullName: Platform.Memory.DirectMemoryAsArrayMemoryAdapter<TElement>.ObjectName
+  fullName.vb: Platform.Memory.DirectMemoryAsArrayMemoryAdapter(Of TElement).ObjectName
+  nameWithType: DirectMemoryAsArrayMemoryAdapter<TElement>.ObjectName
+  nameWithType.vb: DirectMemoryAsArrayMemoryAdapter(Of TElement).ObjectName
 - uid: Platform.Memory.DirectMemoryAsArrayMemoryAdapter`1.Pointer
   name: Pointer
   href: api/Platform.Memory.DirectMemoryAsArrayMemoryAdapter-1.html#Platform_Memory_DirectMemoryAsArrayMemoryAdapter_1_Pointer
@@ -22736,6 +22753,19 @@ references:
   isSpec: "True"
   fullName: Platform.Memory.TemporaryFileMappedResizableDirectMemory.DisposeCore
   nameWithType: TemporaryFileMappedResizableDirectMemory.DisposeCore
+- uid: Platform.Memory.TemporaryFileMappedResizableDirectMemory.ObjectName
+  name: ObjectName
+  href: api/Platform.Memory.TemporaryFileMappedResizableDirectMemory.html#Platform_Memory_TemporaryFileMappedResizableDirectMemory_ObjectName
+  commentId: P:Platform.Memory.TemporaryFileMappedResizableDirectMemory.ObjectName
+  fullName: Platform.Memory.TemporaryFileMappedResizableDirectMemory.ObjectName
+  nameWithType: TemporaryFileMappedResizableDirectMemory.ObjectName
+- uid: Platform.Memory.TemporaryFileMappedResizableDirectMemory.ObjectName*
+  name: ObjectName
+  href: api/Platform.Memory.TemporaryFileMappedResizableDirectMemory.html#Platform_Memory_TemporaryFileMappedResizableDirectMemory_ObjectName_
+  commentId: Overload:Platform.Memory.TemporaryFileMappedResizableDirectMemory.ObjectName
+  isSpec: "True"
+  fullName: Platform.Memory.TemporaryFileMappedResizableDirectMemory.ObjectName
+  nameWithType: TemporaryFileMappedResizableDirectMemory.ObjectName
 - uid: Platform.Sandbox
   name: Platform.Sandbox
   href: api/Platform.Sandbox.html
