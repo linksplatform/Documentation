@@ -21969,31 +21969,31 @@ references:
   fullName.vb: Platform.Helpers.Unsafe.IntPtrExtensions.SetValue(Of TElement)(IntPtr, TElement)
   nameWithType: IntPtrExtensions.SetValue<TElement>(IntPtr, TElement)
   nameWithType.vb: IntPtrExtensions.SetValue(Of TElement)(IntPtr, TElement)
-- uid: Platform.Helpers.Unsafe.IntPtrExtensions`1
-  name: IntPtrExtensions<T>
-  href: api/Platform.Helpers.Unsafe.IntPtrExtensions-1.html
-  commentId: T:Platform.Helpers.Unsafe.IntPtrExtensions`1
-  name.vb: IntPtrExtensions(Of T)
-  fullName: Platform.Helpers.Unsafe.IntPtrExtensions<T>
-  fullName.vb: Platform.Helpers.Unsafe.IntPtrExtensions(Of T)
-  nameWithType: IntPtrExtensions<T>
-  nameWithType.vb: IntPtrExtensions(Of T)
-- uid: Platform.Helpers.Unsafe.IntPtrExtensions`1.CompiledGetValue
-  name: CompiledGetValue
-  href: api/Platform.Helpers.Unsafe.IntPtrExtensions-1.html#Platform_Helpers_Unsafe_IntPtrExtensions_1_CompiledGetValue
-  commentId: F:Platform.Helpers.Unsafe.IntPtrExtensions`1.CompiledGetValue
-  fullName: Platform.Helpers.Unsafe.IntPtrExtensions<T>.CompiledGetValue
-  fullName.vb: Platform.Helpers.Unsafe.IntPtrExtensions(Of T).CompiledGetValue
-  nameWithType: IntPtrExtensions<T>.CompiledGetValue
-  nameWithType.vb: IntPtrExtensions(Of T).CompiledGetValue
-- uid: Platform.Helpers.Unsafe.IntPtrExtensions`1.CompiledSetValue
-  name: CompiledSetValue
-  href: api/Platform.Helpers.Unsafe.IntPtrExtensions-1.html#Platform_Helpers_Unsafe_IntPtrExtensions_1_CompiledSetValue
-  commentId: F:Platform.Helpers.Unsafe.IntPtrExtensions`1.CompiledSetValue
-  fullName: Platform.Helpers.Unsafe.IntPtrExtensions<T>.CompiledSetValue
-  fullName.vb: Platform.Helpers.Unsafe.IntPtrExtensions(Of T).CompiledSetValue
-  nameWithType: IntPtrExtensions<T>.CompiledSetValue
-  nameWithType.vb: IntPtrExtensions(Of T).CompiledSetValue
+- uid: Platform.Helpers.Unsafe.IntPtrHelpers`1
+  name: IntPtrHelpers<T>
+  href: api/Platform.Helpers.Unsafe.IntPtrHelpers-1.html
+  commentId: T:Platform.Helpers.Unsafe.IntPtrHelpers`1
+  name.vb: IntPtrHelpers(Of T)
+  fullName: Platform.Helpers.Unsafe.IntPtrHelpers<T>
+  fullName.vb: Platform.Helpers.Unsafe.IntPtrHelpers(Of T)
+  nameWithType: IntPtrHelpers<T>
+  nameWithType.vb: IntPtrHelpers(Of T)
+- uid: Platform.Helpers.Unsafe.IntPtrHelpers`1.GetValue
+  name: GetValue
+  href: api/Platform.Helpers.Unsafe.IntPtrHelpers-1.html#Platform_Helpers_Unsafe_IntPtrHelpers_1_GetValue
+  commentId: F:Platform.Helpers.Unsafe.IntPtrHelpers`1.GetValue
+  fullName: Platform.Helpers.Unsafe.IntPtrHelpers<T>.GetValue
+  fullName.vb: Platform.Helpers.Unsafe.IntPtrHelpers(Of T).GetValue
+  nameWithType: IntPtrHelpers<T>.GetValue
+  nameWithType.vb: IntPtrHelpers(Of T).GetValue
+- uid: Platform.Helpers.Unsafe.IntPtrHelpers`1.SetValue
+  name: SetValue
+  href: api/Platform.Helpers.Unsafe.IntPtrHelpers-1.html#Platform_Helpers_Unsafe_IntPtrHelpers_1_SetValue
+  commentId: F:Platform.Helpers.Unsafe.IntPtrHelpers`1.SetValue
+  fullName: Platform.Helpers.Unsafe.IntPtrHelpers<T>.SetValue
+  fullName.vb: Platform.Helpers.Unsafe.IntPtrHelpers(Of T).SetValue
+  nameWithType: IntPtrHelpers<T>.SetValue
+  nameWithType.vb: IntPtrHelpers(Of T).SetValue
 - uid: Platform.Helpers.Unsafe.MemoryHelpers
   name: MemoryHelpers
   href: api/Platform.Helpers.Unsafe.MemoryHelpers.html
