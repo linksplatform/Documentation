@@ -18183,97 +18183,6 @@ references:
   fullName.vb: Platform.Helpers.Integer(Of T).Zero
   nameWithType: Integer<T>.Zero
   nameWithType.vb: Integer(Of T).Zero
-- uid: Platform.Helpers.IntPtrExtensions
-  name: IntPtrExtensions
-  href: api/Platform.Helpers.IntPtrExtensions.html
-  commentId: T:Platform.Helpers.IntPtrExtensions
-  fullName: Platform.Helpers.IntPtrExtensions
-  nameWithType: IntPtrExtensions
-- uid: Platform.Helpers.IntPtrExtensions.GetElement(IntPtr,System.Int32,System.Int32)
-  name: GetElement(IntPtr, Int32, Int32)
-  href: api/Platform.Helpers.IntPtrExtensions.html#Platform_Helpers_IntPtrExtensions_GetElement_IntPtr_System_Int32_System_Int32_
-  commentId: M:Platform.Helpers.IntPtrExtensions.GetElement(IntPtr,System.Int32,System.Int32)
-  fullName: Platform.Helpers.IntPtrExtensions.GetElement(IntPtr, System.Int32, System.Int32)
-  nameWithType: IntPtrExtensions.GetElement(IntPtr, Int32, Int32)
-- uid: Platform.Helpers.IntPtrExtensions.GetElement(IntPtr,System.Int64,System.Int64)
-  name: GetElement(IntPtr, Int64, Int64)
-  href: api/Platform.Helpers.IntPtrExtensions.html#Platform_Helpers_IntPtrExtensions_GetElement_IntPtr_System_Int64_System_Int64_
-  commentId: M:Platform.Helpers.IntPtrExtensions.GetElement(IntPtr,System.Int64,System.Int64)
-  fullName: Platform.Helpers.IntPtrExtensions.GetElement(IntPtr, System.Int64, System.Int64)
-  nameWithType: IntPtrExtensions.GetElement(IntPtr, Int64, Int64)
-- uid: Platform.Helpers.IntPtrExtensions.GetElement*
-  name: GetElement
-  href: api/Platform.Helpers.IntPtrExtensions.html#Platform_Helpers_IntPtrExtensions_GetElement_
-  commentId: Overload:Platform.Helpers.IntPtrExtensions.GetElement
-  isSpec: "True"
-  fullName: Platform.Helpers.IntPtrExtensions.GetElement
-  nameWithType: IntPtrExtensions.GetElement
-- uid: Platform.Helpers.IntPtrExtensions.GetElement``1(IntPtr,System.Int32,``0)
-  name: GetElement<TIndex>(IntPtr, Int32, TIndex)
-  href: api/Platform.Helpers.IntPtrExtensions.html#Platform_Helpers_IntPtrExtensions_GetElement__1_IntPtr_System_Int32___0_
-  commentId: M:Platform.Helpers.IntPtrExtensions.GetElement``1(IntPtr,System.Int32,``0)
-  name.vb: GetElement(Of TIndex)(IntPtr, Int32, TIndex)
-  fullName: Platform.Helpers.IntPtrExtensions.GetElement<TIndex>(IntPtr, System.Int32, TIndex)
-  fullName.vb: Platform.Helpers.IntPtrExtensions.GetElement(Of TIndex)(IntPtr, System.Int32, TIndex)
-  nameWithType: IntPtrExtensions.GetElement<TIndex>(IntPtr, Int32, TIndex)
-  nameWithType.vb: IntPtrExtensions.GetElement(Of TIndex)(IntPtr, Int32, TIndex)
-- uid: Platform.Helpers.IntPtrExtensions.GetValue*
-  name: GetValue
-  href: api/Platform.Helpers.IntPtrExtensions.html#Platform_Helpers_IntPtrExtensions_GetValue_
-  commentId: Overload:Platform.Helpers.IntPtrExtensions.GetValue
-  isSpec: "True"
-  fullName: Platform.Helpers.IntPtrExtensions.GetValue
-  nameWithType: IntPtrExtensions.GetValue
-- uid: Platform.Helpers.IntPtrExtensions.GetValue``1(IntPtr)
-  name: GetValue<TElement>(IntPtr)
-  href: api/Platform.Helpers.IntPtrExtensions.html#Platform_Helpers_IntPtrExtensions_GetValue__1_IntPtr_
-  commentId: M:Platform.Helpers.IntPtrExtensions.GetValue``1(IntPtr)
-  name.vb: GetValue(Of TElement)(IntPtr)
-  fullName: Platform.Helpers.IntPtrExtensions.GetValue<TElement>(IntPtr)
-  fullName.vb: Platform.Helpers.IntPtrExtensions.GetValue(Of TElement)(IntPtr)
-  nameWithType: IntPtrExtensions.GetValue<TElement>(IntPtr)
-  nameWithType.vb: IntPtrExtensions.GetValue(Of TElement)(IntPtr)
-- uid: Platform.Helpers.IntPtrExtensions.SetValue*
-  name: SetValue
-  href: api/Platform.Helpers.IntPtrExtensions.html#Platform_Helpers_IntPtrExtensions_SetValue_
-  commentId: Overload:Platform.Helpers.IntPtrExtensions.SetValue
-  isSpec: "True"
-  fullName: Platform.Helpers.IntPtrExtensions.SetValue
-  nameWithType: IntPtrExtensions.SetValue
-- uid: Platform.Helpers.IntPtrExtensions.SetValue``1(IntPtr,``0)
-  name: SetValue<TElement>(IntPtr, TElement)
-  href: api/Platform.Helpers.IntPtrExtensions.html#Platform_Helpers_IntPtrExtensions_SetValue__1_IntPtr___0_
-  commentId: M:Platform.Helpers.IntPtrExtensions.SetValue``1(IntPtr,``0)
-  name.vb: SetValue(Of TElement)(IntPtr, TElement)
-  fullName: Platform.Helpers.IntPtrExtensions.SetValue<TElement>(IntPtr, TElement)
-  fullName.vb: Platform.Helpers.IntPtrExtensions.SetValue(Of TElement)(IntPtr, TElement)
-  nameWithType: IntPtrExtensions.SetValue<TElement>(IntPtr, TElement)
-  nameWithType.vb: IntPtrExtensions.SetValue(Of TElement)(IntPtr, TElement)
-- uid: Platform.Helpers.IntPtrExtensions`1
-  name: IntPtrExtensions<T>
-  href: api/Platform.Helpers.IntPtrExtensions-1.html
-  commentId: T:Platform.Helpers.IntPtrExtensions`1
-  name.vb: IntPtrExtensions(Of T)
-  fullName: Platform.Helpers.IntPtrExtensions<T>
-  fullName.vb: Platform.Helpers.IntPtrExtensions(Of T)
-  nameWithType: IntPtrExtensions<T>
-  nameWithType.vb: IntPtrExtensions(Of T)
-- uid: Platform.Helpers.IntPtrExtensions`1.CompiledGetValue
-  name: CompiledGetValue
-  href: api/Platform.Helpers.IntPtrExtensions-1.html#Platform_Helpers_IntPtrExtensions_1_CompiledGetValue
-  commentId: F:Platform.Helpers.IntPtrExtensions`1.CompiledGetValue
-  fullName: Platform.Helpers.IntPtrExtensions<T>.CompiledGetValue
-  fullName.vb: Platform.Helpers.IntPtrExtensions(Of T).CompiledGetValue
-  nameWithType: IntPtrExtensions<T>.CompiledGetValue
-  nameWithType.vb: IntPtrExtensions(Of T).CompiledGetValue
-- uid: Platform.Helpers.IntPtrExtensions`1.CompiledSetValue
-  name: CompiledSetValue
-  href: api/Platform.Helpers.IntPtrExtensions-1.html#Platform_Helpers_IntPtrExtensions_1_CompiledSetValue
-  commentId: F:Platform.Helpers.IntPtrExtensions`1.CompiledSetValue
-  fullName: Platform.Helpers.IntPtrExtensions<T>.CompiledSetValue
-  fullName.vb: Platform.Helpers.IntPtrExtensions(Of T).CompiledSetValue
-  nameWithType: IntPtrExtensions<T>.CompiledSetValue
-  nameWithType.vb: IntPtrExtensions(Of T).CompiledSetValue
 - uid: Platform.Helpers.IO
   name: Platform.Helpers.IO
   href: api/Platform.Helpers.IO.html
@@ -19104,25 +19013,6 @@ references:
   fullName.vb: Platform.Helpers.MathHelpers(Of T).Subtract
   nameWithType: MathHelpers<T>.Subtract
   nameWithType.vb: MathHelpers(Of T).Subtract
-- uid: Platform.Helpers.MemoryHelpers
-  name: MemoryHelpers
-  href: api/Platform.Helpers.MemoryHelpers.html
-  commentId: T:Platform.Helpers.MemoryHelpers
-  fullName: Platform.Helpers.MemoryHelpers
-  nameWithType: MemoryHelpers
-- uid: Platform.Helpers.MemoryHelpers.ZeroMemory(System.Void*,System.Int64)
-  name: ZeroMemory(Void*, Int64)
-  href: api/Platform.Helpers.MemoryHelpers.html#Platform_Helpers_MemoryHelpers_ZeroMemory_System_Void__System_Int64_
-  commentId: M:Platform.Helpers.MemoryHelpers.ZeroMemory(System.Void*,System.Int64)
-  fullName: Platform.Helpers.MemoryHelpers.ZeroMemory(System.Void*, System.Int64)
-  nameWithType: MemoryHelpers.ZeroMemory(Void*, Int64)
-- uid: Platform.Helpers.MemoryHelpers.ZeroMemory*
-  name: ZeroMemory
-  href: api/Platform.Helpers.MemoryHelpers.html#Platform_Helpers_MemoryHelpers_ZeroMemory_
-  commentId: Overload:Platform.Helpers.MemoryHelpers.ZeroMemory
-  isSpec: "True"
-  fullName: Platform.Helpers.MemoryHelpers.ZeroMemory
-  nameWithType: MemoryHelpers.ZeroMemory
 - uid: Platform.Helpers.Node
   name: Node
   href: api/Platform.Helpers.Node.html
@@ -22007,26 +21897,142 @@ references:
   isSpec: "True"
   fullName: Platform.Helpers.UniqueTimestampFactory.Create
   nameWithType: UniqueTimestampFactory.Create
-- uid: Platform.Helpers.UnsafeHelpers
-  name: UnsafeHelpers
-  href: api/Platform.Helpers.UnsafeHelpers.html
-  commentId: T:Platform.Helpers.UnsafeHelpers
-  fullName: Platform.Helpers.UnsafeHelpers
-  nameWithType: UnsafeHelpers
-- uid: Platform.Helpers.UnsafeHelpers.SizeOf*
-  name: SizeOf
-  href: api/Platform.Helpers.UnsafeHelpers.html#Platform_Helpers_UnsafeHelpers_SizeOf_
-  commentId: Overload:Platform.Helpers.UnsafeHelpers.SizeOf
+- uid: Platform.Helpers.Unsafe
+  name: Platform.Helpers.Unsafe
+  href: api/Platform.Helpers.Unsafe.html
+  commentId: N:Platform.Helpers.Unsafe
+  fullName: Platform.Helpers.Unsafe
+  nameWithType: Platform.Helpers.Unsafe
+- uid: Platform.Helpers.Unsafe.IntPtrExtensions
+  name: IntPtrExtensions
+  href: api/Platform.Helpers.Unsafe.IntPtrExtensions.html
+  commentId: T:Platform.Helpers.Unsafe.IntPtrExtensions
+  fullName: Platform.Helpers.Unsafe.IntPtrExtensions
+  nameWithType: IntPtrExtensions
+- uid: Platform.Helpers.Unsafe.IntPtrExtensions.GetElement(IntPtr,System.Int32,System.Int32)
+  name: GetElement(IntPtr, Int32, Int32)
+  href: api/Platform.Helpers.Unsafe.IntPtrExtensions.html#Platform_Helpers_Unsafe_IntPtrExtensions_GetElement_IntPtr_System_Int32_System_Int32_
+  commentId: M:Platform.Helpers.Unsafe.IntPtrExtensions.GetElement(IntPtr,System.Int32,System.Int32)
+  fullName: Platform.Helpers.Unsafe.IntPtrExtensions.GetElement(IntPtr, System.Int32, System.Int32)
+  nameWithType: IntPtrExtensions.GetElement(IntPtr, Int32, Int32)
+- uid: Platform.Helpers.Unsafe.IntPtrExtensions.GetElement(IntPtr,System.Int64,System.Int64)
+  name: GetElement(IntPtr, Int64, Int64)
+  href: api/Platform.Helpers.Unsafe.IntPtrExtensions.html#Platform_Helpers_Unsafe_IntPtrExtensions_GetElement_IntPtr_System_Int64_System_Int64_
+  commentId: M:Platform.Helpers.Unsafe.IntPtrExtensions.GetElement(IntPtr,System.Int64,System.Int64)
+  fullName: Platform.Helpers.Unsafe.IntPtrExtensions.GetElement(IntPtr, System.Int64, System.Int64)
+  nameWithType: IntPtrExtensions.GetElement(IntPtr, Int64, Int64)
+- uid: Platform.Helpers.Unsafe.IntPtrExtensions.GetElement*
+  name: GetElement
+  href: api/Platform.Helpers.Unsafe.IntPtrExtensions.html#Platform_Helpers_Unsafe_IntPtrExtensions_GetElement_
+  commentId: Overload:Platform.Helpers.Unsafe.IntPtrExtensions.GetElement
   isSpec: "True"
-  fullName: Platform.Helpers.UnsafeHelpers.SizeOf
+  fullName: Platform.Helpers.Unsafe.IntPtrExtensions.GetElement
+  nameWithType: IntPtrExtensions.GetElement
+- uid: Platform.Helpers.Unsafe.IntPtrExtensions.GetElement``1(IntPtr,System.Int32,``0)
+  name: GetElement<TIndex>(IntPtr, Int32, TIndex)
+  href: api/Platform.Helpers.Unsafe.IntPtrExtensions.html#Platform_Helpers_Unsafe_IntPtrExtensions_GetElement__1_IntPtr_System_Int32___0_
+  commentId: M:Platform.Helpers.Unsafe.IntPtrExtensions.GetElement``1(IntPtr,System.Int32,``0)
+  name.vb: GetElement(Of TIndex)(IntPtr, Int32, TIndex)
+  fullName: Platform.Helpers.Unsafe.IntPtrExtensions.GetElement<TIndex>(IntPtr, System.Int32, TIndex)
+  fullName.vb: Platform.Helpers.Unsafe.IntPtrExtensions.GetElement(Of TIndex)(IntPtr, System.Int32, TIndex)
+  nameWithType: IntPtrExtensions.GetElement<TIndex>(IntPtr, Int32, TIndex)
+  nameWithType.vb: IntPtrExtensions.GetElement(Of TIndex)(IntPtr, Int32, TIndex)
+- uid: Platform.Helpers.Unsafe.IntPtrExtensions.GetValue*
+  name: GetValue
+  href: api/Platform.Helpers.Unsafe.IntPtrExtensions.html#Platform_Helpers_Unsafe_IntPtrExtensions_GetValue_
+  commentId: Overload:Platform.Helpers.Unsafe.IntPtrExtensions.GetValue
+  isSpec: "True"
+  fullName: Platform.Helpers.Unsafe.IntPtrExtensions.GetValue
+  nameWithType: IntPtrExtensions.GetValue
+- uid: Platform.Helpers.Unsafe.IntPtrExtensions.GetValue``1(IntPtr)
+  name: GetValue<TElement>(IntPtr)
+  href: api/Platform.Helpers.Unsafe.IntPtrExtensions.html#Platform_Helpers_Unsafe_IntPtrExtensions_GetValue__1_IntPtr_
+  commentId: M:Platform.Helpers.Unsafe.IntPtrExtensions.GetValue``1(IntPtr)
+  name.vb: GetValue(Of TElement)(IntPtr)
+  fullName: Platform.Helpers.Unsafe.IntPtrExtensions.GetValue<TElement>(IntPtr)
+  fullName.vb: Platform.Helpers.Unsafe.IntPtrExtensions.GetValue(Of TElement)(IntPtr)
+  nameWithType: IntPtrExtensions.GetValue<TElement>(IntPtr)
+  nameWithType.vb: IntPtrExtensions.GetValue(Of TElement)(IntPtr)
+- uid: Platform.Helpers.Unsafe.IntPtrExtensions.SetValue*
+  name: SetValue
+  href: api/Platform.Helpers.Unsafe.IntPtrExtensions.html#Platform_Helpers_Unsafe_IntPtrExtensions_SetValue_
+  commentId: Overload:Platform.Helpers.Unsafe.IntPtrExtensions.SetValue
+  isSpec: "True"
+  fullName: Platform.Helpers.Unsafe.IntPtrExtensions.SetValue
+  nameWithType: IntPtrExtensions.SetValue
+- uid: Platform.Helpers.Unsafe.IntPtrExtensions.SetValue``1(IntPtr,``0)
+  name: SetValue<TElement>(IntPtr, TElement)
+  href: api/Platform.Helpers.Unsafe.IntPtrExtensions.html#Platform_Helpers_Unsafe_IntPtrExtensions_SetValue__1_IntPtr___0_
+  commentId: M:Platform.Helpers.Unsafe.IntPtrExtensions.SetValue``1(IntPtr,``0)
+  name.vb: SetValue(Of TElement)(IntPtr, TElement)
+  fullName: Platform.Helpers.Unsafe.IntPtrExtensions.SetValue<TElement>(IntPtr, TElement)
+  fullName.vb: Platform.Helpers.Unsafe.IntPtrExtensions.SetValue(Of TElement)(IntPtr, TElement)
+  nameWithType: IntPtrExtensions.SetValue<TElement>(IntPtr, TElement)
+  nameWithType.vb: IntPtrExtensions.SetValue(Of TElement)(IntPtr, TElement)
+- uid: Platform.Helpers.Unsafe.IntPtrExtensions`1
+  name: IntPtrExtensions<T>
+  href: api/Platform.Helpers.Unsafe.IntPtrExtensions-1.html
+  commentId: T:Platform.Helpers.Unsafe.IntPtrExtensions`1
+  name.vb: IntPtrExtensions(Of T)
+  fullName: Platform.Helpers.Unsafe.IntPtrExtensions<T>
+  fullName.vb: Platform.Helpers.Unsafe.IntPtrExtensions(Of T)
+  nameWithType: IntPtrExtensions<T>
+  nameWithType.vb: IntPtrExtensions(Of T)
+- uid: Platform.Helpers.Unsafe.IntPtrExtensions`1.CompiledGetValue
+  name: CompiledGetValue
+  href: api/Platform.Helpers.Unsafe.IntPtrExtensions-1.html#Platform_Helpers_Unsafe_IntPtrExtensions_1_CompiledGetValue
+  commentId: F:Platform.Helpers.Unsafe.IntPtrExtensions`1.CompiledGetValue
+  fullName: Platform.Helpers.Unsafe.IntPtrExtensions<T>.CompiledGetValue
+  fullName.vb: Platform.Helpers.Unsafe.IntPtrExtensions(Of T).CompiledGetValue
+  nameWithType: IntPtrExtensions<T>.CompiledGetValue
+  nameWithType.vb: IntPtrExtensions(Of T).CompiledGetValue
+- uid: Platform.Helpers.Unsafe.IntPtrExtensions`1.CompiledSetValue
+  name: CompiledSetValue
+  href: api/Platform.Helpers.Unsafe.IntPtrExtensions-1.html#Platform_Helpers_Unsafe_IntPtrExtensions_1_CompiledSetValue
+  commentId: F:Platform.Helpers.Unsafe.IntPtrExtensions`1.CompiledSetValue
+  fullName: Platform.Helpers.Unsafe.IntPtrExtensions<T>.CompiledSetValue
+  fullName.vb: Platform.Helpers.Unsafe.IntPtrExtensions(Of T).CompiledSetValue
+  nameWithType: IntPtrExtensions<T>.CompiledSetValue
+  nameWithType.vb: IntPtrExtensions(Of T).CompiledSetValue
+- uid: Platform.Helpers.Unsafe.MemoryHelpers
+  name: MemoryHelpers
+  href: api/Platform.Helpers.Unsafe.MemoryHelpers.html
+  commentId: T:Platform.Helpers.Unsafe.MemoryHelpers
+  fullName: Platform.Helpers.Unsafe.MemoryHelpers
+  nameWithType: MemoryHelpers
+- uid: Platform.Helpers.Unsafe.MemoryHelpers.ZeroMemory(System.Void*,System.Int64)
+  name: ZeroMemory(Void*, Int64)
+  href: api/Platform.Helpers.Unsafe.MemoryHelpers.html#Platform_Helpers_Unsafe_MemoryHelpers_ZeroMemory_System_Void__System_Int64_
+  commentId: M:Platform.Helpers.Unsafe.MemoryHelpers.ZeroMemory(System.Void*,System.Int64)
+  fullName: Platform.Helpers.Unsafe.MemoryHelpers.ZeroMemory(System.Void*, System.Int64)
+  nameWithType: MemoryHelpers.ZeroMemory(Void*, Int64)
+- uid: Platform.Helpers.Unsafe.MemoryHelpers.ZeroMemory*
+  name: ZeroMemory
+  href: api/Platform.Helpers.Unsafe.MemoryHelpers.html#Platform_Helpers_Unsafe_MemoryHelpers_ZeroMemory_
+  commentId: Overload:Platform.Helpers.Unsafe.MemoryHelpers.ZeroMemory
+  isSpec: "True"
+  fullName: Platform.Helpers.Unsafe.MemoryHelpers.ZeroMemory
+  nameWithType: MemoryHelpers.ZeroMemory
+- uid: Platform.Helpers.Unsafe.UnsafeHelpers
+  name: UnsafeHelpers
+  href: api/Platform.Helpers.Unsafe.UnsafeHelpers.html
+  commentId: T:Platform.Helpers.Unsafe.UnsafeHelpers
+  fullName: Platform.Helpers.Unsafe.UnsafeHelpers
+  nameWithType: UnsafeHelpers
+- uid: Platform.Helpers.Unsafe.UnsafeHelpers.SizeOf*
+  name: SizeOf
+  href: api/Platform.Helpers.Unsafe.UnsafeHelpers.html#Platform_Helpers_Unsafe_UnsafeHelpers_SizeOf_
+  commentId: Overload:Platform.Helpers.Unsafe.UnsafeHelpers.SizeOf
+  isSpec: "True"
+  fullName: Platform.Helpers.Unsafe.UnsafeHelpers.SizeOf
   nameWithType: UnsafeHelpers.SizeOf
-- uid: Platform.Helpers.UnsafeHelpers.SizeOf``1
+- uid: Platform.Helpers.Unsafe.UnsafeHelpers.SizeOf``1
   name: SizeOf<TStruct>()
-  href: api/Platform.Helpers.UnsafeHelpers.html#Platform_Helpers_UnsafeHelpers_SizeOf__1
-  commentId: M:Platform.Helpers.UnsafeHelpers.SizeOf``1
+  href: api/Platform.Helpers.Unsafe.UnsafeHelpers.html#Platform_Helpers_Unsafe_UnsafeHelpers_SizeOf__1
+  commentId: M:Platform.Helpers.Unsafe.UnsafeHelpers.SizeOf``1
   name.vb: SizeOf(Of TStruct)()
-  fullName: Platform.Helpers.UnsafeHelpers.SizeOf<TStruct>()
-  fullName.vb: Platform.Helpers.UnsafeHelpers.SizeOf(Of TStruct)()
+  fullName: Platform.Helpers.Unsafe.UnsafeHelpers.SizeOf<TStruct>()
+  fullName.vb: Platform.Helpers.Unsafe.UnsafeHelpers.SizeOf(Of TStruct)()
   nameWithType: UnsafeHelpers.SizeOf<TStruct>()
   nameWithType.vb: UnsafeHelpers.SizeOf(Of TStruct)()
 - uid: Platform.Helpers.Use`1
@@ -22165,23 +22171,31 @@ references:
   fullName.vb: Platform.Memory.DirectMemoryAsArrayMemoryAdapter(Of TElement).DirectMemoryAsArrayMemoryAdapter
   nameWithType: DirectMemoryAsArrayMemoryAdapter<TElement>.DirectMemoryAsArrayMemoryAdapter
   nameWithType.vb: DirectMemoryAsArrayMemoryAdapter(Of TElement).DirectMemoryAsArrayMemoryAdapter
-- uid: Platform.Memory.DirectMemoryAsArrayMemoryAdapter`1.Dispose
-  name: Dispose()
-  href: api/Platform.Memory.DirectMemoryAsArrayMemoryAdapter-1.html#Platform_Memory_DirectMemoryAsArrayMemoryAdapter_1_Dispose
-  commentId: M:Platform.Memory.DirectMemoryAsArrayMemoryAdapter`1.Dispose
-  fullName: Platform.Memory.DirectMemoryAsArrayMemoryAdapter<TElement>.Dispose()
-  fullName.vb: Platform.Memory.DirectMemoryAsArrayMemoryAdapter(Of TElement).Dispose()
-  nameWithType: DirectMemoryAsArrayMemoryAdapter<TElement>.Dispose()
-  nameWithType.vb: DirectMemoryAsArrayMemoryAdapter(Of TElement).Dispose()
-- uid: Platform.Memory.DirectMemoryAsArrayMemoryAdapter`1.Dispose*
-  name: Dispose
-  href: api/Platform.Memory.DirectMemoryAsArrayMemoryAdapter-1.html#Platform_Memory_DirectMemoryAsArrayMemoryAdapter_1_Dispose_
-  commentId: Overload:Platform.Memory.DirectMemoryAsArrayMemoryAdapter`1.Dispose
+- uid: Platform.Memory.DirectMemoryAsArrayMemoryAdapter`1.DisposeCore(System.Boolean,System.Boolean)
+  name: DisposeCore(Boolean, Boolean)
+  href: api/Platform.Memory.DirectMemoryAsArrayMemoryAdapter-1.html#Platform_Memory_DirectMemoryAsArrayMemoryAdapter_1_DisposeCore_System_Boolean_System_Boolean_
+  commentId: M:Platform.Memory.DirectMemoryAsArrayMemoryAdapter`1.DisposeCore(System.Boolean,System.Boolean)
+  fullName: Platform.Memory.DirectMemoryAsArrayMemoryAdapter<TElement>.DisposeCore(System.Boolean, System.Boolean)
+  fullName.vb: Platform.Memory.DirectMemoryAsArrayMemoryAdapter(Of TElement).DisposeCore(System.Boolean, System.Boolean)
+  nameWithType: DirectMemoryAsArrayMemoryAdapter<TElement>.DisposeCore(Boolean, Boolean)
+  nameWithType.vb: DirectMemoryAsArrayMemoryAdapter(Of TElement).DisposeCore(Boolean, Boolean)
+- uid: Platform.Memory.DirectMemoryAsArrayMemoryAdapter`1.DisposeCore*
+  name: DisposeCore
+  href: api/Platform.Memory.DirectMemoryAsArrayMemoryAdapter-1.html#Platform_Memory_DirectMemoryAsArrayMemoryAdapter_1_DisposeCore_
+  commentId: Overload:Platform.Memory.DirectMemoryAsArrayMemoryAdapter`1.DisposeCore
   isSpec: "True"
-  fullName: Platform.Memory.DirectMemoryAsArrayMemoryAdapter<TElement>.Dispose
-  fullName.vb: Platform.Memory.DirectMemoryAsArrayMemoryAdapter(Of TElement).Dispose
-  nameWithType: DirectMemoryAsArrayMemoryAdapter<TElement>.Dispose
-  nameWithType.vb: DirectMemoryAsArrayMemoryAdapter(Of TElement).Dispose
+  fullName: Platform.Memory.DirectMemoryAsArrayMemoryAdapter<TElement>.DisposeCore
+  fullName.vb: Platform.Memory.DirectMemoryAsArrayMemoryAdapter(Of TElement).DisposeCore
+  nameWithType: DirectMemoryAsArrayMemoryAdapter<TElement>.DisposeCore
+  nameWithType.vb: DirectMemoryAsArrayMemoryAdapter(Of TElement).DisposeCore
+- uid: Platform.Memory.DirectMemoryAsArrayMemoryAdapter`1.ElementSize
+  name: ElementSize
+  href: api/Platform.Memory.DirectMemoryAsArrayMemoryAdapter-1.html#Platform_Memory_DirectMemoryAsArrayMemoryAdapter_1_ElementSize
+  commentId: F:Platform.Memory.DirectMemoryAsArrayMemoryAdapter`1.ElementSize
+  fullName: Platform.Memory.DirectMemoryAsArrayMemoryAdapter<TElement>.ElementSize
+  fullName.vb: Platform.Memory.DirectMemoryAsArrayMemoryAdapter(Of TElement).ElementSize
+  nameWithType: DirectMemoryAsArrayMemoryAdapter<TElement>.ElementSize
+  nameWithType.vb: DirectMemoryAsArrayMemoryAdapter(Of TElement).ElementSize
 - uid: Platform.Memory.DirectMemoryAsArrayMemoryAdapter`1.Item(System.Int64)
   name: Item[Int64]
   href: api/Platform.Memory.DirectMemoryAsArrayMemoryAdapter-1.html#Platform_Memory_DirectMemoryAsArrayMemoryAdapter_1_Item_System_Int64_
@@ -22277,6 +22291,14 @@ references:
   fullName.vb: Platform.Memory.FileArrayMemory(Of TElement).DisposeCore
   nameWithType: FileArrayMemory<TElement>.DisposeCore
   nameWithType.vb: FileArrayMemory(Of TElement).DisposeCore
+- uid: Platform.Memory.FileArrayMemory`1.ElementSize
+  name: ElementSize
+  href: api/Platform.Memory.FileArrayMemory-1.html#Platform_Memory_FileArrayMemory_1_ElementSize
+  commentId: F:Platform.Memory.FileArrayMemory`1.ElementSize
+  fullName: Platform.Memory.FileArrayMemory<TElement>.ElementSize
+  fullName.vb: Platform.Memory.FileArrayMemory(Of TElement).ElementSize
+  nameWithType: FileArrayMemory<TElement>.ElementSize
+  nameWithType.vb: FileArrayMemory(Of TElement).ElementSize
 - uid: Platform.Memory.FileArrayMemory`1.Item(System.Int64)
   name: Item[Int64]
   href: api/Platform.Memory.FileArrayMemory-1.html#Platform_Memory_FileArrayMemory_1_Item_System_Int64_
