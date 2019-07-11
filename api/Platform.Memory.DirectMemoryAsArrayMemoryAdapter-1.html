@@ -83,9 +83,7 @@
   
   <h1 id="Platform_Memory_DirectMemoryAsArrayMemoryAdapter_1" data-uid="Platform.Memory.DirectMemoryAsArrayMemoryAdapter`1" class="text-break">Class DirectMemoryAsArrayMemoryAdapter&lt;TElement&gt;
   </h1>
-  <div class="markdown level0 summary"><p>Represents adapter to a memory block with access via indexer.
-Представляет адаптер к блоку памяти с доступом через индексатор.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -99,11 +97,35 @@
     <div><a class="xref" href="Platform.Memory.IMemory.html">IMemory</a></div>
     <div><span class="xref">IDisposable</span></div>
   </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Platform.Memory.html">Platform.Memory</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="Platform_Memory_DirectMemoryAsArrayMemoryAdapter_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class DirectMemoryAsArrayMemoryAdapter&lt;TElement&gt; : DisposableBase, IArrayMemory&lt;TElement&gt;, IDirectMemory, IMemory, IDisposable where TElement : struct</code></pre>
+    <pre><code class="lang-csharp hljs">public class DirectMemoryAsArrayMemoryAdapter&lt;TElement&gt; : IArrayMemory&lt;TElement&gt;, IDirectMemory, IMemory, IDisposable where TElement : struct</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -116,8 +138,7 @@
     <tbody>
       <tr>
         <td><span class="parametername">TElement</span></td>
-        <td><p>Element type. Тип элемента.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -146,32 +167,6 @@
       <tr>
         <td><a class="xref" href="Platform.Memory.IDirectMemory.html">IDirectMemory</a></td>
         <td><span class="parametername">memory</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="fields">Fields
-  </h3>
-  
-  
-  <h4 id="Platform_Memory_DirectMemoryAsArrayMemoryAdapter_1_ElementSize" data-uid="Platform.Memory.DirectMemoryAsArrayMemoryAdapter`1.ElementSize">ElementSize</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static readonly long ElementSize</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int64</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -216,31 +211,6 @@
     <tbody>
       <tr>
         <td><span class="xref">TElement</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Platform_Memory_DirectMemoryAsArrayMemoryAdapter_1_ObjectName_" data-uid="Platform.Memory.DirectMemoryAsArrayMemoryAdapter`1.ObjectName*"></a>
-  <h4 id="Platform_Memory_DirectMemoryAsArrayMemoryAdapter_1_ObjectName" data-uid="Platform.Memory.DirectMemoryAsArrayMemoryAdapter`1.ObjectName">ObjectName</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override string ObjectName { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -299,36 +269,14 @@
   </h3>
   
   
-  <a id="Platform_Memory_DirectMemoryAsArrayMemoryAdapter_1_DisposeCore_" data-uid="Platform.Memory.DirectMemoryAsArrayMemoryAdapter`1.DisposeCore*"></a>
-  <h4 id="Platform_Memory_DirectMemoryAsArrayMemoryAdapter_1_DisposeCore_System_Boolean_System_Boolean_" data-uid="Platform.Memory.DirectMemoryAsArrayMemoryAdapter`1.DisposeCore(System.Boolean,System.Boolean)">DisposeCore(Boolean, Boolean)</h4>
+  <a id="Platform_Memory_DirectMemoryAsArrayMemoryAdapter_1_Dispose_" data-uid="Platform.Memory.DirectMemoryAsArrayMemoryAdapter`1.Dispose*"></a>
+  <h4 id="Platform_Memory_DirectMemoryAsArrayMemoryAdapter_1_Dispose" data-uid="Platform.Memory.DirectMemoryAsArrayMemoryAdapter`1.Dispose">Dispose()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void DisposeCore(bool manual, bool wasDisposed)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">manual</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">wasDisposed</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="Platform.Memory.IArrayMemory-1.html">IArrayMemory&lt;TElement&gt;</a>

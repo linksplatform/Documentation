@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "GLeXigQbidNYJk4tIMH5fA=="
+          "hash": "UKg6tJurGo3nOXdRsapYRA=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "README.ru.html",
-          "hash": "fRz4/69R4WEnwVDEOg6l1Q=="
+          "hash": "ZqGVzZel+MVwVtIRYhMmCA=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/articles/links-theory.html",
-          "hash": "nwpnQ1toDCpjsNHHMVCt5w=="
+          "hash": "gUeKaaYV1JhPyRBLU8l5vA=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "HNxOhZJFe2M/7f5DSjZ12A=="
+          "hash": "JNfrKavZXB6JeeYJgRq4bw=="
         }
       },
       "is_incremental": false,
@@ -2522,11 +2522,95 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Helpers.Disposables.Disposable-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Helpers.Disposables.Disposable-1.html",
+          "hash": "HEztiOF2t18MWuUiPt+R8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Helpers.Disposables.Disposable-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Helpers.Disposables.Disposable-2.html",
+          "hash": "9UKttAL6ll2/C+5somHBmg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Helpers.Disposables.Disposable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Helpers.Disposables.Disposable.html",
+          "hash": "6cQEn6b134X2OpmqmpQmng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Helpers.Disposables.DisposableBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Helpers.Disposables.DisposableBase.html",
+          "hash": "6C/pkxylpgnuiYPc2vfkKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Helpers.Disposables.DisposedDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Helpers.Disposables.DisposedDelegate.html",
+          "hash": "e5IgGzIEZ5ZpSu7J6Ec1cQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Helpers.Disposables.IDisposable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Helpers.Disposables.IDisposable.html",
+          "hash": "CimLi9nXOSHJyuQZw17zKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Helpers.Disposables.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Helpers.Disposables.html",
+          "hash": "kYJvwXMvb0NdS6Tfig9IJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/Platform.Helpers.Ensure.yml",
       "output": {
         ".html": {
           "relative_path": "api/Platform.Helpers.Ensure.html",
-          "hash": "T5bJwlly11QtDwTtj6k4sw=="
+          "hash": "mhmy6/TcbpQbIAD0JxMgJQ=="
         }
       },
       "is_incremental": false,
@@ -2738,6 +2822,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Helpers.IntPtrExtensions-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Helpers.IntPtrExtensions-1.html",
+          "hash": "EeRmm8Ue0ePzYTTuLHOsoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Helpers.IntPtrExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Helpers.IntPtrExtensions.html",
+          "hash": "y/8eZDEQ+rJTY0oYKCWO5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/Platform.Helpers.Integer-1.yml",
       "output": {
         ".html": {
@@ -2791,6 +2899,18 @@
         ".html": {
           "relative_path": "api/Platform.Helpers.MathHelpers.html",
           "hash": "j4lWkwI1QmTnW7Bg32c8sw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Helpers.MemoryHelpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Helpers.MemoryHelpers.html",
+          "hash": "nqQ0eWvw88Opzd8XItM9+A=="
         }
       },
       "is_incremental": false,
@@ -3413,59 +3533,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Unsafe.IntPtrExtensions.yml",
+      "source_relative_path": "obj/api/Platform.Helpers.UnsafeHelpers.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Platform.Helpers.Unsafe.IntPtrExtensions.html",
-          "hash": "t4mU7BbfOmRh6dSye1Ax4w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Unsafe.IntPtrHelpers-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Unsafe.IntPtrHelpers-1.html",
-          "hash": "GTvwnwqL8nzxgPRPyxeGTA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Unsafe.MemoryHelpers.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Unsafe.MemoryHelpers.html",
-          "hash": "ncGI9ngjh+6IPhHe2nzvRA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Unsafe.UnsafeHelpers.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Unsafe.UnsafeHelpers.html",
-          "hash": "tZnJlCgaLIvKfYeLl3Mfrw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Unsafe.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Unsafe.html",
-          "hash": "03SDYPDq+srZgU+EydIKSQ=="
+          "relative_path": "api/Platform.Helpers.UnsafeHelpers.html",
+          "hash": "BqIV7ikvL0FG08+k1D8XhA=="
         }
       },
       "is_incremental": false,
@@ -3489,7 +3561,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Helpers.html",
-          "hash": "xhY6EeUWRbuz7gfOuhrD+g=="
+          "hash": "TUUFshUa0QNJ2OcCfLylfQ=="
         }
       },
       "is_incremental": false,
@@ -3501,7 +3573,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Memory.ArrayMemory-1.html",
-          "hash": "/EtFBtgf5HiLXYW8JdNx/w=="
+          "hash": "XEQT4WNtyZBW2hITyfjAAg=="
         }
       },
       "is_incremental": false,
@@ -3513,7 +3585,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Memory.DirectMemoryAsArrayMemoryAdapter-1.html",
-          "hash": "rUFmMFialsNBcbJpkkzElQ=="
+          "hash": "QQggnsBBH9w2lrqIsG7XTA=="
         }
       },
       "is_incremental": false,
@@ -3525,7 +3597,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Memory.FileArrayMemory-1.html",
-          "hash": "5G2RyzWQ4LasAjieNtbCgA=="
+          "hash": "JyFd0WsYfKnRmHyxJa0Krg=="
         }
       },
       "is_incremental": false,
@@ -3537,7 +3609,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Memory.FileMappedResizableDirectMemory.html",
-          "hash": "nZ67I2vlXzxytKmMZzW5ZA=="
+          "hash": "CFR31I5gbhnaFdeG5MfP4A=="
         }
       },
       "is_incremental": false,
@@ -3561,7 +3633,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Memory.IArrayMemory-1.html",
-          "hash": "V3B2inrU0EOmUCgNeVi8cQ=="
+          "hash": "pNgeMiRZcCiF9NuAikrzGA=="
         }
       },
       "is_incremental": false,
@@ -3573,7 +3645,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Memory.IDirectMemory.html",
-          "hash": "LuUgkYY3hhK3cQR3WCn51Q=="
+          "hash": "Nrf6VhJekoOBr1sH3/Rdeg=="
         }
       },
       "is_incremental": false,
@@ -3585,7 +3657,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Memory.IMemory.html",
-          "hash": "N11C3tHmqSaXIXf3P1RVqw=="
+          "hash": "OvqBWSBiMJo3z0XLrJ/4pg=="
         }
       },
       "is_incremental": false,
@@ -3597,7 +3669,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Memory.IResizableDirectMemory.html",
-          "hash": "5SzDorC7lxJLHccRz6LQCQ=="
+          "hash": "FB4RQGw+e6s5pkHCNUrZgA=="
         }
       },
       "is_incremental": false,
@@ -3609,7 +3681,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Memory.ResizableDirectMemoryBase.html",
-          "hash": "gkxIlds5IxRiPq2uKROP4g=="
+          "hash": "W81loF3wwdr1DasT+sLXQg=="
         }
       },
       "is_incremental": false,
@@ -3621,7 +3693,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Memory.TemporaryFileMappedResizableDirectMemory.html",
-          "hash": "LG0xjY5WVzJPRtRfbNH1TQ=="
+          "hash": "8ODUNpoVxN7U9Q1wp2RsEg=="
         }
       },
       "is_incremental": false,
@@ -3633,7 +3705,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Memory.html",
-          "hash": "qdH6nzmGIgdv/ebE+qndww=="
+          "hash": "G7oCqaCfXQ88aNGPc33Dzg=="
         }
       },
       "is_incremental": false,
@@ -4209,7 +4281,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "byMeZmIi0nkoHM//u3/rWg=="
+          "hash": "LoCEdGFijCe3UDHdbqEnlQ=="
         }
       },
       "is_incremental": false,
@@ -4242,11 +4314,10 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "TocDocumentProcessor": {
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 0,
+          "total_file_count": 351,
           "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
@@ -4255,10 +4326,11 @@
           "total_file_count": 4,
           "skipped_file_count": 0
         },
-        "ManagedReferenceDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 345,
+          "total_file_count": 0,
           "skipped_file_count": 0
         }
       }

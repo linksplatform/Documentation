@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface IResizableDirectMemory
+    <title>Class UnsafeHelpers
    | LinksPlatform </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface IResizableDirectMemory
+    <meta name="title" content="Class UnsafeHelpers
    | LinksPlatform ">
     <meta name="generator" content="docfx 2.43.2.0">
     
@@ -78,56 +78,64 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Platform.Memory.IResizableDirectMemory">
+            <article class="content wrap" id="_content" data-uid="Platform.Helpers.UnsafeHelpers">
   
   
-  <h1 id="Platform_Memory_IResizableDirectMemory" data-uid="Platform.Memory.IResizableDirectMemory" class="text-break">Interface IResizableDirectMemory
+  <h1 id="Platform_Helpers_UnsafeHelpers" data-uid="Platform.Helpers.UnsafeHelpers" class="text-break">Class UnsafeHelpers
   </h1>
-  <div class="markdown level0 summary"><p>Представляет интерфейс блока памяти c изменяемым размером и прямым доступом (через неуправляемые указатели).</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnsafeHelpers</span></div>
+  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="Platform.Memory.IDirectMemory.html#Platform_Memory_IDirectMemory_Pointer">IDirectMemory.Pointer</a>
+      <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
     <div>
-      <a class="xref" href="Platform.Memory.IMemory.html#Platform_Memory_IMemory_Size">IMemory.Size</a>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Platform.Memory.html">Platform.Memory</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Platform.Helpers.html">Platform.Helpers</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Platform_Memory_IResizableDirectMemory_syntax">Syntax</h5>
+  <h5 id="Platform_Helpers_UnsafeHelpers_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IResizableDirectMemory : IDirectMemory, IMemory, IDisposable</code></pre>
+    <pre><code class="lang-csharp hljs">public static class UnsafeHelpers</code></pre>
   </div>
-  <h5 id="Platform_Memory_IResizableDirectMemory_remarks"><strong>Remarks</strong></h5>
-  <div class="markdown level0 remarks"><p>Возможно, если дать настройку - инициализировать ли нулями выделяемую память можно немного выиграть в производительности,
-однако потерять в надёжности и стабильности при разработке.
-Возможно ReservedCapacity - лишнее свойство, и управлять размером блока можно через что-то одно.
-Либо может быть ReservedCapacity можно сделать readonly.
-Возможно нужна настройка, определяющая блоками какого размера растёт блок памяти.
-Можно ли как-то отлавливать ошибки при обращении к некорректному указателю и
-автоматически трактовать это как команду к расширению блока?</p>
-<p>Можно ли реализовать распределённую память, храняющуюся на нескольких машинах, используя такой интерфейс?</p>
-<p>Асинхронный доступ к памяти? (Для операций выделения памяти, обращения к памяти, изменения размера блока)</p>
-<p>Нехранимая память? Лог?</p>
-<p>Возможно потребуется добавить событие OnPointerChanged/OnSizeChanged.</p>
-</div>
-  <h3 id="properties">Properties
+  <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Platform_Memory_IResizableDirectMemory_ReservedCapacity_" data-uid="Platform.Memory.IResizableDirectMemory.ReservedCapacity*"></a>
-  <h4 id="Platform_Memory_IResizableDirectMemory_ReservedCapacity" data-uid="Platform.Memory.IResizableDirectMemory.ReservedCapacity">ReservedCapacity</h4>
-  <div class="markdown level1 summary"><p>Возвращает или устаналивает зарезервированный размер блока памяти в байтах.</p>
+  <a id="Platform_Helpers_UnsafeHelpers_SizeOf_" data-uid="Platform.Helpers.UnsafeHelpers.SizeOf*"></a>
+  <h4 id="Platform_Helpers_UnsafeHelpers_SizeOf__1" data-uid="Platform.Helpers.UnsafeHelpers.SizeOf``1">SizeOf&lt;TStruct&gt;()</h4>
+  <div class="markdown level1 summary"><p>Returns the size of an unmanaged type in bytes.
+This method do this without throwing exceptions for generic types as Marshal.SizeOf<a href="">T</a> and Marshal.SizeOf(Type type) do.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">long ReservedCapacity { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static int SizeOf&lt;TStruct&gt;()
+    where TStruct : struct</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -137,39 +145,32 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int64</span></td>
+        <td><span class="xref">System.Int32</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="Platform_Memory_IResizableDirectMemory_UsedCapacity_" data-uid="Platform.Memory.IResizableDirectMemory.UsedCapacity*"></a>
-  <h4 id="Platform_Memory_IResizableDirectMemory_UsedCapacity" data-uid="Platform.Memory.IResizableDirectMemory.UsedCapacity">UsedCapacity</h4>
-  <div class="markdown level1 summary"><p>Возвращает или устанавливает используемый размер в блоке памяти (в байтах).</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">long UsedCapacity { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">TStruct</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 id="Platform_Memory_IResizableDirectMemory_UsedCapacity_remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>Рекомендуется уменьшать фактический размер блока памяти до используемого размера (указанного в этом свойстве).</p>
+  <h5 id="Platform_Helpers_UnsafeHelpers_SizeOf__1_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Based on proposed solution at <a href="https://stackoverflow.com/a/18167584/710069">https://stackoverflow.com/a/18167584/710069</a>
+For actual differences in .NET code see:
+<a href="https://github.com/Microsoft/referencesource/blob/f82e13c3820cd04553c21bf6da01262b95d9bd43/mscorlib/system/runtime/interopservices/marshal.cs#L202">https://github.com/Microsoft/referencesource/blob/f82e13c3820cd04553c21bf6da01262b95d9bd43/mscorlib/system/runtime/interopservices/marshal.cs#L202</a>
+<a href="https://github.com/Microsoft/referencesource/blob/f82e13c3820cd04553c21bf6da01262b95d9bd43/mscorlib/system/runtime/interopservices/marshal.cs#L219">https://github.com/Microsoft/referencesource/blob/f82e13c3820cd04553c21bf6da01262b95d9bd43/mscorlib/system/runtime/interopservices/marshal.cs#L219</a>
+Note that this behaviour can be changed in future versions of .NET</p>
 </div>
 </article>
           </div>
