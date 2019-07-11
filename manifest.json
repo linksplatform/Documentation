@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "KdZGSAP5Mx6if3n+sMxKyw=="
+          "hash": "GLeXigQbidNYJk4tIMH5fA=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "README.ru.html",
-          "hash": "/7bvlJK6zsdGPsfMMgTGsA=="
+          "hash": "fRz4/69R4WEnwVDEOg6l1Q=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/articles/links-theory.html",
-          "hash": "lYLLUnrZLK8oNK+M8B3Z3w=="
+          "hash": "nwpnQ1toDCpjsNHHMVCt5w=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "HZHdGcEu5AS3oXbDUZyVog=="
+          "hash": "HNxOhZJFe2M/7f5DSjZ12A=="
         }
       },
       "is_incremental": false,
@@ -2522,95 +2522,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Disposables.Disposable-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Disposables.Disposable-1.html",
-          "hash": "HEztiOF2t18MWuUiPt+R8Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Disposables.Disposable-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Disposables.Disposable-2.html",
-          "hash": "9UKttAL6ll2/C+5somHBmg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Disposables.Disposable.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Disposables.Disposable.html",
-          "hash": "uFZxD6UXoaS7KJYAyNemvA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Disposables.DisposableBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Disposables.DisposableBase.html",
-          "hash": "7Xb7xF9eCsdy75Ss9XbazQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Disposables.DisposedDelegate.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Disposables.DisposedDelegate.html",
-          "hash": "e5IgGzIEZ5ZpSu7J6Ec1cQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Disposables.IDisposable.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Disposables.IDisposable.html",
-          "hash": "YTaghGImAgD36g+gbo1gjQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Disposables.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Disposables.html",
-          "hash": "qMCbbF8LhjFbuUfz2an5tQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "obj/api/Platform.Helpers.Ensure.yml",
       "output": {
         ".html": {
           "relative_path": "api/Platform.Helpers.Ensure.html",
-          "hash": "mhmy6/TcbpQbIAD0JxMgJQ=="
+          "hash": "T5bJwlly11QtDwTtj6k4sw=="
         }
       },
       "is_incremental": false,
@@ -4293,7 +4209,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "8x9Md4V+halN8jlimXySvQ=="
+          "hash": "byMeZmIi0nkoHM//u3/rWg=="
         }
       },
       "is_incremental": false,
@@ -4326,6 +4242,13 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
@@ -4335,14 +4258,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 352,
-          "skipped_file_count": 0
-        },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
+          "total_file_count": 345,
           "skipped_file_count": 0
         }
       }
