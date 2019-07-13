@@ -16866,486 +16866,6 @@ references:
   fullName.vb: Platform.Helpers.Default(Of T).ThreadInstance
   nameWithType: Default<T>.ThreadInstance
   nameWithType.vb: Default(Of T).ThreadInstance
-- uid: Platform.Helpers.Disposables
-  name: Platform.Helpers.Disposables
-  href: api/Platform.Helpers.Disposables.html
-  commentId: N:Platform.Helpers.Disposables
-  fullName: Platform.Helpers.Disposables
-  nameWithType: Platform.Helpers.Disposables
-- uid: Platform.Helpers.Disposables.Disposable
-  name: Disposable
-  href: api/Platform.Helpers.Disposables.Disposable.html
-  commentId: T:Platform.Helpers.Disposables.Disposable
-  fullName: Platform.Helpers.Disposables.Disposable
-  nameWithType: Disposable
-- uid: Platform.Helpers.Disposables.Disposable.#ctor
-  name: Disposable()
-  href: api/Platform.Helpers.Disposables.Disposable.html#Platform_Helpers_Disposables_Disposable__ctor
-  commentId: M:Platform.Helpers.Disposables.Disposable.#ctor
-  fullName: Platform.Helpers.Disposables.Disposable.Disposable()
-  nameWithType: Disposable.Disposable()
-- uid: Platform.Helpers.Disposables.Disposable.#ctor(Action)
-  name: Disposable(Action)
-  href: api/Platform.Helpers.Disposables.Disposable.html#Platform_Helpers_Disposables_Disposable__ctor_Action_
-  commentId: M:Platform.Helpers.Disposables.Disposable.#ctor(Action)
-  fullName: Platform.Helpers.Disposables.Disposable.Disposable(Action)
-  nameWithType: Disposable.Disposable(Action)
-- uid: Platform.Helpers.Disposables.Disposable.#ctor(Platform.Helpers.Disposables.DisposedDelegate)
-  name: Disposable(DisposedDelegate)
-  href: api/Platform.Helpers.Disposables.Disposable.html#Platform_Helpers_Disposables_Disposable__ctor_Platform_Helpers_Disposables_DisposedDelegate_
-  commentId: M:Platform.Helpers.Disposables.Disposable.#ctor(Platform.Helpers.Disposables.DisposedDelegate)
-  fullName: Platform.Helpers.Disposables.Disposable.Disposable(Platform.Helpers.Disposables.DisposedDelegate)
-  nameWithType: Disposable.Disposable(DisposedDelegate)
-- uid: Platform.Helpers.Disposables.Disposable.#ctor*
-  name: Disposable
-  href: api/Platform.Helpers.Disposables.Disposable.html#Platform_Helpers_Disposables_Disposable__ctor_
-  commentId: Overload:Platform.Helpers.Disposables.Disposable.#ctor
-  isSpec: "True"
-  fullName: Platform.Helpers.Disposables.Disposable.Disposable
-  nameWithType: Disposable.Disposable
-- uid: Platform.Helpers.Disposables.Disposable.DisposeCore(System.Boolean,System.Boolean)
-  name: DisposeCore(Boolean, Boolean)
-  href: api/Platform.Helpers.Disposables.Disposable.html#Platform_Helpers_Disposables_Disposable_DisposeCore_System_Boolean_System_Boolean_
-  commentId: M:Platform.Helpers.Disposables.Disposable.DisposeCore(System.Boolean,System.Boolean)
-  fullName: Platform.Helpers.Disposables.Disposable.DisposeCore(System.Boolean, System.Boolean)
-  nameWithType: Disposable.DisposeCore(Boolean, Boolean)
-- uid: Platform.Helpers.Disposables.Disposable.DisposeCore*
-  name: DisposeCore
-  href: api/Platform.Helpers.Disposables.Disposable.html#Platform_Helpers_Disposables_Disposable_DisposeCore_
-  commentId: Overload:Platform.Helpers.Disposables.Disposable.DisposeCore
-  isSpec: "True"
-  fullName: Platform.Helpers.Disposables.Disposable.DisposeCore
-  nameWithType: Disposable.DisposeCore
-- uid: Platform.Helpers.Disposables.Disposable.DisposeIfDisposable*
-  name: DisposeIfDisposable
-  href: api/Platform.Helpers.Disposables.Disposable.html#Platform_Helpers_Disposables_Disposable_DisposeIfDisposable_
-  commentId: Overload:Platform.Helpers.Disposables.Disposable.DisposeIfDisposable
-  isSpec: "True"
-  fullName: Platform.Helpers.Disposables.Disposable.DisposeIfDisposable
-  nameWithType: Disposable.DisposeIfDisposable
-- uid: Platform.Helpers.Disposables.Disposable.DisposeIfDisposable``1(``0)
-  name: DisposeIfDisposable<T>(T)
-  href: api/Platform.Helpers.Disposables.Disposable.html#Platform_Helpers_Disposables_Disposable_DisposeIfDisposable__1___0_
-  commentId: M:Platform.Helpers.Disposables.Disposable.DisposeIfDisposable``1(``0)
-  name.vb: DisposeIfDisposable(Of T)(T)
-  fullName: Platform.Helpers.Disposables.Disposable.DisposeIfDisposable<T>(T)
-  fullName.vb: Platform.Helpers.Disposables.Disposable.DisposeIfDisposable(Of T)(T)
-  nameWithType: Disposable.DisposeIfDisposable<T>(T)
-  nameWithType.vb: Disposable.DisposeIfDisposable(Of T)(T)
-- uid: Platform.Helpers.Disposables.Disposable.OnDispose
-  name: OnDispose
-  href: api/Platform.Helpers.Disposables.Disposable.html#Platform_Helpers_Disposables_Disposable_OnDispose
-  commentId: E:Platform.Helpers.Disposables.Disposable.OnDispose
-  fullName: Platform.Helpers.Disposables.Disposable.OnDispose
-  nameWithType: Disposable.OnDispose
-- uid: Platform.Helpers.Disposables.Disposable.TryDispose*
-  name: TryDispose
-  href: api/Platform.Helpers.Disposables.Disposable.html#Platform_Helpers_Disposables_Disposable_TryDispose_
-  commentId: Overload:Platform.Helpers.Disposables.Disposable.TryDispose
-  isSpec: "True"
-  fullName: Platform.Helpers.Disposables.Disposable.TryDispose
-  nameWithType: Disposable.TryDispose
-- uid: Platform.Helpers.Disposables.Disposable.TryDispose``1(``0)
-  name: TryDispose<T>(T)
-  href: api/Platform.Helpers.Disposables.Disposable.html#Platform_Helpers_Disposables_Disposable_TryDispose__1___0_
-  commentId: M:Platform.Helpers.Disposables.Disposable.TryDispose``1(``0)
-  name.vb: TryDispose(Of T)(T)
-  fullName: Platform.Helpers.Disposables.Disposable.TryDispose<T>(T)
-  fullName.vb: Platform.Helpers.Disposables.Disposable.TryDispose(Of T)(T)
-  nameWithType: Disposable.TryDispose<T>(T)
-  nameWithType.vb: Disposable.TryDispose(Of T)(T)
-- uid: Platform.Helpers.Disposables.Disposable.TryDispose``1(``0@)
-  name: TryDispose<T>(ref T)
-  href: api/Platform.Helpers.Disposables.Disposable.html#Platform_Helpers_Disposables_Disposable_TryDispose__1___0__
-  commentId: M:Platform.Helpers.Disposables.Disposable.TryDispose``1(``0@)
-  name.vb: TryDispose(Of T)(ByRef T)
-  fullName: Platform.Helpers.Disposables.Disposable.TryDispose<T>(ref T)
-  fullName.vb: Platform.Helpers.Disposables.Disposable.TryDispose(Of T)(ByRef T)
-  nameWithType: Disposable.TryDispose<T>(ref T)
-  nameWithType.vb: Disposable.TryDispose(Of T)(ByRef T)
-- uid: Platform.Helpers.Disposables.Disposable`1
-  name: Disposable<T>
-  href: api/Platform.Helpers.Disposables.Disposable-1.html
-  commentId: T:Platform.Helpers.Disposables.Disposable`1
-  name.vb: Disposable(Of T)
-  fullName: Platform.Helpers.Disposables.Disposable<T>
-  fullName.vb: Platform.Helpers.Disposables.Disposable(Of T)
-  nameWithType: Disposable<T>
-  nameWithType.vb: Disposable(Of T)
-- uid: Platform.Helpers.Disposables.Disposable`1.#ctor(`0)
-  name: Disposable(T)
-  href: api/Platform.Helpers.Disposables.Disposable-1.html#Platform_Helpers_Disposables_Disposable_1__ctor__0_
-  commentId: M:Platform.Helpers.Disposables.Disposable`1.#ctor(`0)
-  fullName: Platform.Helpers.Disposables.Disposable<T>.Disposable(T)
-  fullName.vb: Platform.Helpers.Disposables.Disposable(Of T).Disposable(T)
-  nameWithType: Disposable<T>.Disposable(T)
-  nameWithType.vb: Disposable(Of T).Disposable(T)
-- uid: Platform.Helpers.Disposables.Disposable`1.#ctor(`0,Action)
-  name: Disposable(T, Action)
-  href: api/Platform.Helpers.Disposables.Disposable-1.html#Platform_Helpers_Disposables_Disposable_1__ctor__0_Action_
-  commentId: M:Platform.Helpers.Disposables.Disposable`1.#ctor(`0,Action)
-  fullName: Platform.Helpers.Disposables.Disposable<T>.Disposable(T, Action)
-  fullName.vb: Platform.Helpers.Disposables.Disposable(Of T).Disposable(T, Action)
-  nameWithType: Disposable<T>.Disposable(T, Action)
-  nameWithType.vb: Disposable(Of T).Disposable(T, Action)
-- uid: Platform.Helpers.Disposables.Disposable`1.#ctor(`0,Action{`0})
-  name: Disposable(T, Action<T>)
-  href: api/Platform.Helpers.Disposables.Disposable-1.html#Platform_Helpers_Disposables_Disposable_1__ctor__0_Action__0__
-  commentId: M:Platform.Helpers.Disposables.Disposable`1.#ctor(`0,Action{`0})
-  name.vb: Disposable(T, Action(Of T))
-  fullName: Platform.Helpers.Disposables.Disposable<T>.Disposable(T, Action<T>)
-  fullName.vb: Platform.Helpers.Disposables.Disposable(Of T).Disposable(T, Action(Of T))
-  nameWithType: Disposable<T>.Disposable(T, Action<T>)
-  nameWithType.vb: Disposable(Of T).Disposable(T, Action(Of T))
-- uid: Platform.Helpers.Disposables.Disposable`1.#ctor(`0,Platform.Helpers.Disposables.DisposedDelegate)
-  name: Disposable(T, DisposedDelegate)
-  href: api/Platform.Helpers.Disposables.Disposable-1.html#Platform_Helpers_Disposables_Disposable_1__ctor__0_Platform_Helpers_Disposables_DisposedDelegate_
-  commentId: M:Platform.Helpers.Disposables.Disposable`1.#ctor(`0,Platform.Helpers.Disposables.DisposedDelegate)
-  fullName: Platform.Helpers.Disposables.Disposable<T>.Disposable(T, Platform.Helpers.Disposables.DisposedDelegate)
-  fullName.vb: Platform.Helpers.Disposables.Disposable(Of T).Disposable(T, Platform.Helpers.Disposables.DisposedDelegate)
-  nameWithType: Disposable<T>.Disposable(T, DisposedDelegate)
-  nameWithType.vb: Disposable(Of T).Disposable(T, DisposedDelegate)
-- uid: Platform.Helpers.Disposables.Disposable`1.#ctor*
-  name: Disposable
-  href: api/Platform.Helpers.Disposables.Disposable-1.html#Platform_Helpers_Disposables_Disposable_1__ctor_
-  commentId: Overload:Platform.Helpers.Disposables.Disposable`1.#ctor
-  isSpec: "True"
-  fullName: Platform.Helpers.Disposables.Disposable<T>.Disposable
-  fullName.vb: Platform.Helpers.Disposables.Disposable(Of T).Disposable
-  nameWithType: Disposable<T>.Disposable
-  nameWithType.vb: Disposable(Of T).Disposable
-- uid: Platform.Helpers.Disposables.Disposable`1.Create(`0,Action{`0})
-  name: Create(T, Action<T>)
-  href: api/Platform.Helpers.Disposables.Disposable-1.html#Platform_Helpers_Disposables_Disposable_1_Create__0_Action__0__
-  commentId: M:Platform.Helpers.Disposables.Disposable`1.Create(`0,Action{`0})
-  name.vb: Create(T, Action(Of T))
-  fullName: Platform.Helpers.Disposables.Disposable<T>.Create(T, Action<T>)
-  fullName.vb: Platform.Helpers.Disposables.Disposable(Of T).Create(T, Action(Of T))
-  nameWithType: Disposable<T>.Create(T, Action<T>)
-  nameWithType.vb: Disposable(Of T).Create(T, Action(Of T))
-- uid: Platform.Helpers.Disposables.Disposable`1.Create*
-  name: Create
-  href: api/Platform.Helpers.Disposables.Disposable-1.html#Platform_Helpers_Disposables_Disposable_1_Create_
-  commentId: Overload:Platform.Helpers.Disposables.Disposable`1.Create
-  isSpec: "True"
-  fullName: Platform.Helpers.Disposables.Disposable<T>.Create
-  fullName.vb: Platform.Helpers.Disposables.Disposable(Of T).Create
-  nameWithType: Disposable<T>.Create
-  nameWithType.vb: Disposable(Of T).Create
-- uid: Platform.Helpers.Disposables.Disposable`1.DisposeCore(System.Boolean,System.Boolean)
-  name: DisposeCore(Boolean, Boolean)
-  href: api/Platform.Helpers.Disposables.Disposable-1.html#Platform_Helpers_Disposables_Disposable_1_DisposeCore_System_Boolean_System_Boolean_
-  commentId: M:Platform.Helpers.Disposables.Disposable`1.DisposeCore(System.Boolean,System.Boolean)
-  fullName: Platform.Helpers.Disposables.Disposable<T>.DisposeCore(System.Boolean, System.Boolean)
-  fullName.vb: Platform.Helpers.Disposables.Disposable(Of T).DisposeCore(System.Boolean, System.Boolean)
-  nameWithType: Disposable<T>.DisposeCore(Boolean, Boolean)
-  nameWithType.vb: Disposable(Of T).DisposeCore(Boolean, Boolean)
-- uid: Platform.Helpers.Disposables.Disposable`1.DisposeCore*
-  name: DisposeCore
-  href: api/Platform.Helpers.Disposables.Disposable-1.html#Platform_Helpers_Disposables_Disposable_1_DisposeCore_
-  commentId: Overload:Platform.Helpers.Disposables.Disposable`1.DisposeCore
-  isSpec: "True"
-  fullName: Platform.Helpers.Disposables.Disposable<T>.DisposeCore
-  fullName.vb: Platform.Helpers.Disposables.Disposable(Of T).DisposeCore
-  nameWithType: Disposable<T>.DisposeCore
-  nameWithType.vb: Disposable(Of T).DisposeCore
-- uid: Platform.Helpers.Disposables.Disposable`1.Object
-  name: Object
-  href: api/Platform.Helpers.Disposables.Disposable-1.html#Platform_Helpers_Disposables_Disposable_1_Object
-  commentId: F:Platform.Helpers.Disposables.Disposable`1.Object
-  fullName: Platform.Helpers.Disposables.Disposable<T>.Object
-  fullName.vb: Platform.Helpers.Disposables.Disposable(Of T).Object
-  nameWithType: Disposable<T>.Object
-  nameWithType.vb: Disposable(Of T).Object
-- uid: Platform.Helpers.Disposables.Disposable`1.op_Implicit(`0)~Platform.Helpers.Disposables.Disposable{`0}
-  name: Implicit(T to Disposable<T>)
-  href: api/Platform.Helpers.Disposables.Disposable-1.html#Platform_Helpers_Disposables_Disposable_1_op_Implicit__0__Platform_Helpers_Disposables_Disposable__0_
-  commentId: M:Platform.Helpers.Disposables.Disposable`1.op_Implicit(`0)~Platform.Helpers.Disposables.Disposable{`0}
-  name.vb: Widening(T to Disposable(Of T))
-  fullName: Platform.Helpers.Disposables.Disposable<T>.Implicit(T to Platform.Helpers.Disposables.Disposable<T>)
-  fullName.vb: Platform.Helpers.Disposables.Disposable(Of T).Widening(T to Platform.Helpers.Disposables.Disposable(Of T))
-  nameWithType: Disposable<T>.Implicit(T to Disposable<T>)
-  nameWithType.vb: Disposable(Of T).Widening(T to Disposable(Of T))
-- uid: Platform.Helpers.Disposables.Disposable`1.op_Implicit(Platform.Helpers.Disposables.Disposable{`0})~`0
-  name: Implicit(Disposable<T> to T)
-  href: api/Platform.Helpers.Disposables.Disposable-1.html#Platform_Helpers_Disposables_Disposable_1_op_Implicit_Platform_Helpers_Disposables_Disposable__0____0
-  commentId: M:Platform.Helpers.Disposables.Disposable`1.op_Implicit(Platform.Helpers.Disposables.Disposable{`0})~`0
-  name.vb: Widening(Disposable(Of T) to T)
-  fullName: Platform.Helpers.Disposables.Disposable<T>.Implicit(Platform.Helpers.Disposables.Disposable<T> to T)
-  fullName.vb: Platform.Helpers.Disposables.Disposable(Of T).Widening(Platform.Helpers.Disposables.Disposable(Of T) to T)
-  nameWithType: Disposable<T>.Implicit(Disposable<T> to T)
-  nameWithType.vb: Disposable(Of T).Widening(Disposable(Of T) to T)
-- uid: Platform.Helpers.Disposables.Disposable`1.op_Implicit*
-  name: Implicit
-  href: api/Platform.Helpers.Disposables.Disposable-1.html#Platform_Helpers_Disposables_Disposable_1_op_Implicit_
-  commentId: Overload:Platform.Helpers.Disposables.Disposable`1.op_Implicit
-  isSpec: "True"
-  name.vb: Widening
-  fullName: Platform.Helpers.Disposables.Disposable<T>.Implicit
-  fullName.vb: Platform.Helpers.Disposables.Disposable(Of T).Widening
-  nameWithType: Disposable<T>.Implicit
-  nameWithType.vb: Disposable(Of T).Widening
-- uid: Platform.Helpers.Disposables.Disposable`2
-  name: Disposable<TPrimary, TAuxiliary>
-  href: api/Platform.Helpers.Disposables.Disposable-2.html
-  commentId: T:Platform.Helpers.Disposables.Disposable`2
-  name.vb: Disposable(Of TPrimary, TAuxiliary)
-  fullName: Platform.Helpers.Disposables.Disposable<TPrimary, TAuxiliary>
-  fullName.vb: Platform.Helpers.Disposables.Disposable(Of TPrimary, TAuxiliary)
-  nameWithType: Disposable<TPrimary, TAuxiliary>
-  nameWithType.vb: Disposable(Of TPrimary, TAuxiliary)
-- uid: Platform.Helpers.Disposables.Disposable`2.#ctor(`0)
-  name: Disposable(TPrimary)
-  href: api/Platform.Helpers.Disposables.Disposable-2.html#Platform_Helpers_Disposables_Disposable_2__ctor__0_
-  commentId: M:Platform.Helpers.Disposables.Disposable`2.#ctor(`0)
-  fullName: Platform.Helpers.Disposables.Disposable<TPrimary, TAuxiliary>.Disposable(TPrimary)
-  fullName.vb: Platform.Helpers.Disposables.Disposable(Of TPrimary, TAuxiliary).Disposable(TPrimary)
-  nameWithType: Disposable<TPrimary, TAuxiliary>.Disposable(TPrimary)
-  nameWithType.vb: Disposable(Of TPrimary, TAuxiliary).Disposable(TPrimary)
-- uid: Platform.Helpers.Disposables.Disposable`2.#ctor(`0,`1)
-  name: Disposable(TPrimary, TAuxiliary)
-  href: api/Platform.Helpers.Disposables.Disposable-2.html#Platform_Helpers_Disposables_Disposable_2__ctor__0__1_
-  commentId: M:Platform.Helpers.Disposables.Disposable`2.#ctor(`0,`1)
-  fullName: Platform.Helpers.Disposables.Disposable<TPrimary, TAuxiliary>.Disposable(TPrimary, TAuxiliary)
-  fullName.vb: Platform.Helpers.Disposables.Disposable(Of TPrimary, TAuxiliary).Disposable(TPrimary, TAuxiliary)
-  nameWithType: Disposable<TPrimary, TAuxiliary>.Disposable(TPrimary, TAuxiliary)
-  nameWithType.vb: Disposable(Of TPrimary, TAuxiliary).Disposable(TPrimary, TAuxiliary)
-- uid: Platform.Helpers.Disposables.Disposable`2.#ctor*
-  name: Disposable
-  href: api/Platform.Helpers.Disposables.Disposable-2.html#Platform_Helpers_Disposables_Disposable_2__ctor_
-  commentId: Overload:Platform.Helpers.Disposables.Disposable`2.#ctor
-  isSpec: "True"
-  fullName: Platform.Helpers.Disposables.Disposable<TPrimary, TAuxiliary>.Disposable
-  fullName.vb: Platform.Helpers.Disposables.Disposable(Of TPrimary, TAuxiliary).Disposable
-  nameWithType: Disposable<TPrimary, TAuxiliary>.Disposable
-  nameWithType.vb: Disposable(Of TPrimary, TAuxiliary).Disposable
-- uid: Platform.Helpers.Disposables.Disposable`2.AuxiliaryObject
-  name: AuxiliaryObject
-  href: api/Platform.Helpers.Disposables.Disposable-2.html#Platform_Helpers_Disposables_Disposable_2_AuxiliaryObject
-  commentId: F:Platform.Helpers.Disposables.Disposable`2.AuxiliaryObject
-  fullName: Platform.Helpers.Disposables.Disposable<TPrimary, TAuxiliary>.AuxiliaryObject
-  fullName.vb: Platform.Helpers.Disposables.Disposable(Of TPrimary, TAuxiliary).AuxiliaryObject
-  nameWithType: Disposable<TPrimary, TAuxiliary>.AuxiliaryObject
-  nameWithType.vb: Disposable(Of TPrimary, TAuxiliary).AuxiliaryObject
-- uid: Platform.Helpers.Disposables.Disposable`2.DisposeCore(System.Boolean,System.Boolean)
-  name: DisposeCore(Boolean, Boolean)
-  href: api/Platform.Helpers.Disposables.Disposable-2.html#Platform_Helpers_Disposables_Disposable_2_DisposeCore_System_Boolean_System_Boolean_
-  commentId: M:Platform.Helpers.Disposables.Disposable`2.DisposeCore(System.Boolean,System.Boolean)
-  fullName: Platform.Helpers.Disposables.Disposable<TPrimary, TAuxiliary>.DisposeCore(System.Boolean, System.Boolean)
-  fullName.vb: Platform.Helpers.Disposables.Disposable(Of TPrimary, TAuxiliary).DisposeCore(System.Boolean, System.Boolean)
-  nameWithType: Disposable<TPrimary, TAuxiliary>.DisposeCore(Boolean, Boolean)
-  nameWithType.vb: Disposable(Of TPrimary, TAuxiliary).DisposeCore(Boolean, Boolean)
-- uid: Platform.Helpers.Disposables.Disposable`2.DisposeCore*
-  name: DisposeCore
-  href: api/Platform.Helpers.Disposables.Disposable-2.html#Platform_Helpers_Disposables_Disposable_2_DisposeCore_
-  commentId: Overload:Platform.Helpers.Disposables.Disposable`2.DisposeCore
-  isSpec: "True"
-  fullName: Platform.Helpers.Disposables.Disposable<TPrimary, TAuxiliary>.DisposeCore
-  fullName.vb: Platform.Helpers.Disposables.Disposable(Of TPrimary, TAuxiliary).DisposeCore
-  nameWithType: Disposable<TPrimary, TAuxiliary>.DisposeCore
-  nameWithType.vb: Disposable(Of TPrimary, TAuxiliary).DisposeCore
-- uid: Platform.Helpers.Disposables.Disposable`2.op_Implicit(Platform.Helpers.Disposables.Disposable{`0,`1})~`0
-  name: Implicit(Disposable<TPrimary, TAuxiliary> to TPrimary)
-  href: api/Platform.Helpers.Disposables.Disposable-2.html#Platform_Helpers_Disposables_Disposable_2_op_Implicit_Platform_Helpers_Disposables_Disposable__0__1____0
-  commentId: M:Platform.Helpers.Disposables.Disposable`2.op_Implicit(Platform.Helpers.Disposables.Disposable{`0,`1})~`0
-  name.vb: Widening(Disposable(Of TPrimary, TAuxiliary) to TPrimary)
-  fullName: Platform.Helpers.Disposables.Disposable<TPrimary, TAuxiliary>.Implicit(Platform.Helpers.Disposables.Disposable<TPrimary, TAuxiliary> to TPrimary)
-  fullName.vb: Platform.Helpers.Disposables.Disposable(Of TPrimary, TAuxiliary).Widening(Platform.Helpers.Disposables.Disposable(Of TPrimary, TAuxiliary) to TPrimary)
-  nameWithType: Disposable<TPrimary, TAuxiliary>.Implicit(Disposable<TPrimary, TAuxiliary> to TPrimary)
-  nameWithType.vb: Disposable(Of TPrimary, TAuxiliary).Widening(Disposable(Of TPrimary, TAuxiliary) to TPrimary)
-- uid: Platform.Helpers.Disposables.Disposable`2.op_Implicit(Platform.Helpers.Disposables.Disposable{`0,`1})~`1
-  name: Implicit(Disposable<TPrimary, TAuxiliary> to TAuxiliary)
-  href: api/Platform.Helpers.Disposables.Disposable-2.html#Platform_Helpers_Disposables_Disposable_2_op_Implicit_Platform_Helpers_Disposables_Disposable__0__1____1
-  commentId: M:Platform.Helpers.Disposables.Disposable`2.op_Implicit(Platform.Helpers.Disposables.Disposable{`0,`1})~`1
-  name.vb: Widening(Disposable(Of TPrimary, TAuxiliary) to TAuxiliary)
-  fullName: Platform.Helpers.Disposables.Disposable<TPrimary, TAuxiliary>.Implicit(Platform.Helpers.Disposables.Disposable<TPrimary, TAuxiliary> to TAuxiliary)
-  fullName.vb: Platform.Helpers.Disposables.Disposable(Of TPrimary, TAuxiliary).Widening(Platform.Helpers.Disposables.Disposable(Of TPrimary, TAuxiliary) to TAuxiliary)
-  nameWithType: Disposable<TPrimary, TAuxiliary>.Implicit(Disposable<TPrimary, TAuxiliary> to TAuxiliary)
-  nameWithType.vb: Disposable(Of TPrimary, TAuxiliary).Widening(Disposable(Of TPrimary, TAuxiliary) to TAuxiliary)
-- uid: Platform.Helpers.Disposables.Disposable`2.op_Implicit*
-  name: Implicit
-  href: api/Platform.Helpers.Disposables.Disposable-2.html#Platform_Helpers_Disposables_Disposable_2_op_Implicit_
-  commentId: Overload:Platform.Helpers.Disposables.Disposable`2.op_Implicit
-  isSpec: "True"
-  name.vb: Widening
-  fullName: Platform.Helpers.Disposables.Disposable<TPrimary, TAuxiliary>.Implicit
-  fullName.vb: Platform.Helpers.Disposables.Disposable(Of TPrimary, TAuxiliary).Widening
-  nameWithType: Disposable<TPrimary, TAuxiliary>.Implicit
-  nameWithType.vb: Disposable(Of TPrimary, TAuxiliary).Widening
-- uid: Platform.Helpers.Disposables.DisposableBase
-  name: DisposableBase
-  href: api/Platform.Helpers.Disposables.DisposableBase.html
-  commentId: T:Platform.Helpers.Disposables.DisposableBase
-  fullName: Platform.Helpers.Disposables.DisposableBase
-  nameWithType: DisposableBase
-- uid: Platform.Helpers.Disposables.DisposableBase.#ctor
-  name: DisposableBase()
-  href: api/Platform.Helpers.Disposables.DisposableBase.html#Platform_Helpers_Disposables_DisposableBase__ctor
-  commentId: M:Platform.Helpers.Disposables.DisposableBase.#ctor
-  fullName: Platform.Helpers.Disposables.DisposableBase.DisposableBase()
-  nameWithType: DisposableBase.DisposableBase()
-- uid: Platform.Helpers.Disposables.DisposableBase.#ctor*
-  name: DisposableBase
-  href: api/Platform.Helpers.Disposables.DisposableBase.html#Platform_Helpers_Disposables_DisposableBase__ctor_
-  commentId: Overload:Platform.Helpers.Disposables.DisposableBase.#ctor
-  isSpec: "True"
-  fullName: Platform.Helpers.Disposables.DisposableBase.DisposableBase
-  nameWithType: DisposableBase.DisposableBase
-- uid: Platform.Helpers.Disposables.DisposableBase.AllowMultipleDisposeAttempts
-  name: AllowMultipleDisposeAttempts
-  href: api/Platform.Helpers.Disposables.DisposableBase.html#Platform_Helpers_Disposables_DisposableBase_AllowMultipleDisposeAttempts
-  commentId: P:Platform.Helpers.Disposables.DisposableBase.AllowMultipleDisposeAttempts
-  fullName: Platform.Helpers.Disposables.DisposableBase.AllowMultipleDisposeAttempts
-  nameWithType: DisposableBase.AllowMultipleDisposeAttempts
-- uid: Platform.Helpers.Disposables.DisposableBase.AllowMultipleDisposeAttempts*
-  name: AllowMultipleDisposeAttempts
-  href: api/Platform.Helpers.Disposables.DisposableBase.html#Platform_Helpers_Disposables_DisposableBase_AllowMultipleDisposeAttempts_
-  commentId: Overload:Platform.Helpers.Disposables.DisposableBase.AllowMultipleDisposeAttempts
-  isSpec: "True"
-  fullName: Platform.Helpers.Disposables.DisposableBase.AllowMultipleDisposeAttempts
-  nameWithType: DisposableBase.AllowMultipleDisposeAttempts
-- uid: Platform.Helpers.Disposables.DisposableBase.AllowMultipleDisposeCalls
-  name: AllowMultipleDisposeCalls
-  href: api/Platform.Helpers.Disposables.DisposableBase.html#Platform_Helpers_Disposables_DisposableBase_AllowMultipleDisposeCalls
-  commentId: P:Platform.Helpers.Disposables.DisposableBase.AllowMultipleDisposeCalls
-  fullName: Platform.Helpers.Disposables.DisposableBase.AllowMultipleDisposeCalls
-  nameWithType: DisposableBase.AllowMultipleDisposeCalls
-- uid: Platform.Helpers.Disposables.DisposableBase.AllowMultipleDisposeCalls*
-  name: AllowMultipleDisposeCalls
-  href: api/Platform.Helpers.Disposables.DisposableBase.html#Platform_Helpers_Disposables_DisposableBase_AllowMultipleDisposeCalls_
-  commentId: Overload:Platform.Helpers.Disposables.DisposableBase.AllowMultipleDisposeCalls
-  isSpec: "True"
-  fullName: Platform.Helpers.Disposables.DisposableBase.AllowMultipleDisposeCalls
-  nameWithType: DisposableBase.AllowMultipleDisposeCalls
-- uid: Platform.Helpers.Disposables.DisposableBase.Destruct
-  name: Destruct()
-  href: api/Platform.Helpers.Disposables.DisposableBase.html#Platform_Helpers_Disposables_DisposableBase_Destruct
-  commentId: M:Platform.Helpers.Disposables.DisposableBase.Destruct
-  fullName: Platform.Helpers.Disposables.DisposableBase.Destruct()
-  nameWithType: DisposableBase.Destruct()
-- uid: Platform.Helpers.Disposables.DisposableBase.Destruct*
-  name: Destruct
-  href: api/Platform.Helpers.Disposables.DisposableBase.html#Platform_Helpers_Disposables_DisposableBase_Destruct_
-  commentId: Overload:Platform.Helpers.Disposables.DisposableBase.Destruct
-  isSpec: "True"
-  fullName: Platform.Helpers.Disposables.DisposableBase.Destruct
-  nameWithType: DisposableBase.Destruct
-- uid: Platform.Helpers.Disposables.DisposableBase.Dispose
-  name: Dispose()
-  href: api/Platform.Helpers.Disposables.DisposableBase.html#Platform_Helpers_Disposables_DisposableBase_Dispose
-  commentId: M:Platform.Helpers.Disposables.DisposableBase.Dispose
-  fullName: Platform.Helpers.Disposables.DisposableBase.Dispose()
-  nameWithType: DisposableBase.Dispose()
-- uid: Platform.Helpers.Disposables.DisposableBase.Dispose*
-  name: Dispose
-  href: api/Platform.Helpers.Disposables.DisposableBase.html#Platform_Helpers_Disposables_DisposableBase_Dispose_
-  commentId: Overload:Platform.Helpers.Disposables.DisposableBase.Dispose
-  isSpec: "True"
-  fullName: Platform.Helpers.Disposables.DisposableBase.Dispose
-  nameWithType: DisposableBase.Dispose
-- uid: Platform.Helpers.Disposables.DisposableBase.DisposeCore(System.Boolean,System.Boolean)
-  name: DisposeCore(Boolean, Boolean)
-  href: api/Platform.Helpers.Disposables.DisposableBase.html#Platform_Helpers_Disposables_DisposableBase_DisposeCore_System_Boolean_System_Boolean_
-  commentId: M:Platform.Helpers.Disposables.DisposableBase.DisposeCore(System.Boolean,System.Boolean)
-  fullName: Platform.Helpers.Disposables.DisposableBase.DisposeCore(System.Boolean, System.Boolean)
-  nameWithType: DisposableBase.DisposeCore(Boolean, Boolean)
-- uid: Platform.Helpers.Disposables.DisposableBase.DisposeCore*
-  name: DisposeCore
-  href: api/Platform.Helpers.Disposables.DisposableBase.html#Platform_Helpers_Disposables_DisposableBase_DisposeCore_
-  commentId: Overload:Platform.Helpers.Disposables.DisposableBase.DisposeCore
-  isSpec: "True"
-  fullName: Platform.Helpers.Disposables.DisposableBase.DisposeCore
-  nameWithType: DisposableBase.DisposeCore
-- uid: Platform.Helpers.Disposables.DisposableBase.EnsureNotDisposed
-  name: EnsureNotDisposed()
-  href: api/Platform.Helpers.Disposables.DisposableBase.html#Platform_Helpers_Disposables_DisposableBase_EnsureNotDisposed
-  commentId: M:Platform.Helpers.Disposables.DisposableBase.EnsureNotDisposed
-  fullName: Platform.Helpers.Disposables.DisposableBase.EnsureNotDisposed()
-  nameWithType: DisposableBase.EnsureNotDisposed()
-- uid: Platform.Helpers.Disposables.DisposableBase.EnsureNotDisposed*
-  name: EnsureNotDisposed
-  href: api/Platform.Helpers.Disposables.DisposableBase.html#Platform_Helpers_Disposables_DisposableBase_EnsureNotDisposed_
-  commentId: Overload:Platform.Helpers.Disposables.DisposableBase.EnsureNotDisposed
-  isSpec: "True"
-  fullName: Platform.Helpers.Disposables.DisposableBase.EnsureNotDisposed
-  nameWithType: DisposableBase.EnsureNotDisposed
-- uid: Platform.Helpers.Disposables.DisposableBase.Finalize
-  name: Finalize()
-  href: api/Platform.Helpers.Disposables.DisposableBase.html#Platform_Helpers_Disposables_DisposableBase_Finalize
-  commentId: M:Platform.Helpers.Disposables.DisposableBase.Finalize
-  fullName: Platform.Helpers.Disposables.DisposableBase.Finalize()
-  nameWithType: DisposableBase.Finalize()
-- uid: Platform.Helpers.Disposables.DisposableBase.Finalize*
-  name: Finalize
-  href: api/Platform.Helpers.Disposables.DisposableBase.html#Platform_Helpers_Disposables_DisposableBase_Finalize_
-  commentId: Overload:Platform.Helpers.Disposables.DisposableBase.Finalize
-  isSpec: "True"
-  fullName: Platform.Helpers.Disposables.DisposableBase.Finalize
-  nameWithType: DisposableBase.Finalize
-- uid: Platform.Helpers.Disposables.DisposableBase.IsDisposed
-  name: IsDisposed
-  href: api/Platform.Helpers.Disposables.DisposableBase.html#Platform_Helpers_Disposables_DisposableBase_IsDisposed
-  commentId: P:Platform.Helpers.Disposables.DisposableBase.IsDisposed
-  fullName: Platform.Helpers.Disposables.DisposableBase.IsDisposed
-  nameWithType: DisposableBase.IsDisposed
-- uid: Platform.Helpers.Disposables.DisposableBase.IsDisposed*
-  name: IsDisposed
-  href: api/Platform.Helpers.Disposables.DisposableBase.html#Platform_Helpers_Disposables_DisposableBase_IsDisposed_
-  commentId: Overload:Platform.Helpers.Disposables.DisposableBase.IsDisposed
-  isSpec: "True"
-  fullName: Platform.Helpers.Disposables.DisposableBase.IsDisposed
-  nameWithType: DisposableBase.IsDisposed
-- uid: Platform.Helpers.Disposables.DisposableBase.ObjectName
-  name: ObjectName
-  href: api/Platform.Helpers.Disposables.DisposableBase.html#Platform_Helpers_Disposables_DisposableBase_ObjectName
-  commentId: P:Platform.Helpers.Disposables.DisposableBase.ObjectName
-  fullName: Platform.Helpers.Disposables.DisposableBase.ObjectName
-  nameWithType: DisposableBase.ObjectName
-- uid: Platform.Helpers.Disposables.DisposableBase.ObjectName*
-  name: ObjectName
-  href: api/Platform.Helpers.Disposables.DisposableBase.html#Platform_Helpers_Disposables_DisposableBase_ObjectName_
-  commentId: Overload:Platform.Helpers.Disposables.DisposableBase.ObjectName
-  isSpec: "True"
-  fullName: Platform.Helpers.Disposables.DisposableBase.ObjectName
-  nameWithType: DisposableBase.ObjectName
-- uid: Platform.Helpers.Disposables.DisposedDelegate
-  name: DisposedDelegate
-  href: api/Platform.Helpers.Disposables.DisposedDelegate.html
-  commentId: T:Platform.Helpers.Disposables.DisposedDelegate
-  fullName: Platform.Helpers.Disposables.DisposedDelegate
-  nameWithType: DisposedDelegate
-- uid: Platform.Helpers.Disposables.IDisposable
-  name: IDisposable
-  href: api/Platform.Helpers.Disposables.IDisposable.html
-  commentId: T:Platform.Helpers.Disposables.IDisposable
-  fullName: Platform.Helpers.Disposables.IDisposable
-  nameWithType: IDisposable
-- uid: Platform.Helpers.Disposables.IDisposable.Destruct
-  name: Destruct()
-  href: api/Platform.Helpers.Disposables.IDisposable.html#Platform_Helpers_Disposables_IDisposable_Destruct
-  commentId: M:Platform.Helpers.Disposables.IDisposable.Destruct
-  fullName: Platform.Helpers.Disposables.IDisposable.Destruct()
-  nameWithType: IDisposable.Destruct()
-- uid: Platform.Helpers.Disposables.IDisposable.Destruct*
-  name: Destruct
-  href: api/Platform.Helpers.Disposables.IDisposable.html#Platform_Helpers_Disposables_IDisposable_Destruct_
-  commentId: Overload:Platform.Helpers.Disposables.IDisposable.Destruct
-  isSpec: "True"
-  fullName: Platform.Helpers.Disposables.IDisposable.Destruct
-  nameWithType: IDisposable.Destruct
-- uid: Platform.Helpers.Disposables.IDisposable.IsDisposed
-  name: IsDisposed
-  href: api/Platform.Helpers.Disposables.IDisposable.html#Platform_Helpers_Disposables_IDisposable_IsDisposed
-  commentId: P:Platform.Helpers.Disposables.IDisposable.IsDisposed
-  fullName: Platform.Helpers.Disposables.IDisposable.IsDisposed
-  nameWithType: IDisposable.IsDisposed
-- uid: Platform.Helpers.Disposables.IDisposable.IsDisposed*
-  name: IsDisposed
-  href: api/Platform.Helpers.Disposables.IDisposable.html#Platform_Helpers_Disposables_IDisposable_IsDisposed_
-  commentId: Overload:Platform.Helpers.Disposables.IDisposable.IsDisposed
-  isSpec: "True"
-  fullName: Platform.Helpers.Disposables.IDisposable.IsDisposed
-  nameWithType: IDisposable.IsDisposed
 - uid: Platform.Helpers.Ensure
   name: Ensure
   href: api/Platform.Helpers.Ensure.html
@@ -17422,12 +16942,12 @@ references:
   isSpec: "True"
   fullName: Platform.Helpers.Ensure.ArgumentZeroOrPositive
   nameWithType: Ensure.ArgumentZeroOrPositive
-- uid: Platform.Helpers.Ensure.NotDisposed(Platform.Helpers.Disposables.IDisposable,System.String)
-  name: NotDisposed(IDisposable, String)
-  href: api/Platform.Helpers.Ensure.html#Platform_Helpers_Ensure_NotDisposed_Platform_Helpers_Disposables_IDisposable_System_String_
-  commentId: M:Platform.Helpers.Ensure.NotDisposed(Platform.Helpers.Disposables.IDisposable,System.String)
-  fullName: Platform.Helpers.Ensure.NotDisposed(Platform.Helpers.Disposables.IDisposable, System.String)
-  nameWithType: Ensure.NotDisposed(IDisposable, String)
+- uid: Platform.Helpers.Ensure.NotDisposed(Disposables.IDisposable,System.String)
+  name: NotDisposed(Disposables.IDisposable, String)
+  href: api/Platform.Helpers.Ensure.html#Platform_Helpers_Ensure_NotDisposed_Disposables_IDisposable_System_String_
+  commentId: M:Platform.Helpers.Ensure.NotDisposed(Disposables.IDisposable,System.String)
+  fullName: Platform.Helpers.Ensure.NotDisposed(Disposables.IDisposable, System.String)
+  nameWithType: Ensure.NotDisposed(Disposables.IDisposable, String)
 - uid: Platform.Helpers.Ensure.NotDisposed*
   name: NotDisposed
   href: api/Platform.Helpers.Ensure.html#Platform_Helpers_Ensure_NotDisposed_
@@ -17525,171 +17045,6 @@ references:
   fullName.vb: Platform.Helpers.HashHelpers.Generate(Of T)(T())
   nameWithType: HashHelpers.Generate<T>(T[])
   nameWithType.vb: HashHelpers.Generate(Of T)(T())
-- uid: Platform.Helpers.IConverter`1
-  name: IConverter<T>
-  href: api/Platform.Helpers.IConverter-1.html
-  commentId: T:Platform.Helpers.IConverter`1
-  name.vb: IConverter(Of T)
-  fullName: Platform.Helpers.IConverter<T>
-  fullName.vb: Platform.Helpers.IConverter(Of T)
-  nameWithType: IConverter<T>
-  nameWithType.vb: IConverter(Of T)
-- uid: Platform.Helpers.IConverter`2
-  name: IConverter<TSource, TTarget>
-  href: api/Platform.Helpers.IConverter-2.html
-  commentId: T:Platform.Helpers.IConverter`2
-  name.vb: IConverter(Of TSource, TTarget)
-  fullName: Platform.Helpers.IConverter<TSource, TTarget>
-  fullName.vb: Platform.Helpers.IConverter(Of TSource, TTarget)
-  nameWithType: IConverter<TSource, TTarget>
-  nameWithType.vb: IConverter(Of TSource, TTarget)
-- uid: Platform.Helpers.IConverter`2.Convert(`0)
-  name: Convert(TSource)
-  href: api/Platform.Helpers.IConverter-2.html#Platform_Helpers_IConverter_2_Convert__0_
-  commentId: M:Platform.Helpers.IConverter`2.Convert(`0)
-  fullName: Platform.Helpers.IConverter<TSource, TTarget>.Convert(TSource)
-  fullName.vb: Platform.Helpers.IConverter(Of TSource, TTarget).Convert(TSource)
-  nameWithType: IConverter<TSource, TTarget>.Convert(TSource)
-  nameWithType.vb: IConverter(Of TSource, TTarget).Convert(TSource)
-- uid: Platform.Helpers.IConverter`2.Convert*
-  name: Convert
-  href: api/Platform.Helpers.IConverter-2.html#Platform_Helpers_IConverter_2_Convert_
-  commentId: Overload:Platform.Helpers.IConverter`2.Convert
-  isSpec: "True"
-  fullName: Platform.Helpers.IConverter<TSource, TTarget>.Convert
-  fullName.vb: Platform.Helpers.IConverter(Of TSource, TTarget).Convert
-  nameWithType: IConverter<TSource, TTarget>.Convert
-  nameWithType.vb: IConverter(Of TSource, TTarget).Convert
-- uid: Platform.Helpers.ICounter`1
-  name: ICounter<TResult>
-  href: api/Platform.Helpers.ICounter-1.html
-  commentId: T:Platform.Helpers.ICounter`1
-  name.vb: ICounter(Of TResult)
-  fullName: Platform.Helpers.ICounter<TResult>
-  fullName.vb: Platform.Helpers.ICounter(Of TResult)
-  nameWithType: ICounter<TResult>
-  nameWithType.vb: ICounter(Of TResult)
-- uid: Platform.Helpers.ICounter`1.Count
-  name: Count()
-  href: api/Platform.Helpers.ICounter-1.html#Platform_Helpers_ICounter_1_Count
-  commentId: M:Platform.Helpers.ICounter`1.Count
-  fullName: Platform.Helpers.ICounter<TResult>.Count()
-  fullName.vb: Platform.Helpers.ICounter(Of TResult).Count()
-  nameWithType: ICounter<TResult>.Count()
-  nameWithType.vb: ICounter(Of TResult).Count()
-- uid: Platform.Helpers.ICounter`1.Count*
-  name: Count
-  href: api/Platform.Helpers.ICounter-1.html#Platform_Helpers_ICounter_1_Count_
-  commentId: Overload:Platform.Helpers.ICounter`1.Count
-  isSpec: "True"
-  fullName: Platform.Helpers.ICounter<TResult>.Count
-  fullName.vb: Platform.Helpers.ICounter(Of TResult).Count
-  nameWithType: ICounter<TResult>.Count
-  nameWithType.vb: ICounter(Of TResult).Count
-- uid: Platform.Helpers.ICounter`2
-  name: ICounter<TArgument, TResult>
-  href: api/Platform.Helpers.ICounter-2.html
-  commentId: T:Platform.Helpers.ICounter`2
-  name.vb: ICounter(Of TArgument, TResult)
-  fullName: Platform.Helpers.ICounter<TArgument, TResult>
-  fullName.vb: Platform.Helpers.ICounter(Of TArgument, TResult)
-  nameWithType: ICounter<TArgument, TResult>
-  nameWithType.vb: ICounter(Of TArgument, TResult)
-- uid: Platform.Helpers.ICounter`2.Count(`0)
-  name: Count(TArgument)
-  href: api/Platform.Helpers.ICounter-2.html#Platform_Helpers_ICounter_2_Count__0_
-  commentId: M:Platform.Helpers.ICounter`2.Count(`0)
-  fullName: Platform.Helpers.ICounter<TArgument, TResult>.Count(TArgument)
-  fullName.vb: Platform.Helpers.ICounter(Of TArgument, TResult).Count(TArgument)
-  nameWithType: ICounter<TArgument, TResult>.Count(TArgument)
-  nameWithType.vb: ICounter(Of TArgument, TResult).Count(TArgument)
-- uid: Platform.Helpers.ICounter`2.Count*
-  name: Count
-  href: api/Platform.Helpers.ICounter-2.html#Platform_Helpers_ICounter_2_Count_
-  commentId: Overload:Platform.Helpers.ICounter`2.Count
-  isSpec: "True"
-  fullName: Platform.Helpers.ICounter<TArgument, TResult>.Count
-  fullName.vb: Platform.Helpers.ICounter(Of TArgument, TResult).Count
-  nameWithType: ICounter<TArgument, TResult>.Count
-  nameWithType.vb: ICounter(Of TArgument, TResult).Count
-- uid: Platform.Helpers.ICreteriaMatcher`1
-  name: ICreteriaMatcher<TArgument>
-  href: api/Platform.Helpers.ICreteriaMatcher-1.html
-  commentId: T:Platform.Helpers.ICreteriaMatcher`1
-  name.vb: ICreteriaMatcher(Of TArgument)
-  fullName: Platform.Helpers.ICreteriaMatcher<TArgument>
-  fullName.vb: Platform.Helpers.ICreteriaMatcher(Of TArgument)
-  nameWithType: ICreteriaMatcher<TArgument>
-  nameWithType.vb: ICreteriaMatcher(Of TArgument)
-- uid: Platform.Helpers.ICreteriaMatcher`1.IsMatched(`0)
-  name: IsMatched(TArgument)
-  href: api/Platform.Helpers.ICreteriaMatcher-1.html#Platform_Helpers_ICreteriaMatcher_1_IsMatched__0_
-  commentId: M:Platform.Helpers.ICreteriaMatcher`1.IsMatched(`0)
-  fullName: Platform.Helpers.ICreteriaMatcher<TArgument>.IsMatched(TArgument)
-  fullName.vb: Platform.Helpers.ICreteriaMatcher(Of TArgument).IsMatched(TArgument)
-  nameWithType: ICreteriaMatcher<TArgument>.IsMatched(TArgument)
-  nameWithType.vb: ICreteriaMatcher(Of TArgument).IsMatched(TArgument)
-- uid: Platform.Helpers.ICreteriaMatcher`1.IsMatched*
-  name: IsMatched
-  href: api/Platform.Helpers.ICreteriaMatcher-1.html#Platform_Helpers_ICreteriaMatcher_1_IsMatched_
-  commentId: Overload:Platform.Helpers.ICreteriaMatcher`1.IsMatched
-  isSpec: "True"
-  fullName: Platform.Helpers.ICreteriaMatcher<TArgument>.IsMatched
-  fullName.vb: Platform.Helpers.ICreteriaMatcher(Of TArgument).IsMatched
-  nameWithType: ICreteriaMatcher<TArgument>.IsMatched
-  nameWithType.vb: ICreteriaMatcher(Of TArgument).IsMatched
-- uid: Platform.Helpers.IFactory`1
-  name: IFactory<TProduct>
-  href: api/Platform.Helpers.IFactory-1.html
-  commentId: T:Platform.Helpers.IFactory`1
-  name.vb: IFactory(Of TProduct)
-  fullName: Platform.Helpers.IFactory<TProduct>
-  fullName.vb: Platform.Helpers.IFactory(Of TProduct)
-  nameWithType: IFactory<TProduct>
-  nameWithType.vb: IFactory(Of TProduct)
-- uid: Platform.Helpers.IFactory`1.Create
-  name: Create()
-  href: api/Platform.Helpers.IFactory-1.html#Platform_Helpers_IFactory_1_Create
-  commentId: M:Platform.Helpers.IFactory`1.Create
-  fullName: Platform.Helpers.IFactory<TProduct>.Create()
-  fullName.vb: Platform.Helpers.IFactory(Of TProduct).Create()
-  nameWithType: IFactory<TProduct>.Create()
-  nameWithType.vb: IFactory(Of TProduct).Create()
-- uid: Platform.Helpers.IFactory`1.Create*
-  name: Create
-  href: api/Platform.Helpers.IFactory-1.html#Platform_Helpers_IFactory_1_Create_
-  commentId: Overload:Platform.Helpers.IFactory`1.Create
-  isSpec: "True"
-  fullName: Platform.Helpers.IFactory<TProduct>.Create
-  fullName.vb: Platform.Helpers.IFactory(Of TProduct).Create
-  nameWithType: IFactory<TProduct>.Create
-  nameWithType.vb: IFactory(Of TProduct).Create
-- uid: Platform.Helpers.IIncrementer`1
-  name: IIncrementer<T>
-  href: api/Platform.Helpers.IIncrementer-1.html
-  commentId: T:Platform.Helpers.IIncrementer`1
-  name.vb: IIncrementer(Of T)
-  fullName: Platform.Helpers.IIncrementer<T>
-  fullName.vb: Platform.Helpers.IIncrementer(Of T)
-  nameWithType: IIncrementer<T>
-  nameWithType.vb: IIncrementer(Of T)
-- uid: Platform.Helpers.IIncrementer`1.Increment(`0)
-  name: Increment(T)
-  href: api/Platform.Helpers.IIncrementer-1.html#Platform_Helpers_IIncrementer_1_Increment__0_
-  commentId: M:Platform.Helpers.IIncrementer`1.Increment(`0)
-  fullName: Platform.Helpers.IIncrementer<T>.Increment(T)
-  fullName.vb: Platform.Helpers.IIncrementer(Of T).Increment(T)
-  nameWithType: IIncrementer<T>.Increment(T)
-  nameWithType.vb: IIncrementer(Of T).Increment(T)
-- uid: Platform.Helpers.IIncrementer`1.Increment*
-  name: Increment
-  href: api/Platform.Helpers.IIncrementer-1.html#Platform_Helpers_IIncrementer_1_Increment_
-  commentId: Overload:Platform.Helpers.IIncrementer`1.Increment
-  isSpec: "True"
-  fullName: Platform.Helpers.IIncrementer<T>.Increment
-  fullName.vb: Platform.Helpers.IIncrementer(Of T).Increment
-  nameWithType: IIncrementer<T>.Increment
-  nameWithType.vb: IIncrementer(Of T).Increment
 - uid: Platform.Helpers.Integer
   name: Integer
   href: api/Platform.Helpers.Integer.html
@@ -18183,97 +17538,6 @@ references:
   fullName.vb: Platform.Helpers.Integer(Of T).Zero
   nameWithType: Integer<T>.Zero
   nameWithType.vb: Integer(Of T).Zero
-- uid: Platform.Helpers.IntPtrExtensions
-  name: IntPtrExtensions
-  href: api/Platform.Helpers.IntPtrExtensions.html
-  commentId: T:Platform.Helpers.IntPtrExtensions
-  fullName: Platform.Helpers.IntPtrExtensions
-  nameWithType: IntPtrExtensions
-- uid: Platform.Helpers.IntPtrExtensions.GetElement(IntPtr,System.Int32,System.Int32)
-  name: GetElement(IntPtr, Int32, Int32)
-  href: api/Platform.Helpers.IntPtrExtensions.html#Platform_Helpers_IntPtrExtensions_GetElement_IntPtr_System_Int32_System_Int32_
-  commentId: M:Platform.Helpers.IntPtrExtensions.GetElement(IntPtr,System.Int32,System.Int32)
-  fullName: Platform.Helpers.IntPtrExtensions.GetElement(IntPtr, System.Int32, System.Int32)
-  nameWithType: IntPtrExtensions.GetElement(IntPtr, Int32, Int32)
-- uid: Platform.Helpers.IntPtrExtensions.GetElement(IntPtr,System.Int64,System.Int64)
-  name: GetElement(IntPtr, Int64, Int64)
-  href: api/Platform.Helpers.IntPtrExtensions.html#Platform_Helpers_IntPtrExtensions_GetElement_IntPtr_System_Int64_System_Int64_
-  commentId: M:Platform.Helpers.IntPtrExtensions.GetElement(IntPtr,System.Int64,System.Int64)
-  fullName: Platform.Helpers.IntPtrExtensions.GetElement(IntPtr, System.Int64, System.Int64)
-  nameWithType: IntPtrExtensions.GetElement(IntPtr, Int64, Int64)
-- uid: Platform.Helpers.IntPtrExtensions.GetElement*
-  name: GetElement
-  href: api/Platform.Helpers.IntPtrExtensions.html#Platform_Helpers_IntPtrExtensions_GetElement_
-  commentId: Overload:Platform.Helpers.IntPtrExtensions.GetElement
-  isSpec: "True"
-  fullName: Platform.Helpers.IntPtrExtensions.GetElement
-  nameWithType: IntPtrExtensions.GetElement
-- uid: Platform.Helpers.IntPtrExtensions.GetElement``1(IntPtr,System.Int32,``0)
-  name: GetElement<TIndex>(IntPtr, Int32, TIndex)
-  href: api/Platform.Helpers.IntPtrExtensions.html#Platform_Helpers_IntPtrExtensions_GetElement__1_IntPtr_System_Int32___0_
-  commentId: M:Platform.Helpers.IntPtrExtensions.GetElement``1(IntPtr,System.Int32,``0)
-  name.vb: GetElement(Of TIndex)(IntPtr, Int32, TIndex)
-  fullName: Platform.Helpers.IntPtrExtensions.GetElement<TIndex>(IntPtr, System.Int32, TIndex)
-  fullName.vb: Platform.Helpers.IntPtrExtensions.GetElement(Of TIndex)(IntPtr, System.Int32, TIndex)
-  nameWithType: IntPtrExtensions.GetElement<TIndex>(IntPtr, Int32, TIndex)
-  nameWithType.vb: IntPtrExtensions.GetElement(Of TIndex)(IntPtr, Int32, TIndex)
-- uid: Platform.Helpers.IntPtrExtensions.GetValue*
-  name: GetValue
-  href: api/Platform.Helpers.IntPtrExtensions.html#Platform_Helpers_IntPtrExtensions_GetValue_
-  commentId: Overload:Platform.Helpers.IntPtrExtensions.GetValue
-  isSpec: "True"
-  fullName: Platform.Helpers.IntPtrExtensions.GetValue
-  nameWithType: IntPtrExtensions.GetValue
-- uid: Platform.Helpers.IntPtrExtensions.GetValue``1(IntPtr)
-  name: GetValue<TElement>(IntPtr)
-  href: api/Platform.Helpers.IntPtrExtensions.html#Platform_Helpers_IntPtrExtensions_GetValue__1_IntPtr_
-  commentId: M:Platform.Helpers.IntPtrExtensions.GetValue``1(IntPtr)
-  name.vb: GetValue(Of TElement)(IntPtr)
-  fullName: Platform.Helpers.IntPtrExtensions.GetValue<TElement>(IntPtr)
-  fullName.vb: Platform.Helpers.IntPtrExtensions.GetValue(Of TElement)(IntPtr)
-  nameWithType: IntPtrExtensions.GetValue<TElement>(IntPtr)
-  nameWithType.vb: IntPtrExtensions.GetValue(Of TElement)(IntPtr)
-- uid: Platform.Helpers.IntPtrExtensions.SetValue*
-  name: SetValue
-  href: api/Platform.Helpers.IntPtrExtensions.html#Platform_Helpers_IntPtrExtensions_SetValue_
-  commentId: Overload:Platform.Helpers.IntPtrExtensions.SetValue
-  isSpec: "True"
-  fullName: Platform.Helpers.IntPtrExtensions.SetValue
-  nameWithType: IntPtrExtensions.SetValue
-- uid: Platform.Helpers.IntPtrExtensions.SetValue``1(IntPtr,``0)
-  name: SetValue<TElement>(IntPtr, TElement)
-  href: api/Platform.Helpers.IntPtrExtensions.html#Platform_Helpers_IntPtrExtensions_SetValue__1_IntPtr___0_
-  commentId: M:Platform.Helpers.IntPtrExtensions.SetValue``1(IntPtr,``0)
-  name.vb: SetValue(Of TElement)(IntPtr, TElement)
-  fullName: Platform.Helpers.IntPtrExtensions.SetValue<TElement>(IntPtr, TElement)
-  fullName.vb: Platform.Helpers.IntPtrExtensions.SetValue(Of TElement)(IntPtr, TElement)
-  nameWithType: IntPtrExtensions.SetValue<TElement>(IntPtr, TElement)
-  nameWithType.vb: IntPtrExtensions.SetValue(Of TElement)(IntPtr, TElement)
-- uid: Platform.Helpers.IntPtrExtensions`1
-  name: IntPtrExtensions<T>
-  href: api/Platform.Helpers.IntPtrExtensions-1.html
-  commentId: T:Platform.Helpers.IntPtrExtensions`1
-  name.vb: IntPtrExtensions(Of T)
-  fullName: Platform.Helpers.IntPtrExtensions<T>
-  fullName.vb: Platform.Helpers.IntPtrExtensions(Of T)
-  nameWithType: IntPtrExtensions<T>
-  nameWithType.vb: IntPtrExtensions(Of T)
-- uid: Platform.Helpers.IntPtrExtensions`1.CompiledGetValue
-  name: CompiledGetValue
-  href: api/Platform.Helpers.IntPtrExtensions-1.html#Platform_Helpers_IntPtrExtensions_1_CompiledGetValue
-  commentId: F:Platform.Helpers.IntPtrExtensions`1.CompiledGetValue
-  fullName: Platform.Helpers.IntPtrExtensions<T>.CompiledGetValue
-  fullName.vb: Platform.Helpers.IntPtrExtensions(Of T).CompiledGetValue
-  nameWithType: IntPtrExtensions<T>.CompiledGetValue
-  nameWithType.vb: IntPtrExtensions(Of T).CompiledGetValue
-- uid: Platform.Helpers.IntPtrExtensions`1.CompiledSetValue
-  name: CompiledSetValue
-  href: api/Platform.Helpers.IntPtrExtensions-1.html#Platform_Helpers_IntPtrExtensions_1_CompiledSetValue
-  commentId: F:Platform.Helpers.IntPtrExtensions`1.CompiledSetValue
-  fullName: Platform.Helpers.IntPtrExtensions<T>.CompiledSetValue
-  fullName.vb: Platform.Helpers.IntPtrExtensions(Of T).CompiledSetValue
-  nameWithType: IntPtrExtensions<T>.CompiledSetValue
-  nameWithType.vb: IntPtrExtensions(Of T).CompiledSetValue
 - uid: Platform.Helpers.IO
   name: Platform.Helpers.IO
   href: api/Platform.Helpers.IO.html
@@ -18456,127 +17720,6 @@ references:
   fullName.vb: Platform.Helpers.IO.StreamExtensions.Write(Of T)(Stream, T)
   nameWithType: StreamExtensions.Write<T>(Stream, T)
   nameWithType.vb: StreamExtensions.Write(Of T)(Stream, T)
-- uid: Platform.Helpers.IPropertyOperator`3
-  name: IPropertyOperator<TObject, TProperty, TValue>
-  href: api/Platform.Helpers.IPropertyOperator-3.html
-  commentId: T:Platform.Helpers.IPropertyOperator`3
-  name.vb: IPropertyOperator(Of TObject, TProperty, TValue)
-  fullName: Platform.Helpers.IPropertyOperator<TObject, TProperty, TValue>
-  fullName.vb: Platform.Helpers.IPropertyOperator(Of TObject, TProperty, TValue)
-  nameWithType: IPropertyOperator<TObject, TProperty, TValue>
-  nameWithType.vb: IPropertyOperator(Of TObject, TProperty, TValue)
-- uid: Platform.Helpers.IPropertyOperator`3.GetValue(`0,`1)
-  name: GetValue(TObject, TProperty)
-  href: api/Platform.Helpers.IPropertyOperator-3.html#Platform_Helpers_IPropertyOperator_3_GetValue__0__1_
-  commentId: M:Platform.Helpers.IPropertyOperator`3.GetValue(`0,`1)
-  fullName: Platform.Helpers.IPropertyOperator<TObject, TProperty, TValue>.GetValue(TObject, TProperty)
-  fullName.vb: Platform.Helpers.IPropertyOperator(Of TObject, TProperty, TValue).GetValue(TObject, TProperty)
-  nameWithType: IPropertyOperator<TObject, TProperty, TValue>.GetValue(TObject, TProperty)
-  nameWithType.vb: IPropertyOperator(Of TObject, TProperty, TValue).GetValue(TObject, TProperty)
-- uid: Platform.Helpers.IPropertyOperator`3.GetValue*
-  name: GetValue
-  href: api/Platform.Helpers.IPropertyOperator-3.html#Platform_Helpers_IPropertyOperator_3_GetValue_
-  commentId: Overload:Platform.Helpers.IPropertyOperator`3.GetValue
-  isSpec: "True"
-  fullName: Platform.Helpers.IPropertyOperator<TObject, TProperty, TValue>.GetValue
-  fullName.vb: Platform.Helpers.IPropertyOperator(Of TObject, TProperty, TValue).GetValue
-  nameWithType: IPropertyOperator<TObject, TProperty, TValue>.GetValue
-  nameWithType.vb: IPropertyOperator(Of TObject, TProperty, TValue).GetValue
-- uid: Platform.Helpers.IPropertyOperator`3.SetValue(`0,`1,`2)
-  name: SetValue(TObject, TProperty, TValue)
-  href: api/Platform.Helpers.IPropertyOperator-3.html#Platform_Helpers_IPropertyOperator_3_SetValue__0__1__2_
-  commentId: M:Platform.Helpers.IPropertyOperator`3.SetValue(`0,`1,`2)
-  fullName: Platform.Helpers.IPropertyOperator<TObject, TProperty, TValue>.SetValue(TObject, TProperty, TValue)
-  fullName.vb: Platform.Helpers.IPropertyOperator(Of TObject, TProperty, TValue).SetValue(TObject, TProperty, TValue)
-  nameWithType: IPropertyOperator<TObject, TProperty, TValue>.SetValue(TObject, TProperty, TValue)
-  nameWithType.vb: IPropertyOperator(Of TObject, TProperty, TValue).SetValue(TObject, TProperty, TValue)
-- uid: Platform.Helpers.IPropertyOperator`3.SetValue*
-  name: SetValue
-  href: api/Platform.Helpers.IPropertyOperator-3.html#Platform_Helpers_IPropertyOperator_3_SetValue_
-  commentId: Overload:Platform.Helpers.IPropertyOperator`3.SetValue
-  isSpec: "True"
-  fullName: Platform.Helpers.IPropertyOperator<TObject, TProperty, TValue>.SetValue
-  fullName.vb: Platform.Helpers.IPropertyOperator(Of TObject, TProperty, TValue).SetValue
-  nameWithType: IPropertyOperator<TObject, TProperty, TValue>.SetValue
-  nameWithType.vb: IPropertyOperator(Of TObject, TProperty, TValue).SetValue
-- uid: Platform.Helpers.IProvider`1
-  name: IProvider<TProvided>
-  href: api/Platform.Helpers.IProvider-1.html
-  commentId: T:Platform.Helpers.IProvider`1
-  name.vb: IProvider(Of TProvided)
-  fullName: Platform.Helpers.IProvider<TProvided>
-  fullName.vb: Platform.Helpers.IProvider(Of TProvided)
-  nameWithType: IProvider<TProvided>
-  nameWithType.vb: IProvider(Of TProvided)
-- uid: Platform.Helpers.IProvider`1.Get
-  name: Get()
-  href: api/Platform.Helpers.IProvider-1.html#Platform_Helpers_IProvider_1_Get
-  commentId: M:Platform.Helpers.IProvider`1.Get
-  fullName: Platform.Helpers.IProvider<TProvided>.Get()
-  fullName.vb: Platform.Helpers.IProvider(Of TProvided).Get()
-  nameWithType: IProvider<TProvided>.Get()
-  nameWithType.vb: IProvider(Of TProvided).Get()
-- uid: Platform.Helpers.IProvider`1.Get*
-  name: Get
-  href: api/Platform.Helpers.IProvider-1.html#Platform_Helpers_IProvider_1_Get_
-  commentId: Overload:Platform.Helpers.IProvider`1.Get
-  isSpec: "True"
-  fullName: Platform.Helpers.IProvider<TProvided>.Get
-  fullName.vb: Platform.Helpers.IProvider(Of TProvided).Get
-  nameWithType: IProvider<TProvided>.Get
-  nameWithType.vb: IProvider(Of TProvided).Get
-- uid: Platform.Helpers.IProvider`2
-  name: IProvider<TProvided, TArgument>
-  href: api/Platform.Helpers.IProvider-2.html
-  commentId: T:Platform.Helpers.IProvider`2
-  name.vb: IProvider(Of TProvided, TArgument)
-  fullName: Platform.Helpers.IProvider<TProvided, TArgument>
-  fullName.vb: Platform.Helpers.IProvider(Of TProvided, TArgument)
-  nameWithType: IProvider<TProvided, TArgument>
-  nameWithType.vb: IProvider(Of TProvided, TArgument)
-- uid: Platform.Helpers.IProvider`2.Get(`1)
-  name: Get(TArgument)
-  href: api/Platform.Helpers.IProvider-2.html#Platform_Helpers_IProvider_2_Get__1_
-  commentId: M:Platform.Helpers.IProvider`2.Get(`1)
-  fullName: Platform.Helpers.IProvider<TProvided, TArgument>.Get(TArgument)
-  fullName.vb: Platform.Helpers.IProvider(Of TProvided, TArgument).Get(TArgument)
-  nameWithType: IProvider<TProvided, TArgument>.Get(TArgument)
-  nameWithType.vb: IProvider(Of TProvided, TArgument).Get(TArgument)
-- uid: Platform.Helpers.IProvider`2.Get*
-  name: Get
-  href: api/Platform.Helpers.IProvider-2.html#Platform_Helpers_IProvider_2_Get_
-  commentId: Overload:Platform.Helpers.IProvider`2.Get
-  isSpec: "True"
-  fullName: Platform.Helpers.IProvider<TProvided, TArgument>.Get
-  fullName.vb: Platform.Helpers.IProvider(Of TProvided, TArgument).Get
-  nameWithType: IProvider<TProvided, TArgument>.Get
-  nameWithType.vb: IProvider(Of TProvided, TArgument).Get
-- uid: Platform.Helpers.ISpecificPropertyOperator`2
-  name: ISpecificPropertyOperator<TObject, TValue>
-  href: api/Platform.Helpers.ISpecificPropertyOperator-2.html
-  commentId: T:Platform.Helpers.ISpecificPropertyOperator`2
-  name.vb: ISpecificPropertyOperator(Of TObject, TValue)
-  fullName: Platform.Helpers.ISpecificPropertyOperator<TObject, TValue>
-  fullName.vb: Platform.Helpers.ISpecificPropertyOperator(Of TObject, TValue)
-  nameWithType: ISpecificPropertyOperator<TObject, TValue>
-  nameWithType.vb: ISpecificPropertyOperator(Of TObject, TValue)
-- uid: Platform.Helpers.ISpecificPropertyOperator`2.Set(`0,`1)
-  name: Set(TObject, TValue)
-  href: api/Platform.Helpers.ISpecificPropertyOperator-2.html#Platform_Helpers_ISpecificPropertyOperator_2_Set__0__1_
-  commentId: M:Platform.Helpers.ISpecificPropertyOperator`2.Set(`0,`1)
-  fullName: Platform.Helpers.ISpecificPropertyOperator<TObject, TValue>.Set(TObject, TValue)
-  fullName.vb: Platform.Helpers.ISpecificPropertyOperator(Of TObject, TValue).Set(TObject, TValue)
-  nameWithType: ISpecificPropertyOperator<TObject, TValue>.Set(TObject, TValue)
-  nameWithType.vb: ISpecificPropertyOperator(Of TObject, TValue).Set(TObject, TValue)
-- uid: Platform.Helpers.ISpecificPropertyOperator`2.Set*
-  name: Set
-  href: api/Platform.Helpers.ISpecificPropertyOperator-2.html#Platform_Helpers_ISpecificPropertyOperator_2_Set_
-  commentId: Overload:Platform.Helpers.ISpecificPropertyOperator`2.Set
-  isSpec: "True"
-  fullName: Platform.Helpers.ISpecificPropertyOperator<TObject, TValue>.Set
-  fullName.vb: Platform.Helpers.ISpecificPropertyOperator(Of TObject, TValue).Set
-  nameWithType: ISpecificPropertyOperator<TObject, TValue>.Set
-  nameWithType.vb: ISpecificPropertyOperator(Of TObject, TValue).Set
 - uid: Platform.Helpers.MathExtensions
   name: MathExtensions
   href: api/Platform.Helpers.MathExtensions.html
@@ -19104,25 +18247,6 @@ references:
   fullName.vb: Platform.Helpers.MathHelpers(Of T).Subtract
   nameWithType: MathHelpers<T>.Subtract
   nameWithType.vb: MathHelpers(Of T).Subtract
-- uid: Platform.Helpers.MemoryHelpers
-  name: MemoryHelpers
-  href: api/Platform.Helpers.MemoryHelpers.html
-  commentId: T:Platform.Helpers.MemoryHelpers
-  fullName: Platform.Helpers.MemoryHelpers
-  nameWithType: MemoryHelpers
-- uid: Platform.Helpers.MemoryHelpers.ZeroMemory(System.Void*,System.Int64)
-  name: ZeroMemory(Void*, Int64)
-  href: api/Platform.Helpers.MemoryHelpers.html#Platform_Helpers_MemoryHelpers_ZeroMemory_System_Void__System_Int64_
-  commentId: M:Platform.Helpers.MemoryHelpers.ZeroMemory(System.Void*,System.Int64)
-  fullName: Platform.Helpers.MemoryHelpers.ZeroMemory(System.Void*, System.Int64)
-  nameWithType: MemoryHelpers.ZeroMemory(Void*, Int64)
-- uid: Platform.Helpers.MemoryHelpers.ZeroMemory*
-  name: ZeroMemory
-  href: api/Platform.Helpers.MemoryHelpers.html#Platform_Helpers_MemoryHelpers_ZeroMemory_
-  commentId: Overload:Platform.Helpers.MemoryHelpers.ZeroMemory
-  isSpec: "True"
-  fullName: Platform.Helpers.MemoryHelpers.ZeroMemory
-  nameWithType: MemoryHelpers.ZeroMemory
 - uid: Platform.Helpers.Node
   name: Node
   href: api/Platform.Helpers.Node.html
@@ -20593,13 +19717,13 @@ references:
   fullName.vb: Platform.Helpers.Scope.UseSingleton(Of T)(Func(Of T))
   nameWithType: Scope.UseSingleton<T>(Func<T>)
   nameWithType.vb: Scope.UseSingleton(Of T)(Func(Of T))
-- uid: Platform.Helpers.Scope.UseSingleton``1(Platform.Helpers.IFactory{``0})
+- uid: Platform.Helpers.Scope.UseSingleton``1(IFactory{``0})
   name: UseSingleton<T>(IFactory<T>)
-  href: api/Platform.Helpers.Scope.html#Platform_Helpers_Scope_UseSingleton__1_Platform_Helpers_IFactory___0__
-  commentId: M:Platform.Helpers.Scope.UseSingleton``1(Platform.Helpers.IFactory{``0})
+  href: api/Platform.Helpers.Scope.html#Platform_Helpers_Scope_UseSingleton__1_IFactory___0__
+  commentId: M:Platform.Helpers.Scope.UseSingleton``1(IFactory{``0})
   name.vb: UseSingleton(Of T)(IFactory(Of T))
-  fullName: Platform.Helpers.Scope.UseSingleton<T>(Platform.Helpers.IFactory<T>)
-  fullName.vb: Platform.Helpers.Scope.UseSingleton(Of T)(Platform.Helpers.IFactory(Of T))
+  fullName: Platform.Helpers.Scope.UseSingleton<T>(IFactory<T>)
+  fullName.vb: Platform.Helpers.Scope.UseSingleton(Of T)(IFactory(Of T))
   nameWithType: Scope.UseSingleton<T>(IFactory<T>)
   nameWithType.vb: Scope.UseSingleton(Of T)(IFactory(Of T))
 - uid: Platform.Helpers.Scope`1
@@ -20951,13 +20075,13 @@ references:
   fullName.vb: Platform.Helpers.Singleton.Create(Of T)(Func(Of T))
   nameWithType: Singleton.Create<T>(Func<T>)
   nameWithType.vb: Singleton.Create(Of T)(Func(Of T))
-- uid: Platform.Helpers.Singleton.Create``1(Platform.Helpers.IFactory{``0})
+- uid: Platform.Helpers.Singleton.Create``1(IFactory{``0})
   name: Create<T>(IFactory<T>)
-  href: api/Platform.Helpers.Singleton.html#Platform_Helpers_Singleton_Create__1_Platform_Helpers_IFactory___0__
-  commentId: M:Platform.Helpers.Singleton.Create``1(Platform.Helpers.IFactory{``0})
+  href: api/Platform.Helpers.Singleton.html#Platform_Helpers_Singleton_Create__1_IFactory___0__
+  commentId: M:Platform.Helpers.Singleton.Create``1(IFactory{``0})
   name.vb: Create(Of T)(IFactory(Of T))
-  fullName: Platform.Helpers.Singleton.Create<T>(Platform.Helpers.IFactory<T>)
-  fullName.vb: Platform.Helpers.Singleton.Create(Of T)(Platform.Helpers.IFactory(Of T))
+  fullName: Platform.Helpers.Singleton.Create<T>(IFactory<T>)
+  fullName.vb: Platform.Helpers.Singleton.Create(Of T)(IFactory(Of T))
   nameWithType: Singleton.Create<T>(IFactory<T>)
   nameWithType.vb: Singleton.Create(Of T)(IFactory(Of T))
 - uid: Platform.Helpers.Singleton.Get*
@@ -20976,13 +20100,13 @@ references:
   fullName.vb: Platform.Helpers.Singleton.Get(Of T)(Func(Of T))
   nameWithType: Singleton.Get<T>(Func<T>)
   nameWithType.vb: Singleton.Get(Of T)(Func(Of T))
-- uid: Platform.Helpers.Singleton.Get``1(Platform.Helpers.IFactory{``0})
+- uid: Platform.Helpers.Singleton.Get``1(IFactory{``0})
   name: Get<T>(IFactory<T>)
-  href: api/Platform.Helpers.Singleton.html#Platform_Helpers_Singleton_Get__1_Platform_Helpers_IFactory___0__
-  commentId: M:Platform.Helpers.Singleton.Get``1(Platform.Helpers.IFactory{``0})
+  href: api/Platform.Helpers.Singleton.html#Platform_Helpers_Singleton_Get__1_IFactory___0__
+  commentId: M:Platform.Helpers.Singleton.Get``1(IFactory{``0})
   name.vb: Get(Of T)(IFactory(Of T))
-  fullName: Platform.Helpers.Singleton.Get<T>(Platform.Helpers.IFactory<T>)
-  fullName.vb: Platform.Helpers.Singleton.Get(Of T)(Platform.Helpers.IFactory(Of T))
+  fullName: Platform.Helpers.Singleton.Get<T>(IFactory<T>)
+  fullName.vb: Platform.Helpers.Singleton.Get(Of T)(IFactory(Of T))
   nameWithType: Singleton.Get<T>(IFactory<T>)
   nameWithType.vb: Singleton.Get(Of T)(IFactory(Of T))
 - uid: Platform.Helpers.Singleton`1
@@ -22007,26 +21131,142 @@ references:
   isSpec: "True"
   fullName: Platform.Helpers.UniqueTimestampFactory.Create
   nameWithType: UniqueTimestampFactory.Create
-- uid: Platform.Helpers.UnsafeHelpers
-  name: UnsafeHelpers
-  href: api/Platform.Helpers.UnsafeHelpers.html
-  commentId: T:Platform.Helpers.UnsafeHelpers
-  fullName: Platform.Helpers.UnsafeHelpers
-  nameWithType: UnsafeHelpers
-- uid: Platform.Helpers.UnsafeHelpers.SizeOf*
-  name: SizeOf
-  href: api/Platform.Helpers.UnsafeHelpers.html#Platform_Helpers_UnsafeHelpers_SizeOf_
-  commentId: Overload:Platform.Helpers.UnsafeHelpers.SizeOf
+- uid: Platform.Helpers.Unsafe
+  name: Platform.Helpers.Unsafe
+  href: api/Platform.Helpers.Unsafe.html
+  commentId: N:Platform.Helpers.Unsafe
+  fullName: Platform.Helpers.Unsafe
+  nameWithType: Platform.Helpers.Unsafe
+- uid: Platform.Helpers.Unsafe.IntPtrExtensions
+  name: IntPtrExtensions
+  href: api/Platform.Helpers.Unsafe.IntPtrExtensions.html
+  commentId: T:Platform.Helpers.Unsafe.IntPtrExtensions
+  fullName: Platform.Helpers.Unsafe.IntPtrExtensions
+  nameWithType: IntPtrExtensions
+- uid: Platform.Helpers.Unsafe.IntPtrExtensions.GetElement(IntPtr,System.Int32,System.Int32)
+  name: GetElement(IntPtr, Int32, Int32)
+  href: api/Platform.Helpers.Unsafe.IntPtrExtensions.html#Platform_Helpers_Unsafe_IntPtrExtensions_GetElement_IntPtr_System_Int32_System_Int32_
+  commentId: M:Platform.Helpers.Unsafe.IntPtrExtensions.GetElement(IntPtr,System.Int32,System.Int32)
+  fullName: Platform.Helpers.Unsafe.IntPtrExtensions.GetElement(IntPtr, System.Int32, System.Int32)
+  nameWithType: IntPtrExtensions.GetElement(IntPtr, Int32, Int32)
+- uid: Platform.Helpers.Unsafe.IntPtrExtensions.GetElement(IntPtr,System.Int64,System.Int64)
+  name: GetElement(IntPtr, Int64, Int64)
+  href: api/Platform.Helpers.Unsafe.IntPtrExtensions.html#Platform_Helpers_Unsafe_IntPtrExtensions_GetElement_IntPtr_System_Int64_System_Int64_
+  commentId: M:Platform.Helpers.Unsafe.IntPtrExtensions.GetElement(IntPtr,System.Int64,System.Int64)
+  fullName: Platform.Helpers.Unsafe.IntPtrExtensions.GetElement(IntPtr, System.Int64, System.Int64)
+  nameWithType: IntPtrExtensions.GetElement(IntPtr, Int64, Int64)
+- uid: Platform.Helpers.Unsafe.IntPtrExtensions.GetElement*
+  name: GetElement
+  href: api/Platform.Helpers.Unsafe.IntPtrExtensions.html#Platform_Helpers_Unsafe_IntPtrExtensions_GetElement_
+  commentId: Overload:Platform.Helpers.Unsafe.IntPtrExtensions.GetElement
   isSpec: "True"
-  fullName: Platform.Helpers.UnsafeHelpers.SizeOf
+  fullName: Platform.Helpers.Unsafe.IntPtrExtensions.GetElement
+  nameWithType: IntPtrExtensions.GetElement
+- uid: Platform.Helpers.Unsafe.IntPtrExtensions.GetElement``1(IntPtr,System.Int32,``0)
+  name: GetElement<TIndex>(IntPtr, Int32, TIndex)
+  href: api/Platform.Helpers.Unsafe.IntPtrExtensions.html#Platform_Helpers_Unsafe_IntPtrExtensions_GetElement__1_IntPtr_System_Int32___0_
+  commentId: M:Platform.Helpers.Unsafe.IntPtrExtensions.GetElement``1(IntPtr,System.Int32,``0)
+  name.vb: GetElement(Of TIndex)(IntPtr, Int32, TIndex)
+  fullName: Platform.Helpers.Unsafe.IntPtrExtensions.GetElement<TIndex>(IntPtr, System.Int32, TIndex)
+  fullName.vb: Platform.Helpers.Unsafe.IntPtrExtensions.GetElement(Of TIndex)(IntPtr, System.Int32, TIndex)
+  nameWithType: IntPtrExtensions.GetElement<TIndex>(IntPtr, Int32, TIndex)
+  nameWithType.vb: IntPtrExtensions.GetElement(Of TIndex)(IntPtr, Int32, TIndex)
+- uid: Platform.Helpers.Unsafe.IntPtrExtensions.GetValue*
+  name: GetValue
+  href: api/Platform.Helpers.Unsafe.IntPtrExtensions.html#Platform_Helpers_Unsafe_IntPtrExtensions_GetValue_
+  commentId: Overload:Platform.Helpers.Unsafe.IntPtrExtensions.GetValue
+  isSpec: "True"
+  fullName: Platform.Helpers.Unsafe.IntPtrExtensions.GetValue
+  nameWithType: IntPtrExtensions.GetValue
+- uid: Platform.Helpers.Unsafe.IntPtrExtensions.GetValue``1(IntPtr)
+  name: GetValue<TElement>(IntPtr)
+  href: api/Platform.Helpers.Unsafe.IntPtrExtensions.html#Platform_Helpers_Unsafe_IntPtrExtensions_GetValue__1_IntPtr_
+  commentId: M:Platform.Helpers.Unsafe.IntPtrExtensions.GetValue``1(IntPtr)
+  name.vb: GetValue(Of TElement)(IntPtr)
+  fullName: Platform.Helpers.Unsafe.IntPtrExtensions.GetValue<TElement>(IntPtr)
+  fullName.vb: Platform.Helpers.Unsafe.IntPtrExtensions.GetValue(Of TElement)(IntPtr)
+  nameWithType: IntPtrExtensions.GetValue<TElement>(IntPtr)
+  nameWithType.vb: IntPtrExtensions.GetValue(Of TElement)(IntPtr)
+- uid: Platform.Helpers.Unsafe.IntPtrExtensions.SetValue*
+  name: SetValue
+  href: api/Platform.Helpers.Unsafe.IntPtrExtensions.html#Platform_Helpers_Unsafe_IntPtrExtensions_SetValue_
+  commentId: Overload:Platform.Helpers.Unsafe.IntPtrExtensions.SetValue
+  isSpec: "True"
+  fullName: Platform.Helpers.Unsafe.IntPtrExtensions.SetValue
+  nameWithType: IntPtrExtensions.SetValue
+- uid: Platform.Helpers.Unsafe.IntPtrExtensions.SetValue``1(IntPtr,``0)
+  name: SetValue<TElement>(IntPtr, TElement)
+  href: api/Platform.Helpers.Unsafe.IntPtrExtensions.html#Platform_Helpers_Unsafe_IntPtrExtensions_SetValue__1_IntPtr___0_
+  commentId: M:Platform.Helpers.Unsafe.IntPtrExtensions.SetValue``1(IntPtr,``0)
+  name.vb: SetValue(Of TElement)(IntPtr, TElement)
+  fullName: Platform.Helpers.Unsafe.IntPtrExtensions.SetValue<TElement>(IntPtr, TElement)
+  fullName.vb: Platform.Helpers.Unsafe.IntPtrExtensions.SetValue(Of TElement)(IntPtr, TElement)
+  nameWithType: IntPtrExtensions.SetValue<TElement>(IntPtr, TElement)
+  nameWithType.vb: IntPtrExtensions.SetValue(Of TElement)(IntPtr, TElement)
+- uid: Platform.Helpers.Unsafe.IntPtrHelpers`1
+  name: IntPtrHelpers<T>
+  href: api/Platform.Helpers.Unsafe.IntPtrHelpers-1.html
+  commentId: T:Platform.Helpers.Unsafe.IntPtrHelpers`1
+  name.vb: IntPtrHelpers(Of T)
+  fullName: Platform.Helpers.Unsafe.IntPtrHelpers<T>
+  fullName.vb: Platform.Helpers.Unsafe.IntPtrHelpers(Of T)
+  nameWithType: IntPtrHelpers<T>
+  nameWithType.vb: IntPtrHelpers(Of T)
+- uid: Platform.Helpers.Unsafe.IntPtrHelpers`1.GetValue
+  name: GetValue
+  href: api/Platform.Helpers.Unsafe.IntPtrHelpers-1.html#Platform_Helpers_Unsafe_IntPtrHelpers_1_GetValue
+  commentId: F:Platform.Helpers.Unsafe.IntPtrHelpers`1.GetValue
+  fullName: Platform.Helpers.Unsafe.IntPtrHelpers<T>.GetValue
+  fullName.vb: Platform.Helpers.Unsafe.IntPtrHelpers(Of T).GetValue
+  nameWithType: IntPtrHelpers<T>.GetValue
+  nameWithType.vb: IntPtrHelpers(Of T).GetValue
+- uid: Platform.Helpers.Unsafe.IntPtrHelpers`1.SetValue
+  name: SetValue
+  href: api/Platform.Helpers.Unsafe.IntPtrHelpers-1.html#Platform_Helpers_Unsafe_IntPtrHelpers_1_SetValue
+  commentId: F:Platform.Helpers.Unsafe.IntPtrHelpers`1.SetValue
+  fullName: Platform.Helpers.Unsafe.IntPtrHelpers<T>.SetValue
+  fullName.vb: Platform.Helpers.Unsafe.IntPtrHelpers(Of T).SetValue
+  nameWithType: IntPtrHelpers<T>.SetValue
+  nameWithType.vb: IntPtrHelpers(Of T).SetValue
+- uid: Platform.Helpers.Unsafe.MemoryHelpers
+  name: MemoryHelpers
+  href: api/Platform.Helpers.Unsafe.MemoryHelpers.html
+  commentId: T:Platform.Helpers.Unsafe.MemoryHelpers
+  fullName: Platform.Helpers.Unsafe.MemoryHelpers
+  nameWithType: MemoryHelpers
+- uid: Platform.Helpers.Unsafe.MemoryHelpers.ZeroMemory(System.Void*,System.Int64)
+  name: ZeroMemory(Void*, Int64)
+  href: api/Platform.Helpers.Unsafe.MemoryHelpers.html#Platform_Helpers_Unsafe_MemoryHelpers_ZeroMemory_System_Void__System_Int64_
+  commentId: M:Platform.Helpers.Unsafe.MemoryHelpers.ZeroMemory(System.Void*,System.Int64)
+  fullName: Platform.Helpers.Unsafe.MemoryHelpers.ZeroMemory(System.Void*, System.Int64)
+  nameWithType: MemoryHelpers.ZeroMemory(Void*, Int64)
+- uid: Platform.Helpers.Unsafe.MemoryHelpers.ZeroMemory*
+  name: ZeroMemory
+  href: api/Platform.Helpers.Unsafe.MemoryHelpers.html#Platform_Helpers_Unsafe_MemoryHelpers_ZeroMemory_
+  commentId: Overload:Platform.Helpers.Unsafe.MemoryHelpers.ZeroMemory
+  isSpec: "True"
+  fullName: Platform.Helpers.Unsafe.MemoryHelpers.ZeroMemory
+  nameWithType: MemoryHelpers.ZeroMemory
+- uid: Platform.Helpers.Unsafe.UnsafeHelpers
+  name: UnsafeHelpers
+  href: api/Platform.Helpers.Unsafe.UnsafeHelpers.html
+  commentId: T:Platform.Helpers.Unsafe.UnsafeHelpers
+  fullName: Platform.Helpers.Unsafe.UnsafeHelpers
+  nameWithType: UnsafeHelpers
+- uid: Platform.Helpers.Unsafe.UnsafeHelpers.SizeOf*
+  name: SizeOf
+  href: api/Platform.Helpers.Unsafe.UnsafeHelpers.html#Platform_Helpers_Unsafe_UnsafeHelpers_SizeOf_
+  commentId: Overload:Platform.Helpers.Unsafe.UnsafeHelpers.SizeOf
+  isSpec: "True"
+  fullName: Platform.Helpers.Unsafe.UnsafeHelpers.SizeOf
   nameWithType: UnsafeHelpers.SizeOf
-- uid: Platform.Helpers.UnsafeHelpers.SizeOf``1
+- uid: Platform.Helpers.Unsafe.UnsafeHelpers.SizeOf``1
   name: SizeOf<TStruct>()
-  href: api/Platform.Helpers.UnsafeHelpers.html#Platform_Helpers_UnsafeHelpers_SizeOf__1
-  commentId: M:Platform.Helpers.UnsafeHelpers.SizeOf``1
+  href: api/Platform.Helpers.Unsafe.UnsafeHelpers.html#Platform_Helpers_Unsafe_UnsafeHelpers_SizeOf__1
+  commentId: M:Platform.Helpers.Unsafe.UnsafeHelpers.SizeOf``1
   name.vb: SizeOf(Of TStruct)()
-  fullName: Platform.Helpers.UnsafeHelpers.SizeOf<TStruct>()
-  fullName.vb: Platform.Helpers.UnsafeHelpers.SizeOf(Of TStruct)()
+  fullName: Platform.Helpers.Unsafe.UnsafeHelpers.SizeOf<TStruct>()
+  fullName.vb: Platform.Helpers.Unsafe.UnsafeHelpers.SizeOf(Of TStruct)()
   nameWithType: UnsafeHelpers.SizeOf<TStruct>()
   nameWithType.vb: UnsafeHelpers.SizeOf(Of TStruct)()
 - uid: Platform.Helpers.Use`1
@@ -22165,23 +21405,31 @@ references:
   fullName.vb: Platform.Memory.DirectMemoryAsArrayMemoryAdapter(Of TElement).DirectMemoryAsArrayMemoryAdapter
   nameWithType: DirectMemoryAsArrayMemoryAdapter<TElement>.DirectMemoryAsArrayMemoryAdapter
   nameWithType.vb: DirectMemoryAsArrayMemoryAdapter(Of TElement).DirectMemoryAsArrayMemoryAdapter
-- uid: Platform.Memory.DirectMemoryAsArrayMemoryAdapter`1.Dispose
-  name: Dispose()
-  href: api/Platform.Memory.DirectMemoryAsArrayMemoryAdapter-1.html#Platform_Memory_DirectMemoryAsArrayMemoryAdapter_1_Dispose
-  commentId: M:Platform.Memory.DirectMemoryAsArrayMemoryAdapter`1.Dispose
-  fullName: Platform.Memory.DirectMemoryAsArrayMemoryAdapter<TElement>.Dispose()
-  fullName.vb: Platform.Memory.DirectMemoryAsArrayMemoryAdapter(Of TElement).Dispose()
-  nameWithType: DirectMemoryAsArrayMemoryAdapter<TElement>.Dispose()
-  nameWithType.vb: DirectMemoryAsArrayMemoryAdapter(Of TElement).Dispose()
-- uid: Platform.Memory.DirectMemoryAsArrayMemoryAdapter`1.Dispose*
-  name: Dispose
-  href: api/Platform.Memory.DirectMemoryAsArrayMemoryAdapter-1.html#Platform_Memory_DirectMemoryAsArrayMemoryAdapter_1_Dispose_
-  commentId: Overload:Platform.Memory.DirectMemoryAsArrayMemoryAdapter`1.Dispose
+- uid: Platform.Memory.DirectMemoryAsArrayMemoryAdapter`1.DisposeCore(System.Boolean,System.Boolean)
+  name: DisposeCore(Boolean, Boolean)
+  href: api/Platform.Memory.DirectMemoryAsArrayMemoryAdapter-1.html#Platform_Memory_DirectMemoryAsArrayMemoryAdapter_1_DisposeCore_System_Boolean_System_Boolean_
+  commentId: M:Platform.Memory.DirectMemoryAsArrayMemoryAdapter`1.DisposeCore(System.Boolean,System.Boolean)
+  fullName: Platform.Memory.DirectMemoryAsArrayMemoryAdapter<TElement>.DisposeCore(System.Boolean, System.Boolean)
+  fullName.vb: Platform.Memory.DirectMemoryAsArrayMemoryAdapter(Of TElement).DisposeCore(System.Boolean, System.Boolean)
+  nameWithType: DirectMemoryAsArrayMemoryAdapter<TElement>.DisposeCore(Boolean, Boolean)
+  nameWithType.vb: DirectMemoryAsArrayMemoryAdapter(Of TElement).DisposeCore(Boolean, Boolean)
+- uid: Platform.Memory.DirectMemoryAsArrayMemoryAdapter`1.DisposeCore*
+  name: DisposeCore
+  href: api/Platform.Memory.DirectMemoryAsArrayMemoryAdapter-1.html#Platform_Memory_DirectMemoryAsArrayMemoryAdapter_1_DisposeCore_
+  commentId: Overload:Platform.Memory.DirectMemoryAsArrayMemoryAdapter`1.DisposeCore
   isSpec: "True"
-  fullName: Platform.Memory.DirectMemoryAsArrayMemoryAdapter<TElement>.Dispose
-  fullName.vb: Platform.Memory.DirectMemoryAsArrayMemoryAdapter(Of TElement).Dispose
-  nameWithType: DirectMemoryAsArrayMemoryAdapter<TElement>.Dispose
-  nameWithType.vb: DirectMemoryAsArrayMemoryAdapter(Of TElement).Dispose
+  fullName: Platform.Memory.DirectMemoryAsArrayMemoryAdapter<TElement>.DisposeCore
+  fullName.vb: Platform.Memory.DirectMemoryAsArrayMemoryAdapter(Of TElement).DisposeCore
+  nameWithType: DirectMemoryAsArrayMemoryAdapter<TElement>.DisposeCore
+  nameWithType.vb: DirectMemoryAsArrayMemoryAdapter(Of TElement).DisposeCore
+- uid: Platform.Memory.DirectMemoryAsArrayMemoryAdapter`1.ElementSize
+  name: ElementSize
+  href: api/Platform.Memory.DirectMemoryAsArrayMemoryAdapter-1.html#Platform_Memory_DirectMemoryAsArrayMemoryAdapter_1_ElementSize
+  commentId: F:Platform.Memory.DirectMemoryAsArrayMemoryAdapter`1.ElementSize
+  fullName: Platform.Memory.DirectMemoryAsArrayMemoryAdapter<TElement>.ElementSize
+  fullName.vb: Platform.Memory.DirectMemoryAsArrayMemoryAdapter(Of TElement).ElementSize
+  nameWithType: DirectMemoryAsArrayMemoryAdapter<TElement>.ElementSize
+  nameWithType.vb: DirectMemoryAsArrayMemoryAdapter(Of TElement).ElementSize
 - uid: Platform.Memory.DirectMemoryAsArrayMemoryAdapter`1.Item(System.Int64)
   name: Item[Int64]
   href: api/Platform.Memory.DirectMemoryAsArrayMemoryAdapter-1.html#Platform_Memory_DirectMemoryAsArrayMemoryAdapter_1_Item_System_Int64_
@@ -22200,6 +21448,23 @@ references:
   fullName.vb: Platform.Memory.DirectMemoryAsArrayMemoryAdapter(Of TElement).Item
   nameWithType: DirectMemoryAsArrayMemoryAdapter<TElement>.Item
   nameWithType.vb: DirectMemoryAsArrayMemoryAdapter(Of TElement).Item
+- uid: Platform.Memory.DirectMemoryAsArrayMemoryAdapter`1.ObjectName
+  name: ObjectName
+  href: api/Platform.Memory.DirectMemoryAsArrayMemoryAdapter-1.html#Platform_Memory_DirectMemoryAsArrayMemoryAdapter_1_ObjectName
+  commentId: P:Platform.Memory.DirectMemoryAsArrayMemoryAdapter`1.ObjectName
+  fullName: Platform.Memory.DirectMemoryAsArrayMemoryAdapter<TElement>.ObjectName
+  fullName.vb: Platform.Memory.DirectMemoryAsArrayMemoryAdapter(Of TElement).ObjectName
+  nameWithType: DirectMemoryAsArrayMemoryAdapter<TElement>.ObjectName
+  nameWithType.vb: DirectMemoryAsArrayMemoryAdapter(Of TElement).ObjectName
+- uid: Platform.Memory.DirectMemoryAsArrayMemoryAdapter`1.ObjectName*
+  name: ObjectName
+  href: api/Platform.Memory.DirectMemoryAsArrayMemoryAdapter-1.html#Platform_Memory_DirectMemoryAsArrayMemoryAdapter_1_ObjectName_
+  commentId: Overload:Platform.Memory.DirectMemoryAsArrayMemoryAdapter`1.ObjectName
+  isSpec: "True"
+  fullName: Platform.Memory.DirectMemoryAsArrayMemoryAdapter<TElement>.ObjectName
+  fullName.vb: Platform.Memory.DirectMemoryAsArrayMemoryAdapter(Of TElement).ObjectName
+  nameWithType: DirectMemoryAsArrayMemoryAdapter<TElement>.ObjectName
+  nameWithType.vb: DirectMemoryAsArrayMemoryAdapter(Of TElement).ObjectName
 - uid: Platform.Memory.DirectMemoryAsArrayMemoryAdapter`1.Pointer
   name: Pointer
   href: api/Platform.Memory.DirectMemoryAsArrayMemoryAdapter-1.html#Platform_Memory_DirectMemoryAsArrayMemoryAdapter_1_Pointer
@@ -22277,6 +21542,14 @@ references:
   fullName.vb: Platform.Memory.FileArrayMemory(Of TElement).DisposeCore
   nameWithType: FileArrayMemory<TElement>.DisposeCore
   nameWithType.vb: FileArrayMemory(Of TElement).DisposeCore
+- uid: Platform.Memory.FileArrayMemory`1.ElementSize
+  name: ElementSize
+  href: api/Platform.Memory.FileArrayMemory-1.html#Platform_Memory_FileArrayMemory_1_ElementSize
+  commentId: F:Platform.Memory.FileArrayMemory`1.ElementSize
+  fullName: Platform.Memory.FileArrayMemory<TElement>.ElementSize
+  fullName.vb: Platform.Memory.FileArrayMemory(Of TElement).ElementSize
+  nameWithType: FileArrayMemory<TElement>.ElementSize
+  nameWithType.vb: FileArrayMemory(Of TElement).ElementSize
 - uid: Platform.Memory.FileArrayMemory`1.Item(System.Int64)
   name: Item[Int64]
   href: api/Platform.Memory.FileArrayMemory-1.html#Platform_Memory_FileArrayMemory_1_Item_System_Int64_
@@ -22714,6 +21987,19 @@ references:
   isSpec: "True"
   fullName: Platform.Memory.TemporaryFileMappedResizableDirectMemory.DisposeCore
   nameWithType: TemporaryFileMappedResizableDirectMemory.DisposeCore
+- uid: Platform.Memory.TemporaryFileMappedResizableDirectMemory.ObjectName
+  name: ObjectName
+  href: api/Platform.Memory.TemporaryFileMappedResizableDirectMemory.html#Platform_Memory_TemporaryFileMappedResizableDirectMemory_ObjectName
+  commentId: P:Platform.Memory.TemporaryFileMappedResizableDirectMemory.ObjectName
+  fullName: Platform.Memory.TemporaryFileMappedResizableDirectMemory.ObjectName
+  nameWithType: TemporaryFileMappedResizableDirectMemory.ObjectName
+- uid: Platform.Memory.TemporaryFileMappedResizableDirectMemory.ObjectName*
+  name: ObjectName
+  href: api/Platform.Memory.TemporaryFileMappedResizableDirectMemory.html#Platform_Memory_TemporaryFileMappedResizableDirectMemory_ObjectName_
+  commentId: Overload:Platform.Memory.TemporaryFileMappedResizableDirectMemory.ObjectName
+  isSpec: "True"
+  fullName: Platform.Memory.TemporaryFileMappedResizableDirectMemory.ObjectName
+  nameWithType: TemporaryFileMappedResizableDirectMemory.ObjectName
 - uid: Platform.Sandbox
   name: Platform.Sandbox
   href: api/Platform.Sandbox.html
