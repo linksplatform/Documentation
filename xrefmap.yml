@@ -21191,6 +21191,12 @@ references:
   isSpec: "True"
   fullName: Platform.Helpers.To.UInt64
   nameWithType: To.UInt64
+- uid: Platform.Helpers.To.UnknownCharacter
+  name: UnknownCharacter
+  href: api/Platform.Helpers.To.html#Platform_Helpers_To_UnknownCharacter
+  commentId: F:Platform.Helpers.To.UnknownCharacter
+  fullName: Platform.Helpers.To.UnknownCharacter
+  nameWithType: To.UnknownCharacter
 - uid: Platform.Helpers.Unsafe
   name: Platform.Helpers.Unsafe
   href: api/Platform.Helpers.Unsafe.html
