@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace Platform.Helpers
+    <title>Class UniqueTimestampFactory
    | LinksPlatform </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace Platform.Helpers
+    <meta name="title" content="Class UniqueTimestampFactory
    | LinksPlatform ">
     <meta name="generator" content="docfx 2.43.2.0">
     
@@ -78,60 +78,53 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Platform.Helpers">
+            <article class="content wrap" id="_content" data-uid="Platform.Helpers.Timestamps.UniqueTimestampFactory">
   
-  <h1 id="Platform_Helpers" data-uid="Platform.Helpers" class="text-break">Namespace Platform.Helpers
+  
+  <h1 id="Platform_Helpers_Timestamps_UniqueTimestampFactory" data-uid="Platform.Helpers.Timestamps.UniqueTimestampFactory" class="text-break">Class UniqueTimestampFactory
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Представляет фабрику по созданию уникальных отметок времени.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UniqueTimestampFactory</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Platform.Helpers.Timestamps.html">Platform.Helpers.Timestamps</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="Platform_Helpers_Timestamps_UniqueTimestampFactory_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class UniqueTimestampFactory : IFactory&lt;UniqueTimestamp&gt;</code></pre>
+  </div>
+  <h3 id="methods">Methods
   </h3>
-      <h4><a class="xref" href="Platform.Helpers.Comparer.html">Comparer</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Platform.Helpers.Counter.html">Counter</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Platform.Helpers.Counter-1.html">Counter&lt;TValue&gt;</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Platform.Helpers.Counter-2.html">Counter&lt;TValue, TDecision&gt;</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Platform.Helpers.Default.html">Default</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Platform.Helpers.Default-1.html">Default&lt;T&gt;</a></h4>
-      <section><p>Представляет собой точку доступа к экземплярям типов по умолчанию (созданных с помощью конструктора без аргументов).</p>
-</section>
-      <h4><a class="xref" href="Platform.Helpers.Global.html">Global</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Platform.Helpers.HashHelpers.html">HashHelpers</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Platform.Helpers.Node.html">Node</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Platform.Helpers.PerformanceHelpers.html">PerformanceHelpers</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Platform.Helpers.Scope.html">Scope</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Platform.Helpers.Scope-1.html">Scope&lt;TInclude&gt;</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Platform.Helpers.SerializationHelpers.html">SerializationHelpers</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Platform.Helpers.Setter-1.html">Setter&lt;TResult&gt;</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Platform.Helpers.Setter-2.html">Setter&lt;TResult, TDecision&gt;</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Platform.Helpers.SetterBase-1.html">SetterBase&lt;TResult&gt;</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Platform.Helpers.Singleton.html">Singleton</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Platform.Helpers.To.html">To</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Platform.Helpers.Use-1.html">Use&lt;T&gt;</a></h4>
-      <section></section>
-    <h3 id="structs">Structs
-  </h3>
-      <h4><a class="xref" href="Platform.Helpers.Range-1.html">Range&lt;T&gt;</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Platform.Helpers.Singleton-1.html">Singleton&lt;T&gt;</a></h4>
-      <section></section>
+  
+  
+  <a id="Platform_Helpers_Timestamps_UniqueTimestampFactory_Create_" data-uid="Platform.Helpers.Timestamps.UniqueTimestampFactory.Create*"></a>
+  <h4 id="Platform_Helpers_Timestamps_UniqueTimestampFactory_Create" data-uid="Platform.Helpers.Timestamps.UniqueTimestampFactory.Create">Create()</h4>
+  <div class="markdown level1 summary"><p>Создаёт отмеку времени соответствующую текущей дате и времени по UTC.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UniqueTimestamp Create()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Platform.Helpers.Timestamps.UniqueTimestamp.html">UniqueTimestamp</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
