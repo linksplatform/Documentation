@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ArrayPool
+    <title>Class StackExtensions
    | LinksPlatform </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ArrayPool
+    <meta name="title" content="Class StackExtensions
    | LinksPlatform ">
     <meta name="generator" content="docfx 2.43.2.0">
     
@@ -78,17 +78,17 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Platform.Helpers.Collections.Array.ArrayPool">
+            <article class="content wrap" id="_content" data-uid="Platform.Helpers.Collections.Stacks.StackExtensions">
   
   
-  <h1 id="Platform_Helpers_Collections_Array_ArrayPool" data-uid="Platform.Helpers.Collections.Array.ArrayPool" class="text-break">Class ArrayPool
+  <h1 id="Platform_Helpers_Collections_Stacks_StackExtensions" data-uid="Platform.Helpers.Collections.Stacks.StackExtensions" class="text-break">Class StackExtensions
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">ArrayPool</span></div>
+    <div class="level1"><span class="xref">StackExtensions</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -114,27 +114,23 @@
       <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Platform.Helpers.Collections.Array.html">Platform.Helpers.Collections.Array</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Platform.Helpers.Collections.Stacks.html">Platform.Helpers.Collections.Stacks</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Platform_Helpers_Collections_Array_ArrayPool_syntax">Syntax</h5>
+  <h5 id="Platform_Helpers_Collections_Stacks_StackExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class ArrayPool</code></pre>
+    <pre><code class="lang-csharp hljs">public static class StackExtensions</code></pre>
   </div>
-  <h5 id="Platform_Helpers_Collections_Array_ArrayPool_remarks"><strong>Remarks</strong></h5>
-  <div class="markdown level0 remarks"><p>TODO: Check actual performance
-TODO: Check for memory leaks</p>
-</div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Platform_Helpers_Collections_Array_ArrayPool_Allocate_" data-uid="Platform.Helpers.Collections.Array.ArrayPool.Allocate*"></a>
-  <h4 id="Platform_Helpers_Collections_Array_ArrayPool_Allocate__1_Integer_" data-uid="Platform.Helpers.Collections.Array.ArrayPool.Allocate``1(Integer)">Allocate&lt;T&gt;(Integer)</h4>
+  <a id="Platform_Helpers_Collections_Stacks_StackExtensions_PopOrDefault_" data-uid="Platform.Helpers.Collections.Stacks.StackExtensions.PopOrDefault*"></a>
+  <h4 id="Platform_Helpers_Collections_Stacks_StackExtensions_PopOrDefault__1_Stack___0__" data-uid="Platform.Helpers.Collections.Stacks.StackExtensions.PopOrDefault``1(Stack{``0})">PopOrDefault&lt;T&gt;(Stack&lt;T&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T[] Allocate&lt;T&gt;(Integer size)</code></pre>
+    <pre><code class="lang-csharp hljs">public static T PopOrDefault&lt;T&gt;(this Stack&lt;T&gt; stack)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -147,8 +143,8 @@ TODO: Check for memory leaks</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Integer</span></td>
-        <td><span class="parametername">size</span></td>
+        <td><span class="xref">Stack</span>&lt;T&gt;</td>
+        <td><span class="parametername">stack</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -163,49 +159,7 @@ TODO: Check for memory leaks</p>
     </thead>
     <tbody>
       <tr>
-        <td>T[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Platform_Helpers_Collections_Array_ArrayPool_Free_" data-uid="Platform.Helpers.Collections.Array.ArrayPool.Free*"></a>
-  <h4 id="Platform_Helpers_Collections_Array_ArrayPool_Free__1___0___" data-uid="Platform.Helpers.Collections.Array.ArrayPool.Free``1(``0[])">Free&lt;T&gt;(T[])</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Free&lt;T&gt;(T[] array)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>T[]</td>
-        <td><span class="parametername">array</span></td>
+        <td><span class="xref">T</span></td>
         <td></td>
       </tr>
     </tbody>

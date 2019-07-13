@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class IListEqualityComparer&lt;T&gt;
+    <title>Class ArrayPool
    | LinksPlatform </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class IListEqualityComparer&lt;T&gt;
+    <meta name="title" content="Class ArrayPool
    | LinksPlatform ">
     <meta name="generator" content="docfx 2.43.2.0">
     
@@ -78,24 +78,96 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Platform.Helpers.Collections.List.IListEqualityComparer`1">
+            <article class="content wrap" id="_content" data-uid="Platform.Helpers.Collections.Arrays.ArrayPool">
   
   
-  <h1 id="Platform_Helpers_Collections_List_IListEqualityComparer_1" data-uid="Platform.Helpers.Collections.List.IListEqualityComparer`1" class="text-break">Class IListEqualityComparer&lt;T&gt;
+  <h1 id="Platform_Helpers_Collections_Arrays_ArrayPool" data-uid="Platform.Helpers.Collections.Arrays.ArrayPool" class="text-break">Class ArrayPool
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">IListEqualityComparer&lt;T&gt;</span></div>
+    <div class="level1"><span class="xref">ArrayPool</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Platform.Helpers.Collections.List.html">Platform.Helpers.Collections.List</a></h6>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Platform.Helpers.Collections.Arrays.html">Platform.Helpers.Collections.Arrays</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Platform_Helpers_Collections_List_IListEqualityComparer_1_syntax">Syntax</h5>
+  <h5 id="Platform_Helpers_Collections_Arrays_ArrayPool_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class IListEqualityComparer&lt;T&gt; : IEqualityComparer&lt;IList&lt;T&gt;&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public static class ArrayPool</code></pre>
   </div>
+  <h5 id="Platform_Helpers_Collections_Arrays_ArrayPool_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>TODO: Check actual performance
+TODO: Check for memory leaks</p>
+</div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Platform_Helpers_Collections_Arrays_ArrayPool_Allocate_" data-uid="Platform.Helpers.Collections.Arrays.ArrayPool.Allocate*"></a>
+  <h4 id="Platform_Helpers_Collections_Arrays_ArrayPool_Allocate__1_Integer_" data-uid="Platform.Helpers.Collections.Arrays.ArrayPool.Allocate``1(Integer)">Allocate&lt;T&gt;(Integer)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T[] Allocate&lt;T&gt;(Integer size)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Integer</span></td>
+        <td><span class="parametername">size</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -111,17 +183,15 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-  </h3>
   
   
-  <a id="Platform_Helpers_Collections_List_IListEqualityComparer_1_Equals_" data-uid="Platform.Helpers.Collections.List.IListEqualityComparer`1.Equals*"></a>
-  <h4 id="Platform_Helpers_Collections_List_IListEqualityComparer_1_Equals_IList__0__IList__0__" data-uid="Platform.Helpers.Collections.List.IListEqualityComparer`1.Equals(IList{`0},IList{`0})">Equals(IList&lt;T&gt;, IList&lt;T&gt;)</h4>
+  <a id="Platform_Helpers_Collections_Arrays_ArrayPool_Free_" data-uid="Platform.Helpers.Collections.Arrays.ArrayPool.Free*"></a>
+  <h4 id="Platform_Helpers_Collections_Arrays_ArrayPool_Free__1___0___" data-uid="Platform.Helpers.Collections.Arrays.ArrayPool.Free``1(``0[])">Free&lt;T&gt;(T[])</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Equals(IList&lt;T&gt; left, IList&lt;T&gt; right)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Free&lt;T&gt;(T[] array)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -134,70 +204,23 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IList</span>&lt;T&gt;</td>
-        <td><span class="parametername">left</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">IList</span>&lt;T&gt;</td>
-        <td><span class="parametername">right</span></td>
+        <td>T[]</td>
+        <td><span class="parametername">array</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
+  <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Platform_Helpers_Collections_List_IListEqualityComparer_1_GetHashCode_" data-uid="Platform.Helpers.Collections.List.IListEqualityComparer`1.GetHashCode*"></a>
-  <h4 id="Platform_Helpers_Collections_List_IListEqualityComparer_1_GetHashCode_IList__0__" data-uid="Platform.Helpers.Collections.List.IListEqualityComparer`1.GetHashCode(IList{`0})">GetHashCode(IList&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int GetHashCode(IList&lt;T&gt; list)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
         <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IList</span>&lt;T&gt;</td>
-        <td><span class="parametername">list</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>

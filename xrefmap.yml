@@ -14665,409 +14665,409 @@ references:
   commentId: N:Platform.Helpers.Collections
   fullName: Platform.Helpers.Collections
   nameWithType: Platform.Helpers.Collections
-- uid: Platform.Helpers.Collections.Array
-  name: Platform.Helpers.Collections.Array
-  href: api/Platform.Helpers.Collections.Array.html
-  commentId: N:Platform.Helpers.Collections.Array
-  fullName: Platform.Helpers.Collections.Array
-  nameWithType: Platform.Helpers.Collections.Array
-- uid: Platform.Helpers.Collections.Array.ArrayFiller`2
+- uid: Platform.Helpers.Collections.Arrays
+  name: Platform.Helpers.Collections.Arrays
+  href: api/Platform.Helpers.Collections.Arrays.html
+  commentId: N:Platform.Helpers.Collections.Arrays
+  fullName: Platform.Helpers.Collections.Arrays
+  nameWithType: Platform.Helpers.Collections.Arrays
+- uid: Platform.Helpers.Collections.Arrays.ArrayFiller`2
   name: ArrayFiller<TElement, TReturnConstant>
-  href: api/Platform.Helpers.Collections.Array.ArrayFiller-2.html
-  commentId: T:Platform.Helpers.Collections.Array.ArrayFiller`2
+  href: api/Platform.Helpers.Collections.Arrays.ArrayFiller-2.html
+  commentId: T:Platform.Helpers.Collections.Arrays.ArrayFiller`2
   name.vb: ArrayFiller(Of TElement, TReturnConstant)
-  fullName: Platform.Helpers.Collections.Array.ArrayFiller<TElement, TReturnConstant>
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayFiller(Of TElement, TReturnConstant)
+  fullName: Platform.Helpers.Collections.Arrays.ArrayFiller<TElement, TReturnConstant>
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayFiller(Of TElement, TReturnConstant)
   nameWithType: ArrayFiller<TElement, TReturnConstant>
   nameWithType.vb: ArrayFiller(Of TElement, TReturnConstant)
-- uid: Platform.Helpers.Collections.Array.ArrayFiller`2.#ctor(`0[],`1)
+- uid: Platform.Helpers.Collections.Arrays.ArrayFiller`2.#ctor(`0[],`1)
   name: ArrayFiller(TElement[], TReturnConstant)
-  href: api/Platform.Helpers.Collections.Array.ArrayFiller-2.html#Platform_Helpers_Collections_Array_ArrayFiller_2__ctor__0____1_
-  commentId: M:Platform.Helpers.Collections.Array.ArrayFiller`2.#ctor(`0[],`1)
+  href: api/Platform.Helpers.Collections.Arrays.ArrayFiller-2.html#Platform_Helpers_Collections_Arrays_ArrayFiller_2__ctor__0____1_
+  commentId: M:Platform.Helpers.Collections.Arrays.ArrayFiller`2.#ctor(`0[],`1)
   name.vb: ArrayFiller(TElement(), TReturnConstant)
-  fullName: Platform.Helpers.Collections.Array.ArrayFiller<TElement, TReturnConstant>.ArrayFiller(TElement[], TReturnConstant)
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayFiller(Of TElement, TReturnConstant).ArrayFiller(TElement(), TReturnConstant)
+  fullName: Platform.Helpers.Collections.Arrays.ArrayFiller<TElement, TReturnConstant>.ArrayFiller(TElement[], TReturnConstant)
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayFiller(Of TElement, TReturnConstant).ArrayFiller(TElement(), TReturnConstant)
   nameWithType: ArrayFiller<TElement, TReturnConstant>.ArrayFiller(TElement[], TReturnConstant)
   nameWithType.vb: ArrayFiller(Of TElement, TReturnConstant).ArrayFiller(TElement(), TReturnConstant)
-- uid: Platform.Helpers.Collections.Array.ArrayFiller`2.#ctor(`0[],System.Int64,`1)
+- uid: Platform.Helpers.Collections.Arrays.ArrayFiller`2.#ctor(`0[],System.Int64,`1)
   name: ArrayFiller(TElement[], Int64, TReturnConstant)
-  href: api/Platform.Helpers.Collections.Array.ArrayFiller-2.html#Platform_Helpers_Collections_Array_ArrayFiller_2__ctor__0___System_Int64__1_
-  commentId: M:Platform.Helpers.Collections.Array.ArrayFiller`2.#ctor(`0[],System.Int64,`1)
+  href: api/Platform.Helpers.Collections.Arrays.ArrayFiller-2.html#Platform_Helpers_Collections_Arrays_ArrayFiller_2__ctor__0___System_Int64__1_
+  commentId: M:Platform.Helpers.Collections.Arrays.ArrayFiller`2.#ctor(`0[],System.Int64,`1)
   name.vb: ArrayFiller(TElement(), Int64, TReturnConstant)
-  fullName: Platform.Helpers.Collections.Array.ArrayFiller<TElement, TReturnConstant>.ArrayFiller(TElement[], System.Int64, TReturnConstant)
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayFiller(Of TElement, TReturnConstant).ArrayFiller(TElement(), System.Int64, TReturnConstant)
+  fullName: Platform.Helpers.Collections.Arrays.ArrayFiller<TElement, TReturnConstant>.ArrayFiller(TElement[], System.Int64, TReturnConstant)
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayFiller(Of TElement, TReturnConstant).ArrayFiller(TElement(), System.Int64, TReturnConstant)
   nameWithType: ArrayFiller<TElement, TReturnConstant>.ArrayFiller(TElement[], Int64, TReturnConstant)
   nameWithType.vb: ArrayFiller(Of TElement, TReturnConstant).ArrayFiller(TElement(), Int64, TReturnConstant)
-- uid: Platform.Helpers.Collections.Array.ArrayFiller`2.#ctor*
+- uid: Platform.Helpers.Collections.Arrays.ArrayFiller`2.#ctor*
   name: ArrayFiller
-  href: api/Platform.Helpers.Collections.Array.ArrayFiller-2.html#Platform_Helpers_Collections_Array_ArrayFiller_2__ctor_
-  commentId: Overload:Platform.Helpers.Collections.Array.ArrayFiller`2.#ctor
+  href: api/Platform.Helpers.Collections.Arrays.ArrayFiller-2.html#Platform_Helpers_Collections_Arrays_ArrayFiller_2__ctor_
+  commentId: Overload:Platform.Helpers.Collections.Arrays.ArrayFiller`2.#ctor
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.Array.ArrayFiller<TElement, TReturnConstant>.ArrayFiller
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayFiller(Of TElement, TReturnConstant).ArrayFiller
+  fullName: Platform.Helpers.Collections.Arrays.ArrayFiller<TElement, TReturnConstant>.ArrayFiller
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayFiller(Of TElement, TReturnConstant).ArrayFiller
   nameWithType: ArrayFiller<TElement, TReturnConstant>.ArrayFiller
   nameWithType.vb: ArrayFiller(Of TElement, TReturnConstant).ArrayFiller
-- uid: Platform.Helpers.Collections.Array.ArrayFiller`2._array
+- uid: Platform.Helpers.Collections.Arrays.ArrayFiller`2._array
   name: _array
-  href: api/Platform.Helpers.Collections.Array.ArrayFiller-2.html#Platform_Helpers_Collections_Array_ArrayFiller_2__array
-  commentId: F:Platform.Helpers.Collections.Array.ArrayFiller`2._array
-  fullName: Platform.Helpers.Collections.Array.ArrayFiller<TElement, TReturnConstant>._array
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayFiller(Of TElement, TReturnConstant)._array
+  href: api/Platform.Helpers.Collections.Arrays.ArrayFiller-2.html#Platform_Helpers_Collections_Arrays_ArrayFiller_2__array
+  commentId: F:Platform.Helpers.Collections.Arrays.ArrayFiller`2._array
+  fullName: Platform.Helpers.Collections.Arrays.ArrayFiller<TElement, TReturnConstant>._array
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayFiller(Of TElement, TReturnConstant)._array
   nameWithType: ArrayFiller<TElement, TReturnConstant>._array
   nameWithType.vb: ArrayFiller(Of TElement, TReturnConstant)._array
-- uid: Platform.Helpers.Collections.Array.ArrayFiller`2._position
+- uid: Platform.Helpers.Collections.Arrays.ArrayFiller`2._position
   name: _position
-  href: api/Platform.Helpers.Collections.Array.ArrayFiller-2.html#Platform_Helpers_Collections_Array_ArrayFiller_2__position
-  commentId: F:Platform.Helpers.Collections.Array.ArrayFiller`2._position
-  fullName: Platform.Helpers.Collections.Array.ArrayFiller<TElement, TReturnConstant>._position
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayFiller(Of TElement, TReturnConstant)._position
+  href: api/Platform.Helpers.Collections.Arrays.ArrayFiller-2.html#Platform_Helpers_Collections_Arrays_ArrayFiller_2__position
+  commentId: F:Platform.Helpers.Collections.Arrays.ArrayFiller`2._position
+  fullName: Platform.Helpers.Collections.Arrays.ArrayFiller<TElement, TReturnConstant>._position
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayFiller(Of TElement, TReturnConstant)._position
   nameWithType: ArrayFiller<TElement, TReturnConstant>._position
   nameWithType.vb: ArrayFiller(Of TElement, TReturnConstant)._position
-- uid: Platform.Helpers.Collections.Array.ArrayFiller`2.Add(`0)
+- uid: Platform.Helpers.Collections.Arrays.ArrayFiller`2.Add(`0)
   name: Add(TElement)
-  href: api/Platform.Helpers.Collections.Array.ArrayFiller-2.html#Platform_Helpers_Collections_Array_ArrayFiller_2_Add__0_
-  commentId: M:Platform.Helpers.Collections.Array.ArrayFiller`2.Add(`0)
-  fullName: Platform.Helpers.Collections.Array.ArrayFiller<TElement, TReturnConstant>.Add(TElement)
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayFiller(Of TElement, TReturnConstant).Add(TElement)
+  href: api/Platform.Helpers.Collections.Arrays.ArrayFiller-2.html#Platform_Helpers_Collections_Arrays_ArrayFiller_2_Add__0_
+  commentId: M:Platform.Helpers.Collections.Arrays.ArrayFiller`2.Add(`0)
+  fullName: Platform.Helpers.Collections.Arrays.ArrayFiller<TElement, TReturnConstant>.Add(TElement)
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayFiller(Of TElement, TReturnConstant).Add(TElement)
   nameWithType: ArrayFiller<TElement, TReturnConstant>.Add(TElement)
   nameWithType.vb: ArrayFiller(Of TElement, TReturnConstant).Add(TElement)
-- uid: Platform.Helpers.Collections.Array.ArrayFiller`2.Add*
+- uid: Platform.Helpers.Collections.Arrays.ArrayFiller`2.Add*
   name: Add
-  href: api/Platform.Helpers.Collections.Array.ArrayFiller-2.html#Platform_Helpers_Collections_Array_ArrayFiller_2_Add_
-  commentId: Overload:Platform.Helpers.Collections.Array.ArrayFiller`2.Add
+  href: api/Platform.Helpers.Collections.Arrays.ArrayFiller-2.html#Platform_Helpers_Collections_Arrays_ArrayFiller_2_Add_
+  commentId: Overload:Platform.Helpers.Collections.Arrays.ArrayFiller`2.Add
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.Array.ArrayFiller<TElement, TReturnConstant>.Add
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayFiller(Of TElement, TReturnConstant).Add
+  fullName: Platform.Helpers.Collections.Arrays.ArrayFiller<TElement, TReturnConstant>.Add
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayFiller(Of TElement, TReturnConstant).Add
   nameWithType: ArrayFiller<TElement, TReturnConstant>.Add
   nameWithType.vb: ArrayFiller(Of TElement, TReturnConstant).Add
-- uid: Platform.Helpers.Collections.Array.ArrayFiller`2.AddAndReturnConstant(`0)
+- uid: Platform.Helpers.Collections.Arrays.ArrayFiller`2.AddAndReturnConstant(`0)
   name: AddAndReturnConstant(TElement)
-  href: api/Platform.Helpers.Collections.Array.ArrayFiller-2.html#Platform_Helpers_Collections_Array_ArrayFiller_2_AddAndReturnConstant__0_
-  commentId: M:Platform.Helpers.Collections.Array.ArrayFiller`2.AddAndReturnConstant(`0)
-  fullName: Platform.Helpers.Collections.Array.ArrayFiller<TElement, TReturnConstant>.AddAndReturnConstant(TElement)
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayFiller(Of TElement, TReturnConstant).AddAndReturnConstant(TElement)
+  href: api/Platform.Helpers.Collections.Arrays.ArrayFiller-2.html#Platform_Helpers_Collections_Arrays_ArrayFiller_2_AddAndReturnConstant__0_
+  commentId: M:Platform.Helpers.Collections.Arrays.ArrayFiller`2.AddAndReturnConstant(`0)
+  fullName: Platform.Helpers.Collections.Arrays.ArrayFiller<TElement, TReturnConstant>.AddAndReturnConstant(TElement)
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayFiller(Of TElement, TReturnConstant).AddAndReturnConstant(TElement)
   nameWithType: ArrayFiller<TElement, TReturnConstant>.AddAndReturnConstant(TElement)
   nameWithType.vb: ArrayFiller(Of TElement, TReturnConstant).AddAndReturnConstant(TElement)
-- uid: Platform.Helpers.Collections.Array.ArrayFiller`2.AddAndReturnConstant*
+- uid: Platform.Helpers.Collections.Arrays.ArrayFiller`2.AddAndReturnConstant*
   name: AddAndReturnConstant
-  href: api/Platform.Helpers.Collections.Array.ArrayFiller-2.html#Platform_Helpers_Collections_Array_ArrayFiller_2_AddAndReturnConstant_
-  commentId: Overload:Platform.Helpers.Collections.Array.ArrayFiller`2.AddAndReturnConstant
+  href: api/Platform.Helpers.Collections.Arrays.ArrayFiller-2.html#Platform_Helpers_Collections_Arrays_ArrayFiller_2_AddAndReturnConstant_
+  commentId: Overload:Platform.Helpers.Collections.Arrays.ArrayFiller`2.AddAndReturnConstant
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.Array.ArrayFiller<TElement, TReturnConstant>.AddAndReturnConstant
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayFiller(Of TElement, TReturnConstant).AddAndReturnConstant
+  fullName: Platform.Helpers.Collections.Arrays.ArrayFiller<TElement, TReturnConstant>.AddAndReturnConstant
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayFiller(Of TElement, TReturnConstant).AddAndReturnConstant
   nameWithType: ArrayFiller<TElement, TReturnConstant>.AddAndReturnConstant
   nameWithType.vb: ArrayFiller(Of TElement, TReturnConstant).AddAndReturnConstant
-- uid: Platform.Helpers.Collections.Array.ArrayFiller`2.AddAndReturnTrue(`0)
+- uid: Platform.Helpers.Collections.Arrays.ArrayFiller`2.AddAndReturnTrue(`0)
   name: AddAndReturnTrue(TElement)
-  href: api/Platform.Helpers.Collections.Array.ArrayFiller-2.html#Platform_Helpers_Collections_Array_ArrayFiller_2_AddAndReturnTrue__0_
-  commentId: M:Platform.Helpers.Collections.Array.ArrayFiller`2.AddAndReturnTrue(`0)
-  fullName: Platform.Helpers.Collections.Array.ArrayFiller<TElement, TReturnConstant>.AddAndReturnTrue(TElement)
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayFiller(Of TElement, TReturnConstant).AddAndReturnTrue(TElement)
+  href: api/Platform.Helpers.Collections.Arrays.ArrayFiller-2.html#Platform_Helpers_Collections_Arrays_ArrayFiller_2_AddAndReturnTrue__0_
+  commentId: M:Platform.Helpers.Collections.Arrays.ArrayFiller`2.AddAndReturnTrue(`0)
+  fullName: Platform.Helpers.Collections.Arrays.ArrayFiller<TElement, TReturnConstant>.AddAndReturnTrue(TElement)
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayFiller(Of TElement, TReturnConstant).AddAndReturnTrue(TElement)
   nameWithType: ArrayFiller<TElement, TReturnConstant>.AddAndReturnTrue(TElement)
   nameWithType.vb: ArrayFiller(Of TElement, TReturnConstant).AddAndReturnTrue(TElement)
-- uid: Platform.Helpers.Collections.Array.ArrayFiller`2.AddAndReturnTrue*
+- uid: Platform.Helpers.Collections.Arrays.ArrayFiller`2.AddAndReturnTrue*
   name: AddAndReturnTrue
-  href: api/Platform.Helpers.Collections.Array.ArrayFiller-2.html#Platform_Helpers_Collections_Array_ArrayFiller_2_AddAndReturnTrue_
-  commentId: Overload:Platform.Helpers.Collections.Array.ArrayFiller`2.AddAndReturnTrue
+  href: api/Platform.Helpers.Collections.Arrays.ArrayFiller-2.html#Platform_Helpers_Collections_Arrays_ArrayFiller_2_AddAndReturnTrue_
+  commentId: Overload:Platform.Helpers.Collections.Arrays.ArrayFiller`2.AddAndReturnTrue
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.Array.ArrayFiller<TElement, TReturnConstant>.AddAndReturnTrue
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayFiller(Of TElement, TReturnConstant).AddAndReturnTrue
+  fullName: Platform.Helpers.Collections.Arrays.ArrayFiller<TElement, TReturnConstant>.AddAndReturnTrue
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayFiller(Of TElement, TReturnConstant).AddAndReturnTrue
   nameWithType: ArrayFiller<TElement, TReturnConstant>.AddAndReturnTrue
   nameWithType.vb: ArrayFiller(Of TElement, TReturnConstant).AddAndReturnTrue
-- uid: Platform.Helpers.Collections.Array.ArrayFiller`2.AddFirstAndReturnConstant(IList{`0})
+- uid: Platform.Helpers.Collections.Arrays.ArrayFiller`2.AddFirstAndReturnConstant(IList{`0})
   name: AddFirstAndReturnConstant(IList<TElement>)
-  href: api/Platform.Helpers.Collections.Array.ArrayFiller-2.html#Platform_Helpers_Collections_Array_ArrayFiller_2_AddFirstAndReturnConstant_IList__0__
-  commentId: M:Platform.Helpers.Collections.Array.ArrayFiller`2.AddFirstAndReturnConstant(IList{`0})
+  href: api/Platform.Helpers.Collections.Arrays.ArrayFiller-2.html#Platform_Helpers_Collections_Arrays_ArrayFiller_2_AddFirstAndReturnConstant_IList__0__
+  commentId: M:Platform.Helpers.Collections.Arrays.ArrayFiller`2.AddFirstAndReturnConstant(IList{`0})
   name.vb: AddFirstAndReturnConstant(IList(Of TElement))
-  fullName: Platform.Helpers.Collections.Array.ArrayFiller<TElement, TReturnConstant>.AddFirstAndReturnConstant(IList<TElement>)
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayFiller(Of TElement, TReturnConstant).AddFirstAndReturnConstant(IList(Of TElement))
+  fullName: Platform.Helpers.Collections.Arrays.ArrayFiller<TElement, TReturnConstant>.AddFirstAndReturnConstant(IList<TElement>)
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayFiller(Of TElement, TReturnConstant).AddFirstAndReturnConstant(IList(Of TElement))
   nameWithType: ArrayFiller<TElement, TReturnConstant>.AddFirstAndReturnConstant(IList<TElement>)
   nameWithType.vb: ArrayFiller(Of TElement, TReturnConstant).AddFirstAndReturnConstant(IList(Of TElement))
-- uid: Platform.Helpers.Collections.Array.ArrayFiller`2.AddFirstAndReturnConstant*
+- uid: Platform.Helpers.Collections.Arrays.ArrayFiller`2.AddFirstAndReturnConstant*
   name: AddFirstAndReturnConstant
-  href: api/Platform.Helpers.Collections.Array.ArrayFiller-2.html#Platform_Helpers_Collections_Array_ArrayFiller_2_AddFirstAndReturnConstant_
-  commentId: Overload:Platform.Helpers.Collections.Array.ArrayFiller`2.AddFirstAndReturnConstant
+  href: api/Platform.Helpers.Collections.Arrays.ArrayFiller-2.html#Platform_Helpers_Collections_Arrays_ArrayFiller_2_AddFirstAndReturnConstant_
+  commentId: Overload:Platform.Helpers.Collections.Arrays.ArrayFiller`2.AddFirstAndReturnConstant
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.Array.ArrayFiller<TElement, TReturnConstant>.AddFirstAndReturnConstant
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayFiller(Of TElement, TReturnConstant).AddFirstAndReturnConstant
+  fullName: Platform.Helpers.Collections.Arrays.ArrayFiller<TElement, TReturnConstant>.AddFirstAndReturnConstant
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayFiller(Of TElement, TReturnConstant).AddFirstAndReturnConstant
   nameWithType: ArrayFiller<TElement, TReturnConstant>.AddFirstAndReturnConstant
   nameWithType.vb: ArrayFiller(Of TElement, TReturnConstant).AddFirstAndReturnConstant
-- uid: Platform.Helpers.Collections.Array.ArrayFiller`2.AddFirstAndReturnTrue(IList{`0})
+- uid: Platform.Helpers.Collections.Arrays.ArrayFiller`2.AddFirstAndReturnTrue(IList{`0})
   name: AddFirstAndReturnTrue(IList<TElement>)
-  href: api/Platform.Helpers.Collections.Array.ArrayFiller-2.html#Platform_Helpers_Collections_Array_ArrayFiller_2_AddFirstAndReturnTrue_IList__0__
-  commentId: M:Platform.Helpers.Collections.Array.ArrayFiller`2.AddFirstAndReturnTrue(IList{`0})
+  href: api/Platform.Helpers.Collections.Arrays.ArrayFiller-2.html#Platform_Helpers_Collections_Arrays_ArrayFiller_2_AddFirstAndReturnTrue_IList__0__
+  commentId: M:Platform.Helpers.Collections.Arrays.ArrayFiller`2.AddFirstAndReturnTrue(IList{`0})
   name.vb: AddFirstAndReturnTrue(IList(Of TElement))
-  fullName: Platform.Helpers.Collections.Array.ArrayFiller<TElement, TReturnConstant>.AddFirstAndReturnTrue(IList<TElement>)
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayFiller(Of TElement, TReturnConstant).AddFirstAndReturnTrue(IList(Of TElement))
+  fullName: Platform.Helpers.Collections.Arrays.ArrayFiller<TElement, TReturnConstant>.AddFirstAndReturnTrue(IList<TElement>)
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayFiller(Of TElement, TReturnConstant).AddFirstAndReturnTrue(IList(Of TElement))
   nameWithType: ArrayFiller<TElement, TReturnConstant>.AddFirstAndReturnTrue(IList<TElement>)
   nameWithType.vb: ArrayFiller(Of TElement, TReturnConstant).AddFirstAndReturnTrue(IList(Of TElement))
-- uid: Platform.Helpers.Collections.Array.ArrayFiller`2.AddFirstAndReturnTrue*
+- uid: Platform.Helpers.Collections.Arrays.ArrayFiller`2.AddFirstAndReturnTrue*
   name: AddFirstAndReturnTrue
-  href: api/Platform.Helpers.Collections.Array.ArrayFiller-2.html#Platform_Helpers_Collections_Array_ArrayFiller_2_AddFirstAndReturnTrue_
-  commentId: Overload:Platform.Helpers.Collections.Array.ArrayFiller`2.AddFirstAndReturnTrue
+  href: api/Platform.Helpers.Collections.Arrays.ArrayFiller-2.html#Platform_Helpers_Collections_Arrays_ArrayFiller_2_AddFirstAndReturnTrue_
+  commentId: Overload:Platform.Helpers.Collections.Arrays.ArrayFiller`2.AddFirstAndReturnTrue
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.Array.ArrayFiller<TElement, TReturnConstant>.AddFirstAndReturnTrue
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayFiller(Of TElement, TReturnConstant).AddFirstAndReturnTrue
+  fullName: Platform.Helpers.Collections.Arrays.ArrayFiller<TElement, TReturnConstant>.AddFirstAndReturnTrue
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayFiller(Of TElement, TReturnConstant).AddFirstAndReturnTrue
   nameWithType: ArrayFiller<TElement, TReturnConstant>.AddFirstAndReturnTrue
   nameWithType.vb: ArrayFiller(Of TElement, TReturnConstant).AddFirstAndReturnTrue
-- uid: Platform.Helpers.Collections.Array.ArrayPool
+- uid: Platform.Helpers.Collections.Arrays.ArrayPool
   name: ArrayPool
-  href: api/Platform.Helpers.Collections.Array.ArrayPool.html
-  commentId: T:Platform.Helpers.Collections.Array.ArrayPool
-  fullName: Platform.Helpers.Collections.Array.ArrayPool
+  href: api/Platform.Helpers.Collections.Arrays.ArrayPool.html
+  commentId: T:Platform.Helpers.Collections.Arrays.ArrayPool
+  fullName: Platform.Helpers.Collections.Arrays.ArrayPool
   nameWithType: ArrayPool
-- uid: Platform.Helpers.Collections.Array.ArrayPool.Allocate*
+- uid: Platform.Helpers.Collections.Arrays.ArrayPool.Allocate*
   name: Allocate
-  href: api/Platform.Helpers.Collections.Array.ArrayPool.html#Platform_Helpers_Collections_Array_ArrayPool_Allocate_
-  commentId: Overload:Platform.Helpers.Collections.Array.ArrayPool.Allocate
+  href: api/Platform.Helpers.Collections.Arrays.ArrayPool.html#Platform_Helpers_Collections_Arrays_ArrayPool_Allocate_
+  commentId: Overload:Platform.Helpers.Collections.Arrays.ArrayPool.Allocate
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.Array.ArrayPool.Allocate
+  fullName: Platform.Helpers.Collections.Arrays.ArrayPool.Allocate
   nameWithType: ArrayPool.Allocate
-- uid: Platform.Helpers.Collections.Array.ArrayPool.Allocate``1(Integer)
+- uid: Platform.Helpers.Collections.Arrays.ArrayPool.Allocate``1(Integer)
   name: Allocate<T>(Integer)
-  href: api/Platform.Helpers.Collections.Array.ArrayPool.html#Platform_Helpers_Collections_Array_ArrayPool_Allocate__1_Integer_
-  commentId: M:Platform.Helpers.Collections.Array.ArrayPool.Allocate``1(Integer)
+  href: api/Platform.Helpers.Collections.Arrays.ArrayPool.html#Platform_Helpers_Collections_Arrays_ArrayPool_Allocate__1_Integer_
+  commentId: M:Platform.Helpers.Collections.Arrays.ArrayPool.Allocate``1(Integer)
   name.vb: Allocate(Of T)(Integer)
-  fullName: Platform.Helpers.Collections.Array.ArrayPool.Allocate<T>(Integer)
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayPool.Allocate(Of T)(Integer)
+  fullName: Platform.Helpers.Collections.Arrays.ArrayPool.Allocate<T>(Integer)
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayPool.Allocate(Of T)(Integer)
   nameWithType: ArrayPool.Allocate<T>(Integer)
   nameWithType.vb: ArrayPool.Allocate(Of T)(Integer)
-- uid: Platform.Helpers.Collections.Array.ArrayPool.Free*
+- uid: Platform.Helpers.Collections.Arrays.ArrayPool.Free*
   name: Free
-  href: api/Platform.Helpers.Collections.Array.ArrayPool.html#Platform_Helpers_Collections_Array_ArrayPool_Free_
-  commentId: Overload:Platform.Helpers.Collections.Array.ArrayPool.Free
+  href: api/Platform.Helpers.Collections.Arrays.ArrayPool.html#Platform_Helpers_Collections_Arrays_ArrayPool_Free_
+  commentId: Overload:Platform.Helpers.Collections.Arrays.ArrayPool.Free
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.Array.ArrayPool.Free
+  fullName: Platform.Helpers.Collections.Arrays.ArrayPool.Free
   nameWithType: ArrayPool.Free
-- uid: Platform.Helpers.Collections.Array.ArrayPool.Free``1(``0[])
+- uid: Platform.Helpers.Collections.Arrays.ArrayPool.Free``1(``0[])
   name: Free<T>(T[])
-  href: api/Platform.Helpers.Collections.Array.ArrayPool.html#Platform_Helpers_Collections_Array_ArrayPool_Free__1___0___
-  commentId: M:Platform.Helpers.Collections.Array.ArrayPool.Free``1(``0[])
+  href: api/Platform.Helpers.Collections.Arrays.ArrayPool.html#Platform_Helpers_Collections_Arrays_ArrayPool_Free__1___0___
+  commentId: M:Platform.Helpers.Collections.Arrays.ArrayPool.Free``1(``0[])
   name.vb: Free(Of T)(T())
-  fullName: Platform.Helpers.Collections.Array.ArrayPool.Free<T>(T[])
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayPool.Free(Of T)(T())
+  fullName: Platform.Helpers.Collections.Arrays.ArrayPool.Free<T>(T[])
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayPool.Free(Of T)(T())
   nameWithType: ArrayPool.Free<T>(T[])
   nameWithType.vb: ArrayPool.Free(Of T)(T())
-- uid: Platform.Helpers.Collections.Array.ArrayPool`1
+- uid: Platform.Helpers.Collections.Arrays.ArrayPool`1
   name: ArrayPool<T>
-  href: api/Platform.Helpers.Collections.Array.ArrayPool-1.html
-  commentId: T:Platform.Helpers.Collections.Array.ArrayPool`1
+  href: api/Platform.Helpers.Collections.Arrays.ArrayPool-1.html
+  commentId: T:Platform.Helpers.Collections.Arrays.ArrayPool`1
   name.vb: ArrayPool(Of T)
-  fullName: Platform.Helpers.Collections.Array.ArrayPool<T>
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayPool(Of T)
+  fullName: Platform.Helpers.Collections.Arrays.ArrayPool<T>
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayPool(Of T)
   nameWithType: ArrayPool<T>
   nameWithType.vb: ArrayPool(Of T)
-- uid: Platform.Helpers.Collections.Array.ArrayPool`1.#ctor
+- uid: Platform.Helpers.Collections.Arrays.ArrayPool`1.#ctor
   name: ArrayPool()
-  href: api/Platform.Helpers.Collections.Array.ArrayPool-1.html#Platform_Helpers_Collections_Array_ArrayPool_1__ctor
-  commentId: M:Platform.Helpers.Collections.Array.ArrayPool`1.#ctor
-  fullName: Platform.Helpers.Collections.Array.ArrayPool<T>.ArrayPool()
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayPool(Of T).ArrayPool()
+  href: api/Platform.Helpers.Collections.Arrays.ArrayPool-1.html#Platform_Helpers_Collections_Arrays_ArrayPool_1__ctor
+  commentId: M:Platform.Helpers.Collections.Arrays.ArrayPool`1.#ctor
+  fullName: Platform.Helpers.Collections.Arrays.ArrayPool<T>.ArrayPool()
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayPool(Of T).ArrayPool()
   nameWithType: ArrayPool<T>.ArrayPool()
   nameWithType.vb: ArrayPool(Of T).ArrayPool()
-- uid: Platform.Helpers.Collections.Array.ArrayPool`1.#ctor(System.Int32)
+- uid: Platform.Helpers.Collections.Arrays.ArrayPool`1.#ctor(System.Int32)
   name: ArrayPool(Int32)
-  href: api/Platform.Helpers.Collections.Array.ArrayPool-1.html#Platform_Helpers_Collections_Array_ArrayPool_1__ctor_System_Int32_
-  commentId: M:Platform.Helpers.Collections.Array.ArrayPool`1.#ctor(System.Int32)
-  fullName: Platform.Helpers.Collections.Array.ArrayPool<T>.ArrayPool(System.Int32)
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayPool(Of T).ArrayPool(System.Int32)
+  href: api/Platform.Helpers.Collections.Arrays.ArrayPool-1.html#Platform_Helpers_Collections_Arrays_ArrayPool_1__ctor_System_Int32_
+  commentId: M:Platform.Helpers.Collections.Arrays.ArrayPool`1.#ctor(System.Int32)
+  fullName: Platform.Helpers.Collections.Arrays.ArrayPool<T>.ArrayPool(System.Int32)
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayPool(Of T).ArrayPool(System.Int32)
   nameWithType: ArrayPool<T>.ArrayPool(Int32)
   nameWithType.vb: ArrayPool(Of T).ArrayPool(Int32)
-- uid: Platform.Helpers.Collections.Array.ArrayPool`1.#ctor*
+- uid: Platform.Helpers.Collections.Arrays.ArrayPool`1.#ctor*
   name: ArrayPool
-  href: api/Platform.Helpers.Collections.Array.ArrayPool-1.html#Platform_Helpers_Collections_Array_ArrayPool_1__ctor_
-  commentId: Overload:Platform.Helpers.Collections.Array.ArrayPool`1.#ctor
+  href: api/Platform.Helpers.Collections.Arrays.ArrayPool-1.html#Platform_Helpers_Collections_Arrays_ArrayPool_1__ctor_
+  commentId: Overload:Platform.Helpers.Collections.Arrays.ArrayPool`1.#ctor
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.Array.ArrayPool<T>.ArrayPool
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayPool(Of T).ArrayPool
+  fullName: Platform.Helpers.Collections.Arrays.ArrayPool<T>.ArrayPool
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayPool(Of T).ArrayPool
   nameWithType: ArrayPool<T>.ArrayPool
   nameWithType.vb: ArrayPool(Of T).ArrayPool
-- uid: Platform.Helpers.Collections.Array.ArrayPool`1.Allocate(System.Int64)
+- uid: Platform.Helpers.Collections.Arrays.ArrayPool`1.Allocate(System.Int64)
   name: Allocate(Int64)
-  href: api/Platform.Helpers.Collections.Array.ArrayPool-1.html#Platform_Helpers_Collections_Array_ArrayPool_1_Allocate_System_Int64_
-  commentId: M:Platform.Helpers.Collections.Array.ArrayPool`1.Allocate(System.Int64)
-  fullName: Platform.Helpers.Collections.Array.ArrayPool<T>.Allocate(System.Int64)
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayPool(Of T).Allocate(System.Int64)
+  href: api/Platform.Helpers.Collections.Arrays.ArrayPool-1.html#Platform_Helpers_Collections_Arrays_ArrayPool_1_Allocate_System_Int64_
+  commentId: M:Platform.Helpers.Collections.Arrays.ArrayPool`1.Allocate(System.Int64)
+  fullName: Platform.Helpers.Collections.Arrays.ArrayPool<T>.Allocate(System.Int64)
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayPool(Of T).Allocate(System.Int64)
   nameWithType: ArrayPool<T>.Allocate(Int64)
   nameWithType.vb: ArrayPool(Of T).Allocate(Int64)
-- uid: Platform.Helpers.Collections.Array.ArrayPool`1.Allocate*
+- uid: Platform.Helpers.Collections.Arrays.ArrayPool`1.Allocate*
   name: Allocate
-  href: api/Platform.Helpers.Collections.Array.ArrayPool-1.html#Platform_Helpers_Collections_Array_ArrayPool_1_Allocate_
-  commentId: Overload:Platform.Helpers.Collections.Array.ArrayPool`1.Allocate
+  href: api/Platform.Helpers.Collections.Arrays.ArrayPool-1.html#Platform_Helpers_Collections_Arrays_ArrayPool_1_Allocate_
+  commentId: Overload:Platform.Helpers.Collections.Arrays.ArrayPool`1.Allocate
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.Array.ArrayPool<T>.Allocate
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayPool(Of T).Allocate
+  fullName: Platform.Helpers.Collections.Arrays.ArrayPool<T>.Allocate
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayPool(Of T).Allocate
   nameWithType: ArrayPool<T>.Allocate
   nameWithType.vb: ArrayPool(Of T).Allocate
-- uid: Platform.Helpers.Collections.Array.ArrayPool`1.AllocateDisposable(System.Int64)
+- uid: Platform.Helpers.Collections.Arrays.ArrayPool`1.AllocateDisposable(System.Int64)
   name: AllocateDisposable(Int64)
-  href: api/Platform.Helpers.Collections.Array.ArrayPool-1.html#Platform_Helpers_Collections_Array_ArrayPool_1_AllocateDisposable_System_Int64_
-  commentId: M:Platform.Helpers.Collections.Array.ArrayPool`1.AllocateDisposable(System.Int64)
-  fullName: Platform.Helpers.Collections.Array.ArrayPool<T>.AllocateDisposable(System.Int64)
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayPool(Of T).AllocateDisposable(System.Int64)
+  href: api/Platform.Helpers.Collections.Arrays.ArrayPool-1.html#Platform_Helpers_Collections_Arrays_ArrayPool_1_AllocateDisposable_System_Int64_
+  commentId: M:Platform.Helpers.Collections.Arrays.ArrayPool`1.AllocateDisposable(System.Int64)
+  fullName: Platform.Helpers.Collections.Arrays.ArrayPool<T>.AllocateDisposable(System.Int64)
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayPool(Of T).AllocateDisposable(System.Int64)
   nameWithType: ArrayPool<T>.AllocateDisposable(Int64)
   nameWithType.vb: ArrayPool(Of T).AllocateDisposable(Int64)
-- uid: Platform.Helpers.Collections.Array.ArrayPool`1.AllocateDisposable*
+- uid: Platform.Helpers.Collections.Arrays.ArrayPool`1.AllocateDisposable*
   name: AllocateDisposable
-  href: api/Platform.Helpers.Collections.Array.ArrayPool-1.html#Platform_Helpers_Collections_Array_ArrayPool_1_AllocateDisposable_
-  commentId: Overload:Platform.Helpers.Collections.Array.ArrayPool`1.AllocateDisposable
+  href: api/Platform.Helpers.Collections.Arrays.ArrayPool-1.html#Platform_Helpers_Collections_Arrays_ArrayPool_1_AllocateDisposable_
+  commentId: Overload:Platform.Helpers.Collections.Arrays.ArrayPool`1.AllocateDisposable
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.Array.ArrayPool<T>.AllocateDisposable
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayPool(Of T).AllocateDisposable
+  fullName: Platform.Helpers.Collections.Arrays.ArrayPool<T>.AllocateDisposable
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayPool(Of T).AllocateDisposable
   nameWithType: ArrayPool<T>.AllocateDisposable
   nameWithType.vb: ArrayPool(Of T).AllocateDisposable
-- uid: Platform.Helpers.Collections.Array.ArrayPool`1.Clear
+- uid: Platform.Helpers.Collections.Arrays.ArrayPool`1.Clear
   name: Clear()
-  href: api/Platform.Helpers.Collections.Array.ArrayPool-1.html#Platform_Helpers_Collections_Array_ArrayPool_1_Clear
-  commentId: M:Platform.Helpers.Collections.Array.ArrayPool`1.Clear
-  fullName: Platform.Helpers.Collections.Array.ArrayPool<T>.Clear()
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayPool(Of T).Clear()
+  href: api/Platform.Helpers.Collections.Arrays.ArrayPool-1.html#Platform_Helpers_Collections_Arrays_ArrayPool_1_Clear
+  commentId: M:Platform.Helpers.Collections.Arrays.ArrayPool`1.Clear
+  fullName: Platform.Helpers.Collections.Arrays.ArrayPool<T>.Clear()
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayPool(Of T).Clear()
   nameWithType: ArrayPool<T>.Clear()
   nameWithType.vb: ArrayPool(Of T).Clear()
-- uid: Platform.Helpers.Collections.Array.ArrayPool`1.Clear*
+- uid: Platform.Helpers.Collections.Arrays.ArrayPool`1.Clear*
   name: Clear
-  href: api/Platform.Helpers.Collections.Array.ArrayPool-1.html#Platform_Helpers_Collections_Array_ArrayPool_1_Clear_
-  commentId: Overload:Platform.Helpers.Collections.Array.ArrayPool`1.Clear
+  href: api/Platform.Helpers.Collections.Arrays.ArrayPool-1.html#Platform_Helpers_Collections_Arrays_ArrayPool_1_Clear_
+  commentId: Overload:Platform.Helpers.Collections.Arrays.ArrayPool`1.Clear
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.Array.ArrayPool<T>.Clear
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayPool(Of T).Clear
+  fullName: Platform.Helpers.Collections.Arrays.ArrayPool<T>.Clear
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayPool(Of T).Clear
   nameWithType: ArrayPool<T>.Clear
   nameWithType.vb: ArrayPool(Of T).Clear
-- uid: Platform.Helpers.Collections.Array.ArrayPool`1.DefaultMaxArraysPerSize
+- uid: Platform.Helpers.Collections.Arrays.ArrayPool`1.DefaultMaxArraysPerSize
   name: DefaultMaxArraysPerSize
-  href: api/Platform.Helpers.Collections.Array.ArrayPool-1.html#Platform_Helpers_Collections_Array_ArrayPool_1_DefaultMaxArraysPerSize
-  commentId: F:Platform.Helpers.Collections.Array.ArrayPool`1.DefaultMaxArraysPerSize
-  fullName: Platform.Helpers.Collections.Array.ArrayPool<T>.DefaultMaxArraysPerSize
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayPool(Of T).DefaultMaxArraysPerSize
+  href: api/Platform.Helpers.Collections.Arrays.ArrayPool-1.html#Platform_Helpers_Collections_Arrays_ArrayPool_1_DefaultMaxArraysPerSize
+  commentId: F:Platform.Helpers.Collections.Arrays.ArrayPool`1.DefaultMaxArraysPerSize
+  fullName: Platform.Helpers.Collections.Arrays.ArrayPool<T>.DefaultMaxArraysPerSize
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayPool(Of T).DefaultMaxArraysPerSize
   nameWithType: ArrayPool<T>.DefaultMaxArraysPerSize
   nameWithType.vb: ArrayPool(Of T).DefaultMaxArraysPerSize
-- uid: Platform.Helpers.Collections.Array.ArrayPool`1.DefaultSizesAmount
+- uid: Platform.Helpers.Collections.Arrays.ArrayPool`1.DefaultSizesAmount
   name: DefaultSizesAmount
-  href: api/Platform.Helpers.Collections.Array.ArrayPool-1.html#Platform_Helpers_Collections_Array_ArrayPool_1_DefaultSizesAmount
-  commentId: F:Platform.Helpers.Collections.Array.ArrayPool`1.DefaultSizesAmount
-  fullName: Platform.Helpers.Collections.Array.ArrayPool<T>.DefaultSizesAmount
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayPool(Of T).DefaultSizesAmount
+  href: api/Platform.Helpers.Collections.Arrays.ArrayPool-1.html#Platform_Helpers_Collections_Arrays_ArrayPool_1_DefaultSizesAmount
+  commentId: F:Platform.Helpers.Collections.Arrays.ArrayPool`1.DefaultSizesAmount
+  fullName: Platform.Helpers.Collections.Arrays.ArrayPool<T>.DefaultSizesAmount
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayPool(Of T).DefaultSizesAmount
   nameWithType: ArrayPool<T>.DefaultSizesAmount
   nameWithType.vb: ArrayPool(Of T).DefaultSizesAmount
-- uid: Platform.Helpers.Collections.Array.ArrayPool`1.Empty
+- uid: Platform.Helpers.Collections.Arrays.ArrayPool`1.Empty
   name: Empty
-  href: api/Platform.Helpers.Collections.Array.ArrayPool-1.html#Platform_Helpers_Collections_Array_ArrayPool_1_Empty
-  commentId: F:Platform.Helpers.Collections.Array.ArrayPool`1.Empty
-  fullName: Platform.Helpers.Collections.Array.ArrayPool<T>.Empty
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayPool(Of T).Empty
+  href: api/Platform.Helpers.Collections.Arrays.ArrayPool-1.html#Platform_Helpers_Collections_Arrays_ArrayPool_1_Empty
+  commentId: F:Platform.Helpers.Collections.Arrays.ArrayPool`1.Empty
+  fullName: Platform.Helpers.Collections.Arrays.ArrayPool<T>.Empty
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayPool(Of T).Empty
   nameWithType: ArrayPool<T>.Empty
   nameWithType.vb: ArrayPool(Of T).Empty
-- uid: Platform.Helpers.Collections.Array.ArrayPool`1.Free(`0[])
+- uid: Platform.Helpers.Collections.Arrays.ArrayPool`1.Free(`0[])
   name: Free(T[])
-  href: api/Platform.Helpers.Collections.Array.ArrayPool-1.html#Platform_Helpers_Collections_Array_ArrayPool_1_Free__0___
-  commentId: M:Platform.Helpers.Collections.Array.ArrayPool`1.Free(`0[])
+  href: api/Platform.Helpers.Collections.Arrays.ArrayPool-1.html#Platform_Helpers_Collections_Arrays_ArrayPool_1_Free__0___
+  commentId: M:Platform.Helpers.Collections.Arrays.ArrayPool`1.Free(`0[])
   name.vb: Free(T())
-  fullName: Platform.Helpers.Collections.Array.ArrayPool<T>.Free(T[])
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayPool(Of T).Free(T())
+  fullName: Platform.Helpers.Collections.Arrays.ArrayPool<T>.Free(T[])
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayPool(Of T).Free(T())
   nameWithType: ArrayPool<T>.Free(T[])
   nameWithType.vb: ArrayPool(Of T).Free(T())
-- uid: Platform.Helpers.Collections.Array.ArrayPool`1.Free*
+- uid: Platform.Helpers.Collections.Arrays.ArrayPool`1.Free*
   name: Free
-  href: api/Platform.Helpers.Collections.Array.ArrayPool-1.html#Platform_Helpers_Collections_Array_ArrayPool_1_Free_
-  commentId: Overload:Platform.Helpers.Collections.Array.ArrayPool`1.Free
+  href: api/Platform.Helpers.Collections.Arrays.ArrayPool-1.html#Platform_Helpers_Collections_Arrays_ArrayPool_1_Free_
+  commentId: Overload:Platform.Helpers.Collections.Arrays.ArrayPool`1.Free
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.Array.ArrayPool<T>.Free
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayPool(Of T).Free
+  fullName: Platform.Helpers.Collections.Arrays.ArrayPool<T>.Free
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayPool(Of T).Free
   nameWithType: ArrayPool<T>.Free
   nameWithType.vb: ArrayPool(Of T).Free
-- uid: Platform.Helpers.Collections.Array.ArrayPool`1.Resize(Disposable{`0[]},System.Int64)
+- uid: Platform.Helpers.Collections.Arrays.ArrayPool`1.Resize(Disposable{`0[]},System.Int64)
   name: Resize(Disposable<T[]>, Int64)
-  href: api/Platform.Helpers.Collections.Array.ArrayPool-1.html#Platform_Helpers_Collections_Array_ArrayPool_1_Resize_Disposable__0____System_Int64_
-  commentId: M:Platform.Helpers.Collections.Array.ArrayPool`1.Resize(Disposable{`0[]},System.Int64)
+  href: api/Platform.Helpers.Collections.Arrays.ArrayPool-1.html#Platform_Helpers_Collections_Arrays_ArrayPool_1_Resize_Disposable__0____System_Int64_
+  commentId: M:Platform.Helpers.Collections.Arrays.ArrayPool`1.Resize(Disposable{`0[]},System.Int64)
   name.vb: Resize(Disposable(Of T()), Int64)
-  fullName: Platform.Helpers.Collections.Array.ArrayPool<T>.Resize(Disposable<T[]>, System.Int64)
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayPool(Of T).Resize(Disposable(Of T()), System.Int64)
+  fullName: Platform.Helpers.Collections.Arrays.ArrayPool<T>.Resize(Disposable<T[]>, System.Int64)
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayPool(Of T).Resize(Disposable(Of T()), System.Int64)
   nameWithType: ArrayPool<T>.Resize(Disposable<T[]>, Int64)
   nameWithType.vb: ArrayPool(Of T).Resize(Disposable(Of T()), Int64)
-- uid: Platform.Helpers.Collections.Array.ArrayPool`1.Resize*
+- uid: Platform.Helpers.Collections.Arrays.ArrayPool`1.Resize*
   name: Resize
-  href: api/Platform.Helpers.Collections.Array.ArrayPool-1.html#Platform_Helpers_Collections_Array_ArrayPool_1_Resize_
-  commentId: Overload:Platform.Helpers.Collections.Array.ArrayPool`1.Resize
+  href: api/Platform.Helpers.Collections.Arrays.ArrayPool-1.html#Platform_Helpers_Collections_Arrays_ArrayPool_1_Resize_
+  commentId: Overload:Platform.Helpers.Collections.Arrays.ArrayPool`1.Resize
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.Array.ArrayPool<T>.Resize
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayPool(Of T).Resize
+  fullName: Platform.Helpers.Collections.Arrays.ArrayPool<T>.Resize
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayPool(Of T).Resize
   nameWithType: ArrayPool<T>.Resize
   nameWithType.vb: ArrayPool(Of T).Resize
-- uid: Platform.Helpers.Collections.Array.ArrayString`1
+- uid: Platform.Helpers.Collections.Arrays.ArrayString`1
   name: ArrayString<T>
-  href: api/Platform.Helpers.Collections.Array.ArrayString-1.html
-  commentId: T:Platform.Helpers.Collections.Array.ArrayString`1
+  href: api/Platform.Helpers.Collections.Arrays.ArrayString-1.html
+  commentId: T:Platform.Helpers.Collections.Arrays.ArrayString`1
   name.vb: ArrayString(Of T)
-  fullName: Platform.Helpers.Collections.Array.ArrayString<T>
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayString(Of T)
+  fullName: Platform.Helpers.Collections.Arrays.ArrayString<T>
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayString(Of T)
   nameWithType: ArrayString<T>
   nameWithType.vb: ArrayString(Of T)
-- uid: Platform.Helpers.Collections.Array.ArrayString`1.#ctor(`0[])
+- uid: Platform.Helpers.Collections.Arrays.ArrayString`1.#ctor(`0[])
   name: ArrayString(T[])
-  href: api/Platform.Helpers.Collections.Array.ArrayString-1.html#Platform_Helpers_Collections_Array_ArrayString_1__ctor__0___
-  commentId: M:Platform.Helpers.Collections.Array.ArrayString`1.#ctor(`0[])
+  href: api/Platform.Helpers.Collections.Arrays.ArrayString-1.html#Platform_Helpers_Collections_Arrays_ArrayString_1__ctor__0___
+  commentId: M:Platform.Helpers.Collections.Arrays.ArrayString`1.#ctor(`0[])
   name.vb: ArrayString(T())
-  fullName: Platform.Helpers.Collections.Array.ArrayString<T>.ArrayString(T[])
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayString(Of T).ArrayString(T())
+  fullName: Platform.Helpers.Collections.Arrays.ArrayString<T>.ArrayString(T[])
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayString(Of T).ArrayString(T())
   nameWithType: ArrayString<T>.ArrayString(T[])
   nameWithType.vb: ArrayString(Of T).ArrayString(T())
-- uid: Platform.Helpers.Collections.Array.ArrayString`1.#ctor(`0[],System.Int64)
+- uid: Platform.Helpers.Collections.Arrays.ArrayString`1.#ctor(`0[],System.Int64)
   name: ArrayString(T[], Int64)
-  href: api/Platform.Helpers.Collections.Array.ArrayString-1.html#Platform_Helpers_Collections_Array_ArrayString_1__ctor__0___System_Int64_
-  commentId: M:Platform.Helpers.Collections.Array.ArrayString`1.#ctor(`0[],System.Int64)
+  href: api/Platform.Helpers.Collections.Arrays.ArrayString-1.html#Platform_Helpers_Collections_Arrays_ArrayString_1__ctor__0___System_Int64_
+  commentId: M:Platform.Helpers.Collections.Arrays.ArrayString`1.#ctor(`0[],System.Int64)
   name.vb: ArrayString(T(), Int64)
-  fullName: Platform.Helpers.Collections.Array.ArrayString<T>.ArrayString(T[], System.Int64)
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayString(Of T).ArrayString(T(), System.Int64)
+  fullName: Platform.Helpers.Collections.Arrays.ArrayString<T>.ArrayString(T[], System.Int64)
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayString(Of T).ArrayString(T(), System.Int64)
   nameWithType: ArrayString<T>.ArrayString(T[], Int64)
   nameWithType.vb: ArrayString(Of T).ArrayString(T(), Int64)
-- uid: Platform.Helpers.Collections.Array.ArrayString`1.#ctor(System.Int64)
+- uid: Platform.Helpers.Collections.Arrays.ArrayString`1.#ctor(System.Int64)
   name: ArrayString(Int64)
-  href: api/Platform.Helpers.Collections.Array.ArrayString-1.html#Platform_Helpers_Collections_Array_ArrayString_1__ctor_System_Int64_
-  commentId: M:Platform.Helpers.Collections.Array.ArrayString`1.#ctor(System.Int64)
-  fullName: Platform.Helpers.Collections.Array.ArrayString<T>.ArrayString(System.Int64)
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayString(Of T).ArrayString(System.Int64)
+  href: api/Platform.Helpers.Collections.Arrays.ArrayString-1.html#Platform_Helpers_Collections_Arrays_ArrayString_1__ctor_System_Int64_
+  commentId: M:Platform.Helpers.Collections.Arrays.ArrayString`1.#ctor(System.Int64)
+  fullName: Platform.Helpers.Collections.Arrays.ArrayString<T>.ArrayString(System.Int64)
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayString(Of T).ArrayString(System.Int64)
   nameWithType: ArrayString<T>.ArrayString(Int64)
   nameWithType.vb: ArrayString(Of T).ArrayString(Int64)
-- uid: Platform.Helpers.Collections.Array.ArrayString`1.#ctor*
+- uid: Platform.Helpers.Collections.Arrays.ArrayString`1.#ctor*
   name: ArrayString
-  href: api/Platform.Helpers.Collections.Array.ArrayString-1.html#Platform_Helpers_Collections_Array_ArrayString_1__ctor_
-  commentId: Overload:Platform.Helpers.Collections.Array.ArrayString`1.#ctor
+  href: api/Platform.Helpers.Collections.Arrays.ArrayString-1.html#Platform_Helpers_Collections_Arrays_ArrayString_1__ctor_
+  commentId: Overload:Platform.Helpers.Collections.Arrays.ArrayString`1.#ctor
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.Array.ArrayString<T>.ArrayString
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayString(Of T).ArrayString
+  fullName: Platform.Helpers.Collections.Arrays.ArrayString<T>.ArrayString
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayString(Of T).ArrayString
   nameWithType: ArrayString<T>.ArrayString
   nameWithType.vb: ArrayString(Of T).ArrayString
-- uid: Platform.Helpers.Collections.Array.ArrayString`1.Array
+- uid: Platform.Helpers.Collections.Arrays.ArrayString`1.Array
   name: Array
-  href: api/Platform.Helpers.Collections.Array.ArrayString-1.html#Platform_Helpers_Collections_Array_ArrayString_1_Array
-  commentId: F:Platform.Helpers.Collections.Array.ArrayString`1.Array
-  fullName: Platform.Helpers.Collections.Array.ArrayString<T>.Array
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayString(Of T).Array
+  href: api/Platform.Helpers.Collections.Arrays.ArrayString-1.html#Platform_Helpers_Collections_Arrays_ArrayString_1_Array
+  commentId: F:Platform.Helpers.Collections.Arrays.ArrayString`1.Array
+  fullName: Platform.Helpers.Collections.Arrays.ArrayString<T>.Array
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayString(Of T).Array
   nameWithType: ArrayString<T>.Array
   nameWithType.vb: ArrayString(Of T).Array
-- uid: Platform.Helpers.Collections.Array.ArrayString`1.Contains(`0)
+- uid: Platform.Helpers.Collections.Arrays.ArrayString`1.Contains(`0)
   name: Contains(T)
-  href: api/Platform.Helpers.Collections.Array.ArrayString-1.html#Platform_Helpers_Collections_Array_ArrayString_1_Contains__0_
-  commentId: M:Platform.Helpers.Collections.Array.ArrayString`1.Contains(`0)
-  fullName: Platform.Helpers.Collections.Array.ArrayString<T>.Contains(T)
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayString(Of T).Contains(T)
+  href: api/Platform.Helpers.Collections.Arrays.ArrayString-1.html#Platform_Helpers_Collections_Arrays_ArrayString_1_Contains__0_
+  commentId: M:Platform.Helpers.Collections.Arrays.ArrayString`1.Contains(`0)
+  fullName: Platform.Helpers.Collections.Arrays.ArrayString<T>.Contains(T)
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayString(Of T).Contains(T)
   nameWithType: ArrayString<T>.Contains(T)
   nameWithType.vb: ArrayString(Of T).Contains(T)
-- uid: Platform.Helpers.Collections.Array.ArrayString`1.Contains*
+- uid: Platform.Helpers.Collections.Arrays.ArrayString`1.Contains*
   name: Contains
-  href: api/Platform.Helpers.Collections.Array.ArrayString-1.html#Platform_Helpers_Collections_Array_ArrayString_1_Contains_
-  commentId: Overload:Platform.Helpers.Collections.Array.ArrayString`1.Contains
+  href: api/Platform.Helpers.Collections.Arrays.ArrayString-1.html#Platform_Helpers_Collections_Arrays_ArrayString_1_Contains_
+  commentId: Overload:Platform.Helpers.Collections.Arrays.ArrayString`1.Contains
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.Array.ArrayString<T>.Contains
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayString(Of T).Contains
+  fullName: Platform.Helpers.Collections.Arrays.ArrayString<T>.Contains
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayString(Of T).Contains
   nameWithType: ArrayString<T>.Contains
   nameWithType.vb: ArrayString(Of T).Contains
-- uid: Platform.Helpers.Collections.Array.ArrayString`1.Length
+- uid: Platform.Helpers.Collections.Arrays.ArrayString`1.Length
   name: Length
-  href: api/Platform.Helpers.Collections.Array.ArrayString-1.html#Platform_Helpers_Collections_Array_ArrayString_1_Length
-  commentId: F:Platform.Helpers.Collections.Array.ArrayString`1.Length
-  fullName: Platform.Helpers.Collections.Array.ArrayString<T>.Length
-  fullName.vb: Platform.Helpers.Collections.Array.ArrayString(Of T).Length
+  href: api/Platform.Helpers.Collections.Arrays.ArrayString-1.html#Platform_Helpers_Collections_Arrays_ArrayString_1_Length
+  commentId: F:Platform.Helpers.Collections.Arrays.ArrayString`1.Length
+  fullName: Platform.Helpers.Collections.Arrays.ArrayString<T>.Length
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayString(Of T).Length
   nameWithType: ArrayString<T>.Length
   nameWithType.vb: ArrayString(Of T).Length
 - uid: Platform.Helpers.Collections.Concurrent
@@ -15244,184 +15244,184 @@ references:
   fullName.vb: Platform.Helpers.Collections.IDictionaryExtensions.GetOrDefault(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey)
   nameWithType: IDictionaryExtensions.GetOrDefault<TKey, TValue>(IDictionary<TKey, TValue>, TKey)
   nameWithType.vb: IDictionaryExtensions.GetOrDefault(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey)
-- uid: Platform.Helpers.Collections.List
-  name: Platform.Helpers.Collections.List
-  href: api/Platform.Helpers.Collections.List.html
-  commentId: N:Platform.Helpers.Collections.List
-  fullName: Platform.Helpers.Collections.List
-  nameWithType: Platform.Helpers.Collections.List
-- uid: Platform.Helpers.Collections.List.IListComparer`1
+- uid: Platform.Helpers.Collections.Lists
+  name: Platform.Helpers.Collections.Lists
+  href: api/Platform.Helpers.Collections.Lists.html
+  commentId: N:Platform.Helpers.Collections.Lists
+  fullName: Platform.Helpers.Collections.Lists
+  nameWithType: Platform.Helpers.Collections.Lists
+- uid: Platform.Helpers.Collections.Lists.IListComparer`1
   name: IListComparer<T>
-  href: api/Platform.Helpers.Collections.List.IListComparer-1.html
-  commentId: T:Platform.Helpers.Collections.List.IListComparer`1
+  href: api/Platform.Helpers.Collections.Lists.IListComparer-1.html
+  commentId: T:Platform.Helpers.Collections.Lists.IListComparer`1
   name.vb: IListComparer(Of T)
-  fullName: Platform.Helpers.Collections.List.IListComparer<T>
-  fullName.vb: Platform.Helpers.Collections.List.IListComparer(Of T)
+  fullName: Platform.Helpers.Collections.Lists.IListComparer<T>
+  fullName.vb: Platform.Helpers.Collections.Lists.IListComparer(Of T)
   nameWithType: IListComparer<T>
   nameWithType.vb: IListComparer(Of T)
-- uid: Platform.Helpers.Collections.List.IListComparer`1.Compare(IList{`0},IList{`0})
+- uid: Platform.Helpers.Collections.Lists.IListComparer`1.Compare(IList{`0},IList{`0})
   name: Compare(IList<T>, IList<T>)
-  href: api/Platform.Helpers.Collections.List.IListComparer-1.html#Platform_Helpers_Collections_List_IListComparer_1_Compare_IList__0__IList__0__
-  commentId: M:Platform.Helpers.Collections.List.IListComparer`1.Compare(IList{`0},IList{`0})
+  href: api/Platform.Helpers.Collections.Lists.IListComparer-1.html#Platform_Helpers_Collections_Lists_IListComparer_1_Compare_IList__0__IList__0__
+  commentId: M:Platform.Helpers.Collections.Lists.IListComparer`1.Compare(IList{`0},IList{`0})
   name.vb: Compare(IList(Of T), IList(Of T))
-  fullName: Platform.Helpers.Collections.List.IListComparer<T>.Compare(IList<T>, IList<T>)
-  fullName.vb: Platform.Helpers.Collections.List.IListComparer(Of T).Compare(IList(Of T), IList(Of T))
+  fullName: Platform.Helpers.Collections.Lists.IListComparer<T>.Compare(IList<T>, IList<T>)
+  fullName.vb: Platform.Helpers.Collections.Lists.IListComparer(Of T).Compare(IList(Of T), IList(Of T))
   nameWithType: IListComparer<T>.Compare(IList<T>, IList<T>)
   nameWithType.vb: IListComparer(Of T).Compare(IList(Of T), IList(Of T))
-- uid: Platform.Helpers.Collections.List.IListComparer`1.Compare*
+- uid: Platform.Helpers.Collections.Lists.IListComparer`1.Compare*
   name: Compare
-  href: api/Platform.Helpers.Collections.List.IListComparer-1.html#Platform_Helpers_Collections_List_IListComparer_1_Compare_
-  commentId: Overload:Platform.Helpers.Collections.List.IListComparer`1.Compare
+  href: api/Platform.Helpers.Collections.Lists.IListComparer-1.html#Platform_Helpers_Collections_Lists_IListComparer_1_Compare_
+  commentId: Overload:Platform.Helpers.Collections.Lists.IListComparer`1.Compare
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.List.IListComparer<T>.Compare
-  fullName.vb: Platform.Helpers.Collections.List.IListComparer(Of T).Compare
+  fullName: Platform.Helpers.Collections.Lists.IListComparer<T>.Compare
+  fullName.vb: Platform.Helpers.Collections.Lists.IListComparer(Of T).Compare
   nameWithType: IListComparer<T>.Compare
   nameWithType.vb: IListComparer(Of T).Compare
-- uid: Platform.Helpers.Collections.List.IListEqualityComparer`1
+- uid: Platform.Helpers.Collections.Lists.IListEqualityComparer`1
   name: IListEqualityComparer<T>
-  href: api/Platform.Helpers.Collections.List.IListEqualityComparer-1.html
-  commentId: T:Platform.Helpers.Collections.List.IListEqualityComparer`1
+  href: api/Platform.Helpers.Collections.Lists.IListEqualityComparer-1.html
+  commentId: T:Platform.Helpers.Collections.Lists.IListEqualityComparer`1
   name.vb: IListEqualityComparer(Of T)
-  fullName: Platform.Helpers.Collections.List.IListEqualityComparer<T>
-  fullName.vb: Platform.Helpers.Collections.List.IListEqualityComparer(Of T)
+  fullName: Platform.Helpers.Collections.Lists.IListEqualityComparer<T>
+  fullName.vb: Platform.Helpers.Collections.Lists.IListEqualityComparer(Of T)
   nameWithType: IListEqualityComparer<T>
   nameWithType.vb: IListEqualityComparer(Of T)
-- uid: Platform.Helpers.Collections.List.IListEqualityComparer`1.Equals(IList{`0},IList{`0})
+- uid: Platform.Helpers.Collections.Lists.IListEqualityComparer`1.Equals(IList{`0},IList{`0})
   name: Equals(IList<T>, IList<T>)
-  href: api/Platform.Helpers.Collections.List.IListEqualityComparer-1.html#Platform_Helpers_Collections_List_IListEqualityComparer_1_Equals_IList__0__IList__0__
-  commentId: M:Platform.Helpers.Collections.List.IListEqualityComparer`1.Equals(IList{`0},IList{`0})
+  href: api/Platform.Helpers.Collections.Lists.IListEqualityComparer-1.html#Platform_Helpers_Collections_Lists_IListEqualityComparer_1_Equals_IList__0__IList__0__
+  commentId: M:Platform.Helpers.Collections.Lists.IListEqualityComparer`1.Equals(IList{`0},IList{`0})
   name.vb: Equals(IList(Of T), IList(Of T))
-  fullName: Platform.Helpers.Collections.List.IListEqualityComparer<T>.Equals(IList<T>, IList<T>)
-  fullName.vb: Platform.Helpers.Collections.List.IListEqualityComparer(Of T).Equals(IList(Of T), IList(Of T))
+  fullName: Platform.Helpers.Collections.Lists.IListEqualityComparer<T>.Equals(IList<T>, IList<T>)
+  fullName.vb: Platform.Helpers.Collections.Lists.IListEqualityComparer(Of T).Equals(IList(Of T), IList(Of T))
   nameWithType: IListEqualityComparer<T>.Equals(IList<T>, IList<T>)
   nameWithType.vb: IListEqualityComparer(Of T).Equals(IList(Of T), IList(Of T))
-- uid: Platform.Helpers.Collections.List.IListEqualityComparer`1.Equals*
+- uid: Platform.Helpers.Collections.Lists.IListEqualityComparer`1.Equals*
   name: Equals
-  href: api/Platform.Helpers.Collections.List.IListEqualityComparer-1.html#Platform_Helpers_Collections_List_IListEqualityComparer_1_Equals_
-  commentId: Overload:Platform.Helpers.Collections.List.IListEqualityComparer`1.Equals
+  href: api/Platform.Helpers.Collections.Lists.IListEqualityComparer-1.html#Platform_Helpers_Collections_Lists_IListEqualityComparer_1_Equals_
+  commentId: Overload:Platform.Helpers.Collections.Lists.IListEqualityComparer`1.Equals
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.List.IListEqualityComparer<T>.Equals
-  fullName.vb: Platform.Helpers.Collections.List.IListEqualityComparer(Of T).Equals
+  fullName: Platform.Helpers.Collections.Lists.IListEqualityComparer<T>.Equals
+  fullName.vb: Platform.Helpers.Collections.Lists.IListEqualityComparer(Of T).Equals
   nameWithType: IListEqualityComparer<T>.Equals
   nameWithType.vb: IListEqualityComparer(Of T).Equals
-- uid: Platform.Helpers.Collections.List.IListEqualityComparer`1.GetHashCode(IList{`0})
+- uid: Platform.Helpers.Collections.Lists.IListEqualityComparer`1.GetHashCode(IList{`0})
   name: GetHashCode(IList<T>)
-  href: api/Platform.Helpers.Collections.List.IListEqualityComparer-1.html#Platform_Helpers_Collections_List_IListEqualityComparer_1_GetHashCode_IList__0__
-  commentId: M:Platform.Helpers.Collections.List.IListEqualityComparer`1.GetHashCode(IList{`0})
+  href: api/Platform.Helpers.Collections.Lists.IListEqualityComparer-1.html#Platform_Helpers_Collections_Lists_IListEqualityComparer_1_GetHashCode_IList__0__
+  commentId: M:Platform.Helpers.Collections.Lists.IListEqualityComparer`1.GetHashCode(IList{`0})
   name.vb: GetHashCode(IList(Of T))
-  fullName: Platform.Helpers.Collections.List.IListEqualityComparer<T>.GetHashCode(IList<T>)
-  fullName.vb: Platform.Helpers.Collections.List.IListEqualityComparer(Of T).GetHashCode(IList(Of T))
+  fullName: Platform.Helpers.Collections.Lists.IListEqualityComparer<T>.GetHashCode(IList<T>)
+  fullName.vb: Platform.Helpers.Collections.Lists.IListEqualityComparer(Of T).GetHashCode(IList(Of T))
   nameWithType: IListEqualityComparer<T>.GetHashCode(IList<T>)
   nameWithType.vb: IListEqualityComparer(Of T).GetHashCode(IList(Of T))
-- uid: Platform.Helpers.Collections.List.IListEqualityComparer`1.GetHashCode*
+- uid: Platform.Helpers.Collections.Lists.IListEqualityComparer`1.GetHashCode*
   name: GetHashCode
-  href: api/Platform.Helpers.Collections.List.IListEqualityComparer-1.html#Platform_Helpers_Collections_List_IListEqualityComparer_1_GetHashCode_
-  commentId: Overload:Platform.Helpers.Collections.List.IListEqualityComparer`1.GetHashCode
+  href: api/Platform.Helpers.Collections.Lists.IListEqualityComparer-1.html#Platform_Helpers_Collections_Lists_IListEqualityComparer_1_GetHashCode_
+  commentId: Overload:Platform.Helpers.Collections.Lists.IListEqualityComparer`1.GetHashCode
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.List.IListEqualityComparer<T>.GetHashCode
-  fullName.vb: Platform.Helpers.Collections.List.IListEqualityComparer(Of T).GetHashCode
+  fullName: Platform.Helpers.Collections.Lists.IListEqualityComparer<T>.GetHashCode
+  fullName.vb: Platform.Helpers.Collections.Lists.IListEqualityComparer(Of T).GetHashCode
   nameWithType: IListEqualityComparer<T>.GetHashCode
   nameWithType.vb: IListEqualityComparer(Of T).GetHashCode
-- uid: Platform.Helpers.Collections.List.ListExtensions
+- uid: Platform.Helpers.Collections.Lists.ListExtensions
   name: ListExtensions
-  href: api/Platform.Helpers.Collections.List.ListExtensions.html
-  commentId: T:Platform.Helpers.Collections.List.ListExtensions
-  fullName: Platform.Helpers.Collections.List.ListExtensions
+  href: api/Platform.Helpers.Collections.Lists.ListExtensions.html
+  commentId: T:Platform.Helpers.Collections.Lists.ListExtensions
+  fullName: Platform.Helpers.Collections.Lists.ListExtensions
   nameWithType: ListExtensions
-- uid: Platform.Helpers.Collections.List.ListExtensions.AddAndReturnTrue*
+- uid: Platform.Helpers.Collections.Lists.ListExtensions.AddAndReturnTrue*
   name: AddAndReturnTrue
-  href: api/Platform.Helpers.Collections.List.ListExtensions.html#Platform_Helpers_Collections_List_ListExtensions_AddAndReturnTrue_
-  commentId: Overload:Platform.Helpers.Collections.List.ListExtensions.AddAndReturnTrue
+  href: api/Platform.Helpers.Collections.Lists.ListExtensions.html#Platform_Helpers_Collections_Lists_ListExtensions_AddAndReturnTrue_
+  commentId: Overload:Platform.Helpers.Collections.Lists.ListExtensions.AddAndReturnTrue
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.List.ListExtensions.AddAndReturnTrue
+  fullName: Platform.Helpers.Collections.Lists.ListExtensions.AddAndReturnTrue
   nameWithType: ListExtensions.AddAndReturnTrue
-- uid: Platform.Helpers.Collections.List.ListExtensions.AddAndReturnTrue``1(IList{``0},``0)
+- uid: Platform.Helpers.Collections.Lists.ListExtensions.AddAndReturnTrue``1(IList{``0},``0)
   name: AddAndReturnTrue<T>(IList<T>, T)
-  href: api/Platform.Helpers.Collections.List.ListExtensions.html#Platform_Helpers_Collections_List_ListExtensions_AddAndReturnTrue__1_IList___0____0_
-  commentId: M:Platform.Helpers.Collections.List.ListExtensions.AddAndReturnTrue``1(IList{``0},``0)
+  href: api/Platform.Helpers.Collections.Lists.ListExtensions.html#Platform_Helpers_Collections_Lists_ListExtensions_AddAndReturnTrue__1_IList___0____0_
+  commentId: M:Platform.Helpers.Collections.Lists.ListExtensions.AddAndReturnTrue``1(IList{``0},``0)
   name.vb: AddAndReturnTrue(Of T)(IList(Of T), T)
-  fullName: Platform.Helpers.Collections.List.ListExtensions.AddAndReturnTrue<T>(IList<T>, T)
-  fullName.vb: Platform.Helpers.Collections.List.ListExtensions.AddAndReturnTrue(Of T)(IList(Of T), T)
+  fullName: Platform.Helpers.Collections.Lists.ListExtensions.AddAndReturnTrue<T>(IList<T>, T)
+  fullName.vb: Platform.Helpers.Collections.Lists.ListExtensions.AddAndReturnTrue(Of T)(IList(Of T), T)
   nameWithType: ListExtensions.AddAndReturnTrue<T>(IList<T>, T)
   nameWithType.vb: ListExtensions.AddAndReturnTrue(Of T)(IList(Of T), T)
-- uid: Platform.Helpers.Collections.List.ListExtensions.CompareTo*
+- uid: Platform.Helpers.Collections.Lists.ListExtensions.CompareTo*
   name: CompareTo
-  href: api/Platform.Helpers.Collections.List.ListExtensions.html#Platform_Helpers_Collections_List_ListExtensions_CompareTo_
-  commentId: Overload:Platform.Helpers.Collections.List.ListExtensions.CompareTo
+  href: api/Platform.Helpers.Collections.Lists.ListExtensions.html#Platform_Helpers_Collections_Lists_ListExtensions_CompareTo_
+  commentId: Overload:Platform.Helpers.Collections.Lists.ListExtensions.CompareTo
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.List.ListExtensions.CompareTo
+  fullName: Platform.Helpers.Collections.Lists.ListExtensions.CompareTo
   nameWithType: ListExtensions.CompareTo
-- uid: Platform.Helpers.Collections.List.ListExtensions.CompareTo``1(IList{``0},IList{``0})
+- uid: Platform.Helpers.Collections.Lists.ListExtensions.CompareTo``1(IList{``0},IList{``0})
   name: CompareTo<T>(IList<T>, IList<T>)
-  href: api/Platform.Helpers.Collections.List.ListExtensions.html#Platform_Helpers_Collections_List_ListExtensions_CompareTo__1_IList___0__IList___0__
-  commentId: M:Platform.Helpers.Collections.List.ListExtensions.CompareTo``1(IList{``0},IList{``0})
+  href: api/Platform.Helpers.Collections.Lists.ListExtensions.html#Platform_Helpers_Collections_Lists_ListExtensions_CompareTo__1_IList___0__IList___0__
+  commentId: M:Platform.Helpers.Collections.Lists.ListExtensions.CompareTo``1(IList{``0},IList{``0})
   name.vb: CompareTo(Of T)(IList(Of T), IList(Of T))
-  fullName: Platform.Helpers.Collections.List.ListExtensions.CompareTo<T>(IList<T>, IList<T>)
-  fullName.vb: Platform.Helpers.Collections.List.ListExtensions.CompareTo(Of T)(IList(Of T), IList(Of T))
+  fullName: Platform.Helpers.Collections.Lists.ListExtensions.CompareTo<T>(IList<T>, IList<T>)
+  fullName.vb: Platform.Helpers.Collections.Lists.ListExtensions.CompareTo(Of T)(IList(Of T), IList(Of T))
   nameWithType: ListExtensions.CompareTo<T>(IList<T>, IList<T>)
   nameWithType.vb: ListExtensions.CompareTo(Of T)(IList(Of T), IList(Of T))
-- uid: Platform.Helpers.Collections.List.ListExtensions.EqualTo*
+- uid: Platform.Helpers.Collections.Lists.ListExtensions.EqualTo*
   name: EqualTo
-  href: api/Platform.Helpers.Collections.List.ListExtensions.html#Platform_Helpers_Collections_List_ListExtensions_EqualTo_
-  commentId: Overload:Platform.Helpers.Collections.List.ListExtensions.EqualTo
+  href: api/Platform.Helpers.Collections.Lists.ListExtensions.html#Platform_Helpers_Collections_Lists_ListExtensions_EqualTo_
+  commentId: Overload:Platform.Helpers.Collections.Lists.ListExtensions.EqualTo
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.List.ListExtensions.EqualTo
+  fullName: Platform.Helpers.Collections.Lists.ListExtensions.EqualTo
   nameWithType: ListExtensions.EqualTo
-- uid: Platform.Helpers.Collections.List.ListExtensions.EqualTo``1(IList{``0},IList{``0})
+- uid: Platform.Helpers.Collections.Lists.ListExtensions.EqualTo``1(IList{``0},IList{``0})
   name: EqualTo<T>(IList<T>, IList<T>)
-  href: api/Platform.Helpers.Collections.List.ListExtensions.html#Platform_Helpers_Collections_List_ListExtensions_EqualTo__1_IList___0__IList___0__
-  commentId: M:Platform.Helpers.Collections.List.ListExtensions.EqualTo``1(IList{``0},IList{``0})
+  href: api/Platform.Helpers.Collections.Lists.ListExtensions.html#Platform_Helpers_Collections_Lists_ListExtensions_EqualTo__1_IList___0__IList___0__
+  commentId: M:Platform.Helpers.Collections.Lists.ListExtensions.EqualTo``1(IList{``0},IList{``0})
   name.vb: EqualTo(Of T)(IList(Of T), IList(Of T))
-  fullName: Platform.Helpers.Collections.List.ListExtensions.EqualTo<T>(IList<T>, IList<T>)
-  fullName.vb: Platform.Helpers.Collections.List.ListExtensions.EqualTo(Of T)(IList(Of T), IList(Of T))
+  fullName: Platform.Helpers.Collections.Lists.ListExtensions.EqualTo<T>(IList<T>, IList<T>)
+  fullName.vb: Platform.Helpers.Collections.Lists.ListExtensions.EqualTo(Of T)(IList(Of T), IList(Of T))
   nameWithType: ListExtensions.EqualTo<T>(IList<T>, IList<T>)
   nameWithType.vb: ListExtensions.EqualTo(Of T)(IList(Of T), IList(Of T))
-- uid: Platform.Helpers.Collections.List.ListExtensions.ForEach*
+- uid: Platform.Helpers.Collections.Lists.ListExtensions.ForEach*
   name: ForEach
-  href: api/Platform.Helpers.Collections.List.ListExtensions.html#Platform_Helpers_Collections_List_ListExtensions_ForEach_
-  commentId: Overload:Platform.Helpers.Collections.List.ListExtensions.ForEach
+  href: api/Platform.Helpers.Collections.Lists.ListExtensions.html#Platform_Helpers_Collections_Lists_ListExtensions_ForEach_
+  commentId: Overload:Platform.Helpers.Collections.Lists.ListExtensions.ForEach
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.List.ListExtensions.ForEach
+  fullName: Platform.Helpers.Collections.Lists.ListExtensions.ForEach
   nameWithType: ListExtensions.ForEach
-- uid: Platform.Helpers.Collections.List.ListExtensions.ForEach``1(IList{``0},Action{``0})
+- uid: Platform.Helpers.Collections.Lists.ListExtensions.ForEach``1(IList{``0},Action{``0})
   name: ForEach<T>(IList<T>, Action<T>)
-  href: api/Platform.Helpers.Collections.List.ListExtensions.html#Platform_Helpers_Collections_List_ListExtensions_ForEach__1_IList___0__Action___0__
-  commentId: M:Platform.Helpers.Collections.List.ListExtensions.ForEach``1(IList{``0},Action{``0})
+  href: api/Platform.Helpers.Collections.Lists.ListExtensions.html#Platform_Helpers_Collections_Lists_ListExtensions_ForEach__1_IList___0__Action___0__
+  commentId: M:Platform.Helpers.Collections.Lists.ListExtensions.ForEach``1(IList{``0},Action{``0})
   name.vb: ForEach(Of T)(IList(Of T), Action(Of T))
-  fullName: Platform.Helpers.Collections.List.ListExtensions.ForEach<T>(IList<T>, Action<T>)
-  fullName.vb: Platform.Helpers.Collections.List.ListExtensions.ForEach(Of T)(IList(Of T), Action(Of T))
+  fullName: Platform.Helpers.Collections.Lists.ListExtensions.ForEach<T>(IList<T>, Action<T>)
+  fullName.vb: Platform.Helpers.Collections.Lists.ListExtensions.ForEach(Of T)(IList(Of T), Action(Of T))
   nameWithType: ListExtensions.ForEach<T>(IList<T>, Action<T>)
   nameWithType.vb: ListExtensions.ForEach(Of T)(IList(Of T), Action(Of T))
-- uid: Platform.Helpers.Collections.List.ListExtensions.GenerateHashCode*
+- uid: Platform.Helpers.Collections.Lists.ListExtensions.GenerateHashCode*
   name: GenerateHashCode
-  href: api/Platform.Helpers.Collections.List.ListExtensions.html#Platform_Helpers_Collections_List_ListExtensions_GenerateHashCode_
-  commentId: Overload:Platform.Helpers.Collections.List.ListExtensions.GenerateHashCode
+  href: api/Platform.Helpers.Collections.Lists.ListExtensions.html#Platform_Helpers_Collections_Lists_ListExtensions_GenerateHashCode_
+  commentId: Overload:Platform.Helpers.Collections.Lists.ListExtensions.GenerateHashCode
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.List.ListExtensions.GenerateHashCode
+  fullName: Platform.Helpers.Collections.Lists.ListExtensions.GenerateHashCode
   nameWithType: ListExtensions.GenerateHashCode
-- uid: Platform.Helpers.Collections.List.ListExtensions.GenerateHashCode``1(IList{``0})
+- uid: Platform.Helpers.Collections.Lists.ListExtensions.GenerateHashCode``1(IList{``0})
   name: GenerateHashCode<T>(IList<T>)
-  href: api/Platform.Helpers.Collections.List.ListExtensions.html#Platform_Helpers_Collections_List_ListExtensions_GenerateHashCode__1_IList___0__
-  commentId: M:Platform.Helpers.Collections.List.ListExtensions.GenerateHashCode``1(IList{``0})
+  href: api/Platform.Helpers.Collections.Lists.ListExtensions.html#Platform_Helpers_Collections_Lists_ListExtensions_GenerateHashCode__1_IList___0__
+  commentId: M:Platform.Helpers.Collections.Lists.ListExtensions.GenerateHashCode``1(IList{``0})
   name.vb: GenerateHashCode(Of T)(IList(Of T))
-  fullName: Platform.Helpers.Collections.List.ListExtensions.GenerateHashCode<T>(IList<T>)
-  fullName.vb: Platform.Helpers.Collections.List.ListExtensions.GenerateHashCode(Of T)(IList(Of T))
+  fullName: Platform.Helpers.Collections.Lists.ListExtensions.GenerateHashCode<T>(IList<T>)
+  fullName.vb: Platform.Helpers.Collections.Lists.ListExtensions.GenerateHashCode(Of T)(IList(Of T))
   nameWithType: ListExtensions.GenerateHashCode<T>(IList<T>)
   nameWithType.vb: ListExtensions.GenerateHashCode(Of T)(IList(Of T))
-- uid: Platform.Helpers.Collections.List.ListExtensions.ToArray*
+- uid: Platform.Helpers.Collections.Lists.ListExtensions.ToArray*
   name: ToArray
-  href: api/Platform.Helpers.Collections.List.ListExtensions.html#Platform_Helpers_Collections_List_ListExtensions_ToArray_
-  commentId: Overload:Platform.Helpers.Collections.List.ListExtensions.ToArray
+  href: api/Platform.Helpers.Collections.Lists.ListExtensions.html#Platform_Helpers_Collections_Lists_ListExtensions_ToArray_
+  commentId: Overload:Platform.Helpers.Collections.Lists.ListExtensions.ToArray
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.List.ListExtensions.ToArray
+  fullName: Platform.Helpers.Collections.Lists.ListExtensions.ToArray
   nameWithType: ListExtensions.ToArray
-- uid: Platform.Helpers.Collections.List.ListExtensions.ToArray``1(IList{``0},Func{``0,System.Boolean})
+- uid: Platform.Helpers.Collections.Lists.ListExtensions.ToArray``1(IList{``0},Func{``0,System.Boolean})
   name: ToArray<T>(IList<T>, Func<T, Boolean>)
-  href: api/Platform.Helpers.Collections.List.ListExtensions.html#Platform_Helpers_Collections_List_ListExtensions_ToArray__1_IList___0__Func___0_System_Boolean__
-  commentId: M:Platform.Helpers.Collections.List.ListExtensions.ToArray``1(IList{``0},Func{``0,System.Boolean})
+  href: api/Platform.Helpers.Collections.Lists.ListExtensions.html#Platform_Helpers_Collections_Lists_ListExtensions_ToArray__1_IList___0__Func___0_System_Boolean__
+  commentId: M:Platform.Helpers.Collections.Lists.ListExtensions.ToArray``1(IList{``0},Func{``0,System.Boolean})
   name.vb: ToArray(Of T)(IList(Of T), Func(Of T, Boolean))
-  fullName: Platform.Helpers.Collections.List.ListExtensions.ToArray<T>(IList<T>, Func<T, System.Boolean>)
-  fullName.vb: Platform.Helpers.Collections.List.ListExtensions.ToArray(Of T)(IList(Of T), Func(Of T, System.Boolean))
+  fullName: Platform.Helpers.Collections.Lists.ListExtensions.ToArray<T>(IList<T>, Func<T, System.Boolean>)
+  fullName.vb: Platform.Helpers.Collections.Lists.ListExtensions.ToArray(Of T)(IList(Of T), Func(Of T, System.Boolean))
   nameWithType: ListExtensions.ToArray<T>(IList<T>, Func<T, Boolean>)
   nameWithType.vb: ListExtensions.ToArray(Of T)(IList(Of T), Func(Of T, Boolean))
 - uid: Platform.Helpers.Collections.Segments
@@ -16275,178 +16275,178 @@ references:
   fullName.vb: Platform.Helpers.Collections.SetExtensions.RemoveAndReturnVoid(Of T)(ISet(Of T), T)
   nameWithType: SetExtensions.RemoveAndReturnVoid<T>(ISet<T>, T)
   nameWithType.vb: SetExtensions.RemoveAndReturnVoid(Of T)(ISet(Of T), T)
-- uid: Platform.Helpers.Collections.Stack
-  name: Platform.Helpers.Collections.Stack
-  href: api/Platform.Helpers.Collections.Stack.html
-  commentId: N:Platform.Helpers.Collections.Stack
-  fullName: Platform.Helpers.Collections.Stack
-  nameWithType: Platform.Helpers.Collections.Stack
-- uid: Platform.Helpers.Collections.Stack.DefaultStack`1
+- uid: Platform.Helpers.Collections.Stacks
+  name: Platform.Helpers.Collections.Stacks
+  href: api/Platform.Helpers.Collections.Stacks.html
+  commentId: N:Platform.Helpers.Collections.Stacks
+  fullName: Platform.Helpers.Collections.Stacks
+  nameWithType: Platform.Helpers.Collections.Stacks
+- uid: Platform.Helpers.Collections.Stacks.DefaultStack`1
   name: DefaultStack<TElement>
-  href: api/Platform.Helpers.Collections.Stack.DefaultStack-1.html
-  commentId: T:Platform.Helpers.Collections.Stack.DefaultStack`1
+  href: api/Platform.Helpers.Collections.Stacks.DefaultStack-1.html
+  commentId: T:Platform.Helpers.Collections.Stacks.DefaultStack`1
   name.vb: DefaultStack(Of TElement)
-  fullName: Platform.Helpers.Collections.Stack.DefaultStack<TElement>
-  fullName.vb: Platform.Helpers.Collections.Stack.DefaultStack(Of TElement)
+  fullName: Platform.Helpers.Collections.Stacks.DefaultStack<TElement>
+  fullName.vb: Platform.Helpers.Collections.Stacks.DefaultStack(Of TElement)
   nameWithType: DefaultStack<TElement>
   nameWithType.vb: DefaultStack(Of TElement)
-- uid: Platform.Helpers.Collections.Stack.DefaultStack`1.#ctor
+- uid: Platform.Helpers.Collections.Stacks.DefaultStack`1.#ctor
   name: DefaultStack()
-  href: api/Platform.Helpers.Collections.Stack.DefaultStack-1.html#Platform_Helpers_Collections_Stack_DefaultStack_1__ctor
-  commentId: M:Platform.Helpers.Collections.Stack.DefaultStack`1.#ctor
-  fullName: Platform.Helpers.Collections.Stack.DefaultStack<TElement>.DefaultStack()
-  fullName.vb: Platform.Helpers.Collections.Stack.DefaultStack(Of TElement).DefaultStack()
+  href: api/Platform.Helpers.Collections.Stacks.DefaultStack-1.html#Platform_Helpers_Collections_Stacks_DefaultStack_1__ctor
+  commentId: M:Platform.Helpers.Collections.Stacks.DefaultStack`1.#ctor
+  fullName: Platform.Helpers.Collections.Stacks.DefaultStack<TElement>.DefaultStack()
+  fullName.vb: Platform.Helpers.Collections.Stacks.DefaultStack(Of TElement).DefaultStack()
   nameWithType: DefaultStack<TElement>.DefaultStack()
   nameWithType.vb: DefaultStack(Of TElement).DefaultStack()
-- uid: Platform.Helpers.Collections.Stack.DefaultStack`1.#ctor*
+- uid: Platform.Helpers.Collections.Stacks.DefaultStack`1.#ctor*
   name: DefaultStack
-  href: api/Platform.Helpers.Collections.Stack.DefaultStack-1.html#Platform_Helpers_Collections_Stack_DefaultStack_1__ctor_
-  commentId: Overload:Platform.Helpers.Collections.Stack.DefaultStack`1.#ctor
+  href: api/Platform.Helpers.Collections.Stacks.DefaultStack-1.html#Platform_Helpers_Collections_Stacks_DefaultStack_1__ctor_
+  commentId: Overload:Platform.Helpers.Collections.Stacks.DefaultStack`1.#ctor
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.Stack.DefaultStack<TElement>.DefaultStack
-  fullName.vb: Platform.Helpers.Collections.Stack.DefaultStack(Of TElement).DefaultStack
+  fullName: Platform.Helpers.Collections.Stacks.DefaultStack<TElement>.DefaultStack
+  fullName.vb: Platform.Helpers.Collections.Stacks.DefaultStack(Of TElement).DefaultStack
   nameWithType: DefaultStack<TElement>.DefaultStack
   nameWithType.vb: DefaultStack(Of TElement).DefaultStack
-- uid: Platform.Helpers.Collections.Stack.DefaultStack`1.Peek
+- uid: Platform.Helpers.Collections.Stacks.DefaultStack`1.Peek
   name: Peek()
-  href: api/Platform.Helpers.Collections.Stack.DefaultStack-1.html#Platform_Helpers_Collections_Stack_DefaultStack_1_Peek
-  commentId: M:Platform.Helpers.Collections.Stack.DefaultStack`1.Peek
-  fullName: Platform.Helpers.Collections.Stack.DefaultStack<TElement>.Peek()
-  fullName.vb: Platform.Helpers.Collections.Stack.DefaultStack(Of TElement).Peek()
+  href: api/Platform.Helpers.Collections.Stacks.DefaultStack-1.html#Platform_Helpers_Collections_Stacks_DefaultStack_1_Peek
+  commentId: M:Platform.Helpers.Collections.Stacks.DefaultStack`1.Peek
+  fullName: Platform.Helpers.Collections.Stacks.DefaultStack<TElement>.Peek()
+  fullName.vb: Platform.Helpers.Collections.Stacks.DefaultStack(Of TElement).Peek()
   nameWithType: DefaultStack<TElement>.Peek()
   nameWithType.vb: DefaultStack(Of TElement).Peek()
-- uid: Platform.Helpers.Collections.Stack.DefaultStack`1.Peek*
+- uid: Platform.Helpers.Collections.Stacks.DefaultStack`1.Peek*
   name: Peek
-  href: api/Platform.Helpers.Collections.Stack.DefaultStack-1.html#Platform_Helpers_Collections_Stack_DefaultStack_1_Peek_
-  commentId: Overload:Platform.Helpers.Collections.Stack.DefaultStack`1.Peek
+  href: api/Platform.Helpers.Collections.Stacks.DefaultStack-1.html#Platform_Helpers_Collections_Stacks_DefaultStack_1_Peek_
+  commentId: Overload:Platform.Helpers.Collections.Stacks.DefaultStack`1.Peek
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.Stack.DefaultStack<TElement>.Peek
-  fullName.vb: Platform.Helpers.Collections.Stack.DefaultStack(Of TElement).Peek
+  fullName: Platform.Helpers.Collections.Stacks.DefaultStack<TElement>.Peek
+  fullName.vb: Platform.Helpers.Collections.Stacks.DefaultStack(Of TElement).Peek
   nameWithType: DefaultStack<TElement>.Peek
   nameWithType.vb: DefaultStack(Of TElement).Peek
-- uid: Platform.Helpers.Collections.Stack.DefaultStack`1.Pop
+- uid: Platform.Helpers.Collections.Stacks.DefaultStack`1.Pop
   name: Pop()
-  href: api/Platform.Helpers.Collections.Stack.DefaultStack-1.html#Platform_Helpers_Collections_Stack_DefaultStack_1_Pop
-  commentId: M:Platform.Helpers.Collections.Stack.DefaultStack`1.Pop
-  fullName: Platform.Helpers.Collections.Stack.DefaultStack<TElement>.Pop()
-  fullName.vb: Platform.Helpers.Collections.Stack.DefaultStack(Of TElement).Pop()
+  href: api/Platform.Helpers.Collections.Stacks.DefaultStack-1.html#Platform_Helpers_Collections_Stacks_DefaultStack_1_Pop
+  commentId: M:Platform.Helpers.Collections.Stacks.DefaultStack`1.Pop
+  fullName: Platform.Helpers.Collections.Stacks.DefaultStack<TElement>.Pop()
+  fullName.vb: Platform.Helpers.Collections.Stacks.DefaultStack(Of TElement).Pop()
   nameWithType: DefaultStack<TElement>.Pop()
   nameWithType.vb: DefaultStack(Of TElement).Pop()
-- uid: Platform.Helpers.Collections.Stack.DefaultStack`1.Pop*
+- uid: Platform.Helpers.Collections.Stacks.DefaultStack`1.Pop*
   name: Pop
-  href: api/Platform.Helpers.Collections.Stack.DefaultStack-1.html#Platform_Helpers_Collections_Stack_DefaultStack_1_Pop_
-  commentId: Overload:Platform.Helpers.Collections.Stack.DefaultStack`1.Pop
+  href: api/Platform.Helpers.Collections.Stacks.DefaultStack-1.html#Platform_Helpers_Collections_Stacks_DefaultStack_1_Pop_
+  commentId: Overload:Platform.Helpers.Collections.Stacks.DefaultStack`1.Pop
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.Stack.DefaultStack<TElement>.Pop
-  fullName.vb: Platform.Helpers.Collections.Stack.DefaultStack(Of TElement).Pop
+  fullName: Platform.Helpers.Collections.Stacks.DefaultStack<TElement>.Pop
+  fullName.vb: Platform.Helpers.Collections.Stacks.DefaultStack(Of TElement).Pop
   nameWithType: DefaultStack<TElement>.Pop
   nameWithType.vb: DefaultStack(Of TElement).Pop
-- uid: Platform.Helpers.Collections.Stack.DefaultStack`1.Push(`0)
+- uid: Platform.Helpers.Collections.Stacks.DefaultStack`1.Push(`0)
   name: Push(TElement)
-  href: api/Platform.Helpers.Collections.Stack.DefaultStack-1.html#Platform_Helpers_Collections_Stack_DefaultStack_1_Push__0_
-  commentId: M:Platform.Helpers.Collections.Stack.DefaultStack`1.Push(`0)
-  fullName: Platform.Helpers.Collections.Stack.DefaultStack<TElement>.Push(TElement)
-  fullName.vb: Platform.Helpers.Collections.Stack.DefaultStack(Of TElement).Push(TElement)
+  href: api/Platform.Helpers.Collections.Stacks.DefaultStack-1.html#Platform_Helpers_Collections_Stacks_DefaultStack_1_Push__0_
+  commentId: M:Platform.Helpers.Collections.Stacks.DefaultStack`1.Push(`0)
+  fullName: Platform.Helpers.Collections.Stacks.DefaultStack<TElement>.Push(TElement)
+  fullName.vb: Platform.Helpers.Collections.Stacks.DefaultStack(Of TElement).Push(TElement)
   nameWithType: DefaultStack<TElement>.Push(TElement)
   nameWithType.vb: DefaultStack(Of TElement).Push(TElement)
-- uid: Platform.Helpers.Collections.Stack.DefaultStack`1.Push*
+- uid: Platform.Helpers.Collections.Stacks.DefaultStack`1.Push*
   name: Push
-  href: api/Platform.Helpers.Collections.Stack.DefaultStack-1.html#Platform_Helpers_Collections_Stack_DefaultStack_1_Push_
-  commentId: Overload:Platform.Helpers.Collections.Stack.DefaultStack`1.Push
+  href: api/Platform.Helpers.Collections.Stacks.DefaultStack-1.html#Platform_Helpers_Collections_Stacks_DefaultStack_1_Push_
+  commentId: Overload:Platform.Helpers.Collections.Stacks.DefaultStack`1.Push
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.Stack.DefaultStack<TElement>.Push
-  fullName.vb: Platform.Helpers.Collections.Stack.DefaultStack(Of TElement).Push
+  fullName: Platform.Helpers.Collections.Stacks.DefaultStack<TElement>.Push
+  fullName.vb: Platform.Helpers.Collections.Stacks.DefaultStack(Of TElement).Push
   nameWithType: DefaultStack<TElement>.Push
   nameWithType.vb: DefaultStack(Of TElement).Push
-- uid: Platform.Helpers.Collections.Stack.IStack`1
+- uid: Platform.Helpers.Collections.Stacks.IStack`1
   name: IStack<TElement>
-  href: api/Platform.Helpers.Collections.Stack.IStack-1.html
-  commentId: T:Platform.Helpers.Collections.Stack.IStack`1
+  href: api/Platform.Helpers.Collections.Stacks.IStack-1.html
+  commentId: T:Platform.Helpers.Collections.Stacks.IStack`1
   name.vb: IStack(Of TElement)
-  fullName: Platform.Helpers.Collections.Stack.IStack<TElement>
-  fullName.vb: Platform.Helpers.Collections.Stack.IStack(Of TElement)
+  fullName: Platform.Helpers.Collections.Stacks.IStack<TElement>
+  fullName.vb: Platform.Helpers.Collections.Stacks.IStack(Of TElement)
   nameWithType: IStack<TElement>
   nameWithType.vb: IStack(Of TElement)
-- uid: Platform.Helpers.Collections.Stack.IStack`1.Peek
+- uid: Platform.Helpers.Collections.Stacks.IStack`1.Peek
   name: Peek()
-  href: api/Platform.Helpers.Collections.Stack.IStack-1.html#Platform_Helpers_Collections_Stack_IStack_1_Peek
-  commentId: M:Platform.Helpers.Collections.Stack.IStack`1.Peek
-  fullName: Platform.Helpers.Collections.Stack.IStack<TElement>.Peek()
-  fullName.vb: Platform.Helpers.Collections.Stack.IStack(Of TElement).Peek()
+  href: api/Platform.Helpers.Collections.Stacks.IStack-1.html#Platform_Helpers_Collections_Stacks_IStack_1_Peek
+  commentId: M:Platform.Helpers.Collections.Stacks.IStack`1.Peek
+  fullName: Platform.Helpers.Collections.Stacks.IStack<TElement>.Peek()
+  fullName.vb: Platform.Helpers.Collections.Stacks.IStack(Of TElement).Peek()
   nameWithType: IStack<TElement>.Peek()
   nameWithType.vb: IStack(Of TElement).Peek()
-- uid: Platform.Helpers.Collections.Stack.IStack`1.Peek*
+- uid: Platform.Helpers.Collections.Stacks.IStack`1.Peek*
   name: Peek
-  href: api/Platform.Helpers.Collections.Stack.IStack-1.html#Platform_Helpers_Collections_Stack_IStack_1_Peek_
-  commentId: Overload:Platform.Helpers.Collections.Stack.IStack`1.Peek
+  href: api/Platform.Helpers.Collections.Stacks.IStack-1.html#Platform_Helpers_Collections_Stacks_IStack_1_Peek_
+  commentId: Overload:Platform.Helpers.Collections.Stacks.IStack`1.Peek
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.Stack.IStack<TElement>.Peek
-  fullName.vb: Platform.Helpers.Collections.Stack.IStack(Of TElement).Peek
+  fullName: Platform.Helpers.Collections.Stacks.IStack<TElement>.Peek
+  fullName.vb: Platform.Helpers.Collections.Stacks.IStack(Of TElement).Peek
   nameWithType: IStack<TElement>.Peek
   nameWithType.vb: IStack(Of TElement).Peek
-- uid: Platform.Helpers.Collections.Stack.IStack`1.Pop
+- uid: Platform.Helpers.Collections.Stacks.IStack`1.Pop
   name: Pop()
-  href: api/Platform.Helpers.Collections.Stack.IStack-1.html#Platform_Helpers_Collections_Stack_IStack_1_Pop
-  commentId: M:Platform.Helpers.Collections.Stack.IStack`1.Pop
-  fullName: Platform.Helpers.Collections.Stack.IStack<TElement>.Pop()
-  fullName.vb: Platform.Helpers.Collections.Stack.IStack(Of TElement).Pop()
+  href: api/Platform.Helpers.Collections.Stacks.IStack-1.html#Platform_Helpers_Collections_Stacks_IStack_1_Pop
+  commentId: M:Platform.Helpers.Collections.Stacks.IStack`1.Pop
+  fullName: Platform.Helpers.Collections.Stacks.IStack<TElement>.Pop()
+  fullName.vb: Platform.Helpers.Collections.Stacks.IStack(Of TElement).Pop()
   nameWithType: IStack<TElement>.Pop()
   nameWithType.vb: IStack(Of TElement).Pop()
-- uid: Platform.Helpers.Collections.Stack.IStack`1.Pop*
+- uid: Platform.Helpers.Collections.Stacks.IStack`1.Pop*
   name: Pop
-  href: api/Platform.Helpers.Collections.Stack.IStack-1.html#Platform_Helpers_Collections_Stack_IStack_1_Pop_
-  commentId: Overload:Platform.Helpers.Collections.Stack.IStack`1.Pop
+  href: api/Platform.Helpers.Collections.Stacks.IStack-1.html#Platform_Helpers_Collections_Stacks_IStack_1_Pop_
+  commentId: Overload:Platform.Helpers.Collections.Stacks.IStack`1.Pop
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.Stack.IStack<TElement>.Pop
-  fullName.vb: Platform.Helpers.Collections.Stack.IStack(Of TElement).Pop
+  fullName: Platform.Helpers.Collections.Stacks.IStack<TElement>.Pop
+  fullName.vb: Platform.Helpers.Collections.Stacks.IStack(Of TElement).Pop
   nameWithType: IStack<TElement>.Pop
   nameWithType.vb: IStack(Of TElement).Pop
-- uid: Platform.Helpers.Collections.Stack.IStack`1.Push(`0)
+- uid: Platform.Helpers.Collections.Stacks.IStack`1.Push(`0)
   name: Push(TElement)
-  href: api/Platform.Helpers.Collections.Stack.IStack-1.html#Platform_Helpers_Collections_Stack_IStack_1_Push__0_
-  commentId: M:Platform.Helpers.Collections.Stack.IStack`1.Push(`0)
-  fullName: Platform.Helpers.Collections.Stack.IStack<TElement>.Push(TElement)
-  fullName.vb: Platform.Helpers.Collections.Stack.IStack(Of TElement).Push(TElement)
+  href: api/Platform.Helpers.Collections.Stacks.IStack-1.html#Platform_Helpers_Collections_Stacks_IStack_1_Push__0_
+  commentId: M:Platform.Helpers.Collections.Stacks.IStack`1.Push(`0)
+  fullName: Platform.Helpers.Collections.Stacks.IStack<TElement>.Push(TElement)
+  fullName.vb: Platform.Helpers.Collections.Stacks.IStack(Of TElement).Push(TElement)
   nameWithType: IStack<TElement>.Push(TElement)
   nameWithType.vb: IStack(Of TElement).Push(TElement)
-- uid: Platform.Helpers.Collections.Stack.IStack`1.Push*
+- uid: Platform.Helpers.Collections.Stacks.IStack`1.Push*
   name: Push
-  href: api/Platform.Helpers.Collections.Stack.IStack-1.html#Platform_Helpers_Collections_Stack_IStack_1_Push_
-  commentId: Overload:Platform.Helpers.Collections.Stack.IStack`1.Push
+  href: api/Platform.Helpers.Collections.Stacks.IStack-1.html#Platform_Helpers_Collections_Stacks_IStack_1_Push_
+  commentId: Overload:Platform.Helpers.Collections.Stacks.IStack`1.Push
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.Stack.IStack<TElement>.Push
-  fullName.vb: Platform.Helpers.Collections.Stack.IStack(Of TElement).Push
+  fullName: Platform.Helpers.Collections.Stacks.IStack<TElement>.Push
+  fullName.vb: Platform.Helpers.Collections.Stacks.IStack(Of TElement).Push
   nameWithType: IStack<TElement>.Push
   nameWithType.vb: IStack(Of TElement).Push
-- uid: Platform.Helpers.Collections.Stack.IStackFactory`1
+- uid: Platform.Helpers.Collections.Stacks.IStackFactory`1
   name: IStackFactory<TElement>
-  href: api/Platform.Helpers.Collections.Stack.IStackFactory-1.html
-  commentId: T:Platform.Helpers.Collections.Stack.IStackFactory`1
+  href: api/Platform.Helpers.Collections.Stacks.IStackFactory-1.html
+  commentId: T:Platform.Helpers.Collections.Stacks.IStackFactory`1
   name.vb: IStackFactory(Of TElement)
-  fullName: Platform.Helpers.Collections.Stack.IStackFactory<TElement>
-  fullName.vb: Platform.Helpers.Collections.Stack.IStackFactory(Of TElement)
+  fullName: Platform.Helpers.Collections.Stacks.IStackFactory<TElement>
+  fullName.vb: Platform.Helpers.Collections.Stacks.IStackFactory(Of TElement)
   nameWithType: IStackFactory<TElement>
   nameWithType.vb: IStackFactory(Of TElement)
-- uid: Platform.Helpers.Collections.Stack.StackExtensions
+- uid: Platform.Helpers.Collections.Stacks.StackExtensions
   name: StackExtensions
-  href: api/Platform.Helpers.Collections.Stack.StackExtensions.html
-  commentId: T:Platform.Helpers.Collections.Stack.StackExtensions
-  fullName: Platform.Helpers.Collections.Stack.StackExtensions
+  href: api/Platform.Helpers.Collections.Stacks.StackExtensions.html
+  commentId: T:Platform.Helpers.Collections.Stacks.StackExtensions
+  fullName: Platform.Helpers.Collections.Stacks.StackExtensions
   nameWithType: StackExtensions
-- uid: Platform.Helpers.Collections.Stack.StackExtensions.PopOrDefault*
+- uid: Platform.Helpers.Collections.Stacks.StackExtensions.PopOrDefault*
   name: PopOrDefault
-  href: api/Platform.Helpers.Collections.Stack.StackExtensions.html#Platform_Helpers_Collections_Stack_StackExtensions_PopOrDefault_
-  commentId: Overload:Platform.Helpers.Collections.Stack.StackExtensions.PopOrDefault
+  href: api/Platform.Helpers.Collections.Stacks.StackExtensions.html#Platform_Helpers_Collections_Stacks_StackExtensions_PopOrDefault_
+  commentId: Overload:Platform.Helpers.Collections.Stacks.StackExtensions.PopOrDefault
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.Stack.StackExtensions.PopOrDefault
+  fullName: Platform.Helpers.Collections.Stacks.StackExtensions.PopOrDefault
   nameWithType: StackExtensions.PopOrDefault
-- uid: Platform.Helpers.Collections.Stack.StackExtensions.PopOrDefault``1(Platform.Helpers.Collections.Stack{``0})
+- uid: Platform.Helpers.Collections.Stacks.StackExtensions.PopOrDefault``1(Stack{``0})
   name: PopOrDefault<T>(Stack<T>)
-  href: api/Platform.Helpers.Collections.Stack.StackExtensions.html#Platform_Helpers_Collections_Stack_StackExtensions_PopOrDefault__1_Platform_Helpers_Collections_Stack___0__
-  commentId: M:Platform.Helpers.Collections.Stack.StackExtensions.PopOrDefault``1(Platform.Helpers.Collections.Stack{``0})
+  href: api/Platform.Helpers.Collections.Stacks.StackExtensions.html#Platform_Helpers_Collections_Stacks_StackExtensions_PopOrDefault__1_Stack___0__
+  commentId: M:Platform.Helpers.Collections.Stacks.StackExtensions.PopOrDefault``1(Stack{``0})
   name.vb: PopOrDefault(Of T)(Stack(Of T))
-  fullName: Platform.Helpers.Collections.Stack.StackExtensions.PopOrDefault<T>(Platform.Helpers.Collections.Stack<T>)
-  fullName.vb: Platform.Helpers.Collections.Stack.StackExtensions.PopOrDefault(Of T)(Platform.Helpers.Collections.Stack(Of T))
+  fullName: Platform.Helpers.Collections.Stacks.StackExtensions.PopOrDefault<T>(Stack<T>)
+  fullName.vb: Platform.Helpers.Collections.Stacks.StackExtensions.PopOrDefault(Of T)(Stack(Of T))
   nameWithType: StackExtensions.PopOrDefault<T>(Stack<T>)
   nameWithType.vb: StackExtensions.PopOrDefault(Of T)(Stack(Of T))
 - uid: Platform.Helpers.Collections.StringExtensions
