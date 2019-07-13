@@ -20774,78 +20774,78 @@ references:
   commentId: N:Platform.Helpers.Timestamps
   fullName: Platform.Helpers.Timestamps
   nameWithType: Platform.Helpers.Timestamps
-- uid: Platform.Helpers.Timestamps.UniqueTimestamp
-  name: UniqueTimestamp
-  href: api/Platform.Helpers.Timestamps.UniqueTimestamp.html
-  commentId: T:Platform.Helpers.Timestamps.UniqueTimestamp
-  fullName: Platform.Helpers.Timestamps.UniqueTimestamp
-  nameWithType: UniqueTimestamp
-- uid: Platform.Helpers.Timestamps.UniqueTimestamp.#ctor(System.UInt64)
-  name: UniqueTimestamp(UInt64)
-  href: api/Platform.Helpers.Timestamps.UniqueTimestamp.html#Platform_Helpers_Timestamps_UniqueTimestamp__ctor_System_UInt64_
-  commentId: M:Platform.Helpers.Timestamps.UniqueTimestamp.#ctor(System.UInt64)
-  fullName: Platform.Helpers.Timestamps.UniqueTimestamp.UniqueTimestamp(System.UInt64)
-  nameWithType: UniqueTimestamp.UniqueTimestamp(UInt64)
-- uid: Platform.Helpers.Timestamps.UniqueTimestamp.#ctor*
-  name: UniqueTimestamp
-  href: api/Platform.Helpers.Timestamps.UniqueTimestamp.html#Platform_Helpers_Timestamps_UniqueTimestamp__ctor_
-  commentId: Overload:Platform.Helpers.Timestamps.UniqueTimestamp.#ctor
+- uid: Platform.Helpers.Timestamps.Timestamp
+  name: Timestamp
+  href: api/Platform.Helpers.Timestamps.Timestamp.html
+  commentId: T:Platform.Helpers.Timestamps.Timestamp
+  fullName: Platform.Helpers.Timestamps.Timestamp
+  nameWithType: Timestamp
+- uid: Platform.Helpers.Timestamps.Timestamp.#ctor(System.UInt64)
+  name: Timestamp(UInt64)
+  href: api/Platform.Helpers.Timestamps.Timestamp.html#Platform_Helpers_Timestamps_Timestamp__ctor_System_UInt64_
+  commentId: M:Platform.Helpers.Timestamps.Timestamp.#ctor(System.UInt64)
+  fullName: Platform.Helpers.Timestamps.Timestamp.Timestamp(System.UInt64)
+  nameWithType: Timestamp.Timestamp(UInt64)
+- uid: Platform.Helpers.Timestamps.Timestamp.#ctor*
+  name: Timestamp
+  href: api/Platform.Helpers.Timestamps.Timestamp.html#Platform_Helpers_Timestamps_Timestamp__ctor_
+  commentId: Overload:Platform.Helpers.Timestamps.Timestamp.#ctor
   isSpec: "True"
-  fullName: Platform.Helpers.Timestamps.UniqueTimestamp.UniqueTimestamp
-  nameWithType: UniqueTimestamp.UniqueTimestamp
-- uid: Platform.Helpers.Timestamps.UniqueTimestamp.Format
+  fullName: Platform.Helpers.Timestamps.Timestamp.Timestamp
+  nameWithType: Timestamp.Timestamp
+- uid: Platform.Helpers.Timestamps.Timestamp.Format
   name: Format
-  href: api/Platform.Helpers.Timestamps.UniqueTimestamp.html#Platform_Helpers_Timestamps_UniqueTimestamp_Format
-  commentId: F:Platform.Helpers.Timestamps.UniqueTimestamp.Format
-  fullName: Platform.Helpers.Timestamps.UniqueTimestamp.Format
-  nameWithType: UniqueTimestamp.Format
-- uid: Platform.Helpers.Timestamps.UniqueTimestamp.op_Implicit(DateTime)~Platform.Helpers.Timestamps.UniqueTimestamp
-  name: Implicit(DateTime to UniqueTimestamp)
-  href: api/Platform.Helpers.Timestamps.UniqueTimestamp.html#Platform_Helpers_Timestamps_UniqueTimestamp_op_Implicit_DateTime__Platform_Helpers_Timestamps_UniqueTimestamp
-  commentId: M:Platform.Helpers.Timestamps.UniqueTimestamp.op_Implicit(DateTime)~Platform.Helpers.Timestamps.UniqueTimestamp
-  name.vb: Widening(DateTime to UniqueTimestamp)
-  fullName: Platform.Helpers.Timestamps.UniqueTimestamp.Implicit(DateTime to Platform.Helpers.Timestamps.UniqueTimestamp)
-  fullName.vb: Platform.Helpers.Timestamps.UniqueTimestamp.Widening(DateTime to Platform.Helpers.Timestamps.UniqueTimestamp)
-  nameWithType: UniqueTimestamp.Implicit(DateTime to UniqueTimestamp)
-  nameWithType.vb: UniqueTimestamp.Widening(DateTime to UniqueTimestamp)
-- uid: Platform.Helpers.Timestamps.UniqueTimestamp.op_Implicit(Platform.Helpers.Timestamps.UniqueTimestamp)~DateTime
-  name: Implicit(UniqueTimestamp to DateTime)
-  href: api/Platform.Helpers.Timestamps.UniqueTimestamp.html#Platform_Helpers_Timestamps_UniqueTimestamp_op_Implicit_Platform_Helpers_Timestamps_UniqueTimestamp__DateTime
-  commentId: M:Platform.Helpers.Timestamps.UniqueTimestamp.op_Implicit(Platform.Helpers.Timestamps.UniqueTimestamp)~DateTime
-  name.vb: Widening(UniqueTimestamp to DateTime)
-  fullName: Platform.Helpers.Timestamps.UniqueTimestamp.Implicit(Platform.Helpers.Timestamps.UniqueTimestamp to DateTime)
-  fullName.vb: Platform.Helpers.Timestamps.UniqueTimestamp.Widening(Platform.Helpers.Timestamps.UniqueTimestamp to DateTime)
-  nameWithType: UniqueTimestamp.Implicit(UniqueTimestamp to DateTime)
-  nameWithType.vb: UniqueTimestamp.Widening(UniqueTimestamp to DateTime)
-- uid: Platform.Helpers.Timestamps.UniqueTimestamp.op_Implicit*
+  href: api/Platform.Helpers.Timestamps.Timestamp.html#Platform_Helpers_Timestamps_Timestamp_Format
+  commentId: F:Platform.Helpers.Timestamps.Timestamp.Format
+  fullName: Platform.Helpers.Timestamps.Timestamp.Format
+  nameWithType: Timestamp.Format
+- uid: Platform.Helpers.Timestamps.Timestamp.op_Implicit(DateTime)~Platform.Helpers.Timestamps.Timestamp
+  name: Implicit(DateTime to Timestamp)
+  href: api/Platform.Helpers.Timestamps.Timestamp.html#Platform_Helpers_Timestamps_Timestamp_op_Implicit_DateTime__Platform_Helpers_Timestamps_Timestamp
+  commentId: M:Platform.Helpers.Timestamps.Timestamp.op_Implicit(DateTime)~Platform.Helpers.Timestamps.Timestamp
+  name.vb: Widening(DateTime to Timestamp)
+  fullName: Platform.Helpers.Timestamps.Timestamp.Implicit(DateTime to Platform.Helpers.Timestamps.Timestamp)
+  fullName.vb: Platform.Helpers.Timestamps.Timestamp.Widening(DateTime to Platform.Helpers.Timestamps.Timestamp)
+  nameWithType: Timestamp.Implicit(DateTime to Timestamp)
+  nameWithType.vb: Timestamp.Widening(DateTime to Timestamp)
+- uid: Platform.Helpers.Timestamps.Timestamp.op_Implicit(Platform.Helpers.Timestamps.Timestamp)~DateTime
+  name: Implicit(Timestamp to DateTime)
+  href: api/Platform.Helpers.Timestamps.Timestamp.html#Platform_Helpers_Timestamps_Timestamp_op_Implicit_Platform_Helpers_Timestamps_Timestamp__DateTime
+  commentId: M:Platform.Helpers.Timestamps.Timestamp.op_Implicit(Platform.Helpers.Timestamps.Timestamp)~DateTime
+  name.vb: Widening(Timestamp to DateTime)
+  fullName: Platform.Helpers.Timestamps.Timestamp.Implicit(Platform.Helpers.Timestamps.Timestamp to DateTime)
+  fullName.vb: Platform.Helpers.Timestamps.Timestamp.Widening(Platform.Helpers.Timestamps.Timestamp to DateTime)
+  nameWithType: Timestamp.Implicit(Timestamp to DateTime)
+  nameWithType.vb: Timestamp.Widening(Timestamp to DateTime)
+- uid: Platform.Helpers.Timestamps.Timestamp.op_Implicit*
   name: Implicit
-  href: api/Platform.Helpers.Timestamps.UniqueTimestamp.html#Platform_Helpers_Timestamps_UniqueTimestamp_op_Implicit_
-  commentId: Overload:Platform.Helpers.Timestamps.UniqueTimestamp.op_Implicit
+  href: api/Platform.Helpers.Timestamps.Timestamp.html#Platform_Helpers_Timestamps_Timestamp_op_Implicit_
+  commentId: Overload:Platform.Helpers.Timestamps.Timestamp.op_Implicit
   isSpec: "True"
   name.vb: Widening
-  fullName: Platform.Helpers.Timestamps.UniqueTimestamp.Implicit
-  fullName.vb: Platform.Helpers.Timestamps.UniqueTimestamp.Widening
-  nameWithType: UniqueTimestamp.Implicit
-  nameWithType.vb: UniqueTimestamp.Widening
-- uid: Platform.Helpers.Timestamps.UniqueTimestamp.Ticks
+  fullName: Platform.Helpers.Timestamps.Timestamp.Implicit
+  fullName.vb: Platform.Helpers.Timestamps.Timestamp.Widening
+  nameWithType: Timestamp.Implicit
+  nameWithType.vb: Timestamp.Widening
+- uid: Platform.Helpers.Timestamps.Timestamp.Ticks
   name: Ticks
-  href: api/Platform.Helpers.Timestamps.UniqueTimestamp.html#Platform_Helpers_Timestamps_UniqueTimestamp_Ticks
-  commentId: F:Platform.Helpers.Timestamps.UniqueTimestamp.Ticks
-  fullName: Platform.Helpers.Timestamps.UniqueTimestamp.Ticks
-  nameWithType: UniqueTimestamp.Ticks
-- uid: Platform.Helpers.Timestamps.UniqueTimestamp.ToString
+  href: api/Platform.Helpers.Timestamps.Timestamp.html#Platform_Helpers_Timestamps_Timestamp_Ticks
+  commentId: F:Platform.Helpers.Timestamps.Timestamp.Ticks
+  fullName: Platform.Helpers.Timestamps.Timestamp.Ticks
+  nameWithType: Timestamp.Ticks
+- uid: Platform.Helpers.Timestamps.Timestamp.ToString
   name: ToString()
-  href: api/Platform.Helpers.Timestamps.UniqueTimestamp.html#Platform_Helpers_Timestamps_UniqueTimestamp_ToString
-  commentId: M:Platform.Helpers.Timestamps.UniqueTimestamp.ToString
-  fullName: Platform.Helpers.Timestamps.UniqueTimestamp.ToString()
-  nameWithType: UniqueTimestamp.ToString()
-- uid: Platform.Helpers.Timestamps.UniqueTimestamp.ToString*
+  href: api/Platform.Helpers.Timestamps.Timestamp.html#Platform_Helpers_Timestamps_Timestamp_ToString
+  commentId: M:Platform.Helpers.Timestamps.Timestamp.ToString
+  fullName: Platform.Helpers.Timestamps.Timestamp.ToString()
+  nameWithType: Timestamp.ToString()
+- uid: Platform.Helpers.Timestamps.Timestamp.ToString*
   name: ToString
-  href: api/Platform.Helpers.Timestamps.UniqueTimestamp.html#Platform_Helpers_Timestamps_UniqueTimestamp_ToString_
-  commentId: Overload:Platform.Helpers.Timestamps.UniqueTimestamp.ToString
+  href: api/Platform.Helpers.Timestamps.Timestamp.html#Platform_Helpers_Timestamps_Timestamp_ToString_
+  commentId: Overload:Platform.Helpers.Timestamps.Timestamp.ToString
   isSpec: "True"
-  fullName: Platform.Helpers.Timestamps.UniqueTimestamp.ToString
-  nameWithType: UniqueTimestamp.ToString
+  fullName: Platform.Helpers.Timestamps.Timestamp.ToString
+  nameWithType: Timestamp.ToString
 - uid: Platform.Helpers.Timestamps.UniqueTimestampFactory
   name: UniqueTimestampFactory
   href: api/Platform.Helpers.Timestamps.UniqueTimestampFactory.html

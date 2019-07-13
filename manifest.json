@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "aQ5GUudROv/Bplr3vQPYqw=="
+          "hash": "Ndftk8sy5ejgTCBTfpBzSA=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "README.ru.html",
-          "hash": "mBGvbJ7moYb1wG+V2gRBEQ=="
+          "hash": "gqi6bj2Wit+T1uursxMa9Q=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/articles/links-theory.html",
-          "hash": "e3DuKZ0/QlGOKDsAxxX0zg=="
+          "hash": "Dp1ihl54aoa9u/C5uSfCcg=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "gaxskqMEwmd/X+Z5heel7A=="
+          "hash": "wUpSVtzRJ4EspcZNxK2ZOQ=="
         }
       },
       "is_incremental": false,
@@ -906,7 +906,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Data.Core.Doublets.UInt64LinksTransactionsLayer.Transition.html",
-          "hash": "wPfTf/DmsU68pzB7Hm5jKw=="
+          "hash": "SOS5fhmgsPFMPf6eDrAq8A=="
         }
       },
       "is_incremental": false,
@@ -3353,11 +3353,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Timestamps.UniqueTimestamp.yml",
+      "source_relative_path": "obj/api/Platform.Helpers.Timestamps.Timestamp.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Platform.Helpers.Timestamps.UniqueTimestamp.html",
-          "hash": "bOkIR6vvrv4AUA4758dziw=="
+          "relative_path": "api/Platform.Helpers.Timestamps.Timestamp.html",
+          "hash": "opzuNvV74DmVoh/CEBQbmg=="
         }
       },
       "is_incremental": false,
@@ -3369,7 +3369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Helpers.Timestamps.UniqueTimestampFactory.html",
-          "hash": "9lcAzNC0evHhIUEjNb8IRw=="
+          "hash": "CmbXwOaLll1mZNlzdSuefA=="
         }
       },
       "is_incremental": false,
@@ -3381,7 +3381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Helpers.Timestamps.html",
-          "hash": "lSoE4nIYnXaczRdji2Emkw=="
+          "hash": "PgFRZNxXuN7xhYZZPHXddg=="
         }
       },
       "is_incremental": false,
@@ -4197,7 +4197,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "Fe8S1b6umQw3b7KDvaXxhw=="
+          "hash": "2G7UWLRwX8VCpambhIOtpw=="
         }
       },
       "is_incremental": false,
