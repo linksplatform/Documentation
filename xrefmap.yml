@@ -15064,89 +15064,6 @@ references:
   fullName.vb: Platform.Helpers.Collections.ArrayString(Of T).Length
   nameWithType: ArrayString<T>.Length
   nameWithType.vb: ArrayString(Of T).Length
-- uid: Platform.Helpers.Collections.CharsSegment
-  name: CharsSegment
-  href: api/Platform.Helpers.Collections.CharsSegment.html
-  commentId: T:Platform.Helpers.Collections.CharsSegment
-  fullName: Platform.Helpers.Collections.CharsSegment
-  nameWithType: CharsSegment
-- uid: Platform.Helpers.Collections.CharsSegment.#ctor(IList{System.Char},System.Int32,System.Int32)
-  name: CharsSegment(IList<Char>, Int32, Int32)
-  href: api/Platform.Helpers.Collections.CharsSegment.html#Platform_Helpers_Collections_CharsSegment__ctor_IList_System_Char__System_Int32_System_Int32_
-  commentId: M:Platform.Helpers.Collections.CharsSegment.#ctor(IList{System.Char},System.Int32,System.Int32)
-  name.vb: CharsSegment(IList(Of Char), Int32, Int32)
-  fullName: Platform.Helpers.Collections.CharsSegment.CharsSegment(IList<System.Char>, System.Int32, System.Int32)
-  fullName.vb: Platform.Helpers.Collections.CharsSegment.CharsSegment(IList(Of System.Char), System.Int32, System.Int32)
-  nameWithType: CharsSegment.CharsSegment(IList<Char>, Int32, Int32)
-  nameWithType.vb: CharsSegment.CharsSegment(IList(Of Char), Int32, Int32)
-- uid: Platform.Helpers.Collections.CharsSegment.#ctor*
-  name: CharsSegment
-  href: api/Platform.Helpers.Collections.CharsSegment.html#Platform_Helpers_Collections_CharsSegment__ctor_
-  commentId: Overload:Platform.Helpers.Collections.CharsSegment.#ctor
-  isSpec: "True"
-  fullName: Platform.Helpers.Collections.CharsSegment.CharsSegment
-  nameWithType: CharsSegment.CharsSegment
-- uid: Platform.Helpers.Collections.CharsSegment.Equals(Platform.Helpers.Collections.Segment{System.Char})
-  name: Equals(Segment<Char>)
-  href: api/Platform.Helpers.Collections.CharsSegment.html#Platform_Helpers_Collections_CharsSegment_Equals_Platform_Helpers_Collections_Segment_System_Char__
-  commentId: M:Platform.Helpers.Collections.CharsSegment.Equals(Platform.Helpers.Collections.Segment{System.Char})
-  name.vb: Equals(Segment(Of Char))
-  fullName: Platform.Helpers.Collections.CharsSegment.Equals(Platform.Helpers.Collections.Segment<System.Char>)
-  fullName.vb: Platform.Helpers.Collections.CharsSegment.Equals(Platform.Helpers.Collections.Segment(Of System.Char))
-  nameWithType: CharsSegment.Equals(Segment<Char>)
-  nameWithType.vb: CharsSegment.Equals(Segment(Of Char))
-- uid: Platform.Helpers.Collections.CharsSegment.Equals*
-  name: Equals
-  href: api/Platform.Helpers.Collections.CharsSegment.html#Platform_Helpers_Collections_CharsSegment_Equals_
-  commentId: Overload:Platform.Helpers.Collections.CharsSegment.Equals
-  isSpec: "True"
-  fullName: Platform.Helpers.Collections.CharsSegment.Equals
-  nameWithType: CharsSegment.Equals
-- uid: Platform.Helpers.Collections.CharsSegment.GetHashCode
-  name: GetHashCode()
-  href: api/Platform.Helpers.Collections.CharsSegment.html#Platform_Helpers_Collections_CharsSegment_GetHashCode
-  commentId: M:Platform.Helpers.Collections.CharsSegment.GetHashCode
-  fullName: Platform.Helpers.Collections.CharsSegment.GetHashCode()
-  nameWithType: CharsSegment.GetHashCode()
-- uid: Platform.Helpers.Collections.CharsSegment.GetHashCode*
-  name: GetHashCode
-  href: api/Platform.Helpers.Collections.CharsSegment.html#Platform_Helpers_Collections_CharsSegment_GetHashCode_
-  commentId: Overload:Platform.Helpers.Collections.CharsSegment.GetHashCode
-  isSpec: "True"
-  fullName: Platform.Helpers.Collections.CharsSegment.GetHashCode
-  nameWithType: CharsSegment.GetHashCode
-- uid: Platform.Helpers.Collections.CharsSegment.op_Implicit(Platform.Helpers.Collections.CharsSegment)~System.String
-  name: Implicit(CharsSegment to String)
-  href: api/Platform.Helpers.Collections.CharsSegment.html#Platform_Helpers_Collections_CharsSegment_op_Implicit_Platform_Helpers_Collections_CharsSegment__System_String
-  commentId: M:Platform.Helpers.Collections.CharsSegment.op_Implicit(Platform.Helpers.Collections.CharsSegment)~System.String
-  name.vb: Widening(CharsSegment to String)
-  fullName: Platform.Helpers.Collections.CharsSegment.Implicit(Platform.Helpers.Collections.CharsSegment to System.String)
-  fullName.vb: Platform.Helpers.Collections.CharsSegment.Widening(Platform.Helpers.Collections.CharsSegment to System.String)
-  nameWithType: CharsSegment.Implicit(CharsSegment to String)
-  nameWithType.vb: CharsSegment.Widening(CharsSegment to String)
-- uid: Platform.Helpers.Collections.CharsSegment.op_Implicit*
-  name: Implicit
-  href: api/Platform.Helpers.Collections.CharsSegment.html#Platform_Helpers_Collections_CharsSegment_op_Implicit_
-  commentId: Overload:Platform.Helpers.Collections.CharsSegment.op_Implicit
-  isSpec: "True"
-  name.vb: Widening
-  fullName: Platform.Helpers.Collections.CharsSegment.Implicit
-  fullName.vb: Platform.Helpers.Collections.CharsSegment.Widening
-  nameWithType: CharsSegment.Implicit
-  nameWithType.vb: CharsSegment.Widening
-- uid: Platform.Helpers.Collections.CharsSegment.ToString
-  name: ToString()
-  href: api/Platform.Helpers.Collections.CharsSegment.html#Platform_Helpers_Collections_CharsSegment_ToString
-  commentId: M:Platform.Helpers.Collections.CharsSegment.ToString
-  fullName: Platform.Helpers.Collections.CharsSegment.ToString()
-  nameWithType: CharsSegment.ToString()
-- uid: Platform.Helpers.Collections.CharsSegment.ToString*
-  name: ToString
-  href: api/Platform.Helpers.Collections.CharsSegment.html#Platform_Helpers_Collections_CharsSegment_ToString_
-  commentId: Overload:Platform.Helpers.Collections.CharsSegment.ToString
-  isSpec: "True"
-  fullName: Platform.Helpers.Collections.CharsSegment.ToString
-  nameWithType: CharsSegment.ToString
 - uid: Platform.Helpers.Collections.ConcurrentQueueExtensions
   name: ConcurrentQueueExtensions
   href: api/Platform.Helpers.Collections.ConcurrentQueueExtensions.html
@@ -15635,712 +15552,801 @@ references:
   fullName.vb: Platform.Helpers.Collections.ListExtensions.ToArray(Of T)(IList(Of T), Func(Of T, System.Boolean))
   nameWithType: ListExtensions.ToArray<T>(IList<T>, Func<T, Boolean>)
   nameWithType.vb: ListExtensions.ToArray(Of T)(IList(Of T), Func(Of T, Boolean))
-- uid: Platform.Helpers.Collections.Segment`1
+- uid: Platform.Helpers.Collections.Segments
+  name: Platform.Helpers.Collections.Segments
+  href: api/Platform.Helpers.Collections.Segments.html
+  commentId: N:Platform.Helpers.Collections.Segments
+  fullName: Platform.Helpers.Collections.Segments
+  nameWithType: Platform.Helpers.Collections.Segments
+- uid: Platform.Helpers.Collections.Segments.CharsSegment
+  name: CharsSegment
+  href: api/Platform.Helpers.Collections.Segments.CharsSegment.html
+  commentId: T:Platform.Helpers.Collections.Segments.CharsSegment
+  fullName: Platform.Helpers.Collections.Segments.CharsSegment
+  nameWithType: CharsSegment
+- uid: Platform.Helpers.Collections.Segments.CharsSegment.#ctor(IList{System.Char},System.Int32,System.Int32)
+  name: CharsSegment(IList<Char>, Int32, Int32)
+  href: api/Platform.Helpers.Collections.Segments.CharsSegment.html#Platform_Helpers_Collections_Segments_CharsSegment__ctor_IList_System_Char__System_Int32_System_Int32_
+  commentId: M:Platform.Helpers.Collections.Segments.CharsSegment.#ctor(IList{System.Char},System.Int32,System.Int32)
+  name.vb: CharsSegment(IList(Of Char), Int32, Int32)
+  fullName: Platform.Helpers.Collections.Segments.CharsSegment.CharsSegment(IList<System.Char>, System.Int32, System.Int32)
+  fullName.vb: Platform.Helpers.Collections.Segments.CharsSegment.CharsSegment(IList(Of System.Char), System.Int32, System.Int32)
+  nameWithType: CharsSegment.CharsSegment(IList<Char>, Int32, Int32)
+  nameWithType.vb: CharsSegment.CharsSegment(IList(Of Char), Int32, Int32)
+- uid: Platform.Helpers.Collections.Segments.CharsSegment.#ctor*
+  name: CharsSegment
+  href: api/Platform.Helpers.Collections.Segments.CharsSegment.html#Platform_Helpers_Collections_Segments_CharsSegment__ctor_
+  commentId: Overload:Platform.Helpers.Collections.Segments.CharsSegment.#ctor
+  isSpec: "True"
+  fullName: Platform.Helpers.Collections.Segments.CharsSegment.CharsSegment
+  nameWithType: CharsSegment.CharsSegment
+- uid: Platform.Helpers.Collections.Segments.CharsSegment.Equals(Platform.Helpers.Collections.Segments.Segment{System.Char})
+  name: Equals(Segment<Char>)
+  href: api/Platform.Helpers.Collections.Segments.CharsSegment.html#Platform_Helpers_Collections_Segments_CharsSegment_Equals_Platform_Helpers_Collections_Segments_Segment_System_Char__
+  commentId: M:Platform.Helpers.Collections.Segments.CharsSegment.Equals(Platform.Helpers.Collections.Segments.Segment{System.Char})
+  name.vb: Equals(Segment(Of Char))
+  fullName: Platform.Helpers.Collections.Segments.CharsSegment.Equals(Platform.Helpers.Collections.Segments.Segment<System.Char>)
+  fullName.vb: Platform.Helpers.Collections.Segments.CharsSegment.Equals(Platform.Helpers.Collections.Segments.Segment(Of System.Char))
+  nameWithType: CharsSegment.Equals(Segment<Char>)
+  nameWithType.vb: CharsSegment.Equals(Segment(Of Char))
+- uid: Platform.Helpers.Collections.Segments.CharsSegment.Equals*
+  name: Equals
+  href: api/Platform.Helpers.Collections.Segments.CharsSegment.html#Platform_Helpers_Collections_Segments_CharsSegment_Equals_
+  commentId: Overload:Platform.Helpers.Collections.Segments.CharsSegment.Equals
+  isSpec: "True"
+  fullName: Platform.Helpers.Collections.Segments.CharsSegment.Equals
+  nameWithType: CharsSegment.Equals
+- uid: Platform.Helpers.Collections.Segments.CharsSegment.GetHashCode
+  name: GetHashCode()
+  href: api/Platform.Helpers.Collections.Segments.CharsSegment.html#Platform_Helpers_Collections_Segments_CharsSegment_GetHashCode
+  commentId: M:Platform.Helpers.Collections.Segments.CharsSegment.GetHashCode
+  fullName: Platform.Helpers.Collections.Segments.CharsSegment.GetHashCode()
+  nameWithType: CharsSegment.GetHashCode()
+- uid: Platform.Helpers.Collections.Segments.CharsSegment.GetHashCode*
+  name: GetHashCode
+  href: api/Platform.Helpers.Collections.Segments.CharsSegment.html#Platform_Helpers_Collections_Segments_CharsSegment_GetHashCode_
+  commentId: Overload:Platform.Helpers.Collections.Segments.CharsSegment.GetHashCode
+  isSpec: "True"
+  fullName: Platform.Helpers.Collections.Segments.CharsSegment.GetHashCode
+  nameWithType: CharsSegment.GetHashCode
+- uid: Platform.Helpers.Collections.Segments.CharsSegment.op_Implicit(Platform.Helpers.Collections.Segments.CharsSegment)~System.String
+  name: Implicit(CharsSegment to String)
+  href: api/Platform.Helpers.Collections.Segments.CharsSegment.html#Platform_Helpers_Collections_Segments_CharsSegment_op_Implicit_Platform_Helpers_Collections_Segments_CharsSegment__System_String
+  commentId: M:Platform.Helpers.Collections.Segments.CharsSegment.op_Implicit(Platform.Helpers.Collections.Segments.CharsSegment)~System.String
+  name.vb: Widening(CharsSegment to String)
+  fullName: Platform.Helpers.Collections.Segments.CharsSegment.Implicit(Platform.Helpers.Collections.Segments.CharsSegment to System.String)
+  fullName.vb: Platform.Helpers.Collections.Segments.CharsSegment.Widening(Platform.Helpers.Collections.Segments.CharsSegment to System.String)
+  nameWithType: CharsSegment.Implicit(CharsSegment to String)
+  nameWithType.vb: CharsSegment.Widening(CharsSegment to String)
+- uid: Platform.Helpers.Collections.Segments.CharsSegment.op_Implicit*
+  name: Implicit
+  href: api/Platform.Helpers.Collections.Segments.CharsSegment.html#Platform_Helpers_Collections_Segments_CharsSegment_op_Implicit_
+  commentId: Overload:Platform.Helpers.Collections.Segments.CharsSegment.op_Implicit
+  isSpec: "True"
+  name.vb: Widening
+  fullName: Platform.Helpers.Collections.Segments.CharsSegment.Implicit
+  fullName.vb: Platform.Helpers.Collections.Segments.CharsSegment.Widening
+  nameWithType: CharsSegment.Implicit
+  nameWithType.vb: CharsSegment.Widening
+- uid: Platform.Helpers.Collections.Segments.CharsSegment.ToString
+  name: ToString()
+  href: api/Platform.Helpers.Collections.Segments.CharsSegment.html#Platform_Helpers_Collections_Segments_CharsSegment_ToString
+  commentId: M:Platform.Helpers.Collections.Segments.CharsSegment.ToString
+  fullName: Platform.Helpers.Collections.Segments.CharsSegment.ToString()
+  nameWithType: CharsSegment.ToString()
+- uid: Platform.Helpers.Collections.Segments.CharsSegment.ToString*
+  name: ToString
+  href: api/Platform.Helpers.Collections.Segments.CharsSegment.html#Platform_Helpers_Collections_Segments_CharsSegment_ToString_
+  commentId: Overload:Platform.Helpers.Collections.Segments.CharsSegment.ToString
+  isSpec: "True"
+  fullName: Platform.Helpers.Collections.Segments.CharsSegment.ToString
+  nameWithType: CharsSegment.ToString
+- uid: Platform.Helpers.Collections.Segments.Segment`1
   name: Segment<T>
-  href: api/Platform.Helpers.Collections.Segment-1.html
-  commentId: T:Platform.Helpers.Collections.Segment`1
+  href: api/Platform.Helpers.Collections.Segments.Segment-1.html
+  commentId: T:Platform.Helpers.Collections.Segments.Segment`1
   name.vb: Segment(Of T)
-  fullName: Platform.Helpers.Collections.Segment<T>
-  fullName.vb: Platform.Helpers.Collections.Segment(Of T)
+  fullName: Platform.Helpers.Collections.Segments.Segment<T>
+  fullName.vb: Platform.Helpers.Collections.Segments.Segment(Of T)
   nameWithType: Segment<T>
   nameWithType.vb: Segment(Of T)
-- uid: Platform.Helpers.Collections.Segment`1.#ctor(IList{`0},System.Int32,System.Int32)
+- uid: Platform.Helpers.Collections.Segments.Segment`1.#ctor(IList{`0},System.Int32,System.Int32)
   name: Segment(IList<T>, Int32, Int32)
-  href: api/Platform.Helpers.Collections.Segment-1.html#Platform_Helpers_Collections_Segment_1__ctor_IList__0__System_Int32_System_Int32_
-  commentId: M:Platform.Helpers.Collections.Segment`1.#ctor(IList{`0},System.Int32,System.Int32)
+  href: api/Platform.Helpers.Collections.Segments.Segment-1.html#Platform_Helpers_Collections_Segments_Segment_1__ctor_IList__0__System_Int32_System_Int32_
+  commentId: M:Platform.Helpers.Collections.Segments.Segment`1.#ctor(IList{`0},System.Int32,System.Int32)
   name.vb: Segment(IList(Of T), Int32, Int32)
-  fullName: Platform.Helpers.Collections.Segment<T>.Segment(IList<T>, System.Int32, System.Int32)
-  fullName.vb: Platform.Helpers.Collections.Segment(Of T).Segment(IList(Of T), System.Int32, System.Int32)
+  fullName: Platform.Helpers.Collections.Segments.Segment<T>.Segment(IList<T>, System.Int32, System.Int32)
+  fullName.vb: Platform.Helpers.Collections.Segments.Segment(Of T).Segment(IList(Of T), System.Int32, System.Int32)
   nameWithType: Segment<T>.Segment(IList<T>, Int32, Int32)
   nameWithType.vb: Segment(Of T).Segment(IList(Of T), Int32, Int32)
-- uid: Platform.Helpers.Collections.Segment`1.#ctor*
+- uid: Platform.Helpers.Collections.Segments.Segment`1.#ctor*
   name: Segment
-  href: api/Platform.Helpers.Collections.Segment-1.html#Platform_Helpers_Collections_Segment_1__ctor_
-  commentId: Overload:Platform.Helpers.Collections.Segment`1.#ctor
+  href: api/Platform.Helpers.Collections.Segments.Segment-1.html#Platform_Helpers_Collections_Segments_Segment_1__ctor_
+  commentId: Overload:Platform.Helpers.Collections.Segments.Segment`1.#ctor
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.Segment<T>.Segment
-  fullName.vb: Platform.Helpers.Collections.Segment(Of T).Segment
+  fullName: Platform.Helpers.Collections.Segments.Segment<T>.Segment
+  fullName.vb: Platform.Helpers.Collections.Segments.Segment(Of T).Segment
   nameWithType: Segment<T>.Segment
   nameWithType.vb: Segment(Of T).Segment
-- uid: Platform.Helpers.Collections.Segment`1.Add(`0)
+- uid: Platform.Helpers.Collections.Segments.Segment`1.Add(`0)
   name: Add(T)
-  href: api/Platform.Helpers.Collections.Segment-1.html#Platform_Helpers_Collections_Segment_1_Add__0_
-  commentId: M:Platform.Helpers.Collections.Segment`1.Add(`0)
-  fullName: Platform.Helpers.Collections.Segment<T>.Add(T)
-  fullName.vb: Platform.Helpers.Collections.Segment(Of T).Add(T)
+  href: api/Platform.Helpers.Collections.Segments.Segment-1.html#Platform_Helpers_Collections_Segments_Segment_1_Add__0_
+  commentId: M:Platform.Helpers.Collections.Segments.Segment`1.Add(`0)
+  fullName: Platform.Helpers.Collections.Segments.Segment<T>.Add(T)
+  fullName.vb: Platform.Helpers.Collections.Segments.Segment(Of T).Add(T)
   nameWithType: Segment<T>.Add(T)
   nameWithType.vb: Segment(Of T).Add(T)
-- uid: Platform.Helpers.Collections.Segment`1.Add*
+- uid: Platform.Helpers.Collections.Segments.Segment`1.Add*
   name: Add
-  href: api/Platform.Helpers.Collections.Segment-1.html#Platform_Helpers_Collections_Segment_1_Add_
-  commentId: Overload:Platform.Helpers.Collections.Segment`1.Add
+  href: api/Platform.Helpers.Collections.Segments.Segment-1.html#Platform_Helpers_Collections_Segments_Segment_1_Add_
+  commentId: Overload:Platform.Helpers.Collections.Segments.Segment`1.Add
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.Segment<T>.Add
-  fullName.vb: Platform.Helpers.Collections.Segment(Of T).Add
+  fullName: Platform.Helpers.Collections.Segments.Segment<T>.Add
+  fullName.vb: Platform.Helpers.Collections.Segments.Segment(Of T).Add
   nameWithType: Segment<T>.Add
   nameWithType.vb: Segment(Of T).Add
-- uid: Platform.Helpers.Collections.Segment`1.Base
+- uid: Platform.Helpers.Collections.Segments.Segment`1.Base
   name: Base
-  href: api/Platform.Helpers.Collections.Segment-1.html#Platform_Helpers_Collections_Segment_1_Base
-  commentId: F:Platform.Helpers.Collections.Segment`1.Base
-  fullName: Platform.Helpers.Collections.Segment<T>.Base
-  fullName.vb: Platform.Helpers.Collections.Segment(Of T).Base
+  href: api/Platform.Helpers.Collections.Segments.Segment-1.html#Platform_Helpers_Collections_Segments_Segment_1_Base
+  commentId: F:Platform.Helpers.Collections.Segments.Segment`1.Base
+  fullName: Platform.Helpers.Collections.Segments.Segment<T>.Base
+  fullName.vb: Platform.Helpers.Collections.Segments.Segment(Of T).Base
   nameWithType: Segment<T>.Base
   nameWithType.vb: Segment(Of T).Base
-- uid: Platform.Helpers.Collections.Segment`1.Clear
+- uid: Platform.Helpers.Collections.Segments.Segment`1.Clear
   name: Clear()
-  href: api/Platform.Helpers.Collections.Segment-1.html#Platform_Helpers_Collections_Segment_1_Clear
-  commentId: M:Platform.Helpers.Collections.Segment`1.Clear
-  fullName: Platform.Helpers.Collections.Segment<T>.Clear()
-  fullName.vb: Platform.Helpers.Collections.Segment(Of T).Clear()
+  href: api/Platform.Helpers.Collections.Segments.Segment-1.html#Platform_Helpers_Collections_Segments_Segment_1_Clear
+  commentId: M:Platform.Helpers.Collections.Segments.Segment`1.Clear
+  fullName: Platform.Helpers.Collections.Segments.Segment<T>.Clear()
+  fullName.vb: Platform.Helpers.Collections.Segments.Segment(Of T).Clear()
   nameWithType: Segment<T>.Clear()
   nameWithType.vb: Segment(Of T).Clear()
-- uid: Platform.Helpers.Collections.Segment`1.Clear*
+- uid: Platform.Helpers.Collections.Segments.Segment`1.Clear*
   name: Clear
-  href: api/Platform.Helpers.Collections.Segment-1.html#Platform_Helpers_Collections_Segment_1_Clear_
-  commentId: Overload:Platform.Helpers.Collections.Segment`1.Clear
+  href: api/Platform.Helpers.Collections.Segments.Segment-1.html#Platform_Helpers_Collections_Segments_Segment_1_Clear_
+  commentId: Overload:Platform.Helpers.Collections.Segments.Segment`1.Clear
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.Segment<T>.Clear
-  fullName.vb: Platform.Helpers.Collections.Segment(Of T).Clear
+  fullName: Platform.Helpers.Collections.Segments.Segment<T>.Clear
+  fullName.vb: Platform.Helpers.Collections.Segments.Segment(Of T).Clear
   nameWithType: Segment<T>.Clear
   nameWithType.vb: Segment(Of T).Clear
-- uid: Platform.Helpers.Collections.Segment`1.Contains(`0)
+- uid: Platform.Helpers.Collections.Segments.Segment`1.Contains(`0)
   name: Contains(T)
-  href: api/Platform.Helpers.Collections.Segment-1.html#Platform_Helpers_Collections_Segment_1_Contains__0_
-  commentId: M:Platform.Helpers.Collections.Segment`1.Contains(`0)
-  fullName: Platform.Helpers.Collections.Segment<T>.Contains(T)
-  fullName.vb: Platform.Helpers.Collections.Segment(Of T).Contains(T)
+  href: api/Platform.Helpers.Collections.Segments.Segment-1.html#Platform_Helpers_Collections_Segments_Segment_1_Contains__0_
+  commentId: M:Platform.Helpers.Collections.Segments.Segment`1.Contains(`0)
+  fullName: Platform.Helpers.Collections.Segments.Segment<T>.Contains(T)
+  fullName.vb: Platform.Helpers.Collections.Segments.Segment(Of T).Contains(T)
   nameWithType: Segment<T>.Contains(T)
   nameWithType.vb: Segment(Of T).Contains(T)
-- uid: Platform.Helpers.Collections.Segment`1.Contains*
+- uid: Platform.Helpers.Collections.Segments.Segment`1.Contains*
   name: Contains
-  href: api/Platform.Helpers.Collections.Segment-1.html#Platform_Helpers_Collections_Segment_1_Contains_
-  commentId: Overload:Platform.Helpers.Collections.Segment`1.Contains
+  href: api/Platform.Helpers.Collections.Segments.Segment-1.html#Platform_Helpers_Collections_Segments_Segment_1_Contains_
+  commentId: Overload:Platform.Helpers.Collections.Segments.Segment`1.Contains
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.Segment<T>.Contains
-  fullName.vb: Platform.Helpers.Collections.Segment(Of T).Contains
+  fullName: Platform.Helpers.Collections.Segments.Segment<T>.Contains
+  fullName.vb: Platform.Helpers.Collections.Segments.Segment(Of T).Contains
   nameWithType: Segment<T>.Contains
   nameWithType.vb: Segment(Of T).Contains
-- uid: Platform.Helpers.Collections.Segment`1.CopyTo(`0[],System.Int32)
+- uid: Platform.Helpers.Collections.Segments.Segment`1.CopyTo(`0[],System.Int32)
   name: CopyTo(T[], Int32)
-  href: api/Platform.Helpers.Collections.Segment-1.html#Platform_Helpers_Collections_Segment_1_CopyTo__0___System_Int32_
-  commentId: M:Platform.Helpers.Collections.Segment`1.CopyTo(`0[],System.Int32)
+  href: api/Platform.Helpers.Collections.Segments.Segment-1.html#Platform_Helpers_Collections_Segments_Segment_1_CopyTo__0___System_Int32_
+  commentId: M:Platform.Helpers.Collections.Segments.Segment`1.CopyTo(`0[],System.Int32)
   name.vb: CopyTo(T(), Int32)
-  fullName: Platform.Helpers.Collections.Segment<T>.CopyTo(T[], System.Int32)
-  fullName.vb: Platform.Helpers.Collections.Segment(Of T).CopyTo(T(), System.Int32)
+  fullName: Platform.Helpers.Collections.Segments.Segment<T>.CopyTo(T[], System.Int32)
+  fullName.vb: Platform.Helpers.Collections.Segments.Segment(Of T).CopyTo(T(), System.Int32)
   nameWithType: Segment<T>.CopyTo(T[], Int32)
   nameWithType.vb: Segment(Of T).CopyTo(T(), Int32)
-- uid: Platform.Helpers.Collections.Segment`1.CopyTo*
+- uid: Platform.Helpers.Collections.Segments.Segment`1.CopyTo*
   name: CopyTo
-  href: api/Platform.Helpers.Collections.Segment-1.html#Platform_Helpers_Collections_Segment_1_CopyTo_
-  commentId: Overload:Platform.Helpers.Collections.Segment`1.CopyTo
+  href: api/Platform.Helpers.Collections.Segments.Segment-1.html#Platform_Helpers_Collections_Segments_Segment_1_CopyTo_
+  commentId: Overload:Platform.Helpers.Collections.Segments.Segment`1.CopyTo
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.Segment<T>.CopyTo
-  fullName.vb: Platform.Helpers.Collections.Segment(Of T).CopyTo
+  fullName: Platform.Helpers.Collections.Segments.Segment<T>.CopyTo
+  fullName.vb: Platform.Helpers.Collections.Segments.Segment(Of T).CopyTo
   nameWithType: Segment<T>.CopyTo
   nameWithType.vb: Segment(Of T).CopyTo
-- uid: Platform.Helpers.Collections.Segment`1.Count
+- uid: Platform.Helpers.Collections.Segments.Segment`1.Count
   name: Count
-  href: api/Platform.Helpers.Collections.Segment-1.html#Platform_Helpers_Collections_Segment_1_Count
-  commentId: P:Platform.Helpers.Collections.Segment`1.Count
-  fullName: Platform.Helpers.Collections.Segment<T>.Count
-  fullName.vb: Platform.Helpers.Collections.Segment(Of T).Count
+  href: api/Platform.Helpers.Collections.Segments.Segment-1.html#Platform_Helpers_Collections_Segments_Segment_1_Count
+  commentId: P:Platform.Helpers.Collections.Segments.Segment`1.Count
+  fullName: Platform.Helpers.Collections.Segments.Segment<T>.Count
+  fullName.vb: Platform.Helpers.Collections.Segments.Segment(Of T).Count
   nameWithType: Segment<T>.Count
   nameWithType.vb: Segment(Of T).Count
-- uid: Platform.Helpers.Collections.Segment`1.Count*
+- uid: Platform.Helpers.Collections.Segments.Segment`1.Count*
   name: Count
-  href: api/Platform.Helpers.Collections.Segment-1.html#Platform_Helpers_Collections_Segment_1_Count_
-  commentId: Overload:Platform.Helpers.Collections.Segment`1.Count
+  href: api/Platform.Helpers.Collections.Segments.Segment-1.html#Platform_Helpers_Collections_Segments_Segment_1_Count_
+  commentId: Overload:Platform.Helpers.Collections.Segments.Segment`1.Count
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.Segment<T>.Count
-  fullName.vb: Platform.Helpers.Collections.Segment(Of T).Count
+  fullName: Platform.Helpers.Collections.Segments.Segment<T>.Count
+  fullName.vb: Platform.Helpers.Collections.Segments.Segment(Of T).Count
   nameWithType: Segment<T>.Count
   nameWithType.vb: Segment(Of T).Count
-- uid: Platform.Helpers.Collections.Segment`1.Equals(Platform.Helpers.Collections.Segment{`0})
+- uid: Platform.Helpers.Collections.Segments.Segment`1.Equals(Platform.Helpers.Collections.Segments.Segment{`0})
   name: Equals(Segment<T>)
-  href: api/Platform.Helpers.Collections.Segment-1.html#Platform_Helpers_Collections_Segment_1_Equals_Platform_Helpers_Collections_Segment__0__
-  commentId: M:Platform.Helpers.Collections.Segment`1.Equals(Platform.Helpers.Collections.Segment{`0})
+  href: api/Platform.Helpers.Collections.Segments.Segment-1.html#Platform_Helpers_Collections_Segments_Segment_1_Equals_Platform_Helpers_Collections_Segments_Segment__0__
+  commentId: M:Platform.Helpers.Collections.Segments.Segment`1.Equals(Platform.Helpers.Collections.Segments.Segment{`0})
   name.vb: Equals(Segment(Of T))
-  fullName: Platform.Helpers.Collections.Segment<T>.Equals(Platform.Helpers.Collections.Segment<T>)
-  fullName.vb: Platform.Helpers.Collections.Segment(Of T).Equals(Platform.Helpers.Collections.Segment(Of T))
+  fullName: Platform.Helpers.Collections.Segments.Segment<T>.Equals(Platform.Helpers.Collections.Segments.Segment<T>)
+  fullName.vb: Platform.Helpers.Collections.Segments.Segment(Of T).Equals(Platform.Helpers.Collections.Segments.Segment(Of T))
   nameWithType: Segment<T>.Equals(Segment<T>)
   nameWithType.vb: Segment(Of T).Equals(Segment(Of T))
-- uid: Platform.Helpers.Collections.Segment`1.Equals(System.Object)
+- uid: Platform.Helpers.Collections.Segments.Segment`1.Equals(System.Object)
   name: Equals(Object)
-  href: api/Platform.Helpers.Collections.Segment-1.html#Platform_Helpers_Collections_Segment_1_Equals_System_Object_
-  commentId: M:Platform.Helpers.Collections.Segment`1.Equals(System.Object)
-  fullName: Platform.Helpers.Collections.Segment<T>.Equals(System.Object)
-  fullName.vb: Platform.Helpers.Collections.Segment(Of T).Equals(System.Object)
+  href: api/Platform.Helpers.Collections.Segments.Segment-1.html#Platform_Helpers_Collections_Segments_Segment_1_Equals_System_Object_
+  commentId: M:Platform.Helpers.Collections.Segments.Segment`1.Equals(System.Object)
+  fullName: Platform.Helpers.Collections.Segments.Segment<T>.Equals(System.Object)
+  fullName.vb: Platform.Helpers.Collections.Segments.Segment(Of T).Equals(System.Object)
   nameWithType: Segment<T>.Equals(Object)
   nameWithType.vb: Segment(Of T).Equals(Object)
-- uid: Platform.Helpers.Collections.Segment`1.Equals*
+- uid: Platform.Helpers.Collections.Segments.Segment`1.Equals*
   name: Equals
-  href: api/Platform.Helpers.Collections.Segment-1.html#Platform_Helpers_Collections_Segment_1_Equals_
-  commentId: Overload:Platform.Helpers.Collections.Segment`1.Equals
+  href: api/Platform.Helpers.Collections.Segments.Segment-1.html#Platform_Helpers_Collections_Segments_Segment_1_Equals_
+  commentId: Overload:Platform.Helpers.Collections.Segments.Segment`1.Equals
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.Segment<T>.Equals
-  fullName.vb: Platform.Helpers.Collections.Segment(Of T).Equals
+  fullName: Platform.Helpers.Collections.Segments.Segment<T>.Equals
+  fullName.vb: Platform.Helpers.Collections.Segments.Segment(Of T).Equals
   nameWithType: Segment<T>.Equals
   nameWithType.vb: Segment(Of T).Equals
-- uid: Platform.Helpers.Collections.Segment`1.GetEnumerator
+- uid: Platform.Helpers.Collections.Segments.Segment`1.GetEnumerator
   name: GetEnumerator()
-  href: api/Platform.Helpers.Collections.Segment-1.html#Platform_Helpers_Collections_Segment_1_GetEnumerator
-  commentId: M:Platform.Helpers.Collections.Segment`1.GetEnumerator
-  fullName: Platform.Helpers.Collections.Segment<T>.GetEnumerator()
-  fullName.vb: Platform.Helpers.Collections.Segment(Of T).GetEnumerator()
+  href: api/Platform.Helpers.Collections.Segments.Segment-1.html#Platform_Helpers_Collections_Segments_Segment_1_GetEnumerator
+  commentId: M:Platform.Helpers.Collections.Segments.Segment`1.GetEnumerator
+  fullName: Platform.Helpers.Collections.Segments.Segment<T>.GetEnumerator()
+  fullName.vb: Platform.Helpers.Collections.Segments.Segment(Of T).GetEnumerator()
   nameWithType: Segment<T>.GetEnumerator()
   nameWithType.vb: Segment(Of T).GetEnumerator()
-- uid: Platform.Helpers.Collections.Segment`1.GetEnumerator*
+- uid: Platform.Helpers.Collections.Segments.Segment`1.GetEnumerator*
   name: GetEnumerator
-  href: api/Platform.Helpers.Collections.Segment-1.html#Platform_Helpers_Collections_Segment_1_GetEnumerator_
-  commentId: Overload:Platform.Helpers.Collections.Segment`1.GetEnumerator
+  href: api/Platform.Helpers.Collections.Segments.Segment-1.html#Platform_Helpers_Collections_Segments_Segment_1_GetEnumerator_
+  commentId: Overload:Platform.Helpers.Collections.Segments.Segment`1.GetEnumerator
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.Segment<T>.GetEnumerator
-  fullName.vb: Platform.Helpers.Collections.Segment(Of T).GetEnumerator
+  fullName: Platform.Helpers.Collections.Segments.Segment<T>.GetEnumerator
+  fullName.vb: Platform.Helpers.Collections.Segments.Segment(Of T).GetEnumerator
   nameWithType: Segment<T>.GetEnumerator
   nameWithType.vb: Segment(Of T).GetEnumerator
-- uid: Platform.Helpers.Collections.Segment`1.GetHashCode
+- uid: Platform.Helpers.Collections.Segments.Segment`1.GetHashCode
   name: GetHashCode()
-  href: api/Platform.Helpers.Collections.Segment-1.html#Platform_Helpers_Collections_Segment_1_GetHashCode
-  commentId: M:Platform.Helpers.Collections.Segment`1.GetHashCode
-  fullName: Platform.Helpers.Collections.Segment<T>.GetHashCode()
-  fullName.vb: Platform.Helpers.Collections.Segment(Of T).GetHashCode()
+  href: api/Platform.Helpers.Collections.Segments.Segment-1.html#Platform_Helpers_Collections_Segments_Segment_1_GetHashCode
+  commentId: M:Platform.Helpers.Collections.Segments.Segment`1.GetHashCode
+  fullName: Platform.Helpers.Collections.Segments.Segment<T>.GetHashCode()
+  fullName.vb: Platform.Helpers.Collections.Segments.Segment(Of T).GetHashCode()
   nameWithType: Segment<T>.GetHashCode()
   nameWithType.vb: Segment(Of T).GetHashCode()
-- uid: Platform.Helpers.Collections.Segment`1.GetHashCode*
+- uid: Platform.Helpers.Collections.Segments.Segment`1.GetHashCode*
   name: GetHashCode
-  href: api/Platform.Helpers.Collections.Segment-1.html#Platform_Helpers_Collections_Segment_1_GetHashCode_
-  commentId: Overload:Platform.Helpers.Collections.Segment`1.GetHashCode
+  href: api/Platform.Helpers.Collections.Segments.Segment-1.html#Platform_Helpers_Collections_Segments_Segment_1_GetHashCode_
+  commentId: Overload:Platform.Helpers.Collections.Segments.Segment`1.GetHashCode
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.Segment<T>.GetHashCode
-  fullName.vb: Platform.Helpers.Collections.Segment(Of T).GetHashCode
+  fullName: Platform.Helpers.Collections.Segments.Segment<T>.GetHashCode
+  fullName.vb: Platform.Helpers.Collections.Segments.Segment(Of T).GetHashCode
   nameWithType: Segment<T>.GetHashCode
   nameWithType.vb: Segment(Of T).GetHashCode
-- uid: Platform.Helpers.Collections.Segment`1.IndexOf(`0)
+- uid: Platform.Helpers.Collections.Segments.Segment`1.IndexOf(`0)
   name: IndexOf(T)
-  href: api/Platform.Helpers.Collections.Segment-1.html#Platform_Helpers_Collections_Segment_1_IndexOf__0_
-  commentId: M:Platform.Helpers.Collections.Segment`1.IndexOf(`0)
-  fullName: Platform.Helpers.Collections.Segment<T>.IndexOf(T)
-  fullName.vb: Platform.Helpers.Collections.Segment(Of T).IndexOf(T)
+  href: api/Platform.Helpers.Collections.Segments.Segment-1.html#Platform_Helpers_Collections_Segments_Segment_1_IndexOf__0_
+  commentId: M:Platform.Helpers.Collections.Segments.Segment`1.IndexOf(`0)
+  fullName: Platform.Helpers.Collections.Segments.Segment<T>.IndexOf(T)
+  fullName.vb: Platform.Helpers.Collections.Segments.Segment(Of T).IndexOf(T)
   nameWithType: Segment<T>.IndexOf(T)
   nameWithType.vb: Segment(Of T).IndexOf(T)
-- uid: Platform.Helpers.Collections.Segment`1.IndexOf*
+- uid: Platform.Helpers.Collections.Segments.Segment`1.IndexOf*
   name: IndexOf
-  href: api/Platform.Helpers.Collections.Segment-1.html#Platform_Helpers_Collections_Segment_1_IndexOf_
-  commentId: Overload:Platform.Helpers.Collections.Segment`1.IndexOf
+  href: api/Platform.Helpers.Collections.Segments.Segment-1.html#Platform_Helpers_Collections_Segments_Segment_1_IndexOf_
+  commentId: Overload:Platform.Helpers.Collections.Segments.Segment`1.IndexOf
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.Segment<T>.IndexOf
-  fullName.vb: Platform.Helpers.Collections.Segment(Of T).IndexOf
+  fullName: Platform.Helpers.Collections.Segments.Segment<T>.IndexOf
+  fullName.vb: Platform.Helpers.Collections.Segments.Segment(Of T).IndexOf
   nameWithType: Segment<T>.IndexOf
   nameWithType.vb: Segment(Of T).IndexOf
-- uid: Platform.Helpers.Collections.Segment`1.Insert(System.Int32,`0)
+- uid: Platform.Helpers.Collections.Segments.Segment`1.Insert(System.Int32,`0)
   name: Insert(Int32, T)
-  href: api/Platform.Helpers.Collections.Segment-1.html#Platform_Helpers_Collections_Segment_1_Insert_System_Int32__0_
-  commentId: M:Platform.Helpers.Collections.Segment`1.Insert(System.Int32,`0)
-  fullName: Platform.Helpers.Collections.Segment<T>.Insert(System.Int32, T)
-  fullName.vb: Platform.Helpers.Collections.Segment(Of T).Insert(System.Int32, T)
+  href: api/Platform.Helpers.Collections.Segments.Segment-1.html#Platform_Helpers_Collections_Segments_Segment_1_Insert_System_Int32__0_
+  commentId: M:Platform.Helpers.Collections.Segments.Segment`1.Insert(System.Int32,`0)
+  fullName: Platform.Helpers.Collections.Segments.Segment<T>.Insert(System.Int32, T)
+  fullName.vb: Platform.Helpers.Collections.Segments.Segment(Of T).Insert(System.Int32, T)
   nameWithType: Segment<T>.Insert(Int32, T)
   nameWithType.vb: Segment(Of T).Insert(Int32, T)
-- uid: Platform.Helpers.Collections.Segment`1.Insert*
+- uid: Platform.Helpers.Collections.Segments.Segment`1.Insert*
   name: Insert
-  href: api/Platform.Helpers.Collections.Segment-1.html#Platform_Helpers_Collections_Segment_1_Insert_
-  commentId: Overload:Platform.Helpers.Collections.Segment`1.Insert
+  href: api/Platform.Helpers.Collections.Segments.Segment-1.html#Platform_Helpers_Collections_Segments_Segment_1_Insert_
+  commentId: Overload:Platform.Helpers.Collections.Segments.Segment`1.Insert
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.Segment<T>.Insert
-  fullName.vb: Platform.Helpers.Collections.Segment(Of T).Insert
+  fullName: Platform.Helpers.Collections.Segments.Segment<T>.Insert
+  fullName.vb: Platform.Helpers.Collections.Segments.Segment(Of T).Insert
   nameWithType: Segment<T>.Insert
   nameWithType.vb: Segment(Of T).Insert
-- uid: Platform.Helpers.Collections.Segment`1.IsReadOnly
+- uid: Platform.Helpers.Collections.Segments.Segment`1.IsReadOnly
   name: IsReadOnly
-  href: api/Platform.Helpers.Collections.Segment-1.html#Platform_Helpers_Collections_Segment_1_IsReadOnly
-  commentId: P:Platform.Helpers.Collections.Segment`1.IsReadOnly
-  fullName: Platform.Helpers.Collections.Segment<T>.IsReadOnly
-  fullName.vb: Platform.Helpers.Collections.Segment(Of T).IsReadOnly
+  href: api/Platform.Helpers.Collections.Segments.Segment-1.html#Platform_Helpers_Collections_Segments_Segment_1_IsReadOnly
+  commentId: P:Platform.Helpers.Collections.Segments.Segment`1.IsReadOnly
+  fullName: Platform.Helpers.Collections.Segments.Segment<T>.IsReadOnly
+  fullName.vb: Platform.Helpers.Collections.Segments.Segment(Of T).IsReadOnly
   nameWithType: Segment<T>.IsReadOnly
   nameWithType.vb: Segment(Of T).IsReadOnly
-- uid: Platform.Helpers.Collections.Segment`1.IsReadOnly*
+- uid: Platform.Helpers.Collections.Segments.Segment`1.IsReadOnly*
   name: IsReadOnly
-  href: api/Platform.Helpers.Collections.Segment-1.html#Platform_Helpers_Collections_Segment_1_IsReadOnly_
-  commentId: Overload:Platform.Helpers.Collections.Segment`1.IsReadOnly
+  href: api/Platform.Helpers.Collections.Segments.Segment-1.html#Platform_Helpers_Collections_Segments_Segment_1_IsReadOnly_
+  commentId: Overload:Platform.Helpers.Collections.Segments.Segment`1.IsReadOnly
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.Segment<T>.IsReadOnly
-  fullName.vb: Platform.Helpers.Collections.Segment(Of T).IsReadOnly
+  fullName: Platform.Helpers.Collections.Segments.Segment<T>.IsReadOnly
+  fullName.vb: Platform.Helpers.Collections.Segments.Segment(Of T).IsReadOnly
   nameWithType: Segment<T>.IsReadOnly
   nameWithType.vb: Segment(Of T).IsReadOnly
-- uid: Platform.Helpers.Collections.Segment`1.Item(System.Int32)
+- uid: Platform.Helpers.Collections.Segments.Segment`1.Item(System.Int32)
   name: Item[Int32]
-  href: api/Platform.Helpers.Collections.Segment-1.html#Platform_Helpers_Collections_Segment_1_Item_System_Int32_
-  commentId: P:Platform.Helpers.Collections.Segment`1.Item(System.Int32)
+  href: api/Platform.Helpers.Collections.Segments.Segment-1.html#Platform_Helpers_Collections_Segments_Segment_1_Item_System_Int32_
+  commentId: P:Platform.Helpers.Collections.Segments.Segment`1.Item(System.Int32)
   name.vb: Item(Int32)
-  fullName: Platform.Helpers.Collections.Segment<T>.Item[System.Int32]
-  fullName.vb: Platform.Helpers.Collections.Segment(Of T).Item(System.Int32)
+  fullName: Platform.Helpers.Collections.Segments.Segment<T>.Item[System.Int32]
+  fullName.vb: Platform.Helpers.Collections.Segments.Segment(Of T).Item(System.Int32)
   nameWithType: Segment<T>.Item[Int32]
   nameWithType.vb: Segment(Of T).Item(Int32)
-- uid: Platform.Helpers.Collections.Segment`1.Item*
+- uid: Platform.Helpers.Collections.Segments.Segment`1.Item*
   name: Item
-  href: api/Platform.Helpers.Collections.Segment-1.html#Platform_Helpers_Collections_Segment_1_Item_
-  commentId: Overload:Platform.Helpers.Collections.Segment`1.Item
+  href: api/Platform.Helpers.Collections.Segments.Segment-1.html#Platform_Helpers_Collections_Segments_Segment_1_Item_
+  commentId: Overload:Platform.Helpers.Collections.Segments.Segment`1.Item
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.Segment<T>.Item
-  fullName.vb: Platform.Helpers.Collections.Segment(Of T).Item
+  fullName: Platform.Helpers.Collections.Segments.Segment<T>.Item
+  fullName.vb: Platform.Helpers.Collections.Segments.Segment(Of T).Item
   nameWithType: Segment<T>.Item
   nameWithType.vb: Segment(Of T).Item
-- uid: Platform.Helpers.Collections.Segment`1.Length
+- uid: Platform.Helpers.Collections.Segments.Segment`1.Length
   name: Length
-  href: api/Platform.Helpers.Collections.Segment-1.html#Platform_Helpers_Collections_Segment_1_Length
-  commentId: F:Platform.Helpers.Collections.Segment`1.Length
-  fullName: Platform.Helpers.Collections.Segment<T>.Length
-  fullName.vb: Platform.Helpers.Collections.Segment(Of T).Length
+  href: api/Platform.Helpers.Collections.Segments.Segment-1.html#Platform_Helpers_Collections_Segments_Segment_1_Length
+  commentId: F:Platform.Helpers.Collections.Segments.Segment`1.Length
+  fullName: Platform.Helpers.Collections.Segments.Segment<T>.Length
+  fullName.vb: Platform.Helpers.Collections.Segments.Segment(Of T).Length
   nameWithType: Segment<T>.Length
   nameWithType.vb: Segment(Of T).Length
-- uid: Platform.Helpers.Collections.Segment`1.Offset
+- uid: Platform.Helpers.Collections.Segments.Segment`1.Offset
   name: Offset
-  href: api/Platform.Helpers.Collections.Segment-1.html#Platform_Helpers_Collections_Segment_1_Offset
-  commentId: F:Platform.Helpers.Collections.Segment`1.Offset
-  fullName: Platform.Helpers.Collections.Segment<T>.Offset
-  fullName.vb: Platform.Helpers.Collections.Segment(Of T).Offset
+  href: api/Platform.Helpers.Collections.Segments.Segment-1.html#Platform_Helpers_Collections_Segments_Segment_1_Offset
+  commentId: F:Platform.Helpers.Collections.Segments.Segment`1.Offset
+  fullName: Platform.Helpers.Collections.Segments.Segment<T>.Offset
+  fullName.vb: Platform.Helpers.Collections.Segments.Segment(Of T).Offset
   nameWithType: Segment<T>.Offset
   nameWithType.vb: Segment(Of T).Offset
-- uid: Platform.Helpers.Collections.Segment`1.Remove(`0)
+- uid: Platform.Helpers.Collections.Segments.Segment`1.Remove(`0)
   name: Remove(T)
-  href: api/Platform.Helpers.Collections.Segment-1.html#Platform_Helpers_Collections_Segment_1_Remove__0_
-  commentId: M:Platform.Helpers.Collections.Segment`1.Remove(`0)
-  fullName: Platform.Helpers.Collections.Segment<T>.Remove(T)
-  fullName.vb: Platform.Helpers.Collections.Segment(Of T).Remove(T)
+  href: api/Platform.Helpers.Collections.Segments.Segment-1.html#Platform_Helpers_Collections_Segments_Segment_1_Remove__0_
+  commentId: M:Platform.Helpers.Collections.Segments.Segment`1.Remove(`0)
+  fullName: Platform.Helpers.Collections.Segments.Segment<T>.Remove(T)
+  fullName.vb: Platform.Helpers.Collections.Segments.Segment(Of T).Remove(T)
   nameWithType: Segment<T>.Remove(T)
   nameWithType.vb: Segment(Of T).Remove(T)
-- uid: Platform.Helpers.Collections.Segment`1.Remove*
+- uid: Platform.Helpers.Collections.Segments.Segment`1.Remove*
   name: Remove
-  href: api/Platform.Helpers.Collections.Segment-1.html#Platform_Helpers_Collections_Segment_1_Remove_
-  commentId: Overload:Platform.Helpers.Collections.Segment`1.Remove
+  href: api/Platform.Helpers.Collections.Segments.Segment-1.html#Platform_Helpers_Collections_Segments_Segment_1_Remove_
+  commentId: Overload:Platform.Helpers.Collections.Segments.Segment`1.Remove
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.Segment<T>.Remove
-  fullName.vb: Platform.Helpers.Collections.Segment(Of T).Remove
+  fullName: Platform.Helpers.Collections.Segments.Segment<T>.Remove
+  fullName.vb: Platform.Helpers.Collections.Segments.Segment(Of T).Remove
   nameWithType: Segment<T>.Remove
   nameWithType.vb: Segment(Of T).Remove
-- uid: Platform.Helpers.Collections.Segment`1.RemoveAt(System.Int32)
+- uid: Platform.Helpers.Collections.Segments.Segment`1.RemoveAt(System.Int32)
   name: RemoveAt(Int32)
-  href: api/Platform.Helpers.Collections.Segment-1.html#Platform_Helpers_Collections_Segment_1_RemoveAt_System_Int32_
-  commentId: M:Platform.Helpers.Collections.Segment`1.RemoveAt(System.Int32)
-  fullName: Platform.Helpers.Collections.Segment<T>.RemoveAt(System.Int32)
-  fullName.vb: Platform.Helpers.Collections.Segment(Of T).RemoveAt(System.Int32)
+  href: api/Platform.Helpers.Collections.Segments.Segment-1.html#Platform_Helpers_Collections_Segments_Segment_1_RemoveAt_System_Int32_
+  commentId: M:Platform.Helpers.Collections.Segments.Segment`1.RemoveAt(System.Int32)
+  fullName: Platform.Helpers.Collections.Segments.Segment<T>.RemoveAt(System.Int32)
+  fullName.vb: Platform.Helpers.Collections.Segments.Segment(Of T).RemoveAt(System.Int32)
   nameWithType: Segment<T>.RemoveAt(Int32)
   nameWithType.vb: Segment(Of T).RemoveAt(Int32)
-- uid: Platform.Helpers.Collections.Segment`1.RemoveAt*
+- uid: Platform.Helpers.Collections.Segments.Segment`1.RemoveAt*
   name: RemoveAt
-  href: api/Platform.Helpers.Collections.Segment-1.html#Platform_Helpers_Collections_Segment_1_RemoveAt_
-  commentId: Overload:Platform.Helpers.Collections.Segment`1.RemoveAt
+  href: api/Platform.Helpers.Collections.Segments.Segment-1.html#Platform_Helpers_Collections_Segments_Segment_1_RemoveAt_
+  commentId: Overload:Platform.Helpers.Collections.Segments.Segment`1.RemoveAt
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.Segment<T>.RemoveAt
-  fullName.vb: Platform.Helpers.Collections.Segment(Of T).RemoveAt
+  fullName: Platform.Helpers.Collections.Segments.Segment<T>.RemoveAt
+  fullName.vb: Platform.Helpers.Collections.Segments.Segment(Of T).RemoveAt
   nameWithType: Segment<T>.RemoveAt
   nameWithType.vb: Segment(Of T).RemoveAt
-- uid: Platform.Helpers.Collections.SegmentsWalkers
-  name: Platform.Helpers.Collections.SegmentsWalkers
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.html
-  commentId: N:Platform.Helpers.Collections.SegmentsWalkers
-  fullName: Platform.Helpers.Collections.SegmentsWalkers
-  nameWithType: Platform.Helpers.Collections.SegmentsWalkers
-- uid: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase`1
+- uid: Platform.Helpers.Collections.Segments.Walkers
+  name: Platform.Helpers.Collections.Segments.Walkers
+  href: api/Platform.Helpers.Collections.Segments.Walkers.html
+  commentId: N:Platform.Helpers.Collections.Segments.Walkers
+  fullName: Platform.Helpers.Collections.Segments.Walkers
+  nameWithType: Platform.Helpers.Collections.Segments.Walkers
+- uid: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase`1
   name: AllSegmentsWalkerBase<T>
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase-1.html
-  commentId: T:Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase`1
+  href: api/Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase-1.html
+  commentId: T:Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase`1
   name.vb: AllSegmentsWalkerBase(Of T)
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase<T>
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase(Of T)
+  fullName: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase<T>
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase(Of T)
   nameWithType: AllSegmentsWalkerBase<T>
   nameWithType.vb: AllSegmentsWalkerBase(Of T)
-- uid: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase`1.CreateSegment(IList{`0},System.Int32,System.Int32)
+- uid: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase`1.CreateSegment(IList{`0},System.Int32,System.Int32)
   name: CreateSegment(IList<T>, Int32, Int32)
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase-1.html#Platform_Helpers_Collections_SegmentsWalkers_AllSegmentsWalkerBase_1_CreateSegment_IList__0__System_Int32_System_Int32_
-  commentId: M:Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase`1.CreateSegment(IList{`0},System.Int32,System.Int32)
+  href: api/Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase-1.html#Platform_Helpers_Collections_Segments_Walkers_AllSegmentsWalkerBase_1_CreateSegment_IList__0__System_Int32_System_Int32_
+  commentId: M:Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase`1.CreateSegment(IList{`0},System.Int32,System.Int32)
   name.vb: CreateSegment(IList(Of T), Int32, Int32)
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase<T>.CreateSegment(IList<T>, System.Int32, System.Int32)
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase(Of T).CreateSegment(IList(Of T), System.Int32, System.Int32)
+  fullName: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase<T>.CreateSegment(IList<T>, System.Int32, System.Int32)
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase(Of T).CreateSegment(IList(Of T), System.Int32, System.Int32)
   nameWithType: AllSegmentsWalkerBase<T>.CreateSegment(IList<T>, Int32, Int32)
   nameWithType.vb: AllSegmentsWalkerBase(Of T).CreateSegment(IList(Of T), Int32, Int32)
-- uid: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase`1.CreateSegment*
+- uid: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase`1.CreateSegment*
   name: CreateSegment
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase-1.html#Platform_Helpers_Collections_SegmentsWalkers_AllSegmentsWalkerBase_1_CreateSegment_
-  commentId: Overload:Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase`1.CreateSegment
+  href: api/Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase-1.html#Platform_Helpers_Collections_Segments_Walkers_AllSegmentsWalkerBase_1_CreateSegment_
+  commentId: Overload:Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase`1.CreateSegment
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase<T>.CreateSegment
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase(Of T).CreateSegment
+  fullName: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase<T>.CreateSegment
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase(Of T).CreateSegment
   nameWithType: AllSegmentsWalkerBase<T>.CreateSegment
   nameWithType.vb: AllSegmentsWalkerBase(Of T).CreateSegment
-- uid: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase`2
+- uid: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase`2
   name: AllSegmentsWalkerBase<T, TSegment>
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase-2.html
-  commentId: T:Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase`2
+  href: api/Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase-2.html
+  commentId: T:Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase`2
   name.vb: AllSegmentsWalkerBase(Of T, TSegment)
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase<T, TSegment>
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase(Of T, TSegment)
+  fullName: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase<T, TSegment>
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase(Of T, TSegment)
   nameWithType: AllSegmentsWalkerBase<T, TSegment>
   nameWithType.vb: AllSegmentsWalkerBase(Of T, TSegment)
-- uid: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase`2.#ctor(System.Int32)
+- uid: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase`2.#ctor(System.Int32)
   name: AllSegmentsWalkerBase(Int32)
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase-2.html#Platform_Helpers_Collections_SegmentsWalkers_AllSegmentsWalkerBase_2__ctor_System_Int32_
-  commentId: M:Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase`2.#ctor(System.Int32)
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase<T, TSegment>.AllSegmentsWalkerBase(System.Int32)
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase(Of T, TSegment).AllSegmentsWalkerBase(System.Int32)
+  href: api/Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase-2.html#Platform_Helpers_Collections_Segments_Walkers_AllSegmentsWalkerBase_2__ctor_System_Int32_
+  commentId: M:Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase`2.#ctor(System.Int32)
+  fullName: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase<T, TSegment>.AllSegmentsWalkerBase(System.Int32)
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase(Of T, TSegment).AllSegmentsWalkerBase(System.Int32)
   nameWithType: AllSegmentsWalkerBase<T, TSegment>.AllSegmentsWalkerBase(Int32)
   nameWithType.vb: AllSegmentsWalkerBase(Of T, TSegment).AllSegmentsWalkerBase(Int32)
-- uid: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase`2.#ctor*
+- uid: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase`2.#ctor*
   name: AllSegmentsWalkerBase
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase-2.html#Platform_Helpers_Collections_SegmentsWalkers_AllSegmentsWalkerBase_2__ctor_
-  commentId: Overload:Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase`2.#ctor
+  href: api/Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase-2.html#Platform_Helpers_Collections_Segments_Walkers_AllSegmentsWalkerBase_2__ctor_
+  commentId: Overload:Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase`2.#ctor
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase<T, TSegment>.AllSegmentsWalkerBase
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase(Of T, TSegment).AllSegmentsWalkerBase
+  fullName: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase<T, TSegment>.AllSegmentsWalkerBase
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase(Of T, TSegment).AllSegmentsWalkerBase
   nameWithType: AllSegmentsWalkerBase<T, TSegment>.AllSegmentsWalkerBase
   nameWithType.vb: AllSegmentsWalkerBase(Of T, TSegment).AllSegmentsWalkerBase
-- uid: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase`2.CreateSegment(IList{`0},System.Int32,System.Int32)
+- uid: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase`2.CreateSegment(IList{`0},System.Int32,System.Int32)
   name: CreateSegment(IList<T>, Int32, Int32)
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase-2.html#Platform_Helpers_Collections_SegmentsWalkers_AllSegmentsWalkerBase_2_CreateSegment_IList__0__System_Int32_System_Int32_
-  commentId: M:Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase`2.CreateSegment(IList{`0},System.Int32,System.Int32)
+  href: api/Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase-2.html#Platform_Helpers_Collections_Segments_Walkers_AllSegmentsWalkerBase_2_CreateSegment_IList__0__System_Int32_System_Int32_
+  commentId: M:Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase`2.CreateSegment(IList{`0},System.Int32,System.Int32)
   name.vb: CreateSegment(IList(Of T), Int32, Int32)
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase<T, TSegment>.CreateSegment(IList<T>, System.Int32, System.Int32)
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase(Of T, TSegment).CreateSegment(IList(Of T), System.Int32, System.Int32)
+  fullName: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase<T, TSegment>.CreateSegment(IList<T>, System.Int32, System.Int32)
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase(Of T, TSegment).CreateSegment(IList(Of T), System.Int32, System.Int32)
   nameWithType: AllSegmentsWalkerBase<T, TSegment>.CreateSegment(IList<T>, Int32, Int32)
   nameWithType.vb: AllSegmentsWalkerBase(Of T, TSegment).CreateSegment(IList(Of T), Int32, Int32)
-- uid: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase`2.CreateSegment*
+- uid: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase`2.CreateSegment*
   name: CreateSegment
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase-2.html#Platform_Helpers_Collections_SegmentsWalkers_AllSegmentsWalkerBase_2_CreateSegment_
-  commentId: Overload:Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase`2.CreateSegment
+  href: api/Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase-2.html#Platform_Helpers_Collections_Segments_Walkers_AllSegmentsWalkerBase_2_CreateSegment_
+  commentId: Overload:Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase`2.CreateSegment
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase<T, TSegment>.CreateSegment
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase(Of T, TSegment).CreateSegment
+  fullName: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase<T, TSegment>.CreateSegment
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase(Of T, TSegment).CreateSegment
   nameWithType: AllSegmentsWalkerBase<T, TSegment>.CreateSegment
   nameWithType.vb: AllSegmentsWalkerBase(Of T, TSegment).CreateSegment
-- uid: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase`2.DefaultMinimumStringSegmentLength
+- uid: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase`2.DefaultMinimumStringSegmentLength
   name: DefaultMinimumStringSegmentLength
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase-2.html#Platform_Helpers_Collections_SegmentsWalkers_AllSegmentsWalkerBase_2_DefaultMinimumStringSegmentLength
-  commentId: F:Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase`2.DefaultMinimumStringSegmentLength
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase<T, TSegment>.DefaultMinimumStringSegmentLength
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase(Of T, TSegment).DefaultMinimumStringSegmentLength
+  href: api/Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase-2.html#Platform_Helpers_Collections_Segments_Walkers_AllSegmentsWalkerBase_2_DefaultMinimumStringSegmentLength
+  commentId: F:Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase`2.DefaultMinimumStringSegmentLength
+  fullName: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase<T, TSegment>.DefaultMinimumStringSegmentLength
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase(Of T, TSegment).DefaultMinimumStringSegmentLength
   nameWithType: AllSegmentsWalkerBase<T, TSegment>.DefaultMinimumStringSegmentLength
   nameWithType.vb: AllSegmentsWalkerBase(Of T, TSegment).DefaultMinimumStringSegmentLength
-- uid: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase`2.Iteration(`1)
+- uid: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase`2.Iteration(`1)
   name: Iteration(TSegment)
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase-2.html#Platform_Helpers_Collections_SegmentsWalkers_AllSegmentsWalkerBase_2_Iteration__1_
-  commentId: M:Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase`2.Iteration(`1)
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase<T, TSegment>.Iteration(TSegment)
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase(Of T, TSegment).Iteration(TSegment)
+  href: api/Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase-2.html#Platform_Helpers_Collections_Segments_Walkers_AllSegmentsWalkerBase_2_Iteration__1_
+  commentId: M:Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase`2.Iteration(`1)
+  fullName: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase<T, TSegment>.Iteration(TSegment)
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase(Of T, TSegment).Iteration(TSegment)
   nameWithType: AllSegmentsWalkerBase<T, TSegment>.Iteration(TSegment)
   nameWithType.vb: AllSegmentsWalkerBase(Of T, TSegment).Iteration(TSegment)
-- uid: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase`2.Iteration*
+- uid: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase`2.Iteration*
   name: Iteration
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase-2.html#Platform_Helpers_Collections_SegmentsWalkers_AllSegmentsWalkerBase_2_Iteration_
-  commentId: Overload:Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase`2.Iteration
+  href: api/Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase-2.html#Platform_Helpers_Collections_Segments_Walkers_AllSegmentsWalkerBase_2_Iteration_
+  commentId: Overload:Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase`2.Iteration
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase<T, TSegment>.Iteration
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase(Of T, TSegment).Iteration
+  fullName: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase<T, TSegment>.Iteration
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase(Of T, TSegment).Iteration
   nameWithType: AllSegmentsWalkerBase<T, TSegment>.Iteration
   nameWithType.vb: AllSegmentsWalkerBase(Of T, TSegment).Iteration
-- uid: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase`2.WalkAll(IList{`0})
+- uid: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase`2.WalkAll(IList{`0})
   name: WalkAll(IList<T>)
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase-2.html#Platform_Helpers_Collections_SegmentsWalkers_AllSegmentsWalkerBase_2_WalkAll_IList__0__
-  commentId: M:Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase`2.WalkAll(IList{`0})
+  href: api/Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase-2.html#Platform_Helpers_Collections_Segments_Walkers_AllSegmentsWalkerBase_2_WalkAll_IList__0__
+  commentId: M:Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase`2.WalkAll(IList{`0})
   name.vb: WalkAll(IList(Of T))
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase<T, TSegment>.WalkAll(IList<T>)
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase(Of T, TSegment).WalkAll(IList(Of T))
+  fullName: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase<T, TSegment>.WalkAll(IList<T>)
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase(Of T, TSegment).WalkAll(IList(Of T))
   nameWithType: AllSegmentsWalkerBase<T, TSegment>.WalkAll(IList<T>)
   nameWithType.vb: AllSegmentsWalkerBase(Of T, TSegment).WalkAll(IList(Of T))
-- uid: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase`2.WalkAll*
+- uid: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase`2.WalkAll*
   name: WalkAll
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase-2.html#Platform_Helpers_Collections_SegmentsWalkers_AllSegmentsWalkerBase_2_WalkAll_
-  commentId: Overload:Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase`2.WalkAll
+  href: api/Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase-2.html#Platform_Helpers_Collections_Segments_Walkers_AllSegmentsWalkerBase_2_WalkAll_
+  commentId: Overload:Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase`2.WalkAll
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase<T, TSegment>.WalkAll
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase(Of T, TSegment).WalkAll
+  fullName: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase<T, TSegment>.WalkAll
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase(Of T, TSegment).WalkAll
   nameWithType: AllSegmentsWalkerBase<T, TSegment>.WalkAll
   nameWithType.vb: AllSegmentsWalkerBase(Of T, TSegment).WalkAll
-- uid: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerExtensions
+- uid: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerExtensions
   name: AllSegmentsWalkerExtensions
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerExtensions.html
-  commentId: T:Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerExtensions
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerExtensions
+  href: api/Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerExtensions.html
+  commentId: T:Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerExtensions
+  fullName: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerExtensions
   nameWithType: AllSegmentsWalkerExtensions
-- uid: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerExtensions.WalkAll(Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase{System.Char},System.String)
+- uid: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerExtensions.WalkAll(Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase{System.Char},System.String)
   name: WalkAll(AllSegmentsWalkerBase<Char>, String)
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerExtensions.html#Platform_Helpers_Collections_SegmentsWalkers_AllSegmentsWalkerExtensions_WalkAll_Platform_Helpers_Collections_SegmentsWalkers_AllSegmentsWalkerBase_System_Char__System_String_
-  commentId: M:Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerExtensions.WalkAll(Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase{System.Char},System.String)
+  href: api/Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerExtensions.html#Platform_Helpers_Collections_Segments_Walkers_AllSegmentsWalkerExtensions_WalkAll_Platform_Helpers_Collections_Segments_Walkers_AllSegmentsWalkerBase_System_Char__System_String_
+  commentId: M:Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerExtensions.WalkAll(Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase{System.Char},System.String)
   name.vb: WalkAll(AllSegmentsWalkerBase(Of Char), String)
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerExtensions.WalkAll(Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase<System.Char>, System.String)
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerExtensions.WalkAll(Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase(Of System.Char), System.String)
+  fullName: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerExtensions.WalkAll(Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase<System.Char>, System.String)
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerExtensions.WalkAll(Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase(Of System.Char), System.String)
   nameWithType: AllSegmentsWalkerExtensions.WalkAll(AllSegmentsWalkerBase<Char>, String)
   nameWithType.vb: AllSegmentsWalkerExtensions.WalkAll(AllSegmentsWalkerBase(Of Char), String)
-- uid: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerExtensions.WalkAll*
+- uid: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerExtensions.WalkAll*
   name: WalkAll
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerExtensions.html#Platform_Helpers_Collections_SegmentsWalkers_AllSegmentsWalkerExtensions_WalkAll_
-  commentId: Overload:Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerExtensions.WalkAll
+  href: api/Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerExtensions.html#Platform_Helpers_Collections_Segments_Walkers_AllSegmentsWalkerExtensions_WalkAll_
+  commentId: Overload:Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerExtensions.WalkAll
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerExtensions.WalkAll
+  fullName: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerExtensions.WalkAll
   nameWithType: AllSegmentsWalkerExtensions.WalkAll
-- uid: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerExtensions.WalkAll``1(Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase{System.Char,``0},System.String)
+- uid: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerExtensions.WalkAll``1(Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase{System.Char,``0},System.String)
   name: WalkAll<TSegment>(AllSegmentsWalkerBase<Char, TSegment>, String)
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerExtensions.html#Platform_Helpers_Collections_SegmentsWalkers_AllSegmentsWalkerExtensions_WalkAll__1_Platform_Helpers_Collections_SegmentsWalkers_AllSegmentsWalkerBase_System_Char___0__System_String_
-  commentId: M:Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerExtensions.WalkAll``1(Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase{System.Char,``0},System.String)
+  href: api/Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerExtensions.html#Platform_Helpers_Collections_Segments_Walkers_AllSegmentsWalkerExtensions_WalkAll__1_Platform_Helpers_Collections_Segments_Walkers_AllSegmentsWalkerBase_System_Char___0__System_String_
+  commentId: M:Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerExtensions.WalkAll``1(Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase{System.Char,``0},System.String)
   name.vb: WalkAll(Of TSegment)(AllSegmentsWalkerBase(Of Char, TSegment), String)
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerExtensions.WalkAll<TSegment>(Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase<System.Char, TSegment>, System.String)
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerExtensions.WalkAll(Of TSegment)(Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase(Of System.Char, TSegment), System.String)
+  fullName: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerExtensions.WalkAll<TSegment>(Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase<System.Char, TSegment>, System.String)
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerExtensions.WalkAll(Of TSegment)(Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase(Of System.Char, TSegment), System.String)
   nameWithType: AllSegmentsWalkerExtensions.WalkAll<TSegment>(AllSegmentsWalkerBase<Char, TSegment>, String)
   nameWithType.vb: AllSegmentsWalkerExtensions.WalkAll(Of TSegment)(AllSegmentsWalkerBase(Of Char, TSegment), String)
-- uid: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase`1
+- uid: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase`1
   name: DictionaryBasedDuplicateSegmentsWalkerBase<T>
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase-1.html
-  commentId: T:Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase`1
+  href: api/Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase-1.html
+  commentId: T:Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase`1
   name.vb: DictionaryBasedDuplicateSegmentsWalkerBase(Of T)
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase<T>
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase(Of T)
+  fullName: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase<T>
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase(Of T)
   nameWithType: DictionaryBasedDuplicateSegmentsWalkerBase<T>
   nameWithType.vb: DictionaryBasedDuplicateSegmentsWalkerBase(Of T)
-- uid: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase`1.#ctor(IDictionary{Platform.Helpers.Collections.Segment{`0},System.Int64},System.Int32,System.Boolean)
+- uid: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase`1.#ctor(IDictionary{Platform.Helpers.Collections.Segments.Segment{`0},System.Int64},System.Int32,System.Boolean)
   name: DictionaryBasedDuplicateSegmentsWalkerBase(IDictionary<Segment<T>, Int64>, Int32, Boolean)
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase-1.html#Platform_Helpers_Collections_SegmentsWalkers_DictionaryBasedDuplicateSegmentsWalkerBase_1__ctor_IDictionary_Platform_Helpers_Collections_Segment__0__System_Int64__System_Int32_System_Boolean_
-  commentId: M:Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase`1.#ctor(IDictionary{Platform.Helpers.Collections.Segment{`0},System.Int64},System.Int32,System.Boolean)
+  href: api/Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase-1.html#Platform_Helpers_Collections_Segments_Walkers_DictionaryBasedDuplicateSegmentsWalkerBase_1__ctor_IDictionary_Platform_Helpers_Collections_Segments_Segment__0__System_Int64__System_Int32_System_Boolean_
+  commentId: M:Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase`1.#ctor(IDictionary{Platform.Helpers.Collections.Segments.Segment{`0},System.Int64},System.Int32,System.Boolean)
   name.vb: DictionaryBasedDuplicateSegmentsWalkerBase(IDictionary(Of Segment(Of T), Int64), Int32, Boolean)
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase<T>.DictionaryBasedDuplicateSegmentsWalkerBase(IDictionary<Platform.Helpers.Collections.Segment<T>, System.Int64>, System.Int32, System.Boolean)
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase(Of T).DictionaryBasedDuplicateSegmentsWalkerBase(IDictionary(Of Platform.Helpers.Collections.Segment(Of T), System.Int64), System.Int32, System.Boolean)
+  fullName: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase<T>.DictionaryBasedDuplicateSegmentsWalkerBase(IDictionary<Platform.Helpers.Collections.Segments.Segment<T>, System.Int64>, System.Int32, System.Boolean)
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase(Of T).DictionaryBasedDuplicateSegmentsWalkerBase(IDictionary(Of Platform.Helpers.Collections.Segments.Segment(Of T), System.Int64), System.Int32, System.Boolean)
   nameWithType: DictionaryBasedDuplicateSegmentsWalkerBase<T>.DictionaryBasedDuplicateSegmentsWalkerBase(IDictionary<Segment<T>, Int64>, Int32, Boolean)
   nameWithType.vb: DictionaryBasedDuplicateSegmentsWalkerBase(Of T).DictionaryBasedDuplicateSegmentsWalkerBase(IDictionary(Of Segment(Of T), Int64), Int32, Boolean)
-- uid: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase`1.#ctor(System.Boolean)
+- uid: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase`1.#ctor(System.Boolean)
   name: DictionaryBasedDuplicateSegmentsWalkerBase(Boolean)
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase-1.html#Platform_Helpers_Collections_SegmentsWalkers_DictionaryBasedDuplicateSegmentsWalkerBase_1__ctor_System_Boolean_
-  commentId: M:Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase`1.#ctor(System.Boolean)
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase<T>.DictionaryBasedDuplicateSegmentsWalkerBase(System.Boolean)
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase(Of T).DictionaryBasedDuplicateSegmentsWalkerBase(System.Boolean)
+  href: api/Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase-1.html#Platform_Helpers_Collections_Segments_Walkers_DictionaryBasedDuplicateSegmentsWalkerBase_1__ctor_System_Boolean_
+  commentId: M:Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase`1.#ctor(System.Boolean)
+  fullName: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase<T>.DictionaryBasedDuplicateSegmentsWalkerBase(System.Boolean)
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase(Of T).DictionaryBasedDuplicateSegmentsWalkerBase(System.Boolean)
   nameWithType: DictionaryBasedDuplicateSegmentsWalkerBase<T>.DictionaryBasedDuplicateSegmentsWalkerBase(Boolean)
   nameWithType.vb: DictionaryBasedDuplicateSegmentsWalkerBase(Of T).DictionaryBasedDuplicateSegmentsWalkerBase(Boolean)
-- uid: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase`1.#ctor(System.Int32,System.Boolean)
+- uid: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase`1.#ctor(System.Int32,System.Boolean)
   name: DictionaryBasedDuplicateSegmentsWalkerBase(Int32, Boolean)
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase-1.html#Platform_Helpers_Collections_SegmentsWalkers_DictionaryBasedDuplicateSegmentsWalkerBase_1__ctor_System_Int32_System_Boolean_
-  commentId: M:Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase`1.#ctor(System.Int32,System.Boolean)
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase<T>.DictionaryBasedDuplicateSegmentsWalkerBase(System.Int32, System.Boolean)
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase(Of T).DictionaryBasedDuplicateSegmentsWalkerBase(System.Int32, System.Boolean)
+  href: api/Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase-1.html#Platform_Helpers_Collections_Segments_Walkers_DictionaryBasedDuplicateSegmentsWalkerBase_1__ctor_System_Int32_System_Boolean_
+  commentId: M:Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase`1.#ctor(System.Int32,System.Boolean)
+  fullName: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase<T>.DictionaryBasedDuplicateSegmentsWalkerBase(System.Int32, System.Boolean)
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase(Of T).DictionaryBasedDuplicateSegmentsWalkerBase(System.Int32, System.Boolean)
   nameWithType: DictionaryBasedDuplicateSegmentsWalkerBase<T>.DictionaryBasedDuplicateSegmentsWalkerBase(Int32, Boolean)
   nameWithType.vb: DictionaryBasedDuplicateSegmentsWalkerBase(Of T).DictionaryBasedDuplicateSegmentsWalkerBase(Int32, Boolean)
-- uid: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase`1.#ctor*
+- uid: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase`1.#ctor*
   name: DictionaryBasedDuplicateSegmentsWalkerBase
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase-1.html#Platform_Helpers_Collections_SegmentsWalkers_DictionaryBasedDuplicateSegmentsWalkerBase_1__ctor_
-  commentId: Overload:Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase`1.#ctor
+  href: api/Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase-1.html#Platform_Helpers_Collections_Segments_Walkers_DictionaryBasedDuplicateSegmentsWalkerBase_1__ctor_
+  commentId: Overload:Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase`1.#ctor
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase<T>.DictionaryBasedDuplicateSegmentsWalkerBase
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase(Of T).DictionaryBasedDuplicateSegmentsWalkerBase
+  fullName: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase<T>.DictionaryBasedDuplicateSegmentsWalkerBase
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase(Of T).DictionaryBasedDuplicateSegmentsWalkerBase
   nameWithType: DictionaryBasedDuplicateSegmentsWalkerBase<T>.DictionaryBasedDuplicateSegmentsWalkerBase
   nameWithType.vb: DictionaryBasedDuplicateSegmentsWalkerBase(Of T).DictionaryBasedDuplicateSegmentsWalkerBase
-- uid: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase`2
+- uid: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase`2
   name: DictionaryBasedDuplicateSegmentsWalkerBase<T, TSegment>
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase-2.html
-  commentId: T:Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase`2
+  href: api/Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase-2.html
+  commentId: T:Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase`2
   name.vb: DictionaryBasedDuplicateSegmentsWalkerBase(Of T, TSegment)
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase<T, TSegment>
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase(Of T, TSegment)
+  fullName: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase<T, TSegment>
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase(Of T, TSegment)
   nameWithType: DictionaryBasedDuplicateSegmentsWalkerBase<T, TSegment>
   nameWithType.vb: DictionaryBasedDuplicateSegmentsWalkerBase(Of T, TSegment)
-- uid: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.#ctor(IDictionary{`1,System.Int64},System.Int32,System.Boolean)
+- uid: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.#ctor(IDictionary{`1,System.Int64},System.Int32,System.Boolean)
   name: DictionaryBasedDuplicateSegmentsWalkerBase(IDictionary<TSegment, Int64>, Int32, Boolean)
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_SegmentsWalkers_DictionaryBasedDuplicateSegmentsWalkerBase_2__ctor_IDictionary__1_System_Int64__System_Int32_System_Boolean_
-  commentId: M:Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.#ctor(IDictionary{`1,System.Int64},System.Int32,System.Boolean)
+  href: api/Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_Segments_Walkers_DictionaryBasedDuplicateSegmentsWalkerBase_2__ctor_IDictionary__1_System_Int64__System_Int32_System_Boolean_
+  commentId: M:Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.#ctor(IDictionary{`1,System.Int64},System.Int32,System.Boolean)
   name.vb: DictionaryBasedDuplicateSegmentsWalkerBase(IDictionary(Of TSegment, Int64), Int32, Boolean)
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase<T, TSegment>.DictionaryBasedDuplicateSegmentsWalkerBase(IDictionary<TSegment, System.Int64>, System.Int32, System.Boolean)
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase(Of T, TSegment).DictionaryBasedDuplicateSegmentsWalkerBase(IDictionary(Of TSegment, System.Int64), System.Int32, System.Boolean)
+  fullName: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase<T, TSegment>.DictionaryBasedDuplicateSegmentsWalkerBase(IDictionary<TSegment, System.Int64>, System.Int32, System.Boolean)
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase(Of T, TSegment).DictionaryBasedDuplicateSegmentsWalkerBase(IDictionary(Of TSegment, System.Int64), System.Int32, System.Boolean)
   nameWithType: DictionaryBasedDuplicateSegmentsWalkerBase<T, TSegment>.DictionaryBasedDuplicateSegmentsWalkerBase(IDictionary<TSegment, Int64>, Int32, Boolean)
   nameWithType.vb: DictionaryBasedDuplicateSegmentsWalkerBase(Of T, TSegment).DictionaryBasedDuplicateSegmentsWalkerBase(IDictionary(Of TSegment, Int64), Int32, Boolean)
-- uid: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.#ctor(System.Boolean)
+- uid: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.#ctor(System.Boolean)
   name: DictionaryBasedDuplicateSegmentsWalkerBase(Boolean)
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_SegmentsWalkers_DictionaryBasedDuplicateSegmentsWalkerBase_2__ctor_System_Boolean_
-  commentId: M:Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.#ctor(System.Boolean)
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase<T, TSegment>.DictionaryBasedDuplicateSegmentsWalkerBase(System.Boolean)
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase(Of T, TSegment).DictionaryBasedDuplicateSegmentsWalkerBase(System.Boolean)
+  href: api/Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_Segments_Walkers_DictionaryBasedDuplicateSegmentsWalkerBase_2__ctor_System_Boolean_
+  commentId: M:Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.#ctor(System.Boolean)
+  fullName: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase<T, TSegment>.DictionaryBasedDuplicateSegmentsWalkerBase(System.Boolean)
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase(Of T, TSegment).DictionaryBasedDuplicateSegmentsWalkerBase(System.Boolean)
   nameWithType: DictionaryBasedDuplicateSegmentsWalkerBase<T, TSegment>.DictionaryBasedDuplicateSegmentsWalkerBase(Boolean)
   nameWithType.vb: DictionaryBasedDuplicateSegmentsWalkerBase(Of T, TSegment).DictionaryBasedDuplicateSegmentsWalkerBase(Boolean)
-- uid: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.#ctor(System.Int32,System.Boolean)
+- uid: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.#ctor(System.Int32,System.Boolean)
   name: DictionaryBasedDuplicateSegmentsWalkerBase(Int32, Boolean)
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_SegmentsWalkers_DictionaryBasedDuplicateSegmentsWalkerBase_2__ctor_System_Int32_System_Boolean_
-  commentId: M:Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.#ctor(System.Int32,System.Boolean)
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase<T, TSegment>.DictionaryBasedDuplicateSegmentsWalkerBase(System.Int32, System.Boolean)
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase(Of T, TSegment).DictionaryBasedDuplicateSegmentsWalkerBase(System.Int32, System.Boolean)
+  href: api/Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_Segments_Walkers_DictionaryBasedDuplicateSegmentsWalkerBase_2__ctor_System_Int32_System_Boolean_
+  commentId: M:Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.#ctor(System.Int32,System.Boolean)
+  fullName: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase<T, TSegment>.DictionaryBasedDuplicateSegmentsWalkerBase(System.Int32, System.Boolean)
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase(Of T, TSegment).DictionaryBasedDuplicateSegmentsWalkerBase(System.Int32, System.Boolean)
   nameWithType: DictionaryBasedDuplicateSegmentsWalkerBase<T, TSegment>.DictionaryBasedDuplicateSegmentsWalkerBase(Int32, Boolean)
   nameWithType.vb: DictionaryBasedDuplicateSegmentsWalkerBase(Of T, TSegment).DictionaryBasedDuplicateSegmentsWalkerBase(Int32, Boolean)
-- uid: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.#ctor*
+- uid: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.#ctor*
   name: DictionaryBasedDuplicateSegmentsWalkerBase
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_SegmentsWalkers_DictionaryBasedDuplicateSegmentsWalkerBase_2__ctor_
-  commentId: Overload:Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.#ctor
+  href: api/Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_Segments_Walkers_DictionaryBasedDuplicateSegmentsWalkerBase_2__ctor_
+  commentId: Overload:Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.#ctor
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase<T, TSegment>.DictionaryBasedDuplicateSegmentsWalkerBase
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase(Of T, TSegment).DictionaryBasedDuplicateSegmentsWalkerBase
+  fullName: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase<T, TSegment>.DictionaryBasedDuplicateSegmentsWalkerBase
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase(Of T, TSegment).DictionaryBasedDuplicateSegmentsWalkerBase
   nameWithType: DictionaryBasedDuplicateSegmentsWalkerBase<T, TSegment>.DictionaryBasedDuplicateSegmentsWalkerBase
   nameWithType.vb: DictionaryBasedDuplicateSegmentsWalkerBase(Of T, TSegment).DictionaryBasedDuplicateSegmentsWalkerBase
-- uid: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.DefaultResetDictionaryOnEachWalk
+- uid: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.DefaultResetDictionaryOnEachWalk
   name: DefaultResetDictionaryOnEachWalk
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_SegmentsWalkers_DictionaryBasedDuplicateSegmentsWalkerBase_2_DefaultResetDictionaryOnEachWalk
-  commentId: F:Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.DefaultResetDictionaryOnEachWalk
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase<T, TSegment>.DefaultResetDictionaryOnEachWalk
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase(Of T, TSegment).DefaultResetDictionaryOnEachWalk
+  href: api/Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_Segments_Walkers_DictionaryBasedDuplicateSegmentsWalkerBase_2_DefaultResetDictionaryOnEachWalk
+  commentId: F:Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.DefaultResetDictionaryOnEachWalk
+  fullName: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase<T, TSegment>.DefaultResetDictionaryOnEachWalk
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase(Of T, TSegment).DefaultResetDictionaryOnEachWalk
   nameWithType: DictionaryBasedDuplicateSegmentsWalkerBase<T, TSegment>.DefaultResetDictionaryOnEachWalk
   nameWithType.vb: DictionaryBasedDuplicateSegmentsWalkerBase(Of T, TSegment).DefaultResetDictionaryOnEachWalk
-- uid: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.Dictionary
+- uid: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.Dictionary
   name: Dictionary
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_SegmentsWalkers_DictionaryBasedDuplicateSegmentsWalkerBase_2_Dictionary
-  commentId: F:Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.Dictionary
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase<T, TSegment>.Dictionary
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase(Of T, TSegment).Dictionary
+  href: api/Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_Segments_Walkers_DictionaryBasedDuplicateSegmentsWalkerBase_2_Dictionary
+  commentId: F:Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.Dictionary
+  fullName: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase<T, TSegment>.Dictionary
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase(Of T, TSegment).Dictionary
   nameWithType: DictionaryBasedDuplicateSegmentsWalkerBase<T, TSegment>.Dictionary
   nameWithType.vb: DictionaryBasedDuplicateSegmentsWalkerBase(Of T, TSegment).Dictionary
-- uid: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.GetSegmentFrequency(`1)
+- uid: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.GetSegmentFrequency(`1)
   name: GetSegmentFrequency(TSegment)
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_SegmentsWalkers_DictionaryBasedDuplicateSegmentsWalkerBase_2_GetSegmentFrequency__1_
-  commentId: M:Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.GetSegmentFrequency(`1)
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase<T, TSegment>.GetSegmentFrequency(TSegment)
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase(Of T, TSegment).GetSegmentFrequency(TSegment)
+  href: api/Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_Segments_Walkers_DictionaryBasedDuplicateSegmentsWalkerBase_2_GetSegmentFrequency__1_
+  commentId: M:Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.GetSegmentFrequency(`1)
+  fullName: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase<T, TSegment>.GetSegmentFrequency(TSegment)
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase(Of T, TSegment).GetSegmentFrequency(TSegment)
   nameWithType: DictionaryBasedDuplicateSegmentsWalkerBase<T, TSegment>.GetSegmentFrequency(TSegment)
   nameWithType.vb: DictionaryBasedDuplicateSegmentsWalkerBase(Of T, TSegment).GetSegmentFrequency(TSegment)
-- uid: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.GetSegmentFrequency*
+- uid: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.GetSegmentFrequency*
   name: GetSegmentFrequency
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_SegmentsWalkers_DictionaryBasedDuplicateSegmentsWalkerBase_2_GetSegmentFrequency_
-  commentId: Overload:Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.GetSegmentFrequency
+  href: api/Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_Segments_Walkers_DictionaryBasedDuplicateSegmentsWalkerBase_2_GetSegmentFrequency_
+  commentId: Overload:Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.GetSegmentFrequency
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase<T, TSegment>.GetSegmentFrequency
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase(Of T, TSegment).GetSegmentFrequency
+  fullName: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase<T, TSegment>.GetSegmentFrequency
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase(Of T, TSegment).GetSegmentFrequency
   nameWithType: DictionaryBasedDuplicateSegmentsWalkerBase<T, TSegment>.GetSegmentFrequency
   nameWithType.vb: DictionaryBasedDuplicateSegmentsWalkerBase(Of T, TSegment).GetSegmentFrequency
-- uid: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.SetSegmentFrequency(`1,System.Int64)
+- uid: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.SetSegmentFrequency(`1,System.Int64)
   name: SetSegmentFrequency(TSegment, Int64)
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_SegmentsWalkers_DictionaryBasedDuplicateSegmentsWalkerBase_2_SetSegmentFrequency__1_System_Int64_
-  commentId: M:Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.SetSegmentFrequency(`1,System.Int64)
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase<T, TSegment>.SetSegmentFrequency(TSegment, System.Int64)
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase(Of T, TSegment).SetSegmentFrequency(TSegment, System.Int64)
+  href: api/Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_Segments_Walkers_DictionaryBasedDuplicateSegmentsWalkerBase_2_SetSegmentFrequency__1_System_Int64_
+  commentId: M:Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.SetSegmentFrequency(`1,System.Int64)
+  fullName: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase<T, TSegment>.SetSegmentFrequency(TSegment, System.Int64)
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase(Of T, TSegment).SetSegmentFrequency(TSegment, System.Int64)
   nameWithType: DictionaryBasedDuplicateSegmentsWalkerBase<T, TSegment>.SetSegmentFrequency(TSegment, Int64)
   nameWithType.vb: DictionaryBasedDuplicateSegmentsWalkerBase(Of T, TSegment).SetSegmentFrequency(TSegment, Int64)
-- uid: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.SetSegmentFrequency*
+- uid: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.SetSegmentFrequency*
   name: SetSegmentFrequency
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_SegmentsWalkers_DictionaryBasedDuplicateSegmentsWalkerBase_2_SetSegmentFrequency_
-  commentId: Overload:Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.SetSegmentFrequency
+  href: api/Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_Segments_Walkers_DictionaryBasedDuplicateSegmentsWalkerBase_2_SetSegmentFrequency_
+  commentId: Overload:Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.SetSegmentFrequency
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase<T, TSegment>.SetSegmentFrequency
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase(Of T, TSegment).SetSegmentFrequency
+  fullName: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase<T, TSegment>.SetSegmentFrequency
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase(Of T, TSegment).SetSegmentFrequency
   nameWithType: DictionaryBasedDuplicateSegmentsWalkerBase<T, TSegment>.SetSegmentFrequency
   nameWithType.vb: DictionaryBasedDuplicateSegmentsWalkerBase(Of T, TSegment).SetSegmentFrequency
-- uid: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.WalkAll(IList{`0})
+- uid: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.WalkAll(IList{`0})
   name: WalkAll(IList<T>)
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_SegmentsWalkers_DictionaryBasedDuplicateSegmentsWalkerBase_2_WalkAll_IList__0__
-  commentId: M:Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.WalkAll(IList{`0})
+  href: api/Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_Segments_Walkers_DictionaryBasedDuplicateSegmentsWalkerBase_2_WalkAll_IList__0__
+  commentId: M:Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.WalkAll(IList{`0})
   name.vb: WalkAll(IList(Of T))
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase<T, TSegment>.WalkAll(IList<T>)
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase(Of T, TSegment).WalkAll(IList(Of T))
+  fullName: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase<T, TSegment>.WalkAll(IList<T>)
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase(Of T, TSegment).WalkAll(IList(Of T))
   nameWithType: DictionaryBasedDuplicateSegmentsWalkerBase<T, TSegment>.WalkAll(IList<T>)
   nameWithType.vb: DictionaryBasedDuplicateSegmentsWalkerBase(Of T, TSegment).WalkAll(IList(Of T))
-- uid: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.WalkAll*
+- uid: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.WalkAll*
   name: WalkAll
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_SegmentsWalkers_DictionaryBasedDuplicateSegmentsWalkerBase_2_WalkAll_
-  commentId: Overload:Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.WalkAll
+  href: api/Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_Segments_Walkers_DictionaryBasedDuplicateSegmentsWalkerBase_2_WalkAll_
+  commentId: Overload:Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase`2.WalkAll
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase<T, TSegment>.WalkAll
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase(Of T, TSegment).WalkAll
+  fullName: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase<T, TSegment>.WalkAll
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase(Of T, TSegment).WalkAll
   nameWithType: DictionaryBasedDuplicateSegmentsWalkerBase<T, TSegment>.WalkAll
   nameWithType.vb: DictionaryBasedDuplicateSegmentsWalkerBase(Of T, TSegment).WalkAll
-- uid: Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase`1
+- uid: Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase`1
   name: DuplicateSegmentsWalkerBase<T>
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase-1.html
-  commentId: T:Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase`1
+  href: api/Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase-1.html
+  commentId: T:Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase`1
   name.vb: DuplicateSegmentsWalkerBase(Of T)
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase<T>
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase(Of T)
+  fullName: Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase<T>
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase(Of T)
   nameWithType: DuplicateSegmentsWalkerBase<T>
   nameWithType.vb: DuplicateSegmentsWalkerBase(Of T)
-- uid: Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase`2
+- uid: Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase`2
   name: DuplicateSegmentsWalkerBase<T, TSegment>
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase-2.html
-  commentId: T:Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase`2
+  href: api/Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase-2.html
+  commentId: T:Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase`2
   name.vb: DuplicateSegmentsWalkerBase(Of T, TSegment)
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase<T, TSegment>
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase(Of T, TSegment)
+  fullName: Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase<T, TSegment>
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase(Of T, TSegment)
   nameWithType: DuplicateSegmentsWalkerBase<T, TSegment>
   nameWithType.vb: DuplicateSegmentsWalkerBase(Of T, TSegment)
-- uid: Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase`2.#ctor(System.Int32)
+- uid: Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase`2.#ctor(System.Int32)
   name: DuplicateSegmentsWalkerBase(Int32)
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_SegmentsWalkers_DuplicateSegmentsWalkerBase_2__ctor_System_Int32_
-  commentId: M:Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase`2.#ctor(System.Int32)
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase<T, TSegment>.DuplicateSegmentsWalkerBase(System.Int32)
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase(Of T, TSegment).DuplicateSegmentsWalkerBase(System.Int32)
+  href: api/Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_Segments_Walkers_DuplicateSegmentsWalkerBase_2__ctor_System_Int32_
+  commentId: M:Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase`2.#ctor(System.Int32)
+  fullName: Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase<T, TSegment>.DuplicateSegmentsWalkerBase(System.Int32)
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase(Of T, TSegment).DuplicateSegmentsWalkerBase(System.Int32)
   nameWithType: DuplicateSegmentsWalkerBase<T, TSegment>.DuplicateSegmentsWalkerBase(Int32)
   nameWithType.vb: DuplicateSegmentsWalkerBase(Of T, TSegment).DuplicateSegmentsWalkerBase(Int32)
-- uid: Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase`2.#ctor*
+- uid: Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase`2.#ctor*
   name: DuplicateSegmentsWalkerBase
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_SegmentsWalkers_DuplicateSegmentsWalkerBase_2__ctor_
-  commentId: Overload:Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase`2.#ctor
+  href: api/Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_Segments_Walkers_DuplicateSegmentsWalkerBase_2__ctor_
+  commentId: Overload:Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase`2.#ctor
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase<T, TSegment>.DuplicateSegmentsWalkerBase
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase(Of T, TSegment).DuplicateSegmentsWalkerBase
+  fullName: Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase<T, TSegment>.DuplicateSegmentsWalkerBase
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase(Of T, TSegment).DuplicateSegmentsWalkerBase
   nameWithType: DuplicateSegmentsWalkerBase<T, TSegment>.DuplicateSegmentsWalkerBase
   nameWithType.vb: DuplicateSegmentsWalkerBase(Of T, TSegment).DuplicateSegmentsWalkerBase
-- uid: Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase`2.GetSegmentFrequency(`1)
+- uid: Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase`2.GetSegmentFrequency(`1)
   name: GetSegmentFrequency(TSegment)
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_SegmentsWalkers_DuplicateSegmentsWalkerBase_2_GetSegmentFrequency__1_
-  commentId: M:Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase`2.GetSegmentFrequency(`1)
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase<T, TSegment>.GetSegmentFrequency(TSegment)
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase(Of T, TSegment).GetSegmentFrequency(TSegment)
+  href: api/Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_Segments_Walkers_DuplicateSegmentsWalkerBase_2_GetSegmentFrequency__1_
+  commentId: M:Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase`2.GetSegmentFrequency(`1)
+  fullName: Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase<T, TSegment>.GetSegmentFrequency(TSegment)
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase(Of T, TSegment).GetSegmentFrequency(TSegment)
   nameWithType: DuplicateSegmentsWalkerBase<T, TSegment>.GetSegmentFrequency(TSegment)
   nameWithType.vb: DuplicateSegmentsWalkerBase(Of T, TSegment).GetSegmentFrequency(TSegment)
-- uid: Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase`2.GetSegmentFrequency*
+- uid: Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase`2.GetSegmentFrequency*
   name: GetSegmentFrequency
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_SegmentsWalkers_DuplicateSegmentsWalkerBase_2_GetSegmentFrequency_
-  commentId: Overload:Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase`2.GetSegmentFrequency
+  href: api/Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_Segments_Walkers_DuplicateSegmentsWalkerBase_2_GetSegmentFrequency_
+  commentId: Overload:Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase`2.GetSegmentFrequency
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase<T, TSegment>.GetSegmentFrequency
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase(Of T, TSegment).GetSegmentFrequency
+  fullName: Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase<T, TSegment>.GetSegmentFrequency
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase(Of T, TSegment).GetSegmentFrequency
   nameWithType: DuplicateSegmentsWalkerBase<T, TSegment>.GetSegmentFrequency
   nameWithType.vb: DuplicateSegmentsWalkerBase(Of T, TSegment).GetSegmentFrequency
-- uid: Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase`2.Iteration(`1)
+- uid: Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase`2.Iteration(`1)
   name: Iteration(TSegment)
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_SegmentsWalkers_DuplicateSegmentsWalkerBase_2_Iteration__1_
-  commentId: M:Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase`2.Iteration(`1)
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase<T, TSegment>.Iteration(TSegment)
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase(Of T, TSegment).Iteration(TSegment)
+  href: api/Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_Segments_Walkers_DuplicateSegmentsWalkerBase_2_Iteration__1_
+  commentId: M:Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase`2.Iteration(`1)
+  fullName: Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase<T, TSegment>.Iteration(TSegment)
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase(Of T, TSegment).Iteration(TSegment)
   nameWithType: DuplicateSegmentsWalkerBase<T, TSegment>.Iteration(TSegment)
   nameWithType.vb: DuplicateSegmentsWalkerBase(Of T, TSegment).Iteration(TSegment)
-- uid: Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase`2.Iteration*
+- uid: Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase`2.Iteration*
   name: Iteration
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_SegmentsWalkers_DuplicateSegmentsWalkerBase_2_Iteration_
-  commentId: Overload:Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase`2.Iteration
+  href: api/Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_Segments_Walkers_DuplicateSegmentsWalkerBase_2_Iteration_
+  commentId: Overload:Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase`2.Iteration
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase<T, TSegment>.Iteration
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase(Of T, TSegment).Iteration
+  fullName: Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase<T, TSegment>.Iteration
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase(Of T, TSegment).Iteration
   nameWithType: DuplicateSegmentsWalkerBase<T, TSegment>.Iteration
   nameWithType.vb: DuplicateSegmentsWalkerBase(Of T, TSegment).Iteration
-- uid: Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase`2.OnDublicateFound(`1)
+- uid: Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase`2.OnDublicateFound(`1)
   name: OnDublicateFound(TSegment)
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_SegmentsWalkers_DuplicateSegmentsWalkerBase_2_OnDublicateFound__1_
-  commentId: M:Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase`2.OnDublicateFound(`1)
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase<T, TSegment>.OnDublicateFound(TSegment)
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase(Of T, TSegment).OnDublicateFound(TSegment)
+  href: api/Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_Segments_Walkers_DuplicateSegmentsWalkerBase_2_OnDublicateFound__1_
+  commentId: M:Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase`2.OnDublicateFound(`1)
+  fullName: Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase<T, TSegment>.OnDublicateFound(TSegment)
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase(Of T, TSegment).OnDublicateFound(TSegment)
   nameWithType: DuplicateSegmentsWalkerBase<T, TSegment>.OnDublicateFound(TSegment)
   nameWithType.vb: DuplicateSegmentsWalkerBase(Of T, TSegment).OnDublicateFound(TSegment)
-- uid: Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase`2.OnDublicateFound*
+- uid: Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase`2.OnDublicateFound*
   name: OnDublicateFound
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_SegmentsWalkers_DuplicateSegmentsWalkerBase_2_OnDublicateFound_
-  commentId: Overload:Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase`2.OnDublicateFound
+  href: api/Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_Segments_Walkers_DuplicateSegmentsWalkerBase_2_OnDublicateFound_
+  commentId: Overload:Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase`2.OnDublicateFound
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase<T, TSegment>.OnDublicateFound
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase(Of T, TSegment).OnDublicateFound
+  fullName: Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase<T, TSegment>.OnDublicateFound
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase(Of T, TSegment).OnDublicateFound
   nameWithType: DuplicateSegmentsWalkerBase<T, TSegment>.OnDublicateFound
   nameWithType.vb: DuplicateSegmentsWalkerBase(Of T, TSegment).OnDublicateFound
-- uid: Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase`2.SetSegmentFrequency(`1,System.Int64)
+- uid: Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase`2.SetSegmentFrequency(`1,System.Int64)
   name: SetSegmentFrequency(TSegment, Int64)
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_SegmentsWalkers_DuplicateSegmentsWalkerBase_2_SetSegmentFrequency__1_System_Int64_
-  commentId: M:Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase`2.SetSegmentFrequency(`1,System.Int64)
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase<T, TSegment>.SetSegmentFrequency(TSegment, System.Int64)
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase(Of T, TSegment).SetSegmentFrequency(TSegment, System.Int64)
+  href: api/Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_Segments_Walkers_DuplicateSegmentsWalkerBase_2_SetSegmentFrequency__1_System_Int64_
+  commentId: M:Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase`2.SetSegmentFrequency(`1,System.Int64)
+  fullName: Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase<T, TSegment>.SetSegmentFrequency(TSegment, System.Int64)
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase(Of T, TSegment).SetSegmentFrequency(TSegment, System.Int64)
   nameWithType: DuplicateSegmentsWalkerBase<T, TSegment>.SetSegmentFrequency(TSegment, Int64)
   nameWithType.vb: DuplicateSegmentsWalkerBase(Of T, TSegment).SetSegmentFrequency(TSegment, Int64)
-- uid: Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase`2.SetSegmentFrequency*
+- uid: Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase`2.SetSegmentFrequency*
   name: SetSegmentFrequency
-  href: api/Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_SegmentsWalkers_DuplicateSegmentsWalkerBase_2_SetSegmentFrequency_
-  commentId: Overload:Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase`2.SetSegmentFrequency
+  href: api/Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase-2.html#Platform_Helpers_Collections_Segments_Walkers_DuplicateSegmentsWalkerBase_2_SetSegmentFrequency_
+  commentId: Overload:Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase`2.SetSegmentFrequency
   isSpec: "True"
-  fullName: Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase<T, TSegment>.SetSegmentFrequency
-  fullName.vb: Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase(Of T, TSegment).SetSegmentFrequency
+  fullName: Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase<T, TSegment>.SetSegmentFrequency
+  fullName.vb: Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase(Of T, TSegment).SetSegmentFrequency
   nameWithType: DuplicateSegmentsWalkerBase<T, TSegment>.SetSegmentFrequency
   nameWithType.vb: DuplicateSegmentsWalkerBase(Of T, TSegment).SetSegmentFrequency
 - uid: Platform.Helpers.Collections.SetExtensions

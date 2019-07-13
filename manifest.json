@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "h7ZvaUEK3EuZmRl5rBgWsQ=="
+          "hash": "VJxS+nvhJyFEgRrkyg+kEQ=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "README.ru.html",
-          "hash": "3fP9VlrJU1Cn6oPGGJHE/w=="
+          "hash": "5qV80qNH+L/e1b67EH11Nw=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/articles/links-theory.html",
-          "hash": "VPMhkVGvelaeWwqdxvo79w=="
+          "hash": "roizAlGQh+ZyNAFAD0zZEQ=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "KrjRoNd9r+CiidwZ4dSgLw=="
+          "hash": "3c0z2KTVJFWyad8sg4RrBQ=="
         }
       },
       "is_incremental": false,
@@ -2150,18 +2150,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Collections.CharsSegment.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Collections.CharsSegment.html",
-          "hash": "OfGyNW2L0XM7Mcf8g49Jjw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "obj/api/Platform.Helpers.Collections.ConcurrentQueueExtensions.yml",
       "output": {
         ".html": {
@@ -2282,11 +2270,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Collections.Segment-1.yml",
+      "source_relative_path": "obj/api/Platform.Helpers.Collections.Segments.CharsSegment.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Platform.Helpers.Collections.Segment-1.html",
-          "hash": "HhXoSHtx6V3zwF6+PKKhaw=="
+          "relative_path": "api/Platform.Helpers.Collections.Segments.CharsSegment.html",
+          "hash": "QS+fYmA59Ztqi6OAGvuJyQ=="
         }
       },
       "is_incremental": false,
@@ -2294,11 +2282,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase-1.yml",
+      "source_relative_path": "obj/api/Platform.Helpers.Collections.Segments.Segment-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase-1.html",
-          "hash": "CW8oGsAs5B2X0xwqdXWjQQ=="
+          "relative_path": "api/Platform.Helpers.Collections.Segments.Segment-1.html",
+          "hash": "ExALr8Le4ALTpRmpUP/u4A=="
         }
       },
       "is_incremental": false,
@@ -2306,11 +2294,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase-2.yml",
+      "source_relative_path": "obj/api/Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerBase-2.html",
-          "hash": "gvB1WjyEkQJ2VvO64tUUeA=="
+          "relative_path": "api/Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase-1.html",
+          "hash": "4Y2M/3Xa5Yew85HSsqAZvA=="
         }
       },
       "is_incremental": false,
@@ -2318,11 +2306,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerExtensions.yml",
+      "source_relative_path": "obj/api/Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase-2.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Platform.Helpers.Collections.SegmentsWalkers.AllSegmentsWalkerExtensions.html",
-          "hash": "Px8gMLI3NVPD2YDXTB8akA=="
+          "relative_path": "api/Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase-2.html",
+          "hash": "9uz04DD29OnnUj+QkIpSeA=="
         }
       },
       "is_incremental": false,
@@ -2330,11 +2318,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase-1.yml",
+      "source_relative_path": "obj/api/Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase-1.html",
-          "hash": "x9lTKC3QjAxduO5YXimdUw=="
+          "relative_path": "api/Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerExtensions.html",
+          "hash": "/tXUjwRDSCtWwEal8SjHag=="
         }
       },
       "is_incremental": false,
@@ -2342,11 +2330,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase-2.yml",
+      "source_relative_path": "obj/api/Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Platform.Helpers.Collections.SegmentsWalkers.DictionaryBasedDuplicateSegmentsWalkerBase-2.html",
-          "hash": "RQfq+X/GRRNA7eEP0xc/8A=="
+          "relative_path": "api/Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase-1.html",
+          "hash": "3C8V5Kx2C034+QQpjHXJUQ=="
         }
       },
       "is_incremental": false,
@@ -2354,11 +2342,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase-1.yml",
+      "source_relative_path": "obj/api/Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase-2.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase-1.html",
-          "hash": "fFPGVRSuaHwch31Mngxz2Q=="
+          "relative_path": "api/Platform.Helpers.Collections.Segments.Walkers.DictionaryBasedDuplicateSegmentsWalkerBase-2.html",
+          "hash": "2Llfn8eg8XFHBLz840kiog=="
         }
       },
       "is_incremental": false,
@@ -2366,11 +2354,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase-2.yml",
+      "source_relative_path": "obj/api/Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Platform.Helpers.Collections.SegmentsWalkers.DuplicateSegmentsWalkerBase-2.html",
-          "hash": "H9YViS+/BiHL6vdtqtSP3Q=="
+          "relative_path": "api/Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase-1.html",
+          "hash": "vLAm4ilHv5vYGLgfydw/EQ=="
         }
       },
       "is_incremental": false,
@@ -2378,11 +2366,35 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Collections.SegmentsWalkers.yml",
+      "source_relative_path": "obj/api/Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase-2.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Platform.Helpers.Collections.SegmentsWalkers.html",
-          "hash": "OMYKbH230NAxJm80uk5DMw=="
+          "relative_path": "api/Platform.Helpers.Collections.Segments.Walkers.DuplicateSegmentsWalkerBase-2.html",
+          "hash": "p91ipsCsb7X/sCHGdxdWYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Helpers.Collections.Segments.Walkers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Helpers.Collections.Segments.Walkers.html",
+          "hash": "xT/xoYxyGwHBBNYhEqTlQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Helpers.Collections.Segments.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Helpers.Collections.Segments.html",
+          "hash": "IqzmG6K5VRXjSqYwYmlw2A=="
         }
       },
       "is_incremental": false,
@@ -2418,7 +2430,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Helpers.Collections.html",
-          "hash": "41FFScMJCsSixKX6cVY9ow=="
+          "hash": "SxzpD2az8N6unO6lwb2mXw=="
         }
       },
       "is_incremental": false,
@@ -4077,7 +4089,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "yf6ekLCAOz2IWiJBj+iXeA=="
+          "hash": "1mvG/jhKwy6rHLkoVHz5AA=="
         }
       },
       "is_incremental": false,
@@ -4110,13 +4122,6 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
@@ -4126,7 +4131,14 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 334,
+          "total_file_count": 335,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
           "skipped_file_count": 0
         }
       }
