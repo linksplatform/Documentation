@@ -16953,22 +16953,22 @@ references:
   isSpec: "True"
   fullName: Platform.Helpers.Exceptions.Ensure.ArgumentInRange
   nameWithType: Ensure.ArgumentInRange
-- uid: Platform.Helpers.Exceptions.Ensure.ArgumentInRange``1(``0,Platform.Helpers.Range{``0})
+- uid: Platform.Helpers.Exceptions.Ensure.ArgumentInRange``1(``0,Range{``0})
   name: ArgumentInRange<T>(T, Range<T>)
-  href: api/Platform.Helpers.Exceptions.Ensure.html#Platform_Helpers_Exceptions_Ensure_ArgumentInRange__1___0_Platform_Helpers_Range___0__
-  commentId: M:Platform.Helpers.Exceptions.Ensure.ArgumentInRange``1(``0,Platform.Helpers.Range{``0})
+  href: api/Platform.Helpers.Exceptions.Ensure.html#Platform_Helpers_Exceptions_Ensure_ArgumentInRange__1___0_Range___0__
+  commentId: M:Platform.Helpers.Exceptions.Ensure.ArgumentInRange``1(``0,Range{``0})
   name.vb: ArgumentInRange(Of T)(T, Range(Of T))
-  fullName: Platform.Helpers.Exceptions.Ensure.ArgumentInRange<T>(T, Platform.Helpers.Range<T>)
-  fullName.vb: Platform.Helpers.Exceptions.Ensure.ArgumentInRange(Of T)(T, Platform.Helpers.Range(Of T))
+  fullName: Platform.Helpers.Exceptions.Ensure.ArgumentInRange<T>(T, Range<T>)
+  fullName.vb: Platform.Helpers.Exceptions.Ensure.ArgumentInRange(Of T)(T, Range(Of T))
   nameWithType: Ensure.ArgumentInRange<T>(T, Range<T>)
   nameWithType.vb: Ensure.ArgumentInRange(Of T)(T, Range(Of T))
-- uid: Platform.Helpers.Exceptions.Ensure.ArgumentInRange``1(``0,System.String,Platform.Helpers.Range{``0})
+- uid: Platform.Helpers.Exceptions.Ensure.ArgumentInRange``1(``0,System.String,Range{``0})
   name: ArgumentInRange<T>(T, String, Range<T>)
-  href: api/Platform.Helpers.Exceptions.Ensure.html#Platform_Helpers_Exceptions_Ensure_ArgumentInRange__1___0_System_String_Platform_Helpers_Range___0__
-  commentId: M:Platform.Helpers.Exceptions.Ensure.ArgumentInRange``1(``0,System.String,Platform.Helpers.Range{``0})
+  href: api/Platform.Helpers.Exceptions.Ensure.html#Platform_Helpers_Exceptions_Ensure_ArgumentInRange__1___0_System_String_Range___0__
+  commentId: M:Platform.Helpers.Exceptions.Ensure.ArgumentInRange``1(``0,System.String,Range{``0})
   name.vb: ArgumentInRange(Of T)(T, String, Range(Of T))
-  fullName: Platform.Helpers.Exceptions.Ensure.ArgumentInRange<T>(T, System.String, Platform.Helpers.Range<T>)
-  fullName.vb: Platform.Helpers.Exceptions.Ensure.ArgumentInRange(Of T)(T, System.String, Platform.Helpers.Range(Of T))
+  fullName: Platform.Helpers.Exceptions.Ensure.ArgumentInRange<T>(T, System.String, Range<T>)
+  fullName.vb: Platform.Helpers.Exceptions.Ensure.ArgumentInRange(Of T)(T, System.String, Range(Of T))
   nameWithType: Ensure.ArgumentInRange<T>(T, String, Range<T>)
   nameWithType.vb: Ensure.ArgumentInRange(Of T)(T, String, Range(Of T))
 - uid: Platform.Helpers.Exceptions.Ensure.ArgumentNotEmpty*
@@ -18644,143 +18644,6 @@ references:
   commentId: F:Platform.Helpers.Random.RandomHelpers.DefaultFactory
   fullName: Platform.Helpers.Random.RandomHelpers.DefaultFactory
   nameWithType: RandomHelpers.DefaultFactory
-- uid: Platform.Helpers.Range`1
-  name: Range<T>
-  href: api/Platform.Helpers.Range-1.html
-  commentId: T:Platform.Helpers.Range`1
-  name.vb: Range(Of T)
-  fullName: Platform.Helpers.Range<T>
-  fullName.vb: Platform.Helpers.Range(Of T)
-  nameWithType: Range<T>
-  nameWithType.vb: Range(Of T)
-- uid: Platform.Helpers.Range`1.#ctor(`0)
-  name: Range(T)
-  href: api/Platform.Helpers.Range-1.html#Platform_Helpers_Range_1__ctor__0_
-  commentId: M:Platform.Helpers.Range`1.#ctor(`0)
-  fullName: Platform.Helpers.Range<T>.Range(T)
-  fullName.vb: Platform.Helpers.Range(Of T).Range(T)
-  nameWithType: Range<T>.Range(T)
-  nameWithType.vb: Range(Of T).Range(T)
-- uid: Platform.Helpers.Range`1.#ctor(`0,`0)
-  name: Range(T, T)
-  href: api/Platform.Helpers.Range-1.html#Platform_Helpers_Range_1__ctor__0__0_
-  commentId: M:Platform.Helpers.Range`1.#ctor(`0,`0)
-  fullName: Platform.Helpers.Range<T>.Range(T, T)
-  fullName.vb: Platform.Helpers.Range(Of T).Range(T, T)
-  nameWithType: Range<T>.Range(T, T)
-  nameWithType.vb: Range(Of T).Range(T, T)
-- uid: Platform.Helpers.Range`1.#ctor*
-  name: Range
-  href: api/Platform.Helpers.Range-1.html#Platform_Helpers_Range_1__ctor_
-  commentId: Overload:Platform.Helpers.Range`1.#ctor
-  isSpec: "True"
-  fullName: Platform.Helpers.Range<T>.Range
-  fullName.vb: Platform.Helpers.Range(Of T).Range
-  nameWithType: Range<T>.Range
-  nameWithType.vb: Range(Of T).Range
-- uid: Platform.Helpers.Range`1.ContainsRange(Platform.Helpers.Range{`0})
-  name: ContainsRange(Range<T>)
-  href: api/Platform.Helpers.Range-1.html#Platform_Helpers_Range_1_ContainsRange_Platform_Helpers_Range__0__
-  commentId: M:Platform.Helpers.Range`1.ContainsRange(Platform.Helpers.Range{`0})
-  name.vb: ContainsRange(Range(Of T))
-  fullName: Platform.Helpers.Range<T>.ContainsRange(Platform.Helpers.Range<T>)
-  fullName.vb: Platform.Helpers.Range(Of T).ContainsRange(Platform.Helpers.Range(Of T))
-  nameWithType: Range<T>.ContainsRange(Range<T>)
-  nameWithType.vb: Range(Of T).ContainsRange(Range(Of T))
-- uid: Platform.Helpers.Range`1.ContainsRange*
-  name: ContainsRange
-  href: api/Platform.Helpers.Range-1.html#Platform_Helpers_Range_1_ContainsRange_
-  commentId: Overload:Platform.Helpers.Range`1.ContainsRange
-  isSpec: "True"
-  fullName: Platform.Helpers.Range<T>.ContainsRange
-  fullName.vb: Platform.Helpers.Range(Of T).ContainsRange
-  nameWithType: Range<T>.ContainsRange
-  nameWithType.vb: Range(Of T).ContainsRange
-- uid: Platform.Helpers.Range`1.ContainsValue(`0)
-  name: ContainsValue(T)
-  href: api/Platform.Helpers.Range-1.html#Platform_Helpers_Range_1_ContainsValue__0_
-  commentId: M:Platform.Helpers.Range`1.ContainsValue(`0)
-  fullName: Platform.Helpers.Range<T>.ContainsValue(T)
-  fullName.vb: Platform.Helpers.Range(Of T).ContainsValue(T)
-  nameWithType: Range<T>.ContainsValue(T)
-  nameWithType.vb: Range(Of T).ContainsValue(T)
-- uid: Platform.Helpers.Range`1.ContainsValue*
-  name: ContainsValue
-  href: api/Platform.Helpers.Range-1.html#Platform_Helpers_Range_1_ContainsValue_
-  commentId: Overload:Platform.Helpers.Range`1.ContainsValue
-  isSpec: "True"
-  fullName: Platform.Helpers.Range<T>.ContainsValue
-  fullName.vb: Platform.Helpers.Range(Of T).ContainsValue
-  nameWithType: Range<T>.ContainsValue
-  nameWithType.vb: Range(Of T).ContainsValue
-- uid: Platform.Helpers.Range`1.IsInsideRange(Platform.Helpers.Range{`0})
-  name: IsInsideRange(Range<T>)
-  href: api/Platform.Helpers.Range-1.html#Platform_Helpers_Range_1_IsInsideRange_Platform_Helpers_Range__0__
-  commentId: M:Platform.Helpers.Range`1.IsInsideRange(Platform.Helpers.Range{`0})
-  name.vb: IsInsideRange(Range(Of T))
-  fullName: Platform.Helpers.Range<T>.IsInsideRange(Platform.Helpers.Range<T>)
-  fullName.vb: Platform.Helpers.Range(Of T).IsInsideRange(Platform.Helpers.Range(Of T))
-  nameWithType: Range<T>.IsInsideRange(Range<T>)
-  nameWithType.vb: Range(Of T).IsInsideRange(Range(Of T))
-- uid: Platform.Helpers.Range`1.IsInsideRange*
-  name: IsInsideRange
-  href: api/Platform.Helpers.Range-1.html#Platform_Helpers_Range_1_IsInsideRange_
-  commentId: Overload:Platform.Helpers.Range`1.IsInsideRange
-  isSpec: "True"
-  fullName: Platform.Helpers.Range<T>.IsInsideRange
-  fullName.vb: Platform.Helpers.Range(Of T).IsInsideRange
-  nameWithType: Range<T>.IsInsideRange
-  nameWithType.vb: Range(Of T).IsInsideRange
-- uid: Platform.Helpers.Range`1.IsValid
-  name: IsValid()
-  href: api/Platform.Helpers.Range-1.html#Platform_Helpers_Range_1_IsValid
-  commentId: M:Platform.Helpers.Range`1.IsValid
-  fullName: Platform.Helpers.Range<T>.IsValid()
-  fullName.vb: Platform.Helpers.Range(Of T).IsValid()
-  nameWithType: Range<T>.IsValid()
-  nameWithType.vb: Range(Of T).IsValid()
-- uid: Platform.Helpers.Range`1.IsValid*
-  name: IsValid
-  href: api/Platform.Helpers.Range-1.html#Platform_Helpers_Range_1_IsValid_
-  commentId: Overload:Platform.Helpers.Range`1.IsValid
-  isSpec: "True"
-  fullName: Platform.Helpers.Range<T>.IsValid
-  fullName.vb: Platform.Helpers.Range(Of T).IsValid
-  nameWithType: Range<T>.IsValid
-  nameWithType.vb: Range(Of T).IsValid
-- uid: Platform.Helpers.Range`1.Maximum
-  name: Maximum
-  href: api/Platform.Helpers.Range-1.html#Platform_Helpers_Range_1_Maximum
-  commentId: F:Platform.Helpers.Range`1.Maximum
-  fullName: Platform.Helpers.Range<T>.Maximum
-  fullName.vb: Platform.Helpers.Range(Of T).Maximum
-  nameWithType: Range<T>.Maximum
-  nameWithType.vb: Range(Of T).Maximum
-- uid: Platform.Helpers.Range`1.Minimum
-  name: Minimum
-  href: api/Platform.Helpers.Range-1.html#Platform_Helpers_Range_1_Minimum
-  commentId: F:Platform.Helpers.Range`1.Minimum
-  fullName: Platform.Helpers.Range<T>.Minimum
-  fullName.vb: Platform.Helpers.Range(Of T).Minimum
-  nameWithType: Range<T>.Minimum
-  nameWithType.vb: Range(Of T).Minimum
-- uid: Platform.Helpers.Range`1.ToString
-  name: ToString()
-  href: api/Platform.Helpers.Range-1.html#Platform_Helpers_Range_1_ToString
-  commentId: M:Platform.Helpers.Range`1.ToString
-  fullName: Platform.Helpers.Range<T>.ToString()
-  fullName.vb: Platform.Helpers.Range(Of T).ToString()
-  nameWithType: Range<T>.ToString()
-  nameWithType.vb: Range(Of T).ToString()
-- uid: Platform.Helpers.Range`1.ToString*
-  name: ToString
-  href: api/Platform.Helpers.Range-1.html#Platform_Helpers_Range_1_ToString_
-  commentId: Overload:Platform.Helpers.Range`1.ToString
-  isSpec: "True"
-  fullName: Platform.Helpers.Range<T>.ToString
-  fullName.vb: Platform.Helpers.Range(Of T).ToString
-  nameWithType: Range<T>.ToString
-  nameWithType.vb: Range(Of T).ToString
 - uid: Platform.Helpers.Reflection
   name: Platform.Helpers.Reflection
   href: api/Platform.Helpers.Reflection.html
