@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="150.50172mm"
+   height="71.083298mm"
+   viewBox="0 0 150.50172 71.083298"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="theories_comparison.svg"
+   inkscape:export-filename="C:\Users\Константин\Desktop\theories_comparison_ru.png"
+   inkscape:export-xdpi="90.422203"
+   inkscape:export-ydpi="90.422203">
+  <defs
+     id="defs2">
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker13285"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutS"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(0.2)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path13283" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker13527"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleInS">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(-0.2)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path13525" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutS"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutS"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4782"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.2)" />
+    </marker>
+    <marker
+       inkscape:stockid="EmptyTriangleOutS"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker17975"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path17973"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#000070;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.2,0,0,0.2,-0.6,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="EmptyTriangleOutS"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker17827"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path17825"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#000070;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.2,0,0,0.2,-0.6,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="EmptyTriangleOutS"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="EmptyTriangleOutS"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4800"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#000070;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.2,0,0,0.2,-0.6,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleInS"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleInS"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4773"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(-0.2)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutS"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutS-6"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1042"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.2)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleInS"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1426"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1424"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(-0.2)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleInS"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleInS-2"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1033"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(-0.2)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutS"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1204"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1202"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.2)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="121.43737"
+     inkscape:cy="18.786083"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer3"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Main"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(33.683704,-121.17548)"
+     style="display:inline">
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,53.105653,119.40914)"
+       id="g1147">
+      <path
+         sodipodi:nodetypes="cc"
+         id="path2329-6"
+         d="M 57.618,32.25 H 187.369"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:4.66526842;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker13285)"
+         inkscape:connector-curvature="0" />
+      <g
+         transform="translate(0,2)"
+         id="g2359-3">
+        <path
+           sodipodi:nodetypes="cc"
+           inkscape:connector-curvature="0"
+           id="use2331-1"
+           d="M 42.621307,51.685221 113.21775,171.66668"
+           style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:4.99999762;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker13527)" />
+      </g>
+      <path
+         sodipodi:nodetypes="csc"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:4.99999714;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutS)"
+         d="m 141.70526,173.4283 c 0,0 -4.27056,-46.75345 9.24181,-74.81452 15.40455,-31.990546 52.34759,-53.630528 52.34759,-53.630528"
+         id="use2333-8"
+         inkscape:connector-curvature="0" />
+      <g
+         transform="translate(-184.875,-1)"
+         id="g10941"
+         style="fill:none;fill-opacity:1">
+        <path
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000070;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker17975)"
+           d="m 216.875,33 c 0,0 -13.511,-4.166669 -17.67767,0 -4.16667,4.166669 -4.16667,13.511003 0,17.67767 4.16667,4.166667 13.511,4.166669 17.67767,0 4.16667,-4.16667 0,-17.67767 0,-17.67767 0,0 -4.16667,-13.511 0,-17.67767 4.16667,-4.166669 13.511,-4.166667 17.67767,0 4.16667,4.166667 5.20533,14.631752 0,17.67767 -4.09158,2.394201 -17.67767,0 -17.67767,0"
+           id="path99"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cssscsssc" />
+      </g>
+      <g
+         transform="rotate(45,218.64461,33.857995)"
+         id="g10941-9"
+         style="fill:#007fff;fill-opacity:1">
+        <path
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000070;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker17827)"
+           d="m 216.875,33 c 0,0 -6.60744,-12.5 -12.5,-12.5 -5.89256,0 -12.5,6.607443 -12.5,12.5 0,5.892557 6.60744,12.5 12.5,12.5 5.89256,0 12.5,-12.5 12.5,-12.5 0,0 6.60744,-12.5 12.5,-12.5 5.89256,0 12.5,6.607443 12.5,12.5 0,5.892557 -6.60969,12.337016 -12.5,12.5 -4.51756,0.125 -12.5,-12.5 -12.5,-12.5"
+           id="path99-9"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cssscsssc" />
+      </g>
+      <g
+         transform="translate(-91.875,160)"
+         id="g10941-8"
+         style="fill:none;fill-opacity:1">
+        <path
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000070;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#EmptyTriangleOutS)"
+           d="m 216.875,33 c 0,0 -6.60744,-12.5 -12.5,-12.5 -5.89256,0 -12.5,6.607443 -12.5,12.5 0,5.892557 6.60744,12.5 12.5,12.5 5.89256,0 12.5,-12.5 12.5,-12.5 0,0 6.60744,-12.5 12.5,-12.5 5.89256,0 12.5,6.607443 12.5,12.5 0,5.892557 -4.74458,12.770618 -12.5,12.5 -5.32376,-0.185767 -12.5,-12.5 -12.5,-12.5"
+           id="path99-7"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cssscsssc" />
+      </g>
+      <path
+         sodipodi:nodetypes="csc"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:4.99999714;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#TriangleInS)"
+         d="m 161.34363,180.66355 c 0,0 31.19572,-17.61274 47.73233,-49.83102 16.15467,-31.474139 12.74279,-72.322978 12.74279,-72.322978"
+         id="use2333-5"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g2367"
+       transform="matrix(0.26458333,0,0,0.26458333,-36.54742,119.16169)" />
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,-36.54742,118.31176)"
+       id="g2601">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutS-6)"
+         d="M 57.118,30.25 H 186.16926"
+         id="path2329"
+         transform="translate(0,2)" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="use2331"
+         d="M 47.478763,58.218153 111.90969,168.81573"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:4.99999762;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1426)"
+         transform="translate(0,2)" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="use2333"
+         d="M 142.95526,163.53001 202.79466,59.483252"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:4.99999714;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#TriangleInS-2);marker-end:url(#marker1204)"
+         transform="translate(0,2)" />
+      <circle
+         r="19.301508"
+         cy="32"
+         cx="32"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000070;stroke-width:3.75000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path2317" />
+      <use
+         style="fill:none;fill-opacity:1"
+         height="225"
+         width="250"
+         transform="translate(186)"
+         id="use2325"
+         xlink:href="#path2317"
+         y="0"
+         x="0" />
+      <use
+         style="fill:none;fill-opacity:1"
+         height="225"
+         width="250"
+         transform="translate(93,161)"
+         id="use2327"
+         xlink:href="#path2317"
+         y="0"
+         x="0" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Russian text"
+     style="display:inline"
+     transform="translate(4.6267805e-7,4.462678e-6)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:125%;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="4.2324924"
+       y="69.553665"
+       id="text949-4"><tspan
+         sodipodi:role="line"
+         x="4.2324924"
+         y="69.553665"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:Calibri;-inkscape-font-specification:Calibri;stroke-width:0.26458332px"
+         id="tspan951-9">Теория графов</tspan><tspan
+         sodipodi:role="line"
+         x="4.2324924"
+         y="80.137001"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:Calibri;-inkscape-font-specification:Calibri;stroke-width:0.26458332px"
+         id="tspan1050" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:125%;font-family:Cambria;-inkscape-font-specification:Cambria;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="94.650375"
+       y="69.564003"
+       id="text955-3"><tspan
+         sodipodi:role="line"
+         x="94.650375"
+         y="69.564003"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:Calibri;-inkscape-font-specification:Calibri;stroke-width:0.26458332px"
+         id="tspan957-7">Теория связей</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="English text"
+     transform="translate(4.6267805e-7,4.462678e-6)"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:125%;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="7.1842504"
+       y="69.578468"
+       id="text949"><tspan
+         sodipodi:role="line"
+         id="tspan947"
+         x="7.1842504"
+         y="69.578468"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:Calibri;-inkscape-font-specification:Calibri;stroke-width:0.26458332px">Graph theory</tspan><tspan
+         sodipodi:role="line"
+         x="7.1842504"
+         y="80.161804"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:Calibri;-inkscape-font-specification:Calibri;stroke-width:0.26458332px"
+         id="tspan951" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:125%;font-family:Cambria;-inkscape-font-specification:Cambria;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="98.69561"
+       y="69.578476"
+       id="text955"><tspan
+         sodipodi:role="line"
+         id="tspan953"
+         x="98.69561"
+         y="69.578476"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:Calibri;-inkscape-font-specification:Calibri;stroke-width:0.26458332px">Links theory</tspan><tspan
+         sodipodi:role="line"
+         x="98.69561"
+         y="80.397453"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:Calibri;-inkscape-font-specification:Calibri;stroke-width:0.26458332px"
+         id="tspan957" /></text>
+  </g>
+</svg>
