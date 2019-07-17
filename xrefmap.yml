@@ -22735,6 +22735,31 @@ references:
   commentId: N:Platform.Tests
   fullName: Platform.Tests
   nameWithType: Platform.Tests
+- uid: Platform.Tests.Collections
+  name: Platform.Tests.Collections
+  href: api/Platform.Tests.Collections.html
+  commentId: N:Platform.Tests.Collections
+  fullName: Platform.Tests.Collections
+  nameWithType: Platform.Tests.Collections
+- uid: Platform.Tests.Collections.StringTests
+  name: StringTests
+  href: api/Platform.Tests.Collections.StringTests.html
+  commentId: T:Platform.Tests.Collections.StringTests
+  fullName: Platform.Tests.Collections.StringTests
+  nameWithType: StringTests
+- uid: Platform.Tests.Collections.StringTests.CapitalizeFirstLetterTest
+  name: CapitalizeFirstLetterTest()
+  href: api/Platform.Tests.Collections.StringTests.html#Platform_Tests_Collections_StringTests_CapitalizeFirstLetterTest
+  commentId: M:Platform.Tests.Collections.StringTests.CapitalizeFirstLetterTest
+  fullName: Platform.Tests.Collections.StringTests.CapitalizeFirstLetterTest()
+  nameWithType: StringTests.CapitalizeFirstLetterTest()
+- uid: Platform.Tests.Collections.StringTests.CapitalizeFirstLetterTest*
+  name: CapitalizeFirstLetterTest
+  href: api/Platform.Tests.Collections.StringTests.html#Platform_Tests_Collections_StringTests_CapitalizeFirstLetterTest_
+  commentId: Overload:Platform.Tests.Collections.StringTests.CapitalizeFirstLetterTest
+  isSpec: "True"
+  fullName: Platform.Tests.Collections.StringTests.CapitalizeFirstLetterTest
+  nameWithType: StringTests.CapitalizeFirstLetterTest
 - uid: Platform.Tests.Data.Core
   name: Platform.Tests.Data.Core
   href: api/Platform.Tests.Data.Core.html
