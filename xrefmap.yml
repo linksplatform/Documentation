@@ -16481,75 +16481,6 @@ references:
   isSpec: "True"
   fullName: Platform.Helpers.Collections.StringExtensions.Truncate
   nameWithType: StringExtensions.Truncate
-- uid: Platform.Helpers.Comparer
-  name: Comparer
-  href: api/Platform.Helpers.Comparer.html
-  commentId: T:Platform.Helpers.Comparer
-  fullName: Platform.Helpers.Comparer
-  nameWithType: Comparer
-- uid: Platform.Helpers.Comparer.#ctor(Func{System.Object,System.Object,System.Int32})
-  name: Comparer(Func<Object, Object, Int32>)
-  href: api/Platform.Helpers.Comparer.html#Platform_Helpers_Comparer__ctor_Func_System_Object_System_Object_System_Int32__
-  commentId: M:Platform.Helpers.Comparer.#ctor(Func{System.Object,System.Object,System.Int32})
-  name.vb: Comparer(Func(Of Object, Object, Int32))
-  fullName: Platform.Helpers.Comparer.Comparer(Func<System.Object, System.Object, System.Int32>)
-  fullName.vb: Platform.Helpers.Comparer.Comparer(Func(Of System.Object, System.Object, System.Int32))
-  nameWithType: Comparer.Comparer(Func<Object, Object, Int32>)
-  nameWithType.vb: Comparer.Comparer(Func(Of Object, Object, Int32))
-- uid: Platform.Helpers.Comparer.#ctor(IComparer)
-  name: Comparer(IComparer)
-  href: api/Platform.Helpers.Comparer.html#Platform_Helpers_Comparer__ctor_IComparer_
-  commentId: M:Platform.Helpers.Comparer.#ctor(IComparer)
-  fullName: Platform.Helpers.Comparer.Comparer(IComparer)
-  nameWithType: Comparer.Comparer(IComparer)
-- uid: Platform.Helpers.Comparer.#ctor*
-  name: Comparer
-  href: api/Platform.Helpers.Comparer.html#Platform_Helpers_Comparer__ctor_
-  commentId: Overload:Platform.Helpers.Comparer.#ctor
-  isSpec: "True"
-  fullName: Platform.Helpers.Comparer.Comparer
-  nameWithType: Comparer.Comparer
-- uid: Platform.Helpers.Comparer.Compare(System.Object,System.Object)
-  name: Compare(Object, Object)
-  href: api/Platform.Helpers.Comparer.html#Platform_Helpers_Comparer_Compare_System_Object_System_Object_
-  commentId: M:Platform.Helpers.Comparer.Compare(System.Object,System.Object)
-  fullName: Platform.Helpers.Comparer.Compare(System.Object, System.Object)
-  nameWithType: Comparer.Compare(Object, Object)
-- uid: Platform.Helpers.Comparer.Compare*
-  name: Compare
-  href: api/Platform.Helpers.Comparer.html#Platform_Helpers_Comparer_Compare_
-  commentId: Overload:Platform.Helpers.Comparer.Compare
-  isSpec: "True"
-  fullName: Platform.Helpers.Comparer.Compare
-  nameWithType: Comparer.Compare
-- uid: Platform.Helpers.Comparer.op_Implicit(Func{System.Object,System.Object,System.Int32})~Platform.Helpers.Comparer
-  name: Implicit(Func<Object, Object, Int32> to Comparer)
-  href: api/Platform.Helpers.Comparer.html#Platform_Helpers_Comparer_op_Implicit_Func_System_Object_System_Object_System_Int32___Platform_Helpers_Comparer
-  commentId: M:Platform.Helpers.Comparer.op_Implicit(Func{System.Object,System.Object,System.Int32})~Platform.Helpers.Comparer
-  name.vb: Widening(Func(Of Object, Object, Int32) to Comparer)
-  fullName: Platform.Helpers.Comparer.Implicit(Func<System.Object, System.Object, System.Int32> to Platform.Helpers.Comparer)
-  fullName.vb: Platform.Helpers.Comparer.Widening(Func(Of System.Object, System.Object, System.Int32) to Platform.Helpers.Comparer)
-  nameWithType: Comparer.Implicit(Func<Object, Object, Int32> to Comparer)
-  nameWithType.vb: Comparer.Widening(Func(Of Object, Object, Int32) to Comparer)
-- uid: Platform.Helpers.Comparer.op_Implicit(Platform.Helpers.Comparer)~Func{System.Object,System.Object,System.Int32}
-  name: Implicit(Comparer to Func<Object, Object, Int32>)
-  href: api/Platform.Helpers.Comparer.html#Platform_Helpers_Comparer_op_Implicit_Platform_Helpers_Comparer__Func_System_Object_System_Object_System_Int32_
-  commentId: M:Platform.Helpers.Comparer.op_Implicit(Platform.Helpers.Comparer)~Func{System.Object,System.Object,System.Int32}
-  name.vb: Widening(Comparer to Func(Of Object, Object, Int32))
-  fullName: Platform.Helpers.Comparer.Implicit(Platform.Helpers.Comparer to Func<System.Object, System.Object, System.Int32>)
-  fullName.vb: Platform.Helpers.Comparer.Widening(Platform.Helpers.Comparer to Func(Of System.Object, System.Object, System.Int32))
-  nameWithType: Comparer.Implicit(Comparer to Func<Object, Object, Int32>)
-  nameWithType.vb: Comparer.Widening(Comparer to Func(Of Object, Object, Int32))
-- uid: Platform.Helpers.Comparer.op_Implicit*
-  name: Implicit
-  href: api/Platform.Helpers.Comparer.html#Platform_Helpers_Comparer_op_Implicit_
-  commentId: Overload:Platform.Helpers.Comparer.op_Implicit
-  isSpec: "True"
-  name.vb: Widening
-  fullName: Platform.Helpers.Comparer.Implicit
-  fullName.vb: Platform.Helpers.Comparer.Widening
-  nameWithType: Comparer.Implicit
-  nameWithType.vb: Comparer.Widening
 - uid: Platform.Helpers.Console
   name: Platform.Helpers.Console
   href: api/Platform.Helpers.Console.html
@@ -22804,6 +22735,31 @@ references:
   commentId: N:Platform.Tests
   fullName: Platform.Tests
   nameWithType: Platform.Tests
+- uid: Platform.Tests.Collections
+  name: Platform.Tests.Collections
+  href: api/Platform.Tests.Collections.html
+  commentId: N:Platform.Tests.Collections
+  fullName: Platform.Tests.Collections
+  nameWithType: Platform.Tests.Collections
+- uid: Platform.Tests.Collections.StringTests
+  name: StringTests
+  href: api/Platform.Tests.Collections.StringTests.html
+  commentId: T:Platform.Tests.Collections.StringTests
+  fullName: Platform.Tests.Collections.StringTests
+  nameWithType: StringTests
+- uid: Platform.Tests.Collections.StringTests.CapitalizeFirstLetterTest
+  name: CapitalizeFirstLetterTest()
+  href: api/Platform.Tests.Collections.StringTests.html#Platform_Tests_Collections_StringTests_CapitalizeFirstLetterTest
+  commentId: M:Platform.Tests.Collections.StringTests.CapitalizeFirstLetterTest
+  fullName: Platform.Tests.Collections.StringTests.CapitalizeFirstLetterTest()
+  nameWithType: StringTests.CapitalizeFirstLetterTest()
+- uid: Platform.Tests.Collections.StringTests.CapitalizeFirstLetterTest*
+  name: CapitalizeFirstLetterTest
+  href: api/Platform.Tests.Collections.StringTests.html#Platform_Tests_Collections_StringTests_CapitalizeFirstLetterTest_
+  commentId: Overload:Platform.Tests.Collections.StringTests.CapitalizeFirstLetterTest
+  isSpec: "True"
+  fullName: Platform.Tests.Collections.StringTests.CapitalizeFirstLetterTest
+  nameWithType: StringTests.CapitalizeFirstLetterTest
 - uid: Platform.Tests.Data.Core
   name: Platform.Tests.Data.Core
   href: api/Platform.Tests.Data.Core.html
@@ -23868,6 +23824,38 @@ references:
   isSpec: "True"
   fullName: Platform.Tests.SystemTests.PossiblePackTwoValuesIntoOneTest
   nameWithType: SystemTests.PossiblePackTwoValuesIntoOneTest
+- uid: Platform.Tests.SystemTests.UInt64EqualityComparer
+  name: SystemTests.UInt64EqualityComparer
+  href: api/Platform.Tests.SystemTests.UInt64EqualityComparer.html
+  commentId: T:Platform.Tests.SystemTests.UInt64EqualityComparer
+  fullName: Platform.Tests.SystemTests.UInt64EqualityComparer
+  nameWithType: SystemTests.UInt64EqualityComparer
+- uid: Platform.Tests.SystemTests.UInt64EqualityComparer.Equals(System.UInt64,System.UInt64)
+  name: Equals(UInt64, UInt64)
+  href: api/Platform.Tests.SystemTests.UInt64EqualityComparer.html#Platform_Tests_SystemTests_UInt64EqualityComparer_Equals_System_UInt64_System_UInt64_
+  commentId: M:Platform.Tests.SystemTests.UInt64EqualityComparer.Equals(System.UInt64,System.UInt64)
+  fullName: Platform.Tests.SystemTests.UInt64EqualityComparer.Equals(System.UInt64, System.UInt64)
+  nameWithType: SystemTests.UInt64EqualityComparer.Equals(UInt64, UInt64)
+- uid: Platform.Tests.SystemTests.UInt64EqualityComparer.Equals*
+  name: Equals
+  href: api/Platform.Tests.SystemTests.UInt64EqualityComparer.html#Platform_Tests_SystemTests_UInt64EqualityComparer_Equals_
+  commentId: Overload:Platform.Tests.SystemTests.UInt64EqualityComparer.Equals
+  isSpec: "True"
+  fullName: Platform.Tests.SystemTests.UInt64EqualityComparer.Equals
+  nameWithType: SystemTests.UInt64EqualityComparer.Equals
+- uid: Platform.Tests.SystemTests.UInt64EqualityComparer.GetHashCode(System.UInt64)
+  name: GetHashCode(UInt64)
+  href: api/Platform.Tests.SystemTests.UInt64EqualityComparer.html#Platform_Tests_SystemTests_UInt64EqualityComparer_GetHashCode_System_UInt64_
+  commentId: M:Platform.Tests.SystemTests.UInt64EqualityComparer.GetHashCode(System.UInt64)
+  fullName: Platform.Tests.SystemTests.UInt64EqualityComparer.GetHashCode(System.UInt64)
+  nameWithType: SystemTests.UInt64EqualityComparer.GetHashCode(UInt64)
+- uid: Platform.Tests.SystemTests.UInt64EqualityComparer.GetHashCode*
+  name: GetHashCode
+  href: api/Platform.Tests.SystemTests.UInt64EqualityComparer.html#Platform_Tests_SystemTests_UInt64EqualityComparer_GetHashCode_
+  commentId: Overload:Platform.Tests.SystemTests.UInt64EqualityComparer.GetHashCode
+  isSpec: "True"
+  fullName: Platform.Tests.SystemTests.UInt64EqualityComparer.GetHashCode
+  nameWithType: SystemTests.UInt64EqualityComparer.GetHashCode
 - uid: Platform.Tests.SystemTests.UsingSupportsNullTest
   name: UsingSupportsNullTest()
   href: api/Platform.Tests.SystemTests.html#Platform_Tests_SystemTests_UsingSupportsNullTest
