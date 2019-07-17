@@ -14823,15 +14823,15 @@ references:
   isSpec: "True"
   fullName: Platform.Helpers.Collections.Arrays.ArrayPool.Allocate
   nameWithType: ArrayPool.Allocate
-- uid: Platform.Helpers.Collections.Arrays.ArrayPool.Allocate``1(Integer)
-  name: Allocate<T>(Integer)
-  href: api/Platform.Helpers.Collections.Arrays.ArrayPool.html#Platform_Helpers_Collections_Arrays_ArrayPool_Allocate__1_Integer_
-  commentId: M:Platform.Helpers.Collections.Arrays.ArrayPool.Allocate``1(Integer)
-  name.vb: Allocate(Of T)(Integer)
-  fullName: Platform.Helpers.Collections.Arrays.ArrayPool.Allocate<T>(Integer)
-  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayPool.Allocate(Of T)(Integer)
-  nameWithType: ArrayPool.Allocate<T>(Integer)
-  nameWithType.vb: ArrayPool.Allocate(Of T)(Integer)
+- uid: Platform.Helpers.Collections.Arrays.ArrayPool.Allocate``1(System.Int64)
+  name: Allocate<T>(Int64)
+  href: api/Platform.Helpers.Collections.Arrays.ArrayPool.html#Platform_Helpers_Collections_Arrays_ArrayPool_Allocate__1_System_Int64_
+  commentId: M:Platform.Helpers.Collections.Arrays.ArrayPool.Allocate``1(System.Int64)
+  name.vb: Allocate(Of T)(Int64)
+  fullName: Platform.Helpers.Collections.Arrays.ArrayPool.Allocate<T>(System.Int64)
+  fullName.vb: Platform.Helpers.Collections.Arrays.ArrayPool.Allocate(Of T)(System.Int64)
+  nameWithType: ArrayPool.Allocate<T>(Int64)
+  nameWithType.vb: ArrayPool.Allocate(Of T)(Int64)
 - uid: Platform.Helpers.Collections.Arrays.ArrayPool.Free*
   name: Free
   href: api/Platform.Helpers.Collections.Arrays.ArrayPool.html#Platform_Helpers_Collections_Arrays_ArrayPool_Free_
