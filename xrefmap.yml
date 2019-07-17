@@ -15082,38 +15082,6 @@ references:
   commentId: T:Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions
   fullName: Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions
   nameWithType: ConcurrentQueueExtensions
-- uid: Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions.AwaitAll(ConcurrentQueue{Task})
-  name: AwaitAll(ConcurrentQueue<Task>)
-  href: api/Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions.html#Platform_Helpers_Collections_Concurrent_ConcurrentQueueExtensions_AwaitAll_ConcurrentQueue_Task__
-  commentId: M:Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions.AwaitAll(ConcurrentQueue{Task})
-  name.vb: AwaitAll(ConcurrentQueue(Of Task))
-  fullName: Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions.AwaitAll(ConcurrentQueue<Task>)
-  fullName.vb: Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions.AwaitAll(ConcurrentQueue(Of Task))
-  nameWithType: ConcurrentQueueExtensions.AwaitAll(ConcurrentQueue<Task>)
-  nameWithType.vb: ConcurrentQueueExtensions.AwaitAll(ConcurrentQueue(Of Task))
-- uid: Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions.AwaitAll*
-  name: AwaitAll
-  href: api/Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions.html#Platform_Helpers_Collections_Concurrent_ConcurrentQueueExtensions_AwaitAll_
-  commentId: Overload:Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions.AwaitAll
-  isSpec: "True"
-  fullName: Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions.AwaitAll
-  nameWithType: ConcurrentQueueExtensions.AwaitAll
-- uid: Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions.AwaitOne(ConcurrentQueue{Task})
-  name: AwaitOne(ConcurrentQueue<Task>)
-  href: api/Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions.html#Platform_Helpers_Collections_Concurrent_ConcurrentQueueExtensions_AwaitOne_ConcurrentQueue_Task__
-  commentId: M:Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions.AwaitOne(ConcurrentQueue{Task})
-  name.vb: AwaitOne(ConcurrentQueue(Of Task))
-  fullName: Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions.AwaitOne(ConcurrentQueue<Task>)
-  fullName.vb: Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions.AwaitOne(ConcurrentQueue(Of Task))
-  nameWithType: ConcurrentQueueExtensions.AwaitOne(ConcurrentQueue<Task>)
-  nameWithType.vb: ConcurrentQueueExtensions.AwaitOne(ConcurrentQueue(Of Task))
-- uid: Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions.AwaitOne*
-  name: AwaitOne
-  href: api/Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions.html#Platform_Helpers_Collections_Concurrent_ConcurrentQueueExtensions_AwaitOne_
-  commentId: Overload:Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions.AwaitOne
-  isSpec: "True"
-  fullName: Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions.AwaitOne
-  nameWithType: ConcurrentQueueExtensions.AwaitOne
 - uid: Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions.DequeueAll*
   name: DequeueAll
   href: api/Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions.html#Platform_Helpers_Collections_Concurrent_ConcurrentQueueExtensions_DequeueAll_
@@ -15130,22 +15098,6 @@ references:
   fullName.vb: Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions.DequeueAll(Of T)(ConcurrentQueue(Of T))
   nameWithType: ConcurrentQueueExtensions.DequeueAll<T>(ConcurrentQueue<T>)
   nameWithType.vb: ConcurrentQueueExtensions.DequeueAll(Of T)(ConcurrentQueue(Of T))
-- uid: Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions.EnqueueAsRunnedTask(ConcurrentQueue{Task},Action)
-  name: EnqueueAsRunnedTask(ConcurrentQueue<Task>, Action)
-  href: api/Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions.html#Platform_Helpers_Collections_Concurrent_ConcurrentQueueExtensions_EnqueueAsRunnedTask_ConcurrentQueue_Task__Action_
-  commentId: M:Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions.EnqueueAsRunnedTask(ConcurrentQueue{Task},Action)
-  name.vb: EnqueueAsRunnedTask(ConcurrentQueue(Of Task), Action)
-  fullName: Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions.EnqueueAsRunnedTask(ConcurrentQueue<Task>, Action)
-  fullName.vb: Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions.EnqueueAsRunnedTask(ConcurrentQueue(Of Task), Action)
-  nameWithType: ConcurrentQueueExtensions.EnqueueAsRunnedTask(ConcurrentQueue<Task>, Action)
-  nameWithType.vb: ConcurrentQueueExtensions.EnqueueAsRunnedTask(ConcurrentQueue(Of Task), Action)
-- uid: Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions.EnqueueAsRunnedTask*
-  name: EnqueueAsRunnedTask
-  href: api/Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions.html#Platform_Helpers_Collections_Concurrent_ConcurrentQueueExtensions_EnqueueAsRunnedTask_
-  commentId: Overload:Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions.EnqueueAsRunnedTask
-  isSpec: "True"
-  fullName: Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions.EnqueueAsRunnedTask
-  nameWithType: ConcurrentQueueExtensions.EnqueueAsRunnedTask
 - uid: Platform.Helpers.Collections.Concurrent.ConcurrentStackExtensions
   name: ConcurrentStackExtensions
   href: api/Platform.Helpers.Collections.Concurrent.ConcurrentStackExtensions.html
@@ -19913,6 +19865,60 @@ references:
   commentId: N:Platform.Helpers.Threading
   fullName: Platform.Helpers.Threading
   nameWithType: Platform.Helpers.Threading
+- uid: Platform.Helpers.Threading.ConcurrentQueueExtensions
+  name: ConcurrentQueueExtensions
+  href: api/Platform.Helpers.Threading.ConcurrentQueueExtensions.html
+  commentId: T:Platform.Helpers.Threading.ConcurrentQueueExtensions
+  fullName: Platform.Helpers.Threading.ConcurrentQueueExtensions
+  nameWithType: ConcurrentQueueExtensions
+- uid: Platform.Helpers.Threading.ConcurrentQueueExtensions.AwaitAll(ConcurrentQueue{Task})
+  name: AwaitAll(ConcurrentQueue<Task>)
+  href: api/Platform.Helpers.Threading.ConcurrentQueueExtensions.html#Platform_Helpers_Threading_ConcurrentQueueExtensions_AwaitAll_ConcurrentQueue_Task__
+  commentId: M:Platform.Helpers.Threading.ConcurrentQueueExtensions.AwaitAll(ConcurrentQueue{Task})
+  name.vb: AwaitAll(ConcurrentQueue(Of Task))
+  fullName: Platform.Helpers.Threading.ConcurrentQueueExtensions.AwaitAll(ConcurrentQueue<Task>)
+  fullName.vb: Platform.Helpers.Threading.ConcurrentQueueExtensions.AwaitAll(ConcurrentQueue(Of Task))
+  nameWithType: ConcurrentQueueExtensions.AwaitAll(ConcurrentQueue<Task>)
+  nameWithType.vb: ConcurrentQueueExtensions.AwaitAll(ConcurrentQueue(Of Task))
+- uid: Platform.Helpers.Threading.ConcurrentQueueExtensions.AwaitAll*
+  name: AwaitAll
+  href: api/Platform.Helpers.Threading.ConcurrentQueueExtensions.html#Platform_Helpers_Threading_ConcurrentQueueExtensions_AwaitAll_
+  commentId: Overload:Platform.Helpers.Threading.ConcurrentQueueExtensions.AwaitAll
+  isSpec: "True"
+  fullName: Platform.Helpers.Threading.ConcurrentQueueExtensions.AwaitAll
+  nameWithType: ConcurrentQueueExtensions.AwaitAll
+- uid: Platform.Helpers.Threading.ConcurrentQueueExtensions.AwaitOne(ConcurrentQueue{Task})
+  name: AwaitOne(ConcurrentQueue<Task>)
+  href: api/Platform.Helpers.Threading.ConcurrentQueueExtensions.html#Platform_Helpers_Threading_ConcurrentQueueExtensions_AwaitOne_ConcurrentQueue_Task__
+  commentId: M:Platform.Helpers.Threading.ConcurrentQueueExtensions.AwaitOne(ConcurrentQueue{Task})
+  name.vb: AwaitOne(ConcurrentQueue(Of Task))
+  fullName: Platform.Helpers.Threading.ConcurrentQueueExtensions.AwaitOne(ConcurrentQueue<Task>)
+  fullName.vb: Platform.Helpers.Threading.ConcurrentQueueExtensions.AwaitOne(ConcurrentQueue(Of Task))
+  nameWithType: ConcurrentQueueExtensions.AwaitOne(ConcurrentQueue<Task>)
+  nameWithType.vb: ConcurrentQueueExtensions.AwaitOne(ConcurrentQueue(Of Task))
+- uid: Platform.Helpers.Threading.ConcurrentQueueExtensions.AwaitOne*
+  name: AwaitOne
+  href: api/Platform.Helpers.Threading.ConcurrentQueueExtensions.html#Platform_Helpers_Threading_ConcurrentQueueExtensions_AwaitOne_
+  commentId: Overload:Platform.Helpers.Threading.ConcurrentQueueExtensions.AwaitOne
+  isSpec: "True"
+  fullName: Platform.Helpers.Threading.ConcurrentQueueExtensions.AwaitOne
+  nameWithType: ConcurrentQueueExtensions.AwaitOne
+- uid: Platform.Helpers.Threading.ConcurrentQueueExtensions.EnqueueAsRunnedTask(ConcurrentQueue{Task},Action)
+  name: EnqueueAsRunnedTask(ConcurrentQueue<Task>, Action)
+  href: api/Platform.Helpers.Threading.ConcurrentQueueExtensions.html#Platform_Helpers_Threading_ConcurrentQueueExtensions_EnqueueAsRunnedTask_ConcurrentQueue_Task__Action_
+  commentId: M:Platform.Helpers.Threading.ConcurrentQueueExtensions.EnqueueAsRunnedTask(ConcurrentQueue{Task},Action)
+  name.vb: EnqueueAsRunnedTask(ConcurrentQueue(Of Task), Action)
+  fullName: Platform.Helpers.Threading.ConcurrentQueueExtensions.EnqueueAsRunnedTask(ConcurrentQueue<Task>, Action)
+  fullName.vb: Platform.Helpers.Threading.ConcurrentQueueExtensions.EnqueueAsRunnedTask(ConcurrentQueue(Of Task), Action)
+  nameWithType: ConcurrentQueueExtensions.EnqueueAsRunnedTask(ConcurrentQueue<Task>, Action)
+  nameWithType.vb: ConcurrentQueueExtensions.EnqueueAsRunnedTask(ConcurrentQueue(Of Task), Action)
+- uid: Platform.Helpers.Threading.ConcurrentQueueExtensions.EnqueueAsRunnedTask*
+  name: EnqueueAsRunnedTask
+  href: api/Platform.Helpers.Threading.ConcurrentQueueExtensions.html#Platform_Helpers_Threading_ConcurrentQueueExtensions_EnqueueAsRunnedTask_
+  commentId: Overload:Platform.Helpers.Threading.ConcurrentQueueExtensions.EnqueueAsRunnedTask
+  isSpec: "True"
+  fullName: Platform.Helpers.Threading.ConcurrentQueueExtensions.EnqueueAsRunnedTask
+  nameWithType: ConcurrentQueueExtensions.EnqueueAsRunnedTask
 - uid: Platform.Helpers.Threading.ISynchronization
   name: ISynchronization
   href: api/Platform.Helpers.Threading.ISynchronization.html

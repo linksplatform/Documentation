@@ -78,10 +78,10 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions">
+            <article class="content wrap" id="_content" data-uid="Platform.Helpers.Threading.ConcurrentQueueExtensions">
   
   
-  <h1 id="Platform_Helpers_Collections_Concurrent_ConcurrentQueueExtensions" data-uid="Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions" class="text-break">Class ConcurrentQueueExtensions
+  <h1 id="Platform_Helpers_Threading_ConcurrentQueueExtensions" data-uid="Platform.Helpers.Threading.ConcurrentQueueExtensions" class="text-break">Class ConcurrentQueueExtensions
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
@@ -114,9 +114,9 @@
       <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Platform.Helpers.Collections.Concurrent.html">Platform.Helpers.Collections.Concurrent</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Platform.Helpers.Threading.html">Platform.Helpers.Threading</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Platform_Helpers_Collections_Concurrent_ConcurrentQueueExtensions_syntax">Syntax</h5>
+  <h5 id="Platform_Helpers_Threading_ConcurrentQueueExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class ConcurrentQueueExtensions</code></pre>
   </div>
@@ -124,13 +124,13 @@
   </h3>
   
   
-  <a id="Platform_Helpers_Collections_Concurrent_ConcurrentQueueExtensions_DequeueAll_" data-uid="Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions.DequeueAll*"></a>
-  <h4 id="Platform_Helpers_Collections_Concurrent_ConcurrentQueueExtensions_DequeueAll__1_ConcurrentQueue___0__" data-uid="Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions.DequeueAll``1(ConcurrentQueue{``0})">DequeueAll&lt;T&gt;(ConcurrentQueue&lt;T&gt;)</h4>
+  <a id="Platform_Helpers_Threading_ConcurrentQueueExtensions_AwaitAll_" data-uid="Platform.Helpers.Threading.ConcurrentQueueExtensions.AwaitAll*"></a>
+  <h4 id="Platform_Helpers_Threading_ConcurrentQueueExtensions_AwaitAll_ConcurrentQueue_Task__" data-uid="Platform.Helpers.Threading.ConcurrentQueueExtensions.AwaitAll(ConcurrentQueue{Task})">AwaitAll(ConcurrentQueue&lt;Task&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; DequeueAll&lt;T&gt;(this ConcurrentQueue&lt;T&gt; queue)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Task AwaitAll(this ConcurrentQueue&lt;Task&gt; queue)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -143,7 +143,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ConcurrentQueue</span>&lt;T&gt;</td>
+        <td><span class="xref">ConcurrentQueue</span>&lt;<span class="xref">Task</span>&gt;</td>
         <td><span class="parametername">queue</span></td>
         <td></td>
       </tr>
@@ -159,22 +159,81 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;T&gt;</td>
+        <td><span class="xref">Task</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
+  
+  
+  <a id="Platform_Helpers_Threading_ConcurrentQueueExtensions_AwaitOne_" data-uid="Platform.Helpers.Threading.ConcurrentQueueExtensions.AwaitOne*"></a>
+  <h4 id="Platform_Helpers_Threading_ConcurrentQueueExtensions_AwaitOne_ConcurrentQueue_Task__" data-uid="Platform.Helpers.Threading.ConcurrentQueueExtensions.AwaitOne(ConcurrentQueue{Task})">AwaitOne(ConcurrentQueue&lt;Task&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task AwaitOne(this ConcurrentQueue&lt;Task&gt; queue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
+        <th>Type</th>
         <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">T</span></td>
+        <td><span class="xref">ConcurrentQueue</span>&lt;<span class="xref">Task</span>&gt;</td>
+        <td><span class="parametername">queue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Platform_Helpers_Threading_ConcurrentQueueExtensions_EnqueueAsRunnedTask_" data-uid="Platform.Helpers.Threading.ConcurrentQueueExtensions.EnqueueAsRunnedTask*"></a>
+  <h4 id="Platform_Helpers_Threading_ConcurrentQueueExtensions_EnqueueAsRunnedTask_ConcurrentQueue_Task__Action_" data-uid="Platform.Helpers.Threading.ConcurrentQueueExtensions.EnqueueAsRunnedTask(ConcurrentQueue{Task},Action)">EnqueueAsRunnedTask(ConcurrentQueue&lt;Task&gt;, Action)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void EnqueueAsRunnedTask(this ConcurrentQueue&lt;Task&gt; queue, Action action)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ConcurrentQueue</span>&lt;<span class="xref">Task</span>&gt;</td>
+        <td><span class="parametername">queue</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span></td>
+        <td><span class="parametername">action</span></td>
         <td></td>
       </tr>
     </tbody>
