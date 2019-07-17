@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "eeCdyqjcPjN5G8exo3C9LQ=="
+          "hash": "b0HTQUnH0BFy6RcER6qidQ=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "README.ru.html",
-          "hash": "CaRKIyf1vLg4NcZZR3XPMw=="
+          "hash": "tCRptYJcZMOw5Ye1MOc2uw=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/articles/links-theory.html",
-          "hash": "AegIIVYctI0bEZsCFJRVWg=="
+          "hash": "fMd7uqPJVpNjpyB9vfOMnw=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "d6icXuivbwDZiLoa6CCH5g=="
+          "hash": "FOzEiv0fzZbIcy36rvSSZg=="
         }
       },
       "is_incremental": false,
@@ -2498,6 +2498,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Helpers.Comparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Helpers.Comparer.html",
+          "hash": "r3h3fDHNXI8C1z3rdbTxtQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/Platform.Helpers.Console.ConsoleCancellationHandler.yml",
       "output": {
         ".html": {
@@ -3369,7 +3381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Helpers.html",
-          "hash": "04xV1pS+D5ZqF2XyDftg8w=="
+          "hash": "RnlFbBbA3VxdlqGLhNGMzA=="
         }
       },
       "is_incremental": false,
@@ -4101,7 +4113,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "xe8IM3U2M3dmP9ozFl8I6A=="
+          "hash": "DVqcDVw6GwcXmUSd7asOnw=="
         }
       },
       "is_incremental": false,
@@ -4143,7 +4155,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 336,
+          "total_file_count": 337,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
