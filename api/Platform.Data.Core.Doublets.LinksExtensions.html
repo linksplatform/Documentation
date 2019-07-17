@@ -322,12 +322,12 @@
   
   
   <a id="Platform_Data_Core_Doublets_LinksExtensions_CheckPathExistance_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.CheckPathExistance*"></a>
-  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_CheckPathExistance__1_Platform_Data_Core_Doublets_ILinks___0____0___" data-uid="Platform.Data.Core.Doublets.LinksExtensions.CheckPathExistance``1(Platform.Data.Core.Doublets.ILinks{``0},``0[])">CheckPathExistance&lt;TLink&gt;(ILinks&lt;TLink&gt;, TLink[])</h4>
+  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_CheckPathExistance__1_Platform_Data_Core_Doublets_ILinks___0____0___" data-uid="Platform.Data.Core.Doublets.LinksExtensions.CheckPathExistance``1(Platform.Data.Core.Doublets.ILinks{``0},``0[])">CheckPathExistance&lt;T&gt;(ILinks&lt;T&gt;, T[])</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool CheckPathExistance&lt;TLink&gt;(this ILinks&lt;TLink&gt; links, params TLink[] path)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool CheckPathExistance&lt;T&gt;(this ILinks&lt;T&gt; links, params T[] path)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -340,12 +340,12 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;TLink&gt;</td>
+        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;T&gt;</td>
         <td><span class="parametername">links</span></td>
         <td></td>
       </tr>
       <tr>
-        <td>TLink[]</td>
+        <td>T[]</td>
         <td><span class="parametername">path</span></td>
         <td></td>
       </tr>
@@ -376,7 +376,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TLink</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -453,12 +453,12 @@ TODO: Возможно нужен метод, который именно выб
   
   
   <a id="Platform_Data_Core_Doublets_LinksExtensions_CreateAndUpdate_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.CreateAndUpdate*"></a>
-  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_CreateAndUpdate__1_Platform_Data_Core_Doublets_ILinks___0____0___0_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.CreateAndUpdate``1(Platform.Data.Core.Doublets.ILinks{``0},``0,``0)">CreateAndUpdate&lt;TLink&gt;(ILinks&lt;TLink&gt;, TLink, TLink)</h4>
+  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_CreateAndUpdate__1_Platform_Data_Core_Doublets_ILinks___0____0___0_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.CreateAndUpdate``1(Platform.Data.Core.Doublets.ILinks{``0},``0,``0)">CreateAndUpdate&lt;T&gt;(ILinks&lt;T&gt;, T, T)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TLink CreateAndUpdate&lt;TLink&gt;(this ILinks&lt;TLink&gt; links, TLink source, TLink target)</code></pre>
+    <pre><code class="lang-csharp hljs">public static T CreateAndUpdate&lt;T&gt;(this ILinks&lt;T&gt; links, T source, T target)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -471,18 +471,18 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;TLink&gt;</td>
+        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;T&gt;</td>
         <td><span class="parametername">links</span></td>
         <td><p>Хранилище связей.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><span class="parametername">source</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><span class="parametername">target</span></td>
         <td></td>
       </tr>
@@ -498,7 +498,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -513,7 +513,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TLink</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -521,12 +521,12 @@ TODO: Возможно нужен метод, который именно выб
   
   
   <a id="Platform_Data_Core_Doublets_LinksExtensions_CreatePoint_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.CreatePoint*"></a>
-  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_CreatePoint__1_Platform_Data_Core_Doublets_ILinks___0__" data-uid="Platform.Data.Core.Doublets.LinksExtensions.CreatePoint``1(Platform.Data.Core.Doublets.ILinks{``0})">CreatePoint&lt;TLink&gt;(ILinks&lt;TLink&gt;)</h4>
+  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_CreatePoint__1_Platform_Data_Core_Doublets_ILinks___0__" data-uid="Platform.Data.Core.Doublets.LinksExtensions.CreatePoint``1(Platform.Data.Core.Doublets.ILinks{``0})">CreatePoint&lt;T&gt;(ILinks&lt;T&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TLink CreatePoint&lt;TLink&gt;(this ILinks&lt;TLink&gt; links)</code></pre>
+    <pre><code class="lang-csharp hljs">public static T CreatePoint&lt;T&gt;(this ILinks&lt;T&gt; links)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -539,7 +539,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;TLink&gt;</td>
+        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;T&gt;</td>
         <td><span class="parametername">links</span></td>
         <td><p>Хранилище связей.</p>
 </td>
@@ -556,7 +556,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -571,7 +571,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TLink</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -627,13 +627,13 @@ TODO: Возможно нужен метод, который именно выб
   
   
   <a id="Platform_Data_Core_Doublets_LinksExtensions_DeleteIfExists_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.DeleteIfExists*"></a>
-  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_DeleteIfExists__1_Platform_Data_Core_Doublets_ILinks___0____0___0_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.DeleteIfExists``1(Platform.Data.Core.Doublets.ILinks{``0},``0,``0)">DeleteIfExists&lt;TLink&gt;(ILinks&lt;TLink&gt;, TLink, TLink)</h4>
+  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_DeleteIfExists__1_Platform_Data_Core_Doublets_ILinks___0____0___0_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.DeleteIfExists``1(Platform.Data.Core.Doublets.ILinks{``0},``0,``0)">DeleteIfExists&lt;T&gt;(ILinks&lt;T&gt;, T, T)</h4>
   <div class="markdown level1 summary"><p>Удаляет связь с указанными началом (Source) и концом (Target).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TLink DeleteIfExists&lt;TLink&gt;(this ILinks&lt;TLink&gt; links, TLink source, TLink target)</code></pre>
+    <pre><code class="lang-csharp hljs">public static T DeleteIfExists&lt;T&gt;(this ILinks&lt;T&gt; links, T source, T target)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -646,19 +646,19 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;TLink&gt;</td>
+        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;T&gt;</td>
         <td><span class="parametername">links</span></td>
         <td><p>Хранилище связей.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><span class="parametername">source</span></td>
         <td><p>Индекс связи, которая является началом удаляемой связи.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><span class="parametername">target</span></td>
         <td><p>Индекс связи, которая является концом удаляемой связи.</p>
 </td>
@@ -675,7 +675,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -690,7 +690,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TLink</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -698,13 +698,13 @@ TODO: Возможно нужен метод, который именно выб
   
   
   <a id="Platform_Data_Core_Doublets_LinksExtensions_DeleteMany_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.DeleteMany*"></a>
-  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_DeleteMany__1_Platform_Data_Core_Doublets_ILinks___0__IList___0__" data-uid="Platform.Data.Core.Doublets.LinksExtensions.DeleteMany``1(Platform.Data.Core.Doublets.ILinks{``0},IList{``0})">DeleteMany&lt;TLink&gt;(ILinks&lt;TLink&gt;, IList&lt;TLink&gt;)</h4>
+  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_DeleteMany__1_Platform_Data_Core_Doublets_ILinks___0__IList___0__" data-uid="Platform.Data.Core.Doublets.LinksExtensions.DeleteMany``1(Platform.Data.Core.Doublets.ILinks{``0},IList{``0})">DeleteMany&lt;T&gt;(ILinks&lt;T&gt;, IList&lt;T&gt;)</h4>
   <div class="markdown level1 summary"><p>Удаляет несколько связей.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void DeleteMany&lt;TLink&gt;(this ILinks&lt;TLink&gt; links, IList&lt;TLink&gt; deletedLinks)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void DeleteMany&lt;T&gt;(this ILinks&lt;T&gt; links, IList&lt;T&gt; deletedLinks)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -717,13 +717,13 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;TLink&gt;</td>
+        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;T&gt;</td>
         <td><span class="parametername">links</span></td>
         <td><p>Хранилище связей.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">IList</span>&lt;TLink&gt;</td>
+        <td><span class="xref">IList</span>&lt;T&gt;</td>
         <td><span class="parametername">deletedLinks</span></td>
         <td><p>Список адресов связей к удалению.</p>
 </td>
@@ -740,7 +740,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TLink</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -748,12 +748,12 @@ TODO: Возможно нужен метод, который именно выб
   
   
   <a id="Platform_Data_Core_Doublets_LinksExtensions_DependenciesCount_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.DependenciesCount*"></a>
-  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_DependenciesCount__1_Platform_Data_Core_Doublets_ILinks___0____0_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.DependenciesCount``1(Platform.Data.Core.Doublets.ILinks{``0},``0)">DependenciesCount&lt;TLink&gt;(ILinks&lt;TLink&gt;, TLink)</h4>
+  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_DependenciesCount__1_Platform_Data_Core_Doublets_ILinks___0____0_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.DependenciesCount``1(Platform.Data.Core.Doublets.ILinks{``0},``0)">DependenciesCount&lt;T&gt;(ILinks&lt;T&gt;, T)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ulong DependenciesCount&lt;TLink&gt;(this ILinks&lt;TLink&gt; links, TLink link)</code></pre>
+    <pre><code class="lang-csharp hljs">public static ulong DependenciesCount&lt;T&gt;(this ILinks&lt;T&gt; links, T link)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -766,13 +766,13 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;TLink&gt;</td>
+        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;T&gt;</td>
         <td><span class="parametername">links</span></td>
         <td><p>Хранилище связей.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><span class="parametername">link</span></td>
         <td></td>
       </tr>
@@ -803,7 +803,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TLink</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -811,12 +811,12 @@ TODO: Возможно нужен метод, который именно выб
   
   
   <a id="Platform_Data_Core_Doublets_LinksExtensions_DependenciesExist_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.DependenciesExist*"></a>
-  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_DependenciesExist__1_Platform_Data_Core_Doublets_ILinks___0____0_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.DependenciesExist``1(Platform.Data.Core.Doublets.ILinks{``0},``0)">DependenciesExist&lt;TLink&gt;(ILinks&lt;TLink&gt;, TLink)</h4>
+  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_DependenciesExist__1_Platform_Data_Core_Doublets_ILinks___0____0_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.DependenciesExist``1(Platform.Data.Core.Doublets.ILinks{``0},``0)">DependenciesExist&lt;T&gt;(ILinks&lt;T&gt;, T)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool DependenciesExist&lt;TLink&gt;(this ILinks&lt;TLink&gt; links, TLink link)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool DependenciesExist&lt;T&gt;(this ILinks&lt;T&gt; links, T link)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -829,13 +829,13 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;TLink&gt;</td>
+        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;T&gt;</td>
         <td><span class="parametername">links</span></td>
         <td><p>Хранилище связей.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><span class="parametername">link</span></td>
         <td></td>
       </tr>
@@ -866,7 +866,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TLink</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1102,12 +1102,12 @@ TODO: Возможно нужен метод, который именно выб
   
   
   <a id="Platform_Data_Core_Doublets_LinksExtensions_EnsureCreated_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.EnsureCreated*"></a>
-  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_EnsureCreated__1_Platform_Data_Core_Doublets_ILinks___0____0___" data-uid="Platform.Data.Core.Doublets.LinksExtensions.EnsureCreated``1(Platform.Data.Core.Doublets.ILinks{``0},``0[])">EnsureCreated&lt;TLink&gt;(ILinks&lt;TLink&gt;, TLink[])</h4>
+  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_EnsureCreated__1_Platform_Data_Core_Doublets_ILinks___0____0___" data-uid="Platform.Data.Core.Doublets.LinksExtensions.EnsureCreated``1(Platform.Data.Core.Doublets.ILinks{``0},``0[])">EnsureCreated&lt;T&gt;(ILinks&lt;T&gt;, T[])</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void EnsureCreated&lt;TLink&gt;(this ILinks&lt;TLink&gt; links, params TLink[] addresses)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void EnsureCreated&lt;T&gt;(this ILinks&lt;T&gt; links, params T[] addresses)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1120,13 +1120,13 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;TLink&gt;</td>
+        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;T&gt;</td>
         <td><span class="parametername">links</span></td>
         <td><p>Хранилище связей.</p>
 </td>
       </tr>
       <tr>
-        <td>TLink[]</td>
+        <td>T[]</td>
         <td><span class="parametername">addresses</span></td>
         <td></td>
       </tr>
@@ -1142,7 +1142,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TLink</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1150,12 +1150,12 @@ TODO: Возможно нужен метод, который именно выб
   
   
   <a id="Platform_Data_Core_Doublets_LinksExtensions_EnsureCreated_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.EnsureCreated*"></a>
-  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_EnsureCreated__1_Platform_Data_Core_Doublets_ILinks___0__Func___0____0___" data-uid="Platform.Data.Core.Doublets.LinksExtensions.EnsureCreated``1(Platform.Data.Core.Doublets.ILinks{``0},Func{``0},``0[])">EnsureCreated&lt;TLink&gt;(ILinks&lt;TLink&gt;, Func&lt;TLink&gt;, TLink[])</h4>
+  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_EnsureCreated__1_Platform_Data_Core_Doublets_ILinks___0__Func___0____0___" data-uid="Platform.Data.Core.Doublets.LinksExtensions.EnsureCreated``1(Platform.Data.Core.Doublets.ILinks{``0},Func{``0},``0[])">EnsureCreated&lt;T&gt;(ILinks&lt;T&gt;, Func&lt;T&gt;, T[])</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void EnsureCreated&lt;TLink&gt;(this ILinks&lt;TLink&gt; links, Func&lt;TLink&gt; creator, params TLink[] addresses)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void EnsureCreated&lt;T&gt;(this ILinks&lt;T&gt; links, Func&lt;T&gt; creator, params T[] addresses)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1168,18 +1168,18 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;TLink&gt;</td>
+        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;T&gt;</td>
         <td><span class="parametername">links</span></td>
         <td><p>Хранилище связей.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">Func</span>&lt;TLink&gt;</td>
+        <td><span class="xref">Func</span>&lt;T&gt;</td>
         <td><span class="parametername">creator</span></td>
         <td></td>
       </tr>
       <tr>
-        <td>TLink[]</td>
+        <td>T[]</td>
         <td><span class="parametername">addresses</span></td>
         <td></td>
       </tr>
@@ -1195,7 +1195,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TLink</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1203,12 +1203,12 @@ TODO: Возможно нужен метод, который именно выб
   
   
   <a id="Platform_Data_Core_Doublets_LinksExtensions_EnsureDoesNotExists_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.EnsureDoesNotExists*"></a>
-  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_EnsureDoesNotExists__1_Platform_Data_Core_Doublets_ILinks___0____0___0_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.EnsureDoesNotExists``1(Platform.Data.Core.Doublets.ILinks{``0},``0,``0)">EnsureDoesNotExists&lt;TLink&gt;(ILinks&lt;TLink&gt;, TLink, TLink)</h4>
+  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_EnsureDoesNotExists__1_Platform_Data_Core_Doublets_ILinks___0____0___0_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.EnsureDoesNotExists``1(Platform.Data.Core.Doublets.ILinks{``0},``0,``0)">EnsureDoesNotExists&lt;T&gt;(ILinks&lt;T&gt;, T, T)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void EnsureDoesNotExists&lt;TLink&gt;(this ILinks&lt;TLink&gt; links, TLink source, TLink target)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void EnsureDoesNotExists&lt;T&gt;(this ILinks&lt;T&gt; links, T source, T target)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1221,18 +1221,18 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;TLink&gt;</td>
+        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;T&gt;</td>
         <td><span class="parametername">links</span></td>
         <td><p>Хранилище связей.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><span class="parametername">source</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><span class="parametername">target</span></td>
         <td></td>
       </tr>
@@ -1248,7 +1248,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TLink</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1320,12 +1320,12 @@ TODO: Возможно нужен метод, который именно выб
   
   
   <a id="Platform_Data_Core_Doublets_LinksExtensions_EnsureInnerReferenceExists_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.EnsureInnerReferenceExists*"></a>
-  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_EnsureInnerReferenceExists__1_Platform_Data_Core_Doublets_ILinks___0____0_System_String_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.EnsureInnerReferenceExists``1(Platform.Data.Core.Doublets.ILinks{``0},``0,System.String)">EnsureInnerReferenceExists&lt;TLink&gt;(ILinks&lt;TLink&gt;, TLink, String)</h4>
+  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_EnsureInnerReferenceExists__1_Platform_Data_Core_Doublets_ILinks___0____0_System_String_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.EnsureInnerReferenceExists``1(Platform.Data.Core.Doublets.ILinks{``0},``0,System.String)">EnsureInnerReferenceExists&lt;T&gt;(ILinks&lt;T&gt;, T, String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void EnsureInnerReferenceExists&lt;TLink&gt;(this ILinks&lt;TLink&gt; links, TLink reference, string argumentName)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void EnsureInnerReferenceExists&lt;T&gt;(this ILinks&lt;T&gt; links, T reference, string argumentName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1338,12 +1338,12 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;TLink&gt;</td>
+        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;T&gt;</td>
         <td><span class="parametername">links</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><span class="parametername">reference</span></td>
         <td></td>
       </tr>
@@ -1364,7 +1364,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TLink</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1372,12 +1372,12 @@ TODO: Возможно нужен метод, который именно выб
   
   
   <a id="Platform_Data_Core_Doublets_LinksExtensions_EnsureInnerReferenceExists_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.EnsureInnerReferenceExists*"></a>
-  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_EnsureInnerReferenceExists__1_Platform_Data_Core_Doublets_ILinks___0__IList___0__System_String_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.EnsureInnerReferenceExists``1(Platform.Data.Core.Doublets.ILinks{``0},IList{``0},System.String)">EnsureInnerReferenceExists&lt;TLink&gt;(ILinks&lt;TLink&gt;, IList&lt;TLink&gt;, String)</h4>
+  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_EnsureInnerReferenceExists__1_Platform_Data_Core_Doublets_ILinks___0__IList___0__System_String_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.EnsureInnerReferenceExists``1(Platform.Data.Core.Doublets.ILinks{``0},IList{``0},System.String)">EnsureInnerReferenceExists&lt;T&gt;(ILinks&lt;T&gt;, IList&lt;T&gt;, String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void EnsureInnerReferenceExists&lt;TLink&gt;(this ILinks&lt;TLink&gt; links, IList&lt;TLink&gt; restrictions, string argumentName)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void EnsureInnerReferenceExists&lt;T&gt;(this ILinks&lt;T&gt; links, IList&lt;T&gt; restrictions, string argumentName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1390,12 +1390,12 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;TLink&gt;</td>
+        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;T&gt;</td>
         <td><span class="parametername">links</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">IList</span>&lt;TLink&gt;</td>
+        <td><span class="xref">IList</span>&lt;T&gt;</td>
         <td><span class="parametername">restrictions</span></td>
         <td></td>
       </tr>
@@ -1416,7 +1416,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TLink</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1424,12 +1424,12 @@ TODO: Возможно нужен метод, который именно выб
   
   
   <a id="Platform_Data_Core_Doublets_LinksExtensions_EnsureLinkExists_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.EnsureLinkExists*"></a>
-  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_EnsureLinkExists__1_Platform_Data_Core_Doublets_ILinks___0____0_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.EnsureLinkExists``1(Platform.Data.Core.Doublets.ILinks{``0},``0)">EnsureLinkExists&lt;TLink&gt;(ILinks&lt;TLink&gt;, TLink)</h4>
+  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_EnsureLinkExists__1_Platform_Data_Core_Doublets_ILinks___0____0_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.EnsureLinkExists``1(Platform.Data.Core.Doublets.ILinks{``0},``0)">EnsureLinkExists&lt;T&gt;(ILinks&lt;T&gt;, T)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void EnsureLinkExists&lt;TLink&gt;(this ILinks&lt;TLink&gt; links, TLink link)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void EnsureLinkExists&lt;T&gt;(this ILinks&lt;T&gt; links, T link)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1442,13 +1442,13 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;TLink&gt;</td>
+        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;T&gt;</td>
         <td><span class="parametername">links</span></td>
         <td><p>Хранилище связей.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><span class="parametername">link</span></td>
         <td></td>
       </tr>
@@ -1464,7 +1464,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TLink</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1472,12 +1472,12 @@ TODO: Возможно нужен метод, который именно выб
   
   
   <a id="Platform_Data_Core_Doublets_LinksExtensions_EnsureLinkExists_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.EnsureLinkExists*"></a>
-  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_EnsureLinkExists__1_Platform_Data_Core_Doublets_ILinks___0____0_System_String_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.EnsureLinkExists``1(Platform.Data.Core.Doublets.ILinks{``0},``0,System.String)">EnsureLinkExists&lt;TLink&gt;(ILinks&lt;TLink&gt;, TLink, String)</h4>
+  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_EnsureLinkExists__1_Platform_Data_Core_Doublets_ILinks___0____0_System_String_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.EnsureLinkExists``1(Platform.Data.Core.Doublets.ILinks{``0},``0,System.String)">EnsureLinkExists&lt;T&gt;(ILinks&lt;T&gt;, T, String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void EnsureLinkExists&lt;TLink&gt;(this ILinks&lt;TLink&gt; links, TLink link, string argumentName)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void EnsureLinkExists&lt;T&gt;(this ILinks&lt;T&gt; links, T link, string argumentName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1490,13 +1490,13 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;TLink&gt;</td>
+        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;T&gt;</td>
         <td><span class="parametername">links</span></td>
         <td><p>Хранилище связей.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><span class="parametername">link</span></td>
         <td></td>
       </tr>
@@ -1517,7 +1517,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TLink</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1525,12 +1525,12 @@ TODO: Возможно нужен метод, который именно выб
   
   
   <a id="Platform_Data_Core_Doublets_LinksExtensions_EnsureLinkIsAnyOrExists_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.EnsureLinkIsAnyOrExists*"></a>
-  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_EnsureLinkIsAnyOrExists__1_Platform_Data_Core_Doublets_ILinks___0____0_System_String_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.EnsureLinkIsAnyOrExists``1(Platform.Data.Core.Doublets.ILinks{``0},``0,System.String)">EnsureLinkIsAnyOrExists&lt;TLink&gt;(ILinks&lt;TLink&gt;, TLink, String)</h4>
+  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_EnsureLinkIsAnyOrExists__1_Platform_Data_Core_Doublets_ILinks___0____0_System_String_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.EnsureLinkIsAnyOrExists``1(Platform.Data.Core.Doublets.ILinks{``0},``0,System.String)">EnsureLinkIsAnyOrExists&lt;T&gt;(ILinks&lt;T&gt;, T, String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void EnsureLinkIsAnyOrExists&lt;TLink&gt;(this ILinks&lt;TLink&gt; links, TLink link, string argumentName)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void EnsureLinkIsAnyOrExists&lt;T&gt;(this ILinks&lt;T&gt; links, T link, string argumentName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1543,12 +1543,12 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;TLink&gt;</td>
+        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;T&gt;</td>
         <td><span class="parametername">links</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><span class="parametername">link</span></td>
         <td></td>
       </tr>
@@ -1569,7 +1569,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TLink</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1577,12 +1577,12 @@ TODO: Возможно нужен метод, который именно выб
   
   
   <a id="Platform_Data_Core_Doublets_LinksExtensions_EnsureLinkIsAnyOrExists_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.EnsureLinkIsAnyOrExists*"></a>
-  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_EnsureLinkIsAnyOrExists__1_Platform_Data_Core_Doublets_ILinks___0__IList___0__" data-uid="Platform.Data.Core.Doublets.LinksExtensions.EnsureLinkIsAnyOrExists``1(Platform.Data.Core.Doublets.ILinks{``0},IList{``0})">EnsureLinkIsAnyOrExists&lt;TLink&gt;(ILinks&lt;TLink&gt;, IList&lt;TLink&gt;)</h4>
+  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_EnsureLinkIsAnyOrExists__1_Platform_Data_Core_Doublets_ILinks___0__IList___0__" data-uid="Platform.Data.Core.Doublets.LinksExtensions.EnsureLinkIsAnyOrExists``1(Platform.Data.Core.Doublets.ILinks{``0},IList{``0})">EnsureLinkIsAnyOrExists&lt;T&gt;(ILinks&lt;T&gt;, IList&lt;T&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void EnsureLinkIsAnyOrExists&lt;TLink&gt;(this ILinks&lt;TLink&gt; links, IList&lt;TLink&gt; restrictions)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void EnsureLinkIsAnyOrExists&lt;T&gt;(this ILinks&lt;T&gt; links, IList&lt;T&gt; restrictions)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1595,12 +1595,12 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;TLink&gt;</td>
+        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;T&gt;</td>
         <td><span class="parametername">links</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">IList</span>&lt;TLink&gt;</td>
+        <td><span class="xref">IList</span>&lt;T&gt;</td>
         <td><span class="parametername">restrictions</span></td>
         <td></td>
       </tr>
@@ -1616,7 +1616,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TLink</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1624,12 +1624,12 @@ TODO: Возможно нужен метод, который именно выб
   
   
   <a id="Platform_Data_Core_Doublets_LinksExtensions_EnsureLinkIsItselfOrExists_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.EnsureLinkIsItselfOrExists*"></a>
-  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_EnsureLinkIsItselfOrExists__1_Platform_Data_Core_Doublets_ILinks___0____0_System_String_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.EnsureLinkIsItselfOrExists``1(Platform.Data.Core.Doublets.ILinks{``0},``0,System.String)">EnsureLinkIsItselfOrExists&lt;TLink&gt;(ILinks&lt;TLink&gt;, TLink, String)</h4>
+  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_EnsureLinkIsItselfOrExists__1_Platform_Data_Core_Doublets_ILinks___0____0_System_String_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.EnsureLinkIsItselfOrExists``1(Platform.Data.Core.Doublets.ILinks{``0},``0,System.String)">EnsureLinkIsItselfOrExists&lt;T&gt;(ILinks&lt;T&gt;, T, String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void EnsureLinkIsItselfOrExists&lt;TLink&gt;(this ILinks&lt;TLink&gt; links, TLink link, string argumentName)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void EnsureLinkIsItselfOrExists&lt;T&gt;(this ILinks&lt;T&gt; links, T link, string argumentName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1642,12 +1642,12 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;TLink&gt;</td>
+        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;T&gt;</td>
         <td><span class="parametername">links</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><span class="parametername">link</span></td>
         <td></td>
       </tr>
@@ -1668,7 +1668,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TLink</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1676,12 +1676,12 @@ TODO: Возможно нужен метод, который именно выб
   
   
   <a id="Platform_Data_Core_Doublets_LinksExtensions_EnsureNoDependencies_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.EnsureNoDependencies*"></a>
-  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_EnsureNoDependencies__1_Platform_Data_Core_Doublets_ILinks___0____0_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.EnsureNoDependencies``1(Platform.Data.Core.Doublets.ILinks{``0},``0)">EnsureNoDependencies&lt;TLink&gt;(ILinks&lt;TLink&gt;, TLink)</h4>
+  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_EnsureNoDependencies__1_Platform_Data_Core_Doublets_ILinks___0____0_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.EnsureNoDependencies``1(Platform.Data.Core.Doublets.ILinks{``0},``0)">EnsureNoDependencies&lt;T&gt;(ILinks&lt;T&gt;, T)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void EnsureNoDependencies&lt;TLink&gt;(this ILinks&lt;TLink&gt; links, TLink link)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void EnsureNoDependencies&lt;T&gt;(this ILinks&lt;T&gt; links, T link)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1694,13 +1694,13 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;TLink&gt;</td>
+        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;T&gt;</td>
         <td><span class="parametername">links</span></td>
         <td><p>Хранилище связей.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><span class="parametername">link</span></td>
         <td></td>
       </tr>
@@ -1716,7 +1716,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TLink</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1724,12 +1724,12 @@ TODO: Возможно нужен метод, который именно выб
   
   
   <a id="Platform_Data_Core_Doublets_LinksExtensions_EnsurePointsCreated_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.EnsurePointsCreated*"></a>
-  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_EnsurePointsCreated__1_Platform_Data_Core_Doublets_ILinks___0____0___" data-uid="Platform.Data.Core.Doublets.LinksExtensions.EnsurePointsCreated``1(Platform.Data.Core.Doublets.ILinks{``0},``0[])">EnsurePointsCreated&lt;TLink&gt;(ILinks&lt;TLink&gt;, TLink[])</h4>
+  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_EnsurePointsCreated__1_Platform_Data_Core_Doublets_ILinks___0____0___" data-uid="Platform.Data.Core.Doublets.LinksExtensions.EnsurePointsCreated``1(Platform.Data.Core.Doublets.ILinks{``0},``0[])">EnsurePointsCreated&lt;T&gt;(ILinks&lt;T&gt;, T[])</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void EnsurePointsCreated&lt;TLink&gt;(this ILinks&lt;TLink&gt; links, params TLink[] addresses)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void EnsurePointsCreated&lt;T&gt;(this ILinks&lt;T&gt; links, params T[] addresses)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1742,13 +1742,13 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;TLink&gt;</td>
+        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;T&gt;</td>
         <td><span class="parametername">links</span></td>
         <td><p>Хранилище связей.</p>
 </td>
       </tr>
       <tr>
-        <td>TLink[]</td>
+        <td>T[]</td>
         <td><span class="parametername">addresses</span></td>
         <td></td>
       </tr>
@@ -1764,7 +1764,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TLink</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1772,12 +1772,12 @@ TODO: Возможно нужен метод, который именно выб
   
   
   <a id="Platform_Data_Core_Doublets_LinksExtensions_Equals_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.Equals*"></a>
-  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_Equals__1_Platform_Data_Core_Doublets_ILinks___0____0___0___0_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.Equals``1(Platform.Data.Core.Doublets.ILinks{``0},``0,``0,``0)">Equals&lt;TLink&gt;(ILinks&lt;TLink&gt;, TLink, TLink, TLink)</h4>
+  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_Equals__1_Platform_Data_Core_Doublets_ILinks___0____0___0___0_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.Equals``1(Platform.Data.Core.Doublets.ILinks{``0},``0,``0,``0)">Equals&lt;T&gt;(ILinks&lt;T&gt;, T, T, T)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool Equals&lt;TLink&gt;(this ILinks&lt;TLink&gt; links, TLink link, TLink source, TLink target)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool Equals&lt;T&gt;(this ILinks&lt;T&gt; links, T link, T source, T target)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1790,23 +1790,23 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;TLink&gt;</td>
+        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;T&gt;</td>
         <td><span class="parametername">links</span></td>
         <td><p>Хранилище связей.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><span class="parametername">link</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><span class="parametername">source</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><span class="parametername">target</span></td>
         <td></td>
       </tr>
@@ -1837,7 +1837,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TLink</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1845,13 +1845,13 @@ TODO: Возможно нужен метод, который именно выб
   
   
   <a id="Platform_Data_Core_Doublets_LinksExtensions_Exists_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.Exists*"></a>
-  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_Exists__1_Platform_Data_Core_Doublets_ILinks___0____0_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.Exists``1(Platform.Data.Core.Doublets.ILinks{``0},``0)">Exists&lt;TLink&gt;(ILinks&lt;TLink&gt;, TLink)</h4>
+  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_Exists__1_Platform_Data_Core_Doublets_ILinks___0____0_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.Exists``1(Platform.Data.Core.Doublets.ILinks{``0},``0)">Exists&lt;T&gt;(ILinks&lt;T&gt;, T)</h4>
   <div class="markdown level1 summary"><p>Возвращает значение, определяющее существует ли связь с указанным индексом в хранилище связей.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool Exists&lt;TLink&gt;(this ILinks&lt;TLink&gt; links, TLink link)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool Exists&lt;T&gt;(this ILinks&lt;T&gt; links, T link)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1864,13 +1864,13 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;TLink&gt;</td>
+        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;T&gt;</td>
         <td><span class="parametername">links</span></td>
         <td><p>Хранилище связей.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><span class="parametername">link</span></td>
         <td><p>Индекс проверяемой на существование связи.</p>
 </td>
@@ -1903,7 +1903,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TLink</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1911,13 +1911,13 @@ TODO: Возможно нужен метод, который именно выб
   
   
   <a id="Platform_Data_Core_Doublets_LinksExtensions_Exists_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.Exists*"></a>
-  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_Exists__1_Platform_Data_Core_Doublets_ILinks___0____0___0_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.Exists``1(Platform.Data.Core.Doublets.ILinks{``0},``0,``0)">Exists&lt;TLink&gt;(ILinks&lt;TLink&gt;, TLink, TLink)</h4>
+  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_Exists__1_Platform_Data_Core_Doublets_ILinks___0____0___0_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.Exists``1(Platform.Data.Core.Doublets.ILinks{``0},``0,``0)">Exists&lt;T&gt;(ILinks&lt;T&gt;, T, T)</h4>
   <div class="markdown level1 summary"><p>Возвращает значение, определяющее существует ли связь с указанными началом и концом в хранилище связей.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool Exists&lt;TLink&gt;(this ILinks&lt;TLink&gt; links, TLink source, TLink target)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool Exists&lt;T&gt;(this ILinks&lt;T&gt; links, T source, T target)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1930,19 +1930,19 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;TLink&gt;</td>
+        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;T&gt;</td>
         <td><span class="parametername">links</span></td>
         <td><p>Хранилище связей.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><span class="parametername">source</span></td>
         <td><p>Начало связи.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><span class="parametername">target</span></td>
         <td><p>Конец связи.</p>
 </td>
@@ -1975,7 +1975,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TLink</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -2169,12 +2169,12 @@ TODO: Возможно нужен метод, который именно выб
   
   
   <a id="Platform_Data_Core_Doublets_LinksExtensions_GetByKeys_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.GetByKeys*"></a>
-  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_GetByKeys__1_Platform_Data_Core_Doublets_ILinks___0____0_System_Int32___" data-uid="Platform.Data.Core.Doublets.LinksExtensions.GetByKeys``1(Platform.Data.Core.Doublets.ILinks{``0},``0,System.Int32[])">GetByKeys&lt;TLink&gt;(ILinks&lt;TLink&gt;, TLink, Int32[])</h4>
+  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_GetByKeys__1_Platform_Data_Core_Doublets_ILinks___0____0_System_Int32___" data-uid="Platform.Data.Core.Doublets.LinksExtensions.GetByKeys``1(Platform.Data.Core.Doublets.ILinks{``0},``0,System.Int32[])">GetByKeys&lt;T&gt;(ILinks&lt;T&gt;, T, Int32[])</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TLink GetByKeys&lt;TLink&gt;(this ILinks&lt;TLink&gt; links, TLink root, params int[] path)</code></pre>
+    <pre><code class="lang-csharp hljs">public static T GetByKeys&lt;T&gt;(this ILinks&lt;T&gt; links, T root, params int[] path)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2187,12 +2187,12 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;TLink&gt;</td>
+        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;T&gt;</td>
         <td><span class="parametername">links</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><span class="parametername">root</span></td>
         <td></td>
       </tr>
@@ -2213,7 +2213,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -2228,7 +2228,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TLink</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -2239,13 +2239,13 @@ TODO: Возможно нужен метод, который именно выб
   
   
   <a id="Platform_Data_Core_Doublets_LinksExtensions_GetIndex_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.GetIndex*"></a>
-  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_GetIndex__1_Platform_Data_Core_Doublets_ILinks___0__IList___0__" data-uid="Platform.Data.Core.Doublets.LinksExtensions.GetIndex``1(Platform.Data.Core.Doublets.ILinks{``0},IList{``0})">GetIndex&lt;TLink&gt;(ILinks&lt;TLink&gt;, IList&lt;TLink&gt;)</h4>
+  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_GetIndex__1_Platform_Data_Core_Doublets_ILinks___0__IList___0__" data-uid="Platform.Data.Core.Doublets.LinksExtensions.GetIndex``1(Platform.Data.Core.Doublets.ILinks{``0},IList{``0})">GetIndex&lt;T&gt;(ILinks&lt;T&gt;, IList&lt;T&gt;)</h4>
   <div class="markdown level1 summary"><p>Возвращает индекс указанной связи.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TLink GetIndex&lt;TLink&gt;(this ILinks&lt;TLink&gt; links, IList&lt;TLink&gt; link)</code></pre>
+    <pre><code class="lang-csharp hljs">public static T GetIndex&lt;T&gt;(this ILinks&lt;T&gt; links, IList&lt;T&gt; link)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2258,13 +2258,13 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;TLink&gt;</td>
+        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;T&gt;</td>
         <td><span class="parametername">links</span></td>
         <td><p>Хранилище связей.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">IList</span>&lt;TLink&gt;</td>
+        <td><span class="xref">IList</span>&lt;T&gt;</td>
         <td><span class="parametername">link</span></td>
         <td><p>Связь представленная списком, состоящим из её адреса и содержимого.</p>
 </td>
@@ -2281,7 +2281,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><p>Индекс начальной связи для указанной связи.</p>
 </td>
       </tr>
@@ -2297,7 +2297,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TLink</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -2371,13 +2371,13 @@ TODO: Возможно нужен метод, который именно выб
   
   
   <a id="Platform_Data_Core_Doublets_LinksExtensions_GetOrCreate_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.GetOrCreate*"></a>
-  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_GetOrCreate__1_Platform_Data_Core_Doublets_ILinks___0____0___0_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.GetOrCreate``1(Platform.Data.Core.Doublets.ILinks{``0},``0,``0)">GetOrCreate&lt;TLink&gt;(ILinks&lt;TLink&gt;, TLink, TLink)</h4>
+  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_GetOrCreate__1_Platform_Data_Core_Doublets_ILinks___0____0___0_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.GetOrCreate``1(Platform.Data.Core.Doublets.ILinks{``0},``0,``0)">GetOrCreate&lt;T&gt;(ILinks&lt;T&gt;, T, T)</h4>
   <div class="markdown level1 summary"><p>Создаёт связь (если она не существовала), либо возвращает индекс существующей связи с указанными Source (началом) и Target (концом).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TLink GetOrCreate&lt;TLink&gt;(this ILinks&lt;TLink&gt; links, TLink source, TLink target)</code></pre>
+    <pre><code class="lang-csharp hljs">public static T GetOrCreate&lt;T&gt;(this ILinks&lt;T&gt; links, T source, T target)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2390,19 +2390,19 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;TLink&gt;</td>
+        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;T&gt;</td>
         <td><span class="parametername">links</span></td>
         <td><p>Хранилище связей.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><span class="parametername">source</span></td>
         <td><p>Индекс связи, которая является началом на создаваемой связи.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><span class="parametername">target</span></td>
         <td><p>Индекс связи, которая является концом для создаваемой связи.</p>
 </td>
@@ -2419,7 +2419,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><p>Индекс связи, с указанным Source (началом) и Target (концом)</p>
 </td>
       </tr>
@@ -2435,7 +2435,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TLink</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -2443,13 +2443,13 @@ TODO: Возможно нужен метод, который именно выб
   
   
   <a id="Platform_Data_Core_Doublets_LinksExtensions_GetSource_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.GetSource*"></a>
-  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_GetSource__1_Platform_Data_Core_Doublets_ILinks___0____0_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.GetSource``1(Platform.Data.Core.Doublets.ILinks{``0},``0)">GetSource&lt;TLink&gt;(ILinks&lt;TLink&gt;, TLink)</h4>
+  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_GetSource__1_Platform_Data_Core_Doublets_ILinks___0____0_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.GetSource``1(Platform.Data.Core.Doublets.ILinks{``0},``0)">GetSource&lt;T&gt;(ILinks&lt;T&gt;, T)</h4>
   <div class="markdown level1 summary"><p>Возвращает индекс начальной (Source) связи для указанной связи.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TLink GetSource&lt;TLink&gt;(this ILinks&lt;TLink&gt; links, TLink link)</code></pre>
+    <pre><code class="lang-csharp hljs">public static T GetSource&lt;T&gt;(this ILinks&lt;T&gt; links, T link)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2462,13 +2462,13 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;TLink&gt;</td>
+        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;T&gt;</td>
         <td><span class="parametername">links</span></td>
         <td><p>Хранилище связей.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><span class="parametername">link</span></td>
         <td><p>Индекс связи.</p>
 </td>
@@ -2485,7 +2485,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><p>Индекс начальной связи для указанной связи.</p>
 </td>
       </tr>
@@ -2501,7 +2501,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TLink</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -2509,13 +2509,13 @@ TODO: Возможно нужен метод, который именно выб
   
   
   <a id="Platform_Data_Core_Doublets_LinksExtensions_GetSource_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.GetSource*"></a>
-  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_GetSource__1_Platform_Data_Core_Doublets_ILinks___0__IList___0__" data-uid="Platform.Data.Core.Doublets.LinksExtensions.GetSource``1(Platform.Data.Core.Doublets.ILinks{``0},IList{``0})">GetSource&lt;TLink&gt;(ILinks&lt;TLink&gt;, IList&lt;TLink&gt;)</h4>
+  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_GetSource__1_Platform_Data_Core_Doublets_ILinks___0__IList___0__" data-uid="Platform.Data.Core.Doublets.LinksExtensions.GetSource``1(Platform.Data.Core.Doublets.ILinks{``0},IList{``0})">GetSource&lt;T&gt;(ILinks&lt;T&gt;, IList&lt;T&gt;)</h4>
   <div class="markdown level1 summary"><p>Возвращает индекс начальной (Source) связи для указанной связи.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TLink GetSource&lt;TLink&gt;(this ILinks&lt;TLink&gt; links, IList&lt;TLink&gt; link)</code></pre>
+    <pre><code class="lang-csharp hljs">public static T GetSource&lt;T&gt;(this ILinks&lt;T&gt; links, IList&lt;T&gt; link)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2528,13 +2528,13 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;TLink&gt;</td>
+        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;T&gt;</td>
         <td><span class="parametername">links</span></td>
         <td><p>Хранилище связей.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">IList</span>&lt;TLink&gt;</td>
+        <td><span class="xref">IList</span>&lt;T&gt;</td>
         <td><span class="parametername">link</span></td>
         <td><p>Связь представленная списком, состоящим из её адреса и содержимого.</p>
 </td>
@@ -2551,7 +2551,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><p>Индекс начальной связи для указанной связи.</p>
 </td>
       </tr>
@@ -2567,7 +2567,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TLink</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -2575,12 +2575,12 @@ TODO: Возможно нужен метод, который именно выб
   
   
   <a id="Platform_Data_Core_Doublets_LinksExtensions_GetSquareMatrixSequenceElementByIndex_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.GetSquareMatrixSequenceElementByIndex*"></a>
-  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_GetSquareMatrixSequenceElementByIndex__1_Platform_Data_Core_Doublets_ILinks___0____0_System_UInt64_System_UInt64_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.GetSquareMatrixSequenceElementByIndex``1(Platform.Data.Core.Doublets.ILinks{``0},``0,System.UInt64,System.UInt64)">GetSquareMatrixSequenceElementByIndex&lt;TLink&gt;(ILinks&lt;TLink&gt;, TLink, UInt64, UInt64)</h4>
+  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_GetSquareMatrixSequenceElementByIndex__1_Platform_Data_Core_Doublets_ILinks___0____0_System_UInt64_System_UInt64_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.GetSquareMatrixSequenceElementByIndex``1(Platform.Data.Core.Doublets.ILinks{``0},``0,System.UInt64,System.UInt64)">GetSquareMatrixSequenceElementByIndex&lt;T&gt;(ILinks&lt;T&gt;, T, UInt64, UInt64)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TLink GetSquareMatrixSequenceElementByIndex&lt;TLink&gt;(this ILinks&lt;TLink&gt; links, TLink root, ulong size, ulong index)</code></pre>
+    <pre><code class="lang-csharp hljs">public static T GetSquareMatrixSequenceElementByIndex&lt;T&gt;(this ILinks&lt;T&gt; links, T root, ulong size, ulong index)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2593,12 +2593,12 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;TLink&gt;</td>
+        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;T&gt;</td>
         <td><span class="parametername">links</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><span class="parametername">root</span></td>
         <td></td>
       </tr>
@@ -2624,7 +2624,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -2639,7 +2639,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TLink</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -2647,13 +2647,13 @@ TODO: Возможно нужен метод, который именно выб
   
   
   <a id="Platform_Data_Core_Doublets_LinksExtensions_GetTarget_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.GetTarget*"></a>
-  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_GetTarget__1_Platform_Data_Core_Doublets_ILinks___0____0_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.GetTarget``1(Platform.Data.Core.Doublets.ILinks{``0},``0)">GetTarget&lt;TLink&gt;(ILinks&lt;TLink&gt;, TLink)</h4>
+  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_GetTarget__1_Platform_Data_Core_Doublets_ILinks___0____0_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.GetTarget``1(Platform.Data.Core.Doublets.ILinks{``0},``0)">GetTarget&lt;T&gt;(ILinks&lt;T&gt;, T)</h4>
   <div class="markdown level1 summary"><p>Возвращает индекс конечной (Target) связи для указанной связи.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TLink GetTarget&lt;TLink&gt;(this ILinks&lt;TLink&gt; links, TLink link)</code></pre>
+    <pre><code class="lang-csharp hljs">public static T GetTarget&lt;T&gt;(this ILinks&lt;T&gt; links, T link)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2666,13 +2666,13 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;TLink&gt;</td>
+        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;T&gt;</td>
         <td><span class="parametername">links</span></td>
         <td><p>Хранилище связей.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><span class="parametername">link</span></td>
         <td><p>Индекс связи.</p>
 </td>
@@ -2689,7 +2689,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><p>Индекс конечной связи для указанной связи.</p>
 </td>
       </tr>
@@ -2705,7 +2705,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TLink</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -2713,13 +2713,13 @@ TODO: Возможно нужен метод, который именно выб
   
   
   <a id="Platform_Data_Core_Doublets_LinksExtensions_GetTarget_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.GetTarget*"></a>
-  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_GetTarget__1_Platform_Data_Core_Doublets_ILinks___0__IList___0__" data-uid="Platform.Data.Core.Doublets.LinksExtensions.GetTarget``1(Platform.Data.Core.Doublets.ILinks{``0},IList{``0})">GetTarget&lt;TLink&gt;(ILinks&lt;TLink&gt;, IList&lt;TLink&gt;)</h4>
+  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_GetTarget__1_Platform_Data_Core_Doublets_ILinks___0__IList___0__" data-uid="Platform.Data.Core.Doublets.LinksExtensions.GetTarget``1(Platform.Data.Core.Doublets.ILinks{``0},IList{``0})">GetTarget&lt;T&gt;(ILinks&lt;T&gt;, IList&lt;T&gt;)</h4>
   <div class="markdown level1 summary"><p>Возвращает индекс конечной (Target) связи для указанной связи.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TLink GetTarget&lt;TLink&gt;(this ILinks&lt;TLink&gt; links, IList&lt;TLink&gt; link)</code></pre>
+    <pre><code class="lang-csharp hljs">public static T GetTarget&lt;T&gt;(this ILinks&lt;T&gt; links, IList&lt;T&gt; link)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2732,13 +2732,13 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;TLink&gt;</td>
+        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;T&gt;</td>
         <td><span class="parametername">links</span></td>
         <td><p>Хранилище связей.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">IList</span>&lt;TLink&gt;</td>
+        <td><span class="xref">IList</span>&lt;T&gt;</td>
         <td><span class="parametername">link</span></td>
         <td><p>Связь представленная списком, состоящим из её адреса и содержимого.</p>
 </td>
@@ -2755,7 +2755,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><p>Индекс конечной связи для указанной связи.</p>
 </td>
       </tr>
@@ -2771,7 +2771,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TLink</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -2841,12 +2841,12 @@ TODO: Возможно нужен метод, который именно выб
   
   
   <a id="Platform_Data_Core_Doublets_LinksExtensions_IsInnerReference_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.IsInnerReference*"></a>
-  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_IsInnerReference__1_Platform_Data_Core_Doublets_ILinks___0____0_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.IsInnerReference``1(Platform.Data.Core.Doublets.ILinks{``0},``0)">IsInnerReference&lt;TLink&gt;(ILinks&lt;TLink&gt;, TLink)</h4>
+  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_IsInnerReference__1_Platform_Data_Core_Doublets_ILinks___0____0_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.IsInnerReference``1(Platform.Data.Core.Doublets.ILinks{``0},``0)">IsInnerReference&lt;T&gt;(ILinks&lt;T&gt;, T)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsInnerReference&lt;TLink&gt;(this ILinks&lt;TLink&gt; links, TLink reference)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool IsInnerReference&lt;T&gt;(this ILinks&lt;T&gt; links, T reference)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2859,12 +2859,12 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;TLink&gt;</td>
+        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;T&gt;</td>
         <td><span class="parametername">links</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><span class="parametername">reference</span></td>
         <td></td>
       </tr>
@@ -2895,7 +2895,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TLink</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -2973,12 +2973,12 @@ TODO: Возможно нужен метод, который именно выб
   
   
   <a id="Platform_Data_Core_Doublets_LinksExtensions_Merge_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.Merge*"></a>
-  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_Merge__1_Platform_Data_Core_Doublets_ILinks___0____0___0_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.Merge``1(Platform.Data.Core.Doublets.ILinks{``0},``0,``0)">Merge&lt;TLink&gt;(ILinks&lt;TLink&gt;, TLink, TLink)</h4>
+  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_Merge__1_Platform_Data_Core_Doublets_ILinks___0____0___0_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.Merge``1(Platform.Data.Core.Doublets.ILinks{``0},``0,``0)">Merge&lt;T&gt;(ILinks&lt;T&gt;, T, T)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TLink Merge&lt;TLink&gt;(this ILinks&lt;TLink&gt; links, TLink linkIndex, TLink newLink)</code></pre>
+    <pre><code class="lang-csharp hljs">public static T Merge&lt;T&gt;(this ILinks&lt;T&gt; links, T linkIndex, T newLink)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2991,17 +2991,17 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;TLink&gt;</td>
+        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;T&gt;</td>
         <td><span class="parametername">links</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><span class="parametername">linkIndex</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><span class="parametername">newLink</span></td>
         <td></td>
       </tr>
@@ -3017,7 +3017,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -3032,7 +3032,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TLink</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -3040,12 +3040,12 @@ TODO: Возможно нужен метод, который именно выб
   
   
   <a id="Platform_Data_Core_Doublets_LinksExtensions_RunRandomCreations_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.RunRandomCreations*"></a>
-  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_RunRandomCreations__1_Platform_Data_Core_Doublets_ILinks___0__System_Int64_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.RunRandomCreations``1(Platform.Data.Core.Doublets.ILinks{``0},System.Int64)">RunRandomCreations&lt;TLink&gt;(ILinks&lt;TLink&gt;, Int64)</h4>
+  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_RunRandomCreations__1_Platform_Data_Core_Doublets_ILinks___0__System_Int64_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.RunRandomCreations``1(Platform.Data.Core.Doublets.ILinks{``0},System.Int64)">RunRandomCreations&lt;T&gt;(ILinks&lt;T&gt;, Int64)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void RunRandomCreations&lt;TLink&gt;(this ILinks&lt;TLink&gt; links, long amountOfCreations)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void RunRandomCreations&lt;T&gt;(this ILinks&lt;T&gt; links, long amountOfCreations)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -3058,7 +3058,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;TLink&gt;</td>
+        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;T&gt;</td>
         <td><span class="parametername">links</span></td>
         <td></td>
       </tr>
@@ -3079,7 +3079,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TLink</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -3087,12 +3087,12 @@ TODO: Возможно нужен метод, который именно выб
   
   
   <a id="Platform_Data_Core_Doublets_LinksExtensions_RunRandomDeletions_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.RunRandomDeletions*"></a>
-  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_RunRandomDeletions__1_Platform_Data_Core_Doublets_ILinks___0__System_Int64_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.RunRandomDeletions``1(Platform.Data.Core.Doublets.ILinks{``0},System.Int64)">RunRandomDeletions&lt;TLink&gt;(ILinks&lt;TLink&gt;, Int64)</h4>
+  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_RunRandomDeletions__1_Platform_Data_Core_Doublets_ILinks___0__System_Int64_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.RunRandomDeletions``1(Platform.Data.Core.Doublets.ILinks{``0},System.Int64)">RunRandomDeletions&lt;T&gt;(ILinks&lt;T&gt;, Int64)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void RunRandomDeletions&lt;TLink&gt;(this ILinks&lt;TLink&gt; links, long amountOfDeletions)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void RunRandomDeletions&lt;T&gt;(this ILinks&lt;T&gt; links, long amountOfDeletions)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -3105,7 +3105,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;TLink&gt;</td>
+        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;T&gt;</td>
         <td><span class="parametername">links</span></td>
         <td></td>
       </tr>
@@ -3126,7 +3126,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TLink</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -3134,12 +3134,12 @@ TODO: Возможно нужен метод, который именно выб
   
   
   <a id="Platform_Data_Core_Doublets_LinksExtensions_RunRandomSearches_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.RunRandomSearches*"></a>
-  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_RunRandomSearches__1_Platform_Data_Core_Doublets_ILinks___0__System_Int64_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.RunRandomSearches``1(Platform.Data.Core.Doublets.ILinks{``0},System.Int64)">RunRandomSearches&lt;TLink&gt;(ILinks&lt;TLink&gt;, Int64)</h4>
+  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_RunRandomSearches__1_Platform_Data_Core_Doublets_ILinks___0__System_Int64_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.RunRandomSearches``1(Platform.Data.Core.Doublets.ILinks{``0},System.Int64)">RunRandomSearches&lt;T&gt;(ILinks&lt;T&gt;, Int64)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void RunRandomSearches&lt;TLink&gt;(this ILinks&lt;TLink&gt; links, long amountOfSearches)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void RunRandomSearches&lt;T&gt;(this ILinks&lt;T&gt; links, long amountOfSearches)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -3152,7 +3152,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;TLink&gt;</td>
+        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;T&gt;</td>
         <td><span class="parametername">links</span></td>
         <td></td>
       </tr>
@@ -3173,7 +3173,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TLink</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -3181,13 +3181,13 @@ TODO: Возможно нужен метод, который именно выб
   
   
   <a id="Platform_Data_Core_Doublets_LinksExtensions_SearchOrDefault_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.SearchOrDefault*"></a>
-  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_SearchOrDefault__1_Platform_Data_Core_Doublets_ILinks___0____0___0_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.SearchOrDefault``1(Platform.Data.Core.Doublets.ILinks{``0},``0,``0)">SearchOrDefault&lt;TLink&gt;(ILinks&lt;TLink&gt;, TLink, TLink)</h4>
+  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_SearchOrDefault__1_Platform_Data_Core_Doublets_ILinks___0____0___0_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.SearchOrDefault``1(Platform.Data.Core.Doublets.ILinks{``0},``0,``0)">SearchOrDefault&lt;T&gt;(ILinks&lt;T&gt;, T, T)</h4>
   <div class="markdown level1 summary"><p>Выполняет поиск связи с указанными Source (началом) и Target (концом).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TLink SearchOrDefault&lt;TLink&gt;(this ILinks&lt;TLink&gt; links, TLink source, TLink target)</code></pre>
+    <pre><code class="lang-csharp hljs">public static T SearchOrDefault&lt;T&gt;(this ILinks&lt;T&gt; links, T source, T target)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -3200,19 +3200,19 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;TLink&gt;</td>
+        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;T&gt;</td>
         <td><span class="parametername">links</span></td>
         <td><p>Хранилище связей.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><span class="parametername">source</span></td>
         <td><p>Индекс связи, которая является началом для искомой связи.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><span class="parametername">target</span></td>
         <td><p>Индекс связи, которая является концом для искомой связи.</p>
 </td>
@@ -3229,7 +3229,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><p>Индекс искомой связи с указанными Source (началом) и Target (концом).</p>
 </td>
       </tr>
@@ -3245,7 +3245,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TLink</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -3399,14 +3399,14 @@ TODO: Возможно нужен метод, который именно выб
   
   
   <a id="Platform_Data_Core_Doublets_LinksExtensions_UpdateOrCreateOrGet_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.UpdateOrCreateOrGet*"></a>
-  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_UpdateOrCreateOrGet__1_Platform_Data_Core_Doublets_ILinks___0____0___0___0___0_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.UpdateOrCreateOrGet``1(Platform.Data.Core.Doublets.ILinks{``0},``0,``0,``0,``0)">UpdateOrCreateOrGet&lt;TLink&gt;(ILinks&lt;TLink&gt;, TLink, TLink, TLink, TLink)</h4>
+  <h4 id="Platform_Data_Core_Doublets_LinksExtensions_UpdateOrCreateOrGet__1_Platform_Data_Core_Doublets_ILinks___0____0___0___0___0_" data-uid="Platform.Data.Core.Doublets.LinksExtensions.UpdateOrCreateOrGet``1(Platform.Data.Core.Doublets.ILinks{``0},``0,``0,``0,``0)">UpdateOrCreateOrGet&lt;T&gt;(ILinks&lt;T&gt;, T, T, T, T)</h4>
   <div class="markdown level1 summary"><p>Обновляет связь с указанными началом (Source) и концом (Target)
 на связь с указанными началом (NewSource) и концом (NewTarget).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TLink UpdateOrCreateOrGet&lt;TLink&gt;(this ILinks&lt;TLink&gt; links, TLink source, TLink target, TLink newSource, TLink newTarget)</code></pre>
+    <pre><code class="lang-csharp hljs">public static T UpdateOrCreateOrGet&lt;T&gt;(this ILinks&lt;T&gt; links, T source, T target, T newSource, T newTarget)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -3419,31 +3419,31 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;TLink&gt;</td>
+        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;T&gt;</td>
         <td><span class="parametername">links</span></td>
         <td><p>Хранилище связей.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><span class="parametername">source</span></td>
         <td><p>Индекс связи, которая является началом обновляемой связи.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><span class="parametername">target</span></td>
         <td><p>Индекс связи, которая является концом обновляемой связи.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><span class="parametername">newSource</span></td>
         <td><p>Индекс связи, которая является началом связи, на которую выполняется обновление.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><span class="parametername">newTarget</span></td>
         <td><p>Индекс связи, которая является концом связи, на которую выполняется обновление.</p>
 </td>
@@ -3460,7 +3460,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TLink</span></td>
+        <td><span class="xref">T</span></td>
         <td><p>Индекс обновлённой связи.</p>
 </td>
       </tr>
@@ -3476,7 +3476,7 @@ TODO: Возможно нужен метод, который именно выб
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TLink</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>

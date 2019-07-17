@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ConcurrentQueueExtensions
+    <title>Class AllSegmentsWalkerBase&lt;T&gt;
    | LinksPlatform </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ConcurrentQueueExtensions
+    <meta name="title" content="Class AllSegmentsWalkerBase&lt;T&gt;
    | LinksPlatform ">
     <meta name="generator" content="docfx 2.43.2.0">
     
@@ -78,20 +78,33 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Platform.Helpers.Threading.ConcurrentQueueExtensions">
+            <article class="content wrap" id="_content" data-uid="Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase`1">
   
   
-  <h1 id="Platform_Helpers_Threading_ConcurrentQueueExtensions" data-uid="Platform.Helpers.Threading.ConcurrentQueueExtensions" class="text-break">Class ConcurrentQueueExtensions
+  <h1 id="Platform_Helpers_Collections_Segments_Walkers_AllSegmentsWalkerBase_1" data-uid="Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase`1" class="text-break">Class AllSegmentsWalkerBase&lt;T&gt;
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">ConcurrentQueueExtensions</span></div>
+    <div class="level1"><a class="xref" href="Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase-2.html">AllSegmentsWalkerBase</a>&lt;T, <a class="xref" href="Platform.Helpers.Collections.Segments.Segment-1.html">Segment</a>&lt;T&gt;&gt;</div>
+    <div class="level2"><span class="xref">AllSegmentsWalkerBase&lt;T&gt;</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase-2.html#Platform_Helpers_Collections_Segments_Walkers_AllSegmentsWalkerBase_2_DefaultMinimumStringSegmentLength">AllSegmentsWalkerBase&lt;T, Segment&lt;T&gt;&gt;.DefaultMinimumStringSegmentLength</a>
+    </div>
+    <div>
+      <a class="xref" href="Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase-2.html#Platform_Helpers_Collections_Segments_Walkers_AllSegmentsWalkerBase_2_WalkAll_IList__0__">AllSegmentsWalkerBase&lt;T, Segment&lt;T&gt;&gt;.WalkAll(IList&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase-2.html#Platform_Helpers_Collections_Segments_Walkers_AllSegmentsWalkerBase_2_CreateSegment_IList__0__System_Int32_System_Int32_">AllSegmentsWalkerBase&lt;T, Segment&lt;T&gt;&gt;.CreateSegment(IList&lt;T&gt;, Int32, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase-2.html#Platform_Helpers_Collections_Segments_Walkers_AllSegmentsWalkerBase_2_Iteration__1_">AllSegmentsWalkerBase&lt;T, Segment&lt;T&gt;&gt;.Iteration(Segment&lt;T&gt;)</a>
+    </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
@@ -114,23 +127,38 @@
       <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Platform.Helpers.Threading.html">Platform.Helpers.Threading</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Platform.Helpers.Collections.Segments.Walkers.html">Platform.Helpers.Collections.Segments.Walkers</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Platform_Helpers_Threading_ConcurrentQueueExtensions_syntax">Syntax</h5>
+  <h5 id="Platform_Helpers_Collections_Segments_Walkers_AllSegmentsWalkerBase_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class ConcurrentQueueExtensions</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class AllSegmentsWalkerBase&lt;T&gt; : AllSegmentsWalkerBase&lt;T, Segment&lt;T&gt;&gt;</code></pre>
   </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Platform_Helpers_Threading_ConcurrentQueueExtensions_AwaitAll_" data-uid="Platform.Helpers.Threading.ConcurrentQueueExtensions.AwaitAll*"></a>
-  <h4 id="Platform_Helpers_Threading_ConcurrentQueueExtensions_AwaitAll_ConcurrentQueue_Task__" data-uid="Platform.Helpers.Threading.ConcurrentQueueExtensions.AwaitAll(ConcurrentQueue{Task})">AwaitAll(ConcurrentQueue&lt;Task&gt;)</h4>
+  <a id="Platform_Helpers_Collections_Segments_Walkers_AllSegmentsWalkerBase_1_CreateSegment_" data-uid="Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase`1.CreateSegment*"></a>
+  <h4 id="Platform_Helpers_Collections_Segments_Walkers_AllSegmentsWalkerBase_1_CreateSegment_IList__0__System_Int32_System_Int32_" data-uid="Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase`1.CreateSegment(IList{`0},System.Int32,System.Int32)">CreateSegment(IList&lt;T&gt;, Int32, Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Task AwaitAll(this ConcurrentQueue&lt;Task&gt; queue)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override Segment&lt;T&gt; CreateSegment(IList&lt;T&gt; elements, int offset, int length)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -143,8 +171,18 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ConcurrentQueue</span>&lt;<span class="xref">Task</span>&gt;</td>
-        <td><span class="parametername">queue</span></td>
+        <td><span class="xref">IList</span>&lt;T&gt;</td>
+        <td><span class="parametername">elements</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">offset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">length</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -159,85 +197,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Task</span></td>
+        <td><a class="xref" href="Platform.Helpers.Collections.Segments.Segment-1.html">Segment</a>&lt;T&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="Platform_Helpers_Threading_ConcurrentQueueExtensions_AwaitOne_" data-uid="Platform.Helpers.Threading.ConcurrentQueueExtensions.AwaitOne*"></a>
-  <h4 id="Platform_Helpers_Threading_ConcurrentQueueExtensions_AwaitOne_ConcurrentQueue_Task__" data-uid="Platform.Helpers.Threading.ConcurrentQueueExtensions.AwaitOne(ConcurrentQueue{Task})">AwaitOne(ConcurrentQueue&lt;Task&gt;)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Task AwaitOne(this ConcurrentQueue&lt;Task&gt; queue)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ConcurrentQueue</span>&lt;<span class="xref">Task</span>&gt;</td>
-        <td><span class="parametername">queue</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Task</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Platform_Helpers_Threading_ConcurrentQueueExtensions_EnqueueAsRunnedTask_" data-uid="Platform.Helpers.Threading.ConcurrentQueueExtensions.EnqueueAsRunnedTask*"></a>
-  <h4 id="Platform_Helpers_Threading_ConcurrentQueueExtensions_EnqueueAsRunnedTask_ConcurrentQueue_Task__Action_" data-uid="Platform.Helpers.Threading.ConcurrentQueueExtensions.EnqueueAsRunnedTask(ConcurrentQueue{Task},Action)">EnqueueAsRunnedTask(ConcurrentQueue&lt;Task&gt;, Action)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void EnqueueAsRunnedTask(this ConcurrentQueue&lt;Task&gt; queue, Action action)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ConcurrentQueue</span>&lt;<span class="xref">Task</span>&gt;</td>
-        <td><span class="parametername">queue</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Action</span></td>
-        <td><span class="parametername">action</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Platform.Helpers.Collections.Segments.Walkers.AllSegmentsWalkerBase&lt;T, Platform.Helpers.Collections.Segments.Segment&lt;T&gt;&gt;.CreateSegment(IList&lt;T&gt;, System.Int32, System.Int32)</span></div>
 </article>
           </div>
           

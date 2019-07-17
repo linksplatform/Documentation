@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class LinksSelfReferenceResolver&lt;T&gt;
+    <title>Class ConcurrentQueueExtensions
    | LinksPlatform </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class LinksSelfReferenceResolver&lt;T&gt;
+    <meta name="title" content="Class ConcurrentQueueExtensions
    | LinksPlatform ">
     <meta name="generator" content="docfx 2.43.2.0">
     
@@ -78,40 +78,20 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Platform.Data.Core.Doublets.LinksSelfReferenceResolver`1">
+            <article class="content wrap" id="_content" data-uid="Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions">
   
   
-  <h1 id="Platform_Data_Core_Doublets_LinksSelfReferenceResolver_1" data-uid="Platform.Data.Core.Doublets.LinksSelfReferenceResolver`1" class="text-break">Class LinksSelfReferenceResolver&lt;T&gt;
+  <h1 id="Platform_Helpers_Collections_Concurrent_ConcurrentQueueExtensions" data-uid="Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions" class="text-break">Class ConcurrentQueueExtensions
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="Platform.Data.Core.Doublets.LinksDecoratorBase-1.html">LinksDecoratorBase</a>&lt;T&gt;</div>
-    <div class="level2"><span class="xref">LinksSelfReferenceResolver&lt;T&gt;</span></div>
-  </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;T&gt;</div>
+    <div class="level1"><span class="xref">ConcurrentQueueExtensions</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="Platform.Data.Core.Doublets.LinksDecoratorBase-1.html#Platform_Data_Core_Doublets_LinksDecoratorBase_1_Constants">LinksDecoratorBase&lt;T&gt;.Constants</a>
-    </div>
-    <div>
-      <a class="xref" href="Platform.Data.Core.Doublets.LinksDecoratorBase-1.html#Platform_Data_Core_Doublets_LinksDecoratorBase_1_Links">LinksDecoratorBase&lt;T&gt;.Links</a>
-    </div>
-    <div>
-      <a class="xref" href="Platform.Data.Core.Doublets.LinksDecoratorBase-1.html#Platform_Data_Core_Doublets_LinksDecoratorBase_1_Count_IList__0__">LinksDecoratorBase&lt;T&gt;.Count(IList&lt;T&gt;)</a>
-    </div>
-    <div>
-      <a class="xref" href="Platform.Data.Core.Doublets.LinksDecoratorBase-1.html#Platform_Data_Core_Doublets_LinksDecoratorBase_1_Create">LinksDecoratorBase&lt;T&gt;.Create()</a>
-    </div>
-    <div>
-      <a class="xref" href="Platform.Data.Core.Doublets.LinksDecoratorBase-1.html#Platform_Data_Core_Doublets_LinksDecoratorBase_1_Delete__0_">LinksDecoratorBase&lt;T&gt;.Delete(T)</a>
-    </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
@@ -134,12 +114,140 @@
       <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Platform.Data.Core.Doublets.html">Platform.Data.Core.Doublets</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Platform.Helpers.Collections.Concurrent.html">Platform.Helpers.Collections.Concurrent</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Platform_Data_Core_Doublets_LinksSelfReferenceResolver_1_syntax">Syntax</h5>
+  <h5 id="Platform_Helpers_Collections_Concurrent_ConcurrentQueueExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class LinksSelfReferenceResolver&lt;T&gt; : LinksDecoratorBase&lt;T&gt;, ILinks&lt;T&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public static class ConcurrentQueueExtensions</code></pre>
   </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Platform_Helpers_Collections_Concurrent_ConcurrentQueueExtensions_AwaitAll_" data-uid="Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions.AwaitAll*"></a>
+  <h4 id="Platform_Helpers_Collections_Concurrent_ConcurrentQueueExtensions_AwaitAll_ConcurrentQueue_Task__" data-uid="Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions.AwaitAll(ConcurrentQueue{Task})">AwaitAll(ConcurrentQueue&lt;Task&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task AwaitAll(this ConcurrentQueue&lt;Task&gt; queue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ConcurrentQueue</span>&lt;<span class="xref">Task</span>&gt;</td>
+        <td><span class="parametername">queue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Platform_Helpers_Collections_Concurrent_ConcurrentQueueExtensions_AwaitOne_" data-uid="Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions.AwaitOne*"></a>
+  <h4 id="Platform_Helpers_Collections_Concurrent_ConcurrentQueueExtensions_AwaitOne_ConcurrentQueue_Task__" data-uid="Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions.AwaitOne(ConcurrentQueue{Task})">AwaitOne(ConcurrentQueue&lt;Task&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task AwaitOne(this ConcurrentQueue&lt;Task&gt; queue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ConcurrentQueue</span>&lt;<span class="xref">Task</span>&gt;</td>
+        <td><span class="parametername">queue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Platform_Helpers_Collections_Concurrent_ConcurrentQueueExtensions_DequeueAll_" data-uid="Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions.DequeueAll*"></a>
+  <h4 id="Platform_Helpers_Collections_Concurrent_ConcurrentQueueExtensions_DequeueAll__1_ConcurrentQueue___0__" data-uid="Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions.DequeueAll``1(ConcurrentQueue{``0})">DequeueAll&lt;T&gt;(ConcurrentQueue&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; DequeueAll&lt;T&gt;(this ConcurrentQueue&lt;T&gt; queue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ConcurrentQueue</span>&lt;T&gt;</td>
+        <td><span class="parametername">queue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -155,17 +263,15 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="constructors">Constructors
-  </h3>
   
   
-  <a id="Platform_Data_Core_Doublets_LinksSelfReferenceResolver_1__ctor_" data-uid="Platform.Data.Core.Doublets.LinksSelfReferenceResolver`1.#ctor*"></a>
-  <h4 id="Platform_Data_Core_Doublets_LinksSelfReferenceResolver_1__ctor_Platform_Data_Core_Doublets_ILinks__0__" data-uid="Platform.Data.Core.Doublets.LinksSelfReferenceResolver`1.#ctor(Platform.Data.Core.Doublets.ILinks{`0})">LinksSelfReferenceResolver(ILinks&lt;T&gt;)</h4>
+  <a id="Platform_Helpers_Collections_Concurrent_ConcurrentQueueExtensions_EnqueueAsRunnedTask_" data-uid="Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions.EnqueueAsRunnedTask*"></a>
+  <h4 id="Platform_Helpers_Collections_Concurrent_ConcurrentQueueExtensions_EnqueueAsRunnedTask_ConcurrentQueue_Task__Action_" data-uid="Platform.Helpers.Collections.Concurrent.ConcurrentQueueExtensions.EnqueueAsRunnedTask(ConcurrentQueue{Task},Action)">EnqueueAsRunnedTask(ConcurrentQueue&lt;Task&gt;, Action)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LinksSelfReferenceResolver(ILinks&lt;T&gt; links)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void EnqueueAsRunnedTask(this ConcurrentQueue&lt;Task&gt; queue, Action action)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -178,111 +284,17 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks</a>&lt;T&gt;</td>
-        <td><span class="parametername">links</span></td>
+        <td><span class="xref">ConcurrentQueue</span>&lt;<span class="xref">Task</span>&gt;</td>
+        <td><span class="parametername">queue</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span></td>
+        <td><span class="parametername">action</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-  </h3>
-  
-  
-  <a id="Platform_Data_Core_Doublets_LinksSelfReferenceResolver_1_Each_" data-uid="Platform.Data.Core.Doublets.LinksSelfReferenceResolver`1.Each*"></a>
-  <h4 id="Platform_Data_Core_Doublets_LinksSelfReferenceResolver_1_Each_Func_IList__0___0__IList__0__" data-uid="Platform.Data.Core.Doublets.LinksSelfReferenceResolver`1.Each(Func{IList{`0},`0},IList{`0})">Each(Func&lt;IList&lt;T&gt;, T&gt;, IList&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override T Each(Func&lt;IList&lt;T&gt;, T&gt; handler, IList&lt;T&gt; restrictions)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Func</span>&lt;<span class="xref">IList</span>&lt;T&gt;, T&gt;</td>
-        <td><span class="parametername">handler</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">IList</span>&lt;T&gt;</td>
-        <td><span class="parametername">restrictions</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Platform.Data.Core.Doublets.LinksDecoratorBase&lt;T&gt;.Each(Func&lt;IList&lt;T&gt;, T&gt;, IList&lt;T&gt;)</span></div>
-  
-  
-  <a id="Platform_Data_Core_Doublets_LinksSelfReferenceResolver_1_Update_" data-uid="Platform.Data.Core.Doublets.LinksSelfReferenceResolver`1.Update*"></a>
-  <h4 id="Platform_Data_Core_Doublets_LinksSelfReferenceResolver_1_Update_IList__0__" data-uid="Platform.Data.Core.Doublets.LinksSelfReferenceResolver`1.Update(IList{`0})">Update(IList&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override T Update(IList&lt;T&gt; restrictions)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IList</span>&lt;T&gt;</td>
-        <td><span class="parametername">restrictions</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Platform.Data.Core.Doublets.LinksDecoratorBase&lt;T&gt;.Update(IList&lt;T&gt;)</span></div>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="Platform.Data.Core.Doublets.ILinks-1.html">ILinks&lt;TLink&gt;</a>
-  </div>
 </article>
           </div>
           
