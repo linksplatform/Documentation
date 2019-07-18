@@ -17462,6 +17462,24 @@ references:
   commentId: T:Platform.Helpers.Threading.ThreadHelpers
   fullName: Platform.Helpers.Threading.ThreadHelpers
   nameWithType: ThreadHelpers
+- uid: Platform.Helpers.Threading.ThreadHelpers.DefaultMaxStackSize
+  name: DefaultMaxStackSize
+  href: api/Platform.Helpers.Threading.ThreadHelpers.html#Platform_Helpers_Threading_ThreadHelpers_DefaultMaxStackSize
+  commentId: F:Platform.Helpers.Threading.ThreadHelpers.DefaultMaxStackSize
+  fullName: Platform.Helpers.Threading.ThreadHelpers.DefaultMaxStackSize
+  nameWithType: ThreadHelpers.DefaultMaxStackSize
+- uid: Platform.Helpers.Threading.ThreadHelpers.DefaultSleepTimeout
+  name: DefaultSleepTimeout
+  href: api/Platform.Helpers.Threading.ThreadHelpers.html#Platform_Helpers_Threading_ThreadHelpers_DefaultSleepTimeout
+  commentId: F:Platform.Helpers.Threading.ThreadHelpers.DefaultSleepTimeout
+  fullName: Platform.Helpers.Threading.ThreadHelpers.DefaultSleepTimeout
+  nameWithType: ThreadHelpers.DefaultSleepTimeout
+- uid: Platform.Helpers.Threading.ThreadHelpers.ExtendedMaxStackSize
+  name: ExtendedMaxStackSize
+  href: api/Platform.Helpers.Threading.ThreadHelpers.html#Platform_Helpers_Threading_ThreadHelpers_ExtendedMaxStackSize
+  commentId: F:Platform.Helpers.Threading.ThreadHelpers.ExtendedMaxStackSize
+  fullName: Platform.Helpers.Threading.ThreadHelpers.ExtendedMaxStackSize
+  nameWithType: ThreadHelpers.ExtendedMaxStackSize
 - uid: Platform.Helpers.Threading.ThreadHelpers.Sleep
   name: Sleep()
   href: api/Platform.Helpers.Threading.ThreadHelpers.html#Platform_Helpers_Threading_ThreadHelpers_Sleep
@@ -17475,12 +17493,12 @@ references:
   isSpec: "True"
   fullName: Platform.Helpers.Threading.ThreadHelpers.Sleep
   nameWithType: ThreadHelpers.Sleep
-- uid: Platform.Helpers.Threading.ThreadHelpers.StartNew(Action)
-  name: StartNew(Action)
-  href: api/Platform.Helpers.Threading.ThreadHelpers.html#Platform_Helpers_Threading_ThreadHelpers_StartNew_Action_
-  commentId: M:Platform.Helpers.Threading.ThreadHelpers.StartNew(Action)
-  fullName: Platform.Helpers.Threading.ThreadHelpers.StartNew(Action)
-  nameWithType: ThreadHelpers.StartNew(Action)
+- uid: Platform.Helpers.Threading.ThreadHelpers.StartNew(Action,System.Int32)
+  name: StartNew(Action, Int32)
+  href: api/Platform.Helpers.Threading.ThreadHelpers.html#Platform_Helpers_Threading_ThreadHelpers_StartNew_Action_System_Int32_
+  commentId: M:Platform.Helpers.Threading.ThreadHelpers.StartNew(Action,System.Int32)
+  fullName: Platform.Helpers.Threading.ThreadHelpers.StartNew(Action, System.Int32)
+  nameWithType: ThreadHelpers.StartNew(Action, Int32)
 - uid: Platform.Helpers.Threading.ThreadHelpers.StartNew*
   name: StartNew
   href: api/Platform.Helpers.Threading.ThreadHelpers.html#Platform_Helpers_Threading_ThreadHelpers_StartNew_
@@ -17488,15 +17506,15 @@ references:
   isSpec: "True"
   fullName: Platform.Helpers.Threading.ThreadHelpers.StartNew
   nameWithType: ThreadHelpers.StartNew
-- uid: Platform.Helpers.Threading.ThreadHelpers.StartNew``1(``0,Action{System.Object})
-  name: StartNew<T>(T, Action<Object>)
-  href: api/Platform.Helpers.Threading.ThreadHelpers.html#Platform_Helpers_Threading_ThreadHelpers_StartNew__1___0_Action_System_Object__
-  commentId: M:Platform.Helpers.Threading.ThreadHelpers.StartNew``1(``0,Action{System.Object})
-  name.vb: StartNew(Of T)(T, Action(Of Object))
-  fullName: Platform.Helpers.Threading.ThreadHelpers.StartNew<T>(T, Action<System.Object>)
-  fullName.vb: Platform.Helpers.Threading.ThreadHelpers.StartNew(Of T)(T, Action(Of System.Object))
-  nameWithType: ThreadHelpers.StartNew<T>(T, Action<Object>)
-  nameWithType.vb: ThreadHelpers.StartNew(Of T)(T, Action(Of Object))
+- uid: Platform.Helpers.Threading.ThreadHelpers.StartNew``1(``0,Action{System.Object},System.Int32)
+  name: StartNew<T>(T, Action<Object>, Int32)
+  href: api/Platform.Helpers.Threading.ThreadHelpers.html#Platform_Helpers_Threading_ThreadHelpers_StartNew__1___0_Action_System_Object__System_Int32_
+  commentId: M:Platform.Helpers.Threading.ThreadHelpers.StartNew``1(``0,Action{System.Object},System.Int32)
+  name.vb: StartNew(Of T)(T, Action(Of Object), Int32)
+  fullName: Platform.Helpers.Threading.ThreadHelpers.StartNew<T>(T, Action<System.Object>, System.Int32)
+  fullName.vb: Platform.Helpers.Threading.ThreadHelpers.StartNew(Of T)(T, Action(Of System.Object), System.Int32)
+  nameWithType: ThreadHelpers.StartNew<T>(T, Action<Object>, Int32)
+  nameWithType.vb: ThreadHelpers.StartNew(Of T)(T, Action(Of Object), Int32)
 - uid: Platform.Helpers.Threading.ThreadHelpers.SyncInvokeWithExtendedStack(Action,System.Int32)
   name: SyncInvokeWithExtendedStack(Action, Int32)
   href: api/Platform.Helpers.Threading.ThreadHelpers.html#Platform_Helpers_Threading_ThreadHelpers_SyncInvokeWithExtendedStack_Action_System_Int32_
