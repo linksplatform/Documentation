@@ -16878,22 +16878,6 @@ references:
   isSpec: "True"
   fullName: Platform.Helpers.To.Byte
   nameWithType: To.Byte
-- uid: Platform.Helpers.To.Bytes*
-  name: Bytes
-  href: api/Platform.Helpers.To.html#Platform_Helpers_To_Bytes_
-  commentId: Overload:Platform.Helpers.To.Bytes
-  isSpec: "True"
-  fullName: Platform.Helpers.To.Bytes
-  nameWithType: To.Bytes
-- uid: Platform.Helpers.To.Bytes``1(``0)
-  name: Bytes<T>(T)
-  href: api/Platform.Helpers.To.html#Platform_Helpers_To_Bytes__1___0_
-  commentId: M:Platform.Helpers.To.Bytes``1(``0)
-  name.vb: Bytes(Of T)(T)
-  fullName: Platform.Helpers.To.Bytes<T>(T)
-  fullName.vb: Platform.Helpers.To.Bytes(Of T)(T)
-  nameWithType: To.Bytes<T>(T)
-  nameWithType.vb: To.Bytes(Of T)(T)
 - uid: Platform.Helpers.To.Char(System.UInt64)
   name: Char(UInt64)
   href: api/Platform.Helpers.To.html#Platform_Helpers_To_Char_System_UInt64_
@@ -16972,22 +16956,6 @@ references:
   isSpec: "True"
   fullName: Platform.Helpers.To.SByte
   nameWithType: To.SByte
-- uid: Platform.Helpers.To.Structure*
-  name: Structure
-  href: api/Platform.Helpers.To.html#Platform_Helpers_To_Structure_
-  commentId: Overload:Platform.Helpers.To.Structure
-  isSpec: "True"
-  fullName: Platform.Helpers.To.Structure
-  nameWithType: To.Structure
-- uid: Platform.Helpers.To.Structure``1(System.Byte[])
-  name: Structure<T>(Byte[])
-  href: api/Platform.Helpers.To.html#Platform_Helpers_To_Structure__1_System_Byte___
-  commentId: M:Platform.Helpers.To.Structure``1(System.Byte[])
-  name.vb: Structure(Of T)(Byte())
-  fullName: Platform.Helpers.To.Structure<T>(System.Byte[])
-  fullName.vb: Platform.Helpers.To.Structure(Of T)(System.Byte())
-  nameWithType: To.Structure<T>(Byte[])
-  nameWithType.vb: To.Structure(Of T)(Byte())
 - uid: Platform.Helpers.To.TimeSpan(System.UInt64)
   name: TimeSpan(UInt64)
   href: api/Platform.Helpers.To.html#Platform_Helpers_To_TimeSpan_System_UInt64_
@@ -17294,6 +17262,44 @@ references:
   isSpec: "True"
   fullName: Platform.Helpers.Unsafe.MemoryHelpers.ZeroMemory
   nameWithType: MemoryHelpers.ZeroMemory
+- uid: Platform.Helpers.Unsafe.StructureExtensions
+  name: StructureExtensions
+  href: api/Platform.Helpers.Unsafe.StructureExtensions.html
+  commentId: T:Platform.Helpers.Unsafe.StructureExtensions
+  fullName: Platform.Helpers.Unsafe.StructureExtensions
+  nameWithType: StructureExtensions
+- uid: Platform.Helpers.Unsafe.StructureExtensions.ToBytes*
+  name: ToBytes
+  href: api/Platform.Helpers.Unsafe.StructureExtensions.html#Platform_Helpers_Unsafe_StructureExtensions_ToBytes_
+  commentId: Overload:Platform.Helpers.Unsafe.StructureExtensions.ToBytes
+  isSpec: "True"
+  fullName: Platform.Helpers.Unsafe.StructureExtensions.ToBytes
+  nameWithType: StructureExtensions.ToBytes
+- uid: Platform.Helpers.Unsafe.StructureExtensions.ToBytes``1(``0)
+  name: ToBytes<TStruct>(TStruct)
+  href: api/Platform.Helpers.Unsafe.StructureExtensions.html#Platform_Helpers_Unsafe_StructureExtensions_ToBytes__1___0_
+  commentId: M:Platform.Helpers.Unsafe.StructureExtensions.ToBytes``1(``0)
+  name.vb: ToBytes(Of TStruct)(TStruct)
+  fullName: Platform.Helpers.Unsafe.StructureExtensions.ToBytes<TStruct>(TStruct)
+  fullName.vb: Platform.Helpers.Unsafe.StructureExtensions.ToBytes(Of TStruct)(TStruct)
+  nameWithType: StructureExtensions.ToBytes<TStruct>(TStruct)
+  nameWithType.vb: StructureExtensions.ToBytes(Of TStruct)(TStruct)
+- uid: Platform.Helpers.Unsafe.StructureExtensions.ToStructure*
+  name: ToStructure
+  href: api/Platform.Helpers.Unsafe.StructureExtensions.html#Platform_Helpers_Unsafe_StructureExtensions_ToStructure_
+  commentId: Overload:Platform.Helpers.Unsafe.StructureExtensions.ToStructure
+  isSpec: "True"
+  fullName: Platform.Helpers.Unsafe.StructureExtensions.ToStructure
+  nameWithType: StructureExtensions.ToStructure
+- uid: Platform.Helpers.Unsafe.StructureExtensions.ToStructure``1(System.Byte[])
+  name: ToStructure<TTStruct>(Byte[])
+  href: api/Platform.Helpers.Unsafe.StructureExtensions.html#Platform_Helpers_Unsafe_StructureExtensions_ToStructure__1_System_Byte___
+  commentId: M:Platform.Helpers.Unsafe.StructureExtensions.ToStructure``1(System.Byte[])
+  name.vb: ToStructure(Of TTStruct)(Byte())
+  fullName: Platform.Helpers.Unsafe.StructureExtensions.ToStructure<TTStruct>(System.Byte[])
+  fullName.vb: Platform.Helpers.Unsafe.StructureExtensions.ToStructure(Of TTStruct)(System.Byte())
+  nameWithType: StructureExtensions.ToStructure<TTStruct>(Byte[])
+  nameWithType.vb: StructureExtensions.ToStructure(Of TTStruct)(Byte())
 - uid: Platform.Helpers.Unsafe.StructureHelpers
   name: StructureHelpers
   href: api/Platform.Helpers.Unsafe.StructureHelpers.html
