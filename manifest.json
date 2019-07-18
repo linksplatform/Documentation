@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "Fh49ymu/ya4nJvmRA0ljVg=="
+          "hash": "nvG3aF2QG3ZSaCMYLe/ODw=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "README.ru.html",
-          "hash": "v0RSvkW3Sny4Z+bMlTrThg=="
+          "hash": "OTtU1V+7XXCha5EUE1xUxA=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/articles/links-theory.html",
-          "hash": "24iGFFmIdw3CcxUDUN2DXA=="
+          "hash": "KYdBw36v3Q6gAo/gtquBeg=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "XvnF4Fn7s+WuYdm6l0VgPQ=="
+          "hash": "TRyTKUGy+jGghZti1uSEGA=="
         }
       },
       "is_incremental": false,
@@ -2609,11 +2609,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Threading.UnsafeSynchronization.yml",
+      "source_relative_path": "obj/api/Platform.Helpers.Threading.Unsynchronization.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Platform.Helpers.Threading.UnsafeSynchronization.html",
-          "hash": "ED0wgUoZQIPrE/uPJmVCDg=="
+          "relative_path": "api/Platform.Helpers.Threading.Unsynchronization.html",
+          "hash": "L8xv11d/FlMgbEQ78ApmOA=="
         }
       },
       "is_incremental": false,
@@ -2625,7 +2625,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Helpers.Threading.html",
-          "hash": "0VEssUKMGgs9h6qUspKZ8A=="
+          "hash": "OBXT8+plZTveEJzsw0ofKA=="
         }
       },
       "is_incremental": false,
@@ -3477,7 +3477,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "776E8MeWEx8jZdOHm8WrDQ=="
+          "hash": "bXiuEvj8xzdCpk3dwhL4rw=="
         }
       },
       "is_incremental": false,
@@ -3510,10 +3510,11 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "ConceptualDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 4,
+          "total_file_count": 0,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
@@ -3522,11 +3523,10 @@
           "total_file_count": 284,
           "skipped_file_count": 0
         },
-        "TocDocumentProcessor": {
+        "ConceptualDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 0,
+          "total_file_count": 4,
           "skipped_file_count": 0
         }
       }

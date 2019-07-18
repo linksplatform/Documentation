@@ -17519,56 +17519,56 @@ references:
   fullName.vb: Platform.Helpers.Threading.ThreadHelpers.SyncInvokeWithExtendedStack(Of T)(T, Action(Of System.Object), System.Int32)
   nameWithType: ThreadHelpers.SyncInvokeWithExtendedStack<T>(T, Action<Object>, Int32)
   nameWithType.vb: ThreadHelpers.SyncInvokeWithExtendedStack(Of T)(T, Action(Of Object), Int32)
-- uid: Platform.Helpers.Threading.UnsafeSynchronization
-  name: UnsafeSynchronization
-  href: api/Platform.Helpers.Threading.UnsafeSynchronization.html
-  commentId: T:Platform.Helpers.Threading.UnsafeSynchronization
-  fullName: Platform.Helpers.Threading.UnsafeSynchronization
-  nameWithType: UnsafeSynchronization
-- uid: Platform.Helpers.Threading.UnsafeSynchronization.ExecuteReadOperation(Action)
+- uid: Platform.Helpers.Threading.Unsynchronization
+  name: Unsynchronization
+  href: api/Platform.Helpers.Threading.Unsynchronization.html
+  commentId: T:Platform.Helpers.Threading.Unsynchronization
+  fullName: Platform.Helpers.Threading.Unsynchronization
+  nameWithType: Unsynchronization
+- uid: Platform.Helpers.Threading.Unsynchronization.ExecuteReadOperation(Action)
   name: ExecuteReadOperation(Action)
-  href: api/Platform.Helpers.Threading.UnsafeSynchronization.html#Platform_Helpers_Threading_UnsafeSynchronization_ExecuteReadOperation_Action_
-  commentId: M:Platform.Helpers.Threading.UnsafeSynchronization.ExecuteReadOperation(Action)
-  fullName: Platform.Helpers.Threading.UnsafeSynchronization.ExecuteReadOperation(Action)
-  nameWithType: UnsafeSynchronization.ExecuteReadOperation(Action)
-- uid: Platform.Helpers.Threading.UnsafeSynchronization.ExecuteReadOperation*
+  href: api/Platform.Helpers.Threading.Unsynchronization.html#Platform_Helpers_Threading_Unsynchronization_ExecuteReadOperation_Action_
+  commentId: M:Platform.Helpers.Threading.Unsynchronization.ExecuteReadOperation(Action)
+  fullName: Platform.Helpers.Threading.Unsynchronization.ExecuteReadOperation(Action)
+  nameWithType: Unsynchronization.ExecuteReadOperation(Action)
+- uid: Platform.Helpers.Threading.Unsynchronization.ExecuteReadOperation*
   name: ExecuteReadOperation
-  href: api/Platform.Helpers.Threading.UnsafeSynchronization.html#Platform_Helpers_Threading_UnsafeSynchronization_ExecuteReadOperation_
-  commentId: Overload:Platform.Helpers.Threading.UnsafeSynchronization.ExecuteReadOperation
+  href: api/Platform.Helpers.Threading.Unsynchronization.html#Platform_Helpers_Threading_Unsynchronization_ExecuteReadOperation_
+  commentId: Overload:Platform.Helpers.Threading.Unsynchronization.ExecuteReadOperation
   isSpec: "True"
-  fullName: Platform.Helpers.Threading.UnsafeSynchronization.ExecuteReadOperation
-  nameWithType: UnsafeSynchronization.ExecuteReadOperation
-- uid: Platform.Helpers.Threading.UnsafeSynchronization.ExecuteReadOperation``1(Func{``0})
+  fullName: Platform.Helpers.Threading.Unsynchronization.ExecuteReadOperation
+  nameWithType: Unsynchronization.ExecuteReadOperation
+- uid: Platform.Helpers.Threading.Unsynchronization.ExecuteReadOperation``1(Func{``0})
   name: ExecuteReadOperation<T>(Func<T>)
-  href: api/Platform.Helpers.Threading.UnsafeSynchronization.html#Platform_Helpers_Threading_UnsafeSynchronization_ExecuteReadOperation__1_Func___0__
-  commentId: M:Platform.Helpers.Threading.UnsafeSynchronization.ExecuteReadOperation``1(Func{``0})
+  href: api/Platform.Helpers.Threading.Unsynchronization.html#Platform_Helpers_Threading_Unsynchronization_ExecuteReadOperation__1_Func___0__
+  commentId: M:Platform.Helpers.Threading.Unsynchronization.ExecuteReadOperation``1(Func{``0})
   name.vb: ExecuteReadOperation(Of T)(Func(Of T))
-  fullName: Platform.Helpers.Threading.UnsafeSynchronization.ExecuteReadOperation<T>(Func<T>)
-  fullName.vb: Platform.Helpers.Threading.UnsafeSynchronization.ExecuteReadOperation(Of T)(Func(Of T))
-  nameWithType: UnsafeSynchronization.ExecuteReadOperation<T>(Func<T>)
-  nameWithType.vb: UnsafeSynchronization.ExecuteReadOperation(Of T)(Func(Of T))
-- uid: Platform.Helpers.Threading.UnsafeSynchronization.ExecuteWriteOperation(Action)
+  fullName: Platform.Helpers.Threading.Unsynchronization.ExecuteReadOperation<T>(Func<T>)
+  fullName.vb: Platform.Helpers.Threading.Unsynchronization.ExecuteReadOperation(Of T)(Func(Of T))
+  nameWithType: Unsynchronization.ExecuteReadOperation<T>(Func<T>)
+  nameWithType.vb: Unsynchronization.ExecuteReadOperation(Of T)(Func(Of T))
+- uid: Platform.Helpers.Threading.Unsynchronization.ExecuteWriteOperation(Action)
   name: ExecuteWriteOperation(Action)
-  href: api/Platform.Helpers.Threading.UnsafeSynchronization.html#Platform_Helpers_Threading_UnsafeSynchronization_ExecuteWriteOperation_Action_
-  commentId: M:Platform.Helpers.Threading.UnsafeSynchronization.ExecuteWriteOperation(Action)
-  fullName: Platform.Helpers.Threading.UnsafeSynchronization.ExecuteWriteOperation(Action)
-  nameWithType: UnsafeSynchronization.ExecuteWriteOperation(Action)
-- uid: Platform.Helpers.Threading.UnsafeSynchronization.ExecuteWriteOperation*
+  href: api/Platform.Helpers.Threading.Unsynchronization.html#Platform_Helpers_Threading_Unsynchronization_ExecuteWriteOperation_Action_
+  commentId: M:Platform.Helpers.Threading.Unsynchronization.ExecuteWriteOperation(Action)
+  fullName: Platform.Helpers.Threading.Unsynchronization.ExecuteWriteOperation(Action)
+  nameWithType: Unsynchronization.ExecuteWriteOperation(Action)
+- uid: Platform.Helpers.Threading.Unsynchronization.ExecuteWriteOperation*
   name: ExecuteWriteOperation
-  href: api/Platform.Helpers.Threading.UnsafeSynchronization.html#Platform_Helpers_Threading_UnsafeSynchronization_ExecuteWriteOperation_
-  commentId: Overload:Platform.Helpers.Threading.UnsafeSynchronization.ExecuteWriteOperation
+  href: api/Platform.Helpers.Threading.Unsynchronization.html#Platform_Helpers_Threading_Unsynchronization_ExecuteWriteOperation_
+  commentId: Overload:Platform.Helpers.Threading.Unsynchronization.ExecuteWriteOperation
   isSpec: "True"
-  fullName: Platform.Helpers.Threading.UnsafeSynchronization.ExecuteWriteOperation
-  nameWithType: UnsafeSynchronization.ExecuteWriteOperation
-- uid: Platform.Helpers.Threading.UnsafeSynchronization.ExecuteWriteOperation``1(Func{``0})
+  fullName: Platform.Helpers.Threading.Unsynchronization.ExecuteWriteOperation
+  nameWithType: Unsynchronization.ExecuteWriteOperation
+- uid: Platform.Helpers.Threading.Unsynchronization.ExecuteWriteOperation``1(Func{``0})
   name: ExecuteWriteOperation<T>(Func<T>)
-  href: api/Platform.Helpers.Threading.UnsafeSynchronization.html#Platform_Helpers_Threading_UnsafeSynchronization_ExecuteWriteOperation__1_Func___0__
-  commentId: M:Platform.Helpers.Threading.UnsafeSynchronization.ExecuteWriteOperation``1(Func{``0})
+  href: api/Platform.Helpers.Threading.Unsynchronization.html#Platform_Helpers_Threading_Unsynchronization_ExecuteWriteOperation__1_Func___0__
+  commentId: M:Platform.Helpers.Threading.Unsynchronization.ExecuteWriteOperation``1(Func{``0})
   name.vb: ExecuteWriteOperation(Of T)(Func(Of T))
-  fullName: Platform.Helpers.Threading.UnsafeSynchronization.ExecuteWriteOperation<T>(Func<T>)
-  fullName.vb: Platform.Helpers.Threading.UnsafeSynchronization.ExecuteWriteOperation(Of T)(Func(Of T))
-  nameWithType: UnsafeSynchronization.ExecuteWriteOperation<T>(Func<T>)
-  nameWithType.vb: UnsafeSynchronization.ExecuteWriteOperation(Of T)(Func(Of T))
+  fullName: Platform.Helpers.Threading.Unsynchronization.ExecuteWriteOperation<T>(Func<T>)
+  fullName.vb: Platform.Helpers.Threading.Unsynchronization.ExecuteWriteOperation(Of T)(Func(Of T))
+  nameWithType: Unsynchronization.ExecuteWriteOperation<T>(Func<T>)
+  nameWithType.vb: Unsynchronization.ExecuteWriteOperation(Of T)(Func(Of T))
 - uid: Platform.Helpers.To
   name: To
   href: api/Platform.Helpers.To.html
