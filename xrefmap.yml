@@ -16956,6 +16956,46 @@ references:
   isSpec: "True"
   fullName: Platform.Helpers.To.SByte
   nameWithType: To.SByte
+- uid: Platform.Helpers.To.Signed(System.Byte)
+  name: Signed(Byte)
+  href: api/Platform.Helpers.To.html#Platform_Helpers_To_Signed_System_Byte_
+  commentId: M:Platform.Helpers.To.Signed(System.Byte)
+  fullName: Platform.Helpers.To.Signed(System.Byte)
+  nameWithType: To.Signed(Byte)
+- uid: Platform.Helpers.To.Signed(System.UInt16)
+  name: Signed(UInt16)
+  href: api/Platform.Helpers.To.html#Platform_Helpers_To_Signed_System_UInt16_
+  commentId: M:Platform.Helpers.To.Signed(System.UInt16)
+  fullName: Platform.Helpers.To.Signed(System.UInt16)
+  nameWithType: To.Signed(UInt16)
+- uid: Platform.Helpers.To.Signed(System.UInt32)
+  name: Signed(UInt32)
+  href: api/Platform.Helpers.To.html#Platform_Helpers_To_Signed_System_UInt32_
+  commentId: M:Platform.Helpers.To.Signed(System.UInt32)
+  fullName: Platform.Helpers.To.Signed(System.UInt32)
+  nameWithType: To.Signed(UInt32)
+- uid: Platform.Helpers.To.Signed(System.UInt64)
+  name: Signed(UInt64)
+  href: api/Platform.Helpers.To.html#Platform_Helpers_To_Signed_System_UInt64_
+  commentId: M:Platform.Helpers.To.Signed(System.UInt64)
+  fullName: Platform.Helpers.To.Signed(System.UInt64)
+  nameWithType: To.Signed(UInt64)
+- uid: Platform.Helpers.To.Signed*
+  name: Signed
+  href: api/Platform.Helpers.To.html#Platform_Helpers_To_Signed_
+  commentId: Overload:Platform.Helpers.To.Signed
+  isSpec: "True"
+  fullName: Platform.Helpers.To.Signed
+  nameWithType: To.Signed
+- uid: Platform.Helpers.To.Signed``1(``0)
+  name: Signed<T>(T)
+  href: api/Platform.Helpers.To.html#Platform_Helpers_To_Signed__1___0_
+  commentId: M:Platform.Helpers.To.Signed``1(``0)
+  name.vb: Signed(Of T)(T)
+  fullName: Platform.Helpers.To.Signed<T>(T)
+  fullName.vb: Platform.Helpers.To.Signed(Of T)(T)
+  nameWithType: To.Signed<T>(T)
+  nameWithType.vb: To.Signed(Of T)(T)
 - uid: Platform.Helpers.To.TimeSpan(System.UInt64)
   name: TimeSpan(UInt64)
   href: api/Platform.Helpers.To.html#Platform_Helpers_To_TimeSpan_System_UInt64_
@@ -16969,102 +17009,6 @@ references:
   isSpec: "True"
   fullName: Platform.Helpers.To.TimeSpan
   nameWithType: To.TimeSpan
-- uid: Platform.Helpers.To.ToSigned(System.Byte)
-  name: ToSigned(Byte)
-  href: api/Platform.Helpers.To.html#Platform_Helpers_To_ToSigned_System_Byte_
-  commentId: M:Platform.Helpers.To.ToSigned(System.Byte)
-  fullName: Platform.Helpers.To.ToSigned(System.Byte)
-  nameWithType: To.ToSigned(Byte)
-- uid: Platform.Helpers.To.ToSigned(System.UInt16)
-  name: ToSigned(UInt16)
-  href: api/Platform.Helpers.To.html#Platform_Helpers_To_ToSigned_System_UInt16_
-  commentId: M:Platform.Helpers.To.ToSigned(System.UInt16)
-  fullName: Platform.Helpers.To.ToSigned(System.UInt16)
-  nameWithType: To.ToSigned(UInt16)
-- uid: Platform.Helpers.To.ToSigned(System.UInt32)
-  name: ToSigned(UInt32)
-  href: api/Platform.Helpers.To.html#Platform_Helpers_To_ToSigned_System_UInt32_
-  commentId: M:Platform.Helpers.To.ToSigned(System.UInt32)
-  fullName: Platform.Helpers.To.ToSigned(System.UInt32)
-  nameWithType: To.ToSigned(UInt32)
-- uid: Platform.Helpers.To.ToSigned(System.UInt64)
-  name: ToSigned(UInt64)
-  href: api/Platform.Helpers.To.html#Platform_Helpers_To_ToSigned_System_UInt64_
-  commentId: M:Platform.Helpers.To.ToSigned(System.UInt64)
-  fullName: Platform.Helpers.To.ToSigned(System.UInt64)
-  nameWithType: To.ToSigned(UInt64)
-- uid: Platform.Helpers.To.ToSigned*
-  name: ToSigned
-  href: api/Platform.Helpers.To.html#Platform_Helpers_To_ToSigned_
-  commentId: Overload:Platform.Helpers.To.ToSigned
-  isSpec: "True"
-  fullName: Platform.Helpers.To.ToSigned
-  nameWithType: To.ToSigned
-- uid: Platform.Helpers.To.ToSigned``1(``0)
-  name: ToSigned<T>(T)
-  href: api/Platform.Helpers.To.html#Platform_Helpers_To_ToSigned__1___0_
-  commentId: M:Platform.Helpers.To.ToSigned``1(``0)
-  name.vb: ToSigned(Of T)(T)
-  fullName: Platform.Helpers.To.ToSigned<T>(T)
-  fullName.vb: Platform.Helpers.To.ToSigned(Of T)(T)
-  nameWithType: To.ToSigned<T>(T)
-  nameWithType.vb: To.ToSigned(Of T)(T)
-- uid: Platform.Helpers.To.ToUnsigned(System.Int16)
-  name: ToUnsigned(Int16)
-  href: api/Platform.Helpers.To.html#Platform_Helpers_To_ToUnsigned_System_Int16_
-  commentId: M:Platform.Helpers.To.ToUnsigned(System.Int16)
-  fullName: Platform.Helpers.To.ToUnsigned(System.Int16)
-  nameWithType: To.ToUnsigned(Int16)
-- uid: Platform.Helpers.To.ToUnsigned(System.Int32)
-  name: ToUnsigned(Int32)
-  href: api/Platform.Helpers.To.html#Platform_Helpers_To_ToUnsigned_System_Int32_
-  commentId: M:Platform.Helpers.To.ToUnsigned(System.Int32)
-  fullName: Platform.Helpers.To.ToUnsigned(System.Int32)
-  nameWithType: To.ToUnsigned(Int32)
-- uid: Platform.Helpers.To.ToUnsigned(System.Int64)
-  name: ToUnsigned(Int64)
-  href: api/Platform.Helpers.To.html#Platform_Helpers_To_ToUnsigned_System_Int64_
-  commentId: M:Platform.Helpers.To.ToUnsigned(System.Int64)
-  fullName: Platform.Helpers.To.ToUnsigned(System.Int64)
-  nameWithType: To.ToUnsigned(Int64)
-- uid: Platform.Helpers.To.ToUnsigned(System.SByte)
-  name: ToUnsigned(SByte)
-  href: api/Platform.Helpers.To.html#Platform_Helpers_To_ToUnsigned_System_SByte_
-  commentId: M:Platform.Helpers.To.ToUnsigned(System.SByte)
-  fullName: Platform.Helpers.To.ToUnsigned(System.SByte)
-  nameWithType: To.ToUnsigned(SByte)
-- uid: Platform.Helpers.To.ToUnsigned*
-  name: ToUnsigned
-  href: api/Platform.Helpers.To.html#Platform_Helpers_To_ToUnsigned_
-  commentId: Overload:Platform.Helpers.To.ToUnsigned
-  isSpec: "True"
-  fullName: Platform.Helpers.To.ToUnsigned
-  nameWithType: To.ToUnsigned
-- uid: Platform.Helpers.To.ToUnsigned``1(``0)
-  name: ToUnsigned<T>(T)
-  href: api/Platform.Helpers.To.html#Platform_Helpers_To_ToUnsigned__1___0_
-  commentId: M:Platform.Helpers.To.ToUnsigned``1(``0)
-  name.vb: ToUnsigned(Of T)(T)
-  fullName: Platform.Helpers.To.ToUnsigned<T>(T)
-  fullName.vb: Platform.Helpers.To.ToUnsigned(Of T)(T)
-  nameWithType: To.ToUnsigned<T>(T)
-  nameWithType.vb: To.ToUnsigned(Of T)(T)
-- uid: Platform.Helpers.To.ToUnsignedAs*
-  name: ToUnsignedAs
-  href: api/Platform.Helpers.To.html#Platform_Helpers_To_ToUnsignedAs_
-  commentId: Overload:Platform.Helpers.To.ToUnsignedAs
-  isSpec: "True"
-  fullName: Platform.Helpers.To.ToUnsignedAs
-  nameWithType: To.ToUnsignedAs
-- uid: Platform.Helpers.To.ToUnsignedAs``1(System.Object)
-  name: ToUnsignedAs<T>(Object)
-  href: api/Platform.Helpers.To.html#Platform_Helpers_To_ToUnsignedAs__1_System_Object_
-  commentId: M:Platform.Helpers.To.ToUnsignedAs``1(System.Object)
-  name.vb: ToUnsignedAs(Of T)(Object)
-  fullName: Platform.Helpers.To.ToUnsignedAs<T>(System.Object)
-  fullName.vb: Platform.Helpers.To.ToUnsignedAs(Of T)(System.Object)
-  nameWithType: To.ToUnsignedAs<T>(Object)
-  nameWithType.vb: To.ToUnsignedAs(Of T)(Object)
 - uid: Platform.Helpers.To.UInt16(System.UInt64)
   name: UInt16(UInt64)
   href: api/Platform.Helpers.To.html#Platform_Helpers_To_UInt16_System_UInt64_
@@ -17146,6 +17090,62 @@ references:
   commentId: F:Platform.Helpers.To.UnknownCharacter
   fullName: Platform.Helpers.To.UnknownCharacter
   nameWithType: To.UnknownCharacter
+- uid: Platform.Helpers.To.Unsigned(System.Int16)
+  name: Unsigned(Int16)
+  href: api/Platform.Helpers.To.html#Platform_Helpers_To_Unsigned_System_Int16_
+  commentId: M:Platform.Helpers.To.Unsigned(System.Int16)
+  fullName: Platform.Helpers.To.Unsigned(System.Int16)
+  nameWithType: To.Unsigned(Int16)
+- uid: Platform.Helpers.To.Unsigned(System.Int32)
+  name: Unsigned(Int32)
+  href: api/Platform.Helpers.To.html#Platform_Helpers_To_Unsigned_System_Int32_
+  commentId: M:Platform.Helpers.To.Unsigned(System.Int32)
+  fullName: Platform.Helpers.To.Unsigned(System.Int32)
+  nameWithType: To.Unsigned(Int32)
+- uid: Platform.Helpers.To.Unsigned(System.Int64)
+  name: Unsigned(Int64)
+  href: api/Platform.Helpers.To.html#Platform_Helpers_To_Unsigned_System_Int64_
+  commentId: M:Platform.Helpers.To.Unsigned(System.Int64)
+  fullName: Platform.Helpers.To.Unsigned(System.Int64)
+  nameWithType: To.Unsigned(Int64)
+- uid: Platform.Helpers.To.Unsigned(System.SByte)
+  name: Unsigned(SByte)
+  href: api/Platform.Helpers.To.html#Platform_Helpers_To_Unsigned_System_SByte_
+  commentId: M:Platform.Helpers.To.Unsigned(System.SByte)
+  fullName: Platform.Helpers.To.Unsigned(System.SByte)
+  nameWithType: To.Unsigned(SByte)
+- uid: Platform.Helpers.To.Unsigned*
+  name: Unsigned
+  href: api/Platform.Helpers.To.html#Platform_Helpers_To_Unsigned_
+  commentId: Overload:Platform.Helpers.To.Unsigned
+  isSpec: "True"
+  fullName: Platform.Helpers.To.Unsigned
+  nameWithType: To.Unsigned
+- uid: Platform.Helpers.To.Unsigned``1(``0)
+  name: Unsigned<T>(T)
+  href: api/Platform.Helpers.To.html#Platform_Helpers_To_Unsigned__1___0_
+  commentId: M:Platform.Helpers.To.Unsigned``1(``0)
+  name.vb: Unsigned(Of T)(T)
+  fullName: Platform.Helpers.To.Unsigned<T>(T)
+  fullName.vb: Platform.Helpers.To.Unsigned(Of T)(T)
+  nameWithType: To.Unsigned<T>(T)
+  nameWithType.vb: To.Unsigned(Of T)(T)
+- uid: Platform.Helpers.To.UnsignedAs*
+  name: UnsignedAs
+  href: api/Platform.Helpers.To.html#Platform_Helpers_To_UnsignedAs_
+  commentId: Overload:Platform.Helpers.To.UnsignedAs
+  isSpec: "True"
+  fullName: Platform.Helpers.To.UnsignedAs
+  nameWithType: To.UnsignedAs
+- uid: Platform.Helpers.To.UnsignedAs``1(System.Object)
+  name: UnsignedAs<T>(Object)
+  href: api/Platform.Helpers.To.html#Platform_Helpers_To_UnsignedAs__1_System_Object_
+  commentId: M:Platform.Helpers.To.UnsignedAs``1(System.Object)
+  name.vb: UnsignedAs(Of T)(Object)
+  fullName: Platform.Helpers.To.UnsignedAs<T>(System.Object)
+  fullName.vb: Platform.Helpers.To.UnsignedAs(Of T)(System.Object)
+  nameWithType: To.UnsignedAs<T>(Object)
+  nameWithType.vb: To.UnsignedAs(Of T)(Object)
 - uid: Platform.Helpers.Unsafe
   name: Platform.Helpers.Unsafe
   href: api/Platform.Helpers.Unsafe.html
