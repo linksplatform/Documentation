@@ -99,7 +99,7 @@
     <div><a class="xref" href="Platform.Memory.IResizableDirectMemory.html">IResizableDirectMemory</a></div>
     <div><a class="xref" href="Platform.Memory.IDirectMemory.html">IDirectMemory</a></div>
     <div><a class="xref" href="Platform.Memory.IMemory.html">IMemory</a></div>
-    <div><span class="xref">IDisposable</span></div>
+    <div><span class="xref">System.IDisposable</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Platform.Memory.html">Platform.Memory</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
@@ -180,7 +180,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IntPtr</span></td>
+        <td><span class="xref">System.IntPtr</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -232,6 +232,22 @@
       <tr>
         <td><span class="xref">System.Int64</span></td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ObjectDisposedException</span></td>
+        <td><p>The memory block is disposed. Блок памяти уже высвобожден.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -297,7 +313,7 @@
   
   
   <a id="Platform_Memory_ResizableDirectMemoryBase_DisposePointer_" data-uid="Platform.Memory.ResizableDirectMemoryBase.DisposePointer*"></a>
-  <h4 id="Platform_Memory_ResizableDirectMemoryBase_DisposePointer_IntPtr_System_Int64_" data-uid="Platform.Memory.ResizableDirectMemoryBase.DisposePointer(IntPtr,System.Int64)">DisposePointer(IntPtr, Int64)</h4>
+  <h4 id="Platform_Memory_ResizableDirectMemoryBase_DisposePointer_System_IntPtr_System_Int64_" data-uid="Platform.Memory.ResizableDirectMemoryBase.DisposePointer(System.IntPtr,System.Int64)">DisposePointer(IntPtr, Int64)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -315,7 +331,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IntPtr</span></td>
+        <td><span class="xref">System.IntPtr</span></td>
         <td><span class="parametername">pointer</span></td>
         <td></td>
       </tr>
@@ -369,7 +385,7 @@
       <a class="xref" href="Platform.Memory.IMemory.html">IMemory</a>
   </div>
   <div>
-      <span class="xref">IDisposable</span>
+      <span class="xref">System.IDisposable</span>
   </div>
 </article>
           </div>

@@ -95,6 +95,9 @@
     <div>
       <a class="xref" href="Platform.Memory.IMemory.html#Platform_Memory_IMemory_Size">IMemory.Size</a>
     </div>
+    <div>
+      <span class="xref">System.IDisposable.Dispose()</span>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Platform.Memory.html">Platform.Memory</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
@@ -150,6 +153,27 @@ Cannot be less than the used capacity of this memory block.
 Если меньше нуля, значение заменяется на ноль.
 Не может быть меньше используемой емкости блока памяти.</p>
 </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ObjectDisposedException</span></td>
+        <td><p>The memory block is disposed. Блок памяти уже высвобожден.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>Attempted to set the reserved capacity to a value that is less than the used capacity. Была выполнена попытка установить зарезервированную емкость на значение, которое меньше используемой емкости.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="Platform_Memory_IResizableDirectMemory_UsedCapacity_" data-uid="Platform.Memory.IResizableDirectMemory.UsedCapacity*"></a>
@@ -185,6 +209,27 @@ It is recommended to reduce the reserved capacity of the memory block to the use
 Не может быть больше, чем зарезервированная емкость этого блока памяти.
 Рекомендуется уменьшать фактический размер блока памяти до используемого размера (указанного в этом свойстве) после завершения использования блока памяти.</p>
 </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ObjectDisposedException</span></td>
+        <td><p>The memory block is disposed. Блок памяти уже высвобожден.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>Attempted to set the used capacity to a value that is greater than the reserved capacity. Была выполнена попытка установить используемую емкость на значение, которое больше, чем зарезервированная емкость.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

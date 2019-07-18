@@ -92,6 +92,9 @@
     <div>
       <a class="xref" href="Platform.Memory.IMemory.html#Platform_Memory_IMemory_Size">IMemory.Size</a>
     </div>
+    <div>
+      <span class="xref">System.IDisposable.Dispose()</span>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Platform.Memory.html">Platform.Memory</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
@@ -123,8 +126,24 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IntPtr</span></td>
+        <td><span class="xref">System.IntPtr</span></td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ObjectDisposedException</span></td>
+        <td><p>The memory block is disposed. Блок памяти уже высвобожден.</p>
+</td>
       </tr>
     </tbody>
   </table>

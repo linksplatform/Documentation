@@ -88,8 +88,11 @@
   <div class="markdown level0 conceptual"></div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><span class="xref">IEquatable</span>&lt;<a class="xref" href="Platform.Data.Core.Doublets.Link-1.html">Link</a>&lt;TLink&gt;&gt;</div>
-    <div><span class="xref">IList</span>&lt;TLink&gt;</div>
+    <div><span class="xref">System.IEquatable</span>&lt;<a class="xref" href="Platform.Data.Core.Doublets.Link-1.html">Link</a>&lt;TLink&gt;&gt;</div>
+    <div><span class="xref">System.Collections.Generic.IList</span>&lt;TLink&gt;</div>
+    <div><span class="xref">System.Collections.Generic.ICollection</span>&lt;TLink&gt;</div>
+    <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TLink&gt;</div>
+    <div><span class="xref">System.Collections.IEnumerable</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -107,7 +110,7 @@
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="Platform_Data_Core_Doublets_Link_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public struct Link&lt;TLink&gt; : IEquatable&lt;Link&lt;TLink&gt;&gt;, IList&lt;TLink&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public struct Link&lt;TLink&gt; : IEquatable&lt;Link&lt;TLink&gt;&gt;, IList&lt;TLink&gt;, ICollection&lt;TLink&gt;, IEnumerable&lt;TLink&gt;, IEnumerable</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -225,7 +228,7 @@
   
   
   <a id="Platform_Data_Core_Doublets_Link_1__ctor_" data-uid="Platform.Data.Core.Doublets.Link`1.#ctor*"></a>
-  <h4 id="Platform_Data_Core_Doublets_Link_1__ctor_IList__0__" data-uid="Platform.Data.Core.Doublets.Link`1.#ctor(IList{`0})">Link(IList&lt;TLink&gt;)</h4>
+  <h4 id="Platform_Data_Core_Doublets_Link_1__ctor_System_Collections_Generic_IList__0__" data-uid="Platform.Data.Core.Doublets.Link`1.#ctor(System.Collections.Generic.IList{`0})">Link(IList&lt;TLink&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -243,7 +246,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IList</span>&lt;TLink&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;TLink&gt;</td>
         <td><span class="parametername">values</span></td>
         <td></td>
       </tr>
@@ -707,7 +710,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerator</span>&lt;TLink&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerator</span>&lt;TLink&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -1146,10 +1149,19 @@
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <span class="xref">IEquatable&lt;&gt;</span>
+      <span class="xref">System.IEquatable&lt;T&gt;</span>
   </div>
   <div>
-      <span class="xref">IList&lt;&gt;</span>
+      <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.Generic.ICollection&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.IEnumerable</span>
   </div>
 </article>
           </div>

@@ -88,8 +88,11 @@
   <div class="markdown level0 conceptual"></div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><span class="xref">IEquatable</span>&lt;<a class="xref" href="Platform.Data.Core.Doublets.UInt64Link.html">UInt64Link</a>&gt;</div>
-    <div><span class="xref">IList</span>&lt;<span class="xref">System.UInt64</span>&gt;</div>
+    <div><span class="xref">System.IEquatable</span>&lt;<a class="xref" href="Platform.Data.Core.Doublets.UInt64Link.html">UInt64Link</a>&gt;</div>
+    <div><span class="xref">System.Collections.Generic.IList</span>&lt;<span class="xref">System.UInt64</span>&gt;</div>
+    <div><span class="xref">System.Collections.Generic.ICollection</span>&lt;<span class="xref">System.UInt64</span>&gt;</div>
+    <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.UInt64</span>&gt;</div>
+    <div><span class="xref">System.Collections.IEnumerable</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -107,14 +110,14 @@
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="Platform_Data_Core_Doublets_UInt64Link_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public struct UInt64Link : IEquatable&lt;UInt64Link&gt;, IList&lt;ulong&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public struct UInt64Link : IEquatable&lt;UInt64Link&gt;, IList&lt;ulong&gt;, ICollection&lt;ulong&gt;, IEnumerable&lt;ulong&gt;, IEnumerable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
   <a id="Platform_Data_Core_Doublets_UInt64Link__ctor_" data-uid="Platform.Data.Core.Doublets.UInt64Link.#ctor*"></a>
-  <h4 id="Platform_Data_Core_Doublets_UInt64Link__ctor_IList_System_UInt64__" data-uid="Platform.Data.Core.Doublets.UInt64Link.#ctor(IList{System.UInt64})">UInt64Link(IList&lt;UInt64&gt;)</h4>
+  <h4 id="Platform_Data_Core_Doublets_UInt64Link__ctor_System_Collections_Generic_IList_System_UInt64__" data-uid="Platform.Data.Core.Doublets.UInt64Link.#ctor(System.Collections.Generic.IList{System.UInt64})">UInt64Link(IList&lt;UInt64&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -132,7 +135,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IList</span>&lt;<span class="xref">System.UInt64</span>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<span class="xref">System.UInt64</span>&gt;</td>
         <td><span class="parametername">values</span></td>
         <td></td>
       </tr>
@@ -692,7 +695,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerator</span>&lt;<span class="xref">System.UInt64</span>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerator</span>&lt;<span class="xref">System.UInt64</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -1131,10 +1134,19 @@
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <span class="xref">IEquatable&lt;&gt;</span>
+      <span class="xref">System.IEquatable&lt;T&gt;</span>
   </div>
   <div>
-      <span class="xref">IList&lt;&gt;</span>
+      <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.Generic.ICollection&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.IEnumerable</span>
   </div>
 </article>
           </div>
