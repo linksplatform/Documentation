@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "aD44HnBk/bQK3xU85emwDw=="
+          "hash": "Fh49ymu/ya4nJvmRA0ljVg=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "README.ru.html",
-          "hash": "RmVrD5uKpLM/KbWCSyh6fw=="
+          "hash": "v0RSvkW3Sny4Z+bMlTrThg=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/articles/links-theory.html",
-          "hash": "QBAzhUkp6xsnr105QE8Wfg=="
+          "hash": "24iGFFmIdw3CcxUDUN2DXA=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "uevA0L1T8tGQC9hD/JwwUA=="
+          "hash": "XvnF4Fn7s+WuYdm6l0VgPQ=="
         }
       },
       "is_incremental": false,
@@ -2561,11 +2561,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Threading.SafeSynchronization.yml",
+      "source_relative_path": "obj/api/Platform.Helpers.Threading.Synchronization.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Platform.Helpers.Threading.SafeSynchronization.html",
-          "hash": "LyYh/+hX8VLywvOuWGjFQw=="
+          "relative_path": "api/Platform.Helpers.Threading.Synchronization.html",
+          "hash": "LG+t9zjg9RXXxKf9j37JMA=="
         }
       },
       "is_incremental": false,
@@ -2625,7 +2625,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Helpers.Threading.html",
-          "hash": "ZYPhfUQ6tKkVpvW+Meyf/g=="
+          "hash": "0VEssUKMGgs9h6qUspKZ8A=="
         }
       },
       "is_incremental": false,
@@ -3477,7 +3477,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "f3Aqjxp1l8u5QbsFcQCHIw=="
+          "hash": "776E8MeWEx8jZdOHm8WrDQ=="
         }
       },
       "is_incremental": false,
