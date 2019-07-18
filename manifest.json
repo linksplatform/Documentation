@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "UTD2FDjcjgZPYIgXSopA4Q=="
+          "hash": "36cpeXqiCiatF52iSezQGg=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "README.ru.html",
-          "hash": "PndWaCaeKemw/nGQTdFTTg=="
+          "hash": "4ww5iNRrVDm1gGdnQKc1LQ=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/articles/links-theory.html",
-          "hash": "4Q4DWFOrWU6jQJVnvFUIrA=="
+          "hash": "EnMFmuMMQkocTNvG/UdjiA=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "f9Dugr4cGX8q2sj7DQuGHQ=="
+          "hash": "pZ6OgtEBWwDwAFlI1J9Avg=="
         }
       },
       "is_incremental": false,
@@ -2525,114 +2525,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Threading.ConcurrentQueueExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Threading.ConcurrentQueueExtensions.html",
-          "hash": "E8QY4ETGBQAP1rPkMvKZzQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Threading.ISynchronization.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Threading.ISynchronization.html",
-          "hash": "G4pMhB00eQadgAfK+uu9/A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Threading.ISynchronized-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Threading.ISynchronized-1.html",
-          "hash": "YcG/WEuZ+aJByNWn9lmk2w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Threading.Synchronization.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Threading.Synchronization.html",
-          "hash": "LG+t9zjg9RXXxKf9j37JMA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Threading.SynchronizationExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Threading.SynchronizationExtensions.html",
-          "hash": "rM5YvyCs5l1JeClq6CniWA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Threading.TaskExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Threading.TaskExtensions.html",
-          "hash": "F0RDl7YpqpOg34trObMMSg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Threading.ThreadHelpers.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Threading.ThreadHelpers.html",
-          "hash": "nNdbAJgLregqPEblBIJVpg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Threading.Unsynchronization.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Threading.Unsynchronization.html",
-          "hash": "L8xv11d/FlMgbEQ78ApmOA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Threading.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Threading.html",
-          "hash": "OBXT8+plZTveEJzsw0ofKA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "obj/api/Platform.Helpers.To.yml",
       "output": {
         ".html": {
@@ -3477,7 +3369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "bXiuEvj8xzdCpk3dwhL4rw=="
+          "hash": "b13Eu3BEvsr4TS3869xdIA=="
         }
       },
       "is_incremental": false,
@@ -3526,7 +3418,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 284,
+          "total_file_count": 275,
           "skipped_file_count": 0
         }
       }
