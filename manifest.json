@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "iCvwMtyj+NVOcbhlsuPwHg=="
+          "hash": "aD44HnBk/bQK3xU85emwDw=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "README.ru.html",
-          "hash": "st5urTavjbMVhuG6mF8wHw=="
+          "hash": "RmVrD5uKpLM/KbWCSyh6fw=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/articles/links-theory.html",
-          "hash": "RX52yJ4/PN7S46APOTO3EA=="
+          "hash": "QBAzhUkp6xsnr105QE8Wfg=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "gY0CQsVWcDaqpWs3PIV30g=="
+          "hash": "uevA0L1T8tGQC9hD/JwwUA=="
         }
       },
       "is_incremental": false,
@@ -2378,66 +2378,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Reflection.AssemblyExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Reflection.AssemblyExtensions.html",
-          "hash": "iKAVhF5QB+iJCAsIPAluFw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Reflection.CachedTypeInfo-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Reflection.CachedTypeInfo-1.html",
-          "hash": "WAaI+zuNrXerPJ6c3Fts6w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Reflection.DynamicExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Reflection.DynamicExtensions.html",
-          "hash": "3N76G/WvHIF41Vp3c8YOSg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Reflection.FieldInfoExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Reflection.FieldInfoExtensions.html",
-          "hash": "JUYdbFtnGz+6nLMPxX7Z/g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Reflection.MethodInfoExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Reflection.MethodInfoExtensions.html",
-          "hash": "GXepWSTQJkGE7rY5sobU7A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "obj/api/Platform.Helpers.Reflection.Sigil.DelegateHelpers.yml",
       "output": {
         ".html": {
@@ -2479,210 +2419,6 @@
         ".html": {
           "relative_path": "api/Platform.Helpers.Reflection.Sigil.html",
           "hash": "Q6RbkCR0ld1oFqLsWwR61A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Reflection.TypeExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Reflection.TypeExtensions.html",
-          "hash": "bn2WYEzLM70uTVH8LZ5Log=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Reflection.Types-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Reflection.Types-1.html",
-          "hash": "XtEgJ7FP9IUROSM0squlsA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Reflection.Types-10.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Reflection.Types-10.html",
-          "hash": "W8hU+7edkIxY49L71G58gQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Reflection.Types-11.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Reflection.Types-11.html",
-          "hash": "1I5PfOydRco3tgRopNdOyw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Reflection.Types-12.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Reflection.Types-12.html",
-          "hash": "Jy2wyxt9Yu0oVHpCt0Re/Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Reflection.Types-13.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Reflection.Types-13.html",
-          "hash": "rlgZwXfrRqm8+EigMBRNBg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Reflection.Types-14.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Reflection.Types-14.html",
-          "hash": "7fmJNB9vo6gODbMlCTascQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Reflection.Types-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Reflection.Types-2.html",
-          "hash": "bPdScVZpTr+LfE8lDg+Blw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Reflection.Types-3.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Reflection.Types-3.html",
-          "hash": "messQ8SCgkVZIU+6e1wmsw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Reflection.Types-4.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Reflection.Types-4.html",
-          "hash": "3gvEBI1XCMwWa/G7LUdbUg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Reflection.Types-5.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Reflection.Types-5.html",
-          "hash": "TFM+xbtKFvn0HzzzwTZ6vQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Reflection.Types-6.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Reflection.Types-6.html",
-          "hash": "Wvb+/pEn6tayfGx9Gx0sWQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Reflection.Types-7.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Reflection.Types-7.html",
-          "hash": "Gcm+u0prvA0bKSUpFedglA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Reflection.Types-8.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Reflection.Types-8.html",
-          "hash": "Ax3YJWeRet5ZDsytZMwAJg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Reflection.Types-9.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Reflection.Types-9.html",
-          "hash": "BUtnvhf2fy2gNYhPWYx7cA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Reflection.Types.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Reflection.Types.html",
-          "hash": "J1f7KcFjrtFTsb3GPHsZ2Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Reflection.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Reflection.html",
-          "hash": "juAEPtZMtJYHVvpSSateMw=="
         }
       },
       "is_incremental": false,
@@ -3741,7 +3477,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "AGC6SQKs2i0/jwflDmR14A=="
+          "hash": "f3Aqjxp1l8u5QbsFcQCHIw=="
         }
       },
       "is_incremental": false,
@@ -3774,23 +3510,23 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "TocDocumentProcessor": {
+        "ConceptualDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 0,
+          "total_file_count": 4,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 306,
+          "total_file_count": 284,
           "skipped_file_count": 0
         },
-        "ConceptualDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 4,
+          "total_file_count": 0,
           "skipped_file_count": 0
         }
       }
