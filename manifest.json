@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "TYHtn1tCe2W0Q6w/GWU5hw=="
+          "hash": "uXe7kBt/iQW5V8p08k6Paw=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "README.ru.html",
-          "hash": "tuJKuPqD8uGLCbdUd6FEEg=="
+          "hash": "14ooeNfhx3pm5PcT8VCg7w=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/articles/links-theory.html",
-          "hash": "NV4EDlBgk/cJ8pR3owZeIg=="
+          "hash": "Cqz8dLzNgQ+EkNxkcm1bgw=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "Kwn8q12mCEO6igtRSVvHrA=="
+          "hash": "EePi0iVS5ExJ1xB/b+FbWw=="
         }
       },
       "is_incremental": false,
@@ -2525,11 +2525,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Unsafe.UnsafeHelpers.yml",
+      "source_relative_path": "obj/api/Platform.Helpers.Unsafe.StructureHelpers.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Platform.Helpers.Unsafe.UnsafeHelpers.html",
-          "hash": "tZnJlCgaLIvKfYeLl3Mfrw=="
+          "relative_path": "api/Platform.Helpers.Unsafe.StructureHelpers.html",
+          "hash": "e5Zn1RZlhI5BoBFF82tHqA=="
         }
       },
       "is_incremental": false,
@@ -2541,7 +2541,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Helpers.Unsafe.html",
-          "hash": "03SDYPDq+srZgU+EydIKSQ=="
+          "hash": "+yhxn9hv2ml0USiIS9/n5Q=="
         }
       },
       "is_incremental": false,
@@ -3321,7 +3321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "5Bnw1+dvd/G2F4atXllavA=="
+          "hash": "xnc5EQuLIP1zNq1bLkxUbQ=="
         }
       },
       "is_incremental": false,
@@ -3354,11 +3354,10 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "TocDocumentProcessor": {
+        "ConceptualDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 0,
+          "total_file_count": 4,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
@@ -3367,10 +3366,11 @@
           "total_file_count": 271,
           "skipped_file_count": 0
         },
-        "ConceptualDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 4,
+          "total_file_count": 0,
           "skipped_file_count": 0
         }
       }

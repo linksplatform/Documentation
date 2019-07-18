@@ -17294,28 +17294,28 @@ references:
   isSpec: "True"
   fullName: Platform.Helpers.Unsafe.MemoryHelpers.ZeroMemory
   nameWithType: MemoryHelpers.ZeroMemory
-- uid: Platform.Helpers.Unsafe.UnsafeHelpers
-  name: UnsafeHelpers
-  href: api/Platform.Helpers.Unsafe.UnsafeHelpers.html
-  commentId: T:Platform.Helpers.Unsafe.UnsafeHelpers
-  fullName: Platform.Helpers.Unsafe.UnsafeHelpers
-  nameWithType: UnsafeHelpers
-- uid: Platform.Helpers.Unsafe.UnsafeHelpers.SizeOf*
+- uid: Platform.Helpers.Unsafe.StructureHelpers
+  name: StructureHelpers
+  href: api/Platform.Helpers.Unsafe.StructureHelpers.html
+  commentId: T:Platform.Helpers.Unsafe.StructureHelpers
+  fullName: Platform.Helpers.Unsafe.StructureHelpers
+  nameWithType: StructureHelpers
+- uid: Platform.Helpers.Unsafe.StructureHelpers.SizeOf*
   name: SizeOf
-  href: api/Platform.Helpers.Unsafe.UnsafeHelpers.html#Platform_Helpers_Unsafe_UnsafeHelpers_SizeOf_
-  commentId: Overload:Platform.Helpers.Unsafe.UnsafeHelpers.SizeOf
+  href: api/Platform.Helpers.Unsafe.StructureHelpers.html#Platform_Helpers_Unsafe_StructureHelpers_SizeOf_
+  commentId: Overload:Platform.Helpers.Unsafe.StructureHelpers.SizeOf
   isSpec: "True"
-  fullName: Platform.Helpers.Unsafe.UnsafeHelpers.SizeOf
-  nameWithType: UnsafeHelpers.SizeOf
-- uid: Platform.Helpers.Unsafe.UnsafeHelpers.SizeOf``1
+  fullName: Platform.Helpers.Unsafe.StructureHelpers.SizeOf
+  nameWithType: StructureHelpers.SizeOf
+- uid: Platform.Helpers.Unsafe.StructureHelpers.SizeOf``1
   name: SizeOf<TStruct>()
-  href: api/Platform.Helpers.Unsafe.UnsafeHelpers.html#Platform_Helpers_Unsafe_UnsafeHelpers_SizeOf__1
-  commentId: M:Platform.Helpers.Unsafe.UnsafeHelpers.SizeOf``1
+  href: api/Platform.Helpers.Unsafe.StructureHelpers.html#Platform_Helpers_Unsafe_StructureHelpers_SizeOf__1
+  commentId: M:Platform.Helpers.Unsafe.StructureHelpers.SizeOf``1
   name.vb: SizeOf(Of TStruct)()
-  fullName: Platform.Helpers.Unsafe.UnsafeHelpers.SizeOf<TStruct>()
-  fullName.vb: Platform.Helpers.Unsafe.UnsafeHelpers.SizeOf(Of TStruct)()
-  nameWithType: UnsafeHelpers.SizeOf<TStruct>()
-  nameWithType.vb: UnsafeHelpers.SizeOf(Of TStruct)()
+  fullName: Platform.Helpers.Unsafe.StructureHelpers.SizeOf<TStruct>()
+  fullName.vb: Platform.Helpers.Unsafe.StructureHelpers.SizeOf(Of TStruct)()
+  nameWithType: StructureHelpers.SizeOf<TStruct>()
+  nameWithType.vb: StructureHelpers.SizeOf(Of TStruct)()
 - uid: Platform.Helpers.Use`1
   name: Use<T>
   href: api/Platform.Helpers.Use-1.html
