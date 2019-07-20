@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "/bXAJNQGlLu0FKNxbR6eHQ=="
+          "hash": "vjy4q45aPHyFMWUqHSt5RQ=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "README.ru.html",
-          "hash": "O8PqV8RegmVjsSJa53N/bQ=="
+          "hash": "mkwUVs/xhGZQeSVCsvZ1mA=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/articles/links-theory.html",
-          "hash": "KpOmk2/WOZ0gTnzBTPRn1g=="
+          "hash": "ghv0bVo6D78RsCa/Kl3rDg=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "GYzRNPQ6zi9zxzwVX0g7xg=="
+          "hash": "2zJQHm8Chpd2+wqJCU+HXg=="
         }
       },
       "is_incremental": false,
@@ -2258,150 +2258,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Numbers.ArithmeticExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Numbers.ArithmeticExtensions.html",
-          "hash": "XVMlrTSPbQI9wB5h47Qrow=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Numbers.ArithmeticHelpers-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Numbers.ArithmeticHelpers-1.html",
-          "hash": "nyP7AVwVkH21c0LwP1856A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Numbers.ArithmeticHelpers.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Numbers.ArithmeticHelpers.html",
-          "hash": "H2r9gqsFvzbyGw2V2VFDGQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Numbers.BitwiseExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Numbers.BitwiseExtensions.html",
-          "hash": "Jg3YeFmUVXDbdwWDLpY+Dg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Numbers.BitwiseHelpers-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Numbers.BitwiseHelpers-1.html",
-          "hash": "jLee5/gBLa+7zUmnxQD5Sw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Numbers.BitwiseHelpers.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Numbers.BitwiseHelpers.html",
-          "hash": "R4u3bR8lh3FRW5j3EF02Dg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Numbers.Integer-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Numbers.Integer-1.html",
-          "hash": "xY7iawnAMRqhjqlzJ47oPQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Numbers.Integer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Numbers.Integer.html",
-          "hash": "ymMHkpLO45pHD9wU1fIBMg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Numbers.MathExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Numbers.MathExtensions.html",
-          "hash": "TfIAF30WKdBHGKeIHIGMag=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Numbers.MathHelpers-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Numbers.MathHelpers-1.html",
-          "hash": "EtdG1XBvZXKT10Rmlsog3A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Numbers.MathHelpers.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Numbers.MathHelpers.html",
-          "hash": "g9e3yRwg84YHw/lmVJcs/Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Numbers.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Numbers.html",
-          "hash": "xEDb6l3LP8Mtw8ErFxI0cg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "obj/api/Platform.Helpers.PerformanceHelpers.yml",
       "output": {
         ".html": {
@@ -3465,7 +3321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "ZG875n8Y8tdB02mdBD4qJQ=="
+          "hash": "RJpDRFCWJx/lEz0PMtKZ6g=="
         }
       },
       "is_incremental": false,
@@ -3498,23 +3354,23 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "TocDocumentProcessor": {
+        "ConceptualDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 0,
+          "total_file_count": 4,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 283,
+          "total_file_count": 271,
           "skipped_file_count": 0
         },
-        "ConceptualDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 4,
+          "total_file_count": 0,
           "skipped_file_count": 0
         }
       }
