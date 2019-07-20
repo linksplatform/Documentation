@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "VKCkgNomuwoo5htNKVvMXQ=="
+          "hash": "Wl+U3c7Ka2bvYYjS1sda0w=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "README.ru.html",
-          "hash": "9UNB8WKwqfgJuVmhXUNE4g=="
+          "hash": "qt6uh8QdEZXFYy0KIceWlA=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/articles/links-theory.html",
-          "hash": "XmbC1dN/KABsYlCr80BZTg=="
+          "hash": "SwkTAHmLm8+33oN6JceHTg=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "kITItYcPRSijSHMpAT2G4g=="
+          "hash": "n/HfTQbcgn+24/ssYudbxg=="
         }
       },
       "is_incremental": false,
@@ -2298,7 +2298,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Helpers.Numbers.MathHelpers-1.html",
-          "hash": "FOXjPZQhxjGtWWorWim8Tg=="
+          "hash": "/RmYuPlu99KkTHfdaRqx4Q=="
         }
       },
       "is_incremental": false,
@@ -2310,7 +2310,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Helpers.Numbers.MathHelpers.html",
-          "hash": "LWM6lsJgaC1Gorkx3J3FQQ=="
+          "hash": "5qzBH44zaqfua9eNWaJIzg=="
         }
       },
       "is_incremental": false,
@@ -3077,6 +3077,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Tests.ComparisonTests.UInt64Comparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Tests.ComparisonTests.UInt64Comparer.html",
+          "hash": "qXoYzHqGMy13hM8PqTCkpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Tests.ComparisonTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Tests.ComparisonTests.html",
+          "hash": "p6dR4bGxON01Mi2DaPq1Tw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/Platform.Tests.Data.Core.BitStringTests.yml",
       "output": {
         ".html": {
@@ -3185,6 +3209,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Tests.EqualityTests.UInt64EqualityComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Tests.EqualityTests.UInt64EqualityComparer.html",
+          "hash": "MYjc42cVOH3sG2tsWY+cFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Tests.EqualityTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Tests.EqualityTests.html",
+          "hash": "S/RsVjlvOhx+TdGEDxq+Aw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/Platform.Tests.Helpers.CharsSegmentTests.yml",
       "output": {
         ".html": {
@@ -3281,23 +3329,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Tests.SystemTests.UInt64EqualityComparer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Tests.SystemTests.UInt64EqualityComparer.html",
-          "hash": "wnoQ7g6eCF2lPjKm1PCb8g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "obj/api/Platform.Tests.SystemTests.yml",
       "output": {
         ".html": {
           "relative_path": "api/Platform.Tests.SystemTests.html",
-          "hash": "AFu7hIRRWeg6LRK1f4zuXg=="
+          "hash": "JPj6MER7Erz765Ktck1FRg=="
         }
       },
       "is_incremental": false,
@@ -3309,7 +3345,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Tests.html",
-          "hash": "BetvImXY/X9PrlGWJVp6wg=="
+          "hash": "4fLNi4CudZawlhHLQtj9GA=="
         }
       },
       "is_incremental": false,
@@ -3321,7 +3357,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "aFtYacXbWcR0lNbKvhWGfg=="
+          "hash": "lSZ/R6Gxwejq4Y5n3re7Kw=="
         }
       },
       "is_incremental": false,
@@ -3370,7 +3406,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 271,
+          "total_file_count": 274,
           "skipped_file_count": 0
         }
       }

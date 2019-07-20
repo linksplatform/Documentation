@@ -15761,38 +15761,6 @@ references:
   isSpec: "True"
   fullName: Platform.Helpers.Numbers.MathHelpers.GetLowestBitPosition
   nameWithType: MathHelpers.GetLowestBitPosition
-- uid: Platform.Helpers.Numbers.MathHelpers.GreaterOrEqualThan*
-  name: GreaterOrEqualThan
-  href: api/Platform.Helpers.Numbers.MathHelpers.html#Platform_Helpers_Numbers_MathHelpers_GreaterOrEqualThan_
-  commentId: Overload:Platform.Helpers.Numbers.MathHelpers.GreaterOrEqualThan
-  isSpec: "True"
-  fullName: Platform.Helpers.Numbers.MathHelpers.GreaterOrEqualThan
-  nameWithType: MathHelpers.GreaterOrEqualThan
-- uid: Platform.Helpers.Numbers.MathHelpers.GreaterOrEqualThan``1(``0,``0)
-  name: GreaterOrEqualThan<T>(T, T)
-  href: api/Platform.Helpers.Numbers.MathHelpers.html#Platform_Helpers_Numbers_MathHelpers_GreaterOrEqualThan__1___0___0_
-  commentId: M:Platform.Helpers.Numbers.MathHelpers.GreaterOrEqualThan``1(``0,``0)
-  name.vb: GreaterOrEqualThan(Of T)(T, T)
-  fullName: Platform.Helpers.Numbers.MathHelpers.GreaterOrEqualThan<T>(T, T)
-  fullName.vb: Platform.Helpers.Numbers.MathHelpers.GreaterOrEqualThan(Of T)(T, T)
-  nameWithType: MathHelpers.GreaterOrEqualThan<T>(T, T)
-  nameWithType.vb: MathHelpers.GreaterOrEqualThan(Of T)(T, T)
-- uid: Platform.Helpers.Numbers.MathHelpers.GreaterThan*
-  name: GreaterThan
-  href: api/Platform.Helpers.Numbers.MathHelpers.html#Platform_Helpers_Numbers_MathHelpers_GreaterThan_
-  commentId: Overload:Platform.Helpers.Numbers.MathHelpers.GreaterThan
-  isSpec: "True"
-  fullName: Platform.Helpers.Numbers.MathHelpers.GreaterThan
-  nameWithType: MathHelpers.GreaterThan
-- uid: Platform.Helpers.Numbers.MathHelpers.GreaterThan``1(``0,``0)
-  name: GreaterThan<T>(T, T)
-  href: api/Platform.Helpers.Numbers.MathHelpers.html#Platform_Helpers_Numbers_MathHelpers_GreaterThan__1___0___0_
-  commentId: M:Platform.Helpers.Numbers.MathHelpers.GreaterThan``1(``0,``0)
-  name.vb: GreaterThan(Of T)(T, T)
-  fullName: Platform.Helpers.Numbers.MathHelpers.GreaterThan<T>(T, T)
-  fullName.vb: Platform.Helpers.Numbers.MathHelpers.GreaterThan(Of T)(T, T)
-  nameWithType: MathHelpers.GreaterThan<T>(T, T)
-  nameWithType.vb: MathHelpers.GreaterThan(Of T)(T, T)
 - uid: Platform.Helpers.Numbers.MathHelpers.Increment*
   name: Increment
   href: api/Platform.Helpers.Numbers.MathHelpers.html#Platform_Helpers_Numbers_MathHelpers_Increment_
@@ -15809,22 +15777,6 @@ references:
   fullName.vb: Platform.Helpers.Numbers.MathHelpers.Increment(Of T)(T)
   nameWithType: MathHelpers.Increment<T>(T)
   nameWithType.vb: MathHelpers.Increment(Of T)(T)
-- uid: Platform.Helpers.Numbers.MathHelpers.IsEquals*
-  name: IsEquals
-  href: api/Platform.Helpers.Numbers.MathHelpers.html#Platform_Helpers_Numbers_MathHelpers_IsEquals_
-  commentId: Overload:Platform.Helpers.Numbers.MathHelpers.IsEquals
-  isSpec: "True"
-  fullName: Platform.Helpers.Numbers.MathHelpers.IsEquals
-  nameWithType: MathHelpers.IsEquals
-- uid: Platform.Helpers.Numbers.MathHelpers.IsEquals``1(``0,``0)
-  name: IsEquals<T>(T, T)
-  href: api/Platform.Helpers.Numbers.MathHelpers.html#Platform_Helpers_Numbers_MathHelpers_IsEquals__1___0___0_
-  commentId: M:Platform.Helpers.Numbers.MathHelpers.IsEquals``1(``0,``0)
-  name.vb: IsEquals(Of T)(T, T)
-  fullName: Platform.Helpers.Numbers.MathHelpers.IsEquals<T>(T, T)
-  fullName.vb: Platform.Helpers.Numbers.MathHelpers.IsEquals(Of T)(T, T)
-  nameWithType: MathHelpers.IsEquals<T>(T, T)
-  nameWithType.vb: MathHelpers.IsEquals(Of T)(T, T)
 - uid: Platform.Helpers.Numbers.MathHelpers.IsPowerOfTwo(System.UInt64)
   name: IsPowerOfTwo(UInt64)
   href: api/Platform.Helpers.Numbers.MathHelpers.html#Platform_Helpers_Numbers_MathHelpers_IsPowerOfTwo_System_UInt64_
@@ -15838,38 +15790,6 @@ references:
   isSpec: "True"
   fullName: Platform.Helpers.Numbers.MathHelpers.IsPowerOfTwo
   nameWithType: MathHelpers.IsPowerOfTwo
-- uid: Platform.Helpers.Numbers.MathHelpers.LessOrEqualThan*
-  name: LessOrEqualThan
-  href: api/Platform.Helpers.Numbers.MathHelpers.html#Platform_Helpers_Numbers_MathHelpers_LessOrEqualThan_
-  commentId: Overload:Platform.Helpers.Numbers.MathHelpers.LessOrEqualThan
-  isSpec: "True"
-  fullName: Platform.Helpers.Numbers.MathHelpers.LessOrEqualThan
-  nameWithType: MathHelpers.LessOrEqualThan
-- uid: Platform.Helpers.Numbers.MathHelpers.LessOrEqualThan``1(``0,``0)
-  name: LessOrEqualThan<T>(T, T)
-  href: api/Platform.Helpers.Numbers.MathHelpers.html#Platform_Helpers_Numbers_MathHelpers_LessOrEqualThan__1___0___0_
-  commentId: M:Platform.Helpers.Numbers.MathHelpers.LessOrEqualThan``1(``0,``0)
-  name.vb: LessOrEqualThan(Of T)(T, T)
-  fullName: Platform.Helpers.Numbers.MathHelpers.LessOrEqualThan<T>(T, T)
-  fullName.vb: Platform.Helpers.Numbers.MathHelpers.LessOrEqualThan(Of T)(T, T)
-  nameWithType: MathHelpers.LessOrEqualThan<T>(T, T)
-  nameWithType.vb: MathHelpers.LessOrEqualThan(Of T)(T, T)
-- uid: Platform.Helpers.Numbers.MathHelpers.LessThan*
-  name: LessThan
-  href: api/Platform.Helpers.Numbers.MathHelpers.html#Platform_Helpers_Numbers_MathHelpers_LessThan_
-  commentId: Overload:Platform.Helpers.Numbers.MathHelpers.LessThan
-  isSpec: "True"
-  fullName: Platform.Helpers.Numbers.MathHelpers.LessThan
-  nameWithType: MathHelpers.LessThan
-- uid: Platform.Helpers.Numbers.MathHelpers.LessThan``1(``0,``0)
-  name: LessThan<T>(T, T)
-  href: api/Platform.Helpers.Numbers.MathHelpers.html#Platform_Helpers_Numbers_MathHelpers_LessThan__1___0___0_
-  commentId: M:Platform.Helpers.Numbers.MathHelpers.LessThan``1(``0,``0)
-  name.vb: LessThan(Of T)(T, T)
-  fullName: Platform.Helpers.Numbers.MathHelpers.LessThan<T>(T, T)
-  fullName.vb: Platform.Helpers.Numbers.MathHelpers.LessThan(Of T)(T, T)
-  nameWithType: MathHelpers.LessThan<T>(T, T)
-  nameWithType.vb: MathHelpers.LessThan(Of T)(T, T)
 - uid: Platform.Helpers.Numbers.MathHelpers.Negate*
   name: Negate
   href: api/Platform.Helpers.Numbers.MathHelpers.html#Platform_Helpers_Numbers_MathHelpers_Negate_
@@ -15984,22 +15904,6 @@ references:
   fullName.vb: Platform.Helpers.Numbers.MathHelpers(Of T).Decrement
   nameWithType: MathHelpers<T>.Decrement
   nameWithType.vb: MathHelpers(Of T).Decrement
-- uid: Platform.Helpers.Numbers.MathHelpers`1.GreaterOrEqualThan
-  name: GreaterOrEqualThan
-  href: api/Platform.Helpers.Numbers.MathHelpers-1.html#Platform_Helpers_Numbers_MathHelpers_1_GreaterOrEqualThan
-  commentId: F:Platform.Helpers.Numbers.MathHelpers`1.GreaterOrEqualThan
-  fullName: Platform.Helpers.Numbers.MathHelpers<T>.GreaterOrEqualThan
-  fullName.vb: Platform.Helpers.Numbers.MathHelpers(Of T).GreaterOrEqualThan
-  nameWithType: MathHelpers<T>.GreaterOrEqualThan
-  nameWithType.vb: MathHelpers(Of T).GreaterOrEqualThan
-- uid: Platform.Helpers.Numbers.MathHelpers`1.GreaterThan
-  name: GreaterThan
-  href: api/Platform.Helpers.Numbers.MathHelpers-1.html#Platform_Helpers_Numbers_MathHelpers_1_GreaterThan
-  commentId: F:Platform.Helpers.Numbers.MathHelpers`1.GreaterThan
-  fullName: Platform.Helpers.Numbers.MathHelpers<T>.GreaterThan
-  fullName.vb: Platform.Helpers.Numbers.MathHelpers(Of T).GreaterThan
-  nameWithType: MathHelpers<T>.GreaterThan
-  nameWithType.vb: MathHelpers(Of T).GreaterThan
 - uid: Platform.Helpers.Numbers.MathHelpers`1.Increment
   name: Increment
   href: api/Platform.Helpers.Numbers.MathHelpers-1.html#Platform_Helpers_Numbers_MathHelpers_1_Increment
@@ -16008,30 +15912,6 @@ references:
   fullName.vb: Platform.Helpers.Numbers.MathHelpers(Of T).Increment
   nameWithType: MathHelpers<T>.Increment
   nameWithType.vb: MathHelpers(Of T).Increment
-- uid: Platform.Helpers.Numbers.MathHelpers`1.IsEquals
-  name: IsEquals
-  href: api/Platform.Helpers.Numbers.MathHelpers-1.html#Platform_Helpers_Numbers_MathHelpers_1_IsEquals
-  commentId: F:Platform.Helpers.Numbers.MathHelpers`1.IsEquals
-  fullName: Platform.Helpers.Numbers.MathHelpers<T>.IsEquals
-  fullName.vb: Platform.Helpers.Numbers.MathHelpers(Of T).IsEquals
-  nameWithType: MathHelpers<T>.IsEquals
-  nameWithType.vb: MathHelpers(Of T).IsEquals
-- uid: Platform.Helpers.Numbers.MathHelpers`1.LessOrEqualThan
-  name: LessOrEqualThan
-  href: api/Platform.Helpers.Numbers.MathHelpers-1.html#Platform_Helpers_Numbers_MathHelpers_1_LessOrEqualThan
-  commentId: F:Platform.Helpers.Numbers.MathHelpers`1.LessOrEqualThan
-  fullName: Platform.Helpers.Numbers.MathHelpers<T>.LessOrEqualThan
-  fullName.vb: Platform.Helpers.Numbers.MathHelpers(Of T).LessOrEqualThan
-  nameWithType: MathHelpers<T>.LessOrEqualThan
-  nameWithType.vb: MathHelpers(Of T).LessOrEqualThan
-- uid: Platform.Helpers.Numbers.MathHelpers`1.LessThan
-  name: LessThan
-  href: api/Platform.Helpers.Numbers.MathHelpers-1.html#Platform_Helpers_Numbers_MathHelpers_1_LessThan
-  commentId: F:Platform.Helpers.Numbers.MathHelpers`1.LessThan
-  fullName: Platform.Helpers.Numbers.MathHelpers<T>.LessThan
-  fullName.vb: Platform.Helpers.Numbers.MathHelpers(Of T).LessThan
-  nameWithType: MathHelpers<T>.LessThan
-  nameWithType.vb: MathHelpers(Of T).LessThan
 - uid: Platform.Helpers.Numbers.MathHelpers`1.Negate
   name: Negate
   href: api/Platform.Helpers.Numbers.MathHelpers-1.html#Platform_Helpers_Numbers_MathHelpers_1_Negate
@@ -18940,6 +18820,44 @@ references:
   isSpec: "True"
   fullName: Platform.Tests.Collections.StringTests.CapitalizeFirstLetterTest
   nameWithType: StringTests.CapitalizeFirstLetterTest
+- uid: Platform.Tests.ComparisonTests
+  name: ComparisonTests
+  href: api/Platform.Tests.ComparisonTests.html
+  commentId: T:Platform.Tests.ComparisonTests
+  fullName: Platform.Tests.ComparisonTests
+  nameWithType: ComparisonTests
+- uid: Platform.Tests.ComparisonTests.GreaterOrEqualPerfomanceTest
+  name: GreaterOrEqualPerfomanceTest()
+  href: api/Platform.Tests.ComparisonTests.html#Platform_Tests_ComparisonTests_GreaterOrEqualPerfomanceTest
+  commentId: M:Platform.Tests.ComparisonTests.GreaterOrEqualPerfomanceTest
+  fullName: Platform.Tests.ComparisonTests.GreaterOrEqualPerfomanceTest()
+  nameWithType: ComparisonTests.GreaterOrEqualPerfomanceTest()
+- uid: Platform.Tests.ComparisonTests.GreaterOrEqualPerfomanceTest*
+  name: GreaterOrEqualPerfomanceTest
+  href: api/Platform.Tests.ComparisonTests.html#Platform_Tests_ComparisonTests_GreaterOrEqualPerfomanceTest_
+  commentId: Overload:Platform.Tests.ComparisonTests.GreaterOrEqualPerfomanceTest
+  isSpec: "True"
+  fullName: Platform.Tests.ComparisonTests.GreaterOrEqualPerfomanceTest
+  nameWithType: ComparisonTests.GreaterOrEqualPerfomanceTest
+- uid: Platform.Tests.ComparisonTests.UInt64Comparer
+  name: ComparisonTests.UInt64Comparer
+  href: api/Platform.Tests.ComparisonTests.UInt64Comparer.html
+  commentId: T:Platform.Tests.ComparisonTests.UInt64Comparer
+  fullName: Platform.Tests.ComparisonTests.UInt64Comparer
+  nameWithType: ComparisonTests.UInt64Comparer
+- uid: Platform.Tests.ComparisonTests.UInt64Comparer.Compare(System.UInt64,System.UInt64)
+  name: Compare(UInt64, UInt64)
+  href: api/Platform.Tests.ComparisonTests.UInt64Comparer.html#Platform_Tests_ComparisonTests_UInt64Comparer_Compare_System_UInt64_System_UInt64_
+  commentId: M:Platform.Tests.ComparisonTests.UInt64Comparer.Compare(System.UInt64,System.UInt64)
+  fullName: Platform.Tests.ComparisonTests.UInt64Comparer.Compare(System.UInt64, System.UInt64)
+  nameWithType: ComparisonTests.UInt64Comparer.Compare(UInt64, UInt64)
+- uid: Platform.Tests.ComparisonTests.UInt64Comparer.Compare*
+  name: Compare
+  href: api/Platform.Tests.ComparisonTests.UInt64Comparer.html#Platform_Tests_ComparisonTests_UInt64Comparer_Compare_
+  commentId: Overload:Platform.Tests.ComparisonTests.UInt64Comparer.Compare
+  isSpec: "True"
+  fullName: Platform.Tests.ComparisonTests.UInt64Comparer.Compare
+  nameWithType: ComparisonTests.UInt64Comparer.Compare
 - uid: Platform.Tests.Data.Core
   name: Platform.Tests.Data.Core
   href: api/Platform.Tests.Data.Core.html
@@ -19703,6 +19621,57 @@ references:
   commentId: F:Platform.Tests.Data.Core.TempLinksTestScope.TempTransactionLogFilename
   fullName: Platform.Tests.Data.Core.TempLinksTestScope.TempTransactionLogFilename
   nameWithType: TempLinksTestScope.TempTransactionLogFilename
+- uid: Platform.Tests.EqualityTests
+  name: EqualityTests
+  href: api/Platform.Tests.EqualityTests.html
+  commentId: T:Platform.Tests.EqualityTests
+  fullName: Platform.Tests.EqualityTests
+  nameWithType: EqualityTests
+- uid: Platform.Tests.EqualityTests.EqualsPerfomanceTest
+  name: EqualsPerfomanceTest()
+  href: api/Platform.Tests.EqualityTests.html#Platform_Tests_EqualityTests_EqualsPerfomanceTest
+  commentId: M:Platform.Tests.EqualityTests.EqualsPerfomanceTest
+  fullName: Platform.Tests.EqualityTests.EqualsPerfomanceTest()
+  nameWithType: EqualityTests.EqualsPerfomanceTest()
+- uid: Platform.Tests.EqualityTests.EqualsPerfomanceTest*
+  name: EqualsPerfomanceTest
+  href: api/Platform.Tests.EqualityTests.html#Platform_Tests_EqualityTests_EqualsPerfomanceTest_
+  commentId: Overload:Platform.Tests.EqualityTests.EqualsPerfomanceTest
+  isSpec: "True"
+  fullName: Platform.Tests.EqualityTests.EqualsPerfomanceTest
+  nameWithType: EqualityTests.EqualsPerfomanceTest
+- uid: Platform.Tests.EqualityTests.UInt64EqualityComparer
+  name: EqualityTests.UInt64EqualityComparer
+  href: api/Platform.Tests.EqualityTests.UInt64EqualityComparer.html
+  commentId: T:Platform.Tests.EqualityTests.UInt64EqualityComparer
+  fullName: Platform.Tests.EqualityTests.UInt64EqualityComparer
+  nameWithType: EqualityTests.UInt64EqualityComparer
+- uid: Platform.Tests.EqualityTests.UInt64EqualityComparer.Equals(System.UInt64,System.UInt64)
+  name: Equals(UInt64, UInt64)
+  href: api/Platform.Tests.EqualityTests.UInt64EqualityComparer.html#Platform_Tests_EqualityTests_UInt64EqualityComparer_Equals_System_UInt64_System_UInt64_
+  commentId: M:Platform.Tests.EqualityTests.UInt64EqualityComparer.Equals(System.UInt64,System.UInt64)
+  fullName: Platform.Tests.EqualityTests.UInt64EqualityComparer.Equals(System.UInt64, System.UInt64)
+  nameWithType: EqualityTests.UInt64EqualityComparer.Equals(UInt64, UInt64)
+- uid: Platform.Tests.EqualityTests.UInt64EqualityComparer.Equals*
+  name: Equals
+  href: api/Platform.Tests.EqualityTests.UInt64EqualityComparer.html#Platform_Tests_EqualityTests_UInt64EqualityComparer_Equals_
+  commentId: Overload:Platform.Tests.EqualityTests.UInt64EqualityComparer.Equals
+  isSpec: "True"
+  fullName: Platform.Tests.EqualityTests.UInt64EqualityComparer.Equals
+  nameWithType: EqualityTests.UInt64EqualityComparer.Equals
+- uid: Platform.Tests.EqualityTests.UInt64EqualityComparer.GetHashCode(System.UInt64)
+  name: GetHashCode(UInt64)
+  href: api/Platform.Tests.EqualityTests.UInt64EqualityComparer.html#Platform_Tests_EqualityTests_UInt64EqualityComparer_GetHashCode_System_UInt64_
+  commentId: M:Platform.Tests.EqualityTests.UInt64EqualityComparer.GetHashCode(System.UInt64)
+  fullName: Platform.Tests.EqualityTests.UInt64EqualityComparer.GetHashCode(System.UInt64)
+  nameWithType: EqualityTests.UInt64EqualityComparer.GetHashCode(UInt64)
+- uid: Platform.Tests.EqualityTests.UInt64EqualityComparer.GetHashCode*
+  name: GetHashCode
+  href: api/Platform.Tests.EqualityTests.UInt64EqualityComparer.html#Platform_Tests_EqualityTests_UInt64EqualityComparer_GetHashCode_
+  commentId: Overload:Platform.Tests.EqualityTests.UInt64EqualityComparer.GetHashCode
+  isSpec: "True"
+  fullName: Platform.Tests.EqualityTests.UInt64EqualityComparer.GetHashCode
+  nameWithType: EqualityTests.UInt64EqualityComparer.GetHashCode
 - uid: Platform.Tests.Helpers
   name: Platform.Tests.Helpers
   href: api/Platform.Tests.Helpers.html
@@ -19978,19 +19947,6 @@ references:
   commentId: T:Platform.Tests.SystemTests
   fullName: Platform.Tests.SystemTests
   nameWithType: SystemTests
-- uid: Platform.Tests.SystemTests.EqualsPerfomanceTest
-  name: EqualsPerfomanceTest()
-  href: api/Platform.Tests.SystemTests.html#Platform_Tests_SystemTests_EqualsPerfomanceTest
-  commentId: M:Platform.Tests.SystemTests.EqualsPerfomanceTest
-  fullName: Platform.Tests.SystemTests.EqualsPerfomanceTest()
-  nameWithType: SystemTests.EqualsPerfomanceTest()
-- uid: Platform.Tests.SystemTests.EqualsPerfomanceTest*
-  name: EqualsPerfomanceTest
-  href: api/Platform.Tests.SystemTests.html#Platform_Tests_SystemTests_EqualsPerfomanceTest_
-  commentId: Overload:Platform.Tests.SystemTests.EqualsPerfomanceTest
-  isSpec: "True"
-  fullName: Platform.Tests.SystemTests.EqualsPerfomanceTest
-  nameWithType: SystemTests.EqualsPerfomanceTest
 - uid: Platform.Tests.SystemTests.PossiblePackTwoValuesIntoOneTest
   name: PossiblePackTwoValuesIntoOneTest()
   href: api/Platform.Tests.SystemTests.html#Platform_Tests_SystemTests_PossiblePackTwoValuesIntoOneTest
@@ -20004,38 +19960,6 @@ references:
   isSpec: "True"
   fullName: Platform.Tests.SystemTests.PossiblePackTwoValuesIntoOneTest
   nameWithType: SystemTests.PossiblePackTwoValuesIntoOneTest
-- uid: Platform.Tests.SystemTests.UInt64EqualityComparer
-  name: SystemTests.UInt64EqualityComparer
-  href: api/Platform.Tests.SystemTests.UInt64EqualityComparer.html
-  commentId: T:Platform.Tests.SystemTests.UInt64EqualityComparer
-  fullName: Platform.Tests.SystemTests.UInt64EqualityComparer
-  nameWithType: SystemTests.UInt64EqualityComparer
-- uid: Platform.Tests.SystemTests.UInt64EqualityComparer.Equals(System.UInt64,System.UInt64)
-  name: Equals(UInt64, UInt64)
-  href: api/Platform.Tests.SystemTests.UInt64EqualityComparer.html#Platform_Tests_SystemTests_UInt64EqualityComparer_Equals_System_UInt64_System_UInt64_
-  commentId: M:Platform.Tests.SystemTests.UInt64EqualityComparer.Equals(System.UInt64,System.UInt64)
-  fullName: Platform.Tests.SystemTests.UInt64EqualityComparer.Equals(System.UInt64, System.UInt64)
-  nameWithType: SystemTests.UInt64EqualityComparer.Equals(UInt64, UInt64)
-- uid: Platform.Tests.SystemTests.UInt64EqualityComparer.Equals*
-  name: Equals
-  href: api/Platform.Tests.SystemTests.UInt64EqualityComparer.html#Platform_Tests_SystemTests_UInt64EqualityComparer_Equals_
-  commentId: Overload:Platform.Tests.SystemTests.UInt64EqualityComparer.Equals
-  isSpec: "True"
-  fullName: Platform.Tests.SystemTests.UInt64EqualityComparer.Equals
-  nameWithType: SystemTests.UInt64EqualityComparer.Equals
-- uid: Platform.Tests.SystemTests.UInt64EqualityComparer.GetHashCode(System.UInt64)
-  name: GetHashCode(UInt64)
-  href: api/Platform.Tests.SystemTests.UInt64EqualityComparer.html#Platform_Tests_SystemTests_UInt64EqualityComparer_GetHashCode_System_UInt64_
-  commentId: M:Platform.Tests.SystemTests.UInt64EqualityComparer.GetHashCode(System.UInt64)
-  fullName: Platform.Tests.SystemTests.UInt64EqualityComparer.GetHashCode(System.UInt64)
-  nameWithType: SystemTests.UInt64EqualityComparer.GetHashCode(UInt64)
-- uid: Platform.Tests.SystemTests.UInt64EqualityComparer.GetHashCode*
-  name: GetHashCode
-  href: api/Platform.Tests.SystemTests.UInt64EqualityComparer.html#Platform_Tests_SystemTests_UInt64EqualityComparer_GetHashCode_
-  commentId: Overload:Platform.Tests.SystemTests.UInt64EqualityComparer.GetHashCode
-  isSpec: "True"
-  fullName: Platform.Tests.SystemTests.UInt64EqualityComparer.GetHashCode
-  nameWithType: SystemTests.UInt64EqualityComparer.GetHashCode
 - uid: Platform.Tests.SystemTests.UsingSupportsNullTest
   name: UsingSupportsNullTest()
   href: api/Platform.Tests.SystemTests.html#Platform_Tests_SystemTests_UsingSupportsNullTest
