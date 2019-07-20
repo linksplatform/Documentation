@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "Sd+V3CQ52yte8+yaS7ZRdA=="
+          "hash": "/bXAJNQGlLu0FKNxbR6eHQ=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "README.ru.html",
-          "hash": "WhoCKSiyjgP16l0gLXzKGw=="
+          "hash": "O8PqV8RegmVjsSJa53N/bQ=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/articles/links-theory.html",
-          "hash": "WR6S3EW5z1caESFFehiFoA=="
+          "hash": "KpOmk2/WOZ0gTnzBTPRn1g=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "ePIgfs2Y53o//R+9yQW7CA=="
+          "hash": "GYzRNPQ6zi9zxzwVX0g7xg=="
         }
       },
       "is_incremental": false,
@@ -2258,6 +2258,78 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Helpers.Numbers.ArithmeticExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Helpers.Numbers.ArithmeticExtensions.html",
+          "hash": "XVMlrTSPbQI9wB5h47Qrow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Helpers.Numbers.ArithmeticHelpers-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Helpers.Numbers.ArithmeticHelpers-1.html",
+          "hash": "nyP7AVwVkH21c0LwP1856A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Helpers.Numbers.ArithmeticHelpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Helpers.Numbers.ArithmeticHelpers.html",
+          "hash": "H2r9gqsFvzbyGw2V2VFDGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Helpers.Numbers.BitwiseExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Helpers.Numbers.BitwiseExtensions.html",
+          "hash": "Jg3YeFmUVXDbdwWDLpY+Dg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Helpers.Numbers.BitwiseHelpers-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Helpers.Numbers.BitwiseHelpers-1.html",
+          "hash": "jLee5/gBLa+7zUmnxQD5Sw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Helpers.Numbers.BitwiseHelpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Helpers.Numbers.BitwiseHelpers.html",
+          "hash": "R4u3bR8lh3FRW5j3EF02Dg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/Platform.Helpers.Numbers.Integer-1.yml",
       "output": {
         ".html": {
@@ -2286,7 +2358,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Helpers.Numbers.MathExtensions.html",
-          "hash": "M/Pi35AHydRQrq4c5nO69A=="
+          "hash": "TfIAF30WKdBHGKeIHIGMag=="
         }
       },
       "is_incremental": false,
@@ -2298,7 +2370,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Helpers.Numbers.MathHelpers-1.html",
-          "hash": "/RmYuPlu99KkTHfdaRqx4Q=="
+          "hash": "EtdG1XBvZXKT10Rmlsog3A=="
         }
       },
       "is_incremental": false,
@@ -2310,7 +2382,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Helpers.Numbers.MathHelpers.html",
-          "hash": "5qzBH44zaqfua9eNWaJIzg=="
+          "hash": "g9e3yRwg84YHw/lmVJcs/Q=="
         }
       },
       "is_incremental": false,
@@ -2322,7 +2394,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Helpers.Numbers.html",
-          "hash": "LutA27CCvzhK1Soh5Z5MMA=="
+          "hash": "xEDb6l3LP8Mtw8ErFxI0cg=="
         }
       },
       "is_incremental": false,
@@ -3233,6 +3305,42 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Tests.Helpers.ArithmeticExtensionsTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Tests.Helpers.ArithmeticExtensionsTests.html",
+          "hash": "B524M8nfyXgZBPGc0eHyww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Tests.Helpers.ArithmeticHelpersTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Tests.Helpers.ArithmeticHelpersTests.html",
+          "hash": "e6LXgSmkf1vTNNnuoDjFyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Tests.Helpers.BitwiseHelpersTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Tests.Helpers.BitwiseHelpersTests.html",
+          "hash": "O40ko2vHlSKCYycToMrEFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/Platform.Tests.Helpers.CharsSegmentTests.yml",
       "output": {
         ".html": {
@@ -3261,7 +3369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Tests.Helpers.MathExtensionsTests.html",
-          "hash": "WJAbzIeHBXFlqWAEIgWmvg=="
+          "hash": "ncwPd205DgV32VTDnLXi4Q=="
         }
       },
       "is_incremental": false,
@@ -3273,7 +3381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Tests.Helpers.MathHelpersTests.html",
-          "hash": "ce2A5fY9XcDvlbTJvFZ6VA=="
+          "hash": "Vi1Lt4dWu+HfjTALHlWocw=="
         }
       },
       "is_incremental": false,
@@ -3321,7 +3429,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Tests.Helpers.html",
-          "hash": "RqcKPXvg2yB1WsnHNdVZAA=="
+          "hash": "FALYq8dqPf7HkiccaSlfLg=="
         }
       },
       "is_incremental": false,
@@ -3357,7 +3465,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "lSZ/R6Gxwejq4Y5n3re7Kw=="
+          "hash": "ZG875n8Y8tdB02mdBD4qJQ=="
         }
       },
       "is_incremental": false,
@@ -3397,16 +3505,16 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 283,
+          "skipped_file_count": 0
+        },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 4,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 274,
           "skipped_file_count": 0
         }
       }

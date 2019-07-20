@@ -15044,6 +15044,315 @@ references:
   commentId: N:Platform.Helpers.Numbers
   fullName: Platform.Helpers.Numbers
   nameWithType: Platform.Helpers.Numbers
+- uid: Platform.Helpers.Numbers.ArithmeticExtensions
+  name: ArithmeticExtensions
+  href: api/Platform.Helpers.Numbers.ArithmeticExtensions.html
+  commentId: T:Platform.Helpers.Numbers.ArithmeticExtensions
+  fullName: Platform.Helpers.Numbers.ArithmeticExtensions
+  nameWithType: ArithmeticExtensions
+- uid: Platform.Helpers.Numbers.ArithmeticExtensions.Decrement*
+  name: Decrement
+  href: api/Platform.Helpers.Numbers.ArithmeticExtensions.html#Platform_Helpers_Numbers_ArithmeticExtensions_Decrement_
+  commentId: Overload:Platform.Helpers.Numbers.ArithmeticExtensions.Decrement
+  isSpec: "True"
+  fullName: Platform.Helpers.Numbers.ArithmeticExtensions.Decrement
+  nameWithType: ArithmeticExtensions.Decrement
+- uid: Platform.Helpers.Numbers.ArithmeticExtensions.Decrement``1(``0@)
+  name: Decrement<T>(ref T)
+  href: api/Platform.Helpers.Numbers.ArithmeticExtensions.html#Platform_Helpers_Numbers_ArithmeticExtensions_Decrement__1___0__
+  commentId: M:Platform.Helpers.Numbers.ArithmeticExtensions.Decrement``1(``0@)
+  name.vb: Decrement(Of T)(ByRef T)
+  fullName: Platform.Helpers.Numbers.ArithmeticExtensions.Decrement<T>(ref T)
+  fullName.vb: Platform.Helpers.Numbers.ArithmeticExtensions.Decrement(Of T)(ByRef T)
+  nameWithType: ArithmeticExtensions.Decrement<T>(ref T)
+  nameWithType.vb: ArithmeticExtensions.Decrement(Of T)(ByRef T)
+- uid: Platform.Helpers.Numbers.ArithmeticExtensions.Increment*
+  name: Increment
+  href: api/Platform.Helpers.Numbers.ArithmeticExtensions.html#Platform_Helpers_Numbers_ArithmeticExtensions_Increment_
+  commentId: Overload:Platform.Helpers.Numbers.ArithmeticExtensions.Increment
+  isSpec: "True"
+  fullName: Platform.Helpers.Numbers.ArithmeticExtensions.Increment
+  nameWithType: ArithmeticExtensions.Increment
+- uid: Platform.Helpers.Numbers.ArithmeticExtensions.Increment``1(``0@)
+  name: Increment<T>(ref T)
+  href: api/Platform.Helpers.Numbers.ArithmeticExtensions.html#Platform_Helpers_Numbers_ArithmeticExtensions_Increment__1___0__
+  commentId: M:Platform.Helpers.Numbers.ArithmeticExtensions.Increment``1(``0@)
+  name.vb: Increment(Of T)(ByRef T)
+  fullName: Platform.Helpers.Numbers.ArithmeticExtensions.Increment<T>(ref T)
+  fullName.vb: Platform.Helpers.Numbers.ArithmeticExtensions.Increment(Of T)(ByRef T)
+  nameWithType: ArithmeticExtensions.Increment<T>(ref T)
+  nameWithType.vb: ArithmeticExtensions.Increment(Of T)(ByRef T)
+- uid: Platform.Helpers.Numbers.ArithmeticHelpers
+  name: ArithmeticHelpers
+  href: api/Platform.Helpers.Numbers.ArithmeticHelpers.html
+  commentId: T:Platform.Helpers.Numbers.ArithmeticHelpers
+  fullName: Platform.Helpers.Numbers.ArithmeticHelpers
+  nameWithType: ArithmeticHelpers
+- uid: Platform.Helpers.Numbers.ArithmeticHelpers.Add*
+  name: Add
+  href: api/Platform.Helpers.Numbers.ArithmeticHelpers.html#Platform_Helpers_Numbers_ArithmeticHelpers_Add_
+  commentId: Overload:Platform.Helpers.Numbers.ArithmeticHelpers.Add
+  isSpec: "True"
+  fullName: Platform.Helpers.Numbers.ArithmeticHelpers.Add
+  nameWithType: ArithmeticHelpers.Add
+- uid: Platform.Helpers.Numbers.ArithmeticHelpers.Add``1(``0,``0)
+  name: Add<T>(T, T)
+  href: api/Platform.Helpers.Numbers.ArithmeticHelpers.html#Platform_Helpers_Numbers_ArithmeticHelpers_Add__1___0___0_
+  commentId: M:Platform.Helpers.Numbers.ArithmeticHelpers.Add``1(``0,``0)
+  name.vb: Add(Of T)(T, T)
+  fullName: Platform.Helpers.Numbers.ArithmeticHelpers.Add<T>(T, T)
+  fullName.vb: Platform.Helpers.Numbers.ArithmeticHelpers.Add(Of T)(T, T)
+  nameWithType: ArithmeticHelpers.Add<T>(T, T)
+  nameWithType.vb: ArithmeticHelpers.Add(Of T)(T, T)
+- uid: Platform.Helpers.Numbers.ArithmeticHelpers.And*
+  name: And
+  href: api/Platform.Helpers.Numbers.ArithmeticHelpers.html#Platform_Helpers_Numbers_ArithmeticHelpers_And_
+  commentId: Overload:Platform.Helpers.Numbers.ArithmeticHelpers.And
+  isSpec: "True"
+  fullName: Platform.Helpers.Numbers.ArithmeticHelpers.And
+  nameWithType: ArithmeticHelpers.And
+- uid: Platform.Helpers.Numbers.ArithmeticHelpers.And``1(``0,``0)
+  name: And<T>(T, T)
+  href: api/Platform.Helpers.Numbers.ArithmeticHelpers.html#Platform_Helpers_Numbers_ArithmeticHelpers_And__1___0___0_
+  commentId: M:Platform.Helpers.Numbers.ArithmeticHelpers.And``1(``0,``0)
+  name.vb: And(Of T)(T, T)
+  fullName: Platform.Helpers.Numbers.ArithmeticHelpers.And<T>(T, T)
+  fullName.vb: Platform.Helpers.Numbers.ArithmeticHelpers.And(Of T)(T, T)
+  nameWithType: ArithmeticHelpers.And<T>(T, T)
+  nameWithType.vb: ArithmeticHelpers.And(Of T)(T, T)
+- uid: Platform.Helpers.Numbers.ArithmeticHelpers.Decrement*
+  name: Decrement
+  href: api/Platform.Helpers.Numbers.ArithmeticHelpers.html#Platform_Helpers_Numbers_ArithmeticHelpers_Decrement_
+  commentId: Overload:Platform.Helpers.Numbers.ArithmeticHelpers.Decrement
+  isSpec: "True"
+  fullName: Platform.Helpers.Numbers.ArithmeticHelpers.Decrement
+  nameWithType: ArithmeticHelpers.Decrement
+- uid: Platform.Helpers.Numbers.ArithmeticHelpers.Decrement``1(``0)
+  name: Decrement<T>(T)
+  href: api/Platform.Helpers.Numbers.ArithmeticHelpers.html#Platform_Helpers_Numbers_ArithmeticHelpers_Decrement__1___0_
+  commentId: M:Platform.Helpers.Numbers.ArithmeticHelpers.Decrement``1(``0)
+  name.vb: Decrement(Of T)(T)
+  fullName: Platform.Helpers.Numbers.ArithmeticHelpers.Decrement<T>(T)
+  fullName.vb: Platform.Helpers.Numbers.ArithmeticHelpers.Decrement(Of T)(T)
+  nameWithType: ArithmeticHelpers.Decrement<T>(T)
+  nameWithType.vb: ArithmeticHelpers.Decrement(Of T)(T)
+- uid: Platform.Helpers.Numbers.ArithmeticHelpers.Increment*
+  name: Increment
+  href: api/Platform.Helpers.Numbers.ArithmeticHelpers.html#Platform_Helpers_Numbers_ArithmeticHelpers_Increment_
+  commentId: Overload:Platform.Helpers.Numbers.ArithmeticHelpers.Increment
+  isSpec: "True"
+  fullName: Platform.Helpers.Numbers.ArithmeticHelpers.Increment
+  nameWithType: ArithmeticHelpers.Increment
+- uid: Platform.Helpers.Numbers.ArithmeticHelpers.Increment``1(``0)
+  name: Increment<T>(T)
+  href: api/Platform.Helpers.Numbers.ArithmeticHelpers.html#Platform_Helpers_Numbers_ArithmeticHelpers_Increment__1___0_
+  commentId: M:Platform.Helpers.Numbers.ArithmeticHelpers.Increment``1(``0)
+  name.vb: Increment(Of T)(T)
+  fullName: Platform.Helpers.Numbers.ArithmeticHelpers.Increment<T>(T)
+  fullName.vb: Platform.Helpers.Numbers.ArithmeticHelpers.Increment(Of T)(T)
+  nameWithType: ArithmeticHelpers.Increment<T>(T)
+  nameWithType.vb: ArithmeticHelpers.Increment(Of T)(T)
+- uid: Platform.Helpers.Numbers.ArithmeticHelpers.Subtract*
+  name: Subtract
+  href: api/Platform.Helpers.Numbers.ArithmeticHelpers.html#Platform_Helpers_Numbers_ArithmeticHelpers_Subtract_
+  commentId: Overload:Platform.Helpers.Numbers.ArithmeticHelpers.Subtract
+  isSpec: "True"
+  fullName: Platform.Helpers.Numbers.ArithmeticHelpers.Subtract
+  nameWithType: ArithmeticHelpers.Subtract
+- uid: Platform.Helpers.Numbers.ArithmeticHelpers.Subtract``1(``0,``0)
+  name: Subtract<T>(T, T)
+  href: api/Platform.Helpers.Numbers.ArithmeticHelpers.html#Platform_Helpers_Numbers_ArithmeticHelpers_Subtract__1___0___0_
+  commentId: M:Platform.Helpers.Numbers.ArithmeticHelpers.Subtract``1(``0,``0)
+  name.vb: Subtract(Of T)(T, T)
+  fullName: Platform.Helpers.Numbers.ArithmeticHelpers.Subtract<T>(T, T)
+  fullName.vb: Platform.Helpers.Numbers.ArithmeticHelpers.Subtract(Of T)(T, T)
+  nameWithType: ArithmeticHelpers.Subtract<T>(T, T)
+  nameWithType.vb: ArithmeticHelpers.Subtract(Of T)(T, T)
+- uid: Platform.Helpers.Numbers.ArithmeticHelpers.Subtract``1(Platform.Helpers.Numbers.Integer{``0},Platform.Helpers.Numbers.Integer{``0})
+  name: Subtract<T>(Integer<T>, Integer<T>)
+  href: api/Platform.Helpers.Numbers.ArithmeticHelpers.html#Platform_Helpers_Numbers_ArithmeticHelpers_Subtract__1_Platform_Helpers_Numbers_Integer___0__Platform_Helpers_Numbers_Integer___0__
+  commentId: M:Platform.Helpers.Numbers.ArithmeticHelpers.Subtract``1(Platform.Helpers.Numbers.Integer{``0},Platform.Helpers.Numbers.Integer{``0})
+  name.vb: Subtract(Of T)(Integer(Of T), Integer(Of T))
+  fullName: Platform.Helpers.Numbers.ArithmeticHelpers.Subtract<T>(Platform.Helpers.Numbers.Integer<T>, Platform.Helpers.Numbers.Integer<T>)
+  fullName.vb: Platform.Helpers.Numbers.ArithmeticHelpers.Subtract(Of T)(Platform.Helpers.Numbers.Integer(Of T), Platform.Helpers.Numbers.Integer(Of T))
+  nameWithType: ArithmeticHelpers.Subtract<T>(Integer<T>, Integer<T>)
+  nameWithType.vb: ArithmeticHelpers.Subtract(Of T)(Integer(Of T), Integer(Of T))
+- uid: Platform.Helpers.Numbers.ArithmeticHelpers`1
+  name: ArithmeticHelpers<T>
+  href: api/Platform.Helpers.Numbers.ArithmeticHelpers-1.html
+  commentId: T:Platform.Helpers.Numbers.ArithmeticHelpers`1
+  name.vb: ArithmeticHelpers(Of T)
+  fullName: Platform.Helpers.Numbers.ArithmeticHelpers<T>
+  fullName.vb: Platform.Helpers.Numbers.ArithmeticHelpers(Of T)
+  nameWithType: ArithmeticHelpers<T>
+  nameWithType.vb: ArithmeticHelpers(Of T)
+- uid: Platform.Helpers.Numbers.ArithmeticHelpers`1.Add
+  name: Add
+  href: api/Platform.Helpers.Numbers.ArithmeticHelpers-1.html#Platform_Helpers_Numbers_ArithmeticHelpers_1_Add
+  commentId: F:Platform.Helpers.Numbers.ArithmeticHelpers`1.Add
+  fullName: Platform.Helpers.Numbers.ArithmeticHelpers<T>.Add
+  fullName.vb: Platform.Helpers.Numbers.ArithmeticHelpers(Of T).Add
+  nameWithType: ArithmeticHelpers<T>.Add
+  nameWithType.vb: ArithmeticHelpers(Of T).Add
+- uid: Platform.Helpers.Numbers.ArithmeticHelpers`1.And
+  name: And
+  href: api/Platform.Helpers.Numbers.ArithmeticHelpers-1.html#Platform_Helpers_Numbers_ArithmeticHelpers_1_And
+  commentId: F:Platform.Helpers.Numbers.ArithmeticHelpers`1.And
+  fullName: Platform.Helpers.Numbers.ArithmeticHelpers<T>.And
+  fullName.vb: Platform.Helpers.Numbers.ArithmeticHelpers(Of T).And
+  nameWithType: ArithmeticHelpers<T>.And
+  nameWithType.vb: ArithmeticHelpers(Of T).And
+- uid: Platform.Helpers.Numbers.ArithmeticHelpers`1.Decrement
+  name: Decrement
+  href: api/Platform.Helpers.Numbers.ArithmeticHelpers-1.html#Platform_Helpers_Numbers_ArithmeticHelpers_1_Decrement
+  commentId: F:Platform.Helpers.Numbers.ArithmeticHelpers`1.Decrement
+  fullName: Platform.Helpers.Numbers.ArithmeticHelpers<T>.Decrement
+  fullName.vb: Platform.Helpers.Numbers.ArithmeticHelpers(Of T).Decrement
+  nameWithType: ArithmeticHelpers<T>.Decrement
+  nameWithType.vb: ArithmeticHelpers(Of T).Decrement
+- uid: Platform.Helpers.Numbers.ArithmeticHelpers`1.Increment
+  name: Increment
+  href: api/Platform.Helpers.Numbers.ArithmeticHelpers-1.html#Platform_Helpers_Numbers_ArithmeticHelpers_1_Increment
+  commentId: F:Platform.Helpers.Numbers.ArithmeticHelpers`1.Increment
+  fullName: Platform.Helpers.Numbers.ArithmeticHelpers<T>.Increment
+  fullName.vb: Platform.Helpers.Numbers.ArithmeticHelpers(Of T).Increment
+  nameWithType: ArithmeticHelpers<T>.Increment
+  nameWithType.vb: ArithmeticHelpers(Of T).Increment
+- uid: Platform.Helpers.Numbers.ArithmeticHelpers`1.Subtract
+  name: Subtract
+  href: api/Platform.Helpers.Numbers.ArithmeticHelpers-1.html#Platform_Helpers_Numbers_ArithmeticHelpers_1_Subtract
+  commentId: F:Platform.Helpers.Numbers.ArithmeticHelpers`1.Subtract
+  fullName: Platform.Helpers.Numbers.ArithmeticHelpers<T>.Subtract
+  fullName.vb: Platform.Helpers.Numbers.ArithmeticHelpers(Of T).Subtract
+  nameWithType: ArithmeticHelpers<T>.Subtract
+  nameWithType.vb: ArithmeticHelpers(Of T).Subtract
+- uid: Platform.Helpers.Numbers.BitwiseExtensions
+  name: BitwiseExtensions
+  href: api/Platform.Helpers.Numbers.BitwiseExtensions.html
+  commentId: T:Platform.Helpers.Numbers.BitwiseExtensions
+  fullName: Platform.Helpers.Numbers.BitwiseExtensions
+  nameWithType: BitwiseExtensions
+- uid: Platform.Helpers.Numbers.BitwiseExtensions.PartialRead*
+  name: PartialRead
+  href: api/Platform.Helpers.Numbers.BitwiseExtensions.html#Platform_Helpers_Numbers_BitwiseExtensions_PartialRead_
+  commentId: Overload:Platform.Helpers.Numbers.BitwiseExtensions.PartialRead
+  isSpec: "True"
+  fullName: Platform.Helpers.Numbers.BitwiseExtensions.PartialRead
+  nameWithType: BitwiseExtensions.PartialRead
+- uid: Platform.Helpers.Numbers.BitwiseExtensions.PartialRead``1(``0,System.Int32,System.Int32)
+  name: PartialRead<T>(T, Int32, Int32)
+  href: api/Platform.Helpers.Numbers.BitwiseExtensions.html#Platform_Helpers_Numbers_BitwiseExtensions_PartialRead__1___0_System_Int32_System_Int32_
+  commentId: M:Platform.Helpers.Numbers.BitwiseExtensions.PartialRead``1(``0,System.Int32,System.Int32)
+  name.vb: PartialRead(Of T)(T, Int32, Int32)
+  fullName: Platform.Helpers.Numbers.BitwiseExtensions.PartialRead<T>(T, System.Int32, System.Int32)
+  fullName.vb: Platform.Helpers.Numbers.BitwiseExtensions.PartialRead(Of T)(T, System.Int32, System.Int32)
+  nameWithType: BitwiseExtensions.PartialRead<T>(T, Int32, Int32)
+  nameWithType.vb: BitwiseExtensions.PartialRead(Of T)(T, Int32, Int32)
+- uid: Platform.Helpers.Numbers.BitwiseExtensions.PartialWrite*
+  name: PartialWrite
+  href: api/Platform.Helpers.Numbers.BitwiseExtensions.html#Platform_Helpers_Numbers_BitwiseExtensions_PartialWrite_
+  commentId: Overload:Platform.Helpers.Numbers.BitwiseExtensions.PartialWrite
+  isSpec: "True"
+  fullName: Platform.Helpers.Numbers.BitwiseExtensions.PartialWrite
+  nameWithType: BitwiseExtensions.PartialWrite
+- uid: Platform.Helpers.Numbers.BitwiseExtensions.PartialWrite``1(``0@,``0,System.Int32,System.Int32)
+  name: PartialWrite<T>(ref T, T, Int32, Int32)
+  href: api/Platform.Helpers.Numbers.BitwiseExtensions.html#Platform_Helpers_Numbers_BitwiseExtensions_PartialWrite__1___0____0_System_Int32_System_Int32_
+  commentId: M:Platform.Helpers.Numbers.BitwiseExtensions.PartialWrite``1(``0@,``0,System.Int32,System.Int32)
+  name.vb: PartialWrite(Of T)(ByRef T, T, Int32, Int32)
+  fullName: Platform.Helpers.Numbers.BitwiseExtensions.PartialWrite<T>(ref T, T, System.Int32, System.Int32)
+  fullName.vb: Platform.Helpers.Numbers.BitwiseExtensions.PartialWrite(Of T)(ByRef T, T, System.Int32, System.Int32)
+  nameWithType: BitwiseExtensions.PartialWrite<T>(ref T, T, Int32, Int32)
+  nameWithType.vb: BitwiseExtensions.PartialWrite(Of T)(ByRef T, T, Int32, Int32)
+- uid: Platform.Helpers.Numbers.BitwiseHelpers
+  name: BitwiseHelpers
+  href: api/Platform.Helpers.Numbers.BitwiseHelpers.html
+  commentId: T:Platform.Helpers.Numbers.BitwiseHelpers
+  fullName: Platform.Helpers.Numbers.BitwiseHelpers
+  nameWithType: BitwiseHelpers
+- uid: Platform.Helpers.Numbers.BitwiseHelpers.CountBits(System.Int64)
+  name: CountBits(Int64)
+  href: api/Platform.Helpers.Numbers.BitwiseHelpers.html#Platform_Helpers_Numbers_BitwiseHelpers_CountBits_System_Int64_
+  commentId: M:Platform.Helpers.Numbers.BitwiseHelpers.CountBits(System.Int64)
+  fullName: Platform.Helpers.Numbers.BitwiseHelpers.CountBits(System.Int64)
+  nameWithType: BitwiseHelpers.CountBits(Int64)
+- uid: Platform.Helpers.Numbers.BitwiseHelpers.CountBits*
+  name: CountBits
+  href: api/Platform.Helpers.Numbers.BitwiseHelpers.html#Platform_Helpers_Numbers_BitwiseHelpers_CountBits_
+  commentId: Overload:Platform.Helpers.Numbers.BitwiseHelpers.CountBits
+  isSpec: "True"
+  fullName: Platform.Helpers.Numbers.BitwiseHelpers.CountBits
+  nameWithType: BitwiseHelpers.CountBits
+- uid: Platform.Helpers.Numbers.BitwiseHelpers.GetLowestBitPosition(System.UInt64)
+  name: GetLowestBitPosition(UInt64)
+  href: api/Platform.Helpers.Numbers.BitwiseHelpers.html#Platform_Helpers_Numbers_BitwiseHelpers_GetLowestBitPosition_System_UInt64_
+  commentId: M:Platform.Helpers.Numbers.BitwiseHelpers.GetLowestBitPosition(System.UInt64)
+  fullName: Platform.Helpers.Numbers.BitwiseHelpers.GetLowestBitPosition(System.UInt64)
+  nameWithType: BitwiseHelpers.GetLowestBitPosition(UInt64)
+- uid: Platform.Helpers.Numbers.BitwiseHelpers.GetLowestBitPosition*
+  name: GetLowestBitPosition
+  href: api/Platform.Helpers.Numbers.BitwiseHelpers.html#Platform_Helpers_Numbers_BitwiseHelpers_GetLowestBitPosition_
+  commentId: Overload:Platform.Helpers.Numbers.BitwiseHelpers.GetLowestBitPosition
+  isSpec: "True"
+  fullName: Platform.Helpers.Numbers.BitwiseHelpers.GetLowestBitPosition
+  nameWithType: BitwiseHelpers.GetLowestBitPosition
+- uid: Platform.Helpers.Numbers.BitwiseHelpers.PartialRead*
+  name: PartialRead
+  href: api/Platform.Helpers.Numbers.BitwiseHelpers.html#Platform_Helpers_Numbers_BitwiseHelpers_PartialRead_
+  commentId: Overload:Platform.Helpers.Numbers.BitwiseHelpers.PartialRead
+  isSpec: "True"
+  fullName: Platform.Helpers.Numbers.BitwiseHelpers.PartialRead
+  nameWithType: BitwiseHelpers.PartialRead
+- uid: Platform.Helpers.Numbers.BitwiseHelpers.PartialRead``1(``0,System.Int32,System.Int32)
+  name: PartialRead<T>(T, Int32, Int32)
+  href: api/Platform.Helpers.Numbers.BitwiseHelpers.html#Platform_Helpers_Numbers_BitwiseHelpers_PartialRead__1___0_System_Int32_System_Int32_
+  commentId: M:Platform.Helpers.Numbers.BitwiseHelpers.PartialRead``1(``0,System.Int32,System.Int32)
+  name.vb: PartialRead(Of T)(T, Int32, Int32)
+  fullName: Platform.Helpers.Numbers.BitwiseHelpers.PartialRead<T>(T, System.Int32, System.Int32)
+  fullName.vb: Platform.Helpers.Numbers.BitwiseHelpers.PartialRead(Of T)(T, System.Int32, System.Int32)
+  nameWithType: BitwiseHelpers.PartialRead<T>(T, Int32, Int32)
+  nameWithType.vb: BitwiseHelpers.PartialRead(Of T)(T, Int32, Int32)
+- uid: Platform.Helpers.Numbers.BitwiseHelpers.PartialWrite*
+  name: PartialWrite
+  href: api/Platform.Helpers.Numbers.BitwiseHelpers.html#Platform_Helpers_Numbers_BitwiseHelpers_PartialWrite_
+  commentId: Overload:Platform.Helpers.Numbers.BitwiseHelpers.PartialWrite
+  isSpec: "True"
+  fullName: Platform.Helpers.Numbers.BitwiseHelpers.PartialWrite
+  nameWithType: BitwiseHelpers.PartialWrite
+- uid: Platform.Helpers.Numbers.BitwiseHelpers.PartialWrite``1(``0,``0,System.Int32,System.Int32)
+  name: PartialWrite<T>(T, T, Int32, Int32)
+  href: api/Platform.Helpers.Numbers.BitwiseHelpers.html#Platform_Helpers_Numbers_BitwiseHelpers_PartialWrite__1___0___0_System_Int32_System_Int32_
+  commentId: M:Platform.Helpers.Numbers.BitwiseHelpers.PartialWrite``1(``0,``0,System.Int32,System.Int32)
+  name.vb: PartialWrite(Of T)(T, T, Int32, Int32)
+  fullName: Platform.Helpers.Numbers.BitwiseHelpers.PartialWrite<T>(T, T, System.Int32, System.Int32)
+  fullName.vb: Platform.Helpers.Numbers.BitwiseHelpers.PartialWrite(Of T)(T, T, System.Int32, System.Int32)
+  nameWithType: BitwiseHelpers.PartialWrite<T>(T, T, Int32, Int32)
+  nameWithType.vb: BitwiseHelpers.PartialWrite(Of T)(T, T, Int32, Int32)
+- uid: Platform.Helpers.Numbers.BitwiseHelpers`1
+  name: BitwiseHelpers<T>
+  href: api/Platform.Helpers.Numbers.BitwiseHelpers-1.html
+  commentId: T:Platform.Helpers.Numbers.BitwiseHelpers`1
+  name.vb: BitwiseHelpers(Of T)
+  fullName: Platform.Helpers.Numbers.BitwiseHelpers<T>
+  fullName.vb: Platform.Helpers.Numbers.BitwiseHelpers(Of T)
+  nameWithType: BitwiseHelpers<T>
+  nameWithType.vb: BitwiseHelpers(Of T)
+- uid: Platform.Helpers.Numbers.BitwiseHelpers`1.PartialRead
+  name: PartialRead
+  href: api/Platform.Helpers.Numbers.BitwiseHelpers-1.html#Platform_Helpers_Numbers_BitwiseHelpers_1_PartialRead
+  commentId: F:Platform.Helpers.Numbers.BitwiseHelpers`1.PartialRead
+  fullName: Platform.Helpers.Numbers.BitwiseHelpers<T>.PartialRead
+  fullName.vb: Platform.Helpers.Numbers.BitwiseHelpers(Of T).PartialRead
+  nameWithType: BitwiseHelpers<T>.PartialRead
+  nameWithType.vb: BitwiseHelpers(Of T).PartialRead
+- uid: Platform.Helpers.Numbers.BitwiseHelpers`1.PartialWrite
+  name: PartialWrite
+  href: api/Platform.Helpers.Numbers.BitwiseHelpers-1.html#Platform_Helpers_Numbers_BitwiseHelpers_1_PartialWrite
+  commentId: F:Platform.Helpers.Numbers.BitwiseHelpers`1.PartialWrite
+  fullName: Platform.Helpers.Numbers.BitwiseHelpers<T>.PartialWrite
+  fullName.vb: Platform.Helpers.Numbers.BitwiseHelpers(Of T).PartialWrite
+  nameWithType: BitwiseHelpers<T>.PartialWrite
+  nameWithType.vb: BitwiseHelpers(Of T).PartialWrite
 - uid: Platform.Helpers.Numbers.Integer
   name: Integer
   href: api/Platform.Helpers.Numbers.Integer.html
@@ -15559,38 +15868,6 @@ references:
   fullName.vb: Platform.Helpers.Numbers.MathExtensions.Abs(Of T)(ByRef T)
   nameWithType: MathExtensions.Abs<T>(ref T)
   nameWithType.vb: MathExtensions.Abs(Of T)(ByRef T)
-- uid: Platform.Helpers.Numbers.MathExtensions.Decrement*
-  name: Decrement
-  href: api/Platform.Helpers.Numbers.MathExtensions.html#Platform_Helpers_Numbers_MathExtensions_Decrement_
-  commentId: Overload:Platform.Helpers.Numbers.MathExtensions.Decrement
-  isSpec: "True"
-  fullName: Platform.Helpers.Numbers.MathExtensions.Decrement
-  nameWithType: MathExtensions.Decrement
-- uid: Platform.Helpers.Numbers.MathExtensions.Decrement``1(``0@)
-  name: Decrement<T>(ref T)
-  href: api/Platform.Helpers.Numbers.MathExtensions.html#Platform_Helpers_Numbers_MathExtensions_Decrement__1___0__
-  commentId: M:Platform.Helpers.Numbers.MathExtensions.Decrement``1(``0@)
-  name.vb: Decrement(Of T)(ByRef T)
-  fullName: Platform.Helpers.Numbers.MathExtensions.Decrement<T>(ref T)
-  fullName.vb: Platform.Helpers.Numbers.MathExtensions.Decrement(Of T)(ByRef T)
-  nameWithType: MathExtensions.Decrement<T>(ref T)
-  nameWithType.vb: MathExtensions.Decrement(Of T)(ByRef T)
-- uid: Platform.Helpers.Numbers.MathExtensions.Increment*
-  name: Increment
-  href: api/Platform.Helpers.Numbers.MathExtensions.html#Platform_Helpers_Numbers_MathExtensions_Increment_
-  commentId: Overload:Platform.Helpers.Numbers.MathExtensions.Increment
-  isSpec: "True"
-  fullName: Platform.Helpers.Numbers.MathExtensions.Increment
-  nameWithType: MathExtensions.Increment
-- uid: Platform.Helpers.Numbers.MathExtensions.Increment``1(``0@)
-  name: Increment<T>(ref T)
-  href: api/Platform.Helpers.Numbers.MathExtensions.html#Platform_Helpers_Numbers_MathExtensions_Increment__1___0__
-  commentId: M:Platform.Helpers.Numbers.MathExtensions.Increment``1(``0@)
-  name.vb: Increment(Of T)(ByRef T)
-  fullName: Platform.Helpers.Numbers.MathExtensions.Increment<T>(ref T)
-  fullName.vb: Platform.Helpers.Numbers.MathExtensions.Increment(Of T)(ByRef T)
-  nameWithType: MathExtensions.Increment<T>(ref T)
-  nameWithType.vb: MathExtensions.Increment(Of T)(ByRef T)
 - uid: Platform.Helpers.Numbers.MathExtensions.Negate*
   name: Negate
   href: api/Platform.Helpers.Numbers.MathExtensions.html#Platform_Helpers_Numbers_MathExtensions_Negate_
@@ -15607,38 +15884,6 @@ references:
   fullName.vb: Platform.Helpers.Numbers.MathExtensions.Negate(Of T)(ByRef T)
   nameWithType: MathExtensions.Negate<T>(ref T)
   nameWithType.vb: MathExtensions.Negate(Of T)(ByRef T)
-- uid: Platform.Helpers.Numbers.MathExtensions.PartialRead*
-  name: PartialRead
-  href: api/Platform.Helpers.Numbers.MathExtensions.html#Platform_Helpers_Numbers_MathExtensions_PartialRead_
-  commentId: Overload:Platform.Helpers.Numbers.MathExtensions.PartialRead
-  isSpec: "True"
-  fullName: Platform.Helpers.Numbers.MathExtensions.PartialRead
-  nameWithType: MathExtensions.PartialRead
-- uid: Platform.Helpers.Numbers.MathExtensions.PartialRead``1(``0,System.Int32,System.Int32)
-  name: PartialRead<T>(T, Int32, Int32)
-  href: api/Platform.Helpers.Numbers.MathExtensions.html#Platform_Helpers_Numbers_MathExtensions_PartialRead__1___0_System_Int32_System_Int32_
-  commentId: M:Platform.Helpers.Numbers.MathExtensions.PartialRead``1(``0,System.Int32,System.Int32)
-  name.vb: PartialRead(Of T)(T, Int32, Int32)
-  fullName: Platform.Helpers.Numbers.MathExtensions.PartialRead<T>(T, System.Int32, System.Int32)
-  fullName.vb: Platform.Helpers.Numbers.MathExtensions.PartialRead(Of T)(T, System.Int32, System.Int32)
-  nameWithType: MathExtensions.PartialRead<T>(T, Int32, Int32)
-  nameWithType.vb: MathExtensions.PartialRead(Of T)(T, Int32, Int32)
-- uid: Platform.Helpers.Numbers.MathExtensions.PartialWrite*
-  name: PartialWrite
-  href: api/Platform.Helpers.Numbers.MathExtensions.html#Platform_Helpers_Numbers_MathExtensions_PartialWrite_
-  commentId: Overload:Platform.Helpers.Numbers.MathExtensions.PartialWrite
-  isSpec: "True"
-  fullName: Platform.Helpers.Numbers.MathExtensions.PartialWrite
-  nameWithType: MathExtensions.PartialWrite
-- uid: Platform.Helpers.Numbers.MathExtensions.PartialWrite``1(``0@,``0,System.Int32,System.Int32)
-  name: PartialWrite<T>(ref T, T, Int32, Int32)
-  href: api/Platform.Helpers.Numbers.MathExtensions.html#Platform_Helpers_Numbers_MathExtensions_PartialWrite__1___0____0_System_Int32_System_Int32_
-  commentId: M:Platform.Helpers.Numbers.MathExtensions.PartialWrite``1(``0@,``0,System.Int32,System.Int32)
-  name.vb: PartialWrite(Of T)(ByRef T, T, Int32, Int32)
-  fullName: Platform.Helpers.Numbers.MathExtensions.PartialWrite<T>(ref T, T, System.Int32, System.Int32)
-  fullName.vb: Platform.Helpers.Numbers.MathExtensions.PartialWrite(Of T)(ByRef T, T, System.Int32, System.Int32)
-  nameWithType: MathExtensions.PartialWrite<T>(ref T, T, Int32, Int32)
-  nameWithType.vb: MathExtensions.PartialWrite(Of T)(ByRef T, T, Int32, Int32)
 - uid: Platform.Helpers.Numbers.MathHelpers
   name: MathHelpers
   href: api/Platform.Helpers.Numbers.MathHelpers.html
@@ -15661,38 +15906,6 @@ references:
   fullName.vb: Platform.Helpers.Numbers.MathHelpers.Abs(Of T)(T)
   nameWithType: MathHelpers.Abs<T>(T)
   nameWithType.vb: MathHelpers.Abs(Of T)(T)
-- uid: Platform.Helpers.Numbers.MathHelpers.Add*
-  name: Add
-  href: api/Platform.Helpers.Numbers.MathHelpers.html#Platform_Helpers_Numbers_MathHelpers_Add_
-  commentId: Overload:Platform.Helpers.Numbers.MathHelpers.Add
-  isSpec: "True"
-  fullName: Platform.Helpers.Numbers.MathHelpers.Add
-  nameWithType: MathHelpers.Add
-- uid: Platform.Helpers.Numbers.MathHelpers.Add``1(``0,``0)
-  name: Add<T>(T, T)
-  href: api/Platform.Helpers.Numbers.MathHelpers.html#Platform_Helpers_Numbers_MathHelpers_Add__1___0___0_
-  commentId: M:Platform.Helpers.Numbers.MathHelpers.Add``1(``0,``0)
-  name.vb: Add(Of T)(T, T)
-  fullName: Platform.Helpers.Numbers.MathHelpers.Add<T>(T, T)
-  fullName.vb: Platform.Helpers.Numbers.MathHelpers.Add(Of T)(T, T)
-  nameWithType: MathHelpers.Add<T>(T, T)
-  nameWithType.vb: MathHelpers.Add(Of T)(T, T)
-- uid: Platform.Helpers.Numbers.MathHelpers.And*
-  name: And
-  href: api/Platform.Helpers.Numbers.MathHelpers.html#Platform_Helpers_Numbers_MathHelpers_And_
-  commentId: Overload:Platform.Helpers.Numbers.MathHelpers.And
-  isSpec: "True"
-  fullName: Platform.Helpers.Numbers.MathHelpers.And
-  nameWithType: MathHelpers.And
-- uid: Platform.Helpers.Numbers.MathHelpers.And``1(``0,``0)
-  name: And<T>(T, T)
-  href: api/Platform.Helpers.Numbers.MathHelpers.html#Platform_Helpers_Numbers_MathHelpers_And__1___0___0_
-  commentId: M:Platform.Helpers.Numbers.MathHelpers.And``1(``0,``0)
-  name.vb: And(Of T)(T, T)
-  fullName: Platform.Helpers.Numbers.MathHelpers.And<T>(T, T)
-  fullName.vb: Platform.Helpers.Numbers.MathHelpers.And(Of T)(T, T)
-  nameWithType: MathHelpers.And<T>(T, T)
-  nameWithType.vb: MathHelpers.And(Of T)(T, T)
 - uid: Platform.Helpers.Numbers.MathHelpers.Catalan(System.Double)
   name: Catalan(Double)
   href: api/Platform.Helpers.Numbers.MathHelpers.html#Platform_Helpers_Numbers_MathHelpers_Catalan_System_Double_
@@ -15706,35 +15919,6 @@ references:
   isSpec: "True"
   fullName: Platform.Helpers.Numbers.MathHelpers.Catalan
   nameWithType: MathHelpers.Catalan
-- uid: Platform.Helpers.Numbers.MathHelpers.CountBits(System.Int64)
-  name: CountBits(Int64)
-  href: api/Platform.Helpers.Numbers.MathHelpers.html#Platform_Helpers_Numbers_MathHelpers_CountBits_System_Int64_
-  commentId: M:Platform.Helpers.Numbers.MathHelpers.CountBits(System.Int64)
-  fullName: Platform.Helpers.Numbers.MathHelpers.CountBits(System.Int64)
-  nameWithType: MathHelpers.CountBits(Int64)
-- uid: Platform.Helpers.Numbers.MathHelpers.CountBits*
-  name: CountBits
-  href: api/Platform.Helpers.Numbers.MathHelpers.html#Platform_Helpers_Numbers_MathHelpers_CountBits_
-  commentId: Overload:Platform.Helpers.Numbers.MathHelpers.CountBits
-  isSpec: "True"
-  fullName: Platform.Helpers.Numbers.MathHelpers.CountBits
-  nameWithType: MathHelpers.CountBits
-- uid: Platform.Helpers.Numbers.MathHelpers.Decrement*
-  name: Decrement
-  href: api/Platform.Helpers.Numbers.MathHelpers.html#Platform_Helpers_Numbers_MathHelpers_Decrement_
-  commentId: Overload:Platform.Helpers.Numbers.MathHelpers.Decrement
-  isSpec: "True"
-  fullName: Platform.Helpers.Numbers.MathHelpers.Decrement
-  nameWithType: MathHelpers.Decrement
-- uid: Platform.Helpers.Numbers.MathHelpers.Decrement``1(``0)
-  name: Decrement<T>(T)
-  href: api/Platform.Helpers.Numbers.MathHelpers.html#Platform_Helpers_Numbers_MathHelpers_Decrement__1___0_
-  commentId: M:Platform.Helpers.Numbers.MathHelpers.Decrement``1(``0)
-  name.vb: Decrement(Of T)(T)
-  fullName: Platform.Helpers.Numbers.MathHelpers.Decrement<T>(T)
-  fullName.vb: Platform.Helpers.Numbers.MathHelpers.Decrement(Of T)(T)
-  nameWithType: MathHelpers.Decrement<T>(T)
-  nameWithType.vb: MathHelpers.Decrement(Of T)(T)
 - uid: Platform.Helpers.Numbers.MathHelpers.Factorial(System.Double)
   name: Factorial(Double)
   href: api/Platform.Helpers.Numbers.MathHelpers.html#Platform_Helpers_Numbers_MathHelpers_Factorial_System_Double_
@@ -15748,35 +15932,6 @@ references:
   isSpec: "True"
   fullName: Platform.Helpers.Numbers.MathHelpers.Factorial
   nameWithType: MathHelpers.Factorial
-- uid: Platform.Helpers.Numbers.MathHelpers.GetLowestBitPosition(System.UInt64)
-  name: GetLowestBitPosition(UInt64)
-  href: api/Platform.Helpers.Numbers.MathHelpers.html#Platform_Helpers_Numbers_MathHelpers_GetLowestBitPosition_System_UInt64_
-  commentId: M:Platform.Helpers.Numbers.MathHelpers.GetLowestBitPosition(System.UInt64)
-  fullName: Platform.Helpers.Numbers.MathHelpers.GetLowestBitPosition(System.UInt64)
-  nameWithType: MathHelpers.GetLowestBitPosition(UInt64)
-- uid: Platform.Helpers.Numbers.MathHelpers.GetLowestBitPosition*
-  name: GetLowestBitPosition
-  href: api/Platform.Helpers.Numbers.MathHelpers.html#Platform_Helpers_Numbers_MathHelpers_GetLowestBitPosition_
-  commentId: Overload:Platform.Helpers.Numbers.MathHelpers.GetLowestBitPosition
-  isSpec: "True"
-  fullName: Platform.Helpers.Numbers.MathHelpers.GetLowestBitPosition
-  nameWithType: MathHelpers.GetLowestBitPosition
-- uid: Platform.Helpers.Numbers.MathHelpers.Increment*
-  name: Increment
-  href: api/Platform.Helpers.Numbers.MathHelpers.html#Platform_Helpers_Numbers_MathHelpers_Increment_
-  commentId: Overload:Platform.Helpers.Numbers.MathHelpers.Increment
-  isSpec: "True"
-  fullName: Platform.Helpers.Numbers.MathHelpers.Increment
-  nameWithType: MathHelpers.Increment
-- uid: Platform.Helpers.Numbers.MathHelpers.Increment``1(``0)
-  name: Increment<T>(T)
-  href: api/Platform.Helpers.Numbers.MathHelpers.html#Platform_Helpers_Numbers_MathHelpers_Increment__1___0_
-  commentId: M:Platform.Helpers.Numbers.MathHelpers.Increment``1(``0)
-  name.vb: Increment(Of T)(T)
-  fullName: Platform.Helpers.Numbers.MathHelpers.Increment<T>(T)
-  fullName.vb: Platform.Helpers.Numbers.MathHelpers.Increment(Of T)(T)
-  nameWithType: MathHelpers.Increment<T>(T)
-  nameWithType.vb: MathHelpers.Increment(Of T)(T)
 - uid: Platform.Helpers.Numbers.MathHelpers.IsPowerOfTwo(System.UInt64)
   name: IsPowerOfTwo(UInt64)
   href: api/Platform.Helpers.Numbers.MathHelpers.html#Platform_Helpers_Numbers_MathHelpers_IsPowerOfTwo_System_UInt64_
@@ -15806,63 +15961,6 @@ references:
   fullName.vb: Platform.Helpers.Numbers.MathHelpers.Negate(Of T)(T)
   nameWithType: MathHelpers.Negate<T>(T)
   nameWithType.vb: MathHelpers.Negate(Of T)(T)
-- uid: Platform.Helpers.Numbers.MathHelpers.PartialRead*
-  name: PartialRead
-  href: api/Platform.Helpers.Numbers.MathHelpers.html#Platform_Helpers_Numbers_MathHelpers_PartialRead_
-  commentId: Overload:Platform.Helpers.Numbers.MathHelpers.PartialRead
-  isSpec: "True"
-  fullName: Platform.Helpers.Numbers.MathHelpers.PartialRead
-  nameWithType: MathHelpers.PartialRead
-- uid: Platform.Helpers.Numbers.MathHelpers.PartialRead``1(``0,System.Int32,System.Int32)
-  name: PartialRead<T>(T, Int32, Int32)
-  href: api/Platform.Helpers.Numbers.MathHelpers.html#Platform_Helpers_Numbers_MathHelpers_PartialRead__1___0_System_Int32_System_Int32_
-  commentId: M:Platform.Helpers.Numbers.MathHelpers.PartialRead``1(``0,System.Int32,System.Int32)
-  name.vb: PartialRead(Of T)(T, Int32, Int32)
-  fullName: Platform.Helpers.Numbers.MathHelpers.PartialRead<T>(T, System.Int32, System.Int32)
-  fullName.vb: Platform.Helpers.Numbers.MathHelpers.PartialRead(Of T)(T, System.Int32, System.Int32)
-  nameWithType: MathHelpers.PartialRead<T>(T, Int32, Int32)
-  nameWithType.vb: MathHelpers.PartialRead(Of T)(T, Int32, Int32)
-- uid: Platform.Helpers.Numbers.MathHelpers.PartialWrite*
-  name: PartialWrite
-  href: api/Platform.Helpers.Numbers.MathHelpers.html#Platform_Helpers_Numbers_MathHelpers_PartialWrite_
-  commentId: Overload:Platform.Helpers.Numbers.MathHelpers.PartialWrite
-  isSpec: "True"
-  fullName: Platform.Helpers.Numbers.MathHelpers.PartialWrite
-  nameWithType: MathHelpers.PartialWrite
-- uid: Platform.Helpers.Numbers.MathHelpers.PartialWrite``1(``0,``0,System.Int32,System.Int32)
-  name: PartialWrite<T>(T, T, Int32, Int32)
-  href: api/Platform.Helpers.Numbers.MathHelpers.html#Platform_Helpers_Numbers_MathHelpers_PartialWrite__1___0___0_System_Int32_System_Int32_
-  commentId: M:Platform.Helpers.Numbers.MathHelpers.PartialWrite``1(``0,``0,System.Int32,System.Int32)
-  name.vb: PartialWrite(Of T)(T, T, Int32, Int32)
-  fullName: Platform.Helpers.Numbers.MathHelpers.PartialWrite<T>(T, T, System.Int32, System.Int32)
-  fullName.vb: Platform.Helpers.Numbers.MathHelpers.PartialWrite(Of T)(T, T, System.Int32, System.Int32)
-  nameWithType: MathHelpers.PartialWrite<T>(T, T, Int32, Int32)
-  nameWithType.vb: MathHelpers.PartialWrite(Of T)(T, T, Int32, Int32)
-- uid: Platform.Helpers.Numbers.MathHelpers.Subtract*
-  name: Subtract
-  href: api/Platform.Helpers.Numbers.MathHelpers.html#Platform_Helpers_Numbers_MathHelpers_Subtract_
-  commentId: Overload:Platform.Helpers.Numbers.MathHelpers.Subtract
-  isSpec: "True"
-  fullName: Platform.Helpers.Numbers.MathHelpers.Subtract
-  nameWithType: MathHelpers.Subtract
-- uid: Platform.Helpers.Numbers.MathHelpers.Subtract``1(``0,``0)
-  name: Subtract<T>(T, T)
-  href: api/Platform.Helpers.Numbers.MathHelpers.html#Platform_Helpers_Numbers_MathHelpers_Subtract__1___0___0_
-  commentId: M:Platform.Helpers.Numbers.MathHelpers.Subtract``1(``0,``0)
-  name.vb: Subtract(Of T)(T, T)
-  fullName: Platform.Helpers.Numbers.MathHelpers.Subtract<T>(T, T)
-  fullName.vb: Platform.Helpers.Numbers.MathHelpers.Subtract(Of T)(T, T)
-  nameWithType: MathHelpers.Subtract<T>(T, T)
-  nameWithType.vb: MathHelpers.Subtract(Of T)(T, T)
-- uid: Platform.Helpers.Numbers.MathHelpers.Subtract``1(Platform.Helpers.Numbers.Integer{``0},Platform.Helpers.Numbers.Integer{``0})
-  name: Subtract<T>(Integer<T>, Integer<T>)
-  href: api/Platform.Helpers.Numbers.MathHelpers.html#Platform_Helpers_Numbers_MathHelpers_Subtract__1_Platform_Helpers_Numbers_Integer___0__Platform_Helpers_Numbers_Integer___0__
-  commentId: M:Platform.Helpers.Numbers.MathHelpers.Subtract``1(Platform.Helpers.Numbers.Integer{``0},Platform.Helpers.Numbers.Integer{``0})
-  name.vb: Subtract(Of T)(Integer(Of T), Integer(Of T))
-  fullName: Platform.Helpers.Numbers.MathHelpers.Subtract<T>(Platform.Helpers.Numbers.Integer<T>, Platform.Helpers.Numbers.Integer<T>)
-  fullName.vb: Platform.Helpers.Numbers.MathHelpers.Subtract(Of T)(Platform.Helpers.Numbers.Integer(Of T), Platform.Helpers.Numbers.Integer(Of T))
-  nameWithType: MathHelpers.Subtract<T>(Integer<T>, Integer<T>)
-  nameWithType.vb: MathHelpers.Subtract(Of T)(Integer(Of T), Integer(Of T))
 - uid: Platform.Helpers.Numbers.MathHelpers`1
   name: MathHelpers<T>
   href: api/Platform.Helpers.Numbers.MathHelpers-1.html
@@ -15880,38 +15978,6 @@ references:
   fullName.vb: Platform.Helpers.Numbers.MathHelpers(Of T).Abs
   nameWithType: MathHelpers<T>.Abs
   nameWithType.vb: MathHelpers(Of T).Abs
-- uid: Platform.Helpers.Numbers.MathHelpers`1.Add
-  name: Add
-  href: api/Platform.Helpers.Numbers.MathHelpers-1.html#Platform_Helpers_Numbers_MathHelpers_1_Add
-  commentId: F:Platform.Helpers.Numbers.MathHelpers`1.Add
-  fullName: Platform.Helpers.Numbers.MathHelpers<T>.Add
-  fullName.vb: Platform.Helpers.Numbers.MathHelpers(Of T).Add
-  nameWithType: MathHelpers<T>.Add
-  nameWithType.vb: MathHelpers(Of T).Add
-- uid: Platform.Helpers.Numbers.MathHelpers`1.And
-  name: And
-  href: api/Platform.Helpers.Numbers.MathHelpers-1.html#Platform_Helpers_Numbers_MathHelpers_1_And
-  commentId: F:Platform.Helpers.Numbers.MathHelpers`1.And
-  fullName: Platform.Helpers.Numbers.MathHelpers<T>.And
-  fullName.vb: Platform.Helpers.Numbers.MathHelpers(Of T).And
-  nameWithType: MathHelpers<T>.And
-  nameWithType.vb: MathHelpers(Of T).And
-- uid: Platform.Helpers.Numbers.MathHelpers`1.Decrement
-  name: Decrement
-  href: api/Platform.Helpers.Numbers.MathHelpers-1.html#Platform_Helpers_Numbers_MathHelpers_1_Decrement
-  commentId: F:Platform.Helpers.Numbers.MathHelpers`1.Decrement
-  fullName: Platform.Helpers.Numbers.MathHelpers<T>.Decrement
-  fullName.vb: Platform.Helpers.Numbers.MathHelpers(Of T).Decrement
-  nameWithType: MathHelpers<T>.Decrement
-  nameWithType.vb: MathHelpers(Of T).Decrement
-- uid: Platform.Helpers.Numbers.MathHelpers`1.Increment
-  name: Increment
-  href: api/Platform.Helpers.Numbers.MathHelpers-1.html#Platform_Helpers_Numbers_MathHelpers_1_Increment
-  commentId: F:Platform.Helpers.Numbers.MathHelpers`1.Increment
-  fullName: Platform.Helpers.Numbers.MathHelpers<T>.Increment
-  fullName.vb: Platform.Helpers.Numbers.MathHelpers(Of T).Increment
-  nameWithType: MathHelpers<T>.Increment
-  nameWithType.vb: MathHelpers(Of T).Increment
 - uid: Platform.Helpers.Numbers.MathHelpers`1.Negate
   name: Negate
   href: api/Platform.Helpers.Numbers.MathHelpers-1.html#Platform_Helpers_Numbers_MathHelpers_1_Negate
@@ -15920,30 +15986,6 @@ references:
   fullName.vb: Platform.Helpers.Numbers.MathHelpers(Of T).Negate
   nameWithType: MathHelpers<T>.Negate
   nameWithType.vb: MathHelpers(Of T).Negate
-- uid: Platform.Helpers.Numbers.MathHelpers`1.PartialRead
-  name: PartialRead
-  href: api/Platform.Helpers.Numbers.MathHelpers-1.html#Platform_Helpers_Numbers_MathHelpers_1_PartialRead
-  commentId: F:Platform.Helpers.Numbers.MathHelpers`1.PartialRead
-  fullName: Platform.Helpers.Numbers.MathHelpers<T>.PartialRead
-  fullName.vb: Platform.Helpers.Numbers.MathHelpers(Of T).PartialRead
-  nameWithType: MathHelpers<T>.PartialRead
-  nameWithType.vb: MathHelpers(Of T).PartialRead
-- uid: Platform.Helpers.Numbers.MathHelpers`1.PartialWrite
-  name: PartialWrite
-  href: api/Platform.Helpers.Numbers.MathHelpers-1.html#Platform_Helpers_Numbers_MathHelpers_1_PartialWrite
-  commentId: F:Platform.Helpers.Numbers.MathHelpers`1.PartialWrite
-  fullName: Platform.Helpers.Numbers.MathHelpers<T>.PartialWrite
-  fullName.vb: Platform.Helpers.Numbers.MathHelpers(Of T).PartialWrite
-  nameWithType: MathHelpers<T>.PartialWrite
-  nameWithType.vb: MathHelpers(Of T).PartialWrite
-- uid: Platform.Helpers.Numbers.MathHelpers`1.Subtract
-  name: Subtract
-  href: api/Platform.Helpers.Numbers.MathHelpers-1.html#Platform_Helpers_Numbers_MathHelpers_1_Subtract
-  commentId: F:Platform.Helpers.Numbers.MathHelpers`1.Subtract
-  fullName: Platform.Helpers.Numbers.MathHelpers<T>.Subtract
-  fullName.vb: Platform.Helpers.Numbers.MathHelpers(Of T).Subtract
-  nameWithType: MathHelpers<T>.Subtract
-  nameWithType.vb: MathHelpers(Of T).Subtract
 - uid: Platform.Helpers.PerformanceHelpers
   name: PerformanceHelpers
   href: api/Platform.Helpers.PerformanceHelpers.html
@@ -19678,6 +19720,89 @@ references:
   commentId: N:Platform.Tests.Helpers
   fullName: Platform.Tests.Helpers
   nameWithType: Platform.Tests.Helpers
+- uid: Platform.Tests.Helpers.ArithmeticExtensionsTests
+  name: ArithmeticExtensionsTests
+  href: api/Platform.Tests.Helpers.ArithmeticExtensionsTests.html
+  commentId: T:Platform.Tests.Helpers.ArithmeticExtensionsTests
+  fullName: Platform.Tests.Helpers.ArithmeticExtensionsTests
+  nameWithType: ArithmeticExtensionsTests
+- uid: Platform.Tests.Helpers.ArithmeticExtensionsTests.DecrementTest
+  name: DecrementTest()
+  href: api/Platform.Tests.Helpers.ArithmeticExtensionsTests.html#Platform_Tests_Helpers_ArithmeticExtensionsTests_DecrementTest
+  commentId: M:Platform.Tests.Helpers.ArithmeticExtensionsTests.DecrementTest
+  fullName: Platform.Tests.Helpers.ArithmeticExtensionsTests.DecrementTest()
+  nameWithType: ArithmeticExtensionsTests.DecrementTest()
+- uid: Platform.Tests.Helpers.ArithmeticExtensionsTests.DecrementTest*
+  name: DecrementTest
+  href: api/Platform.Tests.Helpers.ArithmeticExtensionsTests.html#Platform_Tests_Helpers_ArithmeticExtensionsTests_DecrementTest_
+  commentId: Overload:Platform.Tests.Helpers.ArithmeticExtensionsTests.DecrementTest
+  isSpec: "True"
+  fullName: Platform.Tests.Helpers.ArithmeticExtensionsTests.DecrementTest
+  nameWithType: ArithmeticExtensionsTests.DecrementTest
+- uid: Platform.Tests.Helpers.ArithmeticExtensionsTests.IncrementTest
+  name: IncrementTest()
+  href: api/Platform.Tests.Helpers.ArithmeticExtensionsTests.html#Platform_Tests_Helpers_ArithmeticExtensionsTests_IncrementTest
+  commentId: M:Platform.Tests.Helpers.ArithmeticExtensionsTests.IncrementTest
+  fullName: Platform.Tests.Helpers.ArithmeticExtensionsTests.IncrementTest()
+  nameWithType: ArithmeticExtensionsTests.IncrementTest()
+- uid: Platform.Tests.Helpers.ArithmeticExtensionsTests.IncrementTest*
+  name: IncrementTest
+  href: api/Platform.Tests.Helpers.ArithmeticExtensionsTests.html#Platform_Tests_Helpers_ArithmeticExtensionsTests_IncrementTest_
+  commentId: Overload:Platform.Tests.Helpers.ArithmeticExtensionsTests.IncrementTest
+  isSpec: "True"
+  fullName: Platform.Tests.Helpers.ArithmeticExtensionsTests.IncrementTest
+  nameWithType: ArithmeticExtensionsTests.IncrementTest
+- uid: Platform.Tests.Helpers.ArithmeticHelpersTests
+  name: ArithmeticHelpersTests
+  href: api/Platform.Tests.Helpers.ArithmeticHelpersTests.html
+  commentId: T:Platform.Tests.Helpers.ArithmeticHelpersTests
+  fullName: Platform.Tests.Helpers.ArithmeticHelpersTests
+  nameWithType: ArithmeticHelpersTests
+- uid: Platform.Tests.Helpers.ArithmeticHelpersTests.CompiledOperationsTest
+  name: CompiledOperationsTest()
+  href: api/Platform.Tests.Helpers.ArithmeticHelpersTests.html#Platform_Tests_Helpers_ArithmeticHelpersTests_CompiledOperationsTest
+  commentId: M:Platform.Tests.Helpers.ArithmeticHelpersTests.CompiledOperationsTest
+  fullName: Platform.Tests.Helpers.ArithmeticHelpersTests.CompiledOperationsTest()
+  nameWithType: ArithmeticHelpersTests.CompiledOperationsTest()
+- uid: Platform.Tests.Helpers.ArithmeticHelpersTests.CompiledOperationsTest*
+  name: CompiledOperationsTest
+  href: api/Platform.Tests.Helpers.ArithmeticHelpersTests.html#Platform_Tests_Helpers_ArithmeticHelpersTests_CompiledOperationsTest_
+  commentId: Overload:Platform.Tests.Helpers.ArithmeticHelpersTests.CompiledOperationsTest
+  isSpec: "True"
+  fullName: Platform.Tests.Helpers.ArithmeticHelpersTests.CompiledOperationsTest
+  nameWithType: ArithmeticHelpersTests.CompiledOperationsTest
+- uid: Platform.Tests.Helpers.BitwiseHelpersTests
+  name: BitwiseHelpersTests
+  href: api/Platform.Tests.Helpers.BitwiseHelpersTests.html
+  commentId: T:Platform.Tests.Helpers.BitwiseHelpersTests
+  fullName: Platform.Tests.Helpers.BitwiseHelpersTests
+  nameWithType: BitwiseHelpersTests
+- uid: Platform.Tests.Helpers.BitwiseHelpersTests.GetLowestBitPositionTest(System.UInt64,System.Int32)
+  name: GetLowestBitPositionTest(UInt64, Int32)
+  href: api/Platform.Tests.Helpers.BitwiseHelpersTests.html#Platform_Tests_Helpers_BitwiseHelpersTests_GetLowestBitPositionTest_System_UInt64_System_Int32_
+  commentId: M:Platform.Tests.Helpers.BitwiseHelpersTests.GetLowestBitPositionTest(System.UInt64,System.Int32)
+  fullName: Platform.Tests.Helpers.BitwiseHelpersTests.GetLowestBitPositionTest(System.UInt64, System.Int32)
+  nameWithType: BitwiseHelpersTests.GetLowestBitPositionTest(UInt64, Int32)
+- uid: Platform.Tests.Helpers.BitwiseHelpersTests.GetLowestBitPositionTest*
+  name: GetLowestBitPositionTest
+  href: api/Platform.Tests.Helpers.BitwiseHelpersTests.html#Platform_Tests_Helpers_BitwiseHelpersTests_GetLowestBitPositionTest_
+  commentId: Overload:Platform.Tests.Helpers.BitwiseHelpersTests.GetLowestBitPositionTest
+  isSpec: "True"
+  fullName: Platform.Tests.Helpers.BitwiseHelpersTests.GetLowestBitPositionTest
+  nameWithType: BitwiseHelpersTests.GetLowestBitPositionTest
+- uid: Platform.Tests.Helpers.BitwiseHelpersTests.PartialReadWriteTest
+  name: PartialReadWriteTest()
+  href: api/Platform.Tests.Helpers.BitwiseHelpersTests.html#Platform_Tests_Helpers_BitwiseHelpersTests_PartialReadWriteTest
+  commentId: M:Platform.Tests.Helpers.BitwiseHelpersTests.PartialReadWriteTest
+  fullName: Platform.Tests.Helpers.BitwiseHelpersTests.PartialReadWriteTest()
+  nameWithType: BitwiseHelpersTests.PartialReadWriteTest()
+- uid: Platform.Tests.Helpers.BitwiseHelpersTests.PartialReadWriteTest*
+  name: PartialReadWriteTest
+  href: api/Platform.Tests.Helpers.BitwiseHelpersTests.html#Platform_Tests_Helpers_BitwiseHelpersTests_PartialReadWriteTest_
+  commentId: Overload:Platform.Tests.Helpers.BitwiseHelpersTests.PartialReadWriteTest
+  isSpec: "True"
+  fullName: Platform.Tests.Helpers.BitwiseHelpersTests.PartialReadWriteTest
+  nameWithType: BitwiseHelpersTests.PartialReadWriteTest
 - uid: Platform.Tests.Helpers.CharsSegmentTests
   name: CharsSegmentTests
   href: api/Platform.Tests.Helpers.CharsSegmentTests.html
@@ -19748,32 +19873,6 @@ references:
   isSpec: "True"
   fullName: Platform.Tests.Helpers.MathExtensionsTests.AbsTest
   nameWithType: MathExtensionsTests.AbsTest
-- uid: Platform.Tests.Helpers.MathExtensionsTests.DecrementTest
-  name: DecrementTest()
-  href: api/Platform.Tests.Helpers.MathExtensionsTests.html#Platform_Tests_Helpers_MathExtensionsTests_DecrementTest
-  commentId: M:Platform.Tests.Helpers.MathExtensionsTests.DecrementTest
-  fullName: Platform.Tests.Helpers.MathExtensionsTests.DecrementTest()
-  nameWithType: MathExtensionsTests.DecrementTest()
-- uid: Platform.Tests.Helpers.MathExtensionsTests.DecrementTest*
-  name: DecrementTest
-  href: api/Platform.Tests.Helpers.MathExtensionsTests.html#Platform_Tests_Helpers_MathExtensionsTests_DecrementTest_
-  commentId: Overload:Platform.Tests.Helpers.MathExtensionsTests.DecrementTest
-  isSpec: "True"
-  fullName: Platform.Tests.Helpers.MathExtensionsTests.DecrementTest
-  nameWithType: MathExtensionsTests.DecrementTest
-- uid: Platform.Tests.Helpers.MathExtensionsTests.IncrementTest
-  name: IncrementTest()
-  href: api/Platform.Tests.Helpers.MathExtensionsTests.html#Platform_Tests_Helpers_MathExtensionsTests_IncrementTest
-  commentId: M:Platform.Tests.Helpers.MathExtensionsTests.IncrementTest
-  fullName: Platform.Tests.Helpers.MathExtensionsTests.IncrementTest()
-  nameWithType: MathExtensionsTests.IncrementTest()
-- uid: Platform.Tests.Helpers.MathExtensionsTests.IncrementTest*
-  name: IncrementTest
-  href: api/Platform.Tests.Helpers.MathExtensionsTests.html#Platform_Tests_Helpers_MathExtensionsTests_IncrementTest_
-  commentId: Overload:Platform.Tests.Helpers.MathExtensionsTests.IncrementTest
-  isSpec: "True"
-  fullName: Platform.Tests.Helpers.MathExtensionsTests.IncrementTest
-  nameWithType: MathExtensionsTests.IncrementTest
 - uid: Platform.Tests.Helpers.MathExtensionsTests.NegateTest
   name: NegateTest()
   href: api/Platform.Tests.Helpers.MathExtensionsTests.html#Platform_Tests_Helpers_MathExtensionsTests_NegateTest
@@ -19806,32 +19905,6 @@ references:
   isSpec: "True"
   fullName: Platform.Tests.Helpers.MathHelpersTests.CompiledOperationsTest
   nameWithType: MathHelpersTests.CompiledOperationsTest
-- uid: Platform.Tests.Helpers.MathHelpersTests.GetLowestBitPositionTest(System.UInt64,System.Int32)
-  name: GetLowestBitPositionTest(UInt64, Int32)
-  href: api/Platform.Tests.Helpers.MathHelpersTests.html#Platform_Tests_Helpers_MathHelpersTests_GetLowestBitPositionTest_System_UInt64_System_Int32_
-  commentId: M:Platform.Tests.Helpers.MathHelpersTests.GetLowestBitPositionTest(System.UInt64,System.Int32)
-  fullName: Platform.Tests.Helpers.MathHelpersTests.GetLowestBitPositionTest(System.UInt64, System.Int32)
-  nameWithType: MathHelpersTests.GetLowestBitPositionTest(UInt64, Int32)
-- uid: Platform.Tests.Helpers.MathHelpersTests.GetLowestBitPositionTest*
-  name: GetLowestBitPositionTest
-  href: api/Platform.Tests.Helpers.MathHelpersTests.html#Platform_Tests_Helpers_MathHelpersTests_GetLowestBitPositionTest_
-  commentId: Overload:Platform.Tests.Helpers.MathHelpersTests.GetLowestBitPositionTest
-  isSpec: "True"
-  fullName: Platform.Tests.Helpers.MathHelpersTests.GetLowestBitPositionTest
-  nameWithType: MathHelpersTests.GetLowestBitPositionTest
-- uid: Platform.Tests.Helpers.MathHelpersTests.PartialReadWriteTest
-  name: PartialReadWriteTest()
-  href: api/Platform.Tests.Helpers.MathHelpersTests.html#Platform_Tests_Helpers_MathHelpersTests_PartialReadWriteTest
-  commentId: M:Platform.Tests.Helpers.MathHelpersTests.PartialReadWriteTest
-  fullName: Platform.Tests.Helpers.MathHelpersTests.PartialReadWriteTest()
-  nameWithType: MathHelpersTests.PartialReadWriteTest()
-- uid: Platform.Tests.Helpers.MathHelpersTests.PartialReadWriteTest*
-  name: PartialReadWriteTest
-  href: api/Platform.Tests.Helpers.MathHelpersTests.html#Platform_Tests_Helpers_MathHelpersTests_PartialReadWriteTest_
-  commentId: Overload:Platform.Tests.Helpers.MathHelpersTests.PartialReadWriteTest
-  isSpec: "True"
-  fullName: Platform.Tests.Helpers.MathHelpersTests.PartialReadWriteTest
-  nameWithType: MathHelpersTests.PartialReadWriteTest
 - uid: Platform.Tests.Helpers.ReflectionTests
   name: ReflectionTests
   href: api/Platform.Tests.Helpers.ReflectionTests.html

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class MathHelpers&lt;T&gt;
+    <title>Class BitwiseExtensions
    | LinksPlatform </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class MathHelpers&lt;T&gt;
+    <meta name="title" content="Class BitwiseExtensions
    | LinksPlatform ">
     <meta name="generator" content="docfx 2.43.2.0">
     
@@ -78,17 +78,17 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Platform.Helpers.Numbers.MathHelpers`1">
+            <article class="content wrap" id="_content" data-uid="Platform.Helpers.Numbers.BitwiseExtensions">
   
   
-  <h1 id="Platform_Helpers_Numbers_MathHelpers_1" data-uid="Platform.Helpers.Numbers.MathHelpers`1" class="text-break">Class MathHelpers&lt;T&gt;
+  <h1 id="Platform_Helpers_Numbers_BitwiseExtensions" data-uid="Platform.Helpers.Numbers.BitwiseExtensions" class="text-break">Class BitwiseExtensions
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">MathHelpers&lt;T&gt;</span></div>
+    <div class="level1"><span class="xref">BitwiseExtensions</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -116,10 +116,64 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Platform.Helpers.Numbers.html">Platform.Helpers.Numbers</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Platform_Helpers_Numbers_MathHelpers_1_syntax">Syntax</h5>
+  <h5 id="Platform_Helpers_Numbers_BitwiseExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class MathHelpers&lt;T&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public static class BitwiseExtensions</code></pre>
   </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Platform_Helpers_Numbers_BitwiseExtensions_PartialRead_" data-uid="Platform.Helpers.Numbers.BitwiseExtensions.PartialRead*"></a>
+  <h4 id="Platform_Helpers_Numbers_BitwiseExtensions_PartialRead__1___0_System_Int32_System_Int32_" data-uid="Platform.Helpers.Numbers.BitwiseExtensions.PartialRead``1(``0,System.Int32,System.Int32)">PartialRead&lt;T&gt;(T, Int32, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T PartialRead&lt;T&gt;(this T target, int shift, int limit)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">shift</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">limit</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -135,47 +189,50 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="fields">Fields
-  </h3>
   
   
-  <h4 id="Platform_Helpers_Numbers_MathHelpers_1_Abs" data-uid="Platform.Helpers.Numbers.MathHelpers`1.Abs">Abs</h4>
+  <a id="Platform_Helpers_Numbers_BitwiseExtensions_PartialWrite_" data-uid="Platform.Helpers.Numbers.BitwiseExtensions.PartialWrite*"></a>
+  <h4 id="Platform_Helpers_Numbers_BitwiseExtensions_PartialWrite__1___0____0_System_Int32_System_Int32_" data-uid="Platform.Helpers.Numbers.BitwiseExtensions.PartialWrite``1(``0@,``0,System.Int32,System.Int32)">PartialWrite&lt;T&gt;(ref T, T, Int32, Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static readonly Func&lt;T, T&gt; Abs</code></pre>
+    <pre><code class="lang-csharp hljs">public static T PartialWrite&lt;T&gt;(this ref T target, T source, int shift, int limit)
+    where T : struct</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Func</span>&lt;T, T&gt;</td>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">source</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">shift</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">limit</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 id="Platform_Helpers_Numbers_MathHelpers_1_Abs_remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>TODO: Возможно, если компиляцию производить не в делегат, а в объект с методом, то оптимизация компилятором будет работать лучше.
-TODO: Возможно использовать ссылку на существующий метод - оператор, а не компилировать новый (<a href="http://stackoverflow.com/questions/11113259/how-to-call-custom-operator-with-reflection">http://stackoverflow.com/questions/11113259/how-to-call-custom-operator-with-reflection</a>)
-TODO: Решить что лучше dynamic operator или Auto&lt;T&gt; c заранее созданными операторами и возможность расширения через статические методы</p>
-</div>
-  
-  
-  <h4 id="Platform_Helpers_Numbers_MathHelpers_1_Negate" data-uid="Platform.Helpers.Numbers.MathHelpers`1.Negate">Negate</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static readonly Func&lt;T, T&gt; Negate</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -185,7 +242,22 @@ TODO: Решить что лучше dynamic operator или Auto&lt;T&gt; c з�
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Func</span>&lt;T, T&gt;</td>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
