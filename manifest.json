@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "hU2Q83kC5Mbj6LcVWZgFWw=="
+          "hash": "6JxeC1dsWlxO7IvJbnpj3w=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "README.ru.html",
-          "hash": "C8C82gN0TC45Mwp+k7Y+0Q=="
+          "hash": "/EwRR1DT0kz4x5BvtrOTGQ=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/articles/links-theory.html",
-          "hash": "32HQcK8LkW4YXl1vW+hwug=="
+          "hash": "gAjs6dh9xcRyaiAcGe8EkQ=="
         }
       },
       "is_incremental": false,
@@ -54,151 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "s9/v5wAT1GLaF+xxXEWG+Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Protocol.Gexf.Edge.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Communication.Protocol.Gexf.Edge.html",
-          "hash": "RbRd814FcIzxgX9H7ivcsA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Protocol.Gexf.Gexf.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Communication.Protocol.Gexf.Gexf.html",
-          "hash": "gROqjCDem2wH0zxa6mczJw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Protocol.Gexf.Graph.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Communication.Protocol.Gexf.Graph.html",
-          "hash": "f9FpwpxkNVUYZ45car+J1w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Protocol.Gexf.GraphDefaultEdgeType.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Communication.Protocol.Gexf.GraphDefaultEdgeType.html",
-          "hash": "tVrhPL93vkmw9rWERFXZrw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Protocol.Gexf.GraphMode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Communication.Protocol.Gexf.GraphMode.html",
-          "hash": "cxBjt2XvvC3b54AxBP1Afg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Protocol.Gexf.Node.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Communication.Protocol.Gexf.Node.html",
-          "hash": "YzAGK1HpRZZanXB2bBeOgA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Protocol.Gexf.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Communication.Protocol.Gexf.html",
-          "hash": "8+UJ5nzV6atBGiMDIcONZA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Protocol.Udp.MessageHandlerCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Communication.Protocol.Udp.MessageHandlerCallback.html",
-          "hash": "TcxZ35E1p+kFIlcHVyn7tg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Protocol.Udp.UdpClientExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Communication.Protocol.Udp.UdpClientExtensions.html",
-          "hash": "HBSpsOHs9I3Q+H7uO9V+bg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Protocol.Udp.UdpReceiver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Communication.Protocol.Udp.UdpReceiver.html",
-          "hash": "gxLgsekai12qEKbEzYNl/Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Protocol.Udp.UdpSender.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Communication.Protocol.Udp.UdpSender.html",
-          "hash": "KfTNef1QOAVPsLT32BaqZA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Protocol.Udp.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Communication.Protocol.Udp.html",
-          "hash": "jXS7KK0tUb7NbVC6OVPUNw=="
+          "hash": "KJF1aw2NxDnTg+/VVMmXtg=="
         }
       },
       "is_incremental": false,
@@ -2766,7 +2622,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "EzsuSkBAPeqrTb3ooj0TrA=="
+          "hash": "liZKETC/gYDfQqIdXGxVMw=="
         }
       },
       "is_incremental": false,
@@ -2808,7 +2664,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 225,
+          "total_file_count": 213,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
