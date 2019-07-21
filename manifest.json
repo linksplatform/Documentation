@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "+6XsUxXD1Hm23oKXfHKo2g=="
+          "hash": "WTmhDAmKGhgAMj4fP20u/w=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "README.ru.html",
-          "hash": "CrJIsmzToFDK1bG+Tcu+Lg=="
+          "hash": "FAtdcYS+nlEPqFjHCCd1NA=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/articles/links-theory.html",
-          "hash": "gBKgnEw6cmaXj5j4hG27JQ=="
+          "hash": "1FpD5a4H48jU2uDGIyfKpg=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "51/6HXxiWr8TN50aPkIz4g=="
+          "hash": "+4vflRty5hcz/Tst84q03Q=="
         }
       },
       "is_incremental": false,
@@ -2090,42 +2090,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Console.ConsoleCancellationHandler.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Console.ConsoleCancellationHandler.html",
-          "hash": "D/uqP7+PR32AyVu05Aw78g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Console.ConsoleHelpers.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Console.ConsoleHelpers.html",
-          "hash": "4J0BJHZF6SWmKsfpSF36yA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Console.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Console.html",
-          "hash": "rgYG81ych2rUBglEc8B+zw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "obj/api/Platform.Helpers.Counter-1.yml",
       "output": {
         ".html": {
@@ -3021,7 +2985,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "EepGQi7c2cl+Dqd9SmtV+Q=="
+          "hash": "eqBpD8TKqSgsYWfOqr9ZZQ=="
         }
       },
       "is_incremental": false,
@@ -3057,7 +3021,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 246,
+          "total_file_count": 243,
           "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
