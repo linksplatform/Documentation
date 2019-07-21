@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "3glxTWlZvLm6J/UgooEZVQ=="
+          "hash": "/jrtulU+nN90B6ETwqYYtw=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "README.ru.html",
-          "hash": "OBCTRqK9ekMupH7E5i4vTA=="
+          "hash": "Pth7u3uzO8zziMuxdKnnLw=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/articles/links-theory.html",
-          "hash": "e1cp3sFKi3EzC2xbrotd/A=="
+          "hash": "R7I3Di8WT+CsunVEIFjVJg=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "H4PLvlxeuf5rJCJ4CQmnTg=="
+          "hash": "8SqjYng1P6+SbZlM1jq2Ng=="
         }
       },
       "is_incremental": false,
@@ -2090,249 +2090,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Counters.Counter-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Counters.Counter-1.html",
-          "hash": "wkNxx7Ta082j73dPvL/ffQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Counters.Counter-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Counters.Counter-2.html",
-          "hash": "zy6706CFqg4l38+H2f0UeQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Counters.Counter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Counters.Counter.html",
-          "hash": "SMxmZWm1ihCuyrw6TBHd4A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Counters.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Counters.html",
-          "hash": "AoHMNruMGrZNujtKycACDA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Default-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Default-1.html",
-          "hash": "m+JpOzSFS9dsJP0y6mm+ZA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Default.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Default.html",
-          "hash": "yjLI1Pe94Z8CM17+1fNTmg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Global.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Global.html",
-          "hash": "uzA0UDetarpmJj5TIILcDw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.HashHelpers.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.HashHelpers.html",
-          "hash": "Y7niaZe159hIGFHvjM+s7g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.PerformanceHelpers.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.PerformanceHelpers.html",
-          "hash": "dPYzB+No9JBLv8v6h388Pw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Scope-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Scope-1.html",
-          "hash": "gosSnzSl+IKKcOhxPinISA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Scope.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Scope.html",
-          "hash": "DjLo2Sj6nW3bDui3f+q1iA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.SerializationHelpers.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.SerializationHelpers.html",
-          "hash": "hEZx8qkoGj16DxyA3wyG1w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Setters.Setter-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Setters.Setter-1.html",
-          "hash": "dyzkEhMaUeHZG1G9RZcUqQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Setters.Setter-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Setters.Setter-2.html",
-          "hash": "opVNNER54XDuTFtTUCybQg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Setters.SetterBase-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Setters.SetterBase-1.html",
-          "hash": "uC2JVBRKHQuCFLL6dzrCHQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Setters.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Setters.html",
-          "hash": "nhBDJcRQMlBmUi5VBI4tvw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Singleton-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Singleton-1.html",
-          "hash": "66aRqK6hyBOiKN8iru1GBw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Singleton.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Singleton.html",
-          "hash": "i3vM/ZLVfdF2E935oBYECA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.Use-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.Use-1.html",
-          "hash": "FwwOW4+XVdMoAGnKPknF+A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Helpers.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Helpers.html",
-          "hash": "GVFH6VM+46eZo8aWkG+uNw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "obj/api/Platform.Sandbox.A.yml",
       "output": {
         ".html": {
@@ -3009,7 +2766,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "zUvvHGBRKE0nfk3f4n55Xw=="
+          "hash": "EzsuSkBAPeqrTb3ooj0TrA=="
         }
       },
       "is_incremental": false,
@@ -3042,16 +2799,16 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 245,
-          "skipped_file_count": 0
-        },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 4,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 225,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
