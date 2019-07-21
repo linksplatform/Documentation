@@ -14229,114 +14229,120 @@ references:
   commentId: N:Platform.Helpers
   fullName: Platform.Helpers
   nameWithType: Platform.Helpers
-- uid: Platform.Helpers.Counter
+- uid: Platform.Helpers.Counters
+  name: Platform.Helpers.Counters
+  href: api/Platform.Helpers.Counters.html
+  commentId: N:Platform.Helpers.Counters
+  fullName: Platform.Helpers.Counters
+  nameWithType: Platform.Helpers.Counters
+- uid: Platform.Helpers.Counters.Counter
   name: Counter
-  href: api/Platform.Helpers.Counter.html
-  commentId: T:Platform.Helpers.Counter
-  fullName: Platform.Helpers.Counter
+  href: api/Platform.Helpers.Counters.Counter.html
+  commentId: T:Platform.Helpers.Counters.Counter
+  fullName: Platform.Helpers.Counters.Counter
   nameWithType: Counter
-- uid: Platform.Helpers.Counter.Count
+- uid: Platform.Helpers.Counters.Counter.Count
   name: Count
-  href: api/Platform.Helpers.Counter.html#Platform_Helpers_Counter_Count
-  commentId: F:Platform.Helpers.Counter.Count
-  fullName: Platform.Helpers.Counter.Count
+  href: api/Platform.Helpers.Counters.Counter.html#Platform_Helpers_Counters_Counter_Count
+  commentId: F:Platform.Helpers.Counters.Counter.Count
+  fullName: Platform.Helpers.Counters.Counter.Count
   nameWithType: Counter.Count
-- uid: Platform.Helpers.Counter.Increment
+- uid: Platform.Helpers.Counters.Counter.Increment
   name: Increment()
-  href: api/Platform.Helpers.Counter.html#Platform_Helpers_Counter_Increment
-  commentId: M:Platform.Helpers.Counter.Increment
-  fullName: Platform.Helpers.Counter.Increment()
+  href: api/Platform.Helpers.Counters.Counter.html#Platform_Helpers_Counters_Counter_Increment
+  commentId: M:Platform.Helpers.Counters.Counter.Increment
+  fullName: Platform.Helpers.Counters.Counter.Increment()
   nameWithType: Counter.Increment()
-- uid: Platform.Helpers.Counter.Increment*
+- uid: Platform.Helpers.Counters.Counter.Increment*
   name: Increment
-  href: api/Platform.Helpers.Counter.html#Platform_Helpers_Counter_Increment_
-  commentId: Overload:Platform.Helpers.Counter.Increment
+  href: api/Platform.Helpers.Counters.Counter.html#Platform_Helpers_Counters_Counter_Increment_
+  commentId: Overload:Platform.Helpers.Counters.Counter.Increment
   isSpec: "True"
-  fullName: Platform.Helpers.Counter.Increment
+  fullName: Platform.Helpers.Counters.Counter.Increment
   nameWithType: Counter.Increment
-- uid: Platform.Helpers.Counter`1
+- uid: Platform.Helpers.Counters.Counter`1
   name: Counter<TValue>
-  href: api/Platform.Helpers.Counter-1.html
-  commentId: T:Platform.Helpers.Counter`1
+  href: api/Platform.Helpers.Counters.Counter-1.html
+  commentId: T:Platform.Helpers.Counters.Counter`1
   name.vb: Counter(Of TValue)
-  fullName: Platform.Helpers.Counter<TValue>
-  fullName.vb: Platform.Helpers.Counter(Of TValue)
+  fullName: Platform.Helpers.Counters.Counter<TValue>
+  fullName.vb: Platform.Helpers.Counters.Counter(Of TValue)
   nameWithType: Counter<TValue>
   nameWithType.vb: Counter(Of TValue)
-- uid: Platform.Helpers.Counter`1.IncrementAndReturnTrue
+- uid: Platform.Helpers.Counters.Counter`1.IncrementAndReturnTrue
   name: IncrementAndReturnTrue()
-  href: api/Platform.Helpers.Counter-1.html#Platform_Helpers_Counter_1_IncrementAndReturnTrue
-  commentId: M:Platform.Helpers.Counter`1.IncrementAndReturnTrue
-  fullName: Platform.Helpers.Counter<TValue>.IncrementAndReturnTrue()
-  fullName.vb: Platform.Helpers.Counter(Of TValue).IncrementAndReturnTrue()
+  href: api/Platform.Helpers.Counters.Counter-1.html#Platform_Helpers_Counters_Counter_1_IncrementAndReturnTrue
+  commentId: M:Platform.Helpers.Counters.Counter`1.IncrementAndReturnTrue
+  fullName: Platform.Helpers.Counters.Counter<TValue>.IncrementAndReturnTrue()
+  fullName.vb: Platform.Helpers.Counters.Counter(Of TValue).IncrementAndReturnTrue()
   nameWithType: Counter<TValue>.IncrementAndReturnTrue()
   nameWithType.vb: Counter(Of TValue).IncrementAndReturnTrue()
-- uid: Platform.Helpers.Counter`1.IncrementAndReturnTrue(`0)
+- uid: Platform.Helpers.Counters.Counter`1.IncrementAndReturnTrue(`0)
   name: IncrementAndReturnTrue(TValue)
-  href: api/Platform.Helpers.Counter-1.html#Platform_Helpers_Counter_1_IncrementAndReturnTrue__0_
-  commentId: M:Platform.Helpers.Counter`1.IncrementAndReturnTrue(`0)
-  fullName: Platform.Helpers.Counter<TValue>.IncrementAndReturnTrue(TValue)
-  fullName.vb: Platform.Helpers.Counter(Of TValue).IncrementAndReturnTrue(TValue)
+  href: api/Platform.Helpers.Counters.Counter-1.html#Platform_Helpers_Counters_Counter_1_IncrementAndReturnTrue__0_
+  commentId: M:Platform.Helpers.Counters.Counter`1.IncrementAndReturnTrue(`0)
+  fullName: Platform.Helpers.Counters.Counter<TValue>.IncrementAndReturnTrue(TValue)
+  fullName.vb: Platform.Helpers.Counters.Counter(Of TValue).IncrementAndReturnTrue(TValue)
   nameWithType: Counter<TValue>.IncrementAndReturnTrue(TValue)
   nameWithType.vb: Counter(Of TValue).IncrementAndReturnTrue(TValue)
-- uid: Platform.Helpers.Counter`1.IncrementAndReturnTrue*
+- uid: Platform.Helpers.Counters.Counter`1.IncrementAndReturnTrue*
   name: IncrementAndReturnTrue
-  href: api/Platform.Helpers.Counter-1.html#Platform_Helpers_Counter_1_IncrementAndReturnTrue_
-  commentId: Overload:Platform.Helpers.Counter`1.IncrementAndReturnTrue
+  href: api/Platform.Helpers.Counters.Counter-1.html#Platform_Helpers_Counters_Counter_1_IncrementAndReturnTrue_
+  commentId: Overload:Platform.Helpers.Counters.Counter`1.IncrementAndReturnTrue
   isSpec: "True"
-  fullName: Platform.Helpers.Counter<TValue>.IncrementAndReturnTrue
-  fullName.vb: Platform.Helpers.Counter(Of TValue).IncrementAndReturnTrue
+  fullName: Platform.Helpers.Counters.Counter<TValue>.IncrementAndReturnTrue
+  fullName.vb: Platform.Helpers.Counters.Counter(Of TValue).IncrementAndReturnTrue
   nameWithType: Counter<TValue>.IncrementAndReturnTrue
   nameWithType.vb: Counter(Of TValue).IncrementAndReturnTrue
-- uid: Platform.Helpers.Counter`2
+- uid: Platform.Helpers.Counters.Counter`2
   name: Counter<TValue, TDecision>
-  href: api/Platform.Helpers.Counter-2.html
-  commentId: T:Platform.Helpers.Counter`2
+  href: api/Platform.Helpers.Counters.Counter-2.html
+  commentId: T:Platform.Helpers.Counters.Counter`2
   name.vb: Counter(Of TValue, TDecision)
-  fullName: Platform.Helpers.Counter<TValue, TDecision>
-  fullName.vb: Platform.Helpers.Counter(Of TValue, TDecision)
+  fullName: Platform.Helpers.Counters.Counter<TValue, TDecision>
+  fullName.vb: Platform.Helpers.Counters.Counter(Of TValue, TDecision)
   nameWithType: Counter<TValue, TDecision>
   nameWithType.vb: Counter(Of TValue, TDecision)
-- uid: Platform.Helpers.Counter`2.#ctor(`1)
+- uid: Platform.Helpers.Counters.Counter`2.#ctor(`1)
   name: Counter(TDecision)
-  href: api/Platform.Helpers.Counter-2.html#Platform_Helpers_Counter_2__ctor__1_
-  commentId: M:Platform.Helpers.Counter`2.#ctor(`1)
-  fullName: Platform.Helpers.Counter<TValue, TDecision>.Counter(TDecision)
-  fullName.vb: Platform.Helpers.Counter(Of TValue, TDecision).Counter(TDecision)
+  href: api/Platform.Helpers.Counters.Counter-2.html#Platform_Helpers_Counters_Counter_2__ctor__1_
+  commentId: M:Platform.Helpers.Counters.Counter`2.#ctor(`1)
+  fullName: Platform.Helpers.Counters.Counter<TValue, TDecision>.Counter(TDecision)
+  fullName.vb: Platform.Helpers.Counters.Counter(Of TValue, TDecision).Counter(TDecision)
   nameWithType: Counter<TValue, TDecision>.Counter(TDecision)
   nameWithType.vb: Counter(Of TValue, TDecision).Counter(TDecision)
-- uid: Platform.Helpers.Counter`2.#ctor*
+- uid: Platform.Helpers.Counters.Counter`2.#ctor*
   name: Counter
-  href: api/Platform.Helpers.Counter-2.html#Platform_Helpers_Counter_2__ctor_
-  commentId: Overload:Platform.Helpers.Counter`2.#ctor
+  href: api/Platform.Helpers.Counters.Counter-2.html#Platform_Helpers_Counters_Counter_2__ctor_
+  commentId: Overload:Platform.Helpers.Counters.Counter`2.#ctor
   isSpec: "True"
-  fullName: Platform.Helpers.Counter<TValue, TDecision>.Counter
-  fullName.vb: Platform.Helpers.Counter(Of TValue, TDecision).Counter
+  fullName: Platform.Helpers.Counters.Counter<TValue, TDecision>.Counter
+  fullName.vb: Platform.Helpers.Counters.Counter(Of TValue, TDecision).Counter
   nameWithType: Counter<TValue, TDecision>.Counter
   nameWithType.vb: Counter(Of TValue, TDecision).Counter
-- uid: Platform.Helpers.Counter`2.IncrementAndReturnTrue
+- uid: Platform.Helpers.Counters.Counter`2.IncrementAndReturnTrue
   name: IncrementAndReturnTrue()
-  href: api/Platform.Helpers.Counter-2.html#Platform_Helpers_Counter_2_IncrementAndReturnTrue
-  commentId: M:Platform.Helpers.Counter`2.IncrementAndReturnTrue
-  fullName: Platform.Helpers.Counter<TValue, TDecision>.IncrementAndReturnTrue()
-  fullName.vb: Platform.Helpers.Counter(Of TValue, TDecision).IncrementAndReturnTrue()
+  href: api/Platform.Helpers.Counters.Counter-2.html#Platform_Helpers_Counters_Counter_2_IncrementAndReturnTrue
+  commentId: M:Platform.Helpers.Counters.Counter`2.IncrementAndReturnTrue
+  fullName: Platform.Helpers.Counters.Counter<TValue, TDecision>.IncrementAndReturnTrue()
+  fullName.vb: Platform.Helpers.Counters.Counter(Of TValue, TDecision).IncrementAndReturnTrue()
   nameWithType: Counter<TValue, TDecision>.IncrementAndReturnTrue()
   nameWithType.vb: Counter(Of TValue, TDecision).IncrementAndReturnTrue()
-- uid: Platform.Helpers.Counter`2.IncrementAndReturnTrue(`0)
+- uid: Platform.Helpers.Counters.Counter`2.IncrementAndReturnTrue(`0)
   name: IncrementAndReturnTrue(TValue)
-  href: api/Platform.Helpers.Counter-2.html#Platform_Helpers_Counter_2_IncrementAndReturnTrue__0_
-  commentId: M:Platform.Helpers.Counter`2.IncrementAndReturnTrue(`0)
-  fullName: Platform.Helpers.Counter<TValue, TDecision>.IncrementAndReturnTrue(TValue)
-  fullName.vb: Platform.Helpers.Counter(Of TValue, TDecision).IncrementAndReturnTrue(TValue)
+  href: api/Platform.Helpers.Counters.Counter-2.html#Platform_Helpers_Counters_Counter_2_IncrementAndReturnTrue__0_
+  commentId: M:Platform.Helpers.Counters.Counter`2.IncrementAndReturnTrue(`0)
+  fullName: Platform.Helpers.Counters.Counter<TValue, TDecision>.IncrementAndReturnTrue(TValue)
+  fullName.vb: Platform.Helpers.Counters.Counter(Of TValue, TDecision).IncrementAndReturnTrue(TValue)
   nameWithType: Counter<TValue, TDecision>.IncrementAndReturnTrue(TValue)
   nameWithType.vb: Counter(Of TValue, TDecision).IncrementAndReturnTrue(TValue)
-- uid: Platform.Helpers.Counter`2.IncrementAndReturnTrue*
+- uid: Platform.Helpers.Counters.Counter`2.IncrementAndReturnTrue*
   name: IncrementAndReturnTrue
-  href: api/Platform.Helpers.Counter-2.html#Platform_Helpers_Counter_2_IncrementAndReturnTrue_
-  commentId: Overload:Platform.Helpers.Counter`2.IncrementAndReturnTrue
+  href: api/Platform.Helpers.Counters.Counter-2.html#Platform_Helpers_Counters_Counter_2_IncrementAndReturnTrue_
+  commentId: Overload:Platform.Helpers.Counters.Counter`2.IncrementAndReturnTrue
   isSpec: "True"
-  fullName: Platform.Helpers.Counter<TValue, TDecision>.IncrementAndReturnTrue
-  fullName.vb: Platform.Helpers.Counter(Of TValue, TDecision).IncrementAndReturnTrue
+  fullName: Platform.Helpers.Counters.Counter<TValue, TDecision>.IncrementAndReturnTrue
+  fullName.vb: Platform.Helpers.Counters.Counter(Of TValue, TDecision).IncrementAndReturnTrue
   nameWithType: Counter<TValue, TDecision>.IncrementAndReturnTrue
   nameWithType.vb: Counter(Of TValue, TDecision).IncrementAndReturnTrue
 - uid: Platform.Helpers.Default
@@ -14895,211 +14901,217 @@ references:
   fullName.vb: Platform.Helpers.SerializationHelpers.SerializeToXmlString(Of T)(T)
   nameWithType: SerializationHelpers.SerializeToXmlString<T>(T)
   nameWithType.vb: SerializationHelpers.SerializeToXmlString(Of T)(T)
-- uid: Platform.Helpers.Setter`1
+- uid: Platform.Helpers.Setters
+  name: Platform.Helpers.Setters
+  href: api/Platform.Helpers.Setters.html
+  commentId: N:Platform.Helpers.Setters
+  fullName: Platform.Helpers.Setters
+  nameWithType: Platform.Helpers.Setters
+- uid: Platform.Helpers.Setters.Setter`1
   name: Setter<TResult>
-  href: api/Platform.Helpers.Setter-1.html
-  commentId: T:Platform.Helpers.Setter`1
+  href: api/Platform.Helpers.Setters.Setter-1.html
+  commentId: T:Platform.Helpers.Setters.Setter`1
   name.vb: Setter(Of TResult)
-  fullName: Platform.Helpers.Setter<TResult>
-  fullName.vb: Platform.Helpers.Setter(Of TResult)
+  fullName: Platform.Helpers.Setters.Setter<TResult>
+  fullName.vb: Platform.Helpers.Setters.Setter(Of TResult)
   nameWithType: Setter<TResult>
   nameWithType.vb: Setter(Of TResult)
-- uid: Platform.Helpers.Setter`1.#ctor(`0)
+- uid: Platform.Helpers.Setters.Setter`1.#ctor(`0)
   name: Setter(TResult)
-  href: api/Platform.Helpers.Setter-1.html#Platform_Helpers_Setter_1__ctor__0_
-  commentId: M:Platform.Helpers.Setter`1.#ctor(`0)
-  fullName: Platform.Helpers.Setter<TResult>.Setter(TResult)
-  fullName.vb: Platform.Helpers.Setter(Of TResult).Setter(TResult)
+  href: api/Platform.Helpers.Setters.Setter-1.html#Platform_Helpers_Setters_Setter_1__ctor__0_
+  commentId: M:Platform.Helpers.Setters.Setter`1.#ctor(`0)
+  fullName: Platform.Helpers.Setters.Setter<TResult>.Setter(TResult)
+  fullName.vb: Platform.Helpers.Setters.Setter(Of TResult).Setter(TResult)
   nameWithType: Setter<TResult>.Setter(TResult)
   nameWithType.vb: Setter(Of TResult).Setter(TResult)
-- uid: Platform.Helpers.Setter`1.#ctor*
+- uid: Platform.Helpers.Setters.Setter`1.#ctor*
   name: Setter
-  href: api/Platform.Helpers.Setter-1.html#Platform_Helpers_Setter_1__ctor_
-  commentId: Overload:Platform.Helpers.Setter`1.#ctor
+  href: api/Platform.Helpers.Setters.Setter-1.html#Platform_Helpers_Setters_Setter_1__ctor_
+  commentId: Overload:Platform.Helpers.Setters.Setter`1.#ctor
   isSpec: "True"
-  fullName: Platform.Helpers.Setter<TResult>.Setter
-  fullName.vb: Platform.Helpers.Setter(Of TResult).Setter
+  fullName: Platform.Helpers.Setters.Setter<TResult>.Setter
+  fullName.vb: Platform.Helpers.Setters.Setter(Of TResult).Setter
   nameWithType: Setter<TResult>.Setter
   nameWithType.vb: Setter(Of TResult).Setter
-- uid: Platform.Helpers.Setter`1.SetAndReturnFalse(`0)
+- uid: Platform.Helpers.Setters.Setter`1.SetAndReturnFalse(`0)
   name: SetAndReturnFalse(TResult)
-  href: api/Platform.Helpers.Setter-1.html#Platform_Helpers_Setter_1_SetAndReturnFalse__0_
-  commentId: M:Platform.Helpers.Setter`1.SetAndReturnFalse(`0)
-  fullName: Platform.Helpers.Setter<TResult>.SetAndReturnFalse(TResult)
-  fullName.vb: Platform.Helpers.Setter(Of TResult).SetAndReturnFalse(TResult)
+  href: api/Platform.Helpers.Setters.Setter-1.html#Platform_Helpers_Setters_Setter_1_SetAndReturnFalse__0_
+  commentId: M:Platform.Helpers.Setters.Setter`1.SetAndReturnFalse(`0)
+  fullName: Platform.Helpers.Setters.Setter<TResult>.SetAndReturnFalse(TResult)
+  fullName.vb: Platform.Helpers.Setters.Setter(Of TResult).SetAndReturnFalse(TResult)
   nameWithType: Setter<TResult>.SetAndReturnFalse(TResult)
   nameWithType.vb: Setter(Of TResult).SetAndReturnFalse(TResult)
-- uid: Platform.Helpers.Setter`1.SetAndReturnFalse*
+- uid: Platform.Helpers.Setters.Setter`1.SetAndReturnFalse*
   name: SetAndReturnFalse
-  href: api/Platform.Helpers.Setter-1.html#Platform_Helpers_Setter_1_SetAndReturnFalse_
-  commentId: Overload:Platform.Helpers.Setter`1.SetAndReturnFalse
+  href: api/Platform.Helpers.Setters.Setter-1.html#Platform_Helpers_Setters_Setter_1_SetAndReturnFalse_
+  commentId: Overload:Platform.Helpers.Setters.Setter`1.SetAndReturnFalse
   isSpec: "True"
-  fullName: Platform.Helpers.Setter<TResult>.SetAndReturnFalse
-  fullName.vb: Platform.Helpers.Setter(Of TResult).SetAndReturnFalse
+  fullName: Platform.Helpers.Setters.Setter<TResult>.SetAndReturnFalse
+  fullName.vb: Platform.Helpers.Setters.Setter(Of TResult).SetAndReturnFalse
   nameWithType: Setter<TResult>.SetAndReturnFalse
   nameWithType.vb: Setter(Of TResult).SetAndReturnFalse
-- uid: Platform.Helpers.Setter`1.SetAndReturnTrue(`0)
+- uid: Platform.Helpers.Setters.Setter`1.SetAndReturnTrue(`0)
   name: SetAndReturnTrue(TResult)
-  href: api/Platform.Helpers.Setter-1.html#Platform_Helpers_Setter_1_SetAndReturnTrue__0_
-  commentId: M:Platform.Helpers.Setter`1.SetAndReturnTrue(`0)
-  fullName: Platform.Helpers.Setter<TResult>.SetAndReturnTrue(TResult)
-  fullName.vb: Platform.Helpers.Setter(Of TResult).SetAndReturnTrue(TResult)
+  href: api/Platform.Helpers.Setters.Setter-1.html#Platform_Helpers_Setters_Setter_1_SetAndReturnTrue__0_
+  commentId: M:Platform.Helpers.Setters.Setter`1.SetAndReturnTrue(`0)
+  fullName: Platform.Helpers.Setters.Setter<TResult>.SetAndReturnTrue(TResult)
+  fullName.vb: Platform.Helpers.Setters.Setter(Of TResult).SetAndReturnTrue(TResult)
   nameWithType: Setter<TResult>.SetAndReturnTrue(TResult)
   nameWithType.vb: Setter(Of TResult).SetAndReturnTrue(TResult)
-- uid: Platform.Helpers.Setter`1.SetAndReturnTrue*
+- uid: Platform.Helpers.Setters.Setter`1.SetAndReturnTrue*
   name: SetAndReturnTrue
-  href: api/Platform.Helpers.Setter-1.html#Platform_Helpers_Setter_1_SetAndReturnTrue_
-  commentId: Overload:Platform.Helpers.Setter`1.SetAndReturnTrue
+  href: api/Platform.Helpers.Setters.Setter-1.html#Platform_Helpers_Setters_Setter_1_SetAndReturnTrue_
+  commentId: Overload:Platform.Helpers.Setters.Setter`1.SetAndReturnTrue
   isSpec: "True"
-  fullName: Platform.Helpers.Setter<TResult>.SetAndReturnTrue
-  fullName.vb: Platform.Helpers.Setter(Of TResult).SetAndReturnTrue
+  fullName: Platform.Helpers.Setters.Setter<TResult>.SetAndReturnTrue
+  fullName.vb: Platform.Helpers.Setters.Setter(Of TResult).SetAndReturnTrue
   nameWithType: Setter<TResult>.SetAndReturnTrue
   nameWithType.vb: Setter(Of TResult).SetAndReturnTrue
-- uid: Platform.Helpers.Setter`2
+- uid: Platform.Helpers.Setters.Setter`2
   name: Setter<TResult, TDecision>
-  href: api/Platform.Helpers.Setter-2.html
-  commentId: T:Platform.Helpers.Setter`2
+  href: api/Platform.Helpers.Setters.Setter-2.html
+  commentId: T:Platform.Helpers.Setters.Setter`2
   name.vb: Setter(Of TResult, TDecision)
-  fullName: Platform.Helpers.Setter<TResult, TDecision>
-  fullName.vb: Platform.Helpers.Setter(Of TResult, TDecision)
+  fullName: Platform.Helpers.Setters.Setter<TResult, TDecision>
+  fullName.vb: Platform.Helpers.Setters.Setter(Of TResult, TDecision)
   nameWithType: Setter<TResult, TDecision>
   nameWithType.vb: Setter(Of TResult, TDecision)
-- uid: Platform.Helpers.Setter`2.#ctor(`1,`1,`0)
+- uid: Platform.Helpers.Setters.Setter`2.#ctor(`1,`1,`0)
   name: Setter(TDecision, TDecision, TResult)
-  href: api/Platform.Helpers.Setter-2.html#Platform_Helpers_Setter_2__ctor__1__1__0_
-  commentId: M:Platform.Helpers.Setter`2.#ctor(`1,`1,`0)
-  fullName: Platform.Helpers.Setter<TResult, TDecision>.Setter(TDecision, TDecision, TResult)
-  fullName.vb: Platform.Helpers.Setter(Of TResult, TDecision).Setter(TDecision, TDecision, TResult)
+  href: api/Platform.Helpers.Setters.Setter-2.html#Platform_Helpers_Setters_Setter_2__ctor__1__1__0_
+  commentId: M:Platform.Helpers.Setters.Setter`2.#ctor(`1,`1,`0)
+  fullName: Platform.Helpers.Setters.Setter<TResult, TDecision>.Setter(TDecision, TDecision, TResult)
+  fullName.vb: Platform.Helpers.Setters.Setter(Of TResult, TDecision).Setter(TDecision, TDecision, TResult)
   nameWithType: Setter<TResult, TDecision>.Setter(TDecision, TDecision, TResult)
   nameWithType.vb: Setter(Of TResult, TDecision).Setter(TDecision, TDecision, TResult)
-- uid: Platform.Helpers.Setter`2.#ctor*
+- uid: Platform.Helpers.Setters.Setter`2.#ctor*
   name: Setter
-  href: api/Platform.Helpers.Setter-2.html#Platform_Helpers_Setter_2__ctor_
-  commentId: Overload:Platform.Helpers.Setter`2.#ctor
+  href: api/Platform.Helpers.Setters.Setter-2.html#Platform_Helpers_Setters_Setter_2__ctor_
+  commentId: Overload:Platform.Helpers.Setters.Setter`2.#ctor
   isSpec: "True"
-  fullName: Platform.Helpers.Setter<TResult, TDecision>.Setter
-  fullName.vb: Platform.Helpers.Setter(Of TResult, TDecision).Setter
+  fullName: Platform.Helpers.Setters.Setter<TResult, TDecision>.Setter
+  fullName.vb: Platform.Helpers.Setters.Setter(Of TResult, TDecision).Setter
   nameWithType: Setter<TResult, TDecision>.Setter
   nameWithType.vb: Setter(Of TResult, TDecision).Setter
-- uid: Platform.Helpers.Setter`2.SetAndReturnFalse(`0)
+- uid: Platform.Helpers.Setters.Setter`2.SetAndReturnFalse(`0)
   name: SetAndReturnFalse(TResult)
-  href: api/Platform.Helpers.Setter-2.html#Platform_Helpers_Setter_2_SetAndReturnFalse__0_
-  commentId: M:Platform.Helpers.Setter`2.SetAndReturnFalse(`0)
-  fullName: Platform.Helpers.Setter<TResult, TDecision>.SetAndReturnFalse(TResult)
-  fullName.vb: Platform.Helpers.Setter(Of TResult, TDecision).SetAndReturnFalse(TResult)
+  href: api/Platform.Helpers.Setters.Setter-2.html#Platform_Helpers_Setters_Setter_2_SetAndReturnFalse__0_
+  commentId: M:Platform.Helpers.Setters.Setter`2.SetAndReturnFalse(`0)
+  fullName: Platform.Helpers.Setters.Setter<TResult, TDecision>.SetAndReturnFalse(TResult)
+  fullName.vb: Platform.Helpers.Setters.Setter(Of TResult, TDecision).SetAndReturnFalse(TResult)
   nameWithType: Setter<TResult, TDecision>.SetAndReturnFalse(TResult)
   nameWithType.vb: Setter(Of TResult, TDecision).SetAndReturnFalse(TResult)
-- uid: Platform.Helpers.Setter`2.SetAndReturnFalse*
+- uid: Platform.Helpers.Setters.Setter`2.SetAndReturnFalse*
   name: SetAndReturnFalse
-  href: api/Platform.Helpers.Setter-2.html#Platform_Helpers_Setter_2_SetAndReturnFalse_
-  commentId: Overload:Platform.Helpers.Setter`2.SetAndReturnFalse
+  href: api/Platform.Helpers.Setters.Setter-2.html#Platform_Helpers_Setters_Setter_2_SetAndReturnFalse_
+  commentId: Overload:Platform.Helpers.Setters.Setter`2.SetAndReturnFalse
   isSpec: "True"
-  fullName: Platform.Helpers.Setter<TResult, TDecision>.SetAndReturnFalse
-  fullName.vb: Platform.Helpers.Setter(Of TResult, TDecision).SetAndReturnFalse
+  fullName: Platform.Helpers.Setters.Setter<TResult, TDecision>.SetAndReturnFalse
+  fullName.vb: Platform.Helpers.Setters.Setter(Of TResult, TDecision).SetAndReturnFalse
   nameWithType: Setter<TResult, TDecision>.SetAndReturnFalse
   nameWithType.vb: Setter(Of TResult, TDecision).SetAndReturnFalse
-- uid: Platform.Helpers.Setter`2.SetAndReturnTrue(`0)
+- uid: Platform.Helpers.Setters.Setter`2.SetAndReturnTrue(`0)
   name: SetAndReturnTrue(TResult)
-  href: api/Platform.Helpers.Setter-2.html#Platform_Helpers_Setter_2_SetAndReturnTrue__0_
-  commentId: M:Platform.Helpers.Setter`2.SetAndReturnTrue(`0)
-  fullName: Platform.Helpers.Setter<TResult, TDecision>.SetAndReturnTrue(TResult)
-  fullName.vb: Platform.Helpers.Setter(Of TResult, TDecision).SetAndReturnTrue(TResult)
+  href: api/Platform.Helpers.Setters.Setter-2.html#Platform_Helpers_Setters_Setter_2_SetAndReturnTrue__0_
+  commentId: M:Platform.Helpers.Setters.Setter`2.SetAndReturnTrue(`0)
+  fullName: Platform.Helpers.Setters.Setter<TResult, TDecision>.SetAndReturnTrue(TResult)
+  fullName.vb: Platform.Helpers.Setters.Setter(Of TResult, TDecision).SetAndReturnTrue(TResult)
   nameWithType: Setter<TResult, TDecision>.SetAndReturnTrue(TResult)
   nameWithType.vb: Setter(Of TResult, TDecision).SetAndReturnTrue(TResult)
-- uid: Platform.Helpers.Setter`2.SetAndReturnTrue*
+- uid: Platform.Helpers.Setters.Setter`2.SetAndReturnTrue*
   name: SetAndReturnTrue
-  href: api/Platform.Helpers.Setter-2.html#Platform_Helpers_Setter_2_SetAndReturnTrue_
-  commentId: Overload:Platform.Helpers.Setter`2.SetAndReturnTrue
+  href: api/Platform.Helpers.Setters.Setter-2.html#Platform_Helpers_Setters_Setter_2_SetAndReturnTrue_
+  commentId: Overload:Platform.Helpers.Setters.Setter`2.SetAndReturnTrue
   isSpec: "True"
-  fullName: Platform.Helpers.Setter<TResult, TDecision>.SetAndReturnTrue
-  fullName.vb: Platform.Helpers.Setter(Of TResult, TDecision).SetAndReturnTrue
+  fullName: Platform.Helpers.Setters.Setter<TResult, TDecision>.SetAndReturnTrue
+  fullName.vb: Platform.Helpers.Setters.Setter(Of TResult, TDecision).SetAndReturnTrue
   nameWithType: Setter<TResult, TDecision>.SetAndReturnTrue
   nameWithType.vb: Setter(Of TResult, TDecision).SetAndReturnTrue
-- uid: Platform.Helpers.Setter`2.SetFirstAndReturnFalse(System.Collections.Generic.IList{`0})
+- uid: Platform.Helpers.Setters.Setter`2.SetFirstAndReturnFalse(System.Collections.Generic.IList{`0})
   name: SetFirstAndReturnFalse(IList<TResult>)
-  href: api/Platform.Helpers.Setter-2.html#Platform_Helpers_Setter_2_SetFirstAndReturnFalse_System_Collections_Generic_IList__0__
-  commentId: M:Platform.Helpers.Setter`2.SetFirstAndReturnFalse(System.Collections.Generic.IList{`0})
+  href: api/Platform.Helpers.Setters.Setter-2.html#Platform_Helpers_Setters_Setter_2_SetFirstAndReturnFalse_System_Collections_Generic_IList__0__
+  commentId: M:Platform.Helpers.Setters.Setter`2.SetFirstAndReturnFalse(System.Collections.Generic.IList{`0})
   name.vb: SetFirstAndReturnFalse(IList(Of TResult))
-  fullName: Platform.Helpers.Setter<TResult, TDecision>.SetFirstAndReturnFalse(System.Collections.Generic.IList<TResult>)
-  fullName.vb: Platform.Helpers.Setter(Of TResult, TDecision).SetFirstAndReturnFalse(System.Collections.Generic.IList(Of TResult))
+  fullName: Platform.Helpers.Setters.Setter<TResult, TDecision>.SetFirstAndReturnFalse(System.Collections.Generic.IList<TResult>)
+  fullName.vb: Platform.Helpers.Setters.Setter(Of TResult, TDecision).SetFirstAndReturnFalse(System.Collections.Generic.IList(Of TResult))
   nameWithType: Setter<TResult, TDecision>.SetFirstAndReturnFalse(IList<TResult>)
   nameWithType.vb: Setter(Of TResult, TDecision).SetFirstAndReturnFalse(IList(Of TResult))
-- uid: Platform.Helpers.Setter`2.SetFirstAndReturnFalse*
+- uid: Platform.Helpers.Setters.Setter`2.SetFirstAndReturnFalse*
   name: SetFirstAndReturnFalse
-  href: api/Platform.Helpers.Setter-2.html#Platform_Helpers_Setter_2_SetFirstAndReturnFalse_
-  commentId: Overload:Platform.Helpers.Setter`2.SetFirstAndReturnFalse
+  href: api/Platform.Helpers.Setters.Setter-2.html#Platform_Helpers_Setters_Setter_2_SetFirstAndReturnFalse_
+  commentId: Overload:Platform.Helpers.Setters.Setter`2.SetFirstAndReturnFalse
   isSpec: "True"
-  fullName: Platform.Helpers.Setter<TResult, TDecision>.SetFirstAndReturnFalse
-  fullName.vb: Platform.Helpers.Setter(Of TResult, TDecision).SetFirstAndReturnFalse
+  fullName: Platform.Helpers.Setters.Setter<TResult, TDecision>.SetFirstAndReturnFalse
+  fullName.vb: Platform.Helpers.Setters.Setter(Of TResult, TDecision).SetFirstAndReturnFalse
   nameWithType: Setter<TResult, TDecision>.SetFirstAndReturnFalse
   nameWithType.vb: Setter(Of TResult, TDecision).SetFirstAndReturnFalse
-- uid: Platform.Helpers.Setter`2.SetFirstAndReturnTrue(System.Collections.Generic.IList{`0})
+- uid: Platform.Helpers.Setters.Setter`2.SetFirstAndReturnTrue(System.Collections.Generic.IList{`0})
   name: SetFirstAndReturnTrue(IList<TResult>)
-  href: api/Platform.Helpers.Setter-2.html#Platform_Helpers_Setter_2_SetFirstAndReturnTrue_System_Collections_Generic_IList__0__
-  commentId: M:Platform.Helpers.Setter`2.SetFirstAndReturnTrue(System.Collections.Generic.IList{`0})
+  href: api/Platform.Helpers.Setters.Setter-2.html#Platform_Helpers_Setters_Setter_2_SetFirstAndReturnTrue_System_Collections_Generic_IList__0__
+  commentId: M:Platform.Helpers.Setters.Setter`2.SetFirstAndReturnTrue(System.Collections.Generic.IList{`0})
   name.vb: SetFirstAndReturnTrue(IList(Of TResult))
-  fullName: Platform.Helpers.Setter<TResult, TDecision>.SetFirstAndReturnTrue(System.Collections.Generic.IList<TResult>)
-  fullName.vb: Platform.Helpers.Setter(Of TResult, TDecision).SetFirstAndReturnTrue(System.Collections.Generic.IList(Of TResult))
+  fullName: Platform.Helpers.Setters.Setter<TResult, TDecision>.SetFirstAndReturnTrue(System.Collections.Generic.IList<TResult>)
+  fullName.vb: Platform.Helpers.Setters.Setter(Of TResult, TDecision).SetFirstAndReturnTrue(System.Collections.Generic.IList(Of TResult))
   nameWithType: Setter<TResult, TDecision>.SetFirstAndReturnTrue(IList<TResult>)
   nameWithType.vb: Setter(Of TResult, TDecision).SetFirstAndReturnTrue(IList(Of TResult))
-- uid: Platform.Helpers.Setter`2.SetFirstAndReturnTrue*
+- uid: Platform.Helpers.Setters.Setter`2.SetFirstAndReturnTrue*
   name: SetFirstAndReturnTrue
-  href: api/Platform.Helpers.Setter-2.html#Platform_Helpers_Setter_2_SetFirstAndReturnTrue_
-  commentId: Overload:Platform.Helpers.Setter`2.SetFirstAndReturnTrue
+  href: api/Platform.Helpers.Setters.Setter-2.html#Platform_Helpers_Setters_Setter_2_SetFirstAndReturnTrue_
+  commentId: Overload:Platform.Helpers.Setters.Setter`2.SetFirstAndReturnTrue
   isSpec: "True"
-  fullName: Platform.Helpers.Setter<TResult, TDecision>.SetFirstAndReturnTrue
-  fullName.vb: Platform.Helpers.Setter(Of TResult, TDecision).SetFirstAndReturnTrue
+  fullName: Platform.Helpers.Setters.Setter<TResult, TDecision>.SetFirstAndReturnTrue
+  fullName.vb: Platform.Helpers.Setters.Setter(Of TResult, TDecision).SetFirstAndReturnTrue
   nameWithType: Setter<TResult, TDecision>.SetFirstAndReturnTrue
   nameWithType.vb: Setter(Of TResult, TDecision).SetFirstAndReturnTrue
-- uid: Platform.Helpers.SetterBase`1
+- uid: Platform.Helpers.Setters.SetterBase`1
   name: SetterBase<TResult>
-  href: api/Platform.Helpers.SetterBase-1.html
-  commentId: T:Platform.Helpers.SetterBase`1
+  href: api/Platform.Helpers.Setters.SetterBase-1.html
+  commentId: T:Platform.Helpers.Setters.SetterBase`1
   name.vb: SetterBase(Of TResult)
-  fullName: Platform.Helpers.SetterBase<TResult>
-  fullName.vb: Platform.Helpers.SetterBase(Of TResult)
+  fullName: Platform.Helpers.Setters.SetterBase<TResult>
+  fullName.vb: Platform.Helpers.Setters.SetterBase(Of TResult)
   nameWithType: SetterBase<TResult>
   nameWithType.vb: SetterBase(Of TResult)
-- uid: Platform.Helpers.SetterBase`1.#ctor(`0)
+- uid: Platform.Helpers.Setters.SetterBase`1.#ctor(`0)
   name: SetterBase(TResult)
-  href: api/Platform.Helpers.SetterBase-1.html#Platform_Helpers_SetterBase_1__ctor__0_
-  commentId: M:Platform.Helpers.SetterBase`1.#ctor(`0)
-  fullName: Platform.Helpers.SetterBase<TResult>.SetterBase(TResult)
-  fullName.vb: Platform.Helpers.SetterBase(Of TResult).SetterBase(TResult)
+  href: api/Platform.Helpers.Setters.SetterBase-1.html#Platform_Helpers_Setters_SetterBase_1__ctor__0_
+  commentId: M:Platform.Helpers.Setters.SetterBase`1.#ctor(`0)
+  fullName: Platform.Helpers.Setters.SetterBase<TResult>.SetterBase(TResult)
+  fullName.vb: Platform.Helpers.Setters.SetterBase(Of TResult).SetterBase(TResult)
   nameWithType: SetterBase<TResult>.SetterBase(TResult)
   nameWithType.vb: SetterBase(Of TResult).SetterBase(TResult)
-- uid: Platform.Helpers.SetterBase`1.#ctor*
+- uid: Platform.Helpers.Setters.SetterBase`1.#ctor*
   name: SetterBase
-  href: api/Platform.Helpers.SetterBase-1.html#Platform_Helpers_SetterBase_1__ctor_
-  commentId: Overload:Platform.Helpers.SetterBase`1.#ctor
+  href: api/Platform.Helpers.Setters.SetterBase-1.html#Platform_Helpers_Setters_SetterBase_1__ctor_
+  commentId: Overload:Platform.Helpers.Setters.SetterBase`1.#ctor
   isSpec: "True"
-  fullName: Platform.Helpers.SetterBase<TResult>.SetterBase
-  fullName.vb: Platform.Helpers.SetterBase(Of TResult).SetterBase
+  fullName: Platform.Helpers.Setters.SetterBase<TResult>.SetterBase
+  fullName.vb: Platform.Helpers.Setters.SetterBase(Of TResult).SetterBase
   nameWithType: SetterBase<TResult>.SetterBase
   nameWithType.vb: SetterBase(Of TResult).SetterBase
-- uid: Platform.Helpers.SetterBase`1.Result
+- uid: Platform.Helpers.Setters.SetterBase`1.Result
   name: Result
-  href: api/Platform.Helpers.SetterBase-1.html#Platform_Helpers_SetterBase_1_Result
-  commentId: F:Platform.Helpers.SetterBase`1.Result
-  fullName: Platform.Helpers.SetterBase<TResult>.Result
-  fullName.vb: Platform.Helpers.SetterBase(Of TResult).Result
+  href: api/Platform.Helpers.Setters.SetterBase-1.html#Platform_Helpers_Setters_SetterBase_1_Result
+  commentId: F:Platform.Helpers.Setters.SetterBase`1.Result
+  fullName: Platform.Helpers.Setters.SetterBase<TResult>.Result
+  fullName.vb: Platform.Helpers.Setters.SetterBase(Of TResult).Result
   nameWithType: SetterBase<TResult>.Result
   nameWithType.vb: SetterBase(Of TResult).Result
-- uid: Platform.Helpers.SetterBase`1.Set(`0)
+- uid: Platform.Helpers.Setters.SetterBase`1.Set(`0)
   name: Set(TResult)
-  href: api/Platform.Helpers.SetterBase-1.html#Platform_Helpers_SetterBase_1_Set__0_
-  commentId: M:Platform.Helpers.SetterBase`1.Set(`0)
-  fullName: Platform.Helpers.SetterBase<TResult>.Set(TResult)
-  fullName.vb: Platform.Helpers.SetterBase(Of TResult).Set(TResult)
+  href: api/Platform.Helpers.Setters.SetterBase-1.html#Platform_Helpers_Setters_SetterBase_1_Set__0_
+  commentId: M:Platform.Helpers.Setters.SetterBase`1.Set(`0)
+  fullName: Platform.Helpers.Setters.SetterBase<TResult>.Set(TResult)
+  fullName.vb: Platform.Helpers.Setters.SetterBase(Of TResult).Set(TResult)
   nameWithType: SetterBase<TResult>.Set(TResult)
   nameWithType.vb: SetterBase(Of TResult).Set(TResult)
-- uid: Platform.Helpers.SetterBase`1.Set*
+- uid: Platform.Helpers.Setters.SetterBase`1.Set*
   name: Set
-  href: api/Platform.Helpers.SetterBase-1.html#Platform_Helpers_SetterBase_1_Set_
-  commentId: Overload:Platform.Helpers.SetterBase`1.Set
+  href: api/Platform.Helpers.Setters.SetterBase-1.html#Platform_Helpers_Setters_SetterBase_1_Set_
+  commentId: Overload:Platform.Helpers.Setters.SetterBase`1.Set
   isSpec: "True"
-  fullName: Platform.Helpers.SetterBase<TResult>.Set
-  fullName.vb: Platform.Helpers.SetterBase(Of TResult).Set
+  fullName: Platform.Helpers.Setters.SetterBase<TResult>.Set
+  fullName.vb: Platform.Helpers.Setters.SetterBase(Of TResult).Set
   nameWithType: SetterBase<TResult>.Set
   nameWithType.vb: SetterBase(Of TResult).Set
 - uid: Platform.Helpers.Singleton

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Setter&lt;TResult&gt;
+    <title>Class Counter
    | LinksPlatform </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Setter&lt;TResult&gt;
+    <meta name="title" content="Class Counter
    | LinksPlatform ">
     <meta name="generator" content="docfx 2.43.2.0">
     
@@ -78,27 +78,22 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Platform.Helpers.Setter`1">
+            <article class="content wrap" id="_content" data-uid="Platform.Helpers.Counters.Counter">
   
   
-  <h1 id="Platform_Helpers_Setter_1" data-uid="Platform.Helpers.Setter`1" class="text-break">Class Setter&lt;TResult&gt;
+  <h1 id="Platform_Helpers_Counters_Counter" data-uid="Platform.Helpers.Counters.Counter" class="text-break">Class Counter
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="Platform.Helpers.SetterBase-1.html">SetterBase</a>&lt;TResult&gt;</div>
-    <div class="level2"><span class="xref">Setter&lt;TResult&gt;</span></div>
+    <div class="level1"><span class="xref">Counter</span></div>
+      <div class="level2"><a class="xref" href="Platform.Helpers.Counters.Counter-1.html">Counter&lt;TValue&gt;</a></div>
+      <div class="level2"><a class="xref" href="Platform.Helpers.Counters.Counter-2.html">Counter&lt;TValue, TDecision&gt;</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="Platform.Helpers.SetterBase-1.html#Platform_Helpers_SetterBase_1_Result">SetterBase&lt;TResult&gt;.Result</a>
-    </div>
-    <div>
-      <a class="xref" href="Platform.Helpers.SetterBase-1.html#Platform_Helpers_SetterBase_1_Set__0_">SetterBase&lt;TResult&gt;.Set(TResult)</a>
-    </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
@@ -121,52 +116,37 @@
       <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Platform.Helpers.html">Platform.Helpers</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Platform.Helpers.Counters.html">Platform.Helpers.Counters</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Platform_Helpers_Setter_1_syntax">Syntax</h5>
+  <h5 id="Platform_Helpers_Counters_Counter_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Setter&lt;TResult&gt; : SetterBase&lt;TResult&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class Counter</code></pre>
   </div>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TResult</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="constructors">Constructors
+  <h5 id="Platform_Helpers_Counters_Counter_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>Must be class, not struct (in order to persist access to Count field value).</p>
+</div>
+  <h3 id="fields">Fields
   </h3>
   
   
-  <a id="Platform_Helpers_Setter_1__ctor_" data-uid="Platform.Helpers.Setter`1.#ctor*"></a>
-  <h4 id="Platform_Helpers_Setter_1__ctor__0_" data-uid="Platform.Helpers.Setter`1.#ctor(`0)">Setter(TResult)</h4>
+  <h4 id="Platform_Helpers_Counters_Counter_Count" data-uid="Platform.Helpers.Counters.Counter.Count">Count</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Setter(TResult defaultValue = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public ulong Count</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TResult</span></td>
-        <td><span class="parametername">defaultValue</span></td>
+        <td><span class="xref">System.UInt64</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -175,88 +155,14 @@
   </h3>
   
   
-  <a id="Platform_Helpers_Setter_1_SetAndReturnFalse_" data-uid="Platform.Helpers.Setter`1.SetAndReturnFalse*"></a>
-  <h4 id="Platform_Helpers_Setter_1_SetAndReturnFalse__0_" data-uid="Platform.Helpers.Setter`1.SetAndReturnFalse(`0)">SetAndReturnFalse(TResult)</h4>
+  <a id="Platform_Helpers_Counters_Counter_Increment_" data-uid="Platform.Helpers.Counters.Counter.Increment*"></a>
+  <h4 id="Platform_Helpers_Counters_Counter_Increment" data-uid="Platform.Helpers.Counters.Counter.Increment">Increment()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool SetAndReturnFalse(TResult value)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Increment()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TResult</span></td>
-        <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Platform_Helpers_Setter_1_SetAndReturnTrue_" data-uid="Platform.Helpers.Setter`1.SetAndReturnTrue*"></a>
-  <h4 id="Platform_Helpers_Setter_1_SetAndReturnTrue__0_" data-uid="Platform.Helpers.Setter`1.SetAndReturnTrue(`0)">SetAndReturnTrue(TResult)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool SetAndReturnTrue(TResult value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TResult</span></td>
-        <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
 </article>
           </div>
           
