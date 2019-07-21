@@ -14367,32 +14367,6 @@ references:
   isSpec: "True"
   fullName: Platform.Helpers.Console.ConsoleHelpers.Debug
   nameWithType: ConsoleHelpers.Debug
-- uid: Platform.Helpers.Console.ConsoleHelpers.DisableIgnoredExceptionsAutoPrint
-  name: DisableIgnoredExceptionsAutoPrint()
-  href: api/Platform.Helpers.Console.ConsoleHelpers.html#Platform_Helpers_Console_ConsoleHelpers_DisableIgnoredExceptionsAutoPrint
-  commentId: M:Platform.Helpers.Console.ConsoleHelpers.DisableIgnoredExceptionsAutoPrint
-  fullName: Platform.Helpers.Console.ConsoleHelpers.DisableIgnoredExceptionsAutoPrint()
-  nameWithType: ConsoleHelpers.DisableIgnoredExceptionsAutoPrint()
-- uid: Platform.Helpers.Console.ConsoleHelpers.DisableIgnoredExceptionsAutoPrint*
-  name: DisableIgnoredExceptionsAutoPrint
-  href: api/Platform.Helpers.Console.ConsoleHelpers.html#Platform_Helpers_Console_ConsoleHelpers_DisableIgnoredExceptionsAutoPrint_
-  commentId: Overload:Platform.Helpers.Console.ConsoleHelpers.DisableIgnoredExceptionsAutoPrint
-  isSpec: "True"
-  fullName: Platform.Helpers.Console.ConsoleHelpers.DisableIgnoredExceptionsAutoPrint
-  nameWithType: ConsoleHelpers.DisableIgnoredExceptionsAutoPrint
-- uid: Platform.Helpers.Console.ConsoleHelpers.EnableIgnoredExceptionsAutoPrint
-  name: EnableIgnoredExceptionsAutoPrint()
-  href: api/Platform.Helpers.Console.ConsoleHelpers.html#Platform_Helpers_Console_ConsoleHelpers_EnableIgnoredExceptionsAutoPrint
-  commentId: M:Platform.Helpers.Console.ConsoleHelpers.EnableIgnoredExceptionsAutoPrint
-  fullName: Platform.Helpers.Console.ConsoleHelpers.EnableIgnoredExceptionsAutoPrint()
-  nameWithType: ConsoleHelpers.EnableIgnoredExceptionsAutoPrint()
-- uid: Platform.Helpers.Console.ConsoleHelpers.EnableIgnoredExceptionsAutoPrint*
-  name: EnableIgnoredExceptionsAutoPrint
-  href: api/Platform.Helpers.Console.ConsoleHelpers.html#Platform_Helpers_Console_ConsoleHelpers_EnableIgnoredExceptionsAutoPrint_
-  commentId: Overload:Platform.Helpers.Console.ConsoleHelpers.EnableIgnoredExceptionsAutoPrint
-  isSpec: "True"
-  fullName: Platform.Helpers.Console.ConsoleHelpers.EnableIgnoredExceptionsAutoPrint
-  nameWithType: ConsoleHelpers.EnableIgnoredExceptionsAutoPrint
 - uid: Platform.Helpers.Console.ConsoleHelpers.GetOrReadArgument(System.Int32,System.String,System.String[])
   name: GetOrReadArgument(Int32, String, String[])
   href: api/Platform.Helpers.Console.ConsoleHelpers.html#Platform_Helpers_Console_ConsoleHelpers_GetOrReadArgument_System_Int32_System_String_System_String___
