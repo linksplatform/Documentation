@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "mYb+AVnn42CMBfuSFNlQ5Q=="
+          "hash": "acmgKN5gKj341SaXOgA6pg=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "README.ru.html",
-          "hash": "1qFPQ3fxRLSPLxJ2x+HSzg=="
+          "hash": "0YWbKtC0YdL5C5LdDQYStw=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/articles/links-theory.html",
-          "hash": "vmEjEN26fLbdk5QQYQHM0Q=="
+          "hash": "V6lFARj1vpTPHQKdnF0T4w=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "CCtZKAw2sM7HWerHILFLYg=="
+          "hash": "GVlsuyLFNp/UbPCdlYtvDQ=="
         }
       },
       "is_incremental": false,
@@ -2330,6 +2330,66 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Tests.Exceptions.EnsuranceTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Tests.Exceptions.EnsuranceTests.html",
+          "hash": "ZJG3/QifJlUubps8eCR6XA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Tests.Exceptions.Ignore.EnsureAlwaysExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Tests.Exceptions.Ignore.EnsureAlwaysExtensions.html",
+          "hash": "9Flf154zOF/2/OZdvytpvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Tests.Exceptions.Ignore.IgnoredEnsuranceTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Tests.Exceptions.Ignore.IgnoredEnsuranceTests.html",
+          "hash": "FB9L3+4qLzp1PlUHcxIG4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Tests.Exceptions.Ignore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Tests.Exceptions.Ignore.html",
+          "hash": "Zmoi1fbF7yptTqvz8sS89w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Tests.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Tests.Exceptions.html",
+          "hash": "DqZAwMfDm3Ac7VRs3FacJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/Platform.Tests.Helpers.ArithmeticExtensionsTests.yml",
       "output": {
         ".html": {
@@ -2490,7 +2550,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "yrs34N5glFuSALPHUmBUZA=="
+          "hash": "/DTl3hEMSUThk332eS5wTQ=="
         }
       },
       "is_incremental": false,
@@ -2539,7 +2599,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 202,
+          "total_file_count": 207,
           "skipped_file_count": 0
         }
       }
