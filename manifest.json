@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "/DExzjYuY0v4fUHLVXVifA=="
+          "hash": "VRuiOSUQm9Pz0lTsNcacNA=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "README.ru.html",
-          "hash": "U4HE1fIxyT+sEeqeQSS3zQ=="
+          "hash": "ZC/B1ACZ24wLudjFfU6lcA=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/articles/links-theory.html",
-          "hash": "8zqfk5uZsNezkAojTUI3Lw=="
+          "hash": "144f+SLLFcrVZ9es11WWww=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "zjW8Ed73MoYhFyuD6gaOHw=="
+          "hash": "dq4+4tkfSoQUpcoGlYkOVQ=="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Data.ConsoleTerminal.Program.html",
-          "hash": "IclfhoI0+VC5RJxHwCdefw=="
+          "hash": "fuvtbyUy0J2XHWzBeiN2yA=="
         }
       },
       "is_incremental": false,
@@ -78,1363 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Data.ConsoleTerminal.html",
-          "hash": "oTNuXPfZKY1fYqBs9xOQnw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Common.Point-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Common.Point-1.html",
-          "hash": "f0FLDNGAbjgZLBYueIqRmg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Common.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Common.html",
-          "hash": "SPp0LSZtwHZTz9/5w/QW0Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.AddressToUnaryNumberConverter-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.AddressToUnaryNumberConverter-1.html",
-          "hash": "HtQRm04HhKBDUKjVTWlYTw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.DefaultLinkPropertyOperator-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.DefaultLinkPropertyOperator-1.html",
-          "hash": "KXXin21JuyDRdsJ09v6Ndg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.DefaultSequenceElementCreteriaMatcher-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.DefaultSequenceElementCreteriaMatcher-1.html",
-          "hash": "s4d3vVmHAITep92/PZx2AA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.FrequencyIncrementer-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.FrequencyIncrementer-1.html",
-          "hash": "E0FIdpl6Cr6jxNmutzZoxg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.FrequencyPropertyOperator-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.FrequencyPropertyOperator-1.html",
-          "hash": "NQm2UljMNU9TvlI2iOu5Bw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.Hybrid-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.Hybrid-1.html",
-          "hash": "Es3etpt70vmqRzANwqr/DQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.ILinks-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.ILinks-1.html",
-          "hash": "SVC9uCIT8RfXDR5Mek97Bg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.ILinksAddressConstants-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.ILinksAddressConstants-1.html",
-          "hash": "VDqzU/VSG1kbgboppzvKMg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.ILinksCombinedConstants-3.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.ILinksCombinedConstants-3.html",
-          "hash": "5NjzLsQStU8Z6phnp+XhFA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.ILinksDecisionConstants-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.ILinksDecisionConstants-1.html",
-          "hash": "A5l4bQFAZyKOEBDhBmgVuA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.ILinksOptions-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.ILinksOptions-1.html",
-          "hash": "+n0HQwbiHhKv1aen7mTBRQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.ILinksPartConstants-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.ILinksPartConstants-1.html",
-          "hash": "jxtQxHe/TM5W1XOgMbawQA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.ISynchronizedLinks-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.ISynchronizedLinks-1.html",
-          "hash": "PAY4IfSkEU0CkOkGCj+k2A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.Link-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.Link-1.html",
-          "hash": "Zpc/2DhSm3JxitKbVeMmpA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.LinkExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.LinkExtensions.html",
-          "hash": "UtPceNVCsuMRtNKdQX3sgw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.LinkFrequencyIncrementer-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.LinkFrequencyIncrementer-1.html",
-          "hash": "AdzIpipmngHpcytA4eMUZg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.LinkToItsFrequencyNumberConveter-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.LinkToItsFrequencyNumberConveter-1.html",
-          "hash": "YFdJFH9MPFwvqr1rggcepA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.LinksCascadeDependenciesResolver-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.LinksCascadeDependenciesResolver-1.html",
-          "hash": "cYTgiGbzJwUnFposETcVlg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.LinksCascadeUniquenessAndDependenciesResolver-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.LinksCascadeUniquenessAndDependenciesResolver-1.html",
-          "hash": "g/7TZmWlXZ8LdIEsVBbv/A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.LinksConstants-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.LinksConstants-1.html",
-          "hash": "UTb7o8ZQqNEizYlNhlV4BA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.LinksConstants-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.LinksConstants-2.html",
-          "hash": "heHLAqb7nss6WqEJo5IeoQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.LinksConstants-3.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.LinksConstants-3.html",
-          "hash": "lIuKivZ7TbDuXtamiO5q0g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.LinksDecoratorBase-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.LinksDecoratorBase-1.html",
-          "hash": "WtQRZjoVgUBMt8mSqyOPKQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.LinksDependenciesValidator-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.LinksDependenciesValidator-1.html",
-          "hash": "IwGw8ejkqRc25O4Necw0Ig=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.LinksDisposableDecoratorBase-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.LinksDisposableDecoratorBase-1.html",
-          "hash": "G+eFABjdlveJmHBF08mhsg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.LinksExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.LinksExtensions.html",
-          "hash": "+9ervkCZMaLFxyheA4UkSQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.LinksInnerReferenceValidator-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.LinksInnerReferenceValidator-1.html",
-          "hash": "O9QIQ/VVoz8wRiZ1Mgwr+g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.LinksNonExistentReferencesCreator-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.LinksNonExistentReferencesCreator-1.html",
-          "hash": "Arm1XZNqagfYf+M/BHNmAQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.LinksNullToSelfReferenceResolver-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.LinksNullToSelfReferenceResolver-1.html",
-          "hash": "po/5LZkwci7bfowdVCSDAA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.LinksOperatorBase-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.LinksOperatorBase-1.html",
-          "hash": "N76877s3kB7fc8MT3oSfzg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.LinksSelfReferenceResolver-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.LinksSelfReferenceResolver-1.html",
-          "hash": "I8cd3PfENVaSu/FxfIJumQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.LinksUniquenessResolver-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.LinksUniquenessResolver-1.html",
-          "hash": "ZL04Ffy9QZH/7RuRF3Z+ng=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.LinksUniquenessValidator-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.LinksUniquenessValidator-1.html",
-          "hash": "sY3e27JxunxLQ+DxV7B5tA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.NonNullContentsLinkDeletionResolver-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.NonNullContentsLinkDeletionResolver-1.html",
-          "hash": "p3GYt0LKWY3uBVZhbKAEvw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.PowerOf2ToUnaryNumberConverter-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.PowerOf2ToUnaryNumberConverter-1.html",
-          "hash": "616pmvhWsJGiMoxQdqlZJw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.ResizableDirectMemoryLinks-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.ResizableDirectMemoryLinks-1.html",
-          "hash": "EmEbs3HEMyr4WoJdTd8Z5g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.Stack-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.Stack-1.html",
-          "hash": "7n58G8Ur+rocB8x66IXQ1g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.StackExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.StackExtensions.html",
-          "hash": "WcUM5sSlikvP7u3V4ICzUg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.SynchronizedLinks-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.SynchronizedLinks-1.html",
-          "hash": "pzROspigoM+1XN+ppKlDig=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.UInt64Link.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.UInt64Link.html",
-          "hash": "AulRy4Z6Lo/IiPenpEN/Dw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.UInt64Links.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.UInt64Links.html",
-          "hash": "m3RvllY8qj42BxkWdKMJHg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.UInt64LinksTransactionsLayer.Transaction.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.UInt64LinksTransactionsLayer.Transaction.html",
-          "hash": "szO8lrhtEXRaCWWji430Yg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.UInt64LinksTransactionsLayer.Transition.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.UInt64LinksTransactionsLayer.Transition.html",
-          "hash": "SOS5fhmgsPFMPf6eDrAq8A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.UInt64LinksTransactionsLayer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.UInt64LinksTransactionsLayer.html",
-          "hash": "L+rJh9PvtEJhSZpErTy5aw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.UInt64ResizableDirectMemoryLinks.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.UInt64ResizableDirectMemoryLinks.html",
-          "hash": "6UZqEmRC4wdXbPKfg98mmQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.UnaryNumberIncrementer-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.UnaryNumberIncrementer-1.html",
-          "hash": "lZ5qeIzQYsIl4RIQmWK7cQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.UnaryNumberToAddressAddOperationConverter-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.UnaryNumberToAddressAddOperationConverter-1.html",
-          "hash": "zgJzU55zqg5aNNiFYlP4hg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.UnaryNumberToAddressOrOperationConverter-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.UnaryNumberToAddressOrOperationConverter-1.html",
-          "hash": "T7PfRISO6LNsDAwjtDWmYw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Doublets.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Doublets.html",
-          "hash": "WUNubbj1jf77Nl3w/Jr5dQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Exceptions.ArgumentLinkDoesNotExistsException-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Exceptions.ArgumentLinkDoesNotExistsException-1.html",
-          "hash": "90ZLEj5Q5WKt5UhQzHkkeg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Exceptions.ArgumentLinkHasDependenciesException-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Exceptions.ArgumentLinkHasDependenciesException-1.html",
-          "hash": "Adetgx5iWecRg0v7ZzNaiw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Exceptions.LinkWithSameValueAlreadyExistsException.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Exceptions.LinkWithSameValueAlreadyExistsException.html",
-          "hash": "IM69ofPcmKdjNF7LoYAD4A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Exceptions.LinksLimitReachedException.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Exceptions.LinksLimitReachedException.html",
-          "hash": "rCJwP34A94+NUf7/jWQXCg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Exceptions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Exceptions.html",
-          "hash": "vIFrQMoePjWSFo5ZCR358A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.BalancedVariantConverter-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.BalancedVariantConverter-1.html",
-          "hash": "UMDN1HogWVj7LxUF/T9A8g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.CachedSequenceHeightProvider-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.CachedSequenceHeightProvider-1.html",
-          "hash": "Nnld8b2Ci3+IjGcYL44pVQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.CompressingConverter-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.CompressingConverter-1.html",
-          "hash": "8dYHGbhGiFFxKdXsBGlaNw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.DefaultSequenceAppender-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.DefaultSequenceAppender-1.html",
-          "hash": "K99btXy0clM1lexL7qgKCA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.DefaultSequenceRightHeightProvider-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.DefaultSequenceRightHeightProvider-1.html",
-          "hash": "+dhaRMO5qPZc5YdYfkdDaQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.DuplicateSegmentsCounter-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.DuplicateSegmentsCounter-1.html",
-          "hash": "BMmKxdlODBcaqno6Tm7n3A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.DuplicateSegmentsProvider-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.DuplicateSegmentsProvider-1.html",
-          "hash": "o9HdHkIC4wt5zkrURB3dww=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.Frequencies.Cache.Doublet-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.Frequencies.Cache.Doublet-1.html",
-          "hash": "kdX5qTG297CVTh0M8f/1gQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.Frequencies.Cache.DoubletComparer-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.Frequencies.Cache.DoubletComparer-1.html",
-          "hash": "m4/Kp/hAMasfdaRB5S8Lxw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.Frequencies.Cache.FrequenciesCacheBasedLinkFrequencyIncrementer-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.Frequencies.Cache.FrequenciesCacheBasedLinkFrequencyIncrementer-1.html",
-          "hash": "OwdQjtv9VglLfQDcDRMS/g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.Frequencies.Cache.FrequenciesCacheBasedLinkToItsFrequencyNumberConverter-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.Frequencies.Cache.FrequenciesCacheBasedLinkToItsFrequencyNumberConverter-1.html",
-          "hash": "b+Qbgatzamh4oRP+7VyfYQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.Frequencies.Cache.LinkFrequenciesCache-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.Frequencies.Cache.LinkFrequenciesCache-1.html",
-          "hash": "kPByGl4PtgniNl98ewKUFQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.Frequencies.Cache.LinkFrequency-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.Frequencies.Cache.LinkFrequency-1.html",
-          "hash": "ze+wg00K/zdniAPpew9dMA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.Frequencies.Cache.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.Frequencies.Cache.html",
-          "hash": "ntAgwMJmVYP7fcnhQYbKLQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.Frequencies.Counters.MarkedSequenceSymbolFrequencyOneOffCounter-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.Frequencies.Counters.MarkedSequenceSymbolFrequencyOneOffCounter-1.html",
-          "hash": "H/rDOMpKkATp5RXTr4yFhQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.Frequencies.Counters.SequenceSymbolFrequencyOneOffCounter-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.Frequencies.Counters.SequenceSymbolFrequencyOneOffCounter-1.html",
-          "hash": "MsvCvilY+BFcU4UQ/ekSsQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.Frequencies.Counters.TotalMarkedSequenceSymbolFrequencyCounter-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.Frequencies.Counters.TotalMarkedSequenceSymbolFrequencyCounter-1.html",
-          "hash": "dL1YkzOpg3UyczRQZlCSHQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.Frequencies.Counters.TotalMarkedSequenceSymbolFrequencyOneOffCounter-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.Frequencies.Counters.TotalMarkedSequenceSymbolFrequencyOneOffCounter-1.html",
-          "hash": "5knG7vvfnAwqE/U5/kyM5w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.Frequencies.Counters.TotalSequenceSymbolFrequencyCounter-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.Frequencies.Counters.TotalSequenceSymbolFrequencyCounter-1.html",
-          "hash": "LQpiVXQa6pTyDX8ZYZX8Kw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.Frequencies.Counters.TotalSequenceSymbolFrequencyOneOffCounter-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.Frequencies.Counters.TotalSequenceSymbolFrequencyOneOffCounter-1.html",
-          "hash": "Thiq8l3B46eVqp4gANFFJQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.Frequencies.Counters.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.Frequencies.Counters.html",
-          "hash": "5jboyVw0QIerhObwYNgXlQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.ISequenceAppender-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.ISequenceAppender-1.html",
-          "hash": "EXVMNPp/16PEsD4YzsQ/TQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.ISequenceHeightProvider-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.ISequenceHeightProvider-1.html",
-          "hash": "+19q+NeqKxrjxbbTLyjltQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.ISequenceWalker-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.ISequenceWalker-1.html",
-          "hash": "26YKbn5YxMRpzmcnrNuZlw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.ISequences-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.ISequences-1.html",
-          "hash": "QasSqqqC8Zn38atgWL0PwA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.LeftSequenceWalker-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.LeftSequenceWalker-1.html",
-          "hash": "1F5Tswr4MKLPshE5fN5sXA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.LinksListToSequenceConverterBase-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.LinksListToSequenceConverterBase-1.html",
-          "hash": "e6Gkas5awdVf6fMSEBNTTw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.MarkedSequenceMatcher-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.MarkedSequenceMatcher-1.html",
-          "hash": "yilwnR90cNiX1ol1P+wL9w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.OptimalVariantConverter-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.OptimalVariantConverter-1.html",
-          "hash": "cneoF6crcVHy/OXDR6Xvgg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.RightSequenceWalker-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.RightSequenceWalker-1.html",
-          "hash": "SdFsMrUckpbq3y0W2rxb9Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.SequenceToItsLocalElementLevelsConverter-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.SequenceToItsLocalElementLevelsConverter-1.html",
-          "hash": "6hrUj595eENXy6GAwHrSdA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.SequenceWalker.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.SequenceWalker.html",
-          "hash": "B/1/F4OKyYltnTehdcjRvg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.SequenceWalkerBase-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.SequenceWalkerBase-1.html",
-          "hash": "2FbA+HwXaVabHgAdeoF/pA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.Sequences.Matcher.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.Sequences.Matcher.html",
-          "hash": "G+lpRimWM8cqkbpsWOO8nw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.Sequences.PatternMatcher.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.Sequences.PatternMatcher.html",
-          "hash": "qRBytEYufZ+u6/uYzNmS7g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.Sequences.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.Sequences.html",
-          "hash": "Sh9EA6A2HsWpCvJ5RuP0QA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.SequencesExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.SequencesExtensions.html",
-          "hash": "t/1Ev+e5WQsxpe/hedzN9g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.SequencesIndexer-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.SequencesIndexer-1.html",
-          "hash": "vbhk5HROCJvXLm9l/hwsew=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.SequencesOptions-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.SequencesOptions-1.html",
-          "hash": "NS5W0anddKN6HWwQx+Cvvg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.StopableSequenceWalker.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.StopableSequenceWalker.html",
-          "hash": "W8mGhMUK1GRSkz+3ascOwg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.UnicodeMap.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.UnicodeMap.html",
-          "hash": "0QsQ8m9fUGYSh3jS7y35nw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Sequences.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Sequences.html",
-          "hash": "SUEtrMt+//KoM4rqplA7uQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Triplets.CharacterHelpers.CharacterMapping.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Triplets.CharacterHelpers.CharacterMapping.html",
-          "hash": "LDnIdILX1E3VQomLZzRZUQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Triplets.CharacterHelpers.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Triplets.CharacterHelpers.html",
-          "hash": "qrHlUQGSXU5qgOB4UTFQ7g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Triplets.GexfExporter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Triplets.GexfExporter.html",
-          "hash": "C5Ik+XQFRnbyjysZnPJkFQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Triplets.Link.CreatedDelegate.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Triplets.Link.CreatedDelegate.html",
-          "hash": "FQydEj4uL4w/CezE92k2BQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Triplets.Link.DeletedDelegate.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Triplets.Link.DeletedDelegate.html",
-          "hash": "BA6m9l+gxEZBmPhbhoGPDA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Triplets.Link.UpdatedDelegate.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Triplets.Link.UpdatedDelegate.html",
-          "hash": "zrwzj9g/6bIpBhuPBuh0oQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Triplets.Link.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Triplets.Link.html",
-          "hash": "EJWKDgti71JKIa5+JyregQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Triplets.LinkConverter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Triplets.LinkConverter.html",
-          "hash": "upMgMdRCpcXnpZCj2RpWpg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Triplets.LinkDefinition.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Triplets.LinkDefinition.html",
-          "hash": "Mg0DGcQm8P6vBAWeM1bLxQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Triplets.LinkExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Triplets.LinkExtensions.html",
-          "hash": "GWJdY3CEJRJ5ysQsvZOo7Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Triplets.Net.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Triplets.Net.html",
-          "hash": "Bp/ZDElkKjhtwsi4rCz/WA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Triplets.NetMapping.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Triplets.NetMapping.html",
-          "hash": "PJiYzm5qXPnVPnZEid7vNQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Triplets.NumberHelpers.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Triplets.NumberHelpers.html",
-          "hash": "2Pv4v+k73qvzeXpcdnxwTg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Triplets.SequenceHelpers.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Triplets.SequenceHelpers.html",
-          "hash": "ICVGkdzZdZM/VG854BSBag=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Data.Core.Triplets.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Data.Core.Triplets.html",
-          "hash": "1iXjTpIsjRZW9Sh0fy4gng=="
+          "hash": "OKNvJfLgfXBVolvcjxyDDg=="
         }
       },
       "is_incremental": false,
@@ -1446,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Data.MasterServer.Program.html",
-          "hash": "7teIhsqHiPZkVznND5Ek+Q=="
+          "hash": "ObieOwL/19msj2QPLU/6zQ=="
         }
       },
       "is_incremental": false,
@@ -1458,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Data.MasterServer.html",
-          "hash": "Qlk+xJxnwYk7BJra2SCprg=="
+          "hash": "E6ufE/M8ki2CPxuZ6LhaEA=="
         }
       },
       "is_incremental": false,
@@ -1470,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Data.SlaveServer.Program.html",
-          "hash": "DySvCIVeyLV6J5/5wSUGEw=="
+          "hash": "V9BMIzWFRTwvSrtTvULgjQ=="
         }
       },
       "is_incremental": false,
@@ -1482,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Data.SlaveServer.html",
-          "hash": "psFBbHdUd+Nasb5adIUtXg=="
+          "hash": "jIUCfLAUhx7/q4G2ZbBlhA=="
         }
       },
       "is_incremental": false,
@@ -1494,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Data.WebTerminal.Controllers.HomeController.html",
-          "hash": "9Pr4Q2WUd2esDFWRu+QV1A=="
+          "hash": "mow+GMxPCTt3MKeHjBLu5Q=="
         }
       },
       "is_incremental": false,
@@ -1506,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Data.WebTerminal.Controllers.LinksController.html",
-          "hash": "rP8uhPmaPaKIALsOP97k4A=="
+          "hash": "8AtLqpfmIZCggyOCrqB+wA=="
         }
       },
       "is_incremental": false,
@@ -1518,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Data.WebTerminal.Controllers.html",
-          "hash": "iW2zGilccQPtYS6klyid+g=="
+          "hash": "QxGF7NQFA/k0UQUgby0ZyQ=="
         }
       },
       "is_incremental": false,
@@ -1530,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Data.WebTerminal.Models.ErrorViewModel.html",
-          "hash": "1JkZX5muNn6VohJtkbjEYg=="
+          "hash": "F242DDvTmFU+61JEzsVv6Q=="
         }
       },
       "is_incremental": false,
@@ -1542,7 +186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Data.WebTerminal.Models.LinkModel.html",
-          "hash": "M1d312vatNU4W3/t2Yt8Lg=="
+          "hash": "gH5tJAYVa9N8nm8Gu1Z7MA=="
         }
       },
       "is_incremental": false,
@@ -1554,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Data.WebTerminal.Models.html",
-          "hash": "Q/f5RNbBsqAvMVjJYbkx6w=="
+          "hash": "mSYlqx62Xy7IPcNTk+QJIQ=="
         }
       },
       "is_incremental": false,
@@ -1566,7 +210,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Data.WebTerminal.Program.html",
-          "hash": "aCw4hSqjlOfHFHcL9KI1Bw=="
+          "hash": "wmlByKh9Vo4b7jppqvR/AQ=="
         }
       },
       "is_incremental": false,
@@ -1578,7 +222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Data.WebTerminal.Startup.html",
-          "hash": "SrnozbP6dFjBuFjOjPg5TQ=="
+          "hash": "oCIT7akfrTJO+hGiYWvGMg=="
         }
       },
       "is_incremental": false,
@@ -1590,7 +234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Data.WebTerminal.html",
-          "hash": "1m9XajwSe0a2ubenx1jzSw=="
+          "hash": "1C28V+LvYpj9TrLIWb3Qrw=="
         }
       },
       "is_incremental": false,
@@ -1602,7 +246,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Examples.CSVExporter.html",
-          "hash": "dbUPku3G2DizZG0+OB4DfA=="
+          "hash": "Fm/WDho0R39YDO54Zp7rdQ=="
         }
       },
       "is_incremental": false,
@@ -1614,7 +258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Examples.CSVExporterCLI-1.html",
-          "hash": "vVnpPFnzaiWXGClkyZV60g=="
+          "hash": "JM8N+MC9g5BqDvcSHYLPPA=="
         }
       },
       "is_incremental": false,
@@ -1626,7 +270,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Examples.CSVSequencesExporter.html",
-          "hash": "FujHiafeDT7ojhJMPBocFA=="
+          "hash": "utZ7ZbhLnBcOKqwDvKefRQ=="
         }
       },
       "is_incremental": false,
@@ -1638,7 +282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Examples.FileIndexer.html",
-          "hash": "gmq4FS+Dkjztz0o2eEDoJg=="
+          "hash": "KIbqU7Iu0hia+7IWpbgkpw=="
         }
       },
       "is_incremental": false,
@@ -1650,7 +294,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Examples.FileIndexerCLI.html",
-          "hash": "Q7G5IwJk+XCxhgtuPRtZdQ=="
+          "hash": "+1P0tMTTWGh/1HPnD8GfTg=="
         }
       },
       "is_incremental": false,
@@ -1662,7 +306,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Examples.GEXFCSVExporterCLI.html",
-          "hash": "CYi8PpLlwOycQuRqXNHu7Q=="
+          "hash": "2RG4N7nvCs8cR+QY17JbpA=="
         }
       },
       "is_incremental": false,
@@ -1674,7 +318,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Examples.GEXFExporter-1.html",
-          "hash": "66rznXRzoyL1qKxq7TK6dw=="
+          "hash": "tas8cJFyf1ZepFtXwDMqOA=="
         }
       },
       "is_incremental": false,
@@ -1686,7 +330,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Examples.ICommandLineInterface.html",
-          "hash": "lhNtjOE+8tLlvXJU/6EZoQ=="
+          "hash": "omqTTVSfi7Ct2Ne3qkC9vQ=="
         }
       },
       "is_incremental": false,
@@ -1698,7 +342,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Examples.IWikipediaStorage-1.html",
-          "hash": "xh6iZB6t0NxV6AxAt46f+Q=="
+          "hash": "5knxXJBlmomvmmC6TQKU1Q=="
         }
       },
       "is_incremental": false,
@@ -1710,7 +354,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Examples.MasterServer.html",
-          "hash": "GpAnh7l//fODJuerpf0hLg=="
+          "hash": "grqxcIX62nFI9yiy7O+8Qg=="
         }
       },
       "is_incremental": false,
@@ -1722,7 +366,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Examples.MasterServerCLI.html",
-          "hash": "RHtRPhvswTOxe7v4tb8KhA=="
+          "hash": "/T2VjyrKi7ULGZiOLZXgUg=="
         }
       },
       "is_incremental": false,
@@ -1734,7 +378,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Examples.TerminalCLI.html",
-          "hash": "f7gLUnEZymsVMjM73MPQYg=="
+          "hash": "7guXSsB+Y/N8zCKZsVxzOw=="
         }
       },
       "is_incremental": false,
@@ -1746,7 +390,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Examples.WikipediaImporterCLI.html",
-          "hash": "V5JEEEg1CmJfYE2jM+/zDQ=="
+          "hash": "5UKvnyM7me1UPz7eTHoCpw=="
         }
       },
       "is_incremental": false,
@@ -1758,7 +402,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Examples.WikipediaLinksStorage.html",
-          "hash": "iCJJ0hXnkfczhxsF2v/TAw=="
+          "hash": "wyqsbUT5tndbF/4NGLOwvQ=="
         }
       },
       "is_incremental": false,
@@ -1770,7 +414,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Examples.WikipediaPagesCounter.html",
-          "hash": "kesr15hOqi2vUMBCbXnkrg=="
+          "hash": "Q+TOxoKQ+rRQGV4NNvAEbw=="
         }
       },
       "is_incremental": false,
@@ -1782,7 +426,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Examples.WikipediaPagesCounterCLI.html",
-          "hash": "ea6YmuJKAF39u6IuIu8Cdw=="
+          "hash": "Bbd61cEDuWRz4VeX3897qQ=="
         }
       },
       "is_incremental": false,
@@ -1794,7 +438,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Examples.XUnitTestsRunnerCLI.html",
-          "hash": "DeENR8FmRdmyfS179WPjgw=="
+          "hash": "JSMlqdhnYuTwriJQ+FVNmg=="
         }
       },
       "is_incremental": false,
@@ -1806,7 +450,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Examples.html",
-          "hash": "xo3yvrMU14JRVZwK4nokPA=="
+          "hash": "ZI2auVGU/jIKfQvvXzAyKg=="
         }
       },
       "is_incremental": false,
@@ -1818,7 +462,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Sandbox.A.html",
-          "hash": "w7gZP43EgXJ8ccLOpbDv3w=="
+          "hash": "PwM32epontE/jfjUnT8WTA=="
         }
       },
       "is_incremental": false,
@@ -1830,7 +474,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Sandbox.Base.html",
-          "hash": "2ORyQFmqzFTaZwV8lEJItw=="
+          "hash": "m7QHMRVCxyLfl0PVX/xaKQ=="
         }
       },
       "is_incremental": false,
@@ -1842,7 +486,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Sandbox.CompressionExperiments.Compressor.html",
-          "hash": "ynn8zSLlr+88HvYvzvbaRA=="
+          "hash": "ZWM5dEZuDc9ZJdSX3mHWig=="
         }
       },
       "is_incremental": false,
@@ -1854,7 +498,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Sandbox.CompressionExperiments.html",
-          "hash": "2Zq0gjBLP9j3H60s5lLXUw=="
+          "hash": "qId4qNvzxyuPF54mSHOakQ=="
         }
       },
       "is_incremental": false,
@@ -1866,7 +510,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Sandbox.ConceptTest.html",
-          "hash": "NdNfUk8C0EdyZeyKZdQYHQ=="
+          "hash": "bt3bHLmY3A5Z+pkW7TsWbg=="
         }
       },
       "is_incremental": false,
@@ -1878,7 +522,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Sandbox.ConsolePrintedDublicateWalkerBase.html",
-          "hash": "/B7EorhGSwEsJFQc5LcwoA=="
+          "hash": "SJkDFe/UhbteAosT6SvKIg=="
         }
       },
       "is_incremental": false,
@@ -1890,7 +534,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Sandbox.DllImportTest.html",
-          "hash": "6OMzrvkisH3QeSF9WebzXQ=="
+          "hash": "V67faJVkBS6GUgcCB+Oxrg=="
         }
       },
       "is_incremental": false,
@@ -1902,7 +546,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Sandbox.FileReadWriteTest.html",
-          "hash": "VX9S08pdICcjZh6Z5xLjkg=="
+          "hash": "6XlqNl4g8OgtTxxtNNI8FQ=="
         }
       },
       "is_incremental": false,
@@ -1914,7 +558,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Sandbox.Inherited.html",
-          "hash": "18hPJdWEi6eS81986j9fiQ=="
+          "hash": "PgyWmZtBWbFHvW0FJJTEpA=="
         }
       },
       "is_incremental": false,
@@ -1926,7 +570,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Sandbox.IterationsCounter.html",
-          "hash": "8d1e8x0hwWWu+4rqZXq/bQ=="
+          "hash": "rDmQ6cd4GHQHGN/u8AGGjg=="
         }
       },
       "is_incremental": false,
@@ -1938,7 +582,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Sandbox.NetParser.html",
-          "hash": "P84Zp2c92Fn7qPARCaM5oA=="
+          "hash": "/BzuBib8rxRjagx1giFUmw=="
         }
       },
       "is_incremental": false,
@@ -1950,7 +594,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Sandbox.NetParserTest.html",
-          "hash": "ptC4xtayt98FKjfP6lxy2Q=="
+          "hash": "7qxeznUps6AjxahPnC3gzQ=="
         }
       },
       "is_incremental": false,
@@ -1962,7 +606,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Sandbox.OperationsExperiments.Mapping.html",
-          "hash": "7pjymH95/njwc1JVD/N7pA=="
+          "hash": "9ywVTaTrOUoEWCgR7e872g=="
         }
       },
       "is_incremental": false,
@@ -1974,7 +618,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Sandbox.OperationsExperiments.html",
-          "hash": "AbJeaRuCvdyhpEtTTweD6A=="
+          "hash": "mqzgvOqxP1OdxHIiHt+oSw=="
         }
       },
       "is_incremental": false,
@@ -1986,7 +630,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Sandbox.Program.html",
-          "hash": "EOcmntMCYXix9SqUEyo/dg=="
+          "hash": "HPUNeLRSbQP4Q4QxPhPiBg=="
         }
       },
       "is_incremental": false,
@@ -1998,7 +642,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Sandbox.QueryExecutorExtensions.html",
-          "hash": "1MmNuRm6ghF+KCRPEiIznQ=="
+          "hash": "TqExu57A/7MzZJ6FVLHo8A=="
         }
       },
       "is_incremental": false,
@@ -2010,7 +654,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Sandbox.StaticBase-1.html",
-          "hash": "M6VjFavP18tiWtiIFF4R6A=="
+          "hash": "S4/cjyG7sA45vr6DGe03Qw=="
         }
       },
       "is_incremental": false,
@@ -2022,7 +666,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Sandbox.TerminalExperiment.html",
-          "hash": "ogKEjUzpBfZhikBCGP8Qog=="
+          "hash": "i0XmGY4+qR3epyHj3OP4gw=="
         }
       },
       "is_incremental": false,
@@ -2034,7 +678,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Sandbox.TextParser.State.html",
-          "hash": "hcbQz9/swxE+tZnpwDEQcQ=="
+          "hash": "8QK/8Q52ihO9+X3T3IFFKw=="
         }
       },
       "is_incremental": false,
@@ -2046,7 +690,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Sandbox.TextParser.html",
-          "hash": "vO0MW8ftH4RtU3ZnY8PP0g=="
+          "hash": "L6845kh6HSpaKmUD0dcbbA=="
         }
       },
       "is_incremental": false,
@@ -2058,7 +702,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Sandbox.Transactions.html",
-          "hash": "3lxZuyGOo9q/KFrPaPtMKg=="
+          "hash": "tDiLwC2NcnKDCpMgOLAf/g=="
         }
       },
       "is_incremental": false,
@@ -2070,7 +714,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Sandbox.TreeStructureExperiments.html",
-          "hash": "i/BpePuxoP0nVCj1rzpCMQ=="
+          "hash": "n+aN7rqKmhHLlwGTKb4Msw=="
         }
       },
       "is_incremental": false,
@@ -2082,7 +726,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Sandbox.Walker1.html",
-          "hash": "glGmmjNEkHurj09YJs7JZw=="
+          "hash": "1CYHHm17mIhsnEyQUiEuUQ=="
         }
       },
       "is_incremental": false,
@@ -2094,7 +738,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Sandbox.Walker2.html",
-          "hash": "oTmHHDca260YyVzdaOWEsQ=="
+          "hash": "NjOR364hUF+2R7z8J7Y6SA=="
         }
       },
       "is_incremental": false,
@@ -2106,7 +750,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Sandbox.Walker3.html",
-          "hash": "ljlspEKR+alnLaBQLTO1xw=="
+          "hash": "sYRJ2D31wRvQigN3tijdXg=="
         }
       },
       "is_incremental": false,
@@ -2118,7 +762,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Sandbox.Walker4.html",
-          "hash": "HcCsn+g65fAER1zR3Vo+EA=="
+          "hash": "H2Z+B3N+TlqbK4KW9lvYpg=="
         }
       },
       "is_incremental": false,
@@ -2130,7 +774,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Sandbox.Zadacha.html",
-          "hash": "ksx+6tp/fH+grxMfdS/t5A=="
+          "hash": "LieroPGW3ya9SSeOMfgcJg=="
         }
       },
       "is_incremental": false,
@@ -2142,403 +786,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Sandbox.html",
-          "hash": "ZkKeqVoX+9+myb07BNOauw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Tests.Collections.StringTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Tests.Collections.StringTests.html",
-          "hash": "37B3nmPUJ+ysQg/T9nAP0Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Tests.Collections.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Tests.Collections.html",
-          "hash": "qQaBTZHSZS7lpptG7awQGQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Tests.ComparisonTests.UInt64Comparer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Tests.ComparisonTests.UInt64Comparer.html",
-          "hash": "qXoYzHqGMy13hM8PqTCkpw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Tests.ComparisonTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Tests.ComparisonTests.html",
-          "hash": "p6dR4bGxON01Mi2DaPq1Tw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Tests.Data.Core.BitStringTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Tests.Data.Core.BitStringTests.html",
-          "hash": "lGhcb9ybM6bSqF5mqWMFSw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Tests.Data.Core.DoubletLinksTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Tests.Data.Core.DoubletLinksTests.html",
-          "hash": "aRKwDiBVzxu+OtegDDrFxQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Tests.Data.Core.LinksTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Tests.Data.Core.LinksTests.html",
-          "hash": "eheoYdd6qT8+D99Do21uKQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Tests.Data.Core.OptimalVariantSequenceTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Tests.Data.Core.OptimalVariantSequenceTests.html",
-          "hash": "90f2z/xluq350wKJ1EUBDg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Tests.Data.Core.ReadSequenceTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Tests.Data.Core.ReadSequenceTests.html",
-          "hash": "QUglKcRrtFfEk/8YbNMFdg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Tests.Data.Core.ResizableDirectMemoryLinksTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Tests.Data.Core.ResizableDirectMemoryLinksTests.html",
-          "hash": "Da+obshSsAiwpuNOHY55yA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Tests.Data.Core.SequencesTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Tests.Data.Core.SequencesTests.html",
-          "hash": "QieoQaLLBu7LO7T143GNXw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Tests.Data.Core.TempLinksTestScope.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Tests.Data.Core.TempLinksTestScope.html",
-          "hash": "JwgiGy8JelBSIj/ks9AYAw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Tests.Data.Core.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Tests.Data.Core.html",
-          "hash": "XbRJFZjkBQr+hRjdGWidqw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Tests.EqualityTests.UInt64EqualityComparer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Tests.EqualityTests.UInt64EqualityComparer.html",
-          "hash": "MYjc42cVOH3sG2tsWY+cFw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Tests.EqualityTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Tests.EqualityTests.html",
-          "hash": "S/RsVjlvOhx+TdGEDxq+Aw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Tests.Exceptions.EnsuranceTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Tests.Exceptions.EnsuranceTests.html",
-          "hash": "ZJG3/QifJlUubps8eCR6XA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Tests.Exceptions.Ignore.EnsureAlwaysExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Tests.Exceptions.Ignore.EnsureAlwaysExtensions.html",
-          "hash": "9Flf154zOF/2/OZdvytpvw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Tests.Exceptions.Ignore.IgnoredEnsuranceTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Tests.Exceptions.Ignore.IgnoredEnsuranceTests.html",
-          "hash": "FB9L3+4qLzp1PlUHcxIG4g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Tests.Exceptions.Ignore.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Tests.Exceptions.Ignore.html",
-          "hash": "Zmoi1fbF7yptTqvz8sS89w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Tests.Exceptions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Tests.Exceptions.html",
-          "hash": "DqZAwMfDm3Ac7VRs3FacJA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Tests.Helpers.ArithmeticExtensionsTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Tests.Helpers.ArithmeticExtensionsTests.html",
-          "hash": "B524M8nfyXgZBPGc0eHyww=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Tests.Helpers.ArithmeticHelpersTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Tests.Helpers.ArithmeticHelpersTests.html",
-          "hash": "e6LXgSmkf1vTNNnuoDjFyg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Tests.Helpers.BitwiseHelpersTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Tests.Helpers.BitwiseHelpersTests.html",
-          "hash": "O40ko2vHlSKCYycToMrEFQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Tests.Helpers.CharsSegmentTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Tests.Helpers.CharsSegmentTests.html",
-          "hash": "W4ArtPLlvM/V6eU8B8koKg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Tests.Helpers.IntPtrExtensionsTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Tests.Helpers.IntPtrExtensionsTests.html",
-          "hash": "ppG/3J8pb/RnbrOUPTK2nw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Tests.Helpers.MathExtensionsTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Tests.Helpers.MathExtensionsTests.html",
-          "hash": "ncwPd205DgV32VTDnLXi4Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Tests.Helpers.MathHelpersTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Tests.Helpers.MathHelpersTests.html",
-          "hash": "Vi1Lt4dWu+HfjTALHlWocw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Tests.Helpers.ReflectionTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Tests.Helpers.ReflectionTests.html",
-          "hash": "8l6dlsVIeLCJqw+YpTExcg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Tests.Helpers.ScopeTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Tests.Helpers.ScopeTests.html",
-          "hash": "WymIDfI2aXPK/WJ1yHHR9g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Tests.Helpers.SerializationHelpersTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Tests.Helpers.SerializationHelpersTests.html",
-          "hash": "BLiWQXNsVHN02Y0Ghgl3jQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Tests.Helpers.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Tests.Helpers.html",
-          "hash": "FALYq8dqPf7HkiccaSlfLg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Tests.SystemTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Tests.SystemTests.html",
-          "hash": "JPj6MER7Erz765Ktck1FRg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Tests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Tests.html",
-          "hash": "4fLNi4CudZawlhHLQtj9GA=="
+          "hash": "4ukK80wj77dfIXoVzJCNsQ=="
         }
       },
       "is_incremental": false,
@@ -2550,7 +798,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "/DTl3hEMSUThk332eS5wTQ=="
+          "hash": "GGSJpFsHvKjcSVKYUBEM3w=="
         }
       },
       "is_incremental": false,
@@ -2583,16 +831,16 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 207,
-          "skipped_file_count": 0
-        },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 4,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 61,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

@@ -8,7 +8,7 @@
     <title>LinksPlatform (&#1088;&#1091;&#1089;&#1089;&#1082;&#1072;&#1103; &#1074;&#1077;&#1088;&#1089;&#1080;&#1103;) | LinksPlatform </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="LinksPlatform (&#1088;&#1091;&#1089;&#1089;&#1082;&#1072;&#1103; &#1074;&#1077;&#1088;&#1089;&#1080;&#1103;) | LinksPlatform ">
-    <meta name="generator" content="docfx 2.43.2.0">
+    <meta name="generator" content="docfx 2.44.0.0">
     
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="styles/docfx.vendor.css">
@@ -71,11 +71,35 @@
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
 
-<p><a href="https://travis-ci.org/Konard/LinksPlatform"><img src="https://travis-ci.org/Konard/LinksPlatform.svg?branch=master" alt="Build Status"></a></p>
+<p><a href="https://travis-ci.org/Konard/LinksPlatform"><img src="https://travis-ci.org/Konard/LinksPlatform.svg?branch=master" alt="Build status" title="Build status"></a></p>
+<p><a href="https://patreon.com/konard"><img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.herokuapp.com%2Fkonard%2Fpledgesssss&amp;style=for-the-badge" alt="Support development" title="Support development"></a></p>
 <h1 id="linksplatform-русская-версияhttpsgithubcomkonardlinksplatformblobmasterreadmerumd">LinksPlatform (<a href="https://github.com/Konard/LinksPlatform/blob/master/README.ru.md">русская версия</a>)</h1>
 <p><a href="http://linksplatform.github.io/Documentation">Documentation</a></p>
 <p><a href="https://github.com/Konard/LinksPlatform/wiki/How-it-all-began"><img src="https://raw.githubusercontent.com/LinksPlatform/Documentation/master/doc/Intro/intro-animation-500.gif" alt="introduction" title="introduction"></a></p>
 <p><a href="https://github.com/Konard/LinksPlatform/wiki/How-it-all-began">Graphical introduction</a></p>
+<h2 id="examplehttpsgithubcomlinksplatformhelloworlddoubletsdotnet"><a href="https://github.com/linksplatform/HelloWorld.Doublets.DotNet">Example</a></h2>
+<pre><code class="lang-C#">using System;
+using Platform.Data.Doublets;
+using Platform.Data.Doublets.ResizableDirectMemory;
+
+namespace HelloWorld.Doublets.DotNet
+{
+  class Program
+  {
+    static void Main()
+    {
+      using (var links = new ResizableDirectMemoryLinks&lt;uint&gt;(&quot;db.links&quot;))
+      {
+        var link = links.Create();
+        link = links.Update(link, link, link);
+        Console.WriteLine(&quot;Hello World!&quot;);
+        Console.WriteLine($&quot;This is my first link: ({link}:{links.GetSource(link)}-&gt;{links.GetTarget(link)}).&quot;);
+      }
+    }
+  }
+}
+</code></pre><h2 id="sqlite-vs-doubletshttpsgithubcomlinksplatformcomparisonssqlitevsdoublets"><a href="https://github.com/linksplatform/Comparisons.SQLiteVSDoublets">SQLite vs Doublets</a></h2>
+<h2 id="description">Description</h2>
 <p>Inspired by the work of Simon Williams (<a href="https://en.wikipedia.org/w/index.php?title=Associative_model_of_data&amp;oldid=888223180">The Associative Model of Data</a>), <a href="http://www.sentences.com/docs/other_docs/AMD.pdf">book</a>, <a href="http://iacis.org/iis/2009/P2009_1301.pdf">whitepaper</a>.</p>
 <p>Comparison of models:</p>
 <p><img src="https://github.com/LinksPlatform/Documentation/raw/master/doc/ModelsComparison/relational_model_vs_associative_model_vs_links.png" alt="Comparison of models"></p>
@@ -115,7 +139,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Konard/LinksPlatform/blob/4bf0c0fa1c9796b867c193b990fb250f86ab49b1/README.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Konard/LinksPlatform/blob/a5a137d8b34be9708fc79722eda1da51dc89f315/README.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
