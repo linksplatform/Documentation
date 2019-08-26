@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "QDfrOH2UjcSqWbH6okeoVw=="
+          "hash": "K/fOo0heSeu+iPTtUreizA=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "README.ru.html",
-          "hash": "aZJNeUXoQrS7CCDMY4aI3Q=="
+          "hash": "vfOiUjmvwnAPtPadcamFpQ=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/articles/links-theory.html",
-          "hash": "LazpSapeF2O0qbDoTtBfOQ=="
+          "hash": "u76PEJcV6BWgWvkecoVxOw=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "8VrTgfPWdQXYqaC75H0PKA=="
+          "hash": "zrLvSqhMp1TMoRd+VlaT0w=="
         }
       },
       "is_incremental": false,
@@ -398,11 +398,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Examples.WikipediaIndexer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Examples.WikipediaIndexer-1.html",
+          "hash": "CrVB3R0TFfXnttE6kEoTXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/Platform.Examples.WikipediaLinksStorage.yml",
       "output": {
         ".html": {
           "relative_path": "api/Platform.Examples.WikipediaLinksStorage.html",
-          "hash": "mifGNrixctgtH29ojeqOHQ=="
+          "hash": "zYhxgIeZLeoAYXDdsXTaDg=="
         }
       },
       "is_incremental": false,
@@ -450,7 +462,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Examples.html",
-          "hash": "g6Mw9LnM7h3alUE1LNEoPA=="
+          "hash": "P047aUMm5epgYYUe+UXpuQ=="
         }
       },
       "is_incremental": false,
@@ -798,7 +810,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "GGSJpFsHvKjcSVKYUBEM3w=="
+          "hash": "i2i9TdK496SmJi2kxFXbtA=="
         }
       },
       "is_incremental": false,
@@ -831,16 +843,16 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 62,
+          "skipped_file_count": 0
+        },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 4,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 61,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

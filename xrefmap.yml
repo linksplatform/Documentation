@@ -933,18 +933,150 @@ references:
   isSpec: "True"
   fullName: Platform.Examples.WikipediaImporterCLI.Run
   nameWithType: WikipediaImporterCLI.Run
+- uid: Platform.Examples.WikipediaIndexer`1
+  name: WikipediaIndexer<TLink>
+  href: api/Platform.Examples.WikipediaIndexer-1.html
+  commentId: T:Platform.Examples.WikipediaIndexer`1
+  name.vb: WikipediaIndexer(Of TLink)
+  fullName: Platform.Examples.WikipediaIndexer<TLink>
+  fullName.vb: Platform.Examples.WikipediaIndexer(Of TLink)
+  nameWithType: WikipediaIndexer<TLink>
+  nameWithType.vb: WikipediaIndexer(Of TLink)
+- uid: Platform.Examples.WikipediaIndexer`1.#ctor(ILinks{`0})
+  name: WikipediaIndexer(ILinks<TLink>)
+  href: api/Platform.Examples.WikipediaIndexer-1.html#Platform_Examples_WikipediaIndexer_1__ctor_ILinks__0__
+  commentId: M:Platform.Examples.WikipediaIndexer`1.#ctor(ILinks{`0})
+  name.vb: WikipediaIndexer(ILinks(Of TLink))
+  fullName: Platform.Examples.WikipediaIndexer<TLink>.WikipediaIndexer(ILinks<TLink>)
+  fullName.vb: Platform.Examples.WikipediaIndexer(Of TLink).WikipediaIndexer(ILinks(Of TLink))
+  nameWithType: WikipediaIndexer<TLink>.WikipediaIndexer(ILinks<TLink>)
+  nameWithType.vb: WikipediaIndexer(Of TLink).WikipediaIndexer(ILinks(Of TLink))
+- uid: Platform.Examples.WikipediaIndexer`1.#ctor*
+  name: WikipediaIndexer
+  href: api/Platform.Examples.WikipediaIndexer-1.html#Platform_Examples_WikipediaIndexer_1__ctor_
+  commentId: Overload:Platform.Examples.WikipediaIndexer`1.#ctor
+  isSpec: "True"
+  fullName: Platform.Examples.WikipediaIndexer<TLink>.WikipediaIndexer
+  fullName.vb: Platform.Examples.WikipediaIndexer(Of TLink).WikipediaIndexer
+  nameWithType: WikipediaIndexer<TLink>.WikipediaIndexer
+  nameWithType.vb: WikipediaIndexer(Of TLink).WikipediaIndexer
+- uid: Platform.Examples.WikipediaIndexer`1.AttachElementToParent(`0,`0)
+  name: AttachElementToParent(TLink, TLink)
+  href: api/Platform.Examples.WikipediaIndexer-1.html#Platform_Examples_WikipediaIndexer_1_AttachElementToParent__0__0_
+  commentId: M:Platform.Examples.WikipediaIndexer`1.AttachElementToParent(`0,`0)
+  fullName: Platform.Examples.WikipediaIndexer<TLink>.AttachElementToParent(TLink, TLink)
+  fullName.vb: Platform.Examples.WikipediaIndexer(Of TLink).AttachElementToParent(TLink, TLink)
+  nameWithType: WikipediaIndexer<TLink>.AttachElementToParent(TLink, TLink)
+  nameWithType.vb: WikipediaIndexer(Of TLink).AttachElementToParent(TLink, TLink)
+- uid: Platform.Examples.WikipediaIndexer`1.AttachElementToParent*
+  name: AttachElementToParent
+  href: api/Platform.Examples.WikipediaIndexer-1.html#Platform_Examples_WikipediaIndexer_1_AttachElementToParent_
+  commentId: Overload:Platform.Examples.WikipediaIndexer`1.AttachElementToParent
+  isSpec: "True"
+  fullName: Platform.Examples.WikipediaIndexer<TLink>.AttachElementToParent
+  fullName.vb: Platform.Examples.WikipediaIndexer(Of TLink).AttachElementToParent
+  nameWithType: WikipediaIndexer<TLink>.AttachElementToParent
+  nameWithType.vb: WikipediaIndexer(Of TLink).AttachElementToParent
+- uid: Platform.Examples.WikipediaIndexer`1.Cache
+  name: Cache
+  href: api/Platform.Examples.WikipediaIndexer-1.html#Platform_Examples_WikipediaIndexer_1_Cache
+  commentId: P:Platform.Examples.WikipediaIndexer`1.Cache
+  fullName: Platform.Examples.WikipediaIndexer<TLink>.Cache
+  fullName.vb: Platform.Examples.WikipediaIndexer(Of TLink).Cache
+  nameWithType: WikipediaIndexer<TLink>.Cache
+  nameWithType.vb: WikipediaIndexer(Of TLink).Cache
+- uid: Platform.Examples.WikipediaIndexer`1.Cache*
+  name: Cache
+  href: api/Platform.Examples.WikipediaIndexer-1.html#Platform_Examples_WikipediaIndexer_1_Cache_
+  commentId: Overload:Platform.Examples.WikipediaIndexer`1.Cache
+  isSpec: "True"
+  fullName: Platform.Examples.WikipediaIndexer<TLink>.Cache
+  fullName.vb: Platform.Examples.WikipediaIndexer(Of TLink).Cache
+  nameWithType: WikipediaIndexer<TLink>.Cache
+  nameWithType.vb: WikipediaIndexer(Of TLink).Cache
+- uid: Platform.Examples.WikipediaIndexer`1.CreateDocument(System.String)
+  name: CreateDocument(String)
+  href: api/Platform.Examples.WikipediaIndexer-1.html#Platform_Examples_WikipediaIndexer_1_CreateDocument_System_String_
+  commentId: M:Platform.Examples.WikipediaIndexer`1.CreateDocument(System.String)
+  fullName: Platform.Examples.WikipediaIndexer<TLink>.CreateDocument(System.String)
+  fullName.vb: Platform.Examples.WikipediaIndexer(Of TLink).CreateDocument(System.String)
+  nameWithType: WikipediaIndexer<TLink>.CreateDocument(String)
+  nameWithType.vb: WikipediaIndexer(Of TLink).CreateDocument(String)
+- uid: Platform.Examples.WikipediaIndexer`1.CreateDocument*
+  name: CreateDocument
+  href: api/Platform.Examples.WikipediaIndexer-1.html#Platform_Examples_WikipediaIndexer_1_CreateDocument_
+  commentId: Overload:Platform.Examples.WikipediaIndexer`1.CreateDocument
+  isSpec: "True"
+  fullName: Platform.Examples.WikipediaIndexer<TLink>.CreateDocument
+  fullName.vb: Platform.Examples.WikipediaIndexer(Of TLink).CreateDocument
+  nameWithType: WikipediaIndexer<TLink>.CreateDocument
+  nameWithType.vb: WikipediaIndexer(Of TLink).CreateDocument
+- uid: Platform.Examples.WikipediaIndexer`1.CreateElement(System.String)
+  name: CreateElement(String)
+  href: api/Platform.Examples.WikipediaIndexer-1.html#Platform_Examples_WikipediaIndexer_1_CreateElement_System_String_
+  commentId: M:Platform.Examples.WikipediaIndexer`1.CreateElement(System.String)
+  fullName: Platform.Examples.WikipediaIndexer<TLink>.CreateElement(System.String)
+  fullName.vb: Platform.Examples.WikipediaIndexer(Of TLink).CreateElement(System.String)
+  nameWithType: WikipediaIndexer<TLink>.CreateElement(String)
+  nameWithType.vb: WikipediaIndexer(Of TLink).CreateElement(String)
+- uid: Platform.Examples.WikipediaIndexer`1.CreateElement*
+  name: CreateElement
+  href: api/Platform.Examples.WikipediaIndexer-1.html#Platform_Examples_WikipediaIndexer_1_CreateElement_
+  commentId: Overload:Platform.Examples.WikipediaIndexer`1.CreateElement
+  isSpec: "True"
+  fullName: Platform.Examples.WikipediaIndexer<TLink>.CreateElement
+  fullName.vb: Platform.Examples.WikipediaIndexer(Of TLink).CreateElement
+  nameWithType: WikipediaIndexer<TLink>.CreateElement
+  nameWithType.vb: WikipediaIndexer(Of TLink).CreateElement
+- uid: Platform.Examples.WikipediaIndexer`1.CreateTextElement(System.String)
+  name: CreateTextElement(String)
+  href: api/Platform.Examples.WikipediaIndexer-1.html#Platform_Examples_WikipediaIndexer_1_CreateTextElement_System_String_
+  commentId: M:Platform.Examples.WikipediaIndexer`1.CreateTextElement(System.String)
+  fullName: Platform.Examples.WikipediaIndexer<TLink>.CreateTextElement(System.String)
+  fullName.vb: Platform.Examples.WikipediaIndexer(Of TLink).CreateTextElement(System.String)
+  nameWithType: WikipediaIndexer<TLink>.CreateTextElement(String)
+  nameWithType.vb: WikipediaIndexer(Of TLink).CreateTextElement(String)
+- uid: Platform.Examples.WikipediaIndexer`1.CreateTextElement*
+  name: CreateTextElement
+  href: api/Platform.Examples.WikipediaIndexer-1.html#Platform_Examples_WikipediaIndexer_1_CreateTextElement_
+  commentId: Overload:Platform.Examples.WikipediaIndexer`1.CreateTextElement
+  isSpec: "True"
+  fullName: Platform.Examples.WikipediaIndexer<TLink>.CreateTextElement
+  fullName.vb: Platform.Examples.WikipediaIndexer(Of TLink).CreateTextElement
+  nameWithType: WikipediaIndexer<TLink>.CreateTextElement
+  nameWithType.vb: WikipediaIndexer(Of TLink).CreateTextElement
+- uid: Platform.Examples.WikipediaIndexer`1.ToElements(System.String)
+  name: ToElements(String)
+  href: api/Platform.Examples.WikipediaIndexer-1.html#Platform_Examples_WikipediaIndexer_1_ToElements_System_String_
+  commentId: M:Platform.Examples.WikipediaIndexer`1.ToElements(System.String)
+  fullName: Platform.Examples.WikipediaIndexer<TLink>.ToElements(System.String)
+  fullName.vb: Platform.Examples.WikipediaIndexer(Of TLink).ToElements(System.String)
+  nameWithType: WikipediaIndexer<TLink>.ToElements(String)
+  nameWithType.vb: WikipediaIndexer(Of TLink).ToElements(String)
+- uid: Platform.Examples.WikipediaIndexer`1.ToElements*
+  name: ToElements
+  href: api/Platform.Examples.WikipediaIndexer-1.html#Platform_Examples_WikipediaIndexer_1_ToElements_
+  commentId: Overload:Platform.Examples.WikipediaIndexer`1.ToElements
+  isSpec: "True"
+  fullName: Platform.Examples.WikipediaIndexer<TLink>.ToElements
+  fullName.vb: Platform.Examples.WikipediaIndexer(Of TLink).ToElements
+  nameWithType: WikipediaIndexer<TLink>.ToElements
+  nameWithType.vb: WikipediaIndexer(Of TLink).ToElements
 - uid: Platform.Examples.WikipediaLinksStorage
   name: WikipediaLinksStorage
   href: api/Platform.Examples.WikipediaLinksStorage.html
   commentId: T:Platform.Examples.WikipediaLinksStorage
   fullName: Platform.Examples.WikipediaLinksStorage
   nameWithType: WikipediaLinksStorage
-- uid: Platform.Examples.WikipediaLinksStorage.#ctor(Sequences)
-  name: WikipediaLinksStorage(Sequences)
-  href: api/Platform.Examples.WikipediaLinksStorage.html#Platform_Examples_WikipediaLinksStorage__ctor_Sequences_
-  commentId: M:Platform.Examples.WikipediaLinksStorage.#ctor(Sequences)
-  fullName: Platform.Examples.WikipediaLinksStorage.WikipediaLinksStorage(Sequences)
-  nameWithType: WikipediaLinksStorage.WikipediaLinksStorage(Sequences)
+- uid: Platform.Examples.WikipediaLinksStorage.#ctor(ILinks{System.UInt64},LinkFrequenciesCache{System.UInt64})
+  name: WikipediaLinksStorage(ILinks<UInt64>, LinkFrequenciesCache<UInt64>)
+  href: api/Platform.Examples.WikipediaLinksStorage.html#Platform_Examples_WikipediaLinksStorage__ctor_ILinks_System_UInt64__LinkFrequenciesCache_System_UInt64__
+  commentId: M:Platform.Examples.WikipediaLinksStorage.#ctor(ILinks{System.UInt64},LinkFrequenciesCache{System.UInt64})
+  name.vb: WikipediaLinksStorage(ILinks(Of UInt64), LinkFrequenciesCache(Of UInt64))
+  fullName: Platform.Examples.WikipediaLinksStorage.WikipediaLinksStorage(ILinks<System.UInt64>, LinkFrequenciesCache<System.UInt64>)
+  fullName.vb: Platform.Examples.WikipediaLinksStorage.WikipediaLinksStorage(ILinks(Of System.UInt64), LinkFrequenciesCache(Of System.UInt64))
+  nameWithType: WikipediaLinksStorage.WikipediaLinksStorage(ILinks<UInt64>, LinkFrequenciesCache<UInt64>)
+  nameWithType.vb: WikipediaLinksStorage.WikipediaLinksStorage(ILinks(Of UInt64), LinkFrequenciesCache(Of UInt64))
 - uid: Platform.Examples.WikipediaLinksStorage.#ctor*
   name: WikipediaLinksStorage
   href: api/Platform.Examples.WikipediaLinksStorage.html#Platform_Examples_WikipediaLinksStorage__ctor_
