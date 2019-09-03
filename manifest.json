@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "QNvNcZGuLTM1FX6NCgHk3A=="
+          "hash": "D2Fzcl1EGqVm9HQ61cmbKQ=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "README.ru.html",
-          "hash": "OFsof+EHDY5oXLyAOREl9g=="
+          "hash": "KaBofrJtAlyP0W+7BpusQA=="
         }
       },
       "is_incremental": false,
@@ -42,37 +42,31 @@
       "output": {
         ".html": {
           "relative_path": "doc/articles/links-theory.html",
-          "hash": "CqYvCDGZN/n3x3dgkt/Scg=="
+          "hash": "fo3x184tbieJDpgXv/L0mA=="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "FytqfWt3UvylXe7cQHEaNw=="
+          "hash": "F0oDRXihlc69u0Y6x+nZuw=="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "index.ru.md",
       "output": {
         ".html": {
           "relative_path": "index.ru.html",
-          "hash": "QwDCTw7wHSZRgECrD3ZDmQ=="
+          "hash": "CdGU19K3QZhwfgppKHluLw=="
         }
       },
       "is_incremental": false,
@@ -861,10 +855,11 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "ConceptualDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 5,
+          "total_file_count": 0,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
@@ -873,11 +868,10 @@
           "total_file_count": 62,
           "skipped_file_count": 0
         },
-        "TocDocumentProcessor": {
+        "ConceptualDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 0,
+          "total_file_count": 5,
           "skipped_file_count": 0
         }
       }
