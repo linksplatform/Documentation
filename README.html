@@ -79,6 +79,7 @@
 <p><a href="https://github.com/Konard/LinksPlatform/wiki/How-it-all-began">Graphical introduction</a></p>
 <h2 id="examplehttpsgithubcomlinksplatformhelloworlddoubletsdotnet"><a href="https://github.com/linksplatform/HelloWorld.Doublets.DotNet">Example</a></h2>
 <pre><code class="lang-C#">using System;
+using Platform.Data;
 using Platform.Data.Doublets;
 using Platform.Data.Doublets.ResizableDirectMemory;
 
@@ -94,6 +95,9 @@ namespace HelloWorld.Doublets.DotNet
         link = links.Update(link, link, link);
         Console.WriteLine(&quot;Hello World!&quot;);
         Console.WriteLine($&quot;This is my first link: ({link}:{links.GetSource(link)}-&gt;{links.GetTarget(link)}).&quot;);
+        Console.WriteLine($&quot;Total links in the storage: {links.Count()}.&quot;);
+        link = links.Update(link, default, default);
+        links.Delete(link);
       }
     }
   }
@@ -139,7 +143,7 @@ namespace HelloWorld.Doublets.DotNet
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Konard/LinksPlatform/blob/5355683459e047ef30bfea624075b8ee753f931f/README.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Konard/LinksPlatform/blob/cc587d0bff1d9ac96fa42adc2cb05a9ea2e7dc4e/README.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
