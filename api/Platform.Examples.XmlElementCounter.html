@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class WikipediaPagesCounterCLI
+    <title>Class XmlElementCounter
    | LinksPlatform </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class WikipediaPagesCounterCLI
+    <meta name="title" content="Class XmlElementCounter
    | LinksPlatform ">
     <meta name="generator" content="docfx 2.45.1.0">
     
@@ -78,21 +78,17 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Platform.Examples.WikipediaPagesCounterCLI">
+            <article class="content wrap" id="_content" data-uid="Platform.Examples.XmlElementCounter">
   
   
-  <h1 id="Platform_Examples_WikipediaPagesCounterCLI" data-uid="Platform.Examples.WikipediaPagesCounterCLI" class="text-break">Class WikipediaPagesCounterCLI
+  <h1 id="Platform_Examples_XmlElementCounter" data-uid="Platform.Examples.XmlElementCounter" class="text-break">Class XmlElementCounter
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">WikipediaPagesCounterCLI</span></div>
-  </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="Platform.Examples.ICommandLineInterface.html">ICommandLineInterface</a></div>
+    <div class="level1"><span class="xref">XmlElementCounter</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -120,21 +116,33 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Platform.Examples.html">Platform.Examples</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Platform_Examples_WikipediaPagesCounterCLI_syntax">Syntax</h5>
+  <h5 id="Platform_Examples_XmlElementCounter_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class WikipediaPagesCounterCLI : ICommandLineInterface</code></pre>
+    <pre><code class="lang-csharp hljs">public class XmlElementCounter</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Platform_Examples_XmlElementCounter__ctor_" data-uid="Platform.Examples.XmlElementCounter.#ctor*"></a>
+  <h4 id="Platform_Examples_XmlElementCounter__ctor" data-uid="Platform.Examples.XmlElementCounter.#ctor">XmlElementCounter()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public XmlElementCounter()</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Platform_Examples_WikipediaPagesCounterCLI_Run_" data-uid="Platform.Examples.WikipediaPagesCounterCLI.Run*"></a>
-  <h4 id="Platform_Examples_WikipediaPagesCounterCLI_Run_System_String___" data-uid="Platform.Examples.WikipediaPagesCounterCLI.Run(System.String[])">Run(String[])</h4>
+  <a id="Platform_Examples_XmlElementCounter_Count_" data-uid="Platform.Examples.XmlElementCounter.Count*"></a>
+  <h4 id="Platform_Examples_XmlElementCounter_Count_System_String_CancellationToken_" data-uid="Platform.Examples.XmlElementCounter.Count(System.String,CancellationToken)">Count(String, CancellationToken)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Run(params string[] args)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task Count(string file, CancellationToken token)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -147,16 +155,32 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span>[]</td>
-        <td><span class="parametername">args</span></td>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">file</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">token</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="Platform.Examples.ICommandLineInterface.html">ICommandLineInterface</a>
-  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class WikipediaPagesCounter
+    <title>Interface IXmlStorage&lt;TLink&gt;
    | LinksPlatform </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class WikipediaPagesCounter
+    <meta name="title" content="Interface IXmlStorage&lt;TLink&gt;
    | LinksPlatform ">
     <meta name="generator" content="docfx 2.45.1.0">
     
@@ -78,71 +78,77 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Platform.Examples.WikipediaPagesCounter">
+            <article class="content wrap" id="_content" data-uid="Platform.Examples.IXmlStorage`1">
   
   
-  <h1 id="Platform_Examples_WikipediaPagesCounter" data-uid="Platform.Examples.WikipediaPagesCounter" class="text-break">Class WikipediaPagesCounter
+  <h1 id="Platform_Examples_IXmlStorage_1" data-uid="Platform.Examples.IXmlStorage`1" class="text-break">Interface IXmlStorage&lt;TLink&gt;
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">WikipediaPagesCounter</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Platform.Examples.html">Platform.Examples</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Platform_Examples_WikipediaPagesCounter_syntax">Syntax</h5>
+  <h5 id="Platform_Examples_IXmlStorage_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class WikipediaPagesCounter</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IXmlStorage&lt;TLink&gt;</code></pre>
   </div>
-  <h3 id="constructors">Constructors
-  </h3>
-  
-  
-  <a id="Platform_Examples_WikipediaPagesCounter__ctor_" data-uid="Platform.Examples.WikipediaPagesCounter.#ctor*"></a>
-  <h4 id="Platform_Examples_WikipediaPagesCounter__ctor" data-uid="Platform.Examples.WikipediaPagesCounter.#ctor">WikipediaPagesCounter()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public WikipediaPagesCounter()</code></pre>
-  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TLink</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Platform_Examples_WikipediaPagesCounter_Count_" data-uid="Platform.Examples.WikipediaPagesCounter.Count*"></a>
-  <h4 id="Platform_Examples_WikipediaPagesCounter_Count_System_String_CancellationToken_" data-uid="Platform.Examples.WikipediaPagesCounter.Count(System.String,CancellationToken)">Count(String, CancellationToken)</h4>
+  <a id="Platform_Examples_IXmlStorage_1_AttachElementToParent_" data-uid="Platform.Examples.IXmlStorage`1.AttachElementToParent*"></a>
+  <h4 id="Platform_Examples_IXmlStorage_1_AttachElementToParent__0__0_" data-uid="Platform.Examples.IXmlStorage`1.AttachElementToParent(`0,`0)">AttachElementToParent(TLink, TLink)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task Count(string file, CancellationToken token)</code></pre>
+    <pre><code class="lang-csharp hljs">void AttachElementToParent(TLink elementToAttach, TLink parent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TLink</span></td>
+        <td><span class="parametername">elementToAttach</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">TLink</span></td>
+        <td><span class="parametername">parent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Platform_Examples_IXmlStorage_1_CreateDocument_" data-uid="Platform.Examples.IXmlStorage`1.CreateDocument*"></a>
+  <h4 id="Platform_Examples_IXmlStorage_1_CreateDocument_System_String_" data-uid="Platform.Examples.IXmlStorage`1.CreateDocument(System.String)">CreateDocument(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TLink CreateDocument(string name)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -156,12 +162,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">file</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">CancellationToken</span></td>
-        <td><span class="parametername">token</span></td>
+        <td><span class="parametername">name</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -176,7 +177,91 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Task</span></td>
+        <td><span class="xref">TLink</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Platform_Examples_IXmlStorage_1_CreateElement_" data-uid="Platform.Examples.IXmlStorage`1.CreateElement*"></a>
+  <h4 id="Platform_Examples_IXmlStorage_1_CreateElement_System_String_" data-uid="Platform.Examples.IXmlStorage`1.CreateElement(System.String)">CreateElement(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TLink CreateElement(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TLink</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Platform_Examples_IXmlStorage_1_CreateTextElement_" data-uid="Platform.Examples.IXmlStorage`1.CreateTextElement*"></a>
+  <h4 id="Platform_Examples_IXmlStorage_1_CreateTextElement_System_String_" data-uid="Platform.Examples.IXmlStorage`1.CreateTextElement(System.String)">CreateTextElement(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TLink CreateTextElement(string content)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">content</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TLink</span></td>
         <td></td>
       </tr>
     </tbody>

@@ -713,83 +713,178 @@ references:
   isSpec: "True"
   fullName: Platform.Examples.ICommandLineInterface.Run
   nameWithType: ICommandLineInterface.Run
-- uid: Platform.Examples.IWikipediaStorage`1
-  name: IWikipediaStorage<TLink>
-  href: api/Platform.Examples.IWikipediaStorage-1.html
-  commentId: T:Platform.Examples.IWikipediaStorage`1
-  name.vb: IWikipediaStorage(Of TLink)
-  fullName: Platform.Examples.IWikipediaStorage<TLink>
-  fullName.vb: Platform.Examples.IWikipediaStorage(Of TLink)
-  nameWithType: IWikipediaStorage<TLink>
-  nameWithType.vb: IWikipediaStorage(Of TLink)
-- uid: Platform.Examples.IWikipediaStorage`1.AttachElementToParent(`0,`0)
+- uid: Platform.Examples.IXmlStorage`1
+  name: IXmlStorage<TLink>
+  href: api/Platform.Examples.IXmlStorage-1.html
+  commentId: T:Platform.Examples.IXmlStorage`1
+  name.vb: IXmlStorage(Of TLink)
+  fullName: Platform.Examples.IXmlStorage<TLink>
+  fullName.vb: Platform.Examples.IXmlStorage(Of TLink)
+  nameWithType: IXmlStorage<TLink>
+  nameWithType.vb: IXmlStorage(Of TLink)
+- uid: Platform.Examples.IXmlStorage`1.AttachElementToParent(`0,`0)
   name: AttachElementToParent(TLink, TLink)
-  href: api/Platform.Examples.IWikipediaStorage-1.html#Platform_Examples_IWikipediaStorage_1_AttachElementToParent__0__0_
-  commentId: M:Platform.Examples.IWikipediaStorage`1.AttachElementToParent(`0,`0)
-  fullName: Platform.Examples.IWikipediaStorage<TLink>.AttachElementToParent(TLink, TLink)
-  fullName.vb: Platform.Examples.IWikipediaStorage(Of TLink).AttachElementToParent(TLink, TLink)
-  nameWithType: IWikipediaStorage<TLink>.AttachElementToParent(TLink, TLink)
-  nameWithType.vb: IWikipediaStorage(Of TLink).AttachElementToParent(TLink, TLink)
-- uid: Platform.Examples.IWikipediaStorage`1.AttachElementToParent*
+  href: api/Platform.Examples.IXmlStorage-1.html#Platform_Examples_IXmlStorage_1_AttachElementToParent__0__0_
+  commentId: M:Platform.Examples.IXmlStorage`1.AttachElementToParent(`0,`0)
+  fullName: Platform.Examples.IXmlStorage<TLink>.AttachElementToParent(TLink, TLink)
+  fullName.vb: Platform.Examples.IXmlStorage(Of TLink).AttachElementToParent(TLink, TLink)
+  nameWithType: IXmlStorage<TLink>.AttachElementToParent(TLink, TLink)
+  nameWithType.vb: IXmlStorage(Of TLink).AttachElementToParent(TLink, TLink)
+- uid: Platform.Examples.IXmlStorage`1.AttachElementToParent*
   name: AttachElementToParent
-  href: api/Platform.Examples.IWikipediaStorage-1.html#Platform_Examples_IWikipediaStorage_1_AttachElementToParent_
-  commentId: Overload:Platform.Examples.IWikipediaStorage`1.AttachElementToParent
+  href: api/Platform.Examples.IXmlStorage-1.html#Platform_Examples_IXmlStorage_1_AttachElementToParent_
+  commentId: Overload:Platform.Examples.IXmlStorage`1.AttachElementToParent
   isSpec: "True"
-  fullName: Platform.Examples.IWikipediaStorage<TLink>.AttachElementToParent
-  fullName.vb: Platform.Examples.IWikipediaStorage(Of TLink).AttachElementToParent
-  nameWithType: IWikipediaStorage<TLink>.AttachElementToParent
-  nameWithType.vb: IWikipediaStorage(Of TLink).AttachElementToParent
-- uid: Platform.Examples.IWikipediaStorage`1.CreateDocument(System.String)
+  fullName: Platform.Examples.IXmlStorage<TLink>.AttachElementToParent
+  fullName.vb: Platform.Examples.IXmlStorage(Of TLink).AttachElementToParent
+  nameWithType: IXmlStorage<TLink>.AttachElementToParent
+  nameWithType.vb: IXmlStorage(Of TLink).AttachElementToParent
+- uid: Platform.Examples.IXmlStorage`1.CreateDocument(System.String)
   name: CreateDocument(String)
-  href: api/Platform.Examples.IWikipediaStorage-1.html#Platform_Examples_IWikipediaStorage_1_CreateDocument_System_String_
-  commentId: M:Platform.Examples.IWikipediaStorage`1.CreateDocument(System.String)
-  fullName: Platform.Examples.IWikipediaStorage<TLink>.CreateDocument(System.String)
-  fullName.vb: Platform.Examples.IWikipediaStorage(Of TLink).CreateDocument(System.String)
-  nameWithType: IWikipediaStorage<TLink>.CreateDocument(String)
-  nameWithType.vb: IWikipediaStorage(Of TLink).CreateDocument(String)
-- uid: Platform.Examples.IWikipediaStorage`1.CreateDocument*
+  href: api/Platform.Examples.IXmlStorage-1.html#Platform_Examples_IXmlStorage_1_CreateDocument_System_String_
+  commentId: M:Platform.Examples.IXmlStorage`1.CreateDocument(System.String)
+  fullName: Platform.Examples.IXmlStorage<TLink>.CreateDocument(System.String)
+  fullName.vb: Platform.Examples.IXmlStorage(Of TLink).CreateDocument(System.String)
+  nameWithType: IXmlStorage<TLink>.CreateDocument(String)
+  nameWithType.vb: IXmlStorage(Of TLink).CreateDocument(String)
+- uid: Platform.Examples.IXmlStorage`1.CreateDocument*
   name: CreateDocument
-  href: api/Platform.Examples.IWikipediaStorage-1.html#Platform_Examples_IWikipediaStorage_1_CreateDocument_
-  commentId: Overload:Platform.Examples.IWikipediaStorage`1.CreateDocument
+  href: api/Platform.Examples.IXmlStorage-1.html#Platform_Examples_IXmlStorage_1_CreateDocument_
+  commentId: Overload:Platform.Examples.IXmlStorage`1.CreateDocument
   isSpec: "True"
-  fullName: Platform.Examples.IWikipediaStorage<TLink>.CreateDocument
-  fullName.vb: Platform.Examples.IWikipediaStorage(Of TLink).CreateDocument
-  nameWithType: IWikipediaStorage<TLink>.CreateDocument
-  nameWithType.vb: IWikipediaStorage(Of TLink).CreateDocument
-- uid: Platform.Examples.IWikipediaStorage`1.CreateElement(System.String)
+  fullName: Platform.Examples.IXmlStorage<TLink>.CreateDocument
+  fullName.vb: Platform.Examples.IXmlStorage(Of TLink).CreateDocument
+  nameWithType: IXmlStorage<TLink>.CreateDocument
+  nameWithType.vb: IXmlStorage(Of TLink).CreateDocument
+- uid: Platform.Examples.IXmlStorage`1.CreateElement(System.String)
   name: CreateElement(String)
-  href: api/Platform.Examples.IWikipediaStorage-1.html#Platform_Examples_IWikipediaStorage_1_CreateElement_System_String_
-  commentId: M:Platform.Examples.IWikipediaStorage`1.CreateElement(System.String)
-  fullName: Platform.Examples.IWikipediaStorage<TLink>.CreateElement(System.String)
-  fullName.vb: Platform.Examples.IWikipediaStorage(Of TLink).CreateElement(System.String)
-  nameWithType: IWikipediaStorage<TLink>.CreateElement(String)
-  nameWithType.vb: IWikipediaStorage(Of TLink).CreateElement(String)
-- uid: Platform.Examples.IWikipediaStorage`1.CreateElement*
+  href: api/Platform.Examples.IXmlStorage-1.html#Platform_Examples_IXmlStorage_1_CreateElement_System_String_
+  commentId: M:Platform.Examples.IXmlStorage`1.CreateElement(System.String)
+  fullName: Platform.Examples.IXmlStorage<TLink>.CreateElement(System.String)
+  fullName.vb: Platform.Examples.IXmlStorage(Of TLink).CreateElement(System.String)
+  nameWithType: IXmlStorage<TLink>.CreateElement(String)
+  nameWithType.vb: IXmlStorage(Of TLink).CreateElement(String)
+- uid: Platform.Examples.IXmlStorage`1.CreateElement*
   name: CreateElement
-  href: api/Platform.Examples.IWikipediaStorage-1.html#Platform_Examples_IWikipediaStorage_1_CreateElement_
-  commentId: Overload:Platform.Examples.IWikipediaStorage`1.CreateElement
+  href: api/Platform.Examples.IXmlStorage-1.html#Platform_Examples_IXmlStorage_1_CreateElement_
+  commentId: Overload:Platform.Examples.IXmlStorage`1.CreateElement
   isSpec: "True"
-  fullName: Platform.Examples.IWikipediaStorage<TLink>.CreateElement
-  fullName.vb: Platform.Examples.IWikipediaStorage(Of TLink).CreateElement
-  nameWithType: IWikipediaStorage<TLink>.CreateElement
-  nameWithType.vb: IWikipediaStorage(Of TLink).CreateElement
-- uid: Platform.Examples.IWikipediaStorage`1.CreateTextElement(System.String)
+  fullName: Platform.Examples.IXmlStorage<TLink>.CreateElement
+  fullName.vb: Platform.Examples.IXmlStorage(Of TLink).CreateElement
+  nameWithType: IXmlStorage<TLink>.CreateElement
+  nameWithType.vb: IXmlStorage(Of TLink).CreateElement
+- uid: Platform.Examples.IXmlStorage`1.CreateTextElement(System.String)
   name: CreateTextElement(String)
-  href: api/Platform.Examples.IWikipediaStorage-1.html#Platform_Examples_IWikipediaStorage_1_CreateTextElement_System_String_
-  commentId: M:Platform.Examples.IWikipediaStorage`1.CreateTextElement(System.String)
-  fullName: Platform.Examples.IWikipediaStorage<TLink>.CreateTextElement(System.String)
-  fullName.vb: Platform.Examples.IWikipediaStorage(Of TLink).CreateTextElement(System.String)
-  nameWithType: IWikipediaStorage<TLink>.CreateTextElement(String)
-  nameWithType.vb: IWikipediaStorage(Of TLink).CreateTextElement(String)
-- uid: Platform.Examples.IWikipediaStorage`1.CreateTextElement*
+  href: api/Platform.Examples.IXmlStorage-1.html#Platform_Examples_IXmlStorage_1_CreateTextElement_System_String_
+  commentId: M:Platform.Examples.IXmlStorage`1.CreateTextElement(System.String)
+  fullName: Platform.Examples.IXmlStorage<TLink>.CreateTextElement(System.String)
+  fullName.vb: Platform.Examples.IXmlStorage(Of TLink).CreateTextElement(System.String)
+  nameWithType: IXmlStorage<TLink>.CreateTextElement(String)
+  nameWithType.vb: IXmlStorage(Of TLink).CreateTextElement(String)
+- uid: Platform.Examples.IXmlStorage`1.CreateTextElement*
   name: CreateTextElement
-  href: api/Platform.Examples.IWikipediaStorage-1.html#Platform_Examples_IWikipediaStorage_1_CreateTextElement_
-  commentId: Overload:Platform.Examples.IWikipediaStorage`1.CreateTextElement
+  href: api/Platform.Examples.IXmlStorage-1.html#Platform_Examples_IXmlStorage_1_CreateTextElement_
+  commentId: Overload:Platform.Examples.IXmlStorage`1.CreateTextElement
   isSpec: "True"
-  fullName: Platform.Examples.IWikipediaStorage<TLink>.CreateTextElement
-  fullName.vb: Platform.Examples.IWikipediaStorage(Of TLink).CreateTextElement
-  nameWithType: IWikipediaStorage<TLink>.CreateTextElement
-  nameWithType.vb: IWikipediaStorage(Of TLink).CreateTextElement
+  fullName: Platform.Examples.IXmlStorage<TLink>.CreateTextElement
+  fullName.vb: Platform.Examples.IXmlStorage(Of TLink).CreateTextElement
+  nameWithType: IXmlStorage<TLink>.CreateTextElement
+  nameWithType.vb: IXmlStorage(Of TLink).CreateTextElement
+- uid: Platform.Examples.LinksXmlStorage`1
+  name: LinksXmlStorage<TLink>
+  href: api/Platform.Examples.LinksXmlStorage-1.html
+  commentId: T:Platform.Examples.LinksXmlStorage`1
+  name.vb: LinksXmlStorage(Of TLink)
+  fullName: Platform.Examples.LinksXmlStorage<TLink>
+  fullName.vb: Platform.Examples.LinksXmlStorage(Of TLink)
+  nameWithType: LinksXmlStorage<TLink>
+  nameWithType.vb: LinksXmlStorage(Of TLink)
+- uid: Platform.Examples.LinksXmlStorage`1.#ctor(ILinks{`0},LinkFrequenciesCache{`0})
+  name: LinksXmlStorage(ILinks<TLink>, LinkFrequenciesCache<TLink>)
+  href: api/Platform.Examples.LinksXmlStorage-1.html#Platform_Examples_LinksXmlStorage_1__ctor_ILinks__0__LinkFrequenciesCache__0__
+  commentId: M:Platform.Examples.LinksXmlStorage`1.#ctor(ILinks{`0},LinkFrequenciesCache{`0})
+  name.vb: LinksXmlStorage(ILinks(Of TLink), LinkFrequenciesCache(Of TLink))
+  fullName: Platform.Examples.LinksXmlStorage<TLink>.LinksXmlStorage(ILinks<TLink>, LinkFrequenciesCache<TLink>)
+  fullName.vb: Platform.Examples.LinksXmlStorage(Of TLink).LinksXmlStorage(ILinks(Of TLink), LinkFrequenciesCache(Of TLink))
+  nameWithType: LinksXmlStorage<TLink>.LinksXmlStorage(ILinks<TLink>, LinkFrequenciesCache<TLink>)
+  nameWithType.vb: LinksXmlStorage(Of TLink).LinksXmlStorage(ILinks(Of TLink), LinkFrequenciesCache(Of TLink))
+- uid: Platform.Examples.LinksXmlStorage`1.#ctor*
+  name: LinksXmlStorage
+  href: api/Platform.Examples.LinksXmlStorage-1.html#Platform_Examples_LinksXmlStorage_1__ctor_
+  commentId: Overload:Platform.Examples.LinksXmlStorage`1.#ctor
+  isSpec: "True"
+  fullName: Platform.Examples.LinksXmlStorage<TLink>.LinksXmlStorage
+  fullName.vb: Platform.Examples.LinksXmlStorage(Of TLink).LinksXmlStorage
+  nameWithType: LinksXmlStorage<TLink>.LinksXmlStorage
+  nameWithType.vb: LinksXmlStorage(Of TLink).LinksXmlStorage
+- uid: Platform.Examples.LinksXmlStorage`1.AttachElementToParent(`0,`0)
+  name: AttachElementToParent(TLink, TLink)
+  href: api/Platform.Examples.LinksXmlStorage-1.html#Platform_Examples_LinksXmlStorage_1_AttachElementToParent__0__0_
+  commentId: M:Platform.Examples.LinksXmlStorage`1.AttachElementToParent(`0,`0)
+  fullName: Platform.Examples.LinksXmlStorage<TLink>.AttachElementToParent(TLink, TLink)
+  fullName.vb: Platform.Examples.LinksXmlStorage(Of TLink).AttachElementToParent(TLink, TLink)
+  nameWithType: LinksXmlStorage<TLink>.AttachElementToParent(TLink, TLink)
+  nameWithType.vb: LinksXmlStorage(Of TLink).AttachElementToParent(TLink, TLink)
+- uid: Platform.Examples.LinksXmlStorage`1.AttachElementToParent*
+  name: AttachElementToParent
+  href: api/Platform.Examples.LinksXmlStorage-1.html#Platform_Examples_LinksXmlStorage_1_AttachElementToParent_
+  commentId: Overload:Platform.Examples.LinksXmlStorage`1.AttachElementToParent
+  isSpec: "True"
+  fullName: Platform.Examples.LinksXmlStorage<TLink>.AttachElementToParent
+  fullName.vb: Platform.Examples.LinksXmlStorage(Of TLink).AttachElementToParent
+  nameWithType: LinksXmlStorage<TLink>.AttachElementToParent
+  nameWithType.vb: LinksXmlStorage(Of TLink).AttachElementToParent
+- uid: Platform.Examples.LinksXmlStorage`1.CreateDocument(System.String)
+  name: CreateDocument(String)
+  href: api/Platform.Examples.LinksXmlStorage-1.html#Platform_Examples_LinksXmlStorage_1_CreateDocument_System_String_
+  commentId: M:Platform.Examples.LinksXmlStorage`1.CreateDocument(System.String)
+  fullName: Platform.Examples.LinksXmlStorage<TLink>.CreateDocument(System.String)
+  fullName.vb: Platform.Examples.LinksXmlStorage(Of TLink).CreateDocument(System.String)
+  nameWithType: LinksXmlStorage<TLink>.CreateDocument(String)
+  nameWithType.vb: LinksXmlStorage(Of TLink).CreateDocument(String)
+- uid: Platform.Examples.LinksXmlStorage`1.CreateDocument*
+  name: CreateDocument
+  href: api/Platform.Examples.LinksXmlStorage-1.html#Platform_Examples_LinksXmlStorage_1_CreateDocument_
+  commentId: Overload:Platform.Examples.LinksXmlStorage`1.CreateDocument
+  isSpec: "True"
+  fullName: Platform.Examples.LinksXmlStorage<TLink>.CreateDocument
+  fullName.vb: Platform.Examples.LinksXmlStorage(Of TLink).CreateDocument
+  nameWithType: LinksXmlStorage<TLink>.CreateDocument
+  nameWithType.vb: LinksXmlStorage(Of TLink).CreateDocument
+- uid: Platform.Examples.LinksXmlStorage`1.CreateElement(System.String)
+  name: CreateElement(String)
+  href: api/Platform.Examples.LinksXmlStorage-1.html#Platform_Examples_LinksXmlStorage_1_CreateElement_System_String_
+  commentId: M:Platform.Examples.LinksXmlStorage`1.CreateElement(System.String)
+  fullName: Platform.Examples.LinksXmlStorage<TLink>.CreateElement(System.String)
+  fullName.vb: Platform.Examples.LinksXmlStorage(Of TLink).CreateElement(System.String)
+  nameWithType: LinksXmlStorage<TLink>.CreateElement(String)
+  nameWithType.vb: LinksXmlStorage(Of TLink).CreateElement(String)
+- uid: Platform.Examples.LinksXmlStorage`1.CreateElement*
+  name: CreateElement
+  href: api/Platform.Examples.LinksXmlStorage-1.html#Platform_Examples_LinksXmlStorage_1_CreateElement_
+  commentId: Overload:Platform.Examples.LinksXmlStorage`1.CreateElement
+  isSpec: "True"
+  fullName: Platform.Examples.LinksXmlStorage<TLink>.CreateElement
+  fullName.vb: Platform.Examples.LinksXmlStorage(Of TLink).CreateElement
+  nameWithType: LinksXmlStorage<TLink>.CreateElement
+  nameWithType.vb: LinksXmlStorage(Of TLink).CreateElement
+- uid: Platform.Examples.LinksXmlStorage`1.CreateTextElement(System.String)
+  name: CreateTextElement(String)
+  href: api/Platform.Examples.LinksXmlStorage-1.html#Platform_Examples_LinksXmlStorage_1_CreateTextElement_System_String_
+  commentId: M:Platform.Examples.LinksXmlStorage`1.CreateTextElement(System.String)
+  fullName: Platform.Examples.LinksXmlStorage<TLink>.CreateTextElement(System.String)
+  fullName.vb: Platform.Examples.LinksXmlStorage(Of TLink).CreateTextElement(System.String)
+  nameWithType: LinksXmlStorage<TLink>.CreateTextElement(String)
+  nameWithType.vb: LinksXmlStorage(Of TLink).CreateTextElement(String)
+- uid: Platform.Examples.LinksXmlStorage`1.CreateTextElement*
+  name: CreateTextElement
+  href: api/Platform.Examples.LinksXmlStorage-1.html#Platform_Examples_LinksXmlStorage_1_CreateTextElement_
+  commentId: Overload:Platform.Examples.LinksXmlStorage`1.CreateTextElement
+  isSpec: "True"
+  fullName: Platform.Examples.LinksXmlStorage<TLink>.CreateTextElement
+  fullName.vb: Platform.Examples.LinksXmlStorage(Of TLink).CreateTextElement
+  nameWithType: LinksXmlStorage<TLink>.CreateTextElement
+  nameWithType.vb: LinksXmlStorage(Of TLink).CreateTextElement
 - uid: Platform.Examples.MasterServer
   name: MasterServer
   href: api/Platform.Examples.MasterServer.html
@@ -911,306 +1006,211 @@ references:
   isSpec: "True"
   fullName: Platform.Examples.TerminalCLI.Run
   nameWithType: TerminalCLI.Run
-- uid: Platform.Examples.WikipediaImporterCLI
-  name: WikipediaImporterCLI
-  href: api/Platform.Examples.WikipediaImporterCLI.html
-  commentId: T:Platform.Examples.WikipediaImporterCLI
-  fullName: Platform.Examples.WikipediaImporterCLI
-  nameWithType: WikipediaImporterCLI
-- uid: Platform.Examples.WikipediaImporterCLI.Run(System.String[])
-  name: Run(String[])
-  href: api/Platform.Examples.WikipediaImporterCLI.html#Platform_Examples_WikipediaImporterCLI_Run_System_String___
-  commentId: M:Platform.Examples.WikipediaImporterCLI.Run(System.String[])
-  name.vb: Run(String())
-  fullName: Platform.Examples.WikipediaImporterCLI.Run(System.String[])
-  fullName.vb: Platform.Examples.WikipediaImporterCLI.Run(System.String())
-  nameWithType: WikipediaImporterCLI.Run(String[])
-  nameWithType.vb: WikipediaImporterCLI.Run(String())
-- uid: Platform.Examples.WikipediaImporterCLI.Run*
-  name: Run
-  href: api/Platform.Examples.WikipediaImporterCLI.html#Platform_Examples_WikipediaImporterCLI_Run_
-  commentId: Overload:Platform.Examples.WikipediaImporterCLI.Run
+- uid: Platform.Examples.XmlElementCounter
+  name: XmlElementCounter
+  href: api/Platform.Examples.XmlElementCounter.html
+  commentId: T:Platform.Examples.XmlElementCounter
+  fullName: Platform.Examples.XmlElementCounter
+  nameWithType: XmlElementCounter
+- uid: Platform.Examples.XmlElementCounter.#ctor
+  name: XmlElementCounter()
+  href: api/Platform.Examples.XmlElementCounter.html#Platform_Examples_XmlElementCounter__ctor
+  commentId: M:Platform.Examples.XmlElementCounter.#ctor
+  fullName: Platform.Examples.XmlElementCounter.XmlElementCounter()
+  nameWithType: XmlElementCounter.XmlElementCounter()
+- uid: Platform.Examples.XmlElementCounter.#ctor*
+  name: XmlElementCounter
+  href: api/Platform.Examples.XmlElementCounter.html#Platform_Examples_XmlElementCounter__ctor_
+  commentId: Overload:Platform.Examples.XmlElementCounter.#ctor
   isSpec: "True"
-  fullName: Platform.Examples.WikipediaImporterCLI.Run
-  nameWithType: WikipediaImporterCLI.Run
-- uid: Platform.Examples.WikipediaIndexer`1
-  name: WikipediaIndexer<TLink>
-  href: api/Platform.Examples.WikipediaIndexer-1.html
-  commentId: T:Platform.Examples.WikipediaIndexer`1
-  name.vb: WikipediaIndexer(Of TLink)
-  fullName: Platform.Examples.WikipediaIndexer<TLink>
-  fullName.vb: Platform.Examples.WikipediaIndexer(Of TLink)
-  nameWithType: WikipediaIndexer<TLink>
-  nameWithType.vb: WikipediaIndexer(Of TLink)
-- uid: Platform.Examples.WikipediaIndexer`1.#ctor(ILinks{`0})
-  name: WikipediaIndexer(ILinks<TLink>)
-  href: api/Platform.Examples.WikipediaIndexer-1.html#Platform_Examples_WikipediaIndexer_1__ctor_ILinks__0__
-  commentId: M:Platform.Examples.WikipediaIndexer`1.#ctor(ILinks{`0})
-  name.vb: WikipediaIndexer(ILinks(Of TLink))
-  fullName: Platform.Examples.WikipediaIndexer<TLink>.WikipediaIndexer(ILinks<TLink>)
-  fullName.vb: Platform.Examples.WikipediaIndexer(Of TLink).WikipediaIndexer(ILinks(Of TLink))
-  nameWithType: WikipediaIndexer<TLink>.WikipediaIndexer(ILinks<TLink>)
-  nameWithType.vb: WikipediaIndexer(Of TLink).WikipediaIndexer(ILinks(Of TLink))
-- uid: Platform.Examples.WikipediaIndexer`1.#ctor*
-  name: WikipediaIndexer
-  href: api/Platform.Examples.WikipediaIndexer-1.html#Platform_Examples_WikipediaIndexer_1__ctor_
-  commentId: Overload:Platform.Examples.WikipediaIndexer`1.#ctor
-  isSpec: "True"
-  fullName: Platform.Examples.WikipediaIndexer<TLink>.WikipediaIndexer
-  fullName.vb: Platform.Examples.WikipediaIndexer(Of TLink).WikipediaIndexer
-  nameWithType: WikipediaIndexer<TLink>.WikipediaIndexer
-  nameWithType.vb: WikipediaIndexer(Of TLink).WikipediaIndexer
-- uid: Platform.Examples.WikipediaIndexer`1.AttachElementToParent(`0,`0)
-  name: AttachElementToParent(TLink, TLink)
-  href: api/Platform.Examples.WikipediaIndexer-1.html#Platform_Examples_WikipediaIndexer_1_AttachElementToParent__0__0_
-  commentId: M:Platform.Examples.WikipediaIndexer`1.AttachElementToParent(`0,`0)
-  fullName: Platform.Examples.WikipediaIndexer<TLink>.AttachElementToParent(TLink, TLink)
-  fullName.vb: Platform.Examples.WikipediaIndexer(Of TLink).AttachElementToParent(TLink, TLink)
-  nameWithType: WikipediaIndexer<TLink>.AttachElementToParent(TLink, TLink)
-  nameWithType.vb: WikipediaIndexer(Of TLink).AttachElementToParent(TLink, TLink)
-- uid: Platform.Examples.WikipediaIndexer`1.AttachElementToParent*
-  name: AttachElementToParent
-  href: api/Platform.Examples.WikipediaIndexer-1.html#Platform_Examples_WikipediaIndexer_1_AttachElementToParent_
-  commentId: Overload:Platform.Examples.WikipediaIndexer`1.AttachElementToParent
-  isSpec: "True"
-  fullName: Platform.Examples.WikipediaIndexer<TLink>.AttachElementToParent
-  fullName.vb: Platform.Examples.WikipediaIndexer(Of TLink).AttachElementToParent
-  nameWithType: WikipediaIndexer<TLink>.AttachElementToParent
-  nameWithType.vb: WikipediaIndexer(Of TLink).AttachElementToParent
-- uid: Platform.Examples.WikipediaIndexer`1.Cache
-  name: Cache
-  href: api/Platform.Examples.WikipediaIndexer-1.html#Platform_Examples_WikipediaIndexer_1_Cache
-  commentId: P:Platform.Examples.WikipediaIndexer`1.Cache
-  fullName: Platform.Examples.WikipediaIndexer<TLink>.Cache
-  fullName.vb: Platform.Examples.WikipediaIndexer(Of TLink).Cache
-  nameWithType: WikipediaIndexer<TLink>.Cache
-  nameWithType.vb: WikipediaIndexer(Of TLink).Cache
-- uid: Platform.Examples.WikipediaIndexer`1.Cache*
-  name: Cache
-  href: api/Platform.Examples.WikipediaIndexer-1.html#Platform_Examples_WikipediaIndexer_1_Cache_
-  commentId: Overload:Platform.Examples.WikipediaIndexer`1.Cache
-  isSpec: "True"
-  fullName: Platform.Examples.WikipediaIndexer<TLink>.Cache
-  fullName.vb: Platform.Examples.WikipediaIndexer(Of TLink).Cache
-  nameWithType: WikipediaIndexer<TLink>.Cache
-  nameWithType.vb: WikipediaIndexer(Of TLink).Cache
-- uid: Platform.Examples.WikipediaIndexer`1.CreateDocument(System.String)
-  name: CreateDocument(String)
-  href: api/Platform.Examples.WikipediaIndexer-1.html#Platform_Examples_WikipediaIndexer_1_CreateDocument_System_String_
-  commentId: M:Platform.Examples.WikipediaIndexer`1.CreateDocument(System.String)
-  fullName: Platform.Examples.WikipediaIndexer<TLink>.CreateDocument(System.String)
-  fullName.vb: Platform.Examples.WikipediaIndexer(Of TLink).CreateDocument(System.String)
-  nameWithType: WikipediaIndexer<TLink>.CreateDocument(String)
-  nameWithType.vb: WikipediaIndexer(Of TLink).CreateDocument(String)
-- uid: Platform.Examples.WikipediaIndexer`1.CreateDocument*
-  name: CreateDocument
-  href: api/Platform.Examples.WikipediaIndexer-1.html#Platform_Examples_WikipediaIndexer_1_CreateDocument_
-  commentId: Overload:Platform.Examples.WikipediaIndexer`1.CreateDocument
-  isSpec: "True"
-  fullName: Platform.Examples.WikipediaIndexer<TLink>.CreateDocument
-  fullName.vb: Platform.Examples.WikipediaIndexer(Of TLink).CreateDocument
-  nameWithType: WikipediaIndexer<TLink>.CreateDocument
-  nameWithType.vb: WikipediaIndexer(Of TLink).CreateDocument
-- uid: Platform.Examples.WikipediaIndexer`1.CreateElement(System.String)
-  name: CreateElement(String)
-  href: api/Platform.Examples.WikipediaIndexer-1.html#Platform_Examples_WikipediaIndexer_1_CreateElement_System_String_
-  commentId: M:Platform.Examples.WikipediaIndexer`1.CreateElement(System.String)
-  fullName: Platform.Examples.WikipediaIndexer<TLink>.CreateElement(System.String)
-  fullName.vb: Platform.Examples.WikipediaIndexer(Of TLink).CreateElement(System.String)
-  nameWithType: WikipediaIndexer<TLink>.CreateElement(String)
-  nameWithType.vb: WikipediaIndexer(Of TLink).CreateElement(String)
-- uid: Platform.Examples.WikipediaIndexer`1.CreateElement*
-  name: CreateElement
-  href: api/Platform.Examples.WikipediaIndexer-1.html#Platform_Examples_WikipediaIndexer_1_CreateElement_
-  commentId: Overload:Platform.Examples.WikipediaIndexer`1.CreateElement
-  isSpec: "True"
-  fullName: Platform.Examples.WikipediaIndexer<TLink>.CreateElement
-  fullName.vb: Platform.Examples.WikipediaIndexer(Of TLink).CreateElement
-  nameWithType: WikipediaIndexer<TLink>.CreateElement
-  nameWithType.vb: WikipediaIndexer(Of TLink).CreateElement
-- uid: Platform.Examples.WikipediaIndexer`1.CreateTextElement(System.String)
-  name: CreateTextElement(String)
-  href: api/Platform.Examples.WikipediaIndexer-1.html#Platform_Examples_WikipediaIndexer_1_CreateTextElement_System_String_
-  commentId: M:Platform.Examples.WikipediaIndexer`1.CreateTextElement(System.String)
-  fullName: Platform.Examples.WikipediaIndexer<TLink>.CreateTextElement(System.String)
-  fullName.vb: Platform.Examples.WikipediaIndexer(Of TLink).CreateTextElement(System.String)
-  nameWithType: WikipediaIndexer<TLink>.CreateTextElement(String)
-  nameWithType.vb: WikipediaIndexer(Of TLink).CreateTextElement(String)
-- uid: Platform.Examples.WikipediaIndexer`1.CreateTextElement*
-  name: CreateTextElement
-  href: api/Platform.Examples.WikipediaIndexer-1.html#Platform_Examples_WikipediaIndexer_1_CreateTextElement_
-  commentId: Overload:Platform.Examples.WikipediaIndexer`1.CreateTextElement
-  isSpec: "True"
-  fullName: Platform.Examples.WikipediaIndexer<TLink>.CreateTextElement
-  fullName.vb: Platform.Examples.WikipediaIndexer(Of TLink).CreateTextElement
-  nameWithType: WikipediaIndexer<TLink>.CreateTextElement
-  nameWithType.vb: WikipediaIndexer(Of TLink).CreateTextElement
-- uid: Platform.Examples.WikipediaIndexer`1.ToElements(System.String)
-  name: ToElements(String)
-  href: api/Platform.Examples.WikipediaIndexer-1.html#Platform_Examples_WikipediaIndexer_1_ToElements_System_String_
-  commentId: M:Platform.Examples.WikipediaIndexer`1.ToElements(System.String)
-  fullName: Platform.Examples.WikipediaIndexer<TLink>.ToElements(System.String)
-  fullName.vb: Platform.Examples.WikipediaIndexer(Of TLink).ToElements(System.String)
-  nameWithType: WikipediaIndexer<TLink>.ToElements(String)
-  nameWithType.vb: WikipediaIndexer(Of TLink).ToElements(String)
-- uid: Platform.Examples.WikipediaIndexer`1.ToElements*
-  name: ToElements
-  href: api/Platform.Examples.WikipediaIndexer-1.html#Platform_Examples_WikipediaIndexer_1_ToElements_
-  commentId: Overload:Platform.Examples.WikipediaIndexer`1.ToElements
-  isSpec: "True"
-  fullName: Platform.Examples.WikipediaIndexer<TLink>.ToElements
-  fullName.vb: Platform.Examples.WikipediaIndexer(Of TLink).ToElements
-  nameWithType: WikipediaIndexer<TLink>.ToElements
-  nameWithType.vb: WikipediaIndexer(Of TLink).ToElements
-- uid: Platform.Examples.WikipediaLinksStorage`1
-  name: WikipediaLinksStorage<TLink>
-  href: api/Platform.Examples.WikipediaLinksStorage-1.html
-  commentId: T:Platform.Examples.WikipediaLinksStorage`1
-  name.vb: WikipediaLinksStorage(Of TLink)
-  fullName: Platform.Examples.WikipediaLinksStorage<TLink>
-  fullName.vb: Platform.Examples.WikipediaLinksStorage(Of TLink)
-  nameWithType: WikipediaLinksStorage<TLink>
-  nameWithType.vb: WikipediaLinksStorage(Of TLink)
-- uid: Platform.Examples.WikipediaLinksStorage`1.#ctor(ILinks{`0},LinkFrequenciesCache{`0})
-  name: WikipediaLinksStorage(ILinks<TLink>, LinkFrequenciesCache<TLink>)
-  href: api/Platform.Examples.WikipediaLinksStorage-1.html#Platform_Examples_WikipediaLinksStorage_1__ctor_ILinks__0__LinkFrequenciesCache__0__
-  commentId: M:Platform.Examples.WikipediaLinksStorage`1.#ctor(ILinks{`0},LinkFrequenciesCache{`0})
-  name.vb: WikipediaLinksStorage(ILinks(Of TLink), LinkFrequenciesCache(Of TLink))
-  fullName: Platform.Examples.WikipediaLinksStorage<TLink>.WikipediaLinksStorage(ILinks<TLink>, LinkFrequenciesCache<TLink>)
-  fullName.vb: Platform.Examples.WikipediaLinksStorage(Of TLink).WikipediaLinksStorage(ILinks(Of TLink), LinkFrequenciesCache(Of TLink))
-  nameWithType: WikipediaLinksStorage<TLink>.WikipediaLinksStorage(ILinks<TLink>, LinkFrequenciesCache<TLink>)
-  nameWithType.vb: WikipediaLinksStorage(Of TLink).WikipediaLinksStorage(ILinks(Of TLink), LinkFrequenciesCache(Of TLink))
-- uid: Platform.Examples.WikipediaLinksStorage`1.#ctor*
-  name: WikipediaLinksStorage
-  href: api/Platform.Examples.WikipediaLinksStorage-1.html#Platform_Examples_WikipediaLinksStorage_1__ctor_
-  commentId: Overload:Platform.Examples.WikipediaLinksStorage`1.#ctor
-  isSpec: "True"
-  fullName: Platform.Examples.WikipediaLinksStorage<TLink>.WikipediaLinksStorage
-  fullName.vb: Platform.Examples.WikipediaLinksStorage(Of TLink).WikipediaLinksStorage
-  nameWithType: WikipediaLinksStorage<TLink>.WikipediaLinksStorage
-  nameWithType.vb: WikipediaLinksStorage(Of TLink).WikipediaLinksStorage
-- uid: Platform.Examples.WikipediaLinksStorage`1.AttachElementToParent(`0,`0)
-  name: AttachElementToParent(TLink, TLink)
-  href: api/Platform.Examples.WikipediaLinksStorage-1.html#Platform_Examples_WikipediaLinksStorage_1_AttachElementToParent__0__0_
-  commentId: M:Platform.Examples.WikipediaLinksStorage`1.AttachElementToParent(`0,`0)
-  fullName: Platform.Examples.WikipediaLinksStorage<TLink>.AttachElementToParent(TLink, TLink)
-  fullName.vb: Platform.Examples.WikipediaLinksStorage(Of TLink).AttachElementToParent(TLink, TLink)
-  nameWithType: WikipediaLinksStorage<TLink>.AttachElementToParent(TLink, TLink)
-  nameWithType.vb: WikipediaLinksStorage(Of TLink).AttachElementToParent(TLink, TLink)
-- uid: Platform.Examples.WikipediaLinksStorage`1.AttachElementToParent*
-  name: AttachElementToParent
-  href: api/Platform.Examples.WikipediaLinksStorage-1.html#Platform_Examples_WikipediaLinksStorage_1_AttachElementToParent_
-  commentId: Overload:Platform.Examples.WikipediaLinksStorage`1.AttachElementToParent
-  isSpec: "True"
-  fullName: Platform.Examples.WikipediaLinksStorage<TLink>.AttachElementToParent
-  fullName.vb: Platform.Examples.WikipediaLinksStorage(Of TLink).AttachElementToParent
-  nameWithType: WikipediaLinksStorage<TLink>.AttachElementToParent
-  nameWithType.vb: WikipediaLinksStorage(Of TLink).AttachElementToParent
-- uid: Platform.Examples.WikipediaLinksStorage`1.CreateDocument(System.String)
-  name: CreateDocument(String)
-  href: api/Platform.Examples.WikipediaLinksStorage-1.html#Platform_Examples_WikipediaLinksStorage_1_CreateDocument_System_String_
-  commentId: M:Platform.Examples.WikipediaLinksStorage`1.CreateDocument(System.String)
-  fullName: Platform.Examples.WikipediaLinksStorage<TLink>.CreateDocument(System.String)
-  fullName.vb: Platform.Examples.WikipediaLinksStorage(Of TLink).CreateDocument(System.String)
-  nameWithType: WikipediaLinksStorage<TLink>.CreateDocument(String)
-  nameWithType.vb: WikipediaLinksStorage(Of TLink).CreateDocument(String)
-- uid: Platform.Examples.WikipediaLinksStorage`1.CreateDocument*
-  name: CreateDocument
-  href: api/Platform.Examples.WikipediaLinksStorage-1.html#Platform_Examples_WikipediaLinksStorage_1_CreateDocument_
-  commentId: Overload:Platform.Examples.WikipediaLinksStorage`1.CreateDocument
-  isSpec: "True"
-  fullName: Platform.Examples.WikipediaLinksStorage<TLink>.CreateDocument
-  fullName.vb: Platform.Examples.WikipediaLinksStorage(Of TLink).CreateDocument
-  nameWithType: WikipediaLinksStorage<TLink>.CreateDocument
-  nameWithType.vb: WikipediaLinksStorage(Of TLink).CreateDocument
-- uid: Platform.Examples.WikipediaLinksStorage`1.CreateElement(System.String)
-  name: CreateElement(String)
-  href: api/Platform.Examples.WikipediaLinksStorage-1.html#Platform_Examples_WikipediaLinksStorage_1_CreateElement_System_String_
-  commentId: M:Platform.Examples.WikipediaLinksStorage`1.CreateElement(System.String)
-  fullName: Platform.Examples.WikipediaLinksStorage<TLink>.CreateElement(System.String)
-  fullName.vb: Platform.Examples.WikipediaLinksStorage(Of TLink).CreateElement(System.String)
-  nameWithType: WikipediaLinksStorage<TLink>.CreateElement(String)
-  nameWithType.vb: WikipediaLinksStorage(Of TLink).CreateElement(String)
-- uid: Platform.Examples.WikipediaLinksStorage`1.CreateElement*
-  name: CreateElement
-  href: api/Platform.Examples.WikipediaLinksStorage-1.html#Platform_Examples_WikipediaLinksStorage_1_CreateElement_
-  commentId: Overload:Platform.Examples.WikipediaLinksStorage`1.CreateElement
-  isSpec: "True"
-  fullName: Platform.Examples.WikipediaLinksStorage<TLink>.CreateElement
-  fullName.vb: Platform.Examples.WikipediaLinksStorage(Of TLink).CreateElement
-  nameWithType: WikipediaLinksStorage<TLink>.CreateElement
-  nameWithType.vb: WikipediaLinksStorage(Of TLink).CreateElement
-- uid: Platform.Examples.WikipediaLinksStorage`1.CreateTextElement(System.String)
-  name: CreateTextElement(String)
-  href: api/Platform.Examples.WikipediaLinksStorage-1.html#Platform_Examples_WikipediaLinksStorage_1_CreateTextElement_System_String_
-  commentId: M:Platform.Examples.WikipediaLinksStorage`1.CreateTextElement(System.String)
-  fullName: Platform.Examples.WikipediaLinksStorage<TLink>.CreateTextElement(System.String)
-  fullName.vb: Platform.Examples.WikipediaLinksStorage(Of TLink).CreateTextElement(System.String)
-  nameWithType: WikipediaLinksStorage<TLink>.CreateTextElement(String)
-  nameWithType.vb: WikipediaLinksStorage(Of TLink).CreateTextElement(String)
-- uid: Platform.Examples.WikipediaLinksStorage`1.CreateTextElement*
-  name: CreateTextElement
-  href: api/Platform.Examples.WikipediaLinksStorage-1.html#Platform_Examples_WikipediaLinksStorage_1_CreateTextElement_
-  commentId: Overload:Platform.Examples.WikipediaLinksStorage`1.CreateTextElement
-  isSpec: "True"
-  fullName: Platform.Examples.WikipediaLinksStorage<TLink>.CreateTextElement
-  fullName.vb: Platform.Examples.WikipediaLinksStorage(Of TLink).CreateTextElement
-  nameWithType: WikipediaLinksStorage<TLink>.CreateTextElement
-  nameWithType.vb: WikipediaLinksStorage(Of TLink).CreateTextElement
-- uid: Platform.Examples.WikipediaPagesCounter
-  name: WikipediaPagesCounter
-  href: api/Platform.Examples.WikipediaPagesCounter.html
-  commentId: T:Platform.Examples.WikipediaPagesCounter
-  fullName: Platform.Examples.WikipediaPagesCounter
-  nameWithType: WikipediaPagesCounter
-- uid: Platform.Examples.WikipediaPagesCounter.#ctor
-  name: WikipediaPagesCounter()
-  href: api/Platform.Examples.WikipediaPagesCounter.html#Platform_Examples_WikipediaPagesCounter__ctor
-  commentId: M:Platform.Examples.WikipediaPagesCounter.#ctor
-  fullName: Platform.Examples.WikipediaPagesCounter.WikipediaPagesCounter()
-  nameWithType: WikipediaPagesCounter.WikipediaPagesCounter()
-- uid: Platform.Examples.WikipediaPagesCounter.#ctor*
-  name: WikipediaPagesCounter
-  href: api/Platform.Examples.WikipediaPagesCounter.html#Platform_Examples_WikipediaPagesCounter__ctor_
-  commentId: Overload:Platform.Examples.WikipediaPagesCounter.#ctor
-  isSpec: "True"
-  fullName: Platform.Examples.WikipediaPagesCounter.WikipediaPagesCounter
-  nameWithType: WikipediaPagesCounter.WikipediaPagesCounter
-- uid: Platform.Examples.WikipediaPagesCounter.Count(System.String,CancellationToken)
+  fullName: Platform.Examples.XmlElementCounter.XmlElementCounter
+  nameWithType: XmlElementCounter.XmlElementCounter
+- uid: Platform.Examples.XmlElementCounter.Count(System.String,CancellationToken)
   name: Count(String, CancellationToken)
-  href: api/Platform.Examples.WikipediaPagesCounter.html#Platform_Examples_WikipediaPagesCounter_Count_System_String_CancellationToken_
-  commentId: M:Platform.Examples.WikipediaPagesCounter.Count(System.String,CancellationToken)
-  fullName: Platform.Examples.WikipediaPagesCounter.Count(System.String, CancellationToken)
-  nameWithType: WikipediaPagesCounter.Count(String, CancellationToken)
-- uid: Platform.Examples.WikipediaPagesCounter.Count*
+  href: api/Platform.Examples.XmlElementCounter.html#Platform_Examples_XmlElementCounter_Count_System_String_CancellationToken_
+  commentId: M:Platform.Examples.XmlElementCounter.Count(System.String,CancellationToken)
+  fullName: Platform.Examples.XmlElementCounter.Count(System.String, CancellationToken)
+  nameWithType: XmlElementCounter.Count(String, CancellationToken)
+- uid: Platform.Examples.XmlElementCounter.Count*
   name: Count
-  href: api/Platform.Examples.WikipediaPagesCounter.html#Platform_Examples_WikipediaPagesCounter_Count_
-  commentId: Overload:Platform.Examples.WikipediaPagesCounter.Count
+  href: api/Platform.Examples.XmlElementCounter.html#Platform_Examples_XmlElementCounter_Count_
+  commentId: Overload:Platform.Examples.XmlElementCounter.Count
   isSpec: "True"
-  fullName: Platform.Examples.WikipediaPagesCounter.Count
-  nameWithType: WikipediaPagesCounter.Count
-- uid: Platform.Examples.WikipediaPagesCounterCLI
-  name: WikipediaPagesCounterCLI
-  href: api/Platform.Examples.WikipediaPagesCounterCLI.html
-  commentId: T:Platform.Examples.WikipediaPagesCounterCLI
-  fullName: Platform.Examples.WikipediaPagesCounterCLI
-  nameWithType: WikipediaPagesCounterCLI
-- uid: Platform.Examples.WikipediaPagesCounterCLI.Run(System.String[])
+  fullName: Platform.Examples.XmlElementCounter.Count
+  nameWithType: XmlElementCounter.Count
+- uid: Platform.Examples.XmlElementCounterCLI
+  name: XmlElementCounterCLI
+  href: api/Platform.Examples.XmlElementCounterCLI.html
+  commentId: T:Platform.Examples.XmlElementCounterCLI
+  fullName: Platform.Examples.XmlElementCounterCLI
+  nameWithType: XmlElementCounterCLI
+- uid: Platform.Examples.XmlElementCounterCLI.Run(System.String[])
   name: Run(String[])
-  href: api/Platform.Examples.WikipediaPagesCounterCLI.html#Platform_Examples_WikipediaPagesCounterCLI_Run_System_String___
-  commentId: M:Platform.Examples.WikipediaPagesCounterCLI.Run(System.String[])
+  href: api/Platform.Examples.XmlElementCounterCLI.html#Platform_Examples_XmlElementCounterCLI_Run_System_String___
+  commentId: M:Platform.Examples.XmlElementCounterCLI.Run(System.String[])
   name.vb: Run(String())
-  fullName: Platform.Examples.WikipediaPagesCounterCLI.Run(System.String[])
-  fullName.vb: Platform.Examples.WikipediaPagesCounterCLI.Run(System.String())
-  nameWithType: WikipediaPagesCounterCLI.Run(String[])
-  nameWithType.vb: WikipediaPagesCounterCLI.Run(String())
-- uid: Platform.Examples.WikipediaPagesCounterCLI.Run*
+  fullName: Platform.Examples.XmlElementCounterCLI.Run(System.String[])
+  fullName.vb: Platform.Examples.XmlElementCounterCLI.Run(System.String())
+  nameWithType: XmlElementCounterCLI.Run(String[])
+  nameWithType.vb: XmlElementCounterCLI.Run(String())
+- uid: Platform.Examples.XmlElementCounterCLI.Run*
   name: Run
-  href: api/Platform.Examples.WikipediaPagesCounterCLI.html#Platform_Examples_WikipediaPagesCounterCLI_Run_
-  commentId: Overload:Platform.Examples.WikipediaPagesCounterCLI.Run
+  href: api/Platform.Examples.XmlElementCounterCLI.html#Platform_Examples_XmlElementCounterCLI_Run_
+  commentId: Overload:Platform.Examples.XmlElementCounterCLI.Run
   isSpec: "True"
-  fullName: Platform.Examples.WikipediaPagesCounterCLI.Run
-  nameWithType: WikipediaPagesCounterCLI.Run
+  fullName: Platform.Examples.XmlElementCounterCLI.Run
+  nameWithType: XmlElementCounterCLI.Run
+- uid: Platform.Examples.XmlImporterCLI
+  name: XmlImporterCLI
+  href: api/Platform.Examples.XmlImporterCLI.html
+  commentId: T:Platform.Examples.XmlImporterCLI
+  fullName: Platform.Examples.XmlImporterCLI
+  nameWithType: XmlImporterCLI
+- uid: Platform.Examples.XmlImporterCLI.Run(System.String[])
+  name: Run(String[])
+  href: api/Platform.Examples.XmlImporterCLI.html#Platform_Examples_XmlImporterCLI_Run_System_String___
+  commentId: M:Platform.Examples.XmlImporterCLI.Run(System.String[])
+  name.vb: Run(String())
+  fullName: Platform.Examples.XmlImporterCLI.Run(System.String[])
+  fullName.vb: Platform.Examples.XmlImporterCLI.Run(System.String())
+  nameWithType: XmlImporterCLI.Run(String[])
+  nameWithType.vb: XmlImporterCLI.Run(String())
+- uid: Platform.Examples.XmlImporterCLI.Run*
+  name: Run
+  href: api/Platform.Examples.XmlImporterCLI.html#Platform_Examples_XmlImporterCLI_Run_
+  commentId: Overload:Platform.Examples.XmlImporterCLI.Run
+  isSpec: "True"
+  fullName: Platform.Examples.XmlImporterCLI.Run
+  nameWithType: XmlImporterCLI.Run
+- uid: Platform.Examples.XmlIndexer`1
+  name: XmlIndexer<TLink>
+  href: api/Platform.Examples.XmlIndexer-1.html
+  commentId: T:Platform.Examples.XmlIndexer`1
+  name.vb: XmlIndexer(Of TLink)
+  fullName: Platform.Examples.XmlIndexer<TLink>
+  fullName.vb: Platform.Examples.XmlIndexer(Of TLink)
+  nameWithType: XmlIndexer<TLink>
+  nameWithType.vb: XmlIndexer(Of TLink)
+- uid: Platform.Examples.XmlIndexer`1.#ctor(ILinks{`0})
+  name: XmlIndexer(ILinks<TLink>)
+  href: api/Platform.Examples.XmlIndexer-1.html#Platform_Examples_XmlIndexer_1__ctor_ILinks__0__
+  commentId: M:Platform.Examples.XmlIndexer`1.#ctor(ILinks{`0})
+  name.vb: XmlIndexer(ILinks(Of TLink))
+  fullName: Platform.Examples.XmlIndexer<TLink>.XmlIndexer(ILinks<TLink>)
+  fullName.vb: Platform.Examples.XmlIndexer(Of TLink).XmlIndexer(ILinks(Of TLink))
+  nameWithType: XmlIndexer<TLink>.XmlIndexer(ILinks<TLink>)
+  nameWithType.vb: XmlIndexer(Of TLink).XmlIndexer(ILinks(Of TLink))
+- uid: Platform.Examples.XmlIndexer`1.#ctor*
+  name: XmlIndexer
+  href: api/Platform.Examples.XmlIndexer-1.html#Platform_Examples_XmlIndexer_1__ctor_
+  commentId: Overload:Platform.Examples.XmlIndexer`1.#ctor
+  isSpec: "True"
+  fullName: Platform.Examples.XmlIndexer<TLink>.XmlIndexer
+  fullName.vb: Platform.Examples.XmlIndexer(Of TLink).XmlIndexer
+  nameWithType: XmlIndexer<TLink>.XmlIndexer
+  nameWithType.vb: XmlIndexer(Of TLink).XmlIndexer
+- uid: Platform.Examples.XmlIndexer`1.AttachElementToParent(`0,`0)
+  name: AttachElementToParent(TLink, TLink)
+  href: api/Platform.Examples.XmlIndexer-1.html#Platform_Examples_XmlIndexer_1_AttachElementToParent__0__0_
+  commentId: M:Platform.Examples.XmlIndexer`1.AttachElementToParent(`0,`0)
+  fullName: Platform.Examples.XmlIndexer<TLink>.AttachElementToParent(TLink, TLink)
+  fullName.vb: Platform.Examples.XmlIndexer(Of TLink).AttachElementToParent(TLink, TLink)
+  nameWithType: XmlIndexer<TLink>.AttachElementToParent(TLink, TLink)
+  nameWithType.vb: XmlIndexer(Of TLink).AttachElementToParent(TLink, TLink)
+- uid: Platform.Examples.XmlIndexer`1.AttachElementToParent*
+  name: AttachElementToParent
+  href: api/Platform.Examples.XmlIndexer-1.html#Platform_Examples_XmlIndexer_1_AttachElementToParent_
+  commentId: Overload:Platform.Examples.XmlIndexer`1.AttachElementToParent
+  isSpec: "True"
+  fullName: Platform.Examples.XmlIndexer<TLink>.AttachElementToParent
+  fullName.vb: Platform.Examples.XmlIndexer(Of TLink).AttachElementToParent
+  nameWithType: XmlIndexer<TLink>.AttachElementToParent
+  nameWithType.vb: XmlIndexer(Of TLink).AttachElementToParent
+- uid: Platform.Examples.XmlIndexer`1.Cache
+  name: Cache
+  href: api/Platform.Examples.XmlIndexer-1.html#Platform_Examples_XmlIndexer_1_Cache
+  commentId: P:Platform.Examples.XmlIndexer`1.Cache
+  fullName: Platform.Examples.XmlIndexer<TLink>.Cache
+  fullName.vb: Platform.Examples.XmlIndexer(Of TLink).Cache
+  nameWithType: XmlIndexer<TLink>.Cache
+  nameWithType.vb: XmlIndexer(Of TLink).Cache
+- uid: Platform.Examples.XmlIndexer`1.Cache*
+  name: Cache
+  href: api/Platform.Examples.XmlIndexer-1.html#Platform_Examples_XmlIndexer_1_Cache_
+  commentId: Overload:Platform.Examples.XmlIndexer`1.Cache
+  isSpec: "True"
+  fullName: Platform.Examples.XmlIndexer<TLink>.Cache
+  fullName.vb: Platform.Examples.XmlIndexer(Of TLink).Cache
+  nameWithType: XmlIndexer<TLink>.Cache
+  nameWithType.vb: XmlIndexer(Of TLink).Cache
+- uid: Platform.Examples.XmlIndexer`1.CreateDocument(System.String)
+  name: CreateDocument(String)
+  href: api/Platform.Examples.XmlIndexer-1.html#Platform_Examples_XmlIndexer_1_CreateDocument_System_String_
+  commentId: M:Platform.Examples.XmlIndexer`1.CreateDocument(System.String)
+  fullName: Platform.Examples.XmlIndexer<TLink>.CreateDocument(System.String)
+  fullName.vb: Platform.Examples.XmlIndexer(Of TLink).CreateDocument(System.String)
+  nameWithType: XmlIndexer<TLink>.CreateDocument(String)
+  nameWithType.vb: XmlIndexer(Of TLink).CreateDocument(String)
+- uid: Platform.Examples.XmlIndexer`1.CreateDocument*
+  name: CreateDocument
+  href: api/Platform.Examples.XmlIndexer-1.html#Platform_Examples_XmlIndexer_1_CreateDocument_
+  commentId: Overload:Platform.Examples.XmlIndexer`1.CreateDocument
+  isSpec: "True"
+  fullName: Platform.Examples.XmlIndexer<TLink>.CreateDocument
+  fullName.vb: Platform.Examples.XmlIndexer(Of TLink).CreateDocument
+  nameWithType: XmlIndexer<TLink>.CreateDocument
+  nameWithType.vb: XmlIndexer(Of TLink).CreateDocument
+- uid: Platform.Examples.XmlIndexer`1.CreateElement(System.String)
+  name: CreateElement(String)
+  href: api/Platform.Examples.XmlIndexer-1.html#Platform_Examples_XmlIndexer_1_CreateElement_System_String_
+  commentId: M:Platform.Examples.XmlIndexer`1.CreateElement(System.String)
+  fullName: Platform.Examples.XmlIndexer<TLink>.CreateElement(System.String)
+  fullName.vb: Platform.Examples.XmlIndexer(Of TLink).CreateElement(System.String)
+  nameWithType: XmlIndexer<TLink>.CreateElement(String)
+  nameWithType.vb: XmlIndexer(Of TLink).CreateElement(String)
+- uid: Platform.Examples.XmlIndexer`1.CreateElement*
+  name: CreateElement
+  href: api/Platform.Examples.XmlIndexer-1.html#Platform_Examples_XmlIndexer_1_CreateElement_
+  commentId: Overload:Platform.Examples.XmlIndexer`1.CreateElement
+  isSpec: "True"
+  fullName: Platform.Examples.XmlIndexer<TLink>.CreateElement
+  fullName.vb: Platform.Examples.XmlIndexer(Of TLink).CreateElement
+  nameWithType: XmlIndexer<TLink>.CreateElement
+  nameWithType.vb: XmlIndexer(Of TLink).CreateElement
+- uid: Platform.Examples.XmlIndexer`1.CreateTextElement(System.String)
+  name: CreateTextElement(String)
+  href: api/Platform.Examples.XmlIndexer-1.html#Platform_Examples_XmlIndexer_1_CreateTextElement_System_String_
+  commentId: M:Platform.Examples.XmlIndexer`1.CreateTextElement(System.String)
+  fullName: Platform.Examples.XmlIndexer<TLink>.CreateTextElement(System.String)
+  fullName.vb: Platform.Examples.XmlIndexer(Of TLink).CreateTextElement(System.String)
+  nameWithType: XmlIndexer<TLink>.CreateTextElement(String)
+  nameWithType.vb: XmlIndexer(Of TLink).CreateTextElement(String)
+- uid: Platform.Examples.XmlIndexer`1.CreateTextElement*
+  name: CreateTextElement
+  href: api/Platform.Examples.XmlIndexer-1.html#Platform_Examples_XmlIndexer_1_CreateTextElement_
+  commentId: Overload:Platform.Examples.XmlIndexer`1.CreateTextElement
+  isSpec: "True"
+  fullName: Platform.Examples.XmlIndexer<TLink>.CreateTextElement
+  fullName.vb: Platform.Examples.XmlIndexer(Of TLink).CreateTextElement
+  nameWithType: XmlIndexer<TLink>.CreateTextElement
+  nameWithType.vb: XmlIndexer(Of TLink).CreateTextElement
+- uid: Platform.Examples.XmlIndexer`1.ToElements(System.String)
+  name: ToElements(String)
+  href: api/Platform.Examples.XmlIndexer-1.html#Platform_Examples_XmlIndexer_1_ToElements_System_String_
+  commentId: M:Platform.Examples.XmlIndexer`1.ToElements(System.String)
+  fullName: Platform.Examples.XmlIndexer<TLink>.ToElements(System.String)
+  fullName.vb: Platform.Examples.XmlIndexer(Of TLink).ToElements(System.String)
+  nameWithType: XmlIndexer<TLink>.ToElements(String)
+  nameWithType.vb: XmlIndexer(Of TLink).ToElements(String)
+- uid: Platform.Examples.XmlIndexer`1.ToElements*
+  name: ToElements
+  href: api/Platform.Examples.XmlIndexer-1.html#Platform_Examples_XmlIndexer_1_ToElements_
+  commentId: Overload:Platform.Examples.XmlIndexer`1.ToElements
+  isSpec: "True"
+  fullName: Platform.Examples.XmlIndexer<TLink>.ToElements
+  fullName.vb: Platform.Examples.XmlIndexer(Of TLink).ToElements
+  nameWithType: XmlIndexer<TLink>.ToElements
+  nameWithType.vb: XmlIndexer(Of TLink).ToElements
 - uid: Platform.Examples.XUnitTestsRunnerCLI
   name: XUnitTestsRunnerCLI
   href: api/Platform.Examples.XUnitTestsRunnerCLI.html

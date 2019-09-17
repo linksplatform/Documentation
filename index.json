@@ -1,8 +1,8 @@
 {
-  "index.html": {
-    "href": "index.html",
-    "title": "Links Platform (русская версия) | LinksPlatform",
-    "keywords": "Links Platform ( русская версия ) Holistic system for storage and transformation of information (in development) based on associative model of data. Prerequisites Linux, macOS or Windows operating system. .NET Core SDK with version 2.2 or later. MonoDevelop , Visual Studio or any other IDE or just a text editor . Links Platform's NuGet packages Main packages Platform.Data Common interfaces and classes for both Doublets and Triplets . Platform.Data.Doublets Platform.Data.Triplets Platform.Data.Triplets.Kernel Auxiliary packages Platform.Data.Memory Platform.Data.Communication Platform.Collections.Methods Platform.IO Platform.Unsafe Platform.Numbers Platform.Converters Platform.Scopes Platform.Singletons Platform.Reflection Platform.Threading Platform.Collections Platform.Diagnostics Platform.Counters Platform.Setters Platform.Comparers Platform.Random Platform.Timestamps Platform.Ranges Platform.Disposables Platform.Exceptions Platform.Interfaces"
+  "README.ru.html": {
+    "href": "README.ru.html",
+    "title": "ПлатформаСвязей (english version) | LinksPlatform",
+    "keywords": "ПлатформаСвязей ( english version ) Документация Графическое вступление Пример using System; using Platform.Data.Doublets; using Platform.Data.Doublets.ResizableDirectMemory; namespace HelloWorld.Doublets.DotNet { class Program { static void Main() { using (var links = new ResizableDirectMemoryLinks<uint>(\"db.links\")) { var link = links.Create(); link = links.Update(link, link, link); Console.WriteLine(\"Привет Мир!\"); Console.WriteLine($\"Это моя первая связь: ({link}:{links.GetSource(link)}->{links.GetTarget(link)}).\"); } } } } SQLite против Дуплетов Описание Вдохновлено работой Симона Вильямса ( Ассоциативная модель данных - англ. ), книга (англ.) , сравнение с реляционными моделями данных (англ.) . Сравнение моделей данных: Сравнение теорий: Эта платформа использует объединённый тип данных — связь, который является комбинацией Элемента и Связи из оригинальной работы Симона Вильямса. Таким образом Элемент или Точка являются частным случаем связи, которая ссылается сама на себя . Есть два варианта структуры Связи: Нетипизированная, каждая связь содержит Source (Начало, Подлежащее) и Target (Конец, Сказуемое, Дополнение). Типизированная, с добавленным Linker (Глагол, Тип, Связка, Предикат, Сказуемое), так, что теперь любая дополнительная информация о типе соединения между двумя связями может быть записана в это дополнительное поле. Платформа Связей это система, которая комбинирует хранилище ассоциативной памяти (Связи) и движок выполнения трансформаций (Триггеры). Существует возможность программировать эту систему динамически, благодаря тому факту, что все алгоритмы воспринимаются как данные внутри этого хранилища. Такие алгоритмы также способны изменять сами себя в режиме реального времени на основе входных данных из окружающей среды. Идея, которая стоит за Платформой Связей это модель высокоуровневых эффектов ассоциативной памяти человеческого разума. Дорожная карта Текущее состояние разработки (англ.) Концепт Swagger Connector Links (doublets) API swagger connector. Links (triplets, micro RDF) API swagger connector. Часто задаваемые вопросы Контакты https://vk.com/linksplatform https://vk.com/konard"
   },
   "doc/articles/links-theory.html": {
     "href": "doc/articles/links-theory.html",
@@ -19,10 +19,180 @@
     "title": "Платформа Связей (english version) | LinksPlatform",
     "keywords": "Платформа Связей ( english version ) Целостная система для хранения и обработки информации (в разработке), основанная на ассоциативной модели данных. Требования Операционная система Linux, macOS или Windows. .NET Core SDK версии 2.2 или выше. MonoDevelop , Visual Studio или любая другая ИСР или просто текстовый редактор . NuGet пакеты Платформы Связей Основные пакеты Platform.Data Общие интерфейсы и классы для Дуплетов и Триплетов . Platform.Data.Doublets Platform.Data.Triplets Platform.Data.Triplets.Kernel Вспомогательные проекты Platform.Data.Memory Platform.Data.Communication Platform.Collections.Methods Platform.IO Platform.Unsafe Platform.Numbers Platform.Converters Platform.Scopes Platform.Singletons Platform.Reflection Platform.Threading Platform.Collections Platform.Diagnostics Platform.Counters Platform.Setters Platform.Comparers Platform.Random Platform.Timestamps Platform.Ranges Platform.Disposables Platform.Exceptions Platform.Interfaces"
   },
-  "README.ru.html": {
-    "href": "README.ru.html",
-    "title": "ПлатформаСвязей (english version) | LinksPlatform",
-    "keywords": "ПлатформаСвязей ( english version ) Документация Графическое вступление Пример using System; using Platform.Data.Doublets; using Platform.Data.Doublets.ResizableDirectMemory; namespace HelloWorld.Doublets.DotNet { class Program { static void Main() { using (var links = new ResizableDirectMemoryLinks<uint>(\"db.links\")) { var link = links.Create(); link = links.Update(link, link, link); Console.WriteLine(\"Привет Мир!\"); Console.WriteLine($\"Это моя первая связь: ({link}:{links.GetSource(link)}->{links.GetTarget(link)}).\"); } } } } SQLite против Дуплетов Описание Вдохновлено работой Симона Вильямса ( Ассоциативная модель данных - англ. ), книга (англ.) , сравнение с реляционными моделями данных (англ.) . Сравнение моделей данных: Сравнение теорий: Эта платформа использует объединённый тип данных — связь, который является комбинацией Элемента и Связи из оригинальной работы Симона Вильямса. Таким образом Элемент или Точка являются частным случаем связи, которая ссылается сама на себя . Есть два варианта структуры Связи: Нетипизированная, каждая связь содержит Source (Начало, Подлежащее) и Target (Конец, Сказуемое, Дополнение). Типизированная, с добавленным Linker (Глагол, Тип, Связка, Предикат, Сказуемое), так, что теперь любая дополнительная информация о типе соединения между двумя связями может быть записана в это дополнительное поле. Платформа Связей это система, которая комбинирует хранилище ассоциативной памяти (Связи) и движок выполнения трансформаций (Триггеры). Существует возможность программировать эту систему динамически, благодаря тому факту, что все алгоритмы воспринимаются как данные внутри этого хранилища. Такие алгоритмы также способны изменять сами себя в режиме реального времени на основе входных данных из окружающей среды. Идея, которая стоит за Платформой Связей это модель высокоуровневых эффектов ассоциативной памяти человеческого разума. Дорожная карта Текущее состояние разработки (англ.) Концепт Swagger Connector Links (doublets) API swagger connector. Links (triplets, micro RDF) API swagger connector. Часто задаваемые вопросы Контакты https://vk.com/linksplatform https://vk.com/konard"
+  "index.html": {
+    "href": "index.html",
+    "title": "Links Platform (русская версия) | LinksPlatform",
+    "keywords": "Links Platform ( русская версия ) Holistic system for storage and transformation of information (in development) based on associative model of data. Prerequisites Linux, macOS or Windows operating system. .NET Core SDK with version 2.2 or later. MonoDevelop , Visual Studio or any other IDE or just a text editor . Links Platform's NuGet packages Main packages Platform.Data Common interfaces and classes for both Doublets and Triplets . Platform.Data.Doublets Platform.Data.Triplets Platform.Data.Triplets.Kernel Auxiliary packages Platform.Data.Memory Platform.Data.Communication Platform.Collections.Methods Platform.IO Platform.Unsafe Platform.Numbers Platform.Converters Platform.Scopes Platform.Singletons Platform.Reflection Platform.Threading Platform.Collections Platform.Diagnostics Platform.Counters Platform.Setters Platform.Comparers Platform.Random Platform.Timestamps Platform.Ranges Platform.Disposables Platform.Exceptions Platform.Interfaces"
+  },
+  "api/Platform.Sandbox.Walker3.html": {
+    "href": "api/Platform.Sandbox.Walker3.html",
+    "title": "Class Walker3 | LinksPlatform",
+    "keywords": "Class Walker3 Inheritance System.Object ConsolePrintedDublicateWalkerBase Walker3 Inherited Members ConsolePrintedDublicateWalkerBase.OnDublicateFound(CharSegment) ConsolePrintedDublicateWalkerBase.CreateSegment(IList<Char>, Int32, Int32) Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public class Walker3 : ConsolePrintedDublicateWalkerBase Methods GetSegmentFrequency(CharSegment) Declaration protected override long GetSegmentFrequency(CharSegment segment) Parameters Type Name Description CharSegment segment Returns Type Description System.Int64 Iteration(CharSegment) Declaration protected override void Iteration(CharSegment segment) Parameters Type Name Description CharSegment segment SetSegmentFrequency(CharSegment, Int64) Declaration protected override void SetSegmentFrequency(CharSegment segment, long frequency) Parameters Type Name Description CharSegment segment System.Int64 frequency WalkAll(IList<Char>) Declaration public override void WalkAll(IList<char> elements) Parameters Type Name Description IList < System.Char > elements"
+  },
+  "api/Platform.Examples.TerminalCLI.html": {
+    "href": "api/Platform.Examples.TerminalCLI.html",
+    "title": "Class TerminalCLI | LinksPlatform",
+    "keywords": "Class TerminalCLI Inheritance System.Object TerminalCLI Implements ICommandLineInterface Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Examples Assembly : cs.temp.dll.dll Syntax public class TerminalCLI : ICommandLineInterface Methods Run(String[]) Declaration public void Run(params string[] args) Parameters Type Name Description System.String [] args Implements ICommandLineInterface"
+  },
+  "api/Platform.Examples.GEXFCSVExporterCLI.html": {
+    "href": "api/Platform.Examples.GEXFCSVExporterCLI.html",
+    "title": "Class GEXFCSVExporterCLI | LinksPlatform",
+    "keywords": "Class GEXFCSVExporterCLI Inheritance System.Object GEXFCSVExporterCLI Implements ICommandLineInterface Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Examples Assembly : cs.temp.dll.dll Syntax public class GEXFCSVExporterCLI : ICommandLineInterface Methods Run(String[]) Declaration public void Run(params string[] args) Parameters Type Name Description System.String [] args Implements ICommandLineInterface"
+  },
+  "api/Platform.Data.WebTerminal.Models.LinkModel.html": {
+    "href": "api/Platform.Data.WebTerminal.Models.LinkModel.html",
+    "title": "Class LinkModel | LinksPlatform",
+    "keywords": "Class LinkModel Inheritance System.Object LinkModel Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Data.WebTerminal.Models Assembly : cs.temp.dll.dll Syntax public class LinkModel Constructors LinkModel(Link) Declaration public LinkModel(Link link) Parameters Type Name Description Link link LinkModel(Link, List<LinkModel>) Declaration public LinkModel(Link link, List<LinkModel> referersModels) Parameters Type Name Description Link link List < LinkModel > referersModels Properties Link Declaration public Link Link { get; set; } Property Value Type Description Link ReferersModels Declaration public List<LinkModel> ReferersModels { get; set; } Property Value Type Description List < LinkModel > Methods CreateLinkModel(Link, Int32) Declaration public static LinkModel CreateLinkModel(Link link, int nestingLevel = 5) Parameters Type Name Description Link link System.Int32 nestingLevel Returns Type Description LinkModel"
+  },
+  "api/Platform.Data.WebTerminal.Models.ErrorViewModel.html": {
+    "href": "api/Platform.Data.WebTerminal.Models.ErrorViewModel.html",
+    "title": "Class ErrorViewModel | LinksPlatform",
+    "keywords": "Class ErrorViewModel Inheritance System.Object ErrorViewModel Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Data.WebTerminal.Models Assembly : cs.temp.dll.dll Syntax public class ErrorViewModel Properties RequestId Declaration public string RequestId { get; set; } Property Value Type Description System.String ShowRequestId Declaration public bool ShowRequestId { get; } Property Value Type Description System.Boolean"
+  },
+  "api/Platform.Sandbox.Zadacha.html": {
+    "href": "api/Platform.Sandbox.Zadacha.html",
+    "title": "Class Zadacha | LinksPlatform",
+    "keywords": "Class Zadacha Inheritance System.Object Zadacha Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public class Zadacha Fields StepsFor7DigitPhoneNumbers Declaration public const int StepsFor7DigitPhoneNumbers = 6 Field Value Type Description System.Int32 Methods RunAll() Declaration public void RunAll() RunOne() Declaration public void RunOne()"
+  },
+  "api/Platform.Sandbox.NetParserTest.html": {
+    "href": "api/Platform.Sandbox.NetParserTest.html",
+    "title": "Class NetParserTest | LinksPlatform",
+    "keywords": "Class NetParserTest Inheritance System.Object NetParserTest Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public class NetParserTest Methods Run() Declaration public static void Run()"
+  },
+  "api/Platform.Examples.XmlElementCounter.html": {
+    "href": "api/Platform.Examples.XmlElementCounter.html",
+    "title": "Class XmlElementCounter | LinksPlatform",
+    "keywords": "Class XmlElementCounter Inheritance System.Object XmlElementCounter Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Examples Assembly : cs.temp.dll.dll Syntax public class XmlElementCounter Constructors XmlElementCounter() Declaration public XmlElementCounter() Methods Count(String, CancellationToken) Declaration public Task Count(string file, CancellationToken token) Parameters Type Name Description System.String file CancellationToken token Returns Type Description Task"
+  },
+  "api/Platform.Examples.MasterServer.html": {
+    "href": "api/Platform.Examples.MasterServer.html",
+    "title": "Class MasterServer | LinksPlatform",
+    "keywords": "Class MasterServer Inheritance System.Object MasterServer Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Examples Assembly : cs.temp.dll.dll Syntax public class MasterServer Constructors MasterServer(ILinks<UInt64>, Sequences, UdpSender) Declaration public MasterServer(ILinks<ulong> links, Sequences sequences, UdpSender sender) Parameters Type Name Description ILinks < System.UInt64 > links Sequences sequences UdpSender sender Methods Create(String) Declaration public void Create(string message) Parameters Type Name Description System.String message IsSearch(String) Declaration public bool IsSearch(string message) Parameters Type Name Description System.String message Returns Type Description System.Boolean PrintContents(Action<String>) Declaration public void PrintContents(Action<string> messageHandler) Parameters Type Name Description Action < System.String > messageHandler Search(String) Declaration public void Search(string message) Parameters Type Name Description System.String message"
+  },
+  "api/Platform.Examples.LinksXmlStorage-1.html": {
+    "href": "api/Platform.Examples.LinksXmlStorage-1.html",
+    "title": "Class LinksXmlStorage<TLink> | LinksPlatform",
+    "keywords": "Class LinksXmlStorage<TLink> Inheritance System.Object LinksXmlStorage<TLink> Implements IXmlStorage <TLink> Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Examples Assembly : cs.temp.dll.dll Syntax public class LinksXmlStorage<TLink> : IXmlStorage<TLink> Type Parameters Name Description TLink Constructors LinksXmlStorage(ILinks<TLink>, LinkFrequenciesCache<TLink>) Declaration public LinksXmlStorage(ILinks<TLink> links, LinkFrequenciesCache<TLink> frequenciesCache) Parameters Type Name Description ILinks <TLink> links LinkFrequenciesCache <TLink> frequenciesCache Methods AttachElementToParent(TLink, TLink) Declaration public void AttachElementToParent(TLink elementToAttach, TLink parent) Parameters Type Name Description TLink elementToAttach TLink parent CreateDocument(String) Declaration public TLink CreateDocument(string name) Parameters Type Name Description System.String name Returns Type Description TLink CreateElement(String) Declaration public TLink CreateElement(string name) Parameters Type Name Description System.String name Returns Type Description TLink CreateTextElement(String) Declaration public TLink CreateTextElement(string content) Parameters Type Name Description System.String content Returns Type Description TLink Implements IXmlStorage<TLink>"
+  },
+  "api/Platform.Data.WebTerminal.Program.html": {
+    "href": "api/Platform.Data.WebTerminal.Program.html",
+    "title": "Class Program | LinksPlatform",
+    "keywords": "Class Program Inheritance System.Object Program Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Data.WebTerminal Assembly : cs.temp.dll.dll Syntax public class Program Methods CreateWebHostBuilder(String[]) Declaration public static IWebHostBuilder CreateWebHostBuilder(string[] args) Parameters Type Name Description System.String [] args Returns Type Description IWebHostBuilder Main(String[]) Declaration public static void Main(string[] args) Parameters Type Name Description System.String [] args"
+  },
+  "api/Platform.Examples.CSVSequencesExporter.html": {
+    "href": "api/Platform.Examples.CSVSequencesExporter.html",
+    "title": "Class CSVSequencesExporter | LinksPlatform",
+    "keywords": "Class CSVSequencesExporter Inheritance System.Object CSVExporter CSVSequencesExporter Inherited Members CSVExporter._links CSVExporter._unicodeMapped CSVExporter._convertUnicodeLinksToCharacters CSVExporter._referenceByLines CSVExporter._visited CSVExporter._addressToLineNumber CSVExporter._linksCounter CSVExporter._linesCounter CSVExporter.Export(SynchronizedLinks<UInt64>, String, Boolean, Boolean, Boolean, CancellationToken) CSVExporter.Visit(UInt64) CSVExporter.FormatLink(UInt64) System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Examples Assembly : cs.temp.dll.dll Syntax public class CSVSequencesExporter : CSVExporter Methods WriteLink(StreamWriter, IList<UInt64>) Declaration protected override void WriteLink(StreamWriter writer, IList<ulong> link) Parameters Type Name Description System.IO.StreamWriter writer IList < System.UInt64 > link Overrides CSVExporter.WriteLink(StreamWriter, IList<UInt64>)"
+  },
+  "api/Platform.Examples.html": {
+    "href": "api/Platform.Examples.html",
+    "title": "Namespace Platform.Examples | LinksPlatform",
+    "keywords": "Namespace Platform.Examples Classes CSVExporter CSVExporterCLI<TExporter> CSVSequencesExporter FileIndexer FileIndexerCLI GEXFCSVExporterCLI GEXFExporter<TLink> LinksXmlStorage<TLink> MasterServer MasterServerCLI TerminalCLI XmlElementCounter XmlElementCounterCLI XmlImporterCLI XmlIndexer<TLink> XUnitTestsRunnerCLI Interfaces ICommandLineInterface IXmlStorage<TLink>"
+  },
+  "api/Platform.Sandbox.CompressionExperiments.Compressor.html": {
+    "href": "api/Platform.Sandbox.CompressionExperiments.Compressor.html",
+    "title": "Struct CompressionExperiments.Compressor | LinksPlatform",
+    "keywords": "Struct CompressionExperiments.Compressor Inherited Members System.ValueType.Equals(System.Object) System.ValueType.GetHashCode() System.ValueType.ToString() System.Object.Equals(System.Object, System.Object) System.Object.GetType() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public struct Compressor Constructors Compressor(SynchronizedLinks<UInt64>) Declaration public Compressor(SynchronizedLinks<ulong> links) Parameters Type Name Description SynchronizedLinks < System.UInt64 > links Methods Compress(UInt64[]) Declaration public ulong Compress(ulong[] sequence) Parameters Type Name Description System.UInt64 [] sequence Returns Type Description System.UInt64 Precompress0(UInt64[]) Declaration public ulong[] Precompress0(ulong[] sequence) Parameters Type Name Description System.UInt64 [] sequence Returns Type Description System.UInt64 [] Remarks Original algorithm idea: https://en.wikipedia.org/wiki/Byte_pair_encoding . Faster version (doublets' frequencies dictionary is not recreated). Precompress1(UInt64[]) Declaration public ulong[] Precompress1(ulong[] sequence) Parameters Type Name Description System.UInt64 [] sequence Returns Type Description System.UInt64 [] Remarks Original algorithm idea: https://en.wikipedia.org/wiki/Byte_pair_encoding . Faster version (doublets' frequencies dictionary is not recreated). Precompress2(UInt64[]) Declaration public ulong[] Precompress2(ulong[] sequence) Parameters Type Name Description System.UInt64 [] sequence Returns Type Description System.UInt64 [] Remarks Original algorithm idea: https://en.wikipedia.org/wiki/Byte_pair_encoding . Faster version (doublets' frequencies dictionary is not recreated). Precompress3(UInt64[]) Declaration public ulong[] Precompress3(ulong[] sequence) Parameters Type Name Description System.UInt64 [] sequence Returns Type Description System.UInt64 [] Remarks Original algorithm idea: https://en.wikipedia.org/wiki/Byte_pair_encoding . If doublet repeats twice it is maximum doublet. Precompress4(UInt64[]) Declaration public ulong[] Precompress4(ulong[] sequence) Parameters Type Name Description System.UInt64 [] sequence Returns Type Description System.UInt64 [] Remarks Original algorithm idea: https://en.wikipedia.org/wiki/Byte_pair_encoding . If doublet repeats twice it is maximum doublet. Precompress5(UInt64[]) Declaration public ulong[] Precompress5(ulong[] sequence) Parameters Type Name Description System.UInt64 [] sequence Returns Type Description System.UInt64 [] Remarks Original algorithm idea: https://en.wikipedia.org/wiki/Byte_pair_encoding . Global dictionary"
+  },
+  "api/Platform.Examples.CSVExporterCLI-1.html": {
+    "href": "api/Platform.Examples.CSVExporterCLI-1.html",
+    "title": "Class CSVExporterCLI<TExporter> | LinksPlatform",
+    "keywords": "Class CSVExporterCLI<TExporter> Inheritance System.Object CSVExporterCLI<TExporter> Implements ICommandLineInterface Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Examples Assembly : cs.temp.dll.dll Syntax public class CSVExporterCLI<TExporter> : ICommandLineInterface where TExporter : CSVExporter, new() Type Parameters Name Description TExporter Methods Run(String[]) Declaration public void Run(params string[] args) Parameters Type Name Description System.String [] args Implements ICommandLineInterface"
+  },
+  "api/Platform.Data.WebTerminal.Controllers.html": {
+    "href": "api/Platform.Data.WebTerminal.Controllers.html",
+    "title": "Namespace Platform.Data.WebTerminal.Controllers | LinksPlatform",
+    "keywords": "Namespace Platform.Data.WebTerminal.Controllers Classes HomeController LinksController"
+  },
+  "api/Platform.Sandbox.Walker1.html": {
+    "href": "api/Platform.Sandbox.Walker1.html",
+    "title": "Class Walker1 | LinksPlatform",
+    "keywords": "Class Walker1 Inheritance System.Object ConsolePrintedDublicateWalkerBase Walker1 Inherited Members ConsolePrintedDublicateWalkerBase.OnDublicateFound(CharSegment) ConsolePrintedDublicateWalkerBase.CreateSegment(IList<Char>, Int32, Int32) Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public class Walker1 : ConsolePrintedDublicateWalkerBase Methods GetSegmentFrequency(CharSegment) Declaration protected override long GetSegmentFrequency(CharSegment segment) Parameters Type Name Description CharSegment segment Returns Type Description System.Int64 Iteration(CharSegment) Declaration protected override void Iteration(CharSegment segment) Parameters Type Name Description CharSegment segment SetSegmentFrequency(CharSegment, Int64) Declaration protected override void SetSegmentFrequency(CharSegment segment, long frequency) Parameters Type Name Description CharSegment segment System.Int64 frequency WalkAll(IList<Char>) Declaration public override void WalkAll(IList<char> elements) Parameters Type Name Description IList < System.Char > elements"
+  },
+  "api/Platform.Sandbox.Inherited.html": {
+    "href": "api/Platform.Sandbox.Inherited.html",
+    "title": "Class Inherited | LinksPlatform",
+    "keywords": "Class Inherited Inheritance System.Object StaticBase < Base > Base Inherited Inherited Members StaticBase<Base>.Instance System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public class Inherited : Base Methods MethodA() Declaration public static void MethodA()"
+  },
+  "api/Platform.Examples.FileIndexerCLI.html": {
+    "href": "api/Platform.Examples.FileIndexerCLI.html",
+    "title": "Class FileIndexerCLI | LinksPlatform",
+    "keywords": "Class FileIndexerCLI Inheritance System.Object FileIndexerCLI Implements ICommandLineInterface Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Examples Assembly : cs.temp.dll.dll Syntax public class FileIndexerCLI : ICommandLineInterface Methods Run(String[]) Declaration public void Run(string[] args) Parameters Type Name Description System.String [] args Implements ICommandLineInterface"
+  },
+  "api/Platform.Data.WebTerminal.html": {
+    "href": "api/Platform.Data.WebTerminal.html",
+    "title": "Namespace Platform.Data.WebTerminal | LinksPlatform",
+    "keywords": "Namespace Platform.Data.WebTerminal Classes Program Startup"
+  },
+  "api/Platform.Sandbox.NetParser.html": {
+    "href": "api/Platform.Sandbox.NetParser.html",
+    "title": "Class NetParser | LinksPlatform",
+    "keywords": "Class NetParser Inheritance System.Object NetParser Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public class NetParser Remarks TODO: Use PEG instead. Methods ParseStatement(String) Declaration public static void ParseStatement(string statement) Parameters Type Name Description System.String statement"
+  },
+  "api/Platform.Data.SlaveServer.Program.html": {
+    "href": "api/Platform.Data.SlaveServer.Program.html",
+    "title": "Class Program | LinksPlatform",
+    "keywords": "Class Program Inheritance System.Object Program Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Data.SlaveServer Assembly : cs.temp.dll.dll Syntax public class Program Methods Main(String[]) Declaration public static void Main(string[] args) Parameters Type Name Description System.String [] args"
+  },
+  "api/Platform.Data.WebTerminal.Startup.html": {
+    "href": "api/Platform.Data.WebTerminal.Startup.html",
+    "title": "Class Startup | LinksPlatform",
+    "keywords": "Class Startup Inheritance System.Object Startup Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Data.WebTerminal Assembly : cs.temp.dll.dll Syntax public class Startup Constructors Startup(IConfiguration) Declaration public Startup(IConfiguration configuration) Parameters Type Name Description IConfiguration configuration Properties Configuration Declaration public IConfiguration Configuration { get; } Property Value Type Description IConfiguration Methods Configure(IApplicationBuilder, IHostingEnvironment) Declaration public void Configure(IApplicationBuilder app, IHostingEnvironment env) Parameters Type Name Description IApplicationBuilder app IHostingEnvironment env ConfigureServices(IServiceCollection) Declaration public void ConfigureServices(IServiceCollection services) Parameters Type Name Description IServiceCollection services"
+  },
+  "api/Platform.Sandbox.QueryExecutorExtensions.html": {
+    "href": "api/Platform.Sandbox.QueryExecutorExtensions.html",
+    "title": "Class QueryExecutorExtensions | LinksPlatform",
+    "keywords": "Class QueryExecutorExtensions Представляет класс-контейнер расширений для выполнения произвольных запросов над Links Inheritance System.Object QueryExecutorExtensions Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public static class QueryExecutorExtensions Methods Execute<T>(SynchronizedLinks<UInt64>, Expression<Func<SynchronizedLinks<UInt64>, IEnumerable<T>>>) Выполняет запрос query над links и возвращает результат запроса в виде перечисляемого объекта с элементами типа T. Declaration public static IEnumerable<T> Execute<T>(this SynchronizedLinks<ulong> links, Expression<Func<SynchronizedLinks<ulong>, IEnumerable<T>>> query) Parameters Type Name Description SynchronizedLinks < System.UInt64 > links База данных связей, над которой будет выполняться запрос. Expression < Func < SynchronizedLinks < System.UInt64 >, IEnumerable <T>>> query Запрос в виде Linq-выражения. Returns Type Description IEnumerable <T> Результат запроса в виде перечисляемого объекта с элементами типа T. Type Parameters Name Description T Тип элемента запроса."
+  },
+  "api/Platform.Data.ConsoleTerminal.html": {
+    "href": "api/Platform.Data.ConsoleTerminal.html",
+    "title": "Namespace Platform.Data.ConsoleTerminal | LinksPlatform",
+    "keywords": "Namespace Platform.Data.ConsoleTerminal Classes Program"
+  },
+  "api/Platform.Data.WebTerminal.Controllers.HomeController.html": {
+    "href": "api/Platform.Data.WebTerminal.Controllers.HomeController.html",
+    "title": "Class HomeController | LinksPlatform",
+    "keywords": "Class HomeController Inheritance System.Object HomeController Namespace : Platform.Data.WebTerminal.Controllers Assembly : cs.temp.dll.dll Syntax public class HomeController : Controller Methods Error() Declaration public IActionResult Error() Returns Type Description IActionResult Index() Declaration public IActionResult Index() Returns Type Description IActionResult Privacy() Declaration public IActionResult Privacy() Returns Type Description IActionResult"
+  },
+  "api/Platform.Examples.XUnitTestsRunnerCLI.html": {
+    "href": "api/Platform.Examples.XUnitTestsRunnerCLI.html",
+    "title": "Class XUnitTestsRunnerCLI | LinksPlatform",
+    "keywords": "Class XUnitTestsRunnerCLI Inheritance System.Object XUnitTestsRunnerCLI Implements ICommandLineInterface Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Examples Assembly : cs.temp.dll.dll Syntax public class XUnitTestsRunnerCLI : ICommandLineInterface Remarks Based on https://github.com/xunit/samples.xunit/blob/master/TestRunner/Program.cs Constructors XUnitTestsRunnerCLI() Declaration public XUnitTestsRunnerCLI() Properties Succeed Declaration public bool Succeed { get; } Property Value Type Description System.Boolean Methods Run(String[]) Declaration public void Run(params string[] args) Parameters Type Name Description System.String [] args Implements ICommandLineInterface"
+  },
+  "api/Platform.Examples.IXmlStorage-1.html": {
+    "href": "api/Platform.Examples.IXmlStorage-1.html",
+    "title": "Interface IXmlStorage<TLink> | LinksPlatform",
+    "keywords": "Interface IXmlStorage<TLink> Namespace : Platform.Examples Assembly : cs.temp.dll.dll Syntax public interface IXmlStorage<TLink> Type Parameters Name Description TLink Methods AttachElementToParent(TLink, TLink) Declaration void AttachElementToParent(TLink elementToAttach, TLink parent) Parameters Type Name Description TLink elementToAttach TLink parent CreateDocument(String) Declaration TLink CreateDocument(string name) Parameters Type Name Description System.String name Returns Type Description TLink CreateElement(String) Declaration TLink CreateElement(string name) Parameters Type Name Description System.String name Returns Type Description TLink CreateTextElement(String) Declaration TLink CreateTextElement(string content) Parameters Type Name Description System.String content Returns Type Description TLink"
+  },
+  "api/Platform.Examples.FileIndexer.html": {
+    "href": "api/Platform.Examples.FileIndexer.html",
+    "title": "Class FileIndexer | LinksPlatform",
+    "keywords": "Class FileIndexer Inheritance System.Object FileIndexer Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Examples Assembly : cs.temp.dll.dll Syntax public class FileIndexer Constructors FileIndexer(SynchronizedLinks<UInt64>, SequenceIndex<UInt64>) Declaration public FileIndexer(SynchronizedLinks<ulong> links, SequenceIndex<ulong> indexer) Parameters Type Name Description SynchronizedLinks < System.UInt64 > links SequenceIndex < System.UInt64 > indexer Methods IndexAsync(String, CancellationToken) Declaration public Task IndexAsync(string path, CancellationToken cancellationToken) Parameters Type Name Description System.String path CancellationToken cancellationToken Returns Type Description Task IndexParallel(String, CancellationToken) Declaration public void IndexParallel(string path, CancellationToken cancellationToken) Parameters Type Name Description System.String path CancellationToken cancellationToken IndexSync(String, CancellationToken) Declaration public void IndexSync(string path, CancellationToken cancellationToken) Parameters Type Name Description System.String path CancellationToken cancellationToken"
+  },
+  "api/Platform.Sandbox.OperationsExperiments.html": {
+    "href": "api/Platform.Sandbox.OperationsExperiments.html",
+    "title": "Class OperationsExperiments | LinksPlatform",
+    "keywords": "Class OperationsExperiments Inheritance System.Object OperationsExperiments Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public class OperationsExperiments Methods RunExperiment() Declaration public static void RunExperiment()"
+  },
+  "api/Platform.Examples.GEXFExporter-1.html": {
+    "href": "api/Platform.Examples.GEXFExporter-1.html",
+    "title": "Class GEXFExporter<TLink> | LinksPlatform",
+    "keywords": "Class GEXFExporter<TLink> Inheritance System.Object GEXFExporter<TLink> Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Examples Assembly : cs.temp.dll.dll Syntax public class GEXFExporter<TLink> Type Parameters Name Description TLink Constructors GEXFExporter(ILinks<TLink>) Declaration public GEXFExporter(ILinks<TLink> links) Parameters Type Name Description ILinks <TLink> links Methods Export(String) Declaration public void Export(string outputFilename) Parameters Type Name Description System.String outputFilename"
+  },
+  "api/Platform.Sandbox.Walker4.html": {
+    "href": "api/Platform.Sandbox.Walker4.html",
+    "title": "Class Walker4 | LinksPlatform",
+    "keywords": "Class Walker4 Inheritance System.Object Walker4 Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public class Walker4 : DictionaryBasedDuplicateSegmentsWalkerBase<char, CharSegment> Constructors Walker4() Declaration public Walker4() Methods CreateSegment(IList<Char>, Int32, Int32) Declaration protected override CharSegment CreateSegment(IList<char> elements, int offset, int length) Parameters Type Name Description IList < System.Char > elements System.Int32 offset System.Int32 length Returns Type Description CharSegment OnDublicateFound(CharSegment) Declaration protected override void OnDublicateFound(CharSegment segment) Parameters Type Name Description CharSegment segment WalkAll(IList<Char>) Declaration public override void WalkAll(IList<char> elements) Parameters Type Name Description IList < System.Char > elements"
+  },
+  "api/Platform.Sandbox.Base.html": {
+    "href": "api/Platform.Sandbox.Base.html",
+    "title": "Class Base | LinksPlatform",
+    "keywords": "Class Base Inheritance System.Object StaticBase < Base > Base Inherited Inherited Members StaticBase<Base>.Instance System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public class Base : StaticBase<Base> Constructors Base() Declaration public Base() Methods MethodA() Declaration public void MethodA()"
+  },
+  "api/Platform.Examples.XmlIndexer-1.html": {
+    "href": "api/Platform.Examples.XmlIndexer-1.html",
+    "title": "Class XmlIndexer<TLink> | LinksPlatform",
+    "keywords": "Class XmlIndexer<TLink> Inheritance System.Object XmlIndexer<TLink> Implements IXmlStorage <TLink> Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Examples Assembly : cs.temp.dll.dll Syntax public class XmlIndexer<TLink> : IXmlStorage<TLink> Type Parameters Name Description TLink Constructors XmlIndexer(ILinks<TLink>) Declaration public XmlIndexer(ILinks<TLink> links) Parameters Type Name Description ILinks <TLink> links Properties Cache Declaration public LinkFrequenciesCache<TLink> Cache { get; } Property Value Type Description LinkFrequenciesCache <TLink> Methods AttachElementToParent(TLink, TLink) Declaration public void AttachElementToParent(TLink elementToAttach, TLink parent) Parameters Type Name Description TLink elementToAttach TLink parent CreateDocument(String) Declaration public TLink CreateDocument(string name) Parameters Type Name Description System.String name Returns Type Description TLink CreateElement(String) Declaration public TLink CreateElement(string name) Parameters Type Name Description System.String name Returns Type Description TLink CreateTextElement(String) Declaration public TLink CreateTextElement(string content) Parameters Type Name Description System.String content Returns Type Description TLink ToElements(String) Declaration public IList<TLink> ToElements(string string) Parameters Type Name Description System.String string Returns Type Description IList <TLink> Implements IXmlStorage<TLink>"
   },
   "api/Platform.Examples.CSVExporter.html": {
     "href": "api/Platform.Examples.CSVExporter.html",
@@ -33,6 +203,16 @@
     "href": "api/Platform.Sandbox.TextParser.State.html",
     "title": "Class TextParser.State | LinksPlatform",
     "keywords": "Class TextParser.State Inheritance System.Object TextParser.State Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax protected class State Fields ParsedFromPath Declaration public string ParsedFromPath Field Value Type Description System.String ResultSequence Declaration public Link ResultSequence Field Value Type Description Link"
+  },
+  "api/Platform.Sandbox.Transactions.html": {
+    "href": "api/Platform.Sandbox.Transactions.html",
+    "title": "Class Transactions | LinksPlatform",
+    "keywords": "Class Transactions Inheritance System.Object Transactions Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public static class Transactions Methods Run() Declaration public static void Run()"
+  },
+  "api/Platform.Examples.XmlElementCounterCLI.html": {
+    "href": "api/Platform.Examples.XmlElementCounterCLI.html",
+    "title": "Class XmlElementCounterCLI | LinksPlatform",
+    "keywords": "Class XmlElementCounterCLI Inheritance System.Object XmlElementCounterCLI Implements ICommandLineInterface Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Examples Assembly : cs.temp.dll.dll Syntax public class XmlElementCounterCLI : ICommandLineInterface Methods Run(String[]) Declaration public void Run(params string[] args) Parameters Type Name Description System.String [] args Implements ICommandLineInterface"
   },
   "api/Platform.Data.MasterServer.html": {
     "href": "api/Platform.Data.MasterServer.html",
@@ -49,35 +229,10 @@
     "title": "Enum OperationsExperiments.Mapping | LinksPlatform",
     "keywords": "Enum OperationsExperiments.Mapping Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public enum Mapping Fields Name Description Absence Argument As Creation Deletion Execution For From InCaseMatchingValueIs Itself Linker Links OfMatchingOperationFrom Reference Representation Result Selection Source Target ThatExactlyIs To Update With"
   },
-  "api/Platform.Sandbox.ConceptTest.html": {
-    "href": "api/Platform.Sandbox.ConceptTest.html",
-    "title": "Class ConceptTest | LinksPlatform",
-    "keywords": "Class ConceptTest Inheritance System.Object ConceptTest Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public static class ConceptTest Methods Test(String) Declaration public static void Test(string filename) Parameters Type Name Description System.String filename TestGexf(String) Declaration public static void TestGexf(string filename) Parameters Type Name Description System.String filename"
-  },
-  "api/Platform.Sandbox.TerminalExperiment.html": {
-    "href": "api/Platform.Sandbox.TerminalExperiment.html",
-    "title": "Class TerminalExperiment | LinksPlatform",
-    "keywords": "Class TerminalExperiment Inheritance System.Object TerminalExperiment Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public static class TerminalExperiment Properties IsRunning Declaration public static bool IsRunning { get; set; } Property Value Type Description System.Boolean Methods LinkCreated(LinkDefinition) Declaration public static void LinkCreated(LinkDefinition createdLink) Parameters Type Name Description LinkDefinition createdLink Run() Declaration public static void Run()"
-  },
-  "api/Platform.Sandbox.IterationsCounter.html": {
-    "href": "api/Platform.Sandbox.IterationsCounter.html",
-    "title": "Class IterationsCounter | LinksPlatform",
-    "keywords": "Class IterationsCounter Inheritance System.Object IterationsCounter Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public class IterationsCounter : AllSegmentsWalkerBase<char> Fields IterationsCount Declaration public long IterationsCount Field Value Type Description System.Int64 Methods Iteration(Segment<Char>) Declaration protected override void Iteration(Segment<char> segment) Parameters Type Name Description Segment < System.Char > segment"
-  },
-  "api/Platform.Sandbox.Walker2.html": {
-    "href": "api/Platform.Sandbox.Walker2.html",
-    "title": "Class Walker2 | LinksPlatform",
-    "keywords": "Class Walker2 Inheritance System.Object ConsolePrintedDublicateWalkerBase Walker2 Inherited Members ConsolePrintedDublicateWalkerBase.OnDublicateFound(CharSegment) ConsolePrintedDublicateWalkerBase.CreateSegment(IList<Char>, Int32, Int32) Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public class Walker2 : ConsolePrintedDublicateWalkerBase Methods GetSegmentFrequency(CharSegment) Declaration protected override long GetSegmentFrequency(CharSegment segment) Parameters Type Name Description CharSegment segment Returns Type Description System.Int64 Iteration(CharSegment) Declaration protected override void Iteration(CharSegment segment) Parameters Type Name Description CharSegment segment SetSegmentFrequency(CharSegment, Int64) Declaration protected override void SetSegmentFrequency(CharSegment segment, long frequency) Parameters Type Name Description CharSegment segment System.Int64 frequency WalkAll(IList<Char>) Declaration public override void WalkAll(IList<char> elements) Parameters Type Name Description IList < System.Char > elements"
-  },
-  "api/Platform.Examples.TerminalCLI.html": {
-    "href": "api/Platform.Examples.TerminalCLI.html",
-    "title": "Class TerminalCLI | LinksPlatform",
-    "keywords": "Class TerminalCLI Inheritance System.Object TerminalCLI Implements ICommandLineInterface Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Examples Assembly : cs.temp.dll.dll Syntax public class TerminalCLI : ICommandLineInterface Methods Run(String[]) Declaration public void Run(params string[] args) Parameters Type Name Description System.String [] args Implements ICommandLineInterface"
-  },
-  "api/Platform.Examples.IWikipediaStorage-1.html": {
-    "href": "api/Platform.Examples.IWikipediaStorage-1.html",
-    "title": "Interface IWikipediaStorage<TLink> | LinksPlatform",
-    "keywords": "Interface IWikipediaStorage<TLink> Namespace : Platform.Examples Assembly : cs.temp.dll.dll Syntax public interface IWikipediaStorage<TLink> Type Parameters Name Description TLink Methods AttachElementToParent(TLink, TLink) Declaration void AttachElementToParent(TLink elementToAttach, TLink parent) Parameters Type Name Description TLink elementToAttach TLink parent CreateDocument(String) Declaration TLink CreateDocument(string name) Parameters Type Name Description System.String name Returns Type Description TLink CreateElement(String) Declaration TLink CreateElement(string name) Parameters Type Name Description System.String name Returns Type Description TLink CreateTextElement(String) Declaration TLink CreateTextElement(string content) Parameters Type Name Description System.String content Returns Type Description TLink"
+  "api/Platform.Sandbox.Program.html": {
+    "href": "api/Platform.Sandbox.Program.html",
+    "title": "Class Program | LinksPlatform",
+    "keywords": "Class Program Inheritance System.Object Program Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public class Program Methods Main(String[]) Declaration public static void Main(string[] args) Parameters Type Name Description System.String [] args"
   },
   "api/Platform.Data.SlaveServer.html": {
     "href": "api/Platform.Data.SlaveServer.html",
@@ -89,175 +244,15 @@
     "title": "Class DllImportTest | LinksPlatform",
     "keywords": "Class DllImportTest Представляет тест, который позволит определить необходимо ли указывать расширение файла при подключении библиотеки. TODO: Проверить на пользовательских DLL TODO: Далее протестировать на CoreCLR, Mono Inheritance System.Object DllImportTest Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public class DllImportTest Methods MessageBox(IntPtr, String, String, UInt32) Declaration public static int MessageBox(IntPtr hWnd, String text, String caption, uint type) Parameters Type Name Description IntPtr hWnd String text String caption System.UInt32 type Returns Type Description System.Int32 Test() Declaration public static void Test()"
   },
+  "api/Platform.Examples.XmlImporterCLI.html": {
+    "href": "api/Platform.Examples.XmlImporterCLI.html",
+    "title": "Class XmlImporterCLI | LinksPlatform",
+    "keywords": "Class XmlImporterCLI Inheritance System.Object XmlImporterCLI Implements ICommandLineInterface Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Examples Assembly : cs.temp.dll.dll Syntax public class XmlImporterCLI : ICommandLineInterface Methods Run(String[]) Declaration public void Run(params string[] args) Parameters Type Name Description System.String [] args Implements ICommandLineInterface"
+  },
   "api/Platform.Data.WebTerminal.Models.html": {
     "href": "api/Platform.Data.WebTerminal.Models.html",
     "title": "Namespace Platform.Data.WebTerminal.Models | LinksPlatform",
     "keywords": "Namespace Platform.Data.WebTerminal.Models Classes ErrorViewModel LinkModel"
-  },
-  "api/Platform.Sandbox.Walker4.html": {
-    "href": "api/Platform.Sandbox.Walker4.html",
-    "title": "Class Walker4 | LinksPlatform",
-    "keywords": "Class Walker4 Inheritance System.Object Walker4 Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public class Walker4 : DictionaryBasedDuplicateSegmentsWalkerBase<char, CharSegment> Constructors Walker4() Declaration public Walker4() Methods CreateSegment(IList<Char>, Int32, Int32) Declaration protected override CharSegment CreateSegment(IList<char> elements, int offset, int length) Parameters Type Name Description IList < System.Char > elements System.Int32 offset System.Int32 length Returns Type Description CharSegment OnDublicateFound(CharSegment) Declaration protected override void OnDublicateFound(CharSegment segment) Parameters Type Name Description CharSegment segment WalkAll(IList<Char>) Declaration public override void WalkAll(IList<char> elements) Parameters Type Name Description IList < System.Char > elements"
-  },
-  "api/Platform.Sandbox.Base.html": {
-    "href": "api/Platform.Sandbox.Base.html",
-    "title": "Class Base | LinksPlatform",
-    "keywords": "Class Base Inheritance System.Object StaticBase < Base > Base Inherited Inherited Members StaticBase<Base>.Instance System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public class Base : StaticBase<Base> Constructors Base() Declaration public Base() Methods MethodA() Declaration public void MethodA()"
-  },
-  "api/Platform.Sandbox.Inherited.html": {
-    "href": "api/Platform.Sandbox.Inherited.html",
-    "title": "Class Inherited | LinksPlatform",
-    "keywords": "Class Inherited Inheritance System.Object StaticBase < Base > Base Inherited Inherited Members StaticBase<Base>.Instance System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public class Inherited : Base Methods MethodA() Declaration public static void MethodA()"
-  },
-  "api/Platform.Sandbox.Program.html": {
-    "href": "api/Platform.Sandbox.Program.html",
-    "title": "Class Program | LinksPlatform",
-    "keywords": "Class Program Inheritance System.Object Program Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public class Program Methods Main(String[]) Declaration public static void Main(string[] args) Parameters Type Name Description System.String [] args"
-  },
-  "api/Platform.Examples.FileIndexerCLI.html": {
-    "href": "api/Platform.Examples.FileIndexerCLI.html",
-    "title": "Class FileIndexerCLI | LinksPlatform",
-    "keywords": "Class FileIndexerCLI Inheritance System.Object FileIndexerCLI Implements ICommandLineInterface Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Examples Assembly : cs.temp.dll.dll Syntax public class FileIndexerCLI : ICommandLineInterface Methods Run(String[]) Declaration public void Run(string[] args) Parameters Type Name Description System.String [] args Implements ICommandLineInterface"
-  },
-  "api/Platform.Data.WebTerminal.html": {
-    "href": "api/Platform.Data.WebTerminal.html",
-    "title": "Namespace Platform.Data.WebTerminal | LinksPlatform",
-    "keywords": "Namespace Platform.Data.WebTerminal Classes Program Startup"
-  },
-  "api/Platform.Data.WebTerminal.Program.html": {
-    "href": "api/Platform.Data.WebTerminal.Program.html",
-    "title": "Class Program | LinksPlatform",
-    "keywords": "Class Program Inheritance System.Object Program Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Data.WebTerminal Assembly : cs.temp.dll.dll Syntax public class Program Methods CreateWebHostBuilder(String[]) Declaration public static IWebHostBuilder CreateWebHostBuilder(string[] args) Parameters Type Name Description System.String [] args Returns Type Description IWebHostBuilder Main(String[]) Declaration public static void Main(string[] args) Parameters Type Name Description System.String [] args"
-  },
-  "api/Platform.Examples.WikipediaPagesCounter.html": {
-    "href": "api/Platform.Examples.WikipediaPagesCounter.html",
-    "title": "Class WikipediaPagesCounter | LinksPlatform",
-    "keywords": "Class WikipediaPagesCounter Inheritance System.Object WikipediaPagesCounter Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Examples Assembly : cs.temp.dll.dll Syntax public class WikipediaPagesCounter Constructors WikipediaPagesCounter() Declaration public WikipediaPagesCounter() Methods Count(String, CancellationToken) Declaration public Task Count(string file, CancellationToken token) Parameters Type Name Description System.String file CancellationToken token Returns Type Description Task"
-  },
-  "api/Platform.Sandbox.StaticBase-1.html": {
-    "href": "api/Platform.Sandbox.StaticBase-1.html",
-    "title": "Class StaticBase<TSuccessor> | LinksPlatform",
-    "keywords": "Class StaticBase<TSuccessor> Inheritance System.Object StaticBase<TSuccessor> Base Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public abstract class StaticBase<TSuccessor> where TSuccessor : StaticBase<TSuccessor>, new() Type Parameters Name Description TSuccessor Fields Instance Declaration protected static readonly TSuccessor Instance Field Value Type Description TSuccessor"
-  },
-  "api/Platform.Sandbox.CompressionExperiments.Compressor.html": {
-    "href": "api/Platform.Sandbox.CompressionExperiments.Compressor.html",
-    "title": "Struct CompressionExperiments.Compressor | LinksPlatform",
-    "keywords": "Struct CompressionExperiments.Compressor Inherited Members System.ValueType.Equals(System.Object) System.ValueType.GetHashCode() System.ValueType.ToString() System.Object.Equals(System.Object, System.Object) System.Object.GetType() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public struct Compressor Constructors Compressor(SynchronizedLinks<UInt64>) Declaration public Compressor(SynchronizedLinks<ulong> links) Parameters Type Name Description SynchronizedLinks < System.UInt64 > links Methods Compress(UInt64[]) Declaration public ulong Compress(ulong[] sequence) Parameters Type Name Description System.UInt64 [] sequence Returns Type Description System.UInt64 Precompress0(UInt64[]) Declaration public ulong[] Precompress0(ulong[] sequence) Parameters Type Name Description System.UInt64 [] sequence Returns Type Description System.UInt64 [] Remarks Original algorithm idea: https://en.wikipedia.org/wiki/Byte_pair_encoding . Faster version (doublets' frequencies dictionary is not recreated). Precompress1(UInt64[]) Declaration public ulong[] Precompress1(ulong[] sequence) Parameters Type Name Description System.UInt64 [] sequence Returns Type Description System.UInt64 [] Remarks Original algorithm idea: https://en.wikipedia.org/wiki/Byte_pair_encoding . Faster version (doublets' frequencies dictionary is not recreated). Precompress2(UInt64[]) Declaration public ulong[] Precompress2(ulong[] sequence) Parameters Type Name Description System.UInt64 [] sequence Returns Type Description System.UInt64 [] Remarks Original algorithm idea: https://en.wikipedia.org/wiki/Byte_pair_encoding . Faster version (doublets' frequencies dictionary is not recreated). Precompress3(UInt64[]) Declaration public ulong[] Precompress3(ulong[] sequence) Parameters Type Name Description System.UInt64 [] sequence Returns Type Description System.UInt64 [] Remarks Original algorithm idea: https://en.wikipedia.org/wiki/Byte_pair_encoding . If doublet repeats twice it is maximum doublet. Precompress4(UInt64[]) Declaration public ulong[] Precompress4(ulong[] sequence) Parameters Type Name Description System.UInt64 [] sequence Returns Type Description System.UInt64 [] Remarks Original algorithm idea: https://en.wikipedia.org/wiki/Byte_pair_encoding . If doublet repeats twice it is maximum doublet. Precompress5(UInt64[]) Declaration public ulong[] Precompress5(ulong[] sequence) Parameters Type Name Description System.UInt64 [] sequence Returns Type Description System.UInt64 [] Remarks Original algorithm idea: https://en.wikipedia.org/wiki/Byte_pair_encoding . Global dictionary"
-  },
-  "api/Platform.Sandbox.A.html": {
-    "href": "api/Platform.Sandbox.A.html",
-    "title": "Class A | LinksPlatform",
-    "keywords": "Class A Inheritance System.Object A Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public static class A Methods Method1() Declaration public static void Method1() Method2() Declaration public static void Method2()"
-  },
-  "api/Platform.Examples.CSVExporterCLI-1.html": {
-    "href": "api/Platform.Examples.CSVExporterCLI-1.html",
-    "title": "Class CSVExporterCLI<TExporter> | LinksPlatform",
-    "keywords": "Class CSVExporterCLI<TExporter> Inheritance System.Object CSVExporterCLI<TExporter> Implements ICommandLineInterface Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Examples Assembly : cs.temp.dll.dll Syntax public class CSVExporterCLI<TExporter> : ICommandLineInterface where TExporter : CSVExporter, new() Type Parameters Name Description TExporter Methods Run(String[]) Declaration public void Run(params string[] args) Parameters Type Name Description System.String [] args Implements ICommandLineInterface"
-  },
-  "api/Platform.Data.WebTerminal.Controllers.HomeController.html": {
-    "href": "api/Platform.Data.WebTerminal.Controllers.HomeController.html",
-    "title": "Class HomeController | LinksPlatform",
-    "keywords": "Class HomeController Inheritance System.Object HomeController Namespace : Platform.Data.WebTerminal.Controllers Assembly : cs.temp.dll.dll Syntax public class HomeController : Controller Methods Error() Declaration public IActionResult Error() Returns Type Description IActionResult Index() Declaration public IActionResult Index() Returns Type Description IActionResult Privacy() Declaration public IActionResult Privacy() Returns Type Description IActionResult"
-  },
-  "api/Platform.Sandbox.Walker3.html": {
-    "href": "api/Platform.Sandbox.Walker3.html",
-    "title": "Class Walker3 | LinksPlatform",
-    "keywords": "Class Walker3 Inheritance System.Object ConsolePrintedDublicateWalkerBase Walker3 Inherited Members ConsolePrintedDublicateWalkerBase.OnDublicateFound(CharSegment) ConsolePrintedDublicateWalkerBase.CreateSegment(IList<Char>, Int32, Int32) Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public class Walker3 : ConsolePrintedDublicateWalkerBase Methods GetSegmentFrequency(CharSegment) Declaration protected override long GetSegmentFrequency(CharSegment segment) Parameters Type Name Description CharSegment segment Returns Type Description System.Int64 Iteration(CharSegment) Declaration protected override void Iteration(CharSegment segment) Parameters Type Name Description CharSegment segment SetSegmentFrequency(CharSegment, Int64) Declaration protected override void SetSegmentFrequency(CharSegment segment, long frequency) Parameters Type Name Description CharSegment segment System.Int64 frequency WalkAll(IList<Char>) Declaration public override void WalkAll(IList<char> elements) Parameters Type Name Description IList < System.Char > elements"
-  },
-  "api/Platform.Sandbox.Walker1.html": {
-    "href": "api/Platform.Sandbox.Walker1.html",
-    "title": "Class Walker1 | LinksPlatform",
-    "keywords": "Class Walker1 Inheritance System.Object ConsolePrintedDublicateWalkerBase Walker1 Inherited Members ConsolePrintedDublicateWalkerBase.OnDublicateFound(CharSegment) ConsolePrintedDublicateWalkerBase.CreateSegment(IList<Char>, Int32, Int32) Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public class Walker1 : ConsolePrintedDublicateWalkerBase Methods GetSegmentFrequency(CharSegment) Declaration protected override long GetSegmentFrequency(CharSegment segment) Parameters Type Name Description CharSegment segment Returns Type Description System.Int64 Iteration(CharSegment) Declaration protected override void Iteration(CharSegment segment) Parameters Type Name Description CharSegment segment SetSegmentFrequency(CharSegment, Int64) Declaration protected override void SetSegmentFrequency(CharSegment segment, long frequency) Parameters Type Name Description CharSegment segment System.Int64 frequency WalkAll(IList<Char>) Declaration public override void WalkAll(IList<char> elements) Parameters Type Name Description IList < System.Char > elements"
-  },
-  "api/Platform.Examples.GEXFCSVExporterCLI.html": {
-    "href": "api/Platform.Examples.GEXFCSVExporterCLI.html",
-    "title": "Class GEXFCSVExporterCLI | LinksPlatform",
-    "keywords": "Class GEXFCSVExporterCLI Inheritance System.Object GEXFCSVExporterCLI Implements ICommandLineInterface Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Examples Assembly : cs.temp.dll.dll Syntax public class GEXFCSVExporterCLI : ICommandLineInterface Methods Run(String[]) Declaration public void Run(params string[] args) Parameters Type Name Description System.String [] args Implements ICommandLineInterface"
-  },
-  "api/Platform.Sandbox.Transactions.html": {
-    "href": "api/Platform.Sandbox.Transactions.html",
-    "title": "Class Transactions | LinksPlatform",
-    "keywords": "Class Transactions Inheritance System.Object Transactions Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public static class Transactions Methods Run() Declaration public static void Run()"
-  },
-  "api/Platform.Data.WebTerminal.Models.ErrorViewModel.html": {
-    "href": "api/Platform.Data.WebTerminal.Models.ErrorViewModel.html",
-    "title": "Class ErrorViewModel | LinksPlatform",
-    "keywords": "Class ErrorViewModel Inheritance System.Object ErrorViewModel Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Data.WebTerminal.Models Assembly : cs.temp.dll.dll Syntax public class ErrorViewModel Properties RequestId Declaration public string RequestId { get; set; } Property Value Type Description System.String ShowRequestId Declaration public bool ShowRequestId { get; } Property Value Type Description System.Boolean"
-  },
-  "api/Platform.Sandbox.Zadacha.html": {
-    "href": "api/Platform.Sandbox.Zadacha.html",
-    "title": "Class Zadacha | LinksPlatform",
-    "keywords": "Class Zadacha Inheritance System.Object Zadacha Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public class Zadacha Fields StepsFor7DigitPhoneNumbers Declaration public const int StepsFor7DigitPhoneNumbers = 6 Field Value Type Description System.Int32 Methods RunAll() Declaration public void RunAll() RunOne() Declaration public void RunOne()"
-  },
-  "api/Platform.Data.ConsoleTerminal.Program.html": {
-    "href": "api/Platform.Data.ConsoleTerminal.Program.html",
-    "title": "Class Program | LinksPlatform",
-    "keywords": "Class Program Inheritance System.Object Program Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Data.ConsoleTerminal Assembly : cs.temp.dll.dll Syntax public class Program Methods Main(String[]) Declaration public static void Main(string[] args) Parameters Type Name Description System.String [] args"
-  },
-  "api/Platform.Sandbox.NetParserTest.html": {
-    "href": "api/Platform.Sandbox.NetParserTest.html",
-    "title": "Class NetParserTest | LinksPlatform",
-    "keywords": "Class NetParserTest Inheritance System.Object NetParserTest Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public class NetParserTest Methods Run() Declaration public static void Run()"
-  },
-  "api/Platform.Examples.WikipediaPagesCounterCLI.html": {
-    "href": "api/Platform.Examples.WikipediaPagesCounterCLI.html",
-    "title": "Class WikipediaPagesCounterCLI | LinksPlatform",
-    "keywords": "Class WikipediaPagesCounterCLI Inheritance System.Object WikipediaPagesCounterCLI Implements ICommandLineInterface Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Examples Assembly : cs.temp.dll.dll Syntax public class WikipediaPagesCounterCLI : ICommandLineInterface Methods Run(String[]) Declaration public void Run(params string[] args) Parameters Type Name Description System.String [] args Implements ICommandLineInterface"
-  },
-  "api/Platform.Examples.MasterServer.html": {
-    "href": "api/Platform.Examples.MasterServer.html",
-    "title": "Class MasterServer | LinksPlatform",
-    "keywords": "Class MasterServer Inheritance System.Object MasterServer Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Examples Assembly : cs.temp.dll.dll Syntax public class MasterServer Constructors MasterServer(ILinks<UInt64>, Sequences, UdpSender) Declaration public MasterServer(ILinks<ulong> links, Sequences sequences, UdpSender sender) Parameters Type Name Description ILinks < System.UInt64 > links Sequences sequences UdpSender sender Methods Create(String) Declaration public void Create(string message) Parameters Type Name Description System.String message IsSearch(String) Declaration public bool IsSearch(string message) Parameters Type Name Description System.String message Returns Type Description System.Boolean PrintContents(Action<String>) Declaration public void PrintContents(Action<string> messageHandler) Parameters Type Name Description Action < System.String > messageHandler Search(String) Declaration public void Search(string message) Parameters Type Name Description System.String message"
-  },
-  "api/Platform.Sandbox.NetParser.html": {
-    "href": "api/Platform.Sandbox.NetParser.html",
-    "title": "Class NetParser | LinksPlatform",
-    "keywords": "Class NetParser Inheritance System.Object NetParser Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public class NetParser Remarks TODO: Use PEG instead. Methods ParseStatement(String) Declaration public static void ParseStatement(string statement) Parameters Type Name Description System.String statement"
-  },
-  "api/Platform.Sandbox.OperationsExperiments.html": {
-    "href": "api/Platform.Sandbox.OperationsExperiments.html",
-    "title": "Class OperationsExperiments | LinksPlatform",
-    "keywords": "Class OperationsExperiments Inheritance System.Object OperationsExperiments Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public class OperationsExperiments Methods RunExperiment() Declaration public static void RunExperiment()"
-  },
-  "api/Platform.Data.MasterServer.Program.html": {
-    "href": "api/Platform.Data.MasterServer.Program.html",
-    "title": "Class Program | LinksPlatform",
-    "keywords": "Class Program Inheritance System.Object Program Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Data.MasterServer Assembly : cs.temp.dll.dll Syntax public class Program Methods Main(String[]) Declaration public static void Main(string[] args) Parameters Type Name Description System.String [] args"
-  },
-  "api/Platform.Data.WebTerminal.Startup.html": {
-    "href": "api/Platform.Data.WebTerminal.Startup.html",
-    "title": "Class Startup | LinksPlatform",
-    "keywords": "Class Startup Inheritance System.Object Startup Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Data.WebTerminal Assembly : cs.temp.dll.dll Syntax public class Startup Constructors Startup(IConfiguration) Declaration public Startup(IConfiguration configuration) Parameters Type Name Description IConfiguration configuration Properties Configuration Declaration public IConfiguration Configuration { get; } Property Value Type Description IConfiguration Methods Configure(IApplicationBuilder, IHostingEnvironment) Declaration public void Configure(IApplicationBuilder app, IHostingEnvironment env) Parameters Type Name Description IApplicationBuilder app IHostingEnvironment env ConfigureServices(IServiceCollection) Declaration public void ConfigureServices(IServiceCollection services) Parameters Type Name Description IServiceCollection services"
-  },
-  "api/Platform.Examples.WikipediaLinksStorage-1.html": {
-    "href": "api/Platform.Examples.WikipediaLinksStorage-1.html",
-    "title": "Class WikipediaLinksStorage<TLink> | LinksPlatform",
-    "keywords": "Class WikipediaLinksStorage<TLink> Inheritance System.Object WikipediaLinksStorage<TLink> Implements IWikipediaStorage <TLink> Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Examples Assembly : cs.temp.dll.dll Syntax public class WikipediaLinksStorage<TLink> : IWikipediaStorage<TLink> Type Parameters Name Description TLink Constructors WikipediaLinksStorage(ILinks<TLink>, LinkFrequenciesCache<TLink>) Declaration public WikipediaLinksStorage(ILinks<TLink> links, LinkFrequenciesCache<TLink> frequenciesCache) Parameters Type Name Description ILinks <TLink> links LinkFrequenciesCache <TLink> frequenciesCache Methods AttachElementToParent(TLink, TLink) Declaration public void AttachElementToParent(TLink elementToAttach, TLink parent) Parameters Type Name Description TLink elementToAttach TLink parent CreateDocument(String) Declaration public TLink CreateDocument(string name) Parameters Type Name Description System.String name Returns Type Description TLink CreateElement(String) Declaration public TLink CreateElement(string name) Parameters Type Name Description System.String name Returns Type Description TLink CreateTextElement(String) Declaration public TLink CreateTextElement(string content) Parameters Type Name Description System.String content Returns Type Description TLink Implements IWikipediaStorage<TLink>"
-  },
-  "api/Platform.Examples.FileIndexer.html": {
-    "href": "api/Platform.Examples.FileIndexer.html",
-    "title": "Class FileIndexer | LinksPlatform",
-    "keywords": "Class FileIndexer Inheritance System.Object FileIndexer Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Examples Assembly : cs.temp.dll.dll Syntax public class FileIndexer Constructors FileIndexer(SynchronizedLinks<UInt64>, SequenceIndex<UInt64>) Declaration public FileIndexer(SynchronizedLinks<ulong> links, SequenceIndex<ulong> indexer) Parameters Type Name Description SynchronizedLinks < System.UInt64 > links SequenceIndex < System.UInt64 > indexer Methods IndexAsync(String, CancellationToken) Declaration public Task IndexAsync(string path, CancellationToken cancellationToken) Parameters Type Name Description System.String path CancellationToken cancellationToken Returns Type Description Task IndexParallel(String, CancellationToken) Declaration public void IndexParallel(string path, CancellationToken cancellationToken) Parameters Type Name Description System.String path CancellationToken cancellationToken IndexSync(String, CancellationToken) Declaration public void IndexSync(string path, CancellationToken cancellationToken) Parameters Type Name Description System.String path CancellationToken cancellationToken"
-  },
-  "api/Platform.Examples.MasterServerCLI.html": {
-    "href": "api/Platform.Examples.MasterServerCLI.html",
-    "title": "Class MasterServerCLI | LinksPlatform",
-    "keywords": "Class MasterServerCLI Inheritance System.Object MasterServerCLI Implements ICommandLineInterface Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Examples Assembly : cs.temp.dll.dll Syntax public class MasterServerCLI : ICommandLineInterface Methods Run(String[]) Declaration public void Run(params string[] args) Parameters Type Name Description System.String [] args Implements ICommandLineInterface"
-  },
-  "api/Platform.Examples.WikipediaIndexer-1.html": {
-    "href": "api/Platform.Examples.WikipediaIndexer-1.html",
-    "title": "Class WikipediaIndexer<TLink> | LinksPlatform",
-    "keywords": "Class WikipediaIndexer<TLink> Inheritance System.Object WikipediaIndexer<TLink> Implements IWikipediaStorage <TLink> Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Examples Assembly : cs.temp.dll.dll Syntax public class WikipediaIndexer<TLink> : IWikipediaStorage<TLink> Type Parameters Name Description TLink Constructors WikipediaIndexer(ILinks<TLink>) Declaration public WikipediaIndexer(ILinks<TLink> links) Parameters Type Name Description ILinks <TLink> links Properties Cache Declaration public LinkFrequenciesCache<TLink> Cache { get; } Property Value Type Description LinkFrequenciesCache <TLink> Methods AttachElementToParent(TLink, TLink) Declaration public void AttachElementToParent(TLink elementToAttach, TLink parent) Parameters Type Name Description TLink elementToAttach TLink parent CreateDocument(String) Declaration public TLink CreateDocument(string name) Parameters Type Name Description System.String name Returns Type Description TLink CreateElement(String) Declaration public TLink CreateElement(string name) Parameters Type Name Description System.String name Returns Type Description TLink CreateTextElement(String) Declaration public TLink CreateTextElement(string content) Parameters Type Name Description System.String content Returns Type Description TLink ToElements(String) Declaration public IList<TLink> ToElements(string string) Parameters Type Name Description System.String string Returns Type Description IList <TLink> Implements IWikipediaStorage<TLink>"
-  },
-  "api/Platform.Examples.CSVSequencesExporter.html": {
-    "href": "api/Platform.Examples.CSVSequencesExporter.html",
-    "title": "Class CSVSequencesExporter | LinksPlatform",
-    "keywords": "Class CSVSequencesExporter Inheritance System.Object CSVExporter CSVSequencesExporter Inherited Members CSVExporter._links CSVExporter._unicodeMapped CSVExporter._convertUnicodeLinksToCharacters CSVExporter._referenceByLines CSVExporter._visited CSVExporter._addressToLineNumber CSVExporter._linksCounter CSVExporter._linesCounter CSVExporter.Export(SynchronizedLinks<UInt64>, String, Boolean, Boolean, Boolean, CancellationToken) CSVExporter.Visit(UInt64) CSVExporter.FormatLink(UInt64) System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Examples Assembly : cs.temp.dll.dll Syntax public class CSVSequencesExporter : CSVExporter Methods WriteLink(StreamWriter, IList<UInt64>) Declaration protected override void WriteLink(StreamWriter writer, IList<ulong> link) Parameters Type Name Description System.IO.StreamWriter writer IList < System.UInt64 > link Overrides CSVExporter.WriteLink(StreamWriter, IList<UInt64>)"
-  },
-  "api/Platform.Examples.WikipediaImporterCLI.html": {
-    "href": "api/Platform.Examples.WikipediaImporterCLI.html",
-    "title": "Class WikipediaImporterCLI | LinksPlatform",
-    "keywords": "Class WikipediaImporterCLI Inheritance System.Object WikipediaImporterCLI Implements ICommandLineInterface Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Examples Assembly : cs.temp.dll.dll Syntax public class WikipediaImporterCLI : ICommandLineInterface Methods Run(String[]) Declaration public void Run(params string[] args) Parameters Type Name Description System.String [] args Implements ICommandLineInterface"
   },
   "api/Platform.Examples.ICommandLineInterface.html": {
     "href": "api/Platform.Examples.ICommandLineInterface.html",
@@ -274,6 +269,11 @@
     "title": "Class FileReadWriteTest | LinksPlatform",
     "keywords": "Class FileReadWriteTest Inheritance System.Object FileReadWriteTest Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public static class FileReadWriteTest Methods MappedFilesTest() Declaration public static void MappedFilesTest() Run(String[]) Declaration public static void Run(string[] args) Parameters Type Name Description System.String [] args SmartTextParsing(Char[], Int32, Int32) Declaration public static Link SmartTextParsing(char[] text, int takeFrom, int takeUntil) Parameters Type Name Description System.Char [] text System.Int32 takeFrom System.Int32 takeUntil Returns Type Description Link"
   },
+  "api/Platform.Data.ConsoleTerminal.Program.html": {
+    "href": "api/Platform.Data.ConsoleTerminal.Program.html",
+    "title": "Class Program | LinksPlatform",
+    "keywords": "Class Program Inheritance System.Object Program Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Data.ConsoleTerminal Assembly : cs.temp.dll.dll Syntax public class Program Methods Main(String[]) Declaration public static void Main(string[] args) Parameters Type Name Description System.String [] args"
+  },
   "api/Platform.Sandbox.CompressionExperiments.html": {
     "href": "api/Platform.Sandbox.CompressionExperiments.html",
     "title": "Class CompressionExperiments | LinksPlatform",
@@ -284,50 +284,50 @@
     "title": "Namespace Platform.Sandbox | LinksPlatform",
     "keywords": "Namespace Platform.Sandbox Classes A Base CompressionExperiments ConceptTest ConsolePrintedDublicateWalkerBase DllImportTest Представляет тест, который позволит определить необходимо ли указывать расширение файла при подключении библиотеки. TODO: Проверить на пользовательских DLL TODO: Далее протестировать на CoreCLR, Mono FileReadWriteTest Inherited IterationsCounter NetParser NetParserTest OperationsExperiments Program QueryExecutorExtensions Представляет класс-контейнер расширений для выполнения произвольных запросов над Links StaticBase<TSuccessor> TerminalExperiment TextParser TextParser.State Transactions TreeStructureExperiments Walker1 Walker2 Walker3 Walker4 Zadacha Structs CompressionExperiments.Compressor Enums OperationsExperiments.Mapping"
   },
-  "api/Platform.Examples.GEXFExporter-1.html": {
-    "href": "api/Platform.Examples.GEXFExporter-1.html",
-    "title": "Class GEXFExporter<TLink> | LinksPlatform",
-    "keywords": "Class GEXFExporter<TLink> Inheritance System.Object GEXFExporter<TLink> Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Examples Assembly : cs.temp.dll.dll Syntax public class GEXFExporter<TLink> Type Parameters Name Description TLink Constructors GEXFExporter(ILinks<TLink>) Declaration public GEXFExporter(ILinks<TLink> links) Parameters Type Name Description ILinks <TLink> links Methods Export(String) Declaration public void Export(string outputFilename) Parameters Type Name Description System.String outputFilename"
+  "api/Platform.Sandbox.ConceptTest.html": {
+    "href": "api/Platform.Sandbox.ConceptTest.html",
+    "title": "Class ConceptTest | LinksPlatform",
+    "keywords": "Class ConceptTest Inheritance System.Object ConceptTest Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public static class ConceptTest Methods Test(String) Declaration public static void Test(string filename) Parameters Type Name Description System.String filename TestGexf(String) Declaration public static void TestGexf(string filename) Parameters Type Name Description System.String filename"
   },
-  "api/Platform.Data.WebTerminal.Models.LinkModel.html": {
-    "href": "api/Platform.Data.WebTerminal.Models.LinkModel.html",
-    "title": "Class LinkModel | LinksPlatform",
-    "keywords": "Class LinkModel Inheritance System.Object LinkModel Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Data.WebTerminal.Models Assembly : cs.temp.dll.dll Syntax public class LinkModel Constructors LinkModel(Link) Declaration public LinkModel(Link link) Parameters Type Name Description Link link LinkModel(Link, List<LinkModel>) Declaration public LinkModel(Link link, List<LinkModel> referersModels) Parameters Type Name Description Link link List < LinkModel > referersModels Properties Link Declaration public Link Link { get; set; } Property Value Type Description Link ReferersModels Declaration public List<LinkModel> ReferersModels { get; set; } Property Value Type Description List < LinkModel > Methods CreateLinkModel(Link, Int32) Declaration public static LinkModel CreateLinkModel(Link link, int nestingLevel = 5) Parameters Type Name Description Link link System.Int32 nestingLevel Returns Type Description LinkModel"
+  "api/Platform.Sandbox.TerminalExperiment.html": {
+    "href": "api/Platform.Sandbox.TerminalExperiment.html",
+    "title": "Class TerminalExperiment | LinksPlatform",
+    "keywords": "Class TerminalExperiment Inheritance System.Object TerminalExperiment Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public static class TerminalExperiment Properties IsRunning Declaration public static bool IsRunning { get; set; } Property Value Type Description System.Boolean Methods LinkCreated(LinkDefinition) Declaration public static void LinkCreated(LinkDefinition createdLink) Parameters Type Name Description LinkDefinition createdLink Run() Declaration public static void Run()"
   },
-  "api/Platform.Examples.XUnitTestsRunnerCLI.html": {
-    "href": "api/Platform.Examples.XUnitTestsRunnerCLI.html",
-    "title": "Class XUnitTestsRunnerCLI | LinksPlatform",
-    "keywords": "Class XUnitTestsRunnerCLI Inheritance System.Object XUnitTestsRunnerCLI Implements ICommandLineInterface Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Examples Assembly : cs.temp.dll.dll Syntax public class XUnitTestsRunnerCLI : ICommandLineInterface Remarks Based on https://github.com/xunit/samples.xunit/blob/master/TestRunner/Program.cs Constructors XUnitTestsRunnerCLI() Declaration public XUnitTestsRunnerCLI() Properties Succeed Declaration public bool Succeed { get; } Property Value Type Description System.Boolean Methods Run(String[]) Declaration public void Run(params string[] args) Parameters Type Name Description System.String [] args Implements ICommandLineInterface"
+  "api/Platform.Sandbox.IterationsCounter.html": {
+    "href": "api/Platform.Sandbox.IterationsCounter.html",
+    "title": "Class IterationsCounter | LinksPlatform",
+    "keywords": "Class IterationsCounter Inheritance System.Object IterationsCounter Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public class IterationsCounter : AllSegmentsWalkerBase<char> Fields IterationsCount Declaration public long IterationsCount Field Value Type Description System.Int64 Methods Iteration(Segment<Char>) Declaration protected override void Iteration(Segment<char> segment) Parameters Type Name Description Segment < System.Char > segment"
   },
-  "api/Platform.Data.SlaveServer.Program.html": {
-    "href": "api/Platform.Data.SlaveServer.Program.html",
+  "api/Platform.Data.MasterServer.Program.html": {
+    "href": "api/Platform.Data.MasterServer.Program.html",
     "title": "Class Program | LinksPlatform",
-    "keywords": "Class Program Inheritance System.Object Program Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Data.SlaveServer Assembly : cs.temp.dll.dll Syntax public class Program Methods Main(String[]) Declaration public static void Main(string[] args) Parameters Type Name Description System.String [] args"
+    "keywords": "Class Program Inheritance System.Object Program Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Data.MasterServer Assembly : cs.temp.dll.dll Syntax public class Program Methods Main(String[]) Declaration public static void Main(string[] args) Parameters Type Name Description System.String [] args"
+  },
+  "api/Platform.Examples.MasterServerCLI.html": {
+    "href": "api/Platform.Examples.MasterServerCLI.html",
+    "title": "Class MasterServerCLI | LinksPlatform",
+    "keywords": "Class MasterServerCLI Inheritance System.Object MasterServerCLI Implements ICommandLineInterface Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Examples Assembly : cs.temp.dll.dll Syntax public class MasterServerCLI : ICommandLineInterface Methods Run(String[]) Declaration public void Run(params string[] args) Parameters Type Name Description System.String [] args Implements ICommandLineInterface"
+  },
+  "api/Platform.Sandbox.StaticBase-1.html": {
+    "href": "api/Platform.Sandbox.StaticBase-1.html",
+    "title": "Class StaticBase<TSuccessor> | LinksPlatform",
+    "keywords": "Class StaticBase<TSuccessor> Inheritance System.Object StaticBase<TSuccessor> Base Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public abstract class StaticBase<TSuccessor> where TSuccessor : StaticBase<TSuccessor>, new() Type Parameters Name Description TSuccessor Fields Instance Declaration protected static readonly TSuccessor Instance Field Value Type Description TSuccessor"
   },
   "api/Platform.Sandbox.ConsolePrintedDublicateWalkerBase.html": {
     "href": "api/Platform.Sandbox.ConsolePrintedDublicateWalkerBase.html",
     "title": "Class ConsolePrintedDublicateWalkerBase | LinksPlatform",
     "keywords": "Class ConsolePrintedDublicateWalkerBase Inheritance System.Object ConsolePrintedDublicateWalkerBase Walker1 Walker2 Walker3 Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public abstract class ConsolePrintedDublicateWalkerBase : DuplicateSegmentsWalkerBase<char, CharSegment> Methods CreateSegment(IList<Char>, Int32, Int32) Declaration protected override CharSegment CreateSegment(IList<char> elements, int offset, int length) Parameters Type Name Description IList < System.Char > elements System.Int32 offset System.Int32 length Returns Type Description CharSegment OnDublicateFound(CharSegment) Declaration protected override void OnDublicateFound(CharSegment segment) Parameters Type Name Description CharSegment segment"
   },
-  "api/Platform.Examples.html": {
-    "href": "api/Platform.Examples.html",
-    "title": "Namespace Platform.Examples | LinksPlatform",
-    "keywords": "Namespace Platform.Examples Classes CSVExporter CSVExporterCLI<TExporter> CSVSequencesExporter FileIndexer FileIndexerCLI GEXFCSVExporterCLI GEXFExporter<TLink> MasterServer MasterServerCLI TerminalCLI WikipediaImporterCLI WikipediaIndexer<TLink> WikipediaLinksStorage<TLink> WikipediaPagesCounter WikipediaPagesCounterCLI XUnitTestsRunnerCLI Interfaces ICommandLineInterface IWikipediaStorage<TLink>"
+  "api/Platform.Sandbox.A.html": {
+    "href": "api/Platform.Sandbox.A.html",
+    "title": "Class A | LinksPlatform",
+    "keywords": "Class A Inheritance System.Object A Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public static class A Methods Method1() Declaration public static void Method1() Method2() Declaration public static void Method2()"
   },
-  "api/Platform.Sandbox.QueryExecutorExtensions.html": {
-    "href": "api/Platform.Sandbox.QueryExecutorExtensions.html",
-    "title": "Class QueryExecutorExtensions | LinksPlatform",
-    "keywords": "Class QueryExecutorExtensions Представляет класс-контейнер расширений для выполнения произвольных запросов над Links Inheritance System.Object QueryExecutorExtensions Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ToString() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public static class QueryExecutorExtensions Methods Execute<T>(SynchronizedLinks<UInt64>, Expression<Func<SynchronizedLinks<UInt64>, IEnumerable<T>>>) Выполняет запрос query над links и возвращает результат запроса в виде перечисляемого объекта с элементами типа T. Declaration public static IEnumerable<T> Execute<T>(this SynchronizedLinks<ulong> links, Expression<Func<SynchronizedLinks<ulong>, IEnumerable<T>>> query) Parameters Type Name Description SynchronizedLinks < System.UInt64 > links База данных связей, над которой будет выполняться запрос. Expression < Func < SynchronizedLinks < System.UInt64 >, IEnumerable <T>>> query Запрос в виде Linq-выражения. Returns Type Description IEnumerable <T> Результат запроса в виде перечисляемого объекта с элементами типа T. Type Parameters Name Description T Тип элемента запроса."
-  },
-  "api/Platform.Data.ConsoleTerminal.html": {
-    "href": "api/Platform.Data.ConsoleTerminal.html",
-    "title": "Namespace Platform.Data.ConsoleTerminal | LinksPlatform",
-    "keywords": "Namespace Platform.Data.ConsoleTerminal Classes Program"
-  },
-  "api/Platform.Data.WebTerminal.Controllers.html": {
-    "href": "api/Platform.Data.WebTerminal.Controllers.html",
-    "title": "Namespace Platform.Data.WebTerminal.Controllers | LinksPlatform",
-    "keywords": "Namespace Platform.Data.WebTerminal.Controllers Classes HomeController LinksController"
+  "api/Platform.Sandbox.Walker2.html": {
+    "href": "api/Platform.Sandbox.Walker2.html",
+    "title": "Class Walker2 | LinksPlatform",
+    "keywords": "Class Walker2 Inheritance System.Object ConsolePrintedDublicateWalkerBase Walker2 Inherited Members ConsolePrintedDublicateWalkerBase.OnDublicateFound(CharSegment) ConsolePrintedDublicateWalkerBase.CreateSegment(IList<Char>, Int32, Int32) Namespace : Platform.Sandbox Assembly : cs.temp.dll.dll Syntax public class Walker2 : ConsolePrintedDublicateWalkerBase Methods GetSegmentFrequency(CharSegment) Declaration protected override long GetSegmentFrequency(CharSegment segment) Parameters Type Name Description CharSegment segment Returns Type Description System.Int64 Iteration(CharSegment) Declaration protected override void Iteration(CharSegment segment) Parameters Type Name Description CharSegment segment SetSegmentFrequency(CharSegment, Int64) Declaration protected override void SetSegmentFrequency(CharSegment segment, long frequency) Parameters Type Name Description CharSegment segment System.Int64 frequency WalkAll(IList<Char>) Declaration public override void WalkAll(IList<char> elements) Parameters Type Name Description IList < System.Char > elements"
   },
   "api/Platform.Sandbox.TextParser.html": {
     "href": "api/Platform.Sandbox.TextParser.html",
