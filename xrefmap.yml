@@ -1062,80 +1062,101 @@ references:
   fullName.vb: Platform.Examples.WikipediaIndexer(Of TLink).ToElements
   nameWithType: WikipediaIndexer<TLink>.ToElements
   nameWithType.vb: WikipediaIndexer(Of TLink).ToElements
-- uid: Platform.Examples.WikipediaLinksStorage
+- uid: Platform.Examples.WikipediaLinksStorage`1
+  name: WikipediaLinksStorage<TLink>
+  href: api/Platform.Examples.WikipediaLinksStorage-1.html
+  commentId: T:Platform.Examples.WikipediaLinksStorage`1
+  name.vb: WikipediaLinksStorage(Of TLink)
+  fullName: Platform.Examples.WikipediaLinksStorage<TLink>
+  fullName.vb: Platform.Examples.WikipediaLinksStorage(Of TLink)
+  nameWithType: WikipediaLinksStorage<TLink>
+  nameWithType.vb: WikipediaLinksStorage(Of TLink)
+- uid: Platform.Examples.WikipediaLinksStorage`1.#ctor(ILinks{`0},LinkFrequenciesCache{`0})
+  name: WikipediaLinksStorage(ILinks<TLink>, LinkFrequenciesCache<TLink>)
+  href: api/Platform.Examples.WikipediaLinksStorage-1.html#Platform_Examples_WikipediaLinksStorage_1__ctor_ILinks__0__LinkFrequenciesCache__0__
+  commentId: M:Platform.Examples.WikipediaLinksStorage`1.#ctor(ILinks{`0},LinkFrequenciesCache{`0})
+  name.vb: WikipediaLinksStorage(ILinks(Of TLink), LinkFrequenciesCache(Of TLink))
+  fullName: Platform.Examples.WikipediaLinksStorage<TLink>.WikipediaLinksStorage(ILinks<TLink>, LinkFrequenciesCache<TLink>)
+  fullName.vb: Platform.Examples.WikipediaLinksStorage(Of TLink).WikipediaLinksStorage(ILinks(Of TLink), LinkFrequenciesCache(Of TLink))
+  nameWithType: WikipediaLinksStorage<TLink>.WikipediaLinksStorage(ILinks<TLink>, LinkFrequenciesCache<TLink>)
+  nameWithType.vb: WikipediaLinksStorage(Of TLink).WikipediaLinksStorage(ILinks(Of TLink), LinkFrequenciesCache(Of TLink))
+- uid: Platform.Examples.WikipediaLinksStorage`1.#ctor*
   name: WikipediaLinksStorage
-  href: api/Platform.Examples.WikipediaLinksStorage.html
-  commentId: T:Platform.Examples.WikipediaLinksStorage
-  fullName: Platform.Examples.WikipediaLinksStorage
-  nameWithType: WikipediaLinksStorage
-- uid: Platform.Examples.WikipediaLinksStorage.#ctor(ILinks{System.UInt64},LinkFrequenciesCache{System.UInt64})
-  name: WikipediaLinksStorage(ILinks<UInt64>, LinkFrequenciesCache<UInt64>)
-  href: api/Platform.Examples.WikipediaLinksStorage.html#Platform_Examples_WikipediaLinksStorage__ctor_ILinks_System_UInt64__LinkFrequenciesCache_System_UInt64__
-  commentId: M:Platform.Examples.WikipediaLinksStorage.#ctor(ILinks{System.UInt64},LinkFrequenciesCache{System.UInt64})
-  name.vb: WikipediaLinksStorage(ILinks(Of UInt64), LinkFrequenciesCache(Of UInt64))
-  fullName: Platform.Examples.WikipediaLinksStorage.WikipediaLinksStorage(ILinks<System.UInt64>, LinkFrequenciesCache<System.UInt64>)
-  fullName.vb: Platform.Examples.WikipediaLinksStorage.WikipediaLinksStorage(ILinks(Of System.UInt64), LinkFrequenciesCache(Of System.UInt64))
-  nameWithType: WikipediaLinksStorage.WikipediaLinksStorage(ILinks<UInt64>, LinkFrequenciesCache<UInt64>)
-  nameWithType.vb: WikipediaLinksStorage.WikipediaLinksStorage(ILinks(Of UInt64), LinkFrequenciesCache(Of UInt64))
-- uid: Platform.Examples.WikipediaLinksStorage.#ctor*
-  name: WikipediaLinksStorage
-  href: api/Platform.Examples.WikipediaLinksStorage.html#Platform_Examples_WikipediaLinksStorage__ctor_
-  commentId: Overload:Platform.Examples.WikipediaLinksStorage.#ctor
+  href: api/Platform.Examples.WikipediaLinksStorage-1.html#Platform_Examples_WikipediaLinksStorage_1__ctor_
+  commentId: Overload:Platform.Examples.WikipediaLinksStorage`1.#ctor
   isSpec: "True"
-  fullName: Platform.Examples.WikipediaLinksStorage.WikipediaLinksStorage
-  nameWithType: WikipediaLinksStorage.WikipediaLinksStorage
-- uid: Platform.Examples.WikipediaLinksStorage.AttachElementToParent(System.UInt64,System.UInt64)
-  name: AttachElementToParent(UInt64, UInt64)
-  href: api/Platform.Examples.WikipediaLinksStorage.html#Platform_Examples_WikipediaLinksStorage_AttachElementToParent_System_UInt64_System_UInt64_
-  commentId: M:Platform.Examples.WikipediaLinksStorage.AttachElementToParent(System.UInt64,System.UInt64)
-  fullName: Platform.Examples.WikipediaLinksStorage.AttachElementToParent(System.UInt64, System.UInt64)
-  nameWithType: WikipediaLinksStorage.AttachElementToParent(UInt64, UInt64)
-- uid: Platform.Examples.WikipediaLinksStorage.AttachElementToParent*
+  fullName: Platform.Examples.WikipediaLinksStorage<TLink>.WikipediaLinksStorage
+  fullName.vb: Platform.Examples.WikipediaLinksStorage(Of TLink).WikipediaLinksStorage
+  nameWithType: WikipediaLinksStorage<TLink>.WikipediaLinksStorage
+  nameWithType.vb: WikipediaLinksStorage(Of TLink).WikipediaLinksStorage
+- uid: Platform.Examples.WikipediaLinksStorage`1.AttachElementToParent(`0,`0)
+  name: AttachElementToParent(TLink, TLink)
+  href: api/Platform.Examples.WikipediaLinksStorage-1.html#Platform_Examples_WikipediaLinksStorage_1_AttachElementToParent__0__0_
+  commentId: M:Platform.Examples.WikipediaLinksStorage`1.AttachElementToParent(`0,`0)
+  fullName: Platform.Examples.WikipediaLinksStorage<TLink>.AttachElementToParent(TLink, TLink)
+  fullName.vb: Platform.Examples.WikipediaLinksStorage(Of TLink).AttachElementToParent(TLink, TLink)
+  nameWithType: WikipediaLinksStorage<TLink>.AttachElementToParent(TLink, TLink)
+  nameWithType.vb: WikipediaLinksStorage(Of TLink).AttachElementToParent(TLink, TLink)
+- uid: Platform.Examples.WikipediaLinksStorage`1.AttachElementToParent*
   name: AttachElementToParent
-  href: api/Platform.Examples.WikipediaLinksStorage.html#Platform_Examples_WikipediaLinksStorage_AttachElementToParent_
-  commentId: Overload:Platform.Examples.WikipediaLinksStorage.AttachElementToParent
+  href: api/Platform.Examples.WikipediaLinksStorage-1.html#Platform_Examples_WikipediaLinksStorage_1_AttachElementToParent_
+  commentId: Overload:Platform.Examples.WikipediaLinksStorage`1.AttachElementToParent
   isSpec: "True"
-  fullName: Platform.Examples.WikipediaLinksStorage.AttachElementToParent
-  nameWithType: WikipediaLinksStorage.AttachElementToParent
-- uid: Platform.Examples.WikipediaLinksStorage.CreateDocument(System.String)
+  fullName: Platform.Examples.WikipediaLinksStorage<TLink>.AttachElementToParent
+  fullName.vb: Platform.Examples.WikipediaLinksStorage(Of TLink).AttachElementToParent
+  nameWithType: WikipediaLinksStorage<TLink>.AttachElementToParent
+  nameWithType.vb: WikipediaLinksStorage(Of TLink).AttachElementToParent
+- uid: Platform.Examples.WikipediaLinksStorage`1.CreateDocument(System.String)
   name: CreateDocument(String)
-  href: api/Platform.Examples.WikipediaLinksStorage.html#Platform_Examples_WikipediaLinksStorage_CreateDocument_System_String_
-  commentId: M:Platform.Examples.WikipediaLinksStorage.CreateDocument(System.String)
-  fullName: Platform.Examples.WikipediaLinksStorage.CreateDocument(System.String)
-  nameWithType: WikipediaLinksStorage.CreateDocument(String)
-- uid: Platform.Examples.WikipediaLinksStorage.CreateDocument*
+  href: api/Platform.Examples.WikipediaLinksStorage-1.html#Platform_Examples_WikipediaLinksStorage_1_CreateDocument_System_String_
+  commentId: M:Platform.Examples.WikipediaLinksStorage`1.CreateDocument(System.String)
+  fullName: Platform.Examples.WikipediaLinksStorage<TLink>.CreateDocument(System.String)
+  fullName.vb: Platform.Examples.WikipediaLinksStorage(Of TLink).CreateDocument(System.String)
+  nameWithType: WikipediaLinksStorage<TLink>.CreateDocument(String)
+  nameWithType.vb: WikipediaLinksStorage(Of TLink).CreateDocument(String)
+- uid: Platform.Examples.WikipediaLinksStorage`1.CreateDocument*
   name: CreateDocument
-  href: api/Platform.Examples.WikipediaLinksStorage.html#Platform_Examples_WikipediaLinksStorage_CreateDocument_
-  commentId: Overload:Platform.Examples.WikipediaLinksStorage.CreateDocument
+  href: api/Platform.Examples.WikipediaLinksStorage-1.html#Platform_Examples_WikipediaLinksStorage_1_CreateDocument_
+  commentId: Overload:Platform.Examples.WikipediaLinksStorage`1.CreateDocument
   isSpec: "True"
-  fullName: Platform.Examples.WikipediaLinksStorage.CreateDocument
-  nameWithType: WikipediaLinksStorage.CreateDocument
-- uid: Platform.Examples.WikipediaLinksStorage.CreateElement(System.String)
+  fullName: Platform.Examples.WikipediaLinksStorage<TLink>.CreateDocument
+  fullName.vb: Platform.Examples.WikipediaLinksStorage(Of TLink).CreateDocument
+  nameWithType: WikipediaLinksStorage<TLink>.CreateDocument
+  nameWithType.vb: WikipediaLinksStorage(Of TLink).CreateDocument
+- uid: Platform.Examples.WikipediaLinksStorage`1.CreateElement(System.String)
   name: CreateElement(String)
-  href: api/Platform.Examples.WikipediaLinksStorage.html#Platform_Examples_WikipediaLinksStorage_CreateElement_System_String_
-  commentId: M:Platform.Examples.WikipediaLinksStorage.CreateElement(System.String)
-  fullName: Platform.Examples.WikipediaLinksStorage.CreateElement(System.String)
-  nameWithType: WikipediaLinksStorage.CreateElement(String)
-- uid: Platform.Examples.WikipediaLinksStorage.CreateElement*
+  href: api/Platform.Examples.WikipediaLinksStorage-1.html#Platform_Examples_WikipediaLinksStorage_1_CreateElement_System_String_
+  commentId: M:Platform.Examples.WikipediaLinksStorage`1.CreateElement(System.String)
+  fullName: Platform.Examples.WikipediaLinksStorage<TLink>.CreateElement(System.String)
+  fullName.vb: Platform.Examples.WikipediaLinksStorage(Of TLink).CreateElement(System.String)
+  nameWithType: WikipediaLinksStorage<TLink>.CreateElement(String)
+  nameWithType.vb: WikipediaLinksStorage(Of TLink).CreateElement(String)
+- uid: Platform.Examples.WikipediaLinksStorage`1.CreateElement*
   name: CreateElement
-  href: api/Platform.Examples.WikipediaLinksStorage.html#Platform_Examples_WikipediaLinksStorage_CreateElement_
-  commentId: Overload:Platform.Examples.WikipediaLinksStorage.CreateElement
+  href: api/Platform.Examples.WikipediaLinksStorage-1.html#Platform_Examples_WikipediaLinksStorage_1_CreateElement_
+  commentId: Overload:Platform.Examples.WikipediaLinksStorage`1.CreateElement
   isSpec: "True"
-  fullName: Platform.Examples.WikipediaLinksStorage.CreateElement
-  nameWithType: WikipediaLinksStorage.CreateElement
-- uid: Platform.Examples.WikipediaLinksStorage.CreateTextElement(System.String)
+  fullName: Platform.Examples.WikipediaLinksStorage<TLink>.CreateElement
+  fullName.vb: Platform.Examples.WikipediaLinksStorage(Of TLink).CreateElement
+  nameWithType: WikipediaLinksStorage<TLink>.CreateElement
+  nameWithType.vb: WikipediaLinksStorage(Of TLink).CreateElement
+- uid: Platform.Examples.WikipediaLinksStorage`1.CreateTextElement(System.String)
   name: CreateTextElement(String)
-  href: api/Platform.Examples.WikipediaLinksStorage.html#Platform_Examples_WikipediaLinksStorage_CreateTextElement_System_String_
-  commentId: M:Platform.Examples.WikipediaLinksStorage.CreateTextElement(System.String)
-  fullName: Platform.Examples.WikipediaLinksStorage.CreateTextElement(System.String)
-  nameWithType: WikipediaLinksStorage.CreateTextElement(String)
-- uid: Platform.Examples.WikipediaLinksStorage.CreateTextElement*
+  href: api/Platform.Examples.WikipediaLinksStorage-1.html#Platform_Examples_WikipediaLinksStorage_1_CreateTextElement_System_String_
+  commentId: M:Platform.Examples.WikipediaLinksStorage`1.CreateTextElement(System.String)
+  fullName: Platform.Examples.WikipediaLinksStorage<TLink>.CreateTextElement(System.String)
+  fullName.vb: Platform.Examples.WikipediaLinksStorage(Of TLink).CreateTextElement(System.String)
+  nameWithType: WikipediaLinksStorage<TLink>.CreateTextElement(String)
+  nameWithType.vb: WikipediaLinksStorage(Of TLink).CreateTextElement(String)
+- uid: Platform.Examples.WikipediaLinksStorage`1.CreateTextElement*
   name: CreateTextElement
-  href: api/Platform.Examples.WikipediaLinksStorage.html#Platform_Examples_WikipediaLinksStorage_CreateTextElement_
-  commentId: Overload:Platform.Examples.WikipediaLinksStorage.CreateTextElement
+  href: api/Platform.Examples.WikipediaLinksStorage-1.html#Platform_Examples_WikipediaLinksStorage_1_CreateTextElement_
+  commentId: Overload:Platform.Examples.WikipediaLinksStorage`1.CreateTextElement
   isSpec: "True"
-  fullName: Platform.Examples.WikipediaLinksStorage.CreateTextElement
-  nameWithType: WikipediaLinksStorage.CreateTextElement
+  fullName: Platform.Examples.WikipediaLinksStorage<TLink>.CreateTextElement
+  fullName.vb: Platform.Examples.WikipediaLinksStorage(Of TLink).CreateTextElement
+  nameWithType: WikipediaLinksStorage<TLink>.CreateTextElement
+  nameWithType.vb: WikipediaLinksStorage(Of TLink).CreateTextElement
 - uid: Platform.Examples.WikipediaPagesCounter
   name: WikipediaPagesCounter
   href: api/Platform.Examples.WikipediaPagesCounter.html

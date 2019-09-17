@@ -5,12 +5,12 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class WikipediaLinksStorage
+    <title>Class WikipediaLinksStorage&lt;TLink&gt;
    | LinksPlatform </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class WikipediaLinksStorage
+    <meta name="title" content="Class WikipediaLinksStorage&lt;TLink&gt;
    | LinksPlatform ">
-    <meta name="generator" content="docfx 2.45.0.0">
+    <meta name="generator" content="docfx 2.45.1.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -78,21 +78,21 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Platform.Examples.WikipediaLinksStorage">
+            <article class="content wrap" id="_content" data-uid="Platform.Examples.WikipediaLinksStorage`1">
   
   
-  <h1 id="Platform_Examples_WikipediaLinksStorage" data-uid="Platform.Examples.WikipediaLinksStorage" class="text-break">Class WikipediaLinksStorage
+  <h1 id="Platform_Examples_WikipediaLinksStorage_1" data-uid="Platform.Examples.WikipediaLinksStorage`1" class="text-break">Class WikipediaLinksStorage&lt;TLink&gt;
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">WikipediaLinksStorage</span></div>
+    <div class="level1"><span class="xref">WikipediaLinksStorage&lt;TLink&gt;</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="Platform.Examples.IWikipediaStorage-1.html">IWikipediaStorage</a>&lt;<span class="xref">System.UInt64</span>&gt;</div>
+    <div><a class="xref" href="Platform.Examples.IWikipediaStorage-1.html">IWikipediaStorage</a>&lt;TLink&gt;</div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -120,21 +120,36 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Platform.Examples.html">Platform.Examples</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Platform_Examples_WikipediaLinksStorage_syntax">Syntax</h5>
+  <h5 id="Platform_Examples_WikipediaLinksStorage_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class WikipediaLinksStorage : IWikipediaStorage&lt;ulong&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class WikipediaLinksStorage&lt;TLink&gt; : IWikipediaStorage&lt;TLink&gt;</code></pre>
   </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TLink</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="Platform_Examples_WikipediaLinksStorage__ctor_" data-uid="Platform.Examples.WikipediaLinksStorage.#ctor*"></a>
-  <h4 id="Platform_Examples_WikipediaLinksStorage__ctor_ILinks_System_UInt64__LinkFrequenciesCache_System_UInt64__" data-uid="Platform.Examples.WikipediaLinksStorage.#ctor(ILinks{System.UInt64},LinkFrequenciesCache{System.UInt64})">WikipediaLinksStorage(ILinks&lt;UInt64&gt;, LinkFrequenciesCache&lt;UInt64&gt;)</h4>
+  <a id="Platform_Examples_WikipediaLinksStorage_1__ctor_" data-uid="Platform.Examples.WikipediaLinksStorage`1.#ctor*"></a>
+  <h4 id="Platform_Examples_WikipediaLinksStorage_1__ctor_ILinks__0__LinkFrequenciesCache__0__" data-uid="Platform.Examples.WikipediaLinksStorage`1.#ctor(ILinks{`0},LinkFrequenciesCache{`0})">WikipediaLinksStorage(ILinks&lt;TLink&gt;, LinkFrequenciesCache&lt;TLink&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public WikipediaLinksStorage(ILinks&lt;ulong&gt; links, LinkFrequenciesCache&lt;ulong&gt; frequenciesCache)</code></pre>
+    <pre><code class="lang-csharp hljs">public WikipediaLinksStorage(ILinks&lt;TLink&gt; links, LinkFrequenciesCache&lt;TLink&gt; frequenciesCache)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -147,12 +162,12 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ILinks</span>&lt;<span class="xref">System.UInt64</span>&gt;</td>
+        <td><span class="xref">ILinks</span>&lt;TLink&gt;</td>
         <td><span class="parametername">links</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">LinkFrequenciesCache</span>&lt;<span class="xref">System.UInt64</span>&gt;</td>
+        <td><span class="xref">LinkFrequenciesCache</span>&lt;TLink&gt;</td>
         <td><span class="parametername">frequenciesCache</span></td>
         <td></td>
       </tr>
@@ -162,13 +177,13 @@
   </h3>
   
   
-  <a id="Platform_Examples_WikipediaLinksStorage_AttachElementToParent_" data-uid="Platform.Examples.WikipediaLinksStorage.AttachElementToParent*"></a>
-  <h4 id="Platform_Examples_WikipediaLinksStorage_AttachElementToParent_System_UInt64_System_UInt64_" data-uid="Platform.Examples.WikipediaLinksStorage.AttachElementToParent(System.UInt64,System.UInt64)">AttachElementToParent(UInt64, UInt64)</h4>
+  <a id="Platform_Examples_WikipediaLinksStorage_1_AttachElementToParent_" data-uid="Platform.Examples.WikipediaLinksStorage`1.AttachElementToParent*"></a>
+  <h4 id="Platform_Examples_WikipediaLinksStorage_1_AttachElementToParent__0__0_" data-uid="Platform.Examples.WikipediaLinksStorage`1.AttachElementToParent(`0,`0)">AttachElementToParent(TLink, TLink)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void AttachElementToParent(ulong elementToAttach, ulong parent)</code></pre>
+    <pre><code class="lang-csharp hljs">public void AttachElementToParent(TLink elementToAttach, TLink parent)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -181,12 +196,12 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="xref">TLink</span></td>
         <td><span class="parametername">elementToAttach</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="xref">TLink</span></td>
         <td><span class="parametername">parent</span></td>
         <td></td>
       </tr>
@@ -194,13 +209,13 @@
   </table>
   
   
-  <a id="Platform_Examples_WikipediaLinksStorage_CreateDocument_" data-uid="Platform.Examples.WikipediaLinksStorage.CreateDocument*"></a>
-  <h4 id="Platform_Examples_WikipediaLinksStorage_CreateDocument_System_String_" data-uid="Platform.Examples.WikipediaLinksStorage.CreateDocument(System.String)">CreateDocument(String)</h4>
+  <a id="Platform_Examples_WikipediaLinksStorage_1_CreateDocument_" data-uid="Platform.Examples.WikipediaLinksStorage`1.CreateDocument*"></a>
+  <h4 id="Platform_Examples_WikipediaLinksStorage_1_CreateDocument_System_String_" data-uid="Platform.Examples.WikipediaLinksStorage`1.CreateDocument(System.String)">CreateDocument(String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong CreateDocument(string name)</code></pre>
+    <pre><code class="lang-csharp hljs">public TLink CreateDocument(string name)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -229,20 +244,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="xref">TLink</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Platform_Examples_WikipediaLinksStorage_CreateElement_" data-uid="Platform.Examples.WikipediaLinksStorage.CreateElement*"></a>
-  <h4 id="Platform_Examples_WikipediaLinksStorage_CreateElement_System_String_" data-uid="Platform.Examples.WikipediaLinksStorage.CreateElement(System.String)">CreateElement(String)</h4>
+  <a id="Platform_Examples_WikipediaLinksStorage_1_CreateElement_" data-uid="Platform.Examples.WikipediaLinksStorage`1.CreateElement*"></a>
+  <h4 id="Platform_Examples_WikipediaLinksStorage_1_CreateElement_System_String_" data-uid="Platform.Examples.WikipediaLinksStorage`1.CreateElement(System.String)">CreateElement(String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong CreateElement(string name)</code></pre>
+    <pre><code class="lang-csharp hljs">public TLink CreateElement(string name)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -271,20 +286,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="xref">TLink</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Platform_Examples_WikipediaLinksStorage_CreateTextElement_" data-uid="Platform.Examples.WikipediaLinksStorage.CreateTextElement*"></a>
-  <h4 id="Platform_Examples_WikipediaLinksStorage_CreateTextElement_System_String_" data-uid="Platform.Examples.WikipediaLinksStorage.CreateTextElement(System.String)">CreateTextElement(String)</h4>
+  <a id="Platform_Examples_WikipediaLinksStorage_1_CreateTextElement_" data-uid="Platform.Examples.WikipediaLinksStorage`1.CreateTextElement*"></a>
+  <h4 id="Platform_Examples_WikipediaLinksStorage_1_CreateTextElement_System_String_" data-uid="Platform.Examples.WikipediaLinksStorage`1.CreateTextElement(System.String)">CreateTextElement(String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong CreateTextElement(string content)</code></pre>
+    <pre><code class="lang-csharp hljs">public TLink CreateTextElement(string content)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -313,7 +328,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="xref">TLink</span></td>
         <td></td>
       </tr>
     </tbody>
