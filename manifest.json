@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "c2HC3Vsfln2TG5Mezi65dw=="
+          "hash": "r3pt3eJTKBVLus17nWSUUg=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "README.ru.html",
-          "hash": "DcCUyikCzdBnGvcg6SElhQ=="
+          "hash": "zPSa1392uvGlb+sgZTv9pg=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/articles/links-theory.html",
-          "hash": "rvT+2xXKyFylfqcEgjCJHg=="
+          "hash": "CVgXt0nXwqvEYAKaxJceww=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "LlusNvxho7d2nI95UKXSmw=="
+          "hash": "jElyYwFFlw2/1BqDTqP6rQ=="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "index.ru.html",
-          "hash": "lvVqASB5+uSL3jGpa6CTow=="
+          "hash": "XfMIY3eWfQwonh9iSN1LrQ=="
         }
       },
       "is_incremental": false,
@@ -366,7 +366,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Examples.LinksXmlStorage-1.html",
-          "hash": "Gez9W36Vpf1dWIDfd7ILqw=="
+          "hash": "+MVKQ7crDyKHPmV8DPeSOg=="
         }
       },
       "is_incremental": false,
@@ -426,7 +426,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Examples.XmlElementCounter.html",
-          "hash": "iGj6rR1fcAXx1OGE6KNBjA=="
+          "hash": "1Bl8WyJilLL/WIekhLHsWg=="
         }
       },
       "is_incremental": false,
@@ -439,6 +439,18 @@
         ".html": {
           "relative_path": "api/Platform.Examples.XmlElementCounterCLI.html",
           "hash": "TOIFIOISC0HKwCuLpWQ2Yg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Examples.XmlImporter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Examples.XmlImporter-1.html",
+          "hash": "azG/+6qY1zBhvUN9gMBWeA=="
         }
       },
       "is_incremental": false,
@@ -474,7 +486,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Examples.html",
-          "hash": "gyP9WQWouJMkRvm6tKxwDw=="
+          "hash": "Wz3t0u8c16CMUhi4ChvuOg=="
         }
       },
       "is_incremental": false,
@@ -822,7 +834,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "iNmjdTZl47tEySRjt0aowg=="
+          "hash": "JYBz/4LY2FCSosZ6qAcI1A=="
         }
       },
       "is_incremental": false,
@@ -871,7 +883,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 62,
+          "total_file_count": 63,
           "skipped_file_count": 0
         }
       }

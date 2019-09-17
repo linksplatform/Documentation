@@ -799,15 +799,15 @@ references:
   fullName.vb: Platform.Examples.LinksXmlStorage(Of TLink)
   nameWithType: LinksXmlStorage<TLink>
   nameWithType.vb: LinksXmlStorage(Of TLink)
-- uid: Platform.Examples.LinksXmlStorage`1.#ctor(ILinks{`0},LinkFrequenciesCache{`0})
-  name: LinksXmlStorage(ILinks<TLink>, LinkFrequenciesCache<TLink>)
-  href: api/Platform.Examples.LinksXmlStorage-1.html#Platform_Examples_LinksXmlStorage_1__ctor_ILinks__0__LinkFrequenciesCache__0__
-  commentId: M:Platform.Examples.LinksXmlStorage`1.#ctor(ILinks{`0},LinkFrequenciesCache{`0})
-  name.vb: LinksXmlStorage(ILinks(Of TLink), LinkFrequenciesCache(Of TLink))
-  fullName: Platform.Examples.LinksXmlStorage<TLink>.LinksXmlStorage(ILinks<TLink>, LinkFrequenciesCache<TLink>)
-  fullName.vb: Platform.Examples.LinksXmlStorage(Of TLink).LinksXmlStorage(ILinks(Of TLink), LinkFrequenciesCache(Of TLink))
-  nameWithType: LinksXmlStorage<TLink>.LinksXmlStorage(ILinks<TLink>, LinkFrequenciesCache<TLink>)
-  nameWithType.vb: LinksXmlStorage(Of TLink).LinksXmlStorage(ILinks(Of TLink), LinkFrequenciesCache(Of TLink))
+- uid: Platform.Examples.LinksXmlStorage`1.#ctor(ILinks{`0},System.Boolean,LinkFrequenciesCache{`0})
+  name: LinksXmlStorage(ILinks<TLink>, Boolean, LinkFrequenciesCache<TLink>)
+  href: api/Platform.Examples.LinksXmlStorage-1.html#Platform_Examples_LinksXmlStorage_1__ctor_ILinks__0__System_Boolean_LinkFrequenciesCache__0__
+  commentId: M:Platform.Examples.LinksXmlStorage`1.#ctor(ILinks{`0},System.Boolean,LinkFrequenciesCache{`0})
+  name.vb: LinksXmlStorage(ILinks(Of TLink), Boolean, LinkFrequenciesCache(Of TLink))
+  fullName: Platform.Examples.LinksXmlStorage<TLink>.LinksXmlStorage(ILinks<TLink>, System.Boolean, LinkFrequenciesCache<TLink>)
+  fullName.vb: Platform.Examples.LinksXmlStorage(Of TLink).LinksXmlStorage(ILinks(Of TLink), System.Boolean, LinkFrequenciesCache(Of TLink))
+  nameWithType: LinksXmlStorage<TLink>.LinksXmlStorage(ILinks<TLink>, Boolean, LinkFrequenciesCache<TLink>)
+  nameWithType.vb: LinksXmlStorage(Of TLink).LinksXmlStorage(ILinks(Of TLink), Boolean, LinkFrequenciesCache(Of TLink))
 - uid: Platform.Examples.LinksXmlStorage`1.#ctor*
   name: LinksXmlStorage
   href: api/Platform.Examples.LinksXmlStorage-1.html#Platform_Examples_LinksXmlStorage_1__ctor_
@@ -1025,12 +1025,12 @@ references:
   isSpec: "True"
   fullName: Platform.Examples.XmlElementCounter.XmlElementCounter
   nameWithType: XmlElementCounter.XmlElementCounter
-- uid: Platform.Examples.XmlElementCounter.Count(System.String,CancellationToken)
-  name: Count(String, CancellationToken)
-  href: api/Platform.Examples.XmlElementCounter.html#Platform_Examples_XmlElementCounter_Count_System_String_CancellationToken_
-  commentId: M:Platform.Examples.XmlElementCounter.Count(System.String,CancellationToken)
-  fullName: Platform.Examples.XmlElementCounter.Count(System.String, CancellationToken)
-  nameWithType: XmlElementCounter.Count(String, CancellationToken)
+- uid: Platform.Examples.XmlElementCounter.Count(System.String,System.String,CancellationToken)
+  name: Count(String, String, CancellationToken)
+  href: api/Platform.Examples.XmlElementCounter.html#Platform_Examples_XmlElementCounter_Count_System_String_System_String_CancellationToken_
+  commentId: M:Platform.Examples.XmlElementCounter.Count(System.String,System.String,CancellationToken)
+  fullName: Platform.Examples.XmlElementCounter.Count(System.String, System.String, CancellationToken)
+  nameWithType: XmlElementCounter.Count(String, String, CancellationToken)
 - uid: Platform.Examples.XmlElementCounter.Count*
   name: Count
   href: api/Platform.Examples.XmlElementCounter.html#Platform_Examples_XmlElementCounter_Count_
@@ -1060,6 +1060,50 @@ references:
   isSpec: "True"
   fullName: Platform.Examples.XmlElementCounterCLI.Run
   nameWithType: XmlElementCounterCLI.Run
+- uid: Platform.Examples.XmlImporter`1
+  name: XmlImporter<TLink>
+  href: api/Platform.Examples.XmlImporter-1.html
+  commentId: T:Platform.Examples.XmlImporter`1
+  name.vb: XmlImporter(Of TLink)
+  fullName: Platform.Examples.XmlImporter<TLink>
+  fullName.vb: Platform.Examples.XmlImporter(Of TLink)
+  nameWithType: XmlImporter<TLink>
+  nameWithType.vb: XmlImporter(Of TLink)
+- uid: Platform.Examples.XmlImporter`1.#ctor(Platform.Examples.IXmlStorage{`0})
+  name: XmlImporter(IXmlStorage<TLink>)
+  href: api/Platform.Examples.XmlImporter-1.html#Platform_Examples_XmlImporter_1__ctor_Platform_Examples_IXmlStorage__0__
+  commentId: M:Platform.Examples.XmlImporter`1.#ctor(Platform.Examples.IXmlStorage{`0})
+  name.vb: XmlImporter(IXmlStorage(Of TLink))
+  fullName: Platform.Examples.XmlImporter<TLink>.XmlImporter(Platform.Examples.IXmlStorage<TLink>)
+  fullName.vb: Platform.Examples.XmlImporter(Of TLink).XmlImporter(Platform.Examples.IXmlStorage(Of TLink))
+  nameWithType: XmlImporter<TLink>.XmlImporter(IXmlStorage<TLink>)
+  nameWithType.vb: XmlImporter(Of TLink).XmlImporter(IXmlStorage(Of TLink))
+- uid: Platform.Examples.XmlImporter`1.#ctor*
+  name: XmlImporter
+  href: api/Platform.Examples.XmlImporter-1.html#Platform_Examples_XmlImporter_1__ctor_
+  commentId: Overload:Platform.Examples.XmlImporter`1.#ctor
+  isSpec: "True"
+  fullName: Platform.Examples.XmlImporter<TLink>.XmlImporter
+  fullName.vb: Platform.Examples.XmlImporter(Of TLink).XmlImporter
+  nameWithType: XmlImporter<TLink>.XmlImporter
+  nameWithType.vb: XmlImporter(Of TLink).XmlImporter
+- uid: Platform.Examples.XmlImporter`1.Import(System.String,CancellationToken)
+  name: Import(String, CancellationToken)
+  href: api/Platform.Examples.XmlImporter-1.html#Platform_Examples_XmlImporter_1_Import_System_String_CancellationToken_
+  commentId: M:Platform.Examples.XmlImporter`1.Import(System.String,CancellationToken)
+  fullName: Platform.Examples.XmlImporter<TLink>.Import(System.String, CancellationToken)
+  fullName.vb: Platform.Examples.XmlImporter(Of TLink).Import(System.String, CancellationToken)
+  nameWithType: XmlImporter<TLink>.Import(String, CancellationToken)
+  nameWithType.vb: XmlImporter(Of TLink).Import(String, CancellationToken)
+- uid: Platform.Examples.XmlImporter`1.Import*
+  name: Import
+  href: api/Platform.Examples.XmlImporter-1.html#Platform_Examples_XmlImporter_1_Import_
+  commentId: Overload:Platform.Examples.XmlImporter`1.Import
+  isSpec: "True"
+  fullName: Platform.Examples.XmlImporter<TLink>.Import
+  fullName.vb: Platform.Examples.XmlImporter(Of TLink).Import
+  nameWithType: XmlImporter<TLink>.Import
+  nameWithType.vb: XmlImporter(Of TLink).Import
 - uid: Platform.Examples.XmlImporterCLI
   name: XmlImporterCLI
   href: api/Platform.Examples.XmlImporterCLI.html
