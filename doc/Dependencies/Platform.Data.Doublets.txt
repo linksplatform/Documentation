@@ -1,0 +1,76 @@
+digraph PlatformDataDoubletsDependencies {
+  node [style=filled, color="0.650 0.200 1.000", shape="rectangle"]
+  
+  "Platform.Exceptions" -> "Platform.Disposables"
+  
+  "System.Numerics.Vectors" -> "Platform.Collections"
+  "Platform.Interfaces" -> "Platform.Collections"
+  "Platform.Disposables" -> "Platform.Collections"
+  "Platform.Ranges" -> "Platform.Collections"
+  "Platform.Random" -> "Platform.Collections"
+  
+  "System.Runtime.CompilerServices.Unsafe" -> "Platform.Unsafe"
+  "Platform.Numbers" -> "Platform.Unsafe"
+  
+  "Platform.Reflection" -> "Platform.Converters"
+  
+  "Platform.Exceptions" -> "Platform.Ranges"
+  
+  "System.Reflection.Emit" -> "Platform.Reflection"
+  "System.Reflection.Emit.Lightweight" -> "Platform.Reflection"
+  "Platform.Collections" -> "Platform.Reflection"
+  
+  "Platform.Threading" -> "Platform.IO"
+  "Platform.Unsafe" -> "Platform.IO"
+  
+  "Platform.Collections" -> "Platform.Threading"
+  
+  "Platform.Converters" -> "Platform.Numbers"
+  
+  "Platform.Numbers" -> "Platform.Collections.Methods"
+  
+  "Platform.Ranges" -> "Platform.Random"
+  
+  "Platform.Interfaces" -> "Platform.Timestamps"
+  
+  "Platform.Reflection" -> "Platform.Singletons"
+  
+  "System.IO.MemoryMappedFiles" -> "Platform.Memory"
+  "Platform.IO" -> "Platform.Memory"
+  
+  "Platform.Threading" -> "Platform.Data"
+  "Platform.Numbers" -> "Platform.Data"
+  "Platform.Setters" -> "Platform.Data"
+  
+  "Platform.Random" -> "Platform.Data.Doublets"
+  "Platform.Timestamps" -> "Platform.Data.Doublets"
+  "Platform.Collections.Methods" -> "Platform.Data.Doublets"
+  "Platform.Singletons" -> "Platform.Data.Doublets"
+  "Platform.Memory" -> "Platform.Data.Doublets"
+  "Platform.Data" -> "Platform.Data.Doublets"
+  
+  "System.Numerics.Vectors" [href="https://www.nuget.org/packages/System.Numerics.Vectors"]
+  "Platform.Exceptions" [href="https://github.com/linksplatform/Exceptions"]
+  "Platform.Disposables" [href="https://github.com/linksplatform/Disposables"]
+  "System.Runtime.CompilerServices.Unsafe" [href="https://www.nuget.org/packages/System.Runtime.CompilerServices.Unsafe"]
+  "System.Reflection.Emit" [href="https://www.nuget.org/packages/System.Reflection.Emit"]
+  "System.Reflection.Emit.Lightweight" [href="https://www.nuget.org/packages/System.Reflection.Emit.Lightweight"]
+  "Platform.Unsafe" [href="https://github.com/linksplatform/Unsafe"]
+  "Platform.Collections" [href="https://github.com/linksplatform/Collections"]
+  "Platform.Converters" [href="https://github.com/linksplatform/Converters"]
+  "Platform.Ranges" [href="https://github.com/linksplatform/Ranges"]
+  "Platform.Interfaces" [href="https://github.com/linksplatform/Interfaces"]
+  "Platform.Reflection" [href="https://github.com/linksplatform/Reflection"]
+  "System.IO.MemoryMappedFiles" [href="https://www.nuget.org/packages/System.IO.MemoryMappedFiles"]
+  "Platform.IO" [href="https://github.com/linksplatform/IO"]
+  "Platform.Threading" [href="https://github.com/linksplatform/Threading"]
+  "Platform.Numbers" [href="https://github.com/linksplatform/Numbers"]
+  "Platform.Setters" [href="https://github.com/linksplatform/Setters"]
+  "Platform.Random" [href="https://github.com/linksplatform/Random"]
+  "Platform.Timestamps" [href="https://github.com/linksplatform/Timestamps"]
+  "Platform.Collections.Methods" [href="https://github.com/linksplatform/Collections.Methods"]
+  "Platform.Singletons" [href="https://github.com/linksplatform/Singletons"]
+  "Platform.Memory" [color="0.650 0.700 1.000", href="https://github.com/linksplatform/Memory"]
+  "Platform.Data" [color="0.650 0.700 1.000", href="https://github.com/linksplatform/Data"]
+  "Platform.Data.Doublets" [color="0.650 0.700 1.000", style=filled, href="https://github.com/linksplatform/Data.Doublets"]
+}
