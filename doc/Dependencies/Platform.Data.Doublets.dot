@@ -33,6 +33,8 @@ digraph PlatformDataDoubletsDependencies {
   
   "Platform.Interfaces" -> "Platform.Timestamps"
   
+  "Platform.Interfaces" -> "Platform.Setters"
+  
   "Platform.Reflection" -> "Platform.Singletons"
   
   "System.IO.MemoryMappedFiles" -> "Platform.Memory"
@@ -48,6 +50,7 @@ digraph PlatformDataDoubletsDependencies {
   "Platform.Singletons" -> "Platform.Data.Doublets"
   "Platform.Memory" -> "Platform.Data.Doublets"
   "Platform.Data" -> "Platform.Data.Doublets"
+  "Platform.Incrementers" -> "Platform.Data.Doublets"
   
   "System.Numerics.Vectors" [href="https://www.nuget.org/packages/System.Numerics.Vectors"]
   "Platform.Exceptions" [href="https://github.com/linksplatform/Exceptions"]
@@ -60,6 +63,7 @@ digraph PlatformDataDoubletsDependencies {
   "Platform.Converters" [href="https://github.com/linksplatform/Converters"]
   "Platform.Ranges" [href="https://github.com/linksplatform/Ranges"]
   "Platform.Interfaces" [href="https://github.com/linksplatform/Interfaces"]
+  "Platform.Incrementers" [href="https://github.com/linksplatform/Incrementers"]
   "Platform.Reflection" [href="https://github.com/linksplatform/Reflection"]
   "System.IO.MemoryMappedFiles" [href="https://www.nuget.org/packages/System.IO.MemoryMappedFiles"]
   "Platform.IO" [href="https://github.com/linksplatform/IO"]
