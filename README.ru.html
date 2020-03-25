@@ -80,26 +80,26 @@
 <pre><code class="lang-C#">using System;
 using Platform.Data;
 using Platform.Data.Doublets;
-using Platform.Data.Doublets.ResizableDirectMemory.Generic;
+using Platform.Data.Doublets.Memory.United.Generic;
 
 namespace HelloWorld.Doublets.DotNet
 {
-  class Program
-  {
-    static void Main()
+    class Program
     {
-      using (var links = new ResizableDirectMemoryLinks&lt;uint&gt;(&quot;db.links&quot;))
-      {
-        var link = links.Create();
-        link = links.Update(link, link, link);
-        Console.WriteLine(&quot;Привет Мир!&quot;);
-        Console.WriteLine($&quot;Это моя первая связь: ({link}: {links.GetSource(link)}-&gt;{links.GetTarget(link)}).&quot;);
-        Console.WriteLine($&quot;Всего связей в хранилище: {links.Count()}.&quot;);
-        link = links.Update(link, default, default);
-        links.Delete(link);
-      }
+        static void Main()
+        {
+            using (var links = new UnitedMemoryLinks&lt;uint&gt;(&quot;db.links&quot;))
+            {
+                var link = links.Create();
+                link = links.Update(link, link, link);
+                Console.WriteLine(&quot;Привет Мир!&quot;);
+                Console.WriteLine($&quot;Это моя первая связь: {links.Format(link)}&quot;);
+                Console.WriteLine($&quot;Всего связей в хранилище: {links.Count()}.&quot;);
+                link = links.Update(link, default, default);
+                links.Delete(link);
+            }
+        }
     }
-  }
 }
 </code></pre><h2 id="sqlite-против-дуплетовhttpsgithubcomlinksplatformcomparisonssqlitevsdoublets"><a href="https://github.com/linksplatform/Comparisons.SQLiteVSDoublets">SQLite против Дуплетов</a></h2>
 <h2 id="описание">Описание</h2>
@@ -142,7 +142,7 @@ namespace HelloWorld.Doublets.DotNet
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Konard/LinksPlatform/blob/5a09fa90670f868316650357160b8fa1a720375c/README.ru.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Konard/LinksPlatform/blob/13e72c74034e309db32eb60248939f778f15210e/README.ru.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
