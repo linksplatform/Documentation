@@ -52,10 +52,36 @@ jQuery.fn.extend({
     }
 });
 
-function getNextUpItem(element) {
+function getNextUpItemOnThisOrParentLevel(element) {
     var parent = element.closest("li");
     var prev = parent.prev();
     if (prev.length > 0) {
+        var item = prev.find("> .item");
+        return item;
+    } else if (parent.is(":first-child")) {
+        var item = parent.parent().closest("li").find("> .item");
+        return item;
+    }
+}
+
+function getNextUpItem(element) {
+    var parent = element.closest("li");
+    var prev = parent.prev();
+    if (prev.length) {
+        var list = prev;
+        list = list.find("> ul");
+        while (list.length) {
+            var items = list.find("> li");
+            if (items.length > 0) {
+                var lastItem = $(items[items.length - 1]);
+                var innerList = lastItem.find("> ul");
+                if (innerList.length) {
+                    list = innerList;
+                } else {
+                    return lastItem.find("> .item");
+                }
+            }
+        }
         var item = prev.find("> .item");
         return item;
     } else if (parent.is(":first-child")) {
@@ -122,26 +148,38 @@ $(document).ready(function () {
         if (e.which == keys.alt)
             altKeyIsPressed = false;
     });
-    $(window).scroll(function (event) {
-        if (ignoreScrollEvent) {
-            return false;
-        }
-        var scrollTop = $(window).scrollTop();
-        var down = scrollTop > currentScrollTop;
-        $(window).scrollTop(currentScrollTop); // cancel scroll effect
-        if (down) {
-            MoveToItem(getNextDownItem(currentItem));
-        } else {
+
+    window.addEventListener('wheel', function (e) {
+        e.preventDefault();
+        if (e.deltaY < 0) {
             MoveToItem(getNextUpItem(currentItem));
+        } else {
+            MoveToItem(getNextDownItem(currentItem));
+        }
+        return false;
+    }, {
+        passive: false
+    });
+
+    $(window).scroll(function () {
+        if (ignoreScrollEvent) {
+            return;
+        }
+        var element = document.elementFromPoint(document.body.clientWidth / 2, document.body.clientHeight / 2);
+        if ($(element).is(".item")) {
+            var item = $(element);
+            MoveToItem(item, true);
         }
     });
+
     $(window).keydown(function (e) {
         if (e.which == keys.ctrl)
             ctrlKeyIsPressed = true;
         if (e.which == keys.alt)
             altKeyIsPressed = true;
         if (e.which == keys.up) {
-            MoveToItem(getNextUpItem(currentItem));
+            var item = (ctrlKeyIsPressed || altKeyIsPressed) ? getNextUpItem(currentItem) : getNextUpItemOnThisOrParentLevel(currentItem);
+            MoveToItem(item);
             return false;
         } else if (e.which == keys.down) {
             var item = (ctrlKeyIsPressed || altKeyIsPressed) ? getNextDownItem(currentItem) : getNextDownItemOnThisOrParentLevel(currentItem);
@@ -261,10 +299,8 @@ function MoveToItem(item, fromScroll) {
 function RefreshPosition(fromScroll) {
     var newLeft = ((document.body.clientWidth - offsetWidth) / 2 - offsetLeft) + "px";
     var newScrollTop = (offsetTop - (document.body.clientHeight - offsetHeight) / 2);
-
     if (firstTimePositionRefresh) {
         surface.style.left = newLeft;
-
         if (!fromScroll) {
             $(window).scrollTop(newScrollTop);
         }
@@ -277,17 +313,15 @@ function RefreshPosition(fromScroll) {
                 queue: false
             }, 600);
         } else {
-            $('html,body').stop(true);
-
+            $('html').stop(true);
             ignoreScrollEvent = true;
-
             $(surface).animate({
                 left: newLeft,
                 queue: false
             }, 500, function () {
                 ignoreScrollEvent = false;
             });
-            $('html,body').animate({
+            $('html').animate({
                 scrollTop: newScrollTop,
                 queue: false
             }, 500, function () {
