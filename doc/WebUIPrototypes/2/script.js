@@ -7,6 +7,7 @@ var offsetTop = 0;
 var offsetWidth = 0;
 var offsetHeight = 0;
 
+var currentScrollTop = 0;
 var ignoreScrollEvent = false;
 
 var keys =
@@ -55,6 +56,75 @@ jQuery.fn.extend({
 	}
 });
 
+function getNextUpItem(element)
+{
+	var parent = element.closest("li");
+	var prev = parent.prev();
+	if (prev.length > 0)
+	{
+		var item = prev.find("> .item");
+		return item;
+	}
+	else if (parent.is(":first-child"))
+	{
+		var item = parent.parent().closest("li").find("> .item");
+		return item;
+	}
+}
+
+function getNextDownItemOnThisOrParentLevel(element)
+{
+	var item = element.closest("li");
+	var next = item.next();
+	if (next.length)
+	{
+		var item = next.find("> .item");
+		return item;
+	}
+	else
+	{
+		var parentList = item.closest("ul");
+		if (!parentList.length)
+		{
+			return null;
+		}
+		var parentItem = parentList.closest("li");
+		if (!parentItem.length)
+		{
+			return null;
+		}
+		return parentItem.next().find("> .item");
+	}
+}
+
+function getNextDownItem(element)
+{
+	var item = element.closest("li");
+	var rightItem = item.find("> ul > li:first-child > .item");
+	if (rightItem.length)
+	{
+		return rightItem;
+    }
+	var next = item.next();
+	if (next.length)
+	{
+		var item = next.find("> .item");
+		return item;
+	}
+	else
+	{
+		var parentList = item.closest("ul");
+		if (!parentList.length) {
+			return null;
+		}
+		var parentItem = parentList.closest("li");
+		if (!parentItem.length) {
+			return null;
+		}
+		return parentItem.next().find("> .item");
+	}
+}
+
 $(document).ready(function ()
 {
 	surface = $("#surface")[0];
@@ -79,6 +149,25 @@ $(document).ready(function ()
 			altKeyIsPressed = false;
 	});
 
+	$(window).scroll(function (event)
+	{
+		if (ignoreScrollEvent)
+		{
+			return false;
+		}
+		var scrollTop = $(window).scrollTop();
+		var down = scrollTop > currentScrollTop;
+		$(window).scrollTop(currentScrollTop); // cancel scroll effect
+		if (down)
+		{
+			MoveToItem(getNextDownItem(currentItem));
+		}
+		else
+		{
+			MoveToItem(getNextUpItem(currentItem));
+		}
+	});
+
 	$(window).keydown(function (e)
 	{
 		if (e.which == keys.ctrl)
@@ -88,33 +177,13 @@ $(document).ready(function ()
 
 		if (e.which == keys.up)
 		{
-			var parent = currentItem.closest("li");
-			var prev = parent.prev();
-			if (prev.length > 0)
-			{
-				var item = prev.find("> .item");
-				MoveToItem(item);
-			}
-			else if (parent.is(":first-child"))
-			{
-				var item = parent.parent().closest("li").find("> .item");
-				MoveToItem(item);
-			}
+			MoveToItem(getNextUpItem(currentItem));
 			return false;
 		}
 		else if (e.which == keys.down)
 		{
-			var next = currentItem.closest("li").next();
-			if (next.length > 0)
-			{
-				var item = next.find("> .item");
-				MoveToItem(item);
-			}
-			else
-			{
-				// TODO: Сделать обработку края дерева (для переха для следующего узла)
-				// ситуация - порочитано всё в первом большом узле, можно передвигаться ко втором большому узлу
-			}
+			var item = (ctrlKeyIsPressed || altKeyIsPressed) ? getNextDownItem(currentItem) : getNextDownItemOnThisOrParentLevel(currentItem);
+			MoveToItem(item);
 			return false;
 		}
 		else if (e.which == keys.left)
@@ -122,7 +191,6 @@ $(document).ready(function ()
 			var parent = currentItem.closest("li").parent().closest("li");
 			var item = parent.find("> .item");
 			MoveToItem(item);
-
 			return false;
 		}
 		else if (e.which == keys.right)
@@ -130,7 +198,6 @@ $(document).ready(function ()
 			var parent = currentItem.closest("li");
 			var item = parent.find("> ul > li:first-child > .item");
 			MoveToItem(item);
-
 			return false;
 		}
 		else if ((ctrlKeyIsPressed || altKeyIsPressed) && e.which == keys.q)
@@ -329,6 +396,7 @@ function RefreshPosition(fromScroll)
 				queue: false
 			}, 500, function ()
 			{
+				currentScrollTop = newScrollTop;
 				ignoreScrollEvent = false;
 			})
 		}
