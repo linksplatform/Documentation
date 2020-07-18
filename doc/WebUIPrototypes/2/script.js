@@ -213,21 +213,6 @@ $(document).ready(function ()
 		}
 	});
 
-	$(window).scroll(function ()
-	{
-		if (ignoreScrollEvent)
-			return;
-
-		var element = document.elementFromPoint(document.body.clientWidth / 2, document.body.clientHeight / 2);
-
-		if ($(element).is(".item"))
-		{
-			var item = $(element);
-
-			MoveToItem(item, true);
-		}
-	});
-
 	$("body").mousemove(function (e)
 	{
 		if (e.clientY < 90)
