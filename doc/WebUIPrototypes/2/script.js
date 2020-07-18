@@ -1,17 +1,16 @@
-﻿var surface = null;
-var query = null;
-var currentItem = $();
+﻿let surface = null;
+let query = null;
+let currentItem = $();
 
-var offsetLeft = 0;
-var offsetTop = 0;
-var offsetWidth = 0;
-var offsetHeight = 0;
+let offsetLeft = 0;
+let offsetTop = 0;
+let offsetWidth = 0;
+let offsetHeight = 0;
 
-var currentScrollTop = 0;
-var ignoreScrollEvent = false;
+let currentScrollTop = 0;
+let ignoreScrollEvent = false;
 
-var keys =
-{
+const keys = {
     left: 37,
     up: 38,
     right: 39,
@@ -21,31 +20,30 @@ var keys =
     q: 81
 };
 
-var mouseButton =
-{
+const mouseButton = {
     left: 1,
     middle: 2,
     right: 3
 };
 
-var firstTimePositionRefresh = true;
-var firstTimeQueryPositionRefresh = true;
-var querySpaceEntered = false;
-var queryForcedToShow = true;
-var ctrlKeyIsPressed = false;
-var altKeyIsPressed = false;
+let firstTimePositionRefresh = true;
+let firstTimeQueryPositionRefresh = true;
+let querySpaceEntered = false;
+let queryForcedToShow = true;
+let ctrlKeyIsPressed = false;
+let altKeyIsPressed = false;
 
 jQuery.fn.extend({
     disableSelection: function () {
-        this.each(function () {
-            this.onselectstart = function () { return false; };
+        this.each(() => {
+            this.onselectstart = () => false;
             this.unselectable = "on";
             jQuery(this).css('-moz-user-select', 'none');
         });
     },
     enableSelection: function () {
-        this.each(function () {
-            this.onselectstart = function () { };
+        this.each(() => {
+            this.onselectstart = () => {};
             this.unselectable = "off";
             jQuery(this).css('-moz-user-select', 'auto');
         });
@@ -53,103 +51,80 @@ jQuery.fn.extend({
 });
 
 function getNextUpItemOnThisOrParentLevel(element) {
-    var parent = element.closest("li");
-    var prev = parent.prev();
+    let parent = element.closest("li");
+    let prev = parent.prev();
+    let item;
     if (prev.length > 0) {
-        var item = prev.find("> .item");
+        item = prev.find("> .item");
         return item;
     } else if (parent.is(":first-child")) {
-        var item = parent.parent().closest("li").find("> .item");
+        item = parent.parent().closest("li").find("> .item");
         return item;
     }
 }
 
 function getNextUpItem(element) {
-    var parent = element.closest("li");
-    var prev = parent.prev();
+    let parent = element.closest("li");
+    let prev = parent.prev();
     if (prev.length) {
-        var list = prev;
+        let list = prev;
         list = list.find("> ul");
         while (list.length) {
-            var items = list.find("> li");
+            let items = list.find("> li");
             if (items.length > 0) {
-                var lastItem = $(items[items.length - 1]);
-                var innerList = lastItem.find("> ul");
-                if (innerList.length) {
+                let lastItem = $(items[items.length - 1]);
+                let innerList = lastItem.find("> ul");
+                if (innerList.length)
                     list = innerList;
-                } else {
+                else
                     return lastItem.find("> .item");
-                }
             }
         }
-        var item = prev.find("> .item");
-        return item;
-    } else if (parent.is(":first-child")) {
-        var item = parent.parent().closest("li").find("> .item");
-        return item;
+        return prev.find("> .item");
+    }
+    if (parent.is(":first-child")) {
+        return parent.parent().closest("li").find("> .item");
     }
 }
 
-function getNextDownItemOnThisOrParentLevel(element) {
-    var item = element.closest("li");
-    var next = item.next();
-    if (next.length) {
-        var item = next.find("> .item");
-        return item;
-    } else {
-        var parentList = item.closest("ul");
-        if (!parentList.length) {
-            return null;
-        }
-        var parentItem = parentList.closest("li");
-        if (!parentItem.length) {
-            return null;
-        }
-        return parentItem.next().find("> .item");
-    }
-}
+function getNextDownItem(element, thisLevel=false) {
+    const item = element.closest("li");
 
-function getNextDownItem(element) {
-    var item = element.closest("li");
-    var rightItem = item.find("> ul > li:first-child > .item");
-    if (rightItem.length) {
-        return rightItem;
+    if (!thisLevel) {
+        const rightItem = item.find("> ul > li:first-child > .item");
+        if (rightItem.length) return rightItem;
     }
-    var next = item.next();
-    if (next.length) {
-        var item = next.find("> .item");
-        return item;
-    } else {
-        var parentList = item.closest("ul");
-        if (!parentList.length) {
-            return null;
-        }
-        var parentItem = parentList.closest("li");
-        if (!parentItem.length) {
-            return null;
-        }
-        return parentItem.next().find("> .item");
-    }
+
+    const next = item.next();
+    if (next.length) return next.find("> .item");
+
+    const parentList = item.closest("ul");
+    if (!parentList.length) return null;
+
+    const parentItem = parentList.closest("li");
+    if (!parentItem.length) return null;
+
+    return parentItem.next().find("> .item");
 }
 
 $(document).ready(function () {
     surface = $("#surface")[0];
     query = $("#query")[0];
     $(".item").click(function (e) {
-        if (e.which == mouseButton.left) {
-            var item = $(this);
+        if (e.which === mouseButton.left) {
+            const item = $(this);
             MoveToItem(item);
         }
     });
     $(".item").disableSelection();
     $(window).keyup(function (e) {
-        if (e.which == keys.ctrl)
+        if (e.which === keys.ctrl)
             ctrlKeyIsPressed = false;
-        if (e.which == keys.alt)
+        if (e.which === keys.alt)
             altKeyIsPressed = false;
     });
 
-    window.addEventListener('wheel', function (e) {
+    window.addEventListener('wheel', (e) => {
         e.preventDefault();
         if (e.deltaY < 0) {
             MoveToItem(getNextUpItem(currentItem));
@@ -162,40 +137,44 @@ $(document).ready(function () {
     });
 
     $(window).scroll(function () {
-        if (ignoreScrollEvent) {
-            return;
-        }
-        var element = document.elementFromPoint(document.body.clientWidth / 2, document.body.clientHeight / 2);
+        if (ignoreScrollEvent) return;
+
+        let element = document.elementFromPoint(document.body.clientWidth / 2, document.body.clientHeight / 2);
         if ($(element).is(".item")) {
-            var item = $(element);
+            const item = $(element);
             MoveToItem(item, true);
         }
     });
 
     $(window).keydown(function (e) {
-        if (e.which == keys.ctrl)
-            ctrlKeyIsPressed = true;
-        if (e.which == keys.alt)
-            altKeyIsPressed = true;
-        if (e.which == keys.up) {
-            var item = (ctrlKeyIsPressed || altKeyIsPressed) ? getNextUpItem(currentItem) : getNextUpItemOnThisOrParentLevel(currentItem);
+        let parent;
+        let item;
+        if (e.which === keys.ctrl) ctrlKeyIsPressed = true;
+        if (e.which === keys.alt) altKeyIsPressed = true;
+
+        if (e.which === keys.up) {
+            item = (ctrlKeyIsPressed || altKeyIsPressed) ? getNextUpItem(currentItem) : getNextUpItemOnThisOrParentLevel(currentItem);
             MoveToItem(item);
             return false;
-        } else if (e.which == keys.down) {
-            var item = (ctrlKeyIsPressed || altKeyIsPressed) ? getNextDownItem(currentItem) : getNextDownItemOnThisOrParentLevel(currentItem);
+        }
+        if (e.which === keys.down) {
+            item = (ctrlKeyIsPressed || altKeyIsPressed) ? getNextDownItem(currentItem) : getNextDownItem(currentItem,  true);
             MoveToItem(item);
             return false;
-        } else if (e.which == keys.left) {
-            var parent = currentItem.closest("li").parent().closest("li");
-            var item = parent.find("> .item");
+        }
+        if (e.which === keys.left) {
+            parent = currentItem.closest("li").parent().closest("li");
+            item = parent.find("> .item");
             MoveToItem(item);
             return false;
-        } else if (e.which == keys.right) {
-            var parent = currentItem.closest("li");
-            var item = parent.find("> ul > li:first-child > .item");
+        }
+        if (e.which === keys.right) {
+            parent = currentItem.closest("li");
+            item = parent.find("> ul > li:first-child > .item");
             MoveToItem(item);
             return false;
-        } else if ((ctrlKeyIsPressed || altKeyIsPressed) && e.which == keys.q) {
+        }
+        if ((ctrlKeyIsPressed || altKeyIsPressed) && e.which === keys.q) {
             if (queryForcedToShow)
                 HideQuery();
             else
@@ -208,16 +187,12 @@ $(document).ready(function () {
     $("body").mousemove(function (e) {
         if (e.clientY < 90) {
             if (!querySpaceEntered) {
-                if (!queryForcedToShow) {
-                    ShowQuery();
-                }
+                if (!queryForcedToShow) ShowQuery();
                 querySpaceEntered = true;
             }
         } else {
             if (querySpaceEntered) {
-                if (!queryForcedToShow) {
-                    HideQuery();
-                }
+                if (!queryForcedToShow) HideQuery();
                 querySpaceEntered = false;
             }
         }
@@ -249,15 +224,14 @@ function HideQuery() {
 }
 
 function Refresh() {
-    var firstItem = GetFirstItem();
-    var lastItem = GetLastItem();
+    const firstItem = GetFirstItem();
+    const lastItem = GetLastItem();
     $(surface).css('padding-bottom', ((document.body.clientHeight - firstItem[0].offsetHeight) / 2) + "px");
     $(surface).css('padding-top', ((document.body.clientHeight - lastItem[0].offsetHeight) / 2) + "px");
-    var newLeft = ((document.body.clientWidth - query.offsetWidth) / 2) + "px";
-    query.style.left = newLeft;
+    query.style.left = ((document.body.clientWidth - query.offsetWidth) / 2) + "px";
     if (firstTimeQueryPositionRefresh) {
-        setTimeout(function () // Иначе анимация начинает работать сразу
-        {
+        setTimeout(() => {
+            // Иначе анимация начинает работать сразу
             query.className = "animated";
             firstTimeQueryPositionRefresh = false;
         }, 10);
@@ -270,20 +244,19 @@ function GetFirstItem() {
 }
 
 function GetLastItem() {
-    var child = $(surface).find("> ul > li:last-child");
+    let child = $(surface).find("> ul > li:last-child");
     do {
-        var childOfChild = child.find("> ul > li:last-child");
-        if (childOfChild.length > 0) {
-            child = childOfChild;
-        } else {
-            break;
-        }
+        const childOfChild = child.find("> ul > li:last-child");
+        if (childOfChild.length <= 0) break;
+
+        child = childOfChild;
     } while (true);
+
     return child.find("> .item");
 }
 
 function MoveToItem(item, fromScroll) {
-    if (item != null && item[0] != null && (currentItem == null || currentItem[0] != item[0])) {
+    if (item != null && item[0] != null && (currentItem == null || currentItem[0] !== item[0])) {
         if (currentItem != null) {
             currentItem.removeClass("focused");
             currentItem.disableSelection();
@@ -297,8 +270,8 @@ function MoveToItem(item, fromScroll) {
 }
 
 function RefreshPosition(fromScroll) {
-    var newLeft = ((document.body.clientWidth - offsetWidth) / 2 - offsetLeft) + "px";
-    var newScrollTop = (offsetTop - (document.body.clientHeight - offsetHeight) / 2);
+    const newLeft = ((document.body.clientWidth - offsetWidth) / 2 - offsetLeft) + "px";
+    const newScrollTop = (offsetTop - (document.body.clientHeight - offsetHeight) / 2);
     if (firstTimePositionRefresh) {
         surface.style.left = newLeft;
         if (!fromScroll) {
@@ -333,7 +306,7 @@ function RefreshPosition(fromScroll) {
 }
 
 function SetPositionOffset(obj) {
-    var p = GetPosition(obj, surface);
+    const p = GetPosition(obj, surface);
     offsetLeft = p.left;
     offsetTop = p.top;
     offsetWidth = obj.offsetWidth;
@@ -341,13 +314,13 @@ function SetPositionOffset(obj) {
 }
 
 function GetPosition(obj, relativeTo) {
-    var left = 0;
-    var top = 0;
+    let left = 0;
+    let top = 0;
     if (obj.offsetParent) {
         do {
             left += obj.offsetLeft;
             top += obj.offsetTop;
-        } while (obj = obj.offsetParent & obj != relativeTo);
+        } while (obj === obj.offsetParent && obj !== relativeTo);
     }
     return { 'left': left, 'top': top };
 }
