@@ -1,2 +1,2 @@
 # Documenatation
-Documenatation root repository for LinksPlatform projects
+Documenatation root repository for LinksPlatform projects.
