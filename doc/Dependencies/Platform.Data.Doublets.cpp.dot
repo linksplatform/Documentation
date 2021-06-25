@@ -1,65 +1,53 @@
 digraph PlatformDataDoubletsDependencies {
   node [style=filled, color="0.650 0.200 1.000", shape="rectangle"]
-  
-  "System.Numerics.Vectors" -> "Platform.Collections"
+
+   
+  "Platform.Interfaces" -> "Platform.Exceptions" 
   "Platform.Interfaces" -> "Platform.Collections"
   "Platform.Ranges" -> "Platform.Collections"
   "Platform.Random" -> "Platform.Collections"
   
-  "System.Runtime.CompilerServices.Unsafe" -> "Platform.Unsafe"
-  "Platform.Numbers" -> "Platform.Unsafe"
-  
-  "Platform.Reflection" -> "Platform.Converters"
-  
   "Platform.Exceptions" -> "Platform.Ranges"
-  
-  "System.Reflection.Emit" -> "Platform.Reflection"
-  "System.Reflection.Emit.Lightweight" -> "Platform.Reflection"
-  "Platform.Collections" -> "Platform.Reflection"
-  
+
+
   "Platform.Threading" -> "Platform.IO"
-  "Platform.Unsafe" -> "Platform.IO"
-  
+
   "Platform.Collections" -> "Platform.Threading"
-  
+
   "Platform.Converters" -> "Platform.Numbers"
-  
+
   "Platform.Numbers" -> "Platform.Collections.Methods"
-  
+
   "Platform.Ranges" -> "Platform.Random"
-  
+
   "Platform.Interfaces" -> "Platform.Timestamps"
-  
+
   "Platform.Interfaces" -> "Platform.Setters"
-  
-  "Platform.Reflection" -> "Platform.Singletons"
-  
+
   "System.IO.MemoryMappedFiles" -> "Platform.Memory"
   "Platform.IO" -> "Platform.Memory"
-  
+
   "Platform.Threading" -> "Platform.Data"
   "Platform.Numbers" -> "Platform.Data"
   "Platform.Setters" -> "Platform.Data"
-  
+
   "Platform.Random" -> "Platform.Data.Doublets"
   "Platform.Timestamps" -> "Platform.Data.Doublets"
   "Platform.Collections.Methods" -> "Platform.Data.Doublets"
-  "Platform.Singletons" -> "Platform.Data.Doublets"
   "Platform.Memory" -> "Platform.Data.Doublets"
   "Platform.Data" -> "Platform.Data.Doublets"
   "Platform.Incrementers" -> "Platform.Data.Doublets"
-  
-  "Deleted List: " -> "Platform.Disposables"
-  
+
+  "List of deleted: " -> "Platform.Disposables"
+  "List of deleted: " -> "Platform.Reflection"
+  "List of deleted: " -> "Platform.Unsafe"
+  "List of deleted: " -> "Platform.Singletons"
+
   "Platform.Hashing" -> "Platform.Ranges"
   "Platform.Equality" -> "Platform.Collections"
-  
-  "System.Numerics.Vectors" [href="https://www.nuget.org/packages/System.Numerics.Vectors"]
+
   "Platform.Exceptions" [href="https://github.com/linksplatform/Exceptions"]
   "Platform.Disposables" [href="https://github.com/linksplatform/Disposables"]
-  "System.Runtime.CompilerServices.Unsafe" [href="https://www.nuget.org/packages/System.Runtime.CompilerServices.Unsafe"]
-  "System.Reflection.Emit" [href="https://www.nuget.org/packages/System.Reflection.Emit"]
-  "System.Reflection.Emit.Lightweight" [href="https://www.nuget.org/packages/System.Reflection.Emit.Lightweight"]
   "Platform.Unsafe" [href="https://github.com/linksplatform/Unsafe"]
   "Platform.Collections" [href="https://github.com/linksplatform/Collections"]
   "Platform.Converters" [href="https://github.com/linksplatform/Converters"]
