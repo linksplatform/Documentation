@@ -35,10 +35,10 @@ digraph PlatformDataDoubletsDependencies {
   "Platform.Data" -> "Platform.Data.Doublets"
   "Platform.Incrementers" -> "Platform.Data.Doublets"
 
-  "List of deleted: " -> "Platform.Disposables"
-  "List of deleted: " -> "Platform.Reflection"
-  "List of deleted: " -> "Platform.Unsafe"
-  "List of deleted: " -> "Platform.Singletons"
+  "Set of deleted: " -> "Platform.Disposables"
+  "Set of deleted: " -> "Platform.Reflection"
+  "Set of deleted: " -> "Platform.Unsafe"
+  "Set of deleted: " -> "Platform.Singletons"
 
   "Platform.Hashing" -> "Platform.Collections"
   "Platform.Equality" -> "Platform.Collections"
