@@ -3,7 +3,6 @@ digraph PlatformDataDoubletsDependencies {
 
 
   "Platform.Delegates" -> "Platform.Exceptions" 
-  "Platform.Interfaces" -> "Platform.Exceptions" 
   "Platform.Interfaces" -> "Platform.Collections"
 
   "Platform.Exceptions" -> "Platform.Ranges"
