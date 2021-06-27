@@ -1,0 +1,70 @@
+digraph PlatformDataDoubletsDependencies {
+  node [style=filled, color="0.650 0.200 1.000", shape="rectangle"]
+
+
+  "Platform.Delegates" -> "Platform.Exceptions" 
+  "Platform.Interfaces" -> "Platform.Exceptions" 
+  "Platform.Interfaces" -> "Platform.Collections"
+
+  "Platform.Exceptions" -> "Platform.Ranges"
+  "Platform.Exceptions" -> "Platform.Collections"
+
+  "Platform.Threading" -> "Platform.IO"
+
+  "Platform.Collections" -> "Platform.Threading"
+
+  "Platform.Converters" -> "Platform.Numbers"
+
+  "Platform.Numbers" -> "Platform.Collections.Methods"
+
+  "Platform.Ranges" -> "Platform.Random"
+
+  "Platform.Interfaces" -> "Platform.Timestamps"
+
+  "Platform.Interfaces" -> "Platform.Setters"
+
+  "Platform.IO" -> "Platform.Memory"
+
+  "Platform.Threading" -> "Platform.Data"
+  "Platform.Numbers" -> "Platform.Data"
+  "Platform.Setters" -> "Platform.Data"
+
+  "Platform.Random" -> "Platform.Data.Doublets"
+  "Platform.Timestamps" -> "Platform.Data.Doublets"
+  "Platform.Collections.Methods" -> "Platform.Data.Doublets"
+  "Platform.Memory" -> "Platform.Data.Doublets"
+  "Platform.Data" -> "Platform.Data.Doublets"
+  "Platform.Incrementers" -> "Platform.Data.Doublets"
+
+  "List of deleted: " -> "Platform.Disposables"
+  "List of deleted: " -> "Platform.Reflection"
+  "List of deleted: " -> "Platform.Unsafe"
+  "List of deleted: " -> "Platform.Singletons"
+
+  "Platform.Hashing" -> "Platform.Collections"
+  "Platform.Equality" -> "Platform.Collections"
+
+  "Platform.Hashing" [href="https://github.com/linksplatform/Hashing"]
+  "Platform.Equality" [href="https://github.com/linksplatform/Equality"]
+  "Platform.Delegates" [href="https://github.com/linksplatform/Delegates"]
+  "Platform.Exceptions" [href="https://github.com/linksplatform/Exceptions"]
+  "Platform.Disposables" [color="1.000 1.000 1.000", href="https://github.com/linksplatform/Disposables"]
+  "Platform.Unsafe" [color="1.000 1.000 1.000", href="https://github.com/linksplatform/Unsafe"]
+  "Platform.Collections" [href="https://github.com/linksplatform/Collections"]
+  "Platform.Converters" [href="https://github.com/linksplatform/Converters"]
+  "Platform.Ranges" [href="https://github.com/linksplatform/Ranges"]
+  "Platform.Interfaces" [href="https://github.com/linksplatform/Interfaces"]
+  "Platform.Incrementers" [href="https://github.com/linksplatform/Incrementers"]
+  "Platform.Reflection" [color="1.000 1.000 1.000", href="https://github.com/linksplatform/Reflection"]
+  "Platform.IO" [href="https://github.com/linksplatform/IO"]
+  "Platform.Threading" [href="https://github.com/linksplatform/Threading"]
+  "Platform.Numbers" [href="https://github.com/linksplatform/Numbers"]
+  "Platform.Setters" [href="https://github.com/linksplatform/Setters"]
+  "Platform.Random" [href="https://github.com/linksplatform/Random"]
+  "Platform.Timestamps" [href="https://github.com/linksplatform/Timestamps"]
+  "Platform.Collections.Methods" [href="https://github.com/linksplatform/Collections.Methods"]
+  "Platform.Singletons" [color="1.000 1.000 1.000", href="https://github.com/linksplatform/Singletons"]
+  "Platform.Memory" [color="0.650 0.700 1.000", href="https://github.com/linksplatform/Memory"]
+  "Platform.Data" [color="0.650 0.700 1.000", href="https://github.com/linksplatform/Data"]
+  "Platform.Data.Doublets" [color="0.650 0.700 1.000", style=filled, href="https://github.com/linksplatform/Data.Doublets"]
+}
