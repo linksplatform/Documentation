@@ -6,6 +6,9 @@ digraph PlatformDataDoubletsDependencies {
   "Platform.Interfaces" -> "Platform.Collections"
 
   "Platform.Exceptions" -> "Platform.Ranges"
+  "Platform.Converters" -> "Platform.Ranges"
+  "Platform.Hashing" -> "Platform.Ranges"
+  
   "Platform.Exceptions" -> "Platform.Collections"
 
   "Platform.Threading" -> "Platform.IO"
