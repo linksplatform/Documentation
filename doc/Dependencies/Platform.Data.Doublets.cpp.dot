@@ -1,4 +1,5 @@
-digraph PlatformDataDoubletsDependencies {
+digraph PlatformDataDoubletsDependencies 
+{
   node [style=filled, color="0.650 0.200 1.000", shape="rectangle"]
 
 
@@ -28,10 +29,11 @@ digraph PlatformDataDoubletsDependencies {
   "Platform.IO" -> "Platform.Memory"
 
   "Platform.Threading" -> "Platform.Data"
-  "Platform.Numbers" -> "Platform.Data"
   "Platform.Setters" -> "Platform.Data"
 
+  # "Platform.Random" -> "Platform.Collections" build requires 
   "Platform.Random" -> "Platform.Data.Doublets"
+  
   "Platform.Timestamps" -> "Platform.Data.Doublets"
   "Platform.Collections.Methods" -> "Platform.Data.Doublets"
   "Platform.Memory" -> "Platform.Data.Doublets"
