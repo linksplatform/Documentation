@@ -1,0 +1,11 @@
+empinfo
+  employees
+    1
+      name (James Kirk)
+      age 40
+    2
+      name (Jean-Luc Picard)
+      age 45
+    3
+      name (Wesley Crusher)
+      age 27

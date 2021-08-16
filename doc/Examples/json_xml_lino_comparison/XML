@@ -1,0 +1,16 @@
+<empinfo>
+  <employees>
+    <employee>
+      <name>James Kirk</name>
+      <age>40</age>
+    </employee>
+    <employee>
+      <name>Jean-Luc Picard</name>
+      <age>45</age>
+    </employee>
+    <employee>
+      <name>Wesley Crusher</name>
+      <age>27</age>
+    </employee>
+  </employees>
+</empinfo>
