@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Documentation tutorial | LinksPlatform </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Documentation tutorial | LinksPlatform ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="documentation-tutorial">Documentation tutorial</h1>
+
+<h2 id="table-of-contents">Table of Contents</h2>
+<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#the-first-steps">The First Steps</a></li>
+<li><a href="#github">Github</a></li>
+<li><a href="#documenting">Documenting</a></li>
+</ul>
+<h2 id="introduction">Introduction</h2>
+<p>In this tutorial our team will try to plunge you into actions before reading theory if possible to prevent mood like\
+<code>I am reading these XML tags and cannot imagine how to use them</code>\
+You can skip any chapter if you think you have enough knowledge about it. Questions? Ask them on <a href="https://discord.gg/eEXJyjWv5e">out official Discord server</a>.</p>
+<h2 id="the-first-steps">The First Steps</h2>
+<ol>
+<li>Get your own channel in <a href="https://discord.gg/eEXJyjWv5e">Discord</a><ol>
+<li>Join discord server</li>
+<li>Write in main/documenting chat &quot;I want to document code&quot;</li>
+</ol>
+</li>
+<li>Get your documentation task<ol>
+<li>Choose any documentation task from to-do on <a href="https://github.com/orgs/linksplatform/projects/1">documentation projects board</a></li>
+<li>Say it in your own discord channel chat. Example: &quot;I would like to take this task - <code>link</code>&quot;</li>
+</ol>
+</li>
+</ol>
+<h2 id="github">GitHub</h2>
+<ol>
+<li><a href="https://github.com">Create an account</a></li>
+<li>Get invite to <a href="https://github.com/linksplatform">linksplatform</a></li>
+<li><a href="https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository">Clone repository</a></li>
+<li>Create a branch. \
+Use command <code>github branch</code>. Example: <code>github branch username_documenting</code></li>
+<li>Checkout the branch.
+Use command <code>github checkout</code>. Example: <code>github checkout username_documenting</code></li>
+</ol>
+<h2 id="documenting">Documenting</h2>
+<ol>
+<li>Write three forward-slashes(<code>///</code>) before method\
+After that your IDE will create required tags for documentation. Now you see the draft that you will be working on. It is much better than reading XML tags and have no imagination about how you will use them</li>
+<li>Read <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/xmldoc/recommended-tags">Recommended XML tags for C# documentation</a> \
+<strong>Do not read all the page at once.</strong> At first read about tags created by your IDE. Then you can sequentially read other tags that you will meet less often </li>
+<li>Kick out your perfectionism.</li>
+<li>Kick out your fears.</li>
+<li>Read the method body.
+If you do not understand something, try to get information from internet.
+Example: I see <code>Math.Pow</code> in the code and do not know what is it. I will search <code>Math.Pow</code> in my browser and will find <a href="https://docs.microsoft.com/en-us/dotnet/api/system.math.floor?view=net-5.0">result</a> from <code>docs.microsoft.com</code>. Click on result link and you will see that this method <code>Returns the largest integral value less than or equal to the specified number.</code></li>
+<li>Write your first thoughts about what this method does in XML tags.</li>
+<li>Save changes (<code>CTRL+S</code>)</li>
+<li>Commit changes to your branch \
+Use <code>github commit -m &quot;MESSAGE&quot;</code> command. Example <code>github commit -m &quot;Update Life.AddHappiness() XML Docs&quot;</code></li>
+<li>Push the commits to the remote repository.
+Use <code>git push</code> command.</li>
+<li>Open the repository, open pull request TODO</li>
+</ol>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Konard/LinksPlatform/blob/master/doc/articles/documenting_tutorial.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

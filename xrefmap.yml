@@ -224,13 +224,13 @@ references:
   commentId: M:Platform.Data.WebTerminal.Models.LinkModel.#ctor(Link)
   fullName: Platform.Data.WebTerminal.Models.LinkModel.LinkModel(Link)
   nameWithType: LinkModel.LinkModel(Link)
-- uid: Platform.Data.WebTerminal.Models.LinkModel.#ctor(Link,List{Platform.Data.WebTerminal.Models.LinkModel})
+- uid: Platform.Data.WebTerminal.Models.LinkModel.#ctor(Link,System.Collections.Generic.List{Platform.Data.WebTerminal.Models.LinkModel})
   name: LinkModel(Link, List<LinkModel>)
-  href: api/Platform.Data.WebTerminal.Models.LinkModel.html#Platform_Data_WebTerminal_Models_LinkModel__ctor_Link_List_Platform_Data_WebTerminal_Models_LinkModel__
-  commentId: M:Platform.Data.WebTerminal.Models.LinkModel.#ctor(Link,List{Platform.Data.WebTerminal.Models.LinkModel})
+  href: api/Platform.Data.WebTerminal.Models.LinkModel.html#Platform_Data_WebTerminal_Models_LinkModel__ctor_Link_System_Collections_Generic_List_Platform_Data_WebTerminal_Models_LinkModel__
+  commentId: M:Platform.Data.WebTerminal.Models.LinkModel.#ctor(Link,System.Collections.Generic.List{Platform.Data.WebTerminal.Models.LinkModel})
   name.vb: LinkModel(Link, List(Of LinkModel))
-  fullName: Platform.Data.WebTerminal.Models.LinkModel.LinkModel(Link, List<Platform.Data.WebTerminal.Models.LinkModel>)
-  fullName.vb: Platform.Data.WebTerminal.Models.LinkModel.LinkModel(Link, List(Of Platform.Data.WebTerminal.Models.LinkModel))
+  fullName: Platform.Data.WebTerminal.Models.LinkModel.LinkModel(Link, System.Collections.Generic.List<Platform.Data.WebTerminal.Models.LinkModel>)
+  fullName.vb: Platform.Data.WebTerminal.Models.LinkModel.LinkModel(Link, System.Collections.Generic.List(Of Platform.Data.WebTerminal.Models.LinkModel))
   nameWithType: LinkModel.LinkModel(Link, List<LinkModel>)
   nameWithType.vb: LinkModel.LinkModel(Link, List(Of LinkModel))
 - uid: Platform.Data.WebTerminal.Models.LinkModel.#ctor*
@@ -477,13 +477,13 @@ references:
   isSpec: "True"
   fullName: Platform.Examples.CSVExporter.Visit
   nameWithType: CSVExporter.Visit
-- uid: Platform.Examples.CSVExporter.WriteLink(System.IO.StreamWriter,IList{System.UInt64})
+- uid: Platform.Examples.CSVExporter.WriteLink(StreamWriter,System.Collections.Generic.IList{System.UInt64})
   name: WriteLink(StreamWriter, IList<UInt64>)
-  href: api/Platform.Examples.CSVExporter.html#Platform_Examples_CSVExporter_WriteLink_System_IO_StreamWriter_IList_System_UInt64__
-  commentId: M:Platform.Examples.CSVExporter.WriteLink(System.IO.StreamWriter,IList{System.UInt64})
+  href: api/Platform.Examples.CSVExporter.html#Platform_Examples_CSVExporter_WriteLink_StreamWriter_System_Collections_Generic_IList_System_UInt64__
+  commentId: M:Platform.Examples.CSVExporter.WriteLink(StreamWriter,System.Collections.Generic.IList{System.UInt64})
   name.vb: WriteLink(StreamWriter, IList(Of UInt64))
-  fullName: Platform.Examples.CSVExporter.WriteLink(System.IO.StreamWriter, IList<System.UInt64>)
-  fullName.vb: Platform.Examples.CSVExporter.WriteLink(System.IO.StreamWriter, IList(Of System.UInt64))
+  fullName: Platform.Examples.CSVExporter.WriteLink(StreamWriter, System.Collections.Generic.IList<System.UInt64>)
+  fullName.vb: Platform.Examples.CSVExporter.WriteLink(StreamWriter, System.Collections.Generic.IList(Of System.UInt64))
   nameWithType: CSVExporter.WriteLink(StreamWriter, IList<UInt64>)
   nameWithType.vb: CSVExporter.WriteLink(StreamWriter, IList(Of UInt64))
 - uid: Platform.Examples.CSVExporter.WriteLink*
@@ -526,13 +526,13 @@ references:
   commentId: T:Platform.Examples.CSVSequencesExporter
   fullName: Platform.Examples.CSVSequencesExporter
   nameWithType: CSVSequencesExporter
-- uid: Platform.Examples.CSVSequencesExporter.WriteLink(System.IO.StreamWriter,IList{System.UInt64})
+- uid: Platform.Examples.CSVSequencesExporter.WriteLink(StreamWriter,System.Collections.Generic.IList{System.UInt64})
   name: WriteLink(StreamWriter, IList<UInt64>)
-  href: api/Platform.Examples.CSVSequencesExporter.html#Platform_Examples_CSVSequencesExporter_WriteLink_System_IO_StreamWriter_IList_System_UInt64__
-  commentId: M:Platform.Examples.CSVSequencesExporter.WriteLink(System.IO.StreamWriter,IList{System.UInt64})
+  href: api/Platform.Examples.CSVSequencesExporter.html#Platform_Examples_CSVSequencesExporter_WriteLink_StreamWriter_System_Collections_Generic_IList_System_UInt64__
+  commentId: M:Platform.Examples.CSVSequencesExporter.WriteLink(StreamWriter,System.Collections.Generic.IList{System.UInt64})
   name.vb: WriteLink(StreamWriter, IList(Of UInt64))
-  fullName: Platform.Examples.CSVSequencesExporter.WriteLink(System.IO.StreamWriter, IList<System.UInt64>)
-  fullName.vb: Platform.Examples.CSVSequencesExporter.WriteLink(System.IO.StreamWriter, IList(Of System.UInt64))
+  fullName: Platform.Examples.CSVSequencesExporter.WriteLink(StreamWriter, System.Collections.Generic.IList<System.UInt64>)
+  fullName.vb: Platform.Examples.CSVSequencesExporter.WriteLink(StreamWriter, System.Collections.Generic.IList(Of System.UInt64))
   nameWithType: CSVSequencesExporter.WriteLink(StreamWriter, IList<UInt64>)
   nameWithType.vb: CSVSequencesExporter.WriteLink(StreamWriter, IList(Of UInt64))
 - uid: Platform.Examples.CSVSequencesExporter.WriteLink*
@@ -933,13 +933,13 @@ references:
   isSpec: "True"
   fullName: Platform.Examples.MasterServer.IsSearch
   nameWithType: MasterServer.IsSearch
-- uid: Platform.Examples.MasterServer.PrintContents(Action{System.String})
+- uid: Platform.Examples.MasterServer.PrintContents(System.Action{System.String})
   name: PrintContents(Action<String>)
-  href: api/Platform.Examples.MasterServer.html#Platform_Examples_MasterServer_PrintContents_Action_System_String__
-  commentId: M:Platform.Examples.MasterServer.PrintContents(Action{System.String})
+  href: api/Platform.Examples.MasterServer.html#Platform_Examples_MasterServer_PrintContents_System_Action_System_String__
+  commentId: M:Platform.Examples.MasterServer.PrintContents(System.Action{System.String})
   name.vb: PrintContents(Action(Of String))
-  fullName: Platform.Examples.MasterServer.PrintContents(Action<System.String>)
-  fullName.vb: Platform.Examples.MasterServer.PrintContents(Action(Of System.String))
+  fullName: Platform.Examples.MasterServer.PrintContents(System.Action<System.String>)
+  fullName.vb: Platform.Examples.MasterServer.PrintContents(System.Action(Of System.String))
   nameWithType: MasterServer.PrintContents(Action<String>)
   nameWithType.vb: MasterServer.PrintContents(Action(Of String))
 - uid: Platform.Examples.MasterServer.PrintContents*
@@ -1609,13 +1609,13 @@ references:
   commentId: T:Platform.Sandbox.ConsolePrintedDublicateWalkerBase
   fullName: Platform.Sandbox.ConsolePrintedDublicateWalkerBase
   nameWithType: ConsolePrintedDublicateWalkerBase
-- uid: Platform.Sandbox.ConsolePrintedDublicateWalkerBase.CreateSegment(IList{System.Char},System.Int32,System.Int32)
+- uid: Platform.Sandbox.ConsolePrintedDublicateWalkerBase.CreateSegment(System.Collections.Generic.IList{System.Char},System.Int32,System.Int32)
   name: CreateSegment(IList<Char>, Int32, Int32)
-  href: api/Platform.Sandbox.ConsolePrintedDublicateWalkerBase.html#Platform_Sandbox_ConsolePrintedDublicateWalkerBase_CreateSegment_IList_System_Char__System_Int32_System_Int32_
-  commentId: M:Platform.Sandbox.ConsolePrintedDublicateWalkerBase.CreateSegment(IList{System.Char},System.Int32,System.Int32)
+  href: api/Platform.Sandbox.ConsolePrintedDublicateWalkerBase.html#Platform_Sandbox_ConsolePrintedDublicateWalkerBase_CreateSegment_System_Collections_Generic_IList_System_Char__System_Int32_System_Int32_
+  commentId: M:Platform.Sandbox.ConsolePrintedDublicateWalkerBase.CreateSegment(System.Collections.Generic.IList{System.Char},System.Int32,System.Int32)
   name.vb: CreateSegment(IList(Of Char), Int32, Int32)
-  fullName: Platform.Sandbox.ConsolePrintedDublicateWalkerBase.CreateSegment(IList<System.Char>, System.Int32, System.Int32)
-  fullName.vb: Platform.Sandbox.ConsolePrintedDublicateWalkerBase.CreateSegment(IList(Of System.Char), System.Int32, System.Int32)
+  fullName: Platform.Sandbox.ConsolePrintedDublicateWalkerBase.CreateSegment(System.Collections.Generic.IList<System.Char>, System.Int32, System.Int32)
+  fullName.vb: Platform.Sandbox.ConsolePrintedDublicateWalkerBase.CreateSegment(System.Collections.Generic.IList(Of System.Char), System.Int32, System.Int32)
   nameWithType: ConsolePrintedDublicateWalkerBase.CreateSegment(IList<Char>, Int32, Int32)
   nameWithType.vb: ConsolePrintedDublicateWalkerBase.CreateSegment(IList(Of Char), Int32, Int32)
 - uid: Platform.Sandbox.ConsolePrintedDublicateWalkerBase.CreateSegment*
@@ -1644,11 +1644,11 @@ references:
   commentId: T:Platform.Sandbox.DllImportTest
   fullName: Platform.Sandbox.DllImportTest
   nameWithType: DllImportTest
-- uid: Platform.Sandbox.DllImportTest.MessageBox(IntPtr,String,String,System.UInt32)
+- uid: Platform.Sandbox.DllImportTest.MessageBox(System.IntPtr,System.String,System.String,System.UInt32)
   name: MessageBox(IntPtr, String, String, UInt32)
-  href: api/Platform.Sandbox.DllImportTest.html#Platform_Sandbox_DllImportTest_MessageBox_IntPtr_String_String_System_UInt32_
-  commentId: M:Platform.Sandbox.DllImportTest.MessageBox(IntPtr,String,String,System.UInt32)
-  fullName: Platform.Sandbox.DllImportTest.MessageBox(IntPtr, String, String, System.UInt32)
+  href: api/Platform.Sandbox.DllImportTest.html#Platform_Sandbox_DllImportTest_MessageBox_System_IntPtr_System_String_System_String_System_UInt32_
+  commentId: M:Platform.Sandbox.DllImportTest.MessageBox(System.IntPtr,System.String,System.String,System.UInt32)
+  fullName: Platform.Sandbox.DllImportTest.MessageBox(System.IntPtr, System.String, System.String, System.UInt32)
   nameWithType: DllImportTest.MessageBox(IntPtr, String, String, UInt32)
 - uid: Platform.Sandbox.DllImportTest.MessageBox*
   name: MessageBox
@@ -2003,13 +2003,13 @@ references:
   isSpec: "True"
   fullName: Platform.Sandbox.QueryExecutorExtensions.Execute
   nameWithType: QueryExecutorExtensions.Execute
-- uid: Platform.Sandbox.QueryExecutorExtensions.Execute``1(SynchronizedLinks{System.UInt64},Expression{Func{SynchronizedLinks{System.UInt64},IEnumerable{``0}}})
+- uid: Platform.Sandbox.QueryExecutorExtensions.Execute``1(SynchronizedLinks{System.UInt64},Expression{System.Func{SynchronizedLinks{System.UInt64},System.Collections.Generic.IEnumerable{``0}}})
   name: Execute<T>(SynchronizedLinks<UInt64>, Expression<Func<SynchronizedLinks<UInt64>, IEnumerable<T>>>)
-  href: api/Platform.Sandbox.QueryExecutorExtensions.html#Platform_Sandbox_QueryExecutorExtensions_Execute__1_SynchronizedLinks_System_UInt64__Expression_Func_SynchronizedLinks_System_UInt64__IEnumerable___0____
-  commentId: M:Platform.Sandbox.QueryExecutorExtensions.Execute``1(SynchronizedLinks{System.UInt64},Expression{Func{SynchronizedLinks{System.UInt64},IEnumerable{``0}}})
+  href: api/Platform.Sandbox.QueryExecutorExtensions.html#Platform_Sandbox_QueryExecutorExtensions_Execute__1_SynchronizedLinks_System_UInt64__Expression_System_Func_SynchronizedLinks_System_UInt64__System_Collections_Generic_IEnumerable___0____
+  commentId: M:Platform.Sandbox.QueryExecutorExtensions.Execute``1(SynchronizedLinks{System.UInt64},Expression{System.Func{SynchronizedLinks{System.UInt64},System.Collections.Generic.IEnumerable{``0}}})
   name.vb: Execute(Of T)(SynchronizedLinks(Of UInt64), Expression(Of Func(Of SynchronizedLinks(Of UInt64), IEnumerable(Of T))))
-  fullName: Platform.Sandbox.QueryExecutorExtensions.Execute<T>(SynchronizedLinks<System.UInt64>, Expression<Func<SynchronizedLinks<System.UInt64>, IEnumerable<T>>>)
-  fullName.vb: Platform.Sandbox.QueryExecutorExtensions.Execute(Of T)(SynchronizedLinks(Of System.UInt64), Expression(Of Func(Of SynchronizedLinks(Of System.UInt64), IEnumerable(Of T))))
+  fullName: Platform.Sandbox.QueryExecutorExtensions.Execute<T>(SynchronizedLinks<System.UInt64>, Expression<System.Func<SynchronizedLinks<System.UInt64>, System.Collections.Generic.IEnumerable<T>>>)
+  fullName.vb: Platform.Sandbox.QueryExecutorExtensions.Execute(Of T)(SynchronizedLinks(Of System.UInt64), Expression(Of System.Func(Of SynchronizedLinks(Of System.UInt64), System.Collections.Generic.IEnumerable(Of T))))
   nameWithType: QueryExecutorExtensions.Execute<T>(SynchronizedLinks<UInt64>, Expression<Func<SynchronizedLinks<UInt64>, IEnumerable<T>>>)
   nameWithType.vb: QueryExecutorExtensions.Execute(Of T)(SynchronizedLinks(Of UInt64), Expression(Of Func(Of SynchronizedLinks(Of UInt64), IEnumerable(Of T))))
 - uid: Platform.Sandbox.StaticBase`1
@@ -2086,11 +2086,11 @@ references:
   commentId: M:Platform.Sandbox.TextParser.#ctor
   fullName: Platform.Sandbox.TextParser.TextParser()
   nameWithType: TextParser.TextParser()
-- uid: Platform.Sandbox.TextParser.#ctor(System.IO.Stream,System.Int32)
+- uid: Platform.Sandbox.TextParser.#ctor(Stream,System.Int32)
   name: TextParser(Stream, Int32)
-  href: api/Platform.Sandbox.TextParser.html#Platform_Sandbox_TextParser__ctor_System_IO_Stream_System_Int32_
-  commentId: M:Platform.Sandbox.TextParser.#ctor(System.IO.Stream,System.Int32)
-  fullName: Platform.Sandbox.TextParser.TextParser(System.IO.Stream, System.Int32)
+  href: api/Platform.Sandbox.TextParser.html#Platform_Sandbox_TextParser__ctor_Stream_System_Int32_
+  commentId: M:Platform.Sandbox.TextParser.#ctor(Stream,System.Int32)
+  fullName: Platform.Sandbox.TextParser.TextParser(Stream, System.Int32)
   nameWithType: TextParser.TextParser(Stream, Int32)
 - uid: Platform.Sandbox.TextParser.#ctor(System.String,System.Int32)
   name: TextParser(String, Int32)
@@ -2219,13 +2219,13 @@ references:
   isSpec: "True"
   fullName: Platform.Sandbox.Walker1.SetSegmentFrequency
   nameWithType: Walker1.SetSegmentFrequency
-- uid: Platform.Sandbox.Walker1.WalkAll(IList{System.Char})
+- uid: Platform.Sandbox.Walker1.WalkAll(System.Collections.Generic.IList{System.Char})
   name: WalkAll(IList<Char>)
-  href: api/Platform.Sandbox.Walker1.html#Platform_Sandbox_Walker1_WalkAll_IList_System_Char__
-  commentId: M:Platform.Sandbox.Walker1.WalkAll(IList{System.Char})
+  href: api/Platform.Sandbox.Walker1.html#Platform_Sandbox_Walker1_WalkAll_System_Collections_Generic_IList_System_Char__
+  commentId: M:Platform.Sandbox.Walker1.WalkAll(System.Collections.Generic.IList{System.Char})
   name.vb: WalkAll(IList(Of Char))
-  fullName: Platform.Sandbox.Walker1.WalkAll(IList<System.Char>)
-  fullName.vb: Platform.Sandbox.Walker1.WalkAll(IList(Of System.Char))
+  fullName: Platform.Sandbox.Walker1.WalkAll(System.Collections.Generic.IList<System.Char>)
+  fullName.vb: Platform.Sandbox.Walker1.WalkAll(System.Collections.Generic.IList(Of System.Char))
   nameWithType: Walker1.WalkAll(IList<Char>)
   nameWithType.vb: Walker1.WalkAll(IList(Of Char))
 - uid: Platform.Sandbox.Walker1.WalkAll*
@@ -2280,13 +2280,13 @@ references:
   isSpec: "True"
   fullName: Platform.Sandbox.Walker2.SetSegmentFrequency
   nameWithType: Walker2.SetSegmentFrequency
-- uid: Platform.Sandbox.Walker2.WalkAll(IList{System.Char})
+- uid: Platform.Sandbox.Walker2.WalkAll(System.Collections.Generic.IList{System.Char})
   name: WalkAll(IList<Char>)
-  href: api/Platform.Sandbox.Walker2.html#Platform_Sandbox_Walker2_WalkAll_IList_System_Char__
-  commentId: M:Platform.Sandbox.Walker2.WalkAll(IList{System.Char})
+  href: api/Platform.Sandbox.Walker2.html#Platform_Sandbox_Walker2_WalkAll_System_Collections_Generic_IList_System_Char__
+  commentId: M:Platform.Sandbox.Walker2.WalkAll(System.Collections.Generic.IList{System.Char})
   name.vb: WalkAll(IList(Of Char))
-  fullName: Platform.Sandbox.Walker2.WalkAll(IList<System.Char>)
-  fullName.vb: Platform.Sandbox.Walker2.WalkAll(IList(Of System.Char))
+  fullName: Platform.Sandbox.Walker2.WalkAll(System.Collections.Generic.IList<System.Char>)
+  fullName.vb: Platform.Sandbox.Walker2.WalkAll(System.Collections.Generic.IList(Of System.Char))
   nameWithType: Walker2.WalkAll(IList<Char>)
   nameWithType.vb: Walker2.WalkAll(IList(Of Char))
 - uid: Platform.Sandbox.Walker2.WalkAll*
@@ -2341,13 +2341,13 @@ references:
   isSpec: "True"
   fullName: Platform.Sandbox.Walker3.SetSegmentFrequency
   nameWithType: Walker3.SetSegmentFrequency
-- uid: Platform.Sandbox.Walker3.WalkAll(IList{System.Char})
+- uid: Platform.Sandbox.Walker3.WalkAll(System.Collections.Generic.IList{System.Char})
   name: WalkAll(IList<Char>)
-  href: api/Platform.Sandbox.Walker3.html#Platform_Sandbox_Walker3_WalkAll_IList_System_Char__
-  commentId: M:Platform.Sandbox.Walker3.WalkAll(IList{System.Char})
+  href: api/Platform.Sandbox.Walker3.html#Platform_Sandbox_Walker3_WalkAll_System_Collections_Generic_IList_System_Char__
+  commentId: M:Platform.Sandbox.Walker3.WalkAll(System.Collections.Generic.IList{System.Char})
   name.vb: WalkAll(IList(Of Char))
-  fullName: Platform.Sandbox.Walker3.WalkAll(IList<System.Char>)
-  fullName.vb: Platform.Sandbox.Walker3.WalkAll(IList(Of System.Char))
+  fullName: Platform.Sandbox.Walker3.WalkAll(System.Collections.Generic.IList<System.Char>)
+  fullName.vb: Platform.Sandbox.Walker3.WalkAll(System.Collections.Generic.IList(Of System.Char))
   nameWithType: Walker3.WalkAll(IList<Char>)
   nameWithType.vb: Walker3.WalkAll(IList(Of Char))
 - uid: Platform.Sandbox.Walker3.WalkAll*
@@ -2376,13 +2376,13 @@ references:
   isSpec: "True"
   fullName: Platform.Sandbox.Walker4.Walker4
   nameWithType: Walker4.Walker4
-- uid: Platform.Sandbox.Walker4.CreateSegment(IList{System.Char},System.Int32,System.Int32)
+- uid: Platform.Sandbox.Walker4.CreateSegment(System.Collections.Generic.IList{System.Char},System.Int32,System.Int32)
   name: CreateSegment(IList<Char>, Int32, Int32)
-  href: api/Platform.Sandbox.Walker4.html#Platform_Sandbox_Walker4_CreateSegment_IList_System_Char__System_Int32_System_Int32_
-  commentId: M:Platform.Sandbox.Walker4.CreateSegment(IList{System.Char},System.Int32,System.Int32)
+  href: api/Platform.Sandbox.Walker4.html#Platform_Sandbox_Walker4_CreateSegment_System_Collections_Generic_IList_System_Char__System_Int32_System_Int32_
+  commentId: M:Platform.Sandbox.Walker4.CreateSegment(System.Collections.Generic.IList{System.Char},System.Int32,System.Int32)
   name.vb: CreateSegment(IList(Of Char), Int32, Int32)
-  fullName: Platform.Sandbox.Walker4.CreateSegment(IList<System.Char>, System.Int32, System.Int32)
-  fullName.vb: Platform.Sandbox.Walker4.CreateSegment(IList(Of System.Char), System.Int32, System.Int32)
+  fullName: Platform.Sandbox.Walker4.CreateSegment(System.Collections.Generic.IList<System.Char>, System.Int32, System.Int32)
+  fullName.vb: Platform.Sandbox.Walker4.CreateSegment(System.Collections.Generic.IList(Of System.Char), System.Int32, System.Int32)
   nameWithType: Walker4.CreateSegment(IList<Char>, Int32, Int32)
   nameWithType.vb: Walker4.CreateSegment(IList(Of Char), Int32, Int32)
 - uid: Platform.Sandbox.Walker4.CreateSegment*
@@ -2405,13 +2405,13 @@ references:
   isSpec: "True"
   fullName: Platform.Sandbox.Walker4.OnDublicateFound
   nameWithType: Walker4.OnDublicateFound
-- uid: Platform.Sandbox.Walker4.WalkAll(IList{System.Char})
+- uid: Platform.Sandbox.Walker4.WalkAll(System.Collections.Generic.IList{System.Char})
   name: WalkAll(IList<Char>)
-  href: api/Platform.Sandbox.Walker4.html#Platform_Sandbox_Walker4_WalkAll_IList_System_Char__
-  commentId: M:Platform.Sandbox.Walker4.WalkAll(IList{System.Char})
+  href: api/Platform.Sandbox.Walker4.html#Platform_Sandbox_Walker4_WalkAll_System_Collections_Generic_IList_System_Char__
+  commentId: M:Platform.Sandbox.Walker4.WalkAll(System.Collections.Generic.IList{System.Char})
   name.vb: WalkAll(IList(Of Char))
-  fullName: Platform.Sandbox.Walker4.WalkAll(IList<System.Char>)
-  fullName.vb: Platform.Sandbox.Walker4.WalkAll(IList(Of System.Char))
+  fullName: Platform.Sandbox.Walker4.WalkAll(System.Collections.Generic.IList<System.Char>)
+  fullName.vb: Platform.Sandbox.Walker4.WalkAll(System.Collections.Generic.IList(Of System.Char))
   nameWithType: Walker4.WalkAll(IList<Char>)
   nameWithType.vb: Walker4.WalkAll(IList(Of Char))
 - uid: Platform.Sandbox.Walker4.WalkAll*
