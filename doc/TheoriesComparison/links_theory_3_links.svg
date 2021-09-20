@@ -20,22 +20,24 @@
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
+     objecttolerance="10000"
+     gridtolerance="10000"
+     guidetolerance="10000"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="3840"
      inkscape:window-height="2021"
      id="namedview61"
      showgrid="true"
-     inkscape:zoom="2.0977778"
-     inkscape:cx="93.326833"
-     inkscape:cy="269.66064"
+     inkscape:zoom="2.9667058"
+     inkscape:cx="5.8044491"
+     inkscape:cy="121.90072"
      inkscape:window-x="3840"
      inkscape:window-y="48"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg2">
+     inkscape:current-layer="svg2"
+     inkscape:snap-perpendicular="true"
+     inkscape:snap-tangential="true">
     <inkscape:grid
        type="xygrid"
        id="grid1136" />
@@ -48,6 +50,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -437,14 +440,14 @@
     <path
        style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker13527)"
        inkscape:connector-curvature="0"
-       d="M 205,43 45,178"
+       d="M 196,55 44,168"
        stroke-miterlimit="4"
        id="use2331"
        sodipodi:nodetypes="cc" />
   </g>
   <g
      id="layer1"
-     transform="matrix(-2.6725005,-2.6725005,2.6725005,-2.6725005,-43.532142,139.23402)">
+     transform="matrix(-2.6725005,-2.6725005,2.6725005,-2.6725005,-41.532142,127.23402)">
     <g
        id="g4553">
       <path
@@ -464,7 +467,7 @@
   </g>
   <g
      id="layer1-7-2"
-     transform="matrix(2.6725005,2.6725005,-2.6725005,2.6725005,293.53214,85.765977)">
+     transform="matrix(2.6725005,2.6725005,-2.6725005,2.6725005,286.53214,97.765977)">
     <g
        id="g4553-5-1">
       <path
@@ -485,34 +488,34 @@
   <text
      xml:space="preserve"
      style="font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Arial;-inkscape-font-specification:'Arial Oblique';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none"
-     x="77.574081"
-     y="214.85898"
+     x="31.959368"
+     y="210.01155"
      id="text3034-5-5-5"><tspan
        sodipodi:role="line"
        id="tspan3036-82-5-2"
-       x="77.574081"
-       y="214.85898"
+       x="31.959368"
+       y="210.01155"
        style="font-style:oblique;font-size:32px;line-height:1.25;-inkscape-font-specification:'Arial Oblique';fill:#d40000">1</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Arial;-inkscape-font-specification:Arial;text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none"
-     x="190.08569"
-     y="32.689804"
+     x="235.46219"
+     y="37.343708"
      id="text3034-5-5-2"><tspan
        sodipodi:role="line"
        id="tspan3036-82-5-0"
-       x="190.08569"
-       y="32.689804"
+       x="235.46219"
+       y="37.343708"
        style="font-style:oblique;font-size:32px;line-height:1.25;-inkscape-font-specification:'Arial Oblique';fill:#d40000">2</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Arial;-inkscape-font-specification:Arial;text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none"
-     x="143.28221"
-     y="139.62564"
+     x="141.19667"
+     y="137.36134"
      id="text3034-5-2"><tspan
        sodipodi:role="line"
        id="tspan3036-82-6"
-       x="143.28221"
-       y="139.62564"
+       x="141.19667"
+       y="137.36134"
        style="font-style:normal;font-size:32px;line-height:1.25;-inkscape-font-specification:Arial;fill:#008000">3</tspan></text>
 </svg>
