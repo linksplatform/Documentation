@@ -12,7 +12,10 @@
    height="225"
    version="1.0"
    sodipodi:docname="links_theory.svg"
-   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   inkscape:export-filename="/home/konard/Archive/Code/Links/Documentation/doc/TheoriesComparison/links_theory.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -26,10 +29,10 @@
      inkscape:window-height="2021"
      id="namedview61"
      showgrid="false"
-     inkscape:zoom="2.9667058"
-     inkscape:cx="-76.483034"
-     inkscape:cy="103.47251"
-     inkscape:window-x="3840"
+     inkscape:zoom="5.9334116"
+     inkscape:cx="54.941843"
+     inkscape:cy="126.14215"
+     inkscape:window-x="0"
      inkscape:window-y="48"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2" />
@@ -46,6 +49,48 @@
   </metadata>
   <defs
      id="defs5">
+    <marker
+       inkscape:stockid="TriangleOutS"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker2309"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path2307"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#4d4d4d;stroke-width:1pt;stroke-opacity:1;fill:#4d4d4d;fill-opacity:1"
+         transform="scale(0.2)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutS"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker1839"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1284"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#4d4d4d;stroke-width:1pt;stroke-opacity:1;fill:#4d4d4d;fill-opacity:1"
+         transform="scale(0.2)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleInS"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker1686"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1275"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#4d4d4d;stroke-width:1pt;stroke-opacity:1;fill:#4d4d4d;fill-opacity:1"
+         transform="scale(-0.2)" />
+    </marker>
     <marker
        id="EmptyTriangleOutS"
        orient="auto"
@@ -423,31 +468,36 @@
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
          transform="matrix(-0.3,0,0,-0.3,0.69,0)" />
     </marker>
+    <marker
+       inkscape:stockid="TriangleOutS"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker2309-5"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path2307-7"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:#4d4d4d;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.2)" />
+    </marker>
   </defs>
   <path
-     style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:4.66499996;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker13285)"
+     style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#4d4d4d;stroke-width:4.66499996;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker2309)"
      inkscape:connector-curvature="0"
      d="M 57.618,32.25 H 187.369"
      stroke-miterlimit="4"
      id="path2329" />
-  <g
-     transform="translate(0,2)"
-     id="g2359">
-    <path
-       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker13527)"
-       inkscape:connector-curvature="0"
-       d="M 42.621307,51.685221 113.21775,171.66668"
-       stroke-miterlimit="4"
-       id="use2331" />
-  </g>
   <path
-     style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutS)"
+     style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#4d4d4d;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1839)"
      inkscape:connector-curvature="0"
      d="m 141.70526,173.4283 c 0,0 -4.27056,-46.75345 9.24181,-74.81452 15.40455,-31.990546 52.34759,-53.630528 52.34759,-53.630528"
      stroke-miterlimit="4"
      id="use2333" />
   <path
-     style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#TriangleInS)"
+     style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#4d4d4d;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1686)"
      inkscape:connector-curvature="0"
      d="m 161.34363,180.66355 c 0,0 31.19572,-17.61274 47.73233,-49.83102 16.15467,-31.474139 12.74279,-72.322978 12.74279,-72.322978"
      stroke-miterlimit="4"
@@ -512,4 +562,11 @@
          transform="rotate(-5.6270424,-24.136965,5.6066507)" />
     </g>
   </g>
+  <path
+     style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#4d4d4d;stroke-width:4.66499996;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker2309-5)"
+     inkscape:connector-curvature="0"
+     d="M 113.21775,173.66668 42.621307,53.685221"
+     stroke-miterlimit="4"
+     id="path2329-4"
+     sodipodi:nodetypes="cc" />
 </svg>
