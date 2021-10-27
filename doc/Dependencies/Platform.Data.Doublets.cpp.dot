@@ -30,7 +30,6 @@ digraph PlatformDataDoubletsDependencies
   "Platform.Collections.Methods" -> "Platform.Data.Doublets"
   "Platform.Memory" -> "Platform.Data.Doublets"
   "Platform.Data" -> "Platform.Data.Doublets"
-  "Platform.Incrementers" -> "Platform.Data.Doublets"
 
   "Platform.Random" -> "Platform.Collections"
   "Platform.Hashing" -> "Platform.Collections"
@@ -46,7 +45,6 @@ digraph PlatformDataDoubletsDependencies
   "Platform.Converters" [href="https://github.com/linksplatform/Converters"]
   "Platform.Ranges" [href="https://github.com/linksplatform/Ranges"]
   "Platform.Interfaces" [href="https://github.com/linksplatform/Interfaces"]
-  "Platform.Incrementers" [href="https://github.com/linksplatform/Incrementers"]
   "Platform.IO" [href="https://github.com/linksplatform/IO"]
   "Platform.Threading" [href="https://github.com/linksplatform/Threading"]
   "Platform.Numbers" [href="https://github.com/linksplatform/Numbers"]

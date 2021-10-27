@@ -1,1 +1,421 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1152" height="764pt" viewBox="0 0 863.83 764"><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 760)"><title>PlatformDataDoubletsDependencies</title><polygon fill="#fff" stroke="transparent" points="-4 4 -4 -760 859.834 -760 859.834 4 -4 4"/><g id="node1" class="node"><title>Platform.Exceptions</title><g id="a_node1"><a xlink:href="https://github.com/linksplatform/Exceptions" xlink:title="Platform.Exceptions"><polygon fill="#ccd1ff" stroke="#ccd1ff" points="522.738 -756 392.342 -756 392.342 -720 522.738 -720 522.738 -756"/><text x="457.54" y="-733.8" fill="#000" font-family="Times,serif" font-size="14" text-anchor="middle">Platform.Exceptions</text></a></g></g><g id="node2" class="node"><title>Platform.Disposables</title><g id="a_node2"><a xlink:href="https://github.com/linksplatform/Disposables" xlink:title="Platform.Disposables"><polygon fill="#ccd1ff" stroke="#ccd1ff" points="634.681 -684 498.399 -684 498.399 -648 634.681 -648 634.681 -684"/><text x="566.54" y="-661.8" fill="#000" font-family="Times,serif" font-size="14" text-anchor="middle">Platform.Disposables</text></a></g></g><g id="edge1" class="edge"><title>Platform.Exceptions-&gt;Platform.Disposables</title><path fill="none" stroke="#000" d="M485.0453,-719.8314C498.858,-710.7074 515.7656,-699.539 530.5929,-689.7449"/><polygon fill="#000" stroke="#000" points="532.629 -692.595 539.043 -684.163 528.77 -686.754 532.629 -692.595"/></g><g id="node6" class="node"><title>Platform.Ranges</title><g id="a_node6"><a xlink:href="https://github.com/linksplatform/Ranges" xlink:title="Platform.Ranges"><polygon fill="#ccd1ff" stroke="#ccd1ff" points="442.241 -684 332.839 -684 332.839 -648 442.241 -648 442.241 -684"/><text x="387.54" y="-661.8" fill="#000" font-family="Times,serif" font-size="14" text-anchor="middle">Platform.Ranges</text></a></g></g><g id="edge10" class="edge"><title>Platform.Exceptions-&gt;Platform.Ranges</title><path fill="none" stroke="#000" d="M439.8761,-719.8314C431.5669,-711.2848 421.5137,-700.9443 412.4482,-691.6198"/><polygon fill="#000" stroke="#000" points="414.922 -689.144 405.442 -684.413 409.903 -694.023 414.922 -689.144"/></g><g id="node4" class="node"><title>Platform.Collections</title><g id="a_node4"><a xlink:href="https://github.com/linksplatform/Collections" xlink:title="Platform.Collections"><polygon fill="#ccd1ff" stroke="#ccd1ff" points="570.803 -540 438.277 -540 438.277 -504 570.803 -504 570.803 -540"/><text x="504.54" y="-517.8" fill="#000" font-family="Times,serif" font-size="14" text-anchor="middle">Platform.Collections</text></a></g></g><g id="edge4" class="edge"><title>Platform.Disposables-&gt;Platform.Collections</title><path fill="none" stroke="#000" d="M577.6244,-647.7411C587.5636,-628.8043 598.8398,-598.8271 586.54,-576 579.8384,-563.5626 568.881,-553.5183 557.1258,-545.6213"/><polygon fill="#000" stroke="#000" points="558.816 -542.551 548.475 -540.247 555.122 -548.497 558.816 -542.551"/></g><g id="node3" class="node"><title>System.Numerics.Vectors</title><g id="a_node3"><a xlink:href="https://www.nuget.org/packages/System.Numerics.Vectors" xlink:title="System.Numerics.Vectors"><polygon fill="#ccd1ff" stroke="#ccd1ff" points="577.717 -612 415.363 -612 415.363 -576 577.717 -576 577.717 -612"/><text x="496.54" y="-589.8" fill="#000" font-family="Times,serif" font-size="14" text-anchor="middle">System.Numerics.Vectors</text></a></g></g><g id="edge2" class="edge"><title>System.Numerics.Vectors-&gt;Platform.Collections</title><path fill="none" stroke="#000" d="M498.5588,-575.8314C499.4144,-568.131 500.4318,-558.9743 501.3826,-550.4166"/><polygon fill="#000" stroke="#000" points="504.868 -550.739 502.494 -540.413 497.911 -549.966 504.868 -550.739"/></g><g id="node11" class="node"><title>Platform.Reflection</title><g id="a_node11"><a xlink:href="https://github.com/linksplatform/Reflection" xlink:title="Platform.Reflection"><polygon fill="#ccd1ff" stroke="#ccd1ff" points="304.843 -468 178.237 -468 178.237 -432 304.843 -432 304.843 -468"/><text x="241.54" y="-445.8" fill="#000" font-family="Times,serif" font-size="14" text-anchor="middle">Platform.Reflection</text></a></g></g><g id="edge13" class="edge"><title>Platform.Collections-&gt;Platform.Reflection</title><path fill="none" stroke="#000" d="M438.5135,-503.9243C400.7803,-493.5943 353.3909,-480.6208 314.551,-469.9878"/><polygon fill="#000" stroke="#000" points="315.441 -466.603 304.872 -467.338 313.593 -473.354 315.441 -466.603"/></g><g id="node15" class="node"><title>Platform.Threading</title><g id="a_node15"><a xlink:href="https://github.com/linksplatform/Threading" xlink:title="Platform.Threading"><polygon fill="#ccd1ff" stroke="#ccd1ff" points="649.563 -324 523.517 -324 523.517 -288 649.563 -288 649.563 -324"/><text x="586.54" y="-301.8" fill="#000" font-family="Times,serif" font-size="14" text-anchor="middle">Platform.Threading</text></a></g></g><g id="edge16" class="edge"><title>Platform.Collections-&gt;Platform.Threading</title><path fill="none" stroke="#000" d="M511.3903,-503.9555C525.7402,-466.1556 559.0356,-378.4506 576.0788,-333.5564"/><polygon fill="#000" stroke="#000" points="579.375 -334.736 579.652 -324.145 572.83 -332.252 579.375 -334.736"/></g><g id="node5" class="node"><title>Platform.Interfaces</title><g id="a_node5"><a xlink:href="https://github.com/linksplatform/Interfaces" xlink:title="Platform.Interfaces"><polygon fill="#ccd1ff" stroke="#ccd1ff" points="757.206 -612 633.874 -612 633.874 -576 757.206 -576 757.206 -612"/><text x="695.54" y="-589.8" fill="#000" font-family="Times,serif" font-size="14" text-anchor="middle">Platform.Interfaces</text></a></g></g><g id="edge3" class="edge"><title>Platform.Interfaces-&gt;Platform.Collections</title><path fill="none" stroke="#000" d="M647.3427,-575.8314C621.3434,-566.0306 589.0864,-553.8709 561.8119,-543.5894"/><polygon fill="#000" stroke="#000" points="562.983 -540.29 552.391 -540.038 560.514 -546.84 562.983 -540.29"/></g><g id="node18" class="node"><title>Platform.Timestamps</title><g id="a_node18"><a xlink:href="https://github.com/linksplatform/Timestamps" xlink:title="Platform.Timestamps"><polygon fill="#ccd1ff" stroke="#ccd1ff" points="730.964 -468 594.116 -468 594.116 -432 730.964 -432 730.964 -468"/><text x="662.54" y="-445.8" fill="#000" font-family="Times,serif" font-size="14" text-anchor="middle">Platform.Timestamps</text></a></g></g><g id="edge20" class="edge"><title>Platform.Interfaces-&gt;Platform.Timestamps</title><path fill="none" stroke="#000" d="M691.3605,-575.7623C685.7071,-551.0928 675.5704,-506.8598 668.9505,-477.9731"/><polygon fill="#000" stroke="#000" points="672.331 -477.055 666.686 -468.09 665.508 -478.619 672.331 -477.055"/></g><g id="node19" class="node"><title>Platform.Setters</title><g id="a_node19"><a xlink:href="https://github.com/linksplatform/Setters" xlink:title="Platform.Setters"><polygon fill="#ccd1ff" stroke="#ccd1ff" points="855.629 -468 749.451 -468 749.451 -432 855.629 -432 855.629 -468"/><text x="802.54" y="-445.8" fill="#000" font-family="Times,serif" font-size="14" text-anchor="middle">Platform.Setters</text></a></g></g><g id="edge21" class="edge"><title>Platform.Interfaces-&gt;Platform.Setters</title><path fill="none" stroke="#000" d="M709.0916,-575.7623C727.744,-550.66 761.4478,-505.3017 782.8735,-476.4671"/><polygon fill="#000" stroke="#000" points="785.943 -478.204 789.098 -468.09 780.325 -474.029 785.943 -478.204"/></g><g id="edge5" class="edge"><title>Platform.Ranges-&gt;Platform.Collections</title><path fill="none" stroke="#000" d="M387.0897,-647.9941C387.4958,-628.44 390.8547,-597.1723 406.54,-576 416.212,-562.9445 430.0251,-552.6557 444.2409,-544.7194"/><polygon fill="#000" stroke="#000" points="445.873 -547.816 453.111 -540.078 442.628 -541.613 445.873 -547.816"/></g><g id="node7" class="node"><title>Platform.Random</title><g id="a_node7"><a xlink:href="https://github.com/linksplatform/Random" xlink:title="Platform.Random"><polygon fill="#ccd1ff" stroke="#ccd1ff" points="359.472 -612 243.608 -612 243.608 -576 359.472 -576 359.472 -612"/><text x="301.54" y="-589.8" fill="#000" font-family="Times,serif" font-size="14" text-anchor="middle">Platform.Random</text></a></g></g><g id="edge19" class="edge"><title>Platform.Ranges-&gt;Platform.Random</title><path fill="none" stroke="#000" d="M365.8386,-647.8314C355.3479,-639.0485 342.5945,-628.3712 331.2206,-618.8489"/><polygon fill="#000" stroke="#000" points="333.149 -615.899 323.235 -612.163 328.655 -621.266 333.149 -615.899"/></g><g id="edge6" class="edge"><title>Platform.Random-&gt;Platform.Collections</title><path fill="none" stroke="#000" d="M352.5035,-575.9243C380.2547,-566.0815 414.7729,-553.8386 443.9014,-543.5073"/><polygon fill="#000" stroke="#000" points="445.301 -546.725 453.556 -540.083 442.961 -540.127 445.301 -546.725"/></g><g id="node24" class="node"><title>Platform.Data.Doublets</title><g id="a_node24"><a xlink:href="https://github.com/linksplatform/Data.Doublets" xlink:title="Platform.Data.Doublets"><polygon fill="#4c5eff" stroke="#4c5eff" points="506.004 -36 357.076 -36 357.076 0 506.004 0 506.004 -36"/><text x="431.54" y="-13.8" fill="#000" font-family="Times,serif" font-size="14" text-anchor="middle">Platform.Data.Doublets</text></a></g></g><g id="edge28" class="edge"><title>Platform.Random-&gt;Platform.Data.Doublets</title><path fill="none" stroke="#000" d="M243.5288,-590.2454C170.9143,-584.326 52.3058,-570.2309 21.54,-540 -7.62,-511.3469 2.54,-490.8816 2.54,-450 2.54,-450 2.54,-450 2.54,-162 2.54,-93.5426 64.4842,-98.6529 127.54,-72 197.9299,-42.2471 284.1991,-28.8855 346.8319,-22.8862"/><polygon fill="#000" stroke="#000" points="347.426 -26.347 357.066 -21.951 346.789 -19.376 347.426 -26.347"/></g><g id="node8" class="node"><title>System.Runtime.CompilerServices.Unsafe</title><g id="a_node8"><a xlink:href="https://www.nuget.org/packages/System.Runtime.CompilerServices.Unsafe" xlink:title="System.Runtime.CompilerServices.Unsafe"><polygon fill="#ccd1ff" stroke="#ccd1ff" points="505.433 -324 249.647 -324 249.647 -288 505.433 -288 505.433 -324"/><text x="377.54" y="-301.8" fill="#000" font-family="Times,serif" font-size="14" text-anchor="middle">System.Runtime.CompilerServices.Unsafe</text></a></g></g><g id="node9" class="node"><title>Platform.Unsafe</title><g id="a_node9"><a xlink:href="https://github.com/linksplatform/Unsafe" xlink:title="Platform.Unsafe"><polygon fill="#ccd1ff" stroke="#ccd1ff" points="405.671 -252 297.409 -252 297.409 -216 405.671 -216 405.671 -252"/><text x="351.54" y="-229.8" fill="#000" font-family="Times,serif" font-size="14" text-anchor="middle">Platform.Unsafe</text></a></g></g><g id="edge7" class="edge"><title>System.Runtime.CompilerServices.Unsafe-&gt;Platform.Unsafe</title><path fill="none" stroke="#000" d="M370.9791,-287.8314C368.1373,-279.9617 364.7463,-270.5712 361.5981,-261.8533"/><polygon fill="#000" stroke="#000" points="364.878 -260.63 358.189 -252.413 358.294 -263.008 364.878 -260.63"/></g><g id="node16" class="node"><title>Platform.IO</title><g id="a_node16"><a xlink:href="https://github.com/linksplatform/IO" xlink:title="Platform.IO"><polygon fill="#ccd1ff" stroke="#ccd1ff" points="393.298 -180 309.782 -180 309.782 -144 393.298 -144 393.298 -180"/><text x="351.54" y="-157.8" fill="#000" font-family="Times,serif" font-size="14" text-anchor="middle">Platform.IO</text></a></g></g><g id="edge15" class="edge"><title>Platform.Unsafe-&gt;Platform.IO</title><path fill="none" stroke="#000" d="M351.54,-215.8314C351.54,-208.131 351.54,-198.9743 351.54,-190.4166"/><polygon fill="#000" stroke="#000" points="355.04 -190.413 351.54 -180.413 348.04 -190.413 355.04 -190.413"/></g><g id="node10" class="node"><title>Platform.Numbers</title><g id="a_node10"><a xlink:href="https://github.com/linksplatform/Numbers" xlink:title="Platform.Numbers"><polygon fill="#ccd1ff" stroke="#ccd1ff" points="231.347 -324 111.733 -324 111.733 -288 231.347 -288 231.347 -324"/><text x="171.54" y="-301.8" fill="#000" font-family="Times,serif" font-size="14" text-anchor="middle">Platform.Numbers</text></a></g></g><g id="edge8" class="edge"><title>Platform.Numbers-&gt;Platform.Unsafe</title><path fill="none" stroke="#000" d="M216.9616,-287.8314C241.2495,-278.1162 271.3322,-266.0831 296.892,-255.8592"/><polygon fill="#000" stroke="#000" points="298.46 -259.002 306.445 -252.038 295.86 -252.502 298.46 -259.002"/></g><g id="node17" class="node"><title>Platform.Collections.Methods</title><g id="a_node17"><a xlink:href="https://github.com/linksplatform/Collections.Methods" xlink:title="Platform.Collections.Methods"><polygon fill="#ccd1ff" stroke="#ccd1ff" points="291.798 -180 107.282 -180 107.282 -144 291.798 -144 291.798 -180"/><text x="199.54" y="-157.8" fill="#000" font-family="Times,serif" font-size="14" text-anchor="middle">Platform.Collections.Methods</text></a></g></g><g id="edge18" class="edge"><title>Platform.Numbers-&gt;Platform.Collections.Methods</title><path fill="none" stroke="#000" d="M175.0862,-287.7623C179.8831,-263.0928 188.4839,-218.8598 194.1008,-189.9731"/><polygon fill="#000" stroke="#000" points="197.549 -190.574 196.023 -180.09 190.678 -189.238 197.549 -190.574"/></g><g id="node23" class="node"><title>Platform.Data</title><g id="a_node23"><a xlink:href="https://github.com/linksplatform/Data" xlink:title="Platform.Data"><polygon fill="#4c5eff" stroke="#4c5eff" points="641.957 -252 547.123 -252 547.123 -216 641.957 -216 641.957 -252"/><text x="594.54" y="-229.8" fill="#000" font-family="Times,serif" font-size="14" text-anchor="middle">Platform.Data</text></a></g></g><g id="edge26" class="edge"><title>Platform.Numbers-&gt;Platform.Data</title><path fill="none" stroke="#000" d="M231.6644,-289.9229C234.6591,-289.2454 237.63,-288.5998 240.54,-288 344.2776,-266.617 466.7268,-249.7783 537.036,-240.9061"/><polygon fill="#000" stroke="#000" points="537.535 -244.371 547.023 -239.655 536.665 -237.425 537.535 -244.371"/></g><g id="node12" class="node"><title>Platform.Converters</title><g id="a_node12"><a xlink:href="https://github.com/linksplatform/Converters" xlink:title="Platform.Converters"><polygon fill="#ccd1ff" stroke="#ccd1ff" points="306.452 -396 176.628 -396 176.628 -360 306.452 -360 306.452 -396"/><text x="241.54" y="-373.8" fill="#000" font-family="Times,serif" font-size="14" text-anchor="middle">Platform.Converters</text></a></g></g><g id="edge9" class="edge"><title>Platform.Reflection-&gt;Platform.Converters</title><path fill="none" stroke="#000" d="M241.54,-431.8314C241.54,-424.131 241.54,-414.9743 241.54,-406.4166"/><polygon fill="#000" stroke="#000" points="245.04 -406.413 241.54 -396.413 238.04 -406.413 245.04 -406.413"/></g><g id="node20" class="node"><title>Platform.Singletons</title><g id="a_node20"><a xlink:href="https://github.com/linksplatform/Singletons" xlink:title="Platform.Singletons"><polygon fill="#ccd1ff" stroke="#ccd1ff" points="158.144 -396 30.936 -396 30.936 -360 158.144 -360 158.144 -396"/><text x="94.54" y="-373.8" fill="#000" font-family="Times,serif" font-size="14" text-anchor="middle">Platform.Singletons</text></a></g></g><g id="edge22" class="edge"><title>Platform.Reflection-&gt;Platform.Singletons</title><path fill="none" stroke="#000" d="M204.4457,-431.8314C185.0475,-422.3302 161.123,-410.6121 140.5539,-400.5374"/><polygon fill="#000" stroke="#000" points="141.888 -397.293 131.368 -396.038 138.809 -403.58 141.888 -397.293"/></g><g id="edge17" class="edge"><title>Platform.Converters-&gt;Platform.Numbers</title><path fill="none" stroke="#000" d="M223.8761,-359.8314C215.5669,-351.2848 205.5137,-340.9443 196.4482,-331.6198"/><polygon fill="#000" stroke="#000" points="198.922 -329.144 189.442 -324.413 193.903 -334.023 198.922 -329.144"/></g><g id="node13" class="node"><title>System.Reflection.Emit</title><g id="a_node13"><a xlink:href="https://www.nuget.org/packages/System.Reflection.Emit" xlink:title="System.Reflection.Emit"><polygon fill="#ccd1ff" stroke="#ccd1ff" points="180.3 -540 30.78 -540 30.78 -504 180.3 -504 180.3 -540"/><text x="105.54" y="-517.8" fill="#000" font-family="Times,serif" font-size="14" text-anchor="middle">System.Reflection.Emit</text></a></g></g><g id="edge11" class="edge"><title>System.Reflection.Emit-&gt;Platform.Reflection</title><path fill="none" stroke="#000" d="M139.8586,-503.8314C157.5759,-494.4516 179.3745,-482.9112 198.2384,-472.9244"/><polygon fill="#000" stroke="#000" points="200.032 -475.935 207.232 -468.163 196.757 -469.748 200.032 -475.935"/></g><g id="node14" class="node"><title>System.Reflection.Emit.Lightweight</title><g id="a_node14"><a xlink:href="https://www.nuget.org/packages/System.Reflection.Emit.Lightweight" xlink:title="System.Reflection.Emit.Lightweight"><polygon fill="#ccd1ff" stroke="#ccd1ff" points="420.237 -540 198.843 -540 198.843 -504 420.237 -504 420.237 -540"/><text x="309.54" y="-517.8" fill="#000" font-family="Times,serif" font-size="14" text-anchor="middle">System.Reflection.Emit.Lightweight</text></a></g></g><g id="edge12" class="edge"><title>System.Reflection.Emit.Lightweight-&gt;Platform.Reflection</title><path fill="none" stroke="#000" d="M292.3807,-503.8314C284.3889,-495.3694 274.7362,-485.1489 265.9984,-475.8971"/><polygon fill="#000" stroke="#000" points="268.341 -473.28 258.93 -468.413 263.252 -478.087 268.341 -473.28"/></g><g id="edge14" class="edge"><title>Platform.Threading-&gt;Platform.IO</title><path fill="none" stroke="#000" d="M556.7771,-287.7623C514.3107,-261.7404 436.3209,-213.9508 389.6722,-185.3661"/><polygon fill="#000" stroke="#000" points="391.416 -182.33 381.061 -180.09 387.759 -188.299 391.416 -182.33"/></g><g id="edge25" class="edge"><title>Platform.Threading-&gt;Platform.Data</title><path fill="none" stroke="#000" d="M588.5588,-287.8314C589.4144,-280.131 590.4318,-270.9743 591.3826,-262.4166"/><polygon fill="#000" stroke="#000" points="594.868 -262.739 592.494 -252.413 587.911 -261.966 594.868 -262.739"/></g><g id="node22" class="node"><title>Platform.Memory</title><g id="a_node22"><a xlink:href="https://github.com/linksplatform/Memory" xlink:title="Platform.Memory"><polygon fill="#4c5eff" stroke="#4c5eff" points="489.741 -108 373.339 -108 373.339 -72 489.741 -72 489.741 -108"/><text x="431.54" y="-85.8" fill="#000" font-family="Times,serif" font-size="14" text-anchor="middle">Platform.Memory</text></a></g></g><g id="edge24" class="edge"><title>Platform.IO-&gt;Platform.Memory</title><path fill="none" stroke="#000" d="M371.7274,-143.8314C381.3914,-135.1337 393.1196,-124.5783 403.6217,-115.1265"/><polygon fill="#000" stroke="#000" points="406.267 -117.454 411.359 -108.163 401.585 -112.251 406.267 -117.454"/></g><g id="edge30" class="edge"><title>Platform.Collections.Methods-&gt;Platform.Data.Doublets</title><path fill="none" stroke="#000" d="M228.923,-143.7623C270.8472,-117.7404 347.8414,-69.9508 393.8946,-41.3661"/><polygon fill="#000" stroke="#000" points="395.745 -44.337 402.396 -36.09 392.053 -38.389 395.745 -44.337"/></g><g id="edge29" class="edge"><title>Platform.Timestamps-&gt;Platform.Data.Doublets</title><path fill="none" stroke="#000" d="M665.648,-431.8777C670.0416,-404.6417 677.54,-351.4948 677.54,-306 677.54,-306 677.54,-306 677.54,-162 677.54,-85.1955 587.1252,-48.5908 515.9236,-31.6723"/><polygon fill="#000" stroke="#000" points="516.543 -28.224 506.016 -29.414 514.988 -35.049 516.543 -28.224"/></g><g id="edge27" class="edge"><title>Platform.Setters-&gt;Platform.Data</title><path fill="none" stroke="#000" d="M787.7789,-431.7412C762.5423,-400.9152 708.9352,-337.112 658.54,-288 648.2522,-277.9741 636.3712,-267.6427 625.6597,-258.7354"/><polygon fill="#000" stroke="#000" points="627.691 -255.874 617.742 -252.23 623.247 -261.283 627.691 -255.874"/></g><g id="edge31" class="edge"><title>Platform.Singletons-&gt;Platform.Data.Doublets</title><path fill="none" stroke="#000" d="M91.432,-359.8777C87.0384,-332.6417 79.54,-279.4948 79.54,-234 79.54,-234 79.54,-234 79.54,-162 79.54,-104.4327 242.8569,-58.4781 347.0034,-35.0256"/><polygon fill="#000" stroke="#000" points="347.888 -38.414 356.89 -32.827 346.368 -31.581 347.888 -38.414"/></g><g id="node21" class="node"><title>System.IO.MemoryMappedFiles</title><g id="a_node21"><a xlink:href="https://www.nuget.org/packages/System.IO.MemoryMappedFiles" xlink:title="System.IO.MemoryMappedFiles"><polygon fill="#ccd1ff" stroke="#ccd1ff" points="611.838 -180 411.242 -180 411.242 -144 611.838 -144 611.838 -180"/><text x="511.54" y="-157.8" fill="#000" font-family="Times,serif" font-size="14" text-anchor="middle">System.IO.MemoryMappedFiles</text></a></g></g><g id="edge23" class="edge"><title>System.IO.MemoryMappedFiles-&gt;Platform.Memory</title><path fill="none" stroke="#000" d="M491.3526,-143.8314C481.6886,-135.1337 469.9604,-124.5783 459.4584,-115.1265"/><polygon fill="#000" stroke="#000" points="461.495 -112.251 451.721 -108.163 456.813 -117.454 461.495 -112.251"/></g><g id="edge32" class="edge"><title>Platform.Memory-&gt;Platform.Data.Doublets</title><path fill="none" stroke="#000" d="M431.54,-71.8314C431.54,-64.131 431.54,-54.9743 431.54,-46.4166"/><polygon fill="#000" stroke="#000" points="435.04 -46.413 431.54 -36.413 428.04 -46.413 435.04 -46.413"/></g><g id="edge33" class="edge"><title>Platform.Data-&gt;Platform.Data.Doublets</title><path fill="none" stroke="#000" d="M607.5108,-215.9041C619.2583,-197.1002 632.9723,-167.23 620.54,-144 593.526,-93.5238 536.3708,-59.7764 491.947,-40.017"/><polygon fill="#000" stroke="#000" points="493.244 -36.765 482.676 -36.012 490.468 -43.191 493.244 -36.765"/></g><g id="node25" class="node"><title>Platform.Incrementers</title><g id="a_node25"><a xlink:href="https://github.com/linksplatform/Incrementers" xlink:title="Platform.Incrementers"><polygon fill="#ccd1ff" stroke="#ccd1ff" points="847.097 -108 705.983 -108 705.983 -72 847.097 -72 847.097 -108"/><text x="776.54" y="-85.8" fill="#000" font-family="Times,serif" font-size="14" text-anchor="middle">Platform.Incrementers</text></a></g></g><g id="edge34" class="edge"><title>Platform.Incrementers-&gt;Platform.Data.Doublets</title><path fill="none" stroke="#000" d="M705.5832,-74.9522C700.8311,-73.9511 696.1165,-72.9598 691.54,-72 632.9538,-59.7129 566.9117,-45.9981 516.0485,-35.4649"/><polygon fill="#000" stroke="#000" points="516.587 -32.002 506.085 -33.402 515.168 -38.857 516.587 -32.002"/></g></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><!-- Generated by graphviz version 2.40.1 (20161225.0304)
+ --><!-- Title: PlatformDataDoubletsDependencies Pages: 1 --><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="849pt" height="764pt" viewBox="0.00 0.00 849.46 764.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 760)">
+<title>PlatformDataDoubletsDependencies</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-760 845.4618,-760 845.4618,4 -4,4"/>
+<!-- Platform.Exceptions -->
+<g id="node1" class="node">
+<title>Platform.Exceptions</title>
+<g id="a_node1"><a xlink:href="https://github.com/linksplatform/Exceptions" xlink:title="Platform.Exceptions">
+<polygon fill="#ccd1ff" stroke="#ccd1ff" points="232.1981,-756 101.8019,-756 101.8019,-720 232.1981,-720 232.1981,-756"/>
+<text text-anchor="middle" x="167" y="-733.8" font-family="Times,serif" font-size="14.00" fill="#000000">Platform.Exceptions</text>
+</a>
+</g>
+</g>
+<!-- Platform.Disposables -->
+<g id="node2" class="node">
+<title>Platform.Disposables</title>
+<g id="a_node2"><a xlink:href="https://github.com/linksplatform/Disposables" xlink:title="Platform.Disposables">
+<polygon fill="#ccd1ff" stroke="#ccd1ff" points="306.1411,-684 169.8589,-684 169.8589,-648 306.1411,-648 306.1411,-684"/>
+<text text-anchor="middle" x="238" y="-661.8" font-family="Times,serif" font-size="14.00" fill="#000000">Platform.Disposables</text>
+</a>
+</g>
+</g>
+<!-- Platform.Exceptions&#45;&gt;Platform.Disposables -->
+<g id="edge1" class="edge">
+<title>Platform.Exceptions-&gt;Platform.Disposables</title>
+<path fill="none" stroke="#000000" d="M184.9163,-719.8314C193.3442,-711.2848 203.541,-700.9443 212.736,-691.6198"/>
+<polygon fill="#000000" stroke="#000000" points="215.3131,-693.9912 219.8425,-684.4133 210.3289,-689.0761 215.3131,-693.9912"/>
+</g>
+<!-- Platform.Ranges -->
+<g id="node6" class="node">
+<title>Platform.Ranges</title>
+<g id="a_node6"><a xlink:href="https://github.com/linksplatform/Ranges" xlink:title="Platform.Ranges">
+<polygon fill="#ccd1ff" stroke="#ccd1ff" points="151.701,-684 42.299,-684 42.299,-648 151.701,-648 151.701,-684"/>
+<text text-anchor="middle" x="97" y="-661.8" font-family="Times,serif" font-size="14.00" fill="#000000">Platform.Ranges</text>
+</a>
+</g>
+</g>
+<!-- Platform.Exceptions&#45;&gt;Platform.Ranges -->
+<g id="edge10" class="edge">
+<title>Platform.Exceptions-&gt;Platform.Ranges</title>
+<path fill="none" stroke="#000000" d="M149.336,-719.8314C141.0268,-711.2848 130.9736,-700.9443 121.9082,-691.6198"/>
+<polygon fill="#000000" stroke="#000000" points="124.3821,-689.1435 114.9018,-684.4133 119.3631,-694.023 124.3821,-689.1435"/>
+</g>
+<!-- Platform.Collections -->
+<g id="node4" class="node">
+<title>Platform.Collections</title>
+<g id="a_node4"><a xlink:href="https://github.com/linksplatform/Collections" xlink:title="Platform.Collections">
+<polygon fill="#ccd1ff" stroke="#ccd1ff" points="299.2633,-540 166.7367,-540 166.7367,-504 299.2633,-504 299.2633,-540"/>
+<text text-anchor="middle" x="233" y="-517.8" font-family="Times,serif" font-size="14.00" fill="#000000">Platform.Collections</text>
+</a>
+</g>
+</g>
+<!-- Platform.Disposables&#45;&gt;Platform.Collections -->
+<g id="edge4" class="edge">
+<title>Platform.Disposables-&gt;Platform.Collections</title>
+<path fill="none" stroke="#000000" d="M237.3667,-647.7623C236.5139,-623.201 234.9878,-579.2474 233.9845,-550.3541"/>
+<polygon fill="#000000" stroke="#000000" points="237.4731,-549.9621 233.6281,-540.0896 230.4773,-550.2051 237.4731,-549.9621"/>
+</g>
+<!-- System.Numerics.Vectors -->
+<g id="node3" class="node">
+<title>System.Numerics.Vectors</title>
+<g id="a_node3"><a xlink:href="https://www.nuget.org/packages/System.Numerics.Vectors" xlink:title="System.Numerics.Vectors">
+<polygon fill="#ccd1ff" stroke="#ccd1ff" points="423.1769,-612 260.8231,-612 260.8231,-576 423.1769,-576 423.1769,-612"/>
+<text text-anchor="middle" x="342" y="-589.8" font-family="Times,serif" font-size="14.00" fill="#000000">System.Numerics.Vectors</text>
+</a>
+</g>
+</g>
+<!-- System.Numerics.Vectors&#45;&gt;Platform.Collections -->
+<g id="edge2" class="edge">
+<title>System.Numerics.Vectors-&gt;Platform.Collections</title>
+<path fill="none" stroke="#000000" d="M314.4947,-575.8314C300.682,-566.7074 283.7744,-555.539 268.9471,-545.7449"/>
+<polygon fill="#000000" stroke="#000000" points="270.7696,-542.7541 260.4965,-540.1628 266.9114,-548.5949 270.7696,-542.7541"/>
+</g>
+<!-- Platform.Reflection -->
+<g id="node11" class="node">
+<title>Platform.Reflection</title>
+<g id="a_node11"><a xlink:href="https://github.com/linksplatform/Reflection" xlink:title="Platform.Reflection">
+<polygon fill="#ccd1ff" stroke="#ccd1ff" points="470.3032,-468 343.6968,-468 343.6968,-432 470.3032,-432 470.3032,-468"/>
+<text text-anchor="middle" x="407" y="-445.8" font-family="Times,serif" font-size="14.00" fill="#000000">Platform.Reflection</text>
+</a>
+</g>
+</g>
+<!-- Platform.Collections&#45;&gt;Platform.Reflection -->
+<g id="edge13" class="edge">
+<title>Platform.Collections-&gt;Platform.Reflection</title>
+<path fill="none" stroke="#000000" d="M276.9075,-503.8314C300.2824,-494.159 329.2097,-482.1891 353.8468,-471.9944"/>
+<polygon fill="#000000" stroke="#000000" points="355.5063,-475.0956 363.4082,-468.038 352.8298,-468.6275 355.5063,-475.0956"/>
+</g>
+<!-- Platform.Threading -->
+<g id="node15" class="node">
+<title>Platform.Threading</title>
+<g id="a_node15"><a xlink:href="https://github.com/linksplatform/Threading" xlink:title="Platform.Threading">
+<polygon fill="#ccd1ff" stroke="#ccd1ff" points="605.0232,-324 478.9768,-324 478.9768,-288 605.0232,-288 605.0232,-324"/>
+<text text-anchor="middle" x="542" y="-301.8" font-family="Times,serif" font-size="14.00" fill="#000000">Platform.Threading</text>
+</a>
+</g>
+</g>
+<!-- Platform.Collections&#45;&gt;Platform.Threading -->
+<g id="edge16" class="edge">
+<title>Platform.Collections-&gt;Platform.Threading</title>
+<path fill="none" stroke="#000000" d="M251.6983,-503.6858C271.5328,-484.7039 304.1967,-454.6904 335,-432 389.2354,-392.049 456.6013,-352.7842 499.458,-328.9749"/>
+<polygon fill="#000000" stroke="#000000" points="501.158,-332.0344 508.2176,-324.1341 497.7722,-325.9076 501.158,-332.0344"/>
+</g>
+<!-- Platform.Interfaces -->
+<g id="node5" class="node">
+<title>Platform.Interfaces</title>
+<g id="a_node5"><a xlink:href="https://github.com/linksplatform/Interfaces" xlink:title="Platform.Interfaces">
+<polygon fill="#ccd1ff" stroke="#ccd1ff" points="796.6661,-612 673.3339,-612 673.3339,-576 796.6661,-576 796.6661,-612"/>
+<text text-anchor="middle" x="735" y="-589.8" font-family="Times,serif" font-size="14.00" fill="#000000">Platform.Interfaces</text>
+</a>
+</g>
+</g>
+<!-- Platform.Interfaces&#45;&gt;Platform.Collections -->
+<g id="edge3" class="edge">
+<title>Platform.Interfaces-&gt;Platform.Collections</title>
+<path fill="none" stroke="#000000" d="M673.1553,-588.3295C591.8449,-580.3967 444.4232,-564.3712 309.2904,-540.1324"/>
+<polygon fill="#000000" stroke="#000000" points="309.6337,-536.6376 299.1696,-538.2972 308.3847,-543.5253 309.6337,-536.6376"/>
+</g>
+<!-- Platform.Timestamps -->
+<g id="node18" class="node">
+<title>Platform.Timestamps</title>
+<g id="a_node18"><a xlink:href="https://github.com/linksplatform/Timestamps" xlink:title="Platform.Timestamps">
+<polygon fill="#ccd1ff" stroke="#ccd1ff" points="841.4236,-468 704.5764,-468 704.5764,-432 841.4236,-432 841.4236,-468"/>
+<text text-anchor="middle" x="773" y="-445.8" font-family="Times,serif" font-size="14.00" fill="#000000">Platform.Timestamps</text>
+</a>
+</g>
+</g>
+<!-- Platform.Interfaces&#45;&gt;Platform.Timestamps -->
+<g id="edge20" class="edge">
+<title>Platform.Interfaces-&gt;Platform.Timestamps</title>
+<path fill="none" stroke="#000000" d="M739.8127,-575.7623C746.3227,-551.0928 757.9953,-506.8598 765.6182,-477.9731"/>
+<polygon fill="#000000" stroke="#000000" points="769.0589,-478.6517 768.2264,-468.0896 762.2906,-476.8656 769.0589,-478.6517"/>
+</g>
+<!-- Platform.Setters -->
+<g id="node19" class="node">
+<title>Platform.Setters</title>
+<g id="a_node19"><a xlink:href="https://github.com/linksplatform/Setters" xlink:title="Platform.Setters">
+<polygon fill="#ccd1ff" stroke="#ccd1ff" points="686.0892,-468 579.9108,-468 579.9108,-432 686.0892,-432 686.0892,-468"/>
+<text text-anchor="middle" x="633" y="-445.8" font-family="Times,serif" font-size="14.00" fill="#000000">Platform.Setters</text>
+</a>
+</g>
+</g>
+<!-- Platform.Interfaces&#45;&gt;Platform.Setters -->
+<g id="edge21" class="edge">
+<title>Platform.Interfaces-&gt;Platform.Setters</title>
+<path fill="none" stroke="#000000" d="M735.1403,-575.8528C734.4423,-556.4612 730.8101,-525.6002 716,-504 707.5485,-491.6737 695.2651,-481.4917 682.727,-473.4191"/>
+<polygon fill="#000000" stroke="#000000" points="684.4174,-470.3511 674.0501,-468.1671 680.7926,-476.3395 684.4174,-470.3511"/>
+</g>
+<!-- Platform.Ranges&#45;&gt;Platform.Collections -->
+<g id="edge5" class="edge">
+<title>Platform.Ranges-&gt;Platform.Collections</title>
+<path fill="none" stroke="#000000" d="M122.3898,-647.8242C135.4562,-637.919 151.2695,-625.0435 164,-612 183.2322,-592.2949 202.0437,-567.26 215.1546,-548.5993"/>
+<polygon fill="#000000" stroke="#000000" points="218.1148,-550.4724 220.9338,-540.2594 212.3612,-546.4853 218.1148,-550.4724"/>
+</g>
+<!-- Platform.Random -->
+<g id="node7" class="node">
+<title>Platform.Random</title>
+<g id="a_node7"><a xlink:href="https://github.com/linksplatform/Random" xlink:title="Platform.Random">
+<polygon fill="#ccd1ff" stroke="#ccd1ff" points="154.932,-612 39.068,-612 39.068,-576 154.932,-576 154.932,-612"/>
+<text text-anchor="middle" x="97" y="-589.8" font-family="Times,serif" font-size="14.00" fill="#000000">Platform.Random</text>
+</a>
+</g>
+</g>
+<!-- Platform.Ranges&#45;&gt;Platform.Random -->
+<g id="edge19" class="edge">
+<title>Platform.Ranges-&gt;Platform.Random</title>
+<path fill="none" stroke="#000000" d="M97,-647.8314C97,-640.131 97,-630.9743 97,-622.4166"/>
+<polygon fill="#000000" stroke="#000000" points="100.5001,-622.4132 97,-612.4133 93.5001,-622.4133 100.5001,-622.4132"/>
+</g>
+<!-- Platform.Random&#45;&gt;Platform.Collections -->
+<g id="edge6" class="edge">
+<title>Platform.Random-&gt;Platform.Collections</title>
+<path fill="none" stroke="#000000" d="M131.3185,-575.8314C149.0359,-566.4516 170.8345,-554.9112 189.6984,-544.9244"/>
+<polygon fill="#000000" stroke="#000000" points="191.4922,-547.935 198.6924,-540.1628 188.2169,-541.7485 191.4922,-547.935"/>
+</g>
+<!-- Platform.Data.Doublets -->
+<g id="node24" class="node">
+<title>Platform.Data.Doublets</title>
+<g id="a_node24"><a xlink:href="https://github.com/linksplatform/Data.Doublets" xlink:title="Platform.Data.Doublets">
+<polygon fill="#4c5eff" stroke="#4c5eff" points="429.4636,-36 280.5364,-36 280.5364,0 429.4636,0 429.4636,-36"/>
+<text text-anchor="middle" x="355" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">Platform.Data.Doublets</text>
+</a>
+</g>
+</g>
+<!-- Platform.Random&#45;&gt;Platform.Data.Doublets -->
+<g id="edge28" class="edge">
+<title>Platform.Random-&gt;Platform.Data.Doublets</title>
+<path fill="none" stroke="#000000" d="M74.0124,-575.7169C45.3281,-550.6722 0,-502.7501 0,-450 0,-450 0,-450 0,-162 0,-106.0565 38.8539,-98.7272 88,-72 118.972,-55.1565 204.4333,-39.6158 270.4082,-29.5737"/>
+<polygon fill="#000000" stroke="#000000" points="271.0359,-33.0188 280.4046,-28.0713 269.9954,-26.0966 271.0359,-33.0188"/>
+</g>
+<!-- System.Runtime.CompilerServices.Unsafe -->
+<g id="node8" class="node">
+<title>System.Runtime.CompilerServices.Unsafe</title>
+<g id="a_node8"><a xlink:href="https://www.nuget.org/packages/System.Runtime.CompilerServices.Unsafe" xlink:title="System.Runtime.CompilerServices.Unsafe">
+<polygon fill="#ccd1ff" stroke="#ccd1ff" points="321.8928,-324 66.1072,-324 66.1072,-288 321.8928,-288 321.8928,-324"/>
+<text text-anchor="middle" x="194" y="-301.8" font-family="Times,serif" font-size="14.00" fill="#000000">System.Runtime.CompilerServices.Unsafe</text>
+</a>
+</g>
+</g>
+<!-- Platform.Unsafe -->
+<g id="node9" class="node">
+<title>Platform.Unsafe</title>
+<g id="a_node9"><a xlink:href="https://github.com/linksplatform/Unsafe" xlink:title="Platform.Unsafe">
+<polygon fill="#ccd1ff" stroke="#ccd1ff" points="248.1313,-252 139.8687,-252 139.8687,-216 248.1313,-216 248.1313,-252"/>
+<text text-anchor="middle" x="194" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">Platform.Unsafe</text>
+</a>
+</g>
+</g>
+<!-- System.Runtime.CompilerServices.Unsafe&#45;&gt;Platform.Unsafe -->
+<g id="edge7" class="edge">
+<title>System.Runtime.CompilerServices.Unsafe-&gt;Platform.Unsafe</title>
+<path fill="none" stroke="#000000" d="M194,-287.8314C194,-280.131 194,-270.9743 194,-262.4166"/>
+<polygon fill="#000000" stroke="#000000" points="197.5001,-262.4132 194,-252.4133 190.5001,-262.4133 197.5001,-262.4132"/>
+</g>
+<!-- Platform.IO -->
+<g id="node16" class="node">
+<title>Platform.IO</title>
+<g id="a_node16"><a xlink:href="https://github.com/linksplatform/IO" xlink:title="Platform.IO">
+<polygon fill="#ccd1ff" stroke="#ccd1ff" points="600.7578,-180 517.2422,-180 517.2422,-144 600.7578,-144 600.7578,-180"/>
+<text text-anchor="middle" x="559" y="-157.8" font-family="Times,serif" font-size="14.00" fill="#000000">Platform.IO</text>
+</a>
+</g>
+</g>
+<!-- Platform.Unsafe&#45;&gt;Platform.IO -->
+<g id="edge15" class="edge">
+<title>Platform.Unsafe-&gt;Platform.IO</title>
+<path fill="none" stroke="#000000" d="M248.2049,-227.5108C309.1714,-219.5837 411.1532,-204.4367 507.2694,-179.9572"/>
+<polygon fill="#000000" stroke="#000000" points="508.3446,-183.2944 517.1497,-177.4019 506.5918,-176.5173 508.3446,-183.2944"/>
+</g>
+<!-- Platform.Numbers -->
+<g id="node10" class="node">
+<title>Platform.Numbers</title>
+<g id="a_node10"><a xlink:href="https://github.com/linksplatform/Numbers" xlink:title="Platform.Numbers">
+<polygon fill="#ccd1ff" stroke="#ccd1ff" points="459.8074,-324 340.1926,-324 340.1926,-288 459.8074,-288 459.8074,-324"/>
+<text text-anchor="middle" x="400" y="-301.8" font-family="Times,serif" font-size="14.00" fill="#000000">Platform.Numbers</text>
+</a>
+</g>
+</g>
+<!-- Platform.Numbers&#45;&gt;Platform.Unsafe -->
+<g id="edge8" class="edge">
+<title>Platform.Numbers-&gt;Platform.Unsafe</title>
+<path fill="none" stroke="#000000" d="M348.2834,-287.9243C320.122,-278.0815 285.0938,-265.8386 255.5347,-255.5073"/>
+<polygon fill="#000000" stroke="#000000" points="256.3327,-252.0786 245.7379,-252.0831 254.0231,-258.6866 256.3327,-252.0786"/>
+</g>
+<!-- Platform.Collections.Methods -->
+<g id="node17" class="node">
+<title>Platform.Collections.Methods</title>
+<g id="a_node17"><a xlink:href="https://github.com/linksplatform/Collections.Methods" xlink:title="Platform.Collections.Methods">
+<polygon fill="#ccd1ff" stroke="#ccd1ff" points="363.2576,-108 178.7424,-108 178.7424,-72 363.2576,-72 363.2576,-108"/>
+<text text-anchor="middle" x="271" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">Platform.Collections.Methods</text>
+</a>
+</g>
+</g>
+<!-- Platform.Numbers&#45;&gt;Platform.Collections.Methods -->
+<g id="edge18" class="edge">
+<title>Platform.Numbers-&gt;Platform.Collections.Methods</title>
+<path fill="none" stroke="#000000" d="M378.5617,-287.8494C353.3177,-265.2403 312.0428,-224.1703 290,-180 280.3434,-160.6497 275.5865,-136.5868 273.2477,-118.212"/>
+<polygon fill="#000000" stroke="#000000" points="276.7107,-117.6831 272.1314,-108.1291 269.7532,-118.4535 276.7107,-117.6831"/>
+</g>
+<!-- Platform.Data -->
+<g id="node23" class="node">
+<title>Platform.Data</title>
+<g id="a_node23"><a xlink:href="https://github.com/linksplatform/Data" xlink:title="Platform.Data">
+<polygon fill="#4c5eff" stroke="#4c5eff" points="672.4166,-252 577.5834,-252 577.5834,-216 672.4166,-216 672.4166,-252"/>
+<text text-anchor="middle" x="625" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">Platform.Data</text>
+</a>
+</g>
+</g>
+<!-- Platform.Numbers&#45;&gt;Platform.Data -->
+<g id="edge26" class="edge">
+<title>Platform.Numbers-&gt;Platform.Data</title>
+<path fill="none" stroke="#000000" d="M456.4866,-287.9243C490.3716,-277.0811 533.3589,-263.3252 567.4346,-252.4209"/>
+<polygon fill="#000000" stroke="#000000" points="568.7903,-255.662 577.2478,-249.2807 566.6568,-248.995 568.7903,-255.662"/>
+</g>
+<!-- Platform.Converters -->
+<g id="node12" class="node">
+<title>Platform.Converters</title>
+<g id="a_node12"><a xlink:href="https://github.com/linksplatform/Converters" xlink:title="Platform.Converters">
+<polygon fill="#ccd1ff" stroke="#ccd1ff" points="303.9124,-396 174.0876,-396 174.0876,-360 303.9124,-360 303.9124,-396"/>
+<text text-anchor="middle" x="239" y="-373.8" font-family="Times,serif" font-size="14.00" fill="#000000">Platform.Converters</text>
+</a>
+</g>
+</g>
+<!-- Platform.Reflection&#45;&gt;Platform.Converters -->
+<g id="edge9" class="edge">
+<title>Platform.Reflection-&gt;Platform.Converters</title>
+<path fill="none" stroke="#000000" d="M364.6065,-431.8314C342.0376,-422.159 314.1079,-410.1891 290.3204,-399.9944"/>
+<polygon fill="#000000" stroke="#000000" points="291.6588,-396.7602 281.0886,-396.038 288.9014,-403.1943 291.6588,-396.7602"/>
+</g>
+<!-- Platform.Singletons -->
+<g id="node20" class="node">
+<title>Platform.Singletons</title>
+<g id="a_node20"><a xlink:href="https://github.com/linksplatform/Singletons" xlink:title="Platform.Singletons">
+<polygon fill="#ccd1ff" stroke="#ccd1ff" points="155.6044,-396 28.3956,-396 28.3956,-360 155.6044,-360 155.6044,-396"/>
+<text text-anchor="middle" x="92" y="-373.8" font-family="Times,serif" font-size="14.00" fill="#000000">Platform.Singletons</text>
+</a>
+</g>
+</g>
+<!-- Platform.Reflection&#45;&gt;Platform.Singletons -->
+<g id="edge22" class="edge">
+<title>Platform.Reflection-&gt;Platform.Singletons</title>
+<path fill="none" stroke="#000000" d="M343.4756,-436.229C296.9035,-426.0398 231.8905,-411.6238 165.4865,-396.0901"/>
+<polygon fill="#000000" stroke="#000000" points="166.2162,-392.6663 155.6812,-393.7905 164.6178,-399.4814 166.2162,-392.6663"/>
+</g>
+<!-- Platform.Converters&#45;&gt;Platform.Numbers -->
+<g id="edge17" class="edge">
+<title>Platform.Converters-&gt;Platform.Numbers</title>
+<path fill="none" stroke="#000000" d="M279.6271,-359.8314C301.1599,-350.2018 327.7849,-338.295 350.5152,-328.1299"/>
+<polygon fill="#000000" stroke="#000000" points="351.9652,-331.3155 359.665,-324.038 349.1074,-324.9254 351.9652,-331.3155"/>
+</g>
+<!-- System.Reflection.Emit -->
+<g id="node13" class="node">
+<title>System.Reflection.Emit</title>
+<g id="a_node13"><a xlink:href="https://www.nuget.org/packages/System.Reflection.Emit" xlink:title="System.Reflection.Emit">
+<polygon fill="#ccd1ff" stroke="#ccd1ff" points="466.7604,-540 317.2396,-540 317.2396,-504 466.7604,-504 466.7604,-540"/>
+<text text-anchor="middle" x="392" y="-517.8" font-family="Times,serif" font-size="14.00" fill="#000000">System.Reflection.Emit</text>
+</a>
+</g>
+</g>
+<!-- System.Reflection.Emit&#45;&gt;Platform.Reflection -->
+<g id="edge11" class="edge">
+<title>System.Reflection.Emit-&gt;Platform.Reflection</title>
+<path fill="none" stroke="#000000" d="M395.7851,-503.8314C397.3894,-496.131 399.297,-486.9743 401.0799,-478.4166"/>
+<polygon fill="#000000" stroke="#000000" points="404.5507,-478.9169 403.1639,-468.4133 397.6979,-477.4892 404.5507,-478.9169"/>
+</g>
+<!-- System.Reflection.Emit.Lightweight -->
+<g id="node14" class="node">
+<title>System.Reflection.Emit.Lightweight</title>
+<g id="a_node14"><a xlink:href="https://www.nuget.org/packages/System.Reflection.Emit.Lightweight" xlink:title="System.Reflection.Emit.Lightweight">
+<polygon fill="#ccd1ff" stroke="#ccd1ff" points="706.6966,-540 485.3034,-540 485.3034,-504 706.6966,-504 706.6966,-540"/>
+<text text-anchor="middle" x="596" y="-517.8" font-family="Times,serif" font-size="14.00" fill="#000000">System.Reflection.Emit.Lightweight</text>
+</a>
+</g>
+</g>
+<!-- System.Reflection.Emit.Lightweight&#45;&gt;Platform.Reflection -->
+<g id="edge12" class="edge">
+<title>System.Reflection.Emit.Lightweight-&gt;Platform.Reflection</title>
+<path fill="none" stroke="#000000" d="M548.3073,-503.8314C522.6927,-494.0734 490.9398,-481.977 464.026,-471.7242"/>
+<polygon fill="#000000" stroke="#000000" points="464.9406,-468.3273 454.3497,-468.038 462.4486,-474.8687 464.9406,-468.3273"/>
+</g>
+<!-- Platform.Threading&#45;&gt;Platform.IO -->
+<g id="edge14" class="edge">
+<title>Platform.Threading-&gt;Platform.IO</title>
+<path fill="none" stroke="#000000" d="M544.1531,-287.7623C547.0527,-263.201 552.2416,-219.2474 555.6526,-190.3541"/>
+<polygon fill="#000000" stroke="#000000" points="559.1678,-190.431 556.8644,-180.0896 552.2161,-189.6103 559.1678,-190.431"/>
+</g>
+<!-- Platform.Threading&#45;&gt;Platform.Data -->
+<g id="edge25" class="edge">
+<title>Platform.Threading-&gt;Platform.Data</title>
+<path fill="none" stroke="#000000" d="M562.9444,-287.8314C573.0691,-279.0485 585.3777,-268.3712 596.3548,-258.8489"/>
+<polygon fill="#000000" stroke="#000000" points="598.8019,-261.3595 604.0623,-252.1628 594.2149,-256.0718 598.8019,-261.3595"/>
+</g>
+<!-- Platform.Memory -->
+<g id="node22" class="node">
+<title>Platform.Memory</title>
+<g id="a_node22"><a xlink:href="https://github.com/linksplatform/Memory" xlink:title="Platform.Memory">
+<polygon fill="#4c5eff" stroke="#4c5eff" points="498.201,-108 381.799,-108 381.799,-72 498.201,-72 498.201,-108"/>
+<text text-anchor="middle" x="440" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">Platform.Memory</text>
+</a>
+</g>
+</g>
+<!-- Platform.IO&#45;&gt;Platform.Memory -->
+<g id="edge24" class="edge">
+<title>Platform.IO-&gt;Platform.Memory</title>
+<path fill="none" stroke="#000000" d="M528.9713,-143.8314C513.7504,-134.6221 495.0872,-123.3301 478.7917,-113.4706"/>
+<polygon fill="#000000" stroke="#000000" points="480.3868,-110.345 470.0191,-108.1628 476.7631,-116.3341 480.3868,-110.345"/>
+</g>
+<!-- Platform.Collections.Methods&#45;&gt;Platform.Data.Doublets -->
+<g id="edge30" class="edge">
+<title>Platform.Collections.Methods-&gt;Platform.Data.Doublets</title>
+<path fill="none" stroke="#000000" d="M292.1967,-71.8314C302.4434,-63.0485 314.9003,-52.3712 326.0097,-42.8489"/>
+<polygon fill="#000000" stroke="#000000" points="328.4952,-45.3282 333.81,-36.1628 323.9397,-40.0134 328.4952,-45.3282"/>
+</g>
+<!-- Platform.Timestamps&#45;&gt;Platform.Data.Doublets -->
+<g id="edge29" class="edge">
+<title>Platform.Timestamps-&gt;Platform.Data.Doublets</title>
+<path fill="none" stroke="#000000" d="M765.3653,-431.7257C754.7979,-404.7325 737,-352.3849 737,-306 737,-306 737,-306 737,-162 737,-98.8773 552.061,-53.8805 439.543,-32.3456"/>
+<polygon fill="#000000" stroke="#000000" points="440.0362,-28.8769 429.5603,-30.46 438.7369,-35.7553 440.0362,-28.8769"/>
+</g>
+<!-- Platform.Setters&#45;&gt;Platform.Data -->
+<g id="edge27" class="edge">
+<title>Platform.Setters-&gt;Platform.Data</title>
+<path fill="none" stroke="#000000" d="M632.3317,-431.9555C630.9405,-394.3938 627.7242,-307.5541 626.0522,-262.4103"/>
+<polygon fill="#000000" stroke="#000000" points="629.5399,-262.0086 625.672,-252.1451 622.5446,-262.2678 629.5399,-262.0086"/>
+</g>
+<!-- Platform.Singletons&#45;&gt;Platform.Data.Doublets -->
+<g id="edge31" class="edge">
+<title>Platform.Singletons-&gt;Platform.Data.Doublets</title>
+<path fill="none" stroke="#000000" d="M77.8968,-359.9479C70.6638,-349.8743 62.2869,-336.8047 57,-324 41.3981,-286.2126 38,-274.8816 38,-234 38,-234 38,-234 38,-162 38,-110.7709 176.9717,-64.2518 270.8845,-38.6643"/>
+<polygon fill="#000000" stroke="#000000" points="271.9317,-42.007 280.6776,-36.0271 270.1114,-35.2478 271.9317,-42.007"/>
+</g>
+<!-- System.IO.MemoryMappedFiles -->
+<g id="node21" class="node">
+<title>System.IO.MemoryMappedFiles</title>
+<g id="a_node21"><a xlink:href="https://www.nuget.org/packages/System.IO.MemoryMappedFiles" xlink:title="System.IO.MemoryMappedFiles">
+<polygon fill="#ccd1ff" stroke="#ccd1ff" points="499.2976,-180 298.7024,-180 298.7024,-144 499.2976,-144 499.2976,-180"/>
+<text text-anchor="middle" x="399" y="-157.8" font-family="Times,serif" font-size="14.00" fill="#000000">System.IO.MemoryMappedFiles</text>
+</a>
+</g>
+</g>
+<!-- System.IO.MemoryMappedFiles&#45;&gt;Platform.Memory -->
+<g id="edge23" class="edge">
+<title>System.IO.MemoryMappedFiles-&gt;Platform.Memory</title>
+<path fill="none" stroke="#000000" d="M409.346,-143.8314C413.9237,-135.7925 419.4052,-126.1666 424.4588,-117.2918"/>
+<polygon fill="#000000" stroke="#000000" points="427.6077,-118.8351 429.5147,-108.4133 421.5248,-115.3712 427.6077,-118.8351"/>
+</g>
+<!-- Platform.Memory&#45;&gt;Platform.Data.Doublets -->
+<g id="edge32" class="edge">
+<title>Platform.Memory-&gt;Platform.Data.Doublets</title>
+<path fill="none" stroke="#000000" d="M418.5509,-71.8314C408.1822,-63.0485 395.5771,-52.3712 384.3354,-42.8489"/>
+<polygon fill="#000000" stroke="#000000" points="386.3349,-39.9556 376.4422,-36.1628 381.8105,-45.297 386.3349,-39.9556"/>
+</g>
+<!-- Platform.Data&#45;&gt;Platform.Data.Doublets -->
+<g id="edge33" class="edge">
+<title>Platform.Data-&gt;Platform.Data.Doublets</title>
+<path fill="none" stroke="#000000" d="M625.9522,-215.996C626.1207,-196.7268 623.864,-165.9698 610,-144 572.5552,-84.6624 498.1198,-52.3776 439.2917,-35.3949"/>
+<polygon fill="#000000" stroke="#000000" points="440.1936,-32.0129 429.6209,-32.6988 438.3137,-38.7558 440.1936,-32.0129"/>
+</g>
+</g>
+</svg>
