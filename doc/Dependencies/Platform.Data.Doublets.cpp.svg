@@ -100,7 +100,7 @@
 <g id="node13" class="node">
 <title>Platform.Memory</title>
 <g id="a_node13"><a xlink:href="https://github.com/linksplatform/Memory" xlink:title="Platform.Memory">
-<polygon fill="#4c5eff" stroke="#4c5eff" points="359.5499,-108 243.1479,-108 243.1479,-72 359.5499,-72 359.5499,-108"/>
+<polygon fill="#ccd1ff" stroke="#ccd1ff" points="359.5499,-108 243.1479,-108 243.1479,-72 359.5499,-72 359.5499,-108"/>
 <text text-anchor="middle" x="301.3489" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">Platform.Memory</text>
 </a>
 </g>

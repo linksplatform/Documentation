@@ -72,7 +72,7 @@ digraph PlatformDataDoubletsDependencies {
   "Platform.Timestamps" [href="https://github.com/linksplatform/Timestamps"]
   "Platform.Collections.Methods" [href="https://github.com/linksplatform/Collections.Methods"]
   "Platform.Singletons" [href="https://github.com/linksplatform/Singletons"]
-  "Platform.Memory" [color="0.650 0.700 1.000", href="https://github.com/linksplatform/Memory"]
+  "Platform.Memory" [href="https://github.com/linksplatform/Memory"]
   "Platform.Data" [color="0.650 0.700 1.000", href="https://github.com/linksplatform/Data"]
   "Platform.Data.Doublets" [color="0.650 0.700 1.000", style=filled, href="https://github.com/linksplatform/Data.Doublets"]
 }
