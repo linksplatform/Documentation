@@ -4,29 +4,16 @@ digraph PlatformDataDoubletsDependencies
 
 
   "Platform.Delegates" -> "Platform.Exceptions" 
-   
-  "Platform.Threading" -> "Platform.IO"
-
-  "Platform.Collections" -> "Platform.Threading"
 
   "Platform.Numbers" -> "Platform.Collections.Methods"
 
   "Platform.Ranges" -> "Platform.Random"
 
-  "Platform.Interfaces" -> "Platform.Timestamps"
-
-  "Platform.Interfaces" -> "Platform.Setters"
-
-  "Platform.IO" -> "Platform.Memory"
-
-  "Platform.Threading" -> "Platform.Data"
-  "Platform.Setters" -> "Platform.Data"
-
   "Platform.Exceptions" -> "Platform.Ranges"
   "Platform.Converters" -> "Platform.Ranges"
   "Platform.Hashing" -> "Platform.Ranges"
   
-  "Platform.Timestamps" -> "Platform.Data.Doublets"
+  "Platform.Collections" -> "Platform.Data"
   "Platform.Collections.Methods" -> "Platform.Data.Doublets"
   "Platform.Memory" -> "Platform.Data.Doublets"
   "Platform.Data" -> "Platform.Data.Doublets"
@@ -45,12 +32,8 @@ digraph PlatformDataDoubletsDependencies
   "Platform.Converters" [href="https://github.com/linksplatform/Converters"]
   "Platform.Ranges" [href="https://github.com/linksplatform/Ranges"]
   "Platform.Interfaces" [href="https://github.com/linksplatform/Interfaces"]
-  "Platform.IO" [href="https://github.com/linksplatform/IO"]
-  "Platform.Threading" [href="https://github.com/linksplatform/Threading"]
   "Platform.Numbers" [href="https://github.com/linksplatform/Numbers"]
-  "Platform.Setters" [href="https://github.com/linksplatform/Setters"]
   "Platform.Random" [href="https://github.com/linksplatform/Random"]
-  "Platform.Timestamps" [href="https://github.com/linksplatform/Timestamps"]
   "Platform.Collections.Methods" [href="https://github.com/linksplatform/Collections.Methods"]
   "Platform.Memory" [href="https://github.com/linksplatform/Memory"]
   "Platform.Data" [color="0.650 0.700 1.000", href="https://github.com/linksplatform/Data"]
