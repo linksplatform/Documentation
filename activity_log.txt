@@ -1,0 +1,347 @@
+Starting organization activity report generation...
+============================================================
+Fetching linksplatform repositories...
+Found 67 repositories (excluding ignored repos)
+Checking contributors for Bot since 2025-05-16...
+Error running command: gh api repos/linksplatform/Bot/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Bot
+Checking contributors for Data.Doublets since 2025-05-16...
+Error running command: gh api repos/linksplatform/Data.Doublets/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: Post "https://api.github.com/repos/linksplatform/Data.Doublets/commits?per_page=100": net/http: TLS handshake timeout
+
+  No recent contributors in Data.Doublets
+Checking contributors for Data.Doublets.Gql since 2025-05-16...
+Error running command: gh api repos/linksplatform/Data.Doublets.Gql/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Data.Doublets.Gql
+Checking contributors for RegularExpressions.Transformer.CSharpToCpp since 2025-05-16...
+Error running command: gh api repos/linksplatform/RegularExpressions.Transformer.CSharpToCpp/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in RegularExpressions.Transformer.CSharpToCpp
+Checking contributors for Data.Triplets since 2025-05-16...
+Error running command: gh api repos/linksplatform/Data.Triplets/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Data.Triplets
+Checking contributors for doublets-rs since 2025-05-16...
+Error running command: gh api repos/linksplatform/doublets-rs/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in doublets-rs
+Checking contributors for Documentation since 2025-05-16...
+Error running command: gh api repos/linksplatform/Documentation/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Documentation
+Checking contributors for Protocols.Lino since 2025-05-16...
+Error running command: gh api repos/linksplatform/Protocols.Lino/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Protocols.Lino
+Checking contributors for Delegates since 2025-05-16...
+Error running command: gh api repos/linksplatform/Delegates/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Delegates
+Checking contributors for RegularExpressions.Transformer since 2025-05-16...
+Error running command: gh api repos/linksplatform/RegularExpressions.Transformer/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in RegularExpressions.Transformer
+Checking contributors for RegularExpressions.Transformer.PythonToNim since 2025-05-16...
+Error running command: gh api repos/linksplatform/RegularExpressions.Transformer.PythonToNim/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in RegularExpressions.Transformer.PythonToNim
+Checking contributors for Ranges since 2025-05-16...
+Error running command: gh api repos/linksplatform/Ranges/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Ranges
+Checking contributors for Comparisons.SQLiteVSDoublets since 2025-05-16...
+Error running command: gh api repos/linksplatform/Comparisons.SQLiteVSDoublets/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Comparisons.SQLiteVSDoublets
+Checking contributors for IO since 2025-05-16...
+Error running command: gh api repos/linksplatform/IO/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in IO
+Checking contributors for Interfaces since 2025-05-16...
+Error running command: gh api repos/linksplatform/Interfaces/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Interfaces
+Checking contributors for Numbers since 2025-05-16...
+Error running command: gh api repos/linksplatform/Numbers/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Numbers
+Checking contributors for Examples.Doublets.CRUD since 2025-05-16...
+Error running command: gh api repos/linksplatform/Examples.Doublets.CRUD/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Examples.Doublets.CRUD
+Checking contributors for RegularExpressions.Transformer.CSharpToPython since 2025-05-16...
+Error running command: gh api repos/linksplatform/RegularExpressions.Transformer.CSharpToPython/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in RegularExpressions.Transformer.CSharpToPython
+Checking contributors for RegularExpressions.Transformer.CppToJava since 2025-05-16...
+Error running command: gh api repos/linksplatform/RegularExpressions.Transformer.CppToJava/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in RegularExpressions.Transformer.CppToJava
+Checking contributors for Data.Doublets.Json since 2025-05-16...
+Error running command: gh api repos/linksplatform/Data.Doublets.Json/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Data.Doublets.Json
+Checking contributors for RawDoubletsViewer since 2025-05-16...
+Error running command: gh api repos/linksplatform/RawDoubletsViewer/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in RawDoubletsViewer
+Checking contributors for Unsafe since 2025-05-16...
+Error running command: gh api repos/linksplatform/Unsafe/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Unsafe
+Checking contributors for Solver since 2025-05-16...
+Error running command: gh api repos/linksplatform/Solver/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Solver
+Checking contributors for Data.Doublets.Xml since 2025-05-16...
+Error running command: gh api repos/linksplatform/Data.Doublets.Xml/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Data.Doublets.Xml
+Checking contributors for Hashing since 2025-05-16...
+Error running command: gh api repos/linksplatform/Hashing/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Hashing
+Checking contributors for Collections since 2025-05-16...
+Error running command: gh api repos/linksplatform/Collections/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Collections
+Checking contributors for react-deep-tree since 2025-05-16...
+Error running command: gh api repos/linksplatform/react-deep-tree/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in react-deep-tree
+Checking contributors for DoubletsVsClickHouseBenchmarks since 2025-05-16...
+Error running command: gh api repos/linksplatform/DoubletsVsClickHouseBenchmarks/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in DoubletsVsClickHouseBenchmarks
+Checking contributors for Memory since 2025-05-16...
+Error running command: gh api repos/linksplatform/Memory/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Memory
+Checking contributors for Settings since 2025-05-16...
+Error running command: gh api repos/linksplatform/Settings/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Settings
+Checking contributors for mem-rs since 2025-05-16...
+Error running command: gh api repos/linksplatform/mem-rs/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in mem-rs
+Checking contributors for Comparisons.DeepGqlStandard since 2025-05-16...
+Error running command: gh api repos/linksplatform/Comparisons.DeepGqlStandard/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Comparisons.DeepGqlStandard
+Checking contributors for Data.Triplets.Kernel since 2025-05-16...
+Error running command: gh api repos/linksplatform/Data.Triplets.Kernel/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Data.Triplets.Kernel
+Checking contributors for resourse-cooperation since 2025-05-16...
+Error running command: gh api repos/linksplatform/resourse-cooperation/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in resourse-cooperation
+Checking contributors for Reflection since 2025-05-16...
+Error running command: gh api repos/linksplatform/Reflection/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Reflection
+Checking contributors for Disposables since 2025-05-16...
+Error running command: gh api repos/linksplatform/Disposables/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Disposables
+Checking contributors for Exceptions since 2025-05-16...
+Error running command: gh api repos/linksplatform/Exceptions/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Exceptions
+Checking contributors for Data since 2025-05-16...
+Error running command: gh api repos/linksplatform/Data/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Data
+Checking contributors for Scripts since 2025-05-16...
+Error running command: gh api repos/linksplatform/Scripts/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Scripts
+Checking contributors for core-rs since 2025-05-16...
+Error running command: gh api repos/linksplatform/core-rs/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in core-rs
+Checking contributors for Setters since 2025-05-16...
+Error running command: gh api repos/linksplatform/Setters/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Setters
+Checking contributors for Collections.Methods since 2025-05-16...
+Error running command: gh api repos/linksplatform/Collections.Methods/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Collections.Methods
+Checking contributors for Threading since 2025-05-16...
+Error running command: gh api repos/linksplatform/Threading/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Threading
+Checking contributors for Helpers since 2025-05-16...
+Error running command: gh api repos/linksplatform/Helpers/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Helpers
+Checking contributors for Reflection.Sigil since 2025-05-16...
+Error running command: gh api repos/linksplatform/Reflection.Sigil/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Reflection.Sigil
+Checking contributors for CSharpToCppTranslatorTestSolution since 2025-05-16...
+Error running command: gh api repos/linksplatform/CSharpToCppTranslatorTestSolution/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in CSharpToCppTranslatorTestSolution
+Checking contributors for IdDistributorServer since 2025-05-16...
+Error running command: gh api repos/linksplatform/IdDistributorServer/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in IdDistributorServer
+Checking contributors for Diagnostics since 2025-05-16...
+Error running command: gh api repos/linksplatform/Diagnostics/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Diagnostics
+Checking contributors for Timestamps since 2025-05-16...
+Error running command: gh api repos/linksplatform/Timestamps/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Timestamps
+Checking contributors for Workflows since 2025-05-16...
+Error running command: gh api repos/linksplatform/Workflows/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Workflows
+Checking contributors for Protocols since 2025-05-16...
+Error running command: gh api repos/linksplatform/Protocols/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Protocols
+Checking contributors for Scopes since 2025-05-16...
+Error running command: gh api repos/linksplatform/Scopes/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Scopes
+Checking contributors for Comparers since 2025-05-16...
+Error running command: gh api repos/linksplatform/Comparers/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Comparers
+Checking contributors for RegularExpressions.Transformer.HasuraSQLSimplifier since 2025-05-16...
+Error running command: gh api repos/linksplatform/RegularExpressions.Transformer.HasuraSQLSimplifier/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in RegularExpressions.Transformer.HasuraSQLSimplifier
+Checking contributors for BareJS since 2025-05-16...
+Error running command: gh api repos/linksplatform/BareJS/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in BareJS
+Checking contributors for linksplatform.github.io since 2025-05-16...
+Error running command: gh api repos/linksplatform/linksplatform.github.io/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in linksplatform.github.io
+Checking contributors for Singletons since 2025-05-16...
+Error running command: gh api repos/linksplatform/Singletons/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Singletons
+Checking contributors for IdClient since 2025-05-16...
+Error running command: gh api repos/linksplatform/IdClient/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in IdClient
+Checking contributors for InfiniteDepthTreeWebUIPrototype since 2025-05-16...
+Error running command: gh api repos/linksplatform/InfiniteDepthTreeWebUIPrototype/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in InfiniteDepthTreeWebUIPrototype
+Checking contributors for BareNET since 2025-05-16...
+Error running command: gh api repos/linksplatform/BareNET/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in BareNET
+Checking contributors for Converters since 2025-05-16...
+Error running command: gh api repos/linksplatform/Converters/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Converters
+Checking contributors for Random since 2025-05-16...
+Error running command: gh api repos/linksplatform/Random/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Random
+Checking contributors for trees-rs since 2025-05-16...
+Error running command: gh api repos/linksplatform/trees-rs/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in trees-rs
+Checking contributors for doublets-dev since 2025-05-16...
+Error running command: gh api repos/linksplatform/doublets-dev/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in doublets-dev
+Checking contributors for Equality since 2025-05-16...
+Error running command: gh api repos/linksplatform/Equality/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Equality
+Checking contributors for CSharpToCppTranslator since 2025-05-16...
+Error running command: gh api repos/linksplatform/CSharpToCppTranslator/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in CSharpToCppTranslator
+Checking contributors for Incrementers since 2025-05-16...
+Error running command: gh api repos/linksplatform/Incrementers/commits --paginate --jq '.[].author.login' --field since=2025-05-16T00:00:00Z
+Error: invalid character 'H' looking for beginning of value
+
+  No recent contributors in Incrementers
+
+============================================================
+Total unique contributors in last 4 months: 0
+============================================================
+
+Organization last 4 month activity:
+
+Report saved to activity_report.txt
