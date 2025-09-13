@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links Platform - Interactive Introduction</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+        }
+        
+        .header {
+            text-align: center;
+            margin: 40px 0;
+        }
+        
+        .header h1 {
+            font-size: 3em;
+            margin: 0 0 10px 0;
+            font-weight: 300;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+            max-width: 600px;
+            line-height: 1.6;
+        }
+        
+        .animations-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 30px;
+            max-width: 1200px;
+            width: 100%;
+            margin: 40px 0;
+        }
+        
+        .animation-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .animation-card:hover {
+            transform: translateY(-10px);
+            background: rgba(255, 255, 255, 0.15);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+        }
+        
+        .animation-card h2 {
+            font-size: 2em;
+            margin: 0 0 15px 0;
+            color: #ffffff;
+        }
+        
+        .animation-card p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin: 0 0 25px 0;
+            opacity: 0.9;
+        }
+        
+        .animation-preview {
+            width: 100%;
+            height: 200px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            margin: 20px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .preview-svg {
+            width: 80%;
+            height: 80%;
+            opacity: 0.8;
+        }
+        
+        .launch-button {
+            background: linear-gradient(45deg, #ff6b6b, #ff8e53);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 25px;
+            font-size: 1.1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+            box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+        }
+        
+        .launch-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(255, 107, 107, 0.4);
+        }
+        
+        .features {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 30px;
+            margin: 40px 0;
+            max-width: 800px;
+            width: 100%;
+        }
+        
+        .features h3 {
+            text-align: center;
+            font-size: 1.8em;
+            margin: 0 0 20px 0;
+        }
+        
+        .features ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .features li {
+            padding: 10px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+        
+        .features li::before {
+            content: "✨";
+            position: absolute;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Links Platform</h1>
+        <p>Explore the fundamental concepts of the Links Platform through interactive, animated introductions. 
+           Understand how doublets and triplets form the building blocks of this revolutionary data structure.</p>
+    </div>
+    
+    <div class="animations-grid">
+        <div class="animation-card" onclick="window.open('doublet-animation.html', '_blank')">
+            <h2>Doublet Introduction</h2>
+            <p>Learn about the basic building block of the Links Platform - the doublet. 
+               See how two elements connect to form the foundation of all relationships.</p>
+            
+            <div class="animation-preview">
+                <svg class="preview-svg" viewBox="0 0 400 100">
+                    <!-- Simple preview showing doublet concept -->
+                    <rect width="200" height="100" x="0" y="0" fill="#000" opacity="0.6"/>
+                    <rect width="200" height="100" x="200" y="0" fill="#fff" opacity="0.8"/>
+                    <circle cx="70" cy="50" r="8" fill="#fff"/>
+                    <circle cx="330" cy="50" r="8" fill="#000"/>
+                    <path stroke="#fff" stroke-width="2" d="M 80,50 L 190,50" opacity="0.8"/>
+                    <path stroke="#000" stroke-width="2" d="M 210,50 L 320,50" opacity="0.8" marker-end="url(#arrow)"/>
+                    <defs>
+                        <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+                            <polygon points="0 0, 10 3.5, 0 7" fill="#000"/>
+                        </marker>
+                    </defs>
+                </svg>
+            </div>
+            
+            <a href="doublet-animation.html" class="launch-button" target="_blank">
+                Start Doublet Animation
+            </a>
+        </div>
+        
+        <div class="animation-card" onclick="window.open('triplet-animation.html', '_blank')">
+            <h2>Triplet Introduction</h2>
+            <p>Discover the more complex triplet structures that enable recursive relationships 
+               and advanced data modeling in the Links Platform.</p>
+            
+            <div class="animation-preview">
+                <svg class="preview-svg" viewBox="0 0 400 100">
+                    <!-- Simple preview showing triplet concept -->
+                    <rect width="200" height="100" x="0" y="0" fill="#000" opacity="0.6"/>
+                    <rect width="200" height="100" x="200" y="0" fill="#fff" opacity="0.8"/>
+                    
+                    <!-- Basic connection -->
+                    <path stroke="#fff" stroke-width="2" d="M 50,50 L 150,50" opacity="0.8"/>
+                    <path stroke="#000" stroke-width="2" d="M 250,50 L 350,50" opacity="0.8"/>
+                    
+                    <!-- Curved loops -->
+                    <path stroke="#000" stroke-width="2" fill="none" 
+                          d="M 320,50 Q 320,25 290,25 Q 260,25 260,50" opacity="0.7"/>
+                    <path stroke="#000" stroke-width="2" fill="none" 
+                          d="M 320,50 Q 320,75 290,75 Q 260,75 260,50" opacity="0.7"/>
+                    <path stroke="#fff" stroke-width="2" fill="none" 
+                          d="M 80,50 Q 80,25 110,25 Q 140,25 140,50" opacity="0.7"/>
+                    <path stroke="#fff" stroke-width="2" fill="none" 
+                          d="M 80,50 Q 80,75 110,75 Q 140,75 140,50" opacity="0.7"/>
+                    
+                    <!-- Connection points -->
+                    <circle cx="200" cy="25" r="3" fill="#888"/>
+                    <circle cx="200" cy="75" r="3" fill="#888"/>
+                </svg>
+            </div>
+            
+            <a href="triplet-animation.html" class="launch-button" target="_blank">
+                Start Triplet Animation
+            </a>
+        </div>
+    </div>
+    
+    <div class="features">
+        <h3>Animation Features</h3>
+        <ul>
+            <li><strong>Smooth SVG Animations:</strong> Built using modern web standards with smooth, engaging transitions</li>
+            <li><strong>Interactive Controls:</strong> Play, pause, and reset animations at any time</li>
+            <li><strong>Progress Tracking:</strong> Visual progress bars and phase indicators show animation state</li>
+            <li><strong>Educational Design:</strong> Step-by-step progression helps understand complex concepts</li>
+            <li><strong>Responsive Layout:</strong> Works perfectly on desktop, tablet, and mobile devices</li>
+            <li><strong>No Dependencies:</strong> Pure HTML, CSS, and JavaScript - no external libraries required for core functionality</li>
+        </ul>
+    </div>
+    
+    <script>
+        // Add some interactive effects
+        document.querySelectorAll('.animation-card').forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-5px) scale(1.02)';
+            });
+            
+            card.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0) scale(1)';
+            });
+        });
+        
+        // Prevent the card click when clicking on the button
+        document.querySelectorAll('.launch-button').forEach(button => {
+            button.addEventListener('click', function(e) {
+                e.stopPropagation();
+            });
+        });
+    </script>
+</body>
+</html>
