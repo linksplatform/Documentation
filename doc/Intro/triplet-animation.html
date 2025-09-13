@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links Platform - Triplet Introduction Animation</title>
+    <script src="https://cdn.jsdelivr.net/npm/vivus@0.4.6/dist/vivus.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .animation-container {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px;
+            max-width: 1200px;
+            width: 100%;
+        }
+        
+        .animation-title {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        
+        .controls {
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 0 10px;
+            font-size: 16px;
+        }
+        
+        button:hover {
+            background: #0056b3;
+        }
+        
+        button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+        
+        #triplet-svg {
+            width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        
+        .progress-bar {
+            width: 100%;
+            height: 4px;
+            background: #f0f0f0;
+            border-radius: 2px;
+            overflow: hidden;
+            margin: 10px 0;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: #007bff;
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+        
+        .phase-indicator {
+            text-align: center;
+            font-weight: bold;
+            color: #007bff;
+            margin: 10px 0;
+            min-height: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="animation-container">
+        <h1 class="animation-title">Links Platform - Triplet Introduction</h1>
+        <p style="text-align: center; color: #666;">
+            This animation demonstrates the more complex concept of a triplet in the Links Platform - 
+            connections forming triangular relationships and recursive structures.
+        </p>
+        
+        <div class="controls">
+            <button id="play-btn">Play Animation</button>
+            <button id="pause-btn" disabled>Pause</button>
+            <button id="reset-btn">Reset</button>
+        </div>
+        
+        <div class="progress-bar">
+            <div class="progress-fill" id="progress"></div>
+        </div>
+        
+        <div class="phase-indicator" id="phase-indicator">Click Play to start animation</div>
+        
+        <svg id="triplet-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1828 1130">
+            <defs>
+                <!-- Arrow markers -->
+                <marker id="arrowhead-black" markerWidth="15" markerHeight="10" 
+                        refX="15" refY="5" orient="auto" markerUnits="strokeWidth">
+                    <path d="M0,0 L0,10 L15,5 z" fill="#000"/>
+                </marker>
+                <marker id="arrowhead-white" markerWidth="15" markerHeight="10" 
+                        refX="15" refY="5" orient="auto" markerUnits="strokeWidth">
+                    <path d="M0,0 L0,10 L15,5 z" fill="#fff"/>
+                </marker>
+            </defs>
+            
+            <!-- Base rectangles for black and white sections -->
+            <rect width="914" height="1130" x="0" y="0" fill="#000" fill-opacity="1"/>
+            <rect width="914" height="1130" x="914" y="0" fill="#fff" fill-opacity="1"/>
+            
+            <!-- Phase 1: Basic connection (from doublet) -->
+            <g id="phase1" opacity="0">
+                <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0s" fill="freeze"/>
+                
+                <!-- Basic arrow connection -->
+                <path stroke="#fff" stroke-width="10" fill="none" 
+                      d="M 125,487 L 788,487" 
+                      stroke-dasharray="663" stroke-dashoffset="663">
+                    <animate attributeName="stroke-dashoffset" values="663;0" dur="2s" begin="0s" fill="freeze"/>
+                </path>
+                <path stroke="#000" stroke-width="10" fill="none" marker-end="url(#arrowhead-black)"
+                      d="M 1040,487 L 1703,487" 
+                      stroke-dasharray="663" stroke-dashoffset="663">
+                    <animate attributeName="stroke-dashoffset" values="663;0" dur="2s" begin="0s" fill="freeze"/>
+                </path>
+            </g>
+            
+            <!-- Phase 2: First recursive loop (black side) -->
+            <g id="phase2" opacity="0">
+                <animate attributeName="opacity" values="0;1" dur="0.5s" begin="3s" fill="freeze"/>
+                
+                <!-- Upper curved path -->
+                <path stroke="#000" stroke-width="10" fill="none" marker-end="url(#arrowhead-black)"
+                      d="M 1421,488 Q 1421,350 1290,350 Q 1159,350 1159,488"
+                      stroke-dasharray="400" stroke-dashoffset="400">
+                    <animate attributeName="stroke-dashoffset" values="400;0" dur="2.5s" begin="3s" fill="freeze"/>
+                </path>
+                
+                <!-- Lower curved path -->
+                <path stroke="#000" stroke-width="10" fill="none" 
+                      d="M 1421,488 Q 1421,626 1290,626 Q 1159,626 1159,488"
+                      stroke-dasharray="400" stroke-dashoffset="400">
+                    <animate attributeName="stroke-dashoffset" values="400;0" dur="2.5s" begin="3.5s" fill="freeze"/>
+                </path>
+                
+                <!-- Second loop on right -->
+                <path stroke="#000" stroke-width="10" fill="none" marker-end="url(#arrowhead-black)"
+                      d="M 1550,488 Q 1550,350 1681,350 Q 1812,350 1812,488"
+                      stroke-dasharray="400" stroke-dashoffset="400">
+                    <animate attributeName="stroke-dashoffset" values="400;0" dur="2.5s" begin="4s" fill="freeze"/>
+                </path>
+                
+                <path stroke="#000" stroke-width="10" fill="none" 
+                      d="M 1550,488 Q 1550,626 1681,626 Q 1812,626 1812,488"
+                      stroke-dasharray="400" stroke-dashoffset="400">
+                    <animate attributeName="stroke-dashoffset" values="400;0" dur="2.5s" begin="4.5s" fill="freeze"/>
+                </path>
+            </g>
+            
+            <!-- Phase 3: Mirror loops (white side) -->
+            <g id="phase3" opacity="0">
+                <animate attributeName="opacity" values="0;1" dur="0.5s" begin="7s" fill="freeze"/>
+                
+                <!-- Upper curved path (white) -->
+                <path stroke="#fff" stroke-width="10" fill="none" 
+                      d="M 616,484 Q 616,346 485,346 Q 354,346 354,484"
+                      stroke-dasharray="400" stroke-dashoffset="400">
+                    <animate attributeName="stroke-dashoffset" values="400;0" dur="2.5s" begin="7s" fill="freeze"/>
+                </path>
+                
+                <!-- Lower curved path (white) -->
+                <path stroke="#fff" stroke-width="10" fill="none" 
+                      d="M 616,484 Q 616,622 485,622 Q 354,622 354,484"
+                      stroke-dasharray="400" stroke-dashoffset="400">
+                    <animate attributeName="stroke-dashoffset" values="400;0" dur="2.5s" begin="7.5s" fill="freeze"/>
+                </path>
+                
+                <!-- Second loop on left (white) -->
+                <path stroke="#fff" stroke-width="10" fill="none" 
+                      d="M 278,484 Q 278,346 147,346 Q 16,346 16,484"
+                      stroke-dasharray="400" stroke-dashoffset="400">
+                    <animate attributeName="stroke-dashoffset" values="400;0" dur="2.5s" begin="8s" fill="freeze"/>
+                </path>
+                
+                <path stroke="#fff" stroke-width="10" fill="none" 
+                      d="M 278,484 Q 278,622 147,622 Q 16,622 16,484"
+                      stroke-dasharray="400" stroke-dashoffset="400">
+                    <animate attributeName="stroke-dashoffset" values="400;0" dur="2.5s" begin="8.5s" fill="freeze"/>
+                </path>
+            </g>
+            
+            <!-- Phase 4: Complex interconnections -->
+            <g id="phase4" opacity="0">
+                <animate attributeName="opacity" values="0;1" dur="0.5s" begin="11s" fill="freeze"/>
+                
+                <!-- Cross connections -->
+                <path stroke="#000" stroke-width="6" fill="none" 
+                      d="M 1290,350 Q 914,200 485,346"
+                      stroke-dasharray="600" stroke-dashoffset="600">
+                    <animate attributeName="stroke-dashoffset" values="600;0" dur="3s" begin="11s" fill="freeze"/>
+                </path>
+                
+                <path stroke="#fff" stroke-width="6" fill="none" 
+                      d="M 485,622 Q 914,772 1290,626"
+                      stroke-dasharray="600" stroke-dashoffset="600">
+                    <animate attributeName="stroke-dashoffset" values="600;0" dur="3s" begin="11.5s" fill="freeze"/>
+                </path>
+                
+                <!-- Final connecting elements -->
+                <circle cx="914" cy="350" r="8" fill="#666" opacity="0">
+                    <animate attributeName="opacity" values="0;1" dur="1s" begin="13s" fill="freeze"/>
+                </circle>
+                
+                <circle cx="914" cy="626" r="8" fill="#666" opacity="0">
+                    <animate attributeName="opacity" values="0;1" dur="1s" begin="13.5s" fill="freeze"/>
+                </circle>
+            </g>
+            
+            <!-- Phase 5: Final highlighting -->
+            <g id="phase5" opacity="0">
+                <animate attributeName="opacity" values="0;1" dur="0.5s" begin="14.5s" fill="freeze"/>
+                
+                <!-- Highlight key connection points -->
+                <circle cx="485" cy="484" r="12" fill="none" stroke="#ff6b6b" stroke-width="3" opacity="0">
+                    <animate attributeName="opacity" values="0;1;0;1;0;1" dur="2s" begin="14.5s" fill="freeze"/>
+                </circle>
+                
+                <circle cx="1290" cy="488" r="12" fill="none" stroke="#ff6b6b" stroke-width="3" opacity="0">
+                    <animate attributeName="opacity" values="0;1;0;1;0;1" dur="2s" begin="15s" fill="freeze"/>
+                </circle>
+                
+                <circle cx="914" cy="488" r="12" fill="none" stroke="#ff6b6b" stroke-width="3" opacity="0">
+                    <animate attributeName="opacity" values="0;1;0;1;0;1" dur="2s" begin="15.5s" fill="freeze"/>
+                </circle>
+            </g>
+        </svg>
+    </div>
+
+    <script>
+        let currentAnimation = null;
+        let animationProgress = 0;
+        const totalDuration = 17000; // Total animation duration in ms
+        
+        const playBtn = document.getElementById('play-btn');
+        const pauseBtn = document.getElementById('pause-btn');
+        const resetBtn = document.getElementById('reset-btn');
+        const progressFill = document.getElementById('progress');
+        const phaseIndicator = document.getElementById('phase-indicator');
+        const svg = document.getElementById('triplet-svg');
+        
+        const phases = [
+            { start: 0, duration: 3000, label: "Phase 1: Basic Connection" },
+            { start: 3000, duration: 4000, label: "Phase 2: Recursive Loops (Black)" },
+            { start: 7000, duration: 4000, label: "Phase 3: Mirror Loops (White)" },
+            { start: 11000, duration: 3500, label: "Phase 4: Complex Interconnections" },
+            { start: 14500, duration: 2500, label: "Phase 5: Triplet Highlighting" }
+        ];
+        
+        function updateProgress() {
+            const progress = (animationProgress / totalDuration) * 100;
+            progressFill.style.width = progress + '%';
+            
+            // Update phase indicator
+            const currentPhase = phases.find(phase => 
+                animationProgress >= phase.start && 
+                animationProgress < phase.start + phase.duration
+            );
+            
+            if (currentPhase) {
+                phaseIndicator.textContent = currentPhase.label;
+            } else if (animationProgress >= totalDuration) {
+                phaseIndicator.textContent = "Animation Complete - Triplet Structure Formed";
+            }
+        }
+        
+        function startAnimation() {
+            // Reset all animations
+            const animations = svg.querySelectorAll('animate');
+            animations.forEach(anim => {
+                anim.beginElement();
+            });
+            
+            playBtn.disabled = true;
+            pauseBtn.disabled = false;
+            
+            // Update progress
+            animationProgress = 0;
+            const progressInterval = setInterval(() => {
+                animationProgress += 100;
+                updateProgress();
+                
+                if (animationProgress >= totalDuration) {
+                    clearInterval(progressInterval);
+                    playBtn.disabled = false;
+                    pauseBtn.disabled = true;
+                }
+            }, 100);
+            
+            currentAnimation = progressInterval;
+        }
+        
+        function pauseAnimation() {
+            if (currentAnimation) {
+                clearInterval(currentAnimation);
+                currentAnimation = null;
+            }
+            
+            // Pause SVG animations
+            const animations = svg.querySelectorAll('animate');
+            animations.forEach(anim => {
+                try {
+                    anim.pauseAnimations();
+                } catch (e) {
+                    // Some browsers might not support pauseAnimations
+                }
+            });
+            
+            playBtn.disabled = false;
+            pauseBtn.disabled = true;
+        }
+        
+        function resetAnimation() {
+            if (currentAnimation) {
+                clearInterval(currentAnimation);
+                currentAnimation = null;
+            }
+            
+            // Reset all animations
+            const animations = svg.querySelectorAll('animate');
+            animations.forEach(anim => {
+                anim.endElement();
+            });
+            
+            animationProgress = 0;
+            updateProgress();
+            phaseIndicator.textContent = "Click Play to start animation";
+            
+            playBtn.disabled = false;
+            pauseBtn.disabled = true;
+        }
+        
+        playBtn.addEventListener('click', startAnimation);
+        pauseBtn.addEventListener('click', pauseAnimation);
+        resetBtn.addEventListener('click', resetAnimation);
+        
+        // Auto-start animation after 2 seconds
+        setTimeout(startAnimation, 2000);
+    </script>
+</body>
+</html>

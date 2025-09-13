@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links Platform - Doublet Introduction Animation</title>
+    <script src="https://cdn.jsdelivr.net/npm/vivus@0.4.6/dist/vivus.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .animation-container {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px;
+            max-width: 1000px;
+            width: 100%;
+        }
+        
+        .animation-title {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        
+        .controls {
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 0 10px;
+            font-size: 16px;
+        }
+        
+        button:hover {
+            background: #0056b3;
+        }
+        
+        button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+        
+        #doublet-svg {
+            width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        
+        .progress-bar {
+            width: 100%;
+            height: 4px;
+            background: #f0f0f0;
+            border-radius: 2px;
+            overflow: hidden;
+            margin: 10px 0;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: #007bff;
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="animation-container">
+        <h1 class="animation-title">Links Platform - Doublet Introduction</h1>
+        <p style="text-align: center; color: #666;">
+            This animation demonstrates the fundamental concept of a doublet in the Links Platform - 
+            a connection between two elements.
+        </p>
+        
+        <div class="controls">
+            <button id="play-btn">Play Animation</button>
+            <button id="pause-btn" disabled>Pause</button>
+            <button id="reset-btn">Reset</button>
+        </div>
+        
+        <div class="progress-bar">
+            <div class="progress-fill" id="progress"></div>
+        </div>
+        
+        <svg id="doublet-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1828 1130">
+            <!-- Base rectangles for black and white sections -->
+            <rect width="914" height="1130" x="0" y="0" fill="#000" fill-opacity="1"/>
+            <rect width="914" height="1130" x="914" y="0" fill="#fff" fill-opacity="1"/>
+            
+            <!-- Animated paths that will be drawn step by step -->
+            <!-- Frame 2: First dot -->
+            <circle cx="1371" cy="487" r="20" fill="none" stroke="#000" stroke-width="40" 
+                    stroke-dasharray="125.66" stroke-dashoffset="125.66" opacity="0">
+                <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0s" fill="freeze"/>
+                <animate attributeName="stroke-dashoffset" values="125.66;0" dur="1s" begin="0s" fill="freeze"/>
+            </circle>
+            
+            <!-- Frame 3: Second dot (white) -->
+            <circle cx="457" cy="487" r="20" fill="none" stroke="#fff" stroke-width="40" 
+                    stroke-dasharray="125.66" stroke-dashoffset="125.66" opacity="0">
+                <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.5s" fill="freeze"/>
+                <animate attributeName="stroke-dashoffset" values="125.66;0" dur="1s" begin="1.5s" fill="freeze"/>
+            </circle>
+            
+            <!-- Frame 4: Connection attempt lines -->
+            <g opacity="0">
+                <animate attributeName="opacity" values="0;1" dur="0.5s" begin="3s" fill="freeze"/>
+                <path stroke="#fff" stroke-width="10" fill="none" 
+                      d="M 457,487 L 620,487" 
+                      stroke-dasharray="163" stroke-dashoffset="163">
+                    <animate attributeName="stroke-dashoffset" values="163;0" dur="1s" begin="3s" fill="freeze"/>
+                </path>
+                <path stroke="#000" stroke-width="10" fill="none" 
+                      d="M 1371,487 L 1208,487" 
+                      stroke-dasharray="163" stroke-dashoffset="163">
+                    <animate attributeName="stroke-dashoffset" values="163;0" dur="1s" begin="3s" fill="freeze"/>
+                </path>
+            </g>
+            
+            <!-- Frame 5-6: Extended connection lines -->
+            <g opacity="0">
+                <animate attributeName="opacity" values="0;1" dur="0.5s" begin="4.5s" fill="freeze"/>
+                <path stroke="#fff" stroke-width="10" fill="none" 
+                      d="M 457,487 L 788,487" 
+                      stroke-dasharray="331" stroke-dashoffset="331">
+                    <animate attributeName="stroke-dashoffset" values="331;0" dur="1.5s" begin="4.5s" fill="freeze"/>
+                </path>
+                <path stroke="#000" stroke-width="10" fill="none" 
+                      d="M 1371,487 L 1040,487" 
+                      stroke-dasharray="331" stroke-dashoffset="331">
+                    <animate attributeName="stroke-dashoffset" values="331;0" dur="1.5s" begin="4.5s" fill="freeze"/>
+                </path>
+            </g>
+            
+            <!-- Frame 7: Final arrow connection -->
+            <defs>
+                <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+                        refX="10" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#000"/>
+                </marker>
+                <marker id="arrowhead-white" markerWidth="10" markerHeight="7" 
+                        refX="10" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#fff"/>
+                </marker>
+            </defs>
+            
+            <g opacity="0">
+                <animate attributeName="opacity" values="0;1" dur="0.5s" begin="6.5s" fill="freeze"/>
+                <path stroke="#fff" stroke-width="10" fill="none" 
+                      d="M 125,487 L 788,487" 
+                      stroke-dasharray="663" stroke-dashoffset="663">
+                    <animate attributeName="stroke-dashoffset" values="663;0" dur="2s" begin="6.5s" fill="freeze"/>
+                </path>
+                <path stroke="#000" stroke-width="10" fill="none" marker-end="url(#arrowhead)"
+                      d="M 1040,487 L 1703,487" 
+                      stroke-dasharray="663" stroke-dashoffset="663">
+                    <animate attributeName="stroke-dashoffset" values="663;0" dur="2s" begin="6.5s" fill="freeze"/>
+                </path>
+            </g>
+        </svg>
+    </div>
+
+    <script>
+        let currentAnimation = null;
+        let animationProgress = 0;
+        const totalDuration = 8500; // Total animation duration in ms
+        
+        const playBtn = document.getElementById('play-btn');
+        const pauseBtn = document.getElementById('pause-btn');
+        const resetBtn = document.getElementById('reset-btn');
+        const progressFill = document.getElementById('progress');
+        const svg = document.getElementById('doublet-svg');
+        
+        function updateProgress() {
+            const progress = (animationProgress / totalDuration) * 100;
+            progressFill.style.width = progress + '%';
+        }
+        
+        function startAnimation() {
+            // Reset all animations
+            const animations = svg.querySelectorAll('animate');
+            animations.forEach(anim => {
+                anim.beginElement();
+            });
+            
+            playBtn.disabled = true;
+            pauseBtn.disabled = false;
+            
+            // Update progress
+            animationProgress = 0;
+            const progressInterval = setInterval(() => {
+                animationProgress += 100;
+                updateProgress();
+                
+                if (animationProgress >= totalDuration) {
+                    clearInterval(progressInterval);
+                    playBtn.disabled = false;
+                    pauseBtn.disabled = true;
+                }
+            }, 100);
+            
+            currentAnimation = progressInterval;
+        }
+        
+        function pauseAnimation() {
+            if (currentAnimation) {
+                clearInterval(currentAnimation);
+                currentAnimation = null;
+            }
+            
+            // Pause SVG animations
+            const animations = svg.querySelectorAll('animate');
+            animations.forEach(anim => {
+                anim.pauseAnimations();
+            });
+            
+            playBtn.disabled = false;
+            pauseBtn.disabled = true;
+        }
+        
+        function resetAnimation() {
+            if (currentAnimation) {
+                clearInterval(currentAnimation);
+                currentAnimation = null;
+            }
+            
+            // Reset all animations
+            const animations = svg.querySelectorAll('animate');
+            animations.forEach(anim => {
+                anim.endElement();
+            });
+            
+            animationProgress = 0;
+            updateProgress();
+            
+            playBtn.disabled = false;
+            pauseBtn.disabled = true;
+        }
+        
+        playBtn.addEventListener('click', startAnimation);
+        pauseBtn.addEventListener('click', pauseAnimation);
+        resetBtn.addEventListener('click', resetAnimation);
+        
+        // Auto-start animation
+        setTimeout(startAnimation, 1000);
+    </script>
+</body>
+</html>
