@@ -162,10 +162,10 @@
        refY="0">
       <path
          id="path13525"
-         fill="#000"
+         fill="#666666"
          fill-opacity="1"
          fill-rule="evenodd"
-         stroke="#000"
+         stroke="#666666"
          stroke-opacity="1"
          stroke-width="1pt"
          d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z"
@@ -179,10 +179,10 @@
        refY="0">
       <path
          id="path13401"
-         fill="#000"
+         fill="#666666"
          fill-opacity="1"
          fill-rule="evenodd"
-         stroke="#000"
+         stroke="#666666"
          stroke-opacity="1"
          stroke-width="1pt"
          d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z"
@@ -196,10 +196,10 @@
        refY="0">
       <path
          id="path13283"
-         fill="#000"
+         fill="#666666"
          fill-opacity="1"
          fill-rule="evenodd"
-         stroke="#000"
+         stroke="#666666"
          stroke-opacity="1"
          stroke-width="1pt"
          d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z"
@@ -213,10 +213,10 @@
        refY="0">
       <path
          id="path4773"
-         fill="#000"
+         fill="#666666"
          fill-opacity="1"
          fill-rule="evenodd"
-         stroke="#000"
+         stroke="#666666"
          stroke-opacity="1"
          stroke-width="1pt"
          d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z"
@@ -230,10 +230,10 @@
        refY="0">
       <path
          id="path4782"
-         fill="#000"
+         fill="#666666"
          fill-opacity="1"
          fill-rule="evenodd"
-         stroke="#000"
+         stroke="#666666"
          stroke-opacity="1"
          stroke-width="1pt"
          d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z"
@@ -247,10 +247,10 @@
        refY="0">
       <path
          id="path4643"
-         fill="#000"
+         fill="#666666"
          fill-opacity="1"
          fill-rule="evenodd"
-         stroke="#000"
+         stroke="#666666"
          stroke-opacity="1"
          stroke-width="1pt"
          d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z"
@@ -264,10 +264,10 @@
        refY="0">
       <path
          id="path4655"
-         fill="#000"
+         fill="#666666"
          fill-opacity="1"
          fill-rule="evenodd"
-         stroke="#000"
+         stroke="#666666"
          stroke-linejoin="round"
          stroke-opacity="1"
          stroke-width=".625"
@@ -282,10 +282,10 @@
        refY="0">
       <path
          id="path4640"
-         fill="#000"
+         fill="#666666"
          fill-opacity="1"
          fill-rule="evenodd"
-         stroke="#000"
+         stroke="#666666"
          stroke-opacity="1"
          stroke-width="1pt"
          d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z"
@@ -299,10 +299,10 @@
        refY="0">
       <path
          id="path12723"
-         fill="#000"
+         fill="#666666"
          fill-opacity="1"
          fill-rule="evenodd"
-         stroke="#000"
+         stroke="#666666"
          stroke-linejoin="round"
          stroke-opacity="1"
          stroke-width=".625"
@@ -317,10 +317,10 @@
        refY="0">
       <path
          id="path4652"
-         fill="#000"
+         fill="#666666"
          fill-opacity="1"
          fill-rule="evenodd"
-         stroke="#000"
+         stroke="#666666"
          stroke-linejoin="round"
          stroke-opacity="1"
          stroke-width=".625"
@@ -335,10 +335,10 @@
        refY="0">
       <path
          id="path4661"
-         fill="#000"
+         fill="#666666"
          fill-opacity="1"
          fill-rule="evenodd"
-         stroke="#000"
+         stroke="#666666"
          stroke-linejoin="round"
          stroke-opacity="1"
          stroke-width=".625"
@@ -495,7 +495,7 @@
   </g>
   <text
      xml:space="preserve"
-     style="font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Arial;-inkscape-font-specification:'Arial Oblique';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Arial;-inkscape-font-specification:'Arial Oblique';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#666666;fill-opacity:1;stroke:none"
      x="31.959368"
      y="210.01155"
      id="text3034-5-5-5"><tspan
@@ -506,7 +506,7 @@
        style="font-style:oblique;font-size:32px;line-height:1.25;-inkscape-font-specification:'Arial Oblique';fill:#d40000">1</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Arial;-inkscape-font-specification:Arial;text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Arial;-inkscape-font-specification:Arial;text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#666666;fill-opacity:1;stroke:none"
      x="235.46219"
      y="37.343708"
      id="text3034-5-5-2"><tspan
@@ -517,7 +517,7 @@
        style="font-style:oblique;font-size:32px;line-height:1.25;-inkscape-font-specification:'Arial Oblique';fill:#d40000">2</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Arial;-inkscape-font-specification:Arial;text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Arial;-inkscape-font-specification:Arial;text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#666666;fill-opacity:1;stroke:none"
      x="141.19667"
      y="137.36134"
      id="text3034-5-2"><tspan
