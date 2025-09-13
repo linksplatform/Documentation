@@ -1,0 +1,56 @@
+Updating 27 SVG files...
+Using gray color: #666666
+
+Created backup: ./doc/links-edge-to-edge.svg.backup
+Updated: ./doc/links-edge-to-edge.svg
+Created backup: ./doc/Intro/8.svg.backup
+Updated: ./doc/Intro/8.svg
+Created backup: ./doc/Intro/1.svg.backup
+Updated: ./doc/Intro/1.svg
+Created backup: ./doc/Intro/7.svg.backup
+Updated: ./doc/Intro/7.svg
+Created backup: ./doc/Intro/3.svg.backup
+Updated: ./doc/Intro/3.svg
+Created backup: ./doc/Intro/2.svg.backup
+Updated: ./doc/Intro/2.svg
+Created backup: ./doc/Intro/6.svg.backup
+Updated: ./doc/Intro/6.svg
+Created backup: ./doc/Intro/11.svg.backup
+Updated: ./doc/Intro/11.svg
+Created backup: ./doc/Intro/5.svg.backup
+Updated: ./doc/Intro/5.svg
+Created backup: ./doc/Intro/12.svg.backup
+Updated: ./doc/Intro/12.svg
+Created backup: ./doc/Intro/9.svg.backup
+Updated: ./doc/Intro/9.svg
+Created backup: ./doc/Intro/4.svg.backup
+Updated: ./doc/Intro/4.svg
+Created backup: ./doc/Intro/10.svg.backup
+Updated: ./doc/Intro/10.svg
+Created backup: ./doc/links-ru.svg.backup
+Updated: ./doc/links-ru.svg
+Created backup: ./doc/links.svg.backup
+Updated: ./doc/links.svg
+Created backup: ./doc/Math/Links_Set_Cartesian_Product.svg.backup
+Updated: ./doc/Math/Links_Set_Cartesian_Product.svg
+Created backup: ./doc/Math/Links_Set_Cartesian_Product_Selected.svg.backup
+Updated: ./doc/Math/Links_Set_Cartesian_Product_Selected.svg
+No changes needed: ./doc/TheoriesComparison/point_link.svg
+Created backup: ./doc/TheoriesComparison/theories_comparison.svg.backup
+Updated: ./doc/TheoriesComparison/theories_comparison.svg
+Created backup: ./doc/TheoriesComparison/links_theory_3_links.svg.backup
+Updated: ./doc/TheoriesComparison/links_theory_3_links.svg
+Created backup: ./doc/TheoriesComparison/links_theory.svg.backup
+Updated: ./doc/TheoriesComparison/links_theory.svg
+Created backup: ./doc/TheoriesComparison/graph_theory.svg.backup
+Updated: ./doc/TheoriesComparison/graph_theory.svg
+No changes needed: ./doc/ST-dots.svg
+Created backup: ./doc/links-en.svg.backup
+Updated: ./doc/links-en.svg
+No changes needed: ./doc/SLT-dots.svg
+Created backup: ./doc/Dependencies/Platform.Data.Doublets.cpp.svg.backup
+Updated: ./doc/Dependencies/Platform.Data.Doublets.cpp.svg
+Created backup: ./doc/Dependencies/Platform.Data.Doublets.svg.backup
+Updated: ./doc/Dependencies/Platform.Data.Doublets.svg
+
+Summary: Updated 24 files
