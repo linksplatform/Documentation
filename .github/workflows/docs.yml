@@ -1,0 +1,61 @@
+name: Documentation
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'cpp/**'
+      - 'doc/**'
+      - 'README.md'
+      - 'Doxyfile'
+      - '.github/workflows/docs.yml'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'cpp/**'
+      - 'doc/**'
+      - 'README.md'
+      - 'Doxyfile'
+      - '.github/workflows/docs.yml'
+
+jobs:
+  documentation:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        submodules: recursive
+    
+    - name: Setup Doxygen
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y doxygen graphviz
+    
+    - name: Clone doxygen-awesome-css
+      run: |
+        git clone https://github.com/jothepro/doxygen-awesome-css.git
+    
+    - name: Generate documentation
+      run: |
+        doxygen Doxyfile
+    
+    - name: Upload documentation artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: documentation
+        path: docs/html/
+        retention-days: 30
+    
+    - name: Deploy to GitHub Pages (main branch only)
+      if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./docs/html
+        enable_jekyll: false
+        allow_empty_commit: false
+        force_orphan: true
+        publish_branch: gh-pages
+        commit_message: 'Deploy documentation ${{ github.sha }}'

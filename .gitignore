@@ -3,3 +3,7 @@
 *.iml
 out
 gen
+
+# Documentation output
+docs/
+doxygen-awesome-css/
